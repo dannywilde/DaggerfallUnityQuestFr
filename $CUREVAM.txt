@@ -1,0 +1,234 @@
+Record n�0----------
+Error -- 1000 called
+
+Record n�1----------
+Error -- 1001 called
+
+Record n�2----------
+Error -- 1002 called
+
+Record n�3----------
+Error -- 1003 called
+
+
+Record n�4----------
+Tandis que =bloodfather_ meurt, vous ressentez
+ que la malédiction du vampirisme se dissipe dans votre
+ âme. Vous n'êtes désormais plus un vampire.
+
+
+Record n�5----------
+_hunter_ va bientôt lancer une nouvelle croisade contre les 
+vampires à travers %reg.
+Alors peut-être serons-nous à nouveau capable d'arpenter les rues 
+sans peur la nuit.
+
+
+Record n�6----------
+_hunter_ et ses hommes ont tué beaucoup de vampires
+à %reg, seulement je doute qu'ils les aient tous eus.
+
+_hunter_ n'aurait pas dû autant les harceler.
+Ses croisades ont juste forcé les vampires à se terrer, et
+quand %g partira, ils reviendront plus forts que jamais.
+
+
+Record n�7----------
+_hunter_ et ses hommes ont tué beaucoup de vampires
+en %reg, seulement je doute qu'ils les aient tous eus.
+
+_hunter_ n'aurait pas dû autant les harceler.
+Sa croisade a juste envoyé les vampires se terrer, et
+quand %g partira, ils reviendront plus forts que jamais.
+
+
+Record n�8----------
+Error -- 1008 called
+
+Record n�9----------
+Error -- 1009 called
+
+Record n�10----------
+_hunter_ traque et détruit les vampires à travers tout 
+Tamriel.
+_hunter_ a dévoué sa vie à chasser les vampires.
+
+Record n�11----------
+Il paraît que le propre père de _hunter_ a été tué par des 
+vampires.
+C'est cela qui l'a conduit à les haïr fanatiquement.
+
+_hunter_ a tué son propre père après qu'il soit devenu
+un vampire. C'est ce que j'appelle un véritable fanatique !
+
+
+Record n�12----------
+                       %qdt
+ 
+ Cher %pcn de %vam,
+ 
+ Laissez-moi me présenter. Je suis _hunter_.
+ Vous avez peut-être entendu parler de moi, le célèbre
+ chasseur de vampires ? Toutefois, ne soyez pas trop hâtif
+ pour me juger. Je ne suis pas votre ennemi, du moins
+ pas encore. Parce que j'abhorre au plus haut point le
+ vampirisme et comme j'ai devoué ma vie entière à éradiquer
+ cette sombre peste de Tamriel, je comprends que beaucoup
+ sont d'innocentes victimes telles que vous-même. La volonté
+ de vivre n'est pas maléfique en soi, et j'essaye toujours
+ d'offrir à ma cible une chance de prouver que
+ sa sanguinaire besogne repose uniquement sur
+ une nécessité, et non pas sur l'amour de tuer.
+    Je suis sûr que votre "famille" ne vous l'a pas précisé, 
+mais
+ le vampirisme peut être guéri ! Pour cela, vous devez 
+simplement
+ tuer votre "père de sang", le démon ancien qui a créé la 
+lignée
+ de vampires qui mène jusqu'à vous. En faisant cela, vous ne
+ vous libérerez pas seulement vous-même, mais vous
+ débarrasserez %reg du cancer qui gangrène son coeur.
+ 
+ (poursuivre)
+ 
+    Pour ma part, j'ignore où trouver votre "père de sang",
+ mais mes sources m'ont révélé le nom d'un des grands de 
+%vam
+ qui, lui, connaîtrait cette information, _vamp1_ de 
+___vamp1_.
+ J'attendrai =huntstart_ jours avant de commencer à traquer 
+les
+ vampires de la région de %reg, afin de vous laisser
+ une chance de vous libérer.
+    Considérez bien ma proposition, %pcn. Vous avez
+ =huntstart_ jours, ensuite vous et le reste de %vam
+ serez traqués comme de la vermine.
+ 
+ _hunter_
+
+
+Record n�13----------
+Voulez-vous montrer à _vamp1_
+la lettre de _hunter_ ?
+
+
+Record n�14----------
+Vous avez bien fait de m'apporter ceci, %pcn.
+_hunter_ a été banni de %vam
+il y a des années. Avec ce précieux avertissement,
+nous allons pouvoir sauver la vie de beaucoup de
+notre famille. Ne sous-estimez pas le danger dans
+lequel vous êtes, %pcf. _hunter_ est sans pitié
+et compétent, et ses espions sont partout. %g serait
+une excellente recrue pour %vam - cela reste
+encore possible. Quoi qu'il en soit, %g connaît
+votre nom, et n'ayez aucun doute qu'%g tentera
+de mettre ses menaces à exécution.
+Puisse la nuit vous préserver.
+
+
+Record n�15----------
+%pcn, n'est-ce pas ? J'ai entendu beaucoup
+de bien à votre sujet, de la part du reste de %vam.
+Ainsi, vous désirez retrouver votre père de sang. Une
+envie compréhensible, bien que cela soit un privilège
+qui ne soit habituellement pas accordé à quelqu'un
+d'aussi jeune que vous. Cependant, vous avez déjà
+accompli bien des progrès au sein de %vam, alors
+je pense que je peux faire une exception. Laissez-moi
+voir, il doit être soit =elder_ soit =bloodfather_.
+Vous pouvez les trouver à ___wrongdung_ et
+___fatherdung_, respectivement. Cependant,
+je vous déconseillerais de vous introduire dans
+le refuge d'un ancien avec légèreté. Ce serait mieux
+si vous passiez par _vamp2_ de ___vamp2_.
+%g est le Gardien de la Lignée et il sera capable de
+vous dire avec certitude lequel des anciens de %vam
+est votre père de sang. Apportez-lui ce bracelet,
+%g saura alors que c'est moi qui vous envoie.
+
+
+Record n�16----------
+Mmm... Vous êtes bien jeune pour que l'on
+vous confie une telle information. Cependant,
+puisque vous portez l'anneau de _vamp1_,
+je vais vous révéler où votre père de sang,
+=bloodfather_, demeure. Vous le trouverez
+dans son refuge à ___fatherdung_.
+Soyez toutefois conscient qu'à cette époque de
+l'année, les anciens n'aiment pas être dérangés
+par quiconque. Vous vous introduirez dans l'intimité
+de =bloodfather_ à vos risques et périls.
+
+
+Record n�17----------
+Traitre à ton sang ! Nous avons découvert ta
+traitrise. Tu ne découvriras jamais =bloodfather_,
+même si tes jours parmi %vam sont comptés,
+ne t'inquiète pas. _hunter_ n'aura pas
+besoin de te pourchasser.
+
+
+Record n�18----------
+Gamin, ne dérange pas mes méditations !
+Dégage, ou ma faim m'obligera à te tuer !
+
+
+Record n�19----------
+Vous avez tué =elder_,
+Ancien de %vam.
+
+
+Record n�20----------
+%pcn, ton sang m'appelle.
+Pourquoi frappes-tu ton propre père ?
+%vam punit de mort le parricide.
+Ne m'oblige pas à exécuter moi-même
+cette sentence. Enfuies-toi, mon enfant !
+
+
+Record n�21----------
+_hunter_ a dit que je te trouverais ici.
+Crève, arpenteur de la nuit !
+
+
+Record n�22----------
+Un objet inhabituel dans votre sac
+attire votre regard. Il s'agit d'une lettre,
+elle s'adresse à vous en une longue
+déclaration élégante.
+Comment est-elle arrivée là ?
+
+
+Record n�23----------
+%qdt :
+ Le chasseur de vampires _hunter_
+ m'a envoyé une lettre jurant de me traquer
+ à moins que je ne me guérisse du
+ vampirisme en tuant mon père de sang.
+ _hunter_ ne sait pas qui est mon père
+ de sang, ni où il se trouve, mais %g
+ suggère que _vamp1_ de ___vamp1_
+ pourrait le savoir. Je dispose de =huntstart_ jours
+ avant que la chasse aux vampires ne commence.
+
+
+Record n�24----------
+%qdt :
+ _vamp1_ pense que mon père de sang
+ demeure soit à ___wrongdung_ soit
+ à ___fatherdung_, mais %g m'a
+ conseillé d'apporter son bracelet à
+ _vamp2_ de __vamp2_,
+ ___vamp2_, qui pourrait m'indiquer
+ de façon certaine à quel endroit le trouver.
+
+
+Record n�25----------
+%qdt :
+ _vamp2_ m'a dit que le nom de
+ mon père de sang est =bloodfather_,
+ et qu'il demeure à ___fatherdung_.
+
+
+

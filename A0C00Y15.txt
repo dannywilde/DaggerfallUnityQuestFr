@@ -1,0 +1,152 @@
+Record n�0----------
+J'ai entendu parler de vous, %pcn.
+Je suis _questgiver_. Puis-je
+vous demander une faveur ? Passez-
+vous bientôt par ___pickuprégion_ ?
+Si c'est le cas, j'aurais besoin de livrer
+un colis à quelqu'un là-bas. Je vous
+paierais volontiers _gold_ pièces d'or.
+
+Votre réputation vous précède,
+%pcn. J'ai besoin d'un
+coursier. Iriez-vous par chance
+du côté de ___pickuprégion_
+prochainement ? Pourrais-je vous confier
+un colis à livrer pour moi là-bas ?
+Je vous paierais _gold_ pièces d'or
+pour votre dérangement.
+
+
+Record n�1----------
+Vraiment dommage.
+
+Je vais devoir trouver quelqu'un
+souhaitant travailler pour vivre.
+
+Vous devez être un %pcn différent
+de celui dont j'ai tellement entendu parler.
+
+
+Record n�2----------
+Super ! Laissez ce colis en ___pickuprégion_
+et demandez après _pickuprégion_.
+%g vous paiera. Il faut que le colis soit
+là-bas dans =traveltime_ jours.
+Voici le colis.
+
+Quelle chance ! Mon ami est _pickuprégion_
+en ___pickuprégion_. Demandez simplement
+dans les environs, tout le monde %g3 connaît.
+%g vous paiera immédiatement. Si vous
+mettez plus de =traveltime_ jours, vous
+pouvez aussi bien le jeter. Le voici.
+
+
+Record n�3----------
+J'espérais bien que _questgiver_
+serait capable de me faire parvenir
+ceci à temps.
+%g a été tellement occupé ces temps-ci.
+Voici les _gold_ pièces d'or qui vous ont
+été promises.
+
+
+Record n�4----------
+Les orques créent de nouveau l'agitation.
+
+
+Record n�5----------
+Ils disent que l'esprit du défunt
+Roi Lysandus a été aperçu à Daggerfall.
+
+
+Record n�6----------
+Une tempête en mer a fait sombrer un
+navire juste sur les rivages de Daggerfall.
+J'ai entendu dire qu'il transportait un
+émissaire de l'Empereur.
+
+
+Record n�7----------
+Mes modestes remerciements pour la
+livraison du colis en ___pickuprégion_.
+
+
+Record n�8----------
+Canaille ! Qu'avez-vous fait avec mon
+colis ? Vous l'avez vendu ? Il n'est jamais
+arrivé en ___pickuprégion_. Partez immédiatement.
+
+
+Record n�9----------
+%qdt :
+ _questgiver_ de ___questgiver_
+ m'a chargé de livrer un
+ colis à _pickuprégion_,
+ en ___pickuprégion_. Je dois le
+ déposer là-bas dans les =traveltime_ prochains jours.
+
+
+Record n�10----------
+Ce livre a une valeur sentimentale.
+_pickuprégion_ n'a pas vu un
+exemplaire de _book_
+depuis des années.
+
+
+Record n�11----------
+_pickuprégion_ a besoin de
+ce _ingredient_ pour une liqueur
+spéciale qu'%g prépare.
+
+
+Record n�12----------
+Ce _jewelry_ est un cadeau
+pour _pickuprégion_ afin de
+sceller mon accord avec %g2.
+
+
+Record n�13----------
+Ceci est un _mensclothing_ spécial
+que ma mère a confectionné pour
+_pickuprégion_, pour la cérémonie.
+
+
+Record n�14----------
+_pickuprégion_ a commissionné
+ce tableau de _painting_.
+Il faut qu'il soit là-bas pour son assemblée.
+
+
+Record n�15----------
+_pickuprégion_ a besoin de
+ce _potion_ aussi tôt que possible.
+
+
+Record n�16----------
+_pickuprégion_ a été
+menacé. Ce _weapon_ devrait
+aider à atténuer ses craintes.
+
+
+Record n�17----------
+J'ai acheté ce délicat _womensclothing_
+pour le mariage de _pickuprégion_.
+Ce serait affreusement embarassant
+s'il n'arrivait pas à temps.
+
+
+Record n�18----------
+Que voulez-vous ? _questgiver_ ?
+Oui, %g a promis de m'envoyer un
+colis. Si je ne l'ai pas bientôt,
+ce sera trop tard.
+
+
+Record n�19----------
+Je sais que vous avez un colis de
+_questgiver_. Donnez-le moi
+et personne ne sera blessé.
+
+
+

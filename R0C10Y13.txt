@@ -1,0 +1,93 @@
+Record n�0----------
+J'ai une mission qui a une importance
+diplomatique. Un cadeau de paix qui
+doit être échangé. Faites-moi une faveur,
+voulez-vous apporter mon cadeau
+à mon ami, _contact_?
+
+
+Record n�1----------
+Est-ce le prix, le dérangement,
+ou la simplicité de la mission qui
+vous agace, %pcf ? Ca ne fait rien,
+je peux facilement trouver un autre
+%ra désireux de faire avancer
+sa position politique.
+
+
+Record n�2----------
+Très bien, %pcf.
+Maintenant, écoutez attentivement :
+emmenez ce cadeau à __palace_et trouvez un =contact_.
+Ce sera _contact_. %g vous attendra
+et vous dédommagera pour votre dérangement.
+Vous devriez vous mettre en route.
+Ne me decevez pas, %pcf.
+
+
+Record n�3----------
+Vite maintenant, du balai ! Ce n'est pas le
+moment pour les conversations inutiles.
+Vous avez du travail à faire.
+
+
+Record n�4----------
+Oh, quel adorable _item_.
+Il vient de _questgiver_ ?
+Bon, peut-être était-ce juste
+un malentendu après tout.
+Voici _reward_ pièces d'or pour
+vos bons services, %pcf.
+
+
+Record n�5----------
+Il paraît que _contact_ envisage de casser son alliance avec 
+_questgiver_.
+_questgiver_ ferait mieux de faire quelque chose pour consolider 
+ses relations avec _contact_.
+
+Record n�6----------
+_questgiver_ et _contact_ semblent être plus brouillés que 
+jamais.
+Je ne serais pas surpris si _contact_ et _questgiver_ cessaient 
+entièrement toute relation.
+
+Record n�7----------
+_contact_ est soi-disant très satisfait du présent de 
+_questgiver_.
+%god merci, _questgiver_ a donné ce _item_ à _contact_. Cela 
+aurait pu être grave.
+
+Record n�8----------
+Ah, c'est mon agent de paix. Ca va comme vous voulez, mon ami ?
+
+%oth, si ce n'est pas mon coursier préféré ! Comment allez vous ?
+
+
+Record n�9----------
+En échouant à apporter à _contact_
+le _item_ que vous aviez promis de livrer,
+vous avez rendu mes plans de paix plutôt
+difficiles, %pcf.
+Hors de ma vue.
+
+
+Record n�10----------
+%qdt :
+ _questgiver_ m'a donné
+ _reward_ pièces d'or pour aller
+ au palais __palace_
+ apporter à _contact_ un cadeau de paix,
+ un _item_.
+ Je dois être là-bas dans =queston_ jours
+ au plus tard.
+
+
+Record n�11----------
+_questgiver_ ne vous
+avait-il pas donné quelque
+chose pour moi ? Malédiction,
+si c'est un de ses tours...
+
+
+

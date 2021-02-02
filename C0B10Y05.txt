@@ -1,0 +1,84 @@
+Record n�0----------
+%pcn, nous avons une très
+dangereuse mission pour vous. Le
+temple est entré en possession
+d'une démoniaque arme magique
+longtemps convoitée par les orcs. Le temple
+a déjà été attaqué deux fois par ces
+créatures. Il doit être mis en lieu
+sûr. Le ferez-vous pour nous ?
+Le temple paiera _gold_ pièces d'or.
+
+
+Record n�1----------
+Je suis triste de constater que votre
+loyauté envers la guilde soit si faible.
+Mais en raison du danger, je vous pardonne.
+
+
+Record n�2----------
+Prenez ce _evilitem_.
+Dans ___dungeon_,
+vous trouverez _custodian_,
+un serviteur de longue date
+du temple. Il en prendera soin
+et le gardera loin des mains des orcs.
+Nous avons lancé des sorts pour
+vous protéger de ses effets démoniaques.
+Malheureusement, ces sorts disparaitront
+dans =traveltime_ jours.
+
+
+Record n�3----------
+Ah, voici le démoniaque
+_evilitem_ dont _qgiver_
+m'a parlé. Je vais le garder ici,
+où il y a de nombreuses protections
+pour qu'il reste en sûreté.
+_qgiver_ a dit que je
+devrais vous payer _gold_ pièces
+d'or pour la livraison.
+
+
+Record n�4----------
+Les orcs attaquent les caravanes de __qgiver_.
+
+Record n�5----------
+Les orcs ont finalement obtenu le _evilitem_.
+
+Record n�6----------
+Le _evilitem_ est tenu loin des mains des orcs.
+
+Record n�7----------
+J'ai entendu dire que vous nous aviez débarrassé du _evilitem_. 
+Maintenant, que puis-je faire pour vous ?
+
+Record n�8----------
+Je vous ai fait confiance pour le _evilitem_, et voyez ce qui 
+s'est passé.
+
+Record n�9----------
+%qdt:
+ _qgiver_ de __qgiver_,
+ de ___qgiver_, m'a donné
+ le démoniaque _evilitem_ pour que
+ le livre à  ___dungeon_
+ afin que les orcs ne puissent pas
+ s'en emparer. J'ai =traveltime_ jours pour
+ effectuer la livraison.
+
+
+Record n�10----------
+Vous devez être le porteur
+de Manshrieker, la sainte arme
+de guerre orc. Tuez cet humanoide !
+Nous devons avoir ce
+_evilitem_.
+
+
+Record n�11----------
+Le maléfique _evilitem_ étincelle et se désintègre.
+Vous vous sentez soudainement très mal.
+
+
+

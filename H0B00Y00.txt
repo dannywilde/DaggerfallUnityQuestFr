@@ -1,0 +1,86 @@
+Record n�0----------
+Toute la philosophie de la Bienveillance de Mara
+ nous interdit de faire du mal à un autre être vivant
+ volontairement. Toutefois, nous avons une situation
+ qui demande malheureusement une action directe
+ et fatale. Si nous acceptions de vous payer
+ _reward_ pièces d'or, seriez vous prêt à détruire un
+ esprit impur qui hante l'un de nos temples sacrés ?
+
+
+Record n�1----------
+C'est une mission particulièrement
+ dangereuse, mais je suis deçu que vous
+ n'y refléchissiez même pas.
+
+
+Record n�2----------
+Il y a un temple abandonné, pas très
+ loin d'ici, appelé ___mondung_.
+ Il est sacré pour notre Bienveillance depuis
+ des siècles. Nous n'y pratiquons pas notre culte,
+ mais nous essayons de le préserver des influences
+ maléfiques. Malheureusement, l'esprit qui le hante
+ est trop puissant pour que nous le repoussions.
+ Si vous n'êtes pas revenu dans =1stparton_ jours, nous
+ considèrerons que vous avez échoué et nous
+ enverrons à la place les Chevaliers de Mara.
+ Bien évidemment, votre récompense serait annulée.
+ Partez, avec la bénédiction de la Déesse.
+
+
+Record n�3----------
+Pourquoi trainez-vous, %pcf ?
+ L'esprit profane toujours notre temple.
+
+
+Record n�4----------
+Vous avez rendu un grand service à
+ la Bienveillance de Mara, %pcf.
+ Une faveur qui ne sera pas oubliée de
+ si tôt. Appréciez vos _reward_ pièces d'or
+ -- vous les méritez.
+
+
+Record n�5----------
+Ce ___mondung_ a toujours été effrayant. Maintenant, il paraît 
+qu'il est hanté.
+En ce qui me concerne, laissez le fantôme tranquille. De toute fa
+çon, personne ne s'en approche.
+
+Record n�6----------
+J'aurais aimé qu'ils laissent tranquille ___mondung_. Maintenant 
+le fantôme est quelque part dehors, avec nous.
+Typique. Ils ont chassé les fantômes vers un endroit ou ils 
+peuvent faire beaucoup de mal.
+
+Record n�7----------
+Vous savez, même si ___mondung_ est débarassé des fantômes, je 
+n'irai pas là-bas.
+La Bienveillance de Mara est heureuse que leur ___mondung_ soit 
+redevenu pur.
+
+Record n�8----------
+Après avoir arpenté ___mondung_ pour nous, le moins que je puisse 
+faire est de vous dire bonjour.
+
+Record n�9----------
+___mondung_ est toujours possédé par des esprits, soyez maudit, 
+%pcf !
+
+Record n�10----------
+%qdt:
+ _questgiver_ de ___questgiver_ m'a
+ demandé de débarasser ___mondung_,
+ un lieu saint de la Bienveillance de Mara,
+ d'un esprit qui le hante.
+ J'ai =1stparton_ jours pour assainir
+ ___mondung_ de cette présence.
+
+
+Record n�11----------
+"Mon esprit reposera désormais en paix."
+ ___mondung_ a été assaini.
+
+
+

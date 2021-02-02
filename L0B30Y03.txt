@@ -1,0 +1,99 @@
+Record n�0----------
+Je reconnais votre expression, %pcf.
+Vous êtes de plus en plus arrogant, égoiste,
+et orgueilleux. C'est fantastique à voir. Pourtant,
+vous avez besoin d'exercer votre humilité et
+d'accepter une mission comportant de
+dangereuses connotations politiques.
+Nous avons passé un contrat avec un
+membre haut placé de la Guilde des Mages.
+Etes-vous prêt pour cela ?
+
+
+Record n�1----------
+Alors effacez-moi ce sourire
+frivole de votre visage jusqu'à
+ce que vous developpiez une
+quelconque bravoure.
+
+
+Record n�2----------
+Vous ne me decevez pas, %pcf.
+Oui, on nous a demandé de nous occuper
+de ce sorcier, qui n'est cependant pas une
+lumière. Pour rendre les choses un peu plus
+intéressantes, ce mage ne quitte jamais la
+Guilde des Mages. Alors vous devrez courir
+le risque de déranger une douzaine des
+meilleurs jeteurs de sorts du royaume.
+Vous trouverez le sorcier dans la Guilde des Mages
+de __mondung_. Le contrat est
+valable pendant =1stparton_ jours, et ensuite vous
+devrez être de retour, et ce magicien devra
+être mort. Bonne chance à vous et puisse
+Son Infernale Altesse Mephala guider
+votre main et votre pied.
+
+
+Record n�3----------
+Le sorcier vit toujours,
+%pcf. N'échouez
+pas dans cette mission.
+
+
+Record n�4----------
+Le fier contractant revient, les mains
+souillées du sang du sorcier haï. Vous avez
+vraiment accompli quelque chose, %pcf.
+Vous avez raison d'être fier. Profitez
+de vos _reward_ pièces d'or, %pcf.
+Et vous pouvez conserver ce
+sourire sur votre visage.
+
+
+Record n�5----------
+Les choses sont calmes à la Guilde des Mages. Ca me fait penser à 
+un dragon en sommeil.
+Un de ces jours, quelqu'un devrait faire quelque chose pour cet 
+affreux sorcier.
+
+Record n�6----------
+Bon, le mage a quitté la Guilde des Mages, mais
+je suis sûr que nous reverrons à nouveau ce scélérat.
+
+Il y a plus d'exitation que d'habitude à la Guilde
+des Mages, après le départ de ce sorcier.
+
+
+Record n�7----------
+Je pense que la Guilde des Mages est aussi soulagée que tout le 
+monde de la mort du sorcier.
+De toute façon, si vous voulez mon avis, ce sorcier avait une 
+mauvaise influence sur la Guilde des Mages.
+
+Record n�8----------
+Ce __mondung_ a dû être un endroit abominable, %pcf. Comme c'est 
+gentil à vous.
+
+Record n�9----------
+Vous avez laissé ce mage en vie et
+vous pensez toujours que vous
+méritez mon attention. Vous êtes
+vraiment egoïste, %pcf.
+
+
+Record n�10----------
+%qdt :
+ Ma nouvelle proie pour la Confrérie Noire
+ est un sorcier de la Guilde des Mages de
+ __mondung_. Le mage
+ doit être tué, et moi de retour à la Confrérie de
+ ___questgiver_, dans les =1stparton_ jours.
+
+
+Record n�11----------
+Vous avez assassiné le mage.
+La Confrérie sera fière.
+
+
+

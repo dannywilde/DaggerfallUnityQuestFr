@@ -1,0 +1,70 @@
+Record n�0----------
+Je m'appelle _qgiver_. Un des
+nobles du coin, _nobleman_,
+vient juste d'acquérir un vieux terrain.
+Malheureusement, cet endroit est hanté.
+Il veut donc engager quelqu'un pour
+bannir le fantôme qui y sévit.
+Cela vous intéresse-t-il ?
+
+
+Record n�1----------
+Les fantômes sont plus du
+ressort des temples. Peut-être
+devrais-je leur proposer ce
+travail.
+ 
+
+Record n�2----------
+_nobleman_ veut pouvoir
+commencer à reconstruire dans
+ =2dung_ jours. Vous trouverez 
+le fantôme dans ___dungeon_.
+
+
+Record n�3----------
+_nobleman_ va être content.
+Il a même proposé de donner
+votre nom à une fontaine.
+
+
+Record n�4----------
+_nobleman_ a été fou d'accepter le certificat de ___dungeon_. Fou 
+ou stupide.
+
+Record n�5----------
+Pauvre _nobleman_, il a appelé les %kno pour exorciser 
+___dungeon_, mais ils ont échoué.
+
+Record n�6----------
+___dungeon_ peut être reconverti en une maison ou un entrepôt gr
+âce aux  %kno.
+
+Record n�7----------
+Salutations, %pcf. Après nous avoir aidé dans l'affaire 
+_nobleman_, que pouvons-nous faire pour vous ?
+
+Record n�8----------
+Vous avez failli aux %kno quand vous avez failli à _nobleman_, 
+%pcf. C'est une grande déception...
+
+
+Record n�9----------
+%qdt:
+ _qgiver_ de
+ ==qgiver_ dans ___qgiver_
+ m'a supplié de débarrasser 
+ ___dungeon_ du fantôme qui le hante.
+ Je dispose de  =2dung_ jours
+ avant que la reconstruction
+ ne commence.
+
+
+Record n�10----------
+Le fantôme a trouvé le repos.
+_nobleman_ peut désormais
+commencer à reconstruire
+___dungeon_.
+
+
+

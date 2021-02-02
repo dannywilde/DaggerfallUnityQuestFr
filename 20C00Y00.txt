@@ -1,0 +1,130 @@
+Record n�0----------
+Ainsi vous avez soif de pouvoir, %pcn.
+Le Pouvoir est bien plus tangible que la sagesse,
+n'êtes-vous pas d'accord ? Aussi, afin que
+nous puissions juger de votre valeur, vous devrez
+vous acquitter d'une petite tâche pour nous.
+Rien de déplaisant, bien évidemment.
+Vous pourriez même y trouver du plaisir. Un simple
+assassinat, dont vous vous verrez récompensé par
+_artifact_. Ensuite nous pourrons voir
+si vous êtes prêt pour le vrai Pouvoir.
+Y consentez-vous ?
+
+
+Record n�1----------
+Vous nous avez fait perdre un temps précieux. Sachez que nous ne 
+sommes pas satisfaits.
+
+
+Record n�2----------
+Nous savions que cela vous intéresserait.
+Maintenant, écoutez attentivement : votre cible
+est un _monster_ nomme =monster_.
+Cet infernal jeteur de sort d'opérette a invoqué
+notre nom, comptant sur notre pouvoir, sans aucun pacte.
+Peut-être est-ce dû à l'ignorance, mais nous
+ne pouvons être cléments. Cherchez le mage dans %g3
+laboratoire, ___mondung_ et détruisez-%g2.
+Ensuite, avant que =1stparton_ jours ne se soient écoulés,
+rencontrez notre intermédiaire, _contact_,
+un =contact_, dans __tavern_ en un lieu
+appelé _tavern_.
+La-bas %g vous donnera _artifact_.
+Ne vous attardez pas, vous n'avez pas beaucoup de temps.
+Nous vous observerons. N'échouez pas.
+
+
+Record n�3----------
+Ecoutez, %pcf, vous et moi savons tous deux que
+=monster_ respire encore. Un contrat est
+un contrat, et Molag Bal n'oublie jamais.
+
+
+Record n�4----------
+Bonjour, %pcf. Tu y es arrivé.
+Molag Bal t'adresse ses compliments.
+Et, bien entendu, _artifact_.
+Apprécie-le et prends soin de toi.
+
+
+Record n�5----------
+Partout, des chuchotements se font entendre sur les expériences se 
+déroulant à ___mondung_.
+Il y a une affaire tordue qui se passe dans ce ___mondung_ au 
+%di.
+
+Record n�6----------
+On dit que cette étoile rouge brillante est le courroux du démon 
+Molag Bal.
+Il y avait un =contact_ cinglé par ici qui courait partout hurlant 
+quelque chose à propos de contrats.
+
+Record n�7----------
+Vraiment calme autour de  ___mondung_ dernièrement.
+Il y a eu beaucoup d'agitations dans les environs de ___mondung_, 
+mais tout s'est calmé à présent.
+
+Record n�8----------
+Error: Quest 20c00y00.q tried to display text
+
+Record n�9----------
+
+
+
+Record n�10----------
+Error: Quest 20c00y00.q tried to display text
+
+Record n�11----------
+
+
+
+Record n�12----------
+Un Prince Daedra royal, qu'on dit être le plus assoiffé de pouvoir 
+de tous les démons.
+Molag Bal est réputé pour être obsédé par l'idée d'annexer Tamriel 
+à son royaume.
+
+Record n�13----------
+Un sinistre agent =contact_ était à __tavern_, au %di ici.
+Un =contact_ de ce nom était à __tavern_, au %di ici, assez 
+récemment.
+
+Record n�14----------
+La Masse de Molag Bal dérobe la magicka de ses victimes.
+La Masse de Molag Bal, ou Masse du Vampire pour le profane,
+est un canal pour que l'énergie magique emplisse le porteur.
+
+
+Record n�15----------
+%qdt :
+ Le Prince Daedra Molag Bal m'a envoyé
+ tuer un certain jeteur de sort dans le donjon
+ ___mondung_. Si le mage est mort
+ dans =1stparton_ jours et que je rencontre son
+ associé _contact_ à __tavern_
+ dans un endroit appelé _tavern_,
+ je recevrai _artifact_.
+
+
+Record n�16----------
+=monster_ est mort.
+Vous avez rempli
+votre contrat avec
+Molag Bal. Maintenant,
+allez chercher votre récompense.
+
+
+Record n�17----------
+=monster_ brandit %g3 bâton
+et disparait en un coup de tonnerre.
+
+
+Record n�18----------
+Une carte indiquant l'emplacement de ___hideout_,
+où figure l'inscription,
+"Rappelle à _dummy_ de rester vigilant.
+Tout indique que Molag Bal a retrouvé ma trace."
+
+
+

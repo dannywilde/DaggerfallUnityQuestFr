@@ -1,0 +1,96 @@
+Record n�0----------
+%pct, un de nos clercs,
+un =cleric_ nommé
+_cleric_ a disparu sur
+un site de fouilles archéologiques. Nous
+aiderez-vous à retrouver cette personne ?
+
+J'ai peur qu'un de nos meilleurs
+chercheurs, _cleric_
+ait disparu en examinant les ruines
+d'un vieux temple. Nous aiderez-vous
+à retrouver cette personne ?
+
+
+Record n�1----------
+C'est un point de vue plutôt
+dur, %pcf, pour être
+tout à fait franc.
+
+
+Record n�2----------
+C'est bien, vraiment. Maintenant donc,
+_cleric_ s'est rendu à
+___mondung_ voilà près
+d'une quinzaine de jours pour diriger
+une fouille. Il est possible que tout
+aille bien, mais... Je vous donne
+=queston_ jours pour vous rendre là-bas,
+trouver _cleric_ et revenir.
+Que %god marche à vos côtés,
+%pct. Débrouillez-vous du mieux que
+vous pourrez.
+
+
+Record n�3----------
+Ah, %pct et ce cher
+_cleric_, c'est bon de vous
+revoir à __qgiver_ de
+nouveau. J'avais craint
+le pire, pour être honnête.
+
+
+Record n�4----------
+_cleric_ a été idiot d'aller à  ___mondung_ désarmé.
+___mondung_ n'est pas un endroit pour un érudit =cleric_ comme 
+_cleric_.
+
+Record n�5----------
+Tout le monde a perdu espoir de revoir un jour _cleric_.
+__qgiver_ fait le deuil de la disparition de _cleric_.
+
+Record n�6----------
+Grâce à ce %ra, _cleric_ vient de commencer à travailler sur 
+l'histoire de ___mondung_.
+Sauver _cleric_ a augmenté l'estime de __qgiver_ envers 
+vous.
+
+Record n�7----------
+Vu ce que vous avez fait pour _cleric_, bien sûr que je vous 
+aiderai, %pcf.
+
+Record n�8----------
+Je me souviens encore de _cleric_, %pcf. Laissez-moi.
+
+Record n�9----------
+%qdt:
+ _qgiver_ de __qgiver_
+ m'a envoyé à ___mondung_
+ pour sauver _cleric_
+ qui a disparu là-bas. J'ai
+ =queston_ jours pour le trouver
+ et le ramener à ___qgiver_
+ et __qgiver_.
+
+
+Record n�10----------
+Bonté divine, vous me redonnez
+courage, jeune %ra.
+Suis-je vraiment resté ici aussi
+longtemps ? Comme le temps peut filer...
+Et bien, si vous voulez bien
+me servir d'escorte jusqu'au temple,
+mon bon %pcf...
+
+%god merci, vous êtes venu.
+J'ai cherché la sortie pendant
+près d'une semaine.
+Je vous suis jusqu'au temple.
+
+
+Record n�11----------
+"Ah, je connais le chemin à partir d'ici,"
+_cleric_ chancelle sur ses jambes.
+
+
+

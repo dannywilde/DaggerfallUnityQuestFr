@@ -1,0 +1,77 @@
+Record n�0----------
+Tu peux m'appeler _qgiver_.
+Normalement, on ne donne du boulot qu'aux
+membres de la guilde. Mais tu parais
+prometteur %pcn. Je t'explique.
+J'ai une demande pour liquider
+un scorpion géant. Fais ça et je verrai si
+la guilde pourra fermer les yeux sur ta
+réputation. Marché conclu ?
+
+
+Record n�1----------
+J'essaye d'être gentil et regarde
+ce que ça me rapporte. Dégage d'ici.
+
+
+Record n�2----------
+Tu as du cran %pcf, je t'accorderai cela.
+Apparemment, ce scorpion s'est échappé
+de la collection privée de quelqu'un. En ce
+moment, il s'est refugié dans _house_.
+Tue la chose aujourd'hui et je parlerai
+de toi en bien.
+
+
+Record n�3----------
+Je suppose que tu n'es pas le peureux
+tremblant que tout le monde prêtend.
+Je m'assurerai que les bonnes
+personnes entendent parler de ca.
+
+
+Record n�4----------
+Avez-vous entendu parler de ce pauvre fou qui
+a trouvé un scorpion géant dans sa maison ?
+Il est en train de se saoûler à cette heure.
+
+
+Record n�5----------
+Un fou complètement saoûl s'est écroulé dans
+sa maison et s'est fait tuer par un scorpion géant.
+Apparemment, il pensait que la Guilde des
+Guerriers s'était occupé de la bestiole.
+
+
+Record n�6----------
+La Guilde des Guerriers est un bon groupe.
+Ils ont tué un scorpion géant qui s'était
+retrouvé dans la maison de quelqu'un.
+
+
+Record n�7----------
+Bon travail avec ce scorpion géant.
+A ce rythme, tu seras admis dans la
+guilde très bientôt.
+
+
+Record n�8----------
+Tout ce que j'avais demandé, c'était
+que tu tues un scorpion géant.
+Tu ne vaut rien %pcf.
+
+
+Record n�9----------
+%qdt :
+ La Guilde des Guerriers de ___qgiver_
+ a offert de me laisser massacrer un
+ scorpion géant qui est entré dans
+ _house_.
+ Ca doit être fait aujourd'hui.
+
+
+Record n�10----------
+Le _monster_ est mort.
+
+
+

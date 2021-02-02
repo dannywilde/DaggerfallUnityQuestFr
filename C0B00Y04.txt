@@ -1,0 +1,101 @@
+Record n�0----------
+__qgiver_ plonge souvent dans
+les mystères de l'univers,
+et occasionnellement nous évaluons mal
+la souplesse de santé mentale d'un de nos
+prêtres aux yeux de l'éternité. En d'autres
+termes, un de nos prêtres a pété une durite.
+Nous aiderez-vous à ramener
+ce dément à __qgiver_?
+
+Le vieux =priest_ s'est encore déchainé.
+Peut-être cet énergumène a-t-il encore
+tapé dans les caves à vin de __qgiver_.
+Mais peu importe, êtes-vous disponible
+pour nous aider à ramener ce vieux
+toqué à la maison ?
+
+
+Record n�1----------
+%oth, j'espère que lorsque vous perdrez
+la raison, quelqu'un sera suffisament
+serviable pour venir à votre secours, %pct.
+
+
+Record n�2----------
+Bien vous en prend, %pct. Maintenant,
+=priest_ s'est terré dans un endroit
+appelé ___mondung_. Essayez
+de ne pas trop brusquer ce pauvre fou.
+=priest_ ne sait pas ce qu'il fait.
+Donnez-lui juste un petit coup sur la tête
+et ramenez-le ici.
+Je vous attendrai =queston_
+jours. Soyez prudent.
+
+
+Record n�3----------
+Heureux de vous revoir, %pct.
+Ne vous inquiétez pas pour =priest_.
+Nous en prendrons grand soin.
+
+
+Record n�4----------
+Ce fou de =priest_ est terré dans ___mondung_. Seul un abruti 
+irait là-bas.
+___mondung_ est un endroit dangereux pour les sains d'esprit. 
+=priest_ ne fera pas long feu.
+
+Record n�5----------
+Apparemment, =priest_ n'est jamais revenu chez %g2.
+=priest_ est toujours aliéné, errant dans ___mondung_.
+
+Record n�6----------
+Un %ra a sauvé ce pauvre =priest_. Quant à savoir ce qu'il en est 
+de sa raison... là est la question.
+=priest_ est soit très saint, très saoul, ou bien très fou. Ou 
+peut-être les trois à la fois.
+
+Record n�7----------
+Vous avez été généreux en portant secours à =priest_, si mes 
+souvenirs sont bons. Que puis-je faire pour vous ?
+
+Record n�8----------
+Je n'ai rien à vous dire. Vous voyez, je me souviens de 
+=priest_.
+
+Record n�9----------
+%qdt:
+ _qgiver_ de
+ __qgiver_, ___qgiver_
+ m'a envoyé trouver un prêtre
+ du nom de =priest_,
+ qui a perdu la raison et s'est enfui dans
+ un endroit appelé ___mondung_.
+ J'ai =queston_ jours pour me rendre là-bas,
+ trouver ce dingue, et le ramener à
+ _qgiver_.
+
+
+Record n�10----------
+"%oth, c'était ma tête !"
+=priest_ sombre dans
+l'inconscience et vous %g2 soulevez.
+
+=priest_ roule ses yeux de douleur et de démence.
+Avec un faible gémissement, %g tombe dans vos bras
+
+
+Record n�11----------
+Vous entendez un petit rire
+dément et =priest
+disparait, comme volatilisé.
+
+"J'ai un royaume à diriger, je ne
+peux pas passer tout mon temps
+à chercher ces maudites peluches !" =priest_
+échappe à votre poigne avec une
+surprenante agilité et s'enfuit.
+
+
+

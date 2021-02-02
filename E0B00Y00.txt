@@ -1,0 +1,107 @@
+Record n�0----------
+En fait, nous pourrions tout a fait utiliser
+ quelqu'un comme vous. Il y a un temple abandonné
+ non loin d'ici, appelé ___mondung_. Vous en
+ avez peut-être entendu parler. Durant un certain temps,
+ il a abrité des forces maléfiques, mais nous avons ignoré
+ son influence. C'est un contrepoids aux autres
+ forces, après tout. A présent, l'équilibre est perturbé.
+ J'ai besoin de quelqu'un pour le rétablir. Pensez-vous
+ pouvoir nous aider?
+
+L'Equilibre à ___mondung_ a
+ été brisé par une intrusion récente, menacant
+ nos efforts pour amener l'harmonie à %reg.
+ Il nous faut un champion, quelqu'un comme vous, pour
+ ramener l'ordre à ___mondung_. Le ferez-vous?
+
+
+Record n�1----------
+Décevant. Et bien, nous trouverons
+ quelqu'un d'autre, sans aucun doute.
+
+
+Record n�2----------
+Excellent, %pcf. Ce qu'il nous faut,
+ c'est qu'un certain puissant lycan soit abattu.
+ Il a établi son repère dans cet endroit impie,
+ ___mondung_. Il menace
+ l'expansion de notre ordre dans
+ cette région. Si vous n'êtes pas revenu avant
+ que =1stparton_ jours se soient écoulés, nous irons
+ nous en charger nous-mêmes, et votre récompense sera
+ annulée. De toute évidence, vous devriez partir
+ rapidement. Portez-vous bien et bonne chance.
+
+%oth, c'est bien, %pcf. Maintenant,
+ nous ne pouvons vous accorder que =1stparton_ jours
+ pour restaurer l'équilibre à ___mondung_.
+ Et le moyen le plus rapide, le plus approprié que nous
+ connaissions est de tuer le lycan qui a établi son
+ nid fétide dans les entrailles de ___mondung_.
+ Faites vite, %pcf. Si vous n'êtes pas ici avant que
+ =1stparton_ soleils se soient levés, votre récompense
+ sera annulée.
+
+
+
+Record n�3----------
+Vous feriez mieux de vous remuer, %pcf.
+ Vous n'avez plus beaucoup de temps pour
+ tuer ce loup-garou. _1stparton_ minutes
+ pour être précis.
+
+
+Record n�4----------
+Vous avez rendu un grand service au Temple
+ d'Arkay, %pcf. Un de ceux qu'on n'oubliera
+ pas. Appréciez vos _reward_ pièces d'or
+ -- vous les méritez, sans aucun doute.
+
+
+Record n�5----------
+J'ai entendu dire qu'il y a une espèce de loup-garou rodant aux 
+alentours.
+Il paraît que le cochon-garou a trouvé un repère en un lieu appelé 
+___mondung_.
+T'as entendu ce hurlement c'te nuit ? Hurlement de loup ?
+
+Record n�6----------
+Les loups sont de vrais nomades, j'imagine. J'ai entendu dire que 
+notre loup était descendu vers le sud.
+Mon cousin m'a dit que notre cochon-garou avait été repéré dans le 
+sud.
+
+Record n�7----------
+On a découvert que ce loup-garou était un prêtre durant la 
+journée!
+Beaucoup de gens se sentent davantage en sécurité depuis qu'ils 
+savent que ce cochon-garou est mort.
+Vous avez entendu parler de cette créature-garou pourchassée par 
+un %ra?
+
+Record n�8----------
+Comment puis-je vous aider, vous qui avez restauré l'équilibre 
+dans ___mondung_?
+
+Record n�9----------
+Vous avez échoué à tuer ce loup, %pcf. Je suis terriblement 
+affligé.
+
+Record n�10----------
+%qdt:
+ _questgiver_ du Temple d'Arkay a offert
+ de me payer _reward_ pièces d'or pour tuer
+ une créature-garou rodant dans
+ ___mondung_, un de leurs
+ anciens temples. J'ai =1stparton_ jours
+ pour faire cela et retourner
+ voir ___questgiver_.
+
+
+Record n�11----------
+Vous avez tué le lycan
+ de ___mondung_.
+
+
+

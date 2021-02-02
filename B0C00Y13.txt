@@ -1,0 +1,70 @@
+Record n�0----------
+Pourquoi devrais-je vous faire
+confiance, %pcn ? Je crois
+qu'un petit test s'impose.
+Cependant, je ne vous donnerai
+qu'un travail de petite importance
+puisque vous ne faites pas partie
+de cet Ordre. Je possède un bâtiment
+qui est infesté de bêtes en tout genre.
+Tuez-les et peut-être vous recommenderai-je.
+
+
+Record n�1----------
+On n'est jamais mieux servi que
+par soi-même. Cela prouve
+bien votre lâcheté.
+
+
+Record n�2----------
+Je ne vous donne qu'un
+jour pour débarrasser
+ _house_ des ces créatures.
+Après ce délai je le ferai
+moi-même et je raconterai
+partout quel couard vous faites.
+ 
+
+Record n�3----------
+C'est pas mal, %pcn.
+Je vous recommenderai dans
+cet Ordre.
+
+
+Record n�4----------
+Il y a des bruit étranges qui proviennent de _house_.
+La maison de _qgiver_ est vraiment un zoo.
+
+Record n�5----------
+Pauvre _qgiver_, il a dû faire appel à un exterminateur.
+Cela va coûter cher à _qgiver_ pour nettoyer sa maison.
+
+Record n�6----------
+_house_ est redevenue normale.
+Ces foutus animaux sont enfin partis de _house_ .
+
+Record n�7----------
+Que puis-je faire pour celui qui m'a aidé à nettoyer ma maison ?
+
+
+Record n�8----------
+Vous n'êtes même pas capable de tuer quelques insectes. Ne me 
+faites pas perdre mon temps.
+Je ne veux pas gâcher ma salive à vous parler.
+
+
+Record n�9----------
+%qdt:
+ J'ai recontré  _qgiver_
+ dans ___qgiver_, et il
+ m'a engagé pour nettoyer
+ _house_ dans __house_.
+ Si j'y arrive, il me recommendera
+ pour intégrer l'Ordre des Chevaliers.
+
+
+Record n�10----------
+Vous avez nettoyé la maison de _qgiver_.
+
+
+

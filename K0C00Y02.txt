@@ -1,0 +1,109 @@
+Record n�0----------
+%pcf, je pourrais avoir de très gros ennuis
+en réalité. Il semblerait qu'un de mes anciens
+associés, afin de rendre ma vie plus pénible,
+m'aurait fait passer des lingots d'or
+contrefaits. Innocemment je les ai transmis
+à quatre de mes plus estimés alliés en échange
+de services rendus. Je dois évidemment
+récupérer ces lingots avant qu'ils ne découvrent
+que cet or est falsifié, ce qui devrait se produire
+d'ici =2mondung_ jours ou moins. Je payerai environ
+_reward1_ pièces d'or pour chaque barre de
+faux or que vous pourrez récupérer.
+Cela vous semble acceptable ?
+
+
+Record n�1----------
+Non ? Vraiment ? Très bien. Quelqu'un
+d'autre sera plus comprehensif, j'en suis certain.
+
+
+Record n�2----------
+%oth, c'est bien. Maintenant, une des barres
+est dans une banque appelée _depository_
+à __depository_; une est dans une forteresse
+nommée ___mondung_;
+une est dans __palace_ au palace;
+la dernière est dans _mansion_
+à __mansion_.
+Maintenant, rappelez-vous que vous n'avez
+que =2mondung_ jours pour cela, et que je préfèrerais
+en avoir une dans ce délai, plutôt que toutes
+les quatre. Bonne chance, %pcf.
+Que %god bénisse votre voyage.
+
+
+Record n�3----------
+%god, voudriez-vous vous hâter, s'il vous plaît ?
+
+
+Record n�4----------
+Il semblerait que vous vous soyez occupé
+des problèmes de _qgiver_.
+
+
+Record n�5----------
+Un type a demandé la direction de _depository_. Il n'avait pas 
+l'air d'un banquier.
+Apparemment, ils recrutent à ___mondung_.
+Au moins, il y a de l'animation là-bas.
+_palace_ renforce sa sécurité, à cause de rumeurs concernant des 
+voleurs dans le secteur.
+La servante de _mansion_ a dit qu'elle avait vu des types louches 
+surveiller l'endroit.
+
+
+Record n�6----------
+%t %rn semble croire que le chef des contrebandiers est 
+_qgiver_.
+_qgiver_ a apparemment été surpris en train d'écouler du 
+foscarium, en prétendant que que c'était de l'or.
+_palace_ a complètement rompu ses relation avec _qgiver_ , d'après 
+ce que j'ai entendu dire.
+___mondung_ travaille à ruiner les affaires de _qgiver_.
+
+
+Record n�7----------
+_qgiver_ a aimablement remplacé tout l'or que ses maladroits 
+alliés avaient perdu dans le vol.
+La popularité de _qgiver_ avec les gros bonnets des affaires de 
+%reg continue de grimper.
+
+
+Record n�8----------
+Grâce et salutations, vous porteur de faux or.
+
+
+Record n�9----------
+Je vous ai fait confiance une fois, avec mon avenir financier, 
+vous vous souvenez, %pcf ?
+
+
+Record n�10----------
+%qdt :
+ _qgiver_ de ___qgiver_
+ m'a demandé de récupérer au moins
+ une des quatre barres de faux or qu'%g
+ a données à ses alliés avant qu'ils ne
+ découvrent la vérité au sujet de l'or,
+ en =2mondung_ jours ou moins. Une barre
+ d'or est dans chacun de ces endroits :
+ _palace_ à __palace_,
+ ___mondung_,
+ _mansion_ à __mansion_,
+ et _depository_ à __depository_.
+ Je recevrai environ _reward_ pièces d'or
+ pour chaque barre d'or que je pourrai
+ récupérer pour lui.
+
+
+Record n�11----------
+%oth, bien joué, %pcf.
+Je craignais de ne pas vous avoir
+donné suffisamment de temps.
+Voici votre vrai or en échange
+de ce faux or.
+
+
+

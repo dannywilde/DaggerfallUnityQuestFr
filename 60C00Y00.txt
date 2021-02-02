@@ -1,0 +1,141 @@
+Record n�0----------
+Eh bien. Je parie que vous ne m'attendiez pas !
+ Mes non-frères et non-soeurs sont parfois
+ un peu lents, alors je les devance. Tant pis
+ pour vous. Vous allez devoir traiter
+ avec moi. Soyez prompt !
+ Avant que l'aube ne se lève,
+ j'ai beaucoup à faire ailleurs. Donc !
+ Le pouvoir, le %ra meurt d'envie de
+ se frotter le corps pour apaiser les quatre cents
+ plaies de la vie mortelle ? Oui, Sheogorath
+ a du pouvoir, assez de pouvoir pour crever
+ les yeux de la lune et faire pleuvoir des larmes
+ de sang sur Tamriel. Pour ce pouvoir,
+ accepterez-vous d'envoyer à quelqu'un
+ une invitation à prendre le thé avec moi ?
+
+
+Record n�1----------
+Ah, rejeté par un sordide %ra
+ avec des poux dans les cheveux. Comme
+ Sheogorath s'est élevé ! Il faudra que je
+ demande une augmentation de ma rente.
+ Pouah, %pct.
+
+
+Record n�2----------
+Le thé, pour une soirée thé avec moi ! Allez,
+ allez à un endroit appelé ___mondung_,
+ où s'est rendu l'objet des désirs, qui
+ porte des couronnes de mûres.
+ Attendez... n'invitez pas ce battlemage
+ à venir prendre le thé avec moi.
+ Maintenant je me souviens. Il s'appelle
+ =monster_. Tuez-le à mort, assassinez-le
+ fatalement, c'est ce que je souhaite.
+ Puis allez de ___mondung_ jusqu'à
+ un asile d'aliénés appelé ___contactdung_
+ pour voir mon =qgfriend_,
+ _qgfriend_. _artifact_ pour vous,
+ il aura. Il vous attendra 
+ =1stparton_ jours puis partira épouser
+ l'héritier inconnu de Rowanda. Maintenant
+ je vous souhaite un yapow et gazeenza.
+
+
+Record n�3----------
+Excusez moi, vous l'ignorez certainement, mais
+ je suis complètement fou. Et si vous ne
+ déguerpissez pas, je vous vomirai dessus.
+
+
+Record n�4----------
+Ah, c'est gentil à vous me laisser sortir de ma
+ cellule, madame le geôlier. Sheogorath a changé
+ d'avis et a finalement décidé d'inviter
+ =monster_ pour le thé.
+ Mais quand il a su qu'il
+ était mort, il a décidé que c'était mieux ainsi.
+ De cette façon =monster_ ne pourrait
+ pas manger toutes les bonnes tartes. Avant
+ que je n'oublie, voici _artifact_. Ne le pointez pas
+ vers moi.
+
+
+Record n�5----------
+Un battlemage fou terrorise la campagne autour de 
+___mondung_.
+
+Record n�6----------
+___mondung_ est tranquille, maintenant que ce =monster_ est parti, 
+mais il reviendra,
+ j'en prend le pari.
+
+
+Record n�7----------
+Bon débarras, pour le battlemage =monster_ à ___mondung_. Il 
+paraît qu'il était complètement fou.
+Ainsi, quelqu'un a finalement tué ce battlemage fou à ___mondung_. 
+Merci %god.
+
+Record n�8----------
+Error: Quest 60c00y00.q tried to display text
+
+Record n�9----------
+
+
+
+Record n�10----------
+Error: Quest 60c00y00.q tried to display text
+
+Record n�11----------
+
+
+
+Record n�12----------
+_qgfriend_ est ce =qgfriend_ fou et visqueux, qui vit à 
+___contactdung_.
+_qgfriend_ est ce =qgfriend_ fou qui est arrivé en ville il y a 
+peu.
+ On dit qu'en réalité il vit à ___contactdung_.
+
+Record n�13----------
+Sheogorath est le Prince Daedra de l'Insanité. Pas quelqu'un sur 
+qui on peut compter.
+Sheogorath est Le Fou, le Daedra qui se délecte du chaos et de la 
+folie.
+
+Record n�14----------
+_artifact_ est un artéfact ancien possédant des effets magiques 
+très aléatoires.
+_artifact_ peut transformer ses cibles en d'autres 
+créatures.
+
+Record n�15----------
+_qgfriend_ est l'un des plus loyaux serviteurs du Prince Daedra 
+Sheogorath.
+_qgfriend_ est le nom du =qgfriend_ qui est un esclave de 
+Sheogorath.
+
+Record n�16----------
+%qdt:
+ Le Prince Daedra Sheogorath m'a
+ promis un artéfact appelé _artifact_
+ en échange de la mort d'un battlemage
+ nomme =monster_. Si ce battlemage,
+ qui habite un lieu appelé ___mondung_,
+ est tué et que je rencontre le contact
+ de Sheogorath à ___contactdung_, _qgfriend_
+ me donnera _artifact_. Mais je dois avoir
+ tout fini en =1stparton_ jours.
+
+
+Record n�17----------
+Vous avez débarrassé ce monde
+ de =monster_. A présent, voyez si
+ Sheogorath se souvient de
+ votre arrangement.
+
+
+

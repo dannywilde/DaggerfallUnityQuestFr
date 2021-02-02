@@ -1,0 +1,87 @@
+Record n�0----------
+Il y a un traitre au sein de la Confrérie.
+Vous prendrez les mesures
+nécessaires concernant cette
+affaire, n'est-ce pas?
+
+De temps en temps, la Confrérie
+se voit dans l'obligation de balayer
+devant sa porte. Un traitre a été
+démasqué au sein de notre ordre, et
+il doit être remis dans le droit chemin.
+Vous avez été choisi pour faire
+honneur au Temple.
+
+
+Record n�1----------
+Une réponse ignoble. J'attendais mieux de vous.
+
+
+Record n�2----------
+Fort bien. Le traitre a trouvé
+refuge dans ___mondun_
+vers le %di. Si vous n'êtes pas revenu
+dans =queston_ jours, votre honneur
+sera bafoué et un autre prendra
+votre place. Ne nous
+decevez pas, %pcf.
+
+
+Record n�3----------
+Le traitre n'est pas mort. N'essayez pas
+de me faire croire le contraire.
+
+
+Record n�4----------
+Bien joué. Vous avez toutes les raisons d'être fier.
+
+
+Record n�5----------
+Cet assassin s'est enfui vers ___mondun_ comme si tous les démons 
+de l'enfer étaient à ses trousses.
+_qgiver_ ne peut pas laisser ce traitre en paix après ce qu'%g a 
+fait à la Confrérie.
+
+
+Record n�6----------
+Ce traitre est visiblement plus coriace que _qgiver_ le pensait. 
+Quelle évasion !
+J'ai entendu dire que le nightblade est parti en direction du 
+nord, mais
+l'ombre de ses méfaits tourmente toujours la Confrérie.
+
+
+Record n�7----------
+L'histoire du traitre le prouve simplement. On ne joue pas 
+impunément avec la Confrérie Noire.
+Je n'ai jamais pensé que la Confrérie puisse être miséricordieuse 
+avec un misérable traitre assassin.
+
+
+Record n�8----------
+De quoi avez-vous besoin, pourfendeur de traitres ?
+
+
+Record n�9----------
+Vous parler me met mal à l'aise.
+Après tout, je vous avais donné ma
+confiance pour vous occuper de
+ce traitre, qu'en avez-vous fait ?
+
+
+Record n�10----------
+%qdt :
+ La Confrérie Noire de ___qgiver_ m'a
+ envoyé débusquer et pourfendre un traitre
+ de la guilde. La crapule assassin se terre
+ en ___mondun_.
+ J'ai =queston_ jours pour accomplir ma mission.
+
+
+Record n�11----------
+"Je ne suis pas... le traitre que
+vous... pensez que je suis. Le... véritable
+traitre est..." Le contrat a été honoré.
+
+
+

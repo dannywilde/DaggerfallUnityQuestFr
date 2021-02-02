@@ -1,0 +1,144 @@
+Record n�0----------
+Excusez-moi ? _questg_ est mon nom.
+Je ne sais pas quoi penser de vous
+mais j'ai besoin d'une faveur.
+Ma soeur, _sister_, a son
+anniversaire le mois prochain et j'aimerais
+vraiment avoir un _item_ pour la fête.
+Ca vous rapportera _gold_ pièces d'or.
+Qu'en dites-vous ?
+
+
+Record n�1----------
+C'est mieux ainsi, je suppose. Bonne journée.
+
+Désolé d'avoir demandé.
+
+Alors nous ne nous sommes jamais parlés,
+je détesterais que vous gâchiez ma surprise.
+
+Pourtant c'était de l'argent facile vous savez.
+
+Laissez-moi alors, j'ai une fête à préparer.
+
+
+Record n�2----------
+Excellent ! Vous êtes sympathique. C'est
+de l'argent facile. Allez à _store_
+et trouvez _merchant_, %g a le _item_
+spécial dont j'ai besoin. Souvenez-vous,
+il n'y a qu'un mois avant la fête.
+
+Très bien. C'est de l'argent facile. Vous allez
+devoir aller à _store_ pour trouver
+la chose exacte dont j'ai besoin. Parlez à
+_merchant_, %g gère l'endroit.
+
+
+
+Record n�3----------
+Très bien, %pcn. Voici l'or que j'avais promis.
+
+
+Record n�4----------
+J'ai entendu dire que _questg_ n'aimait
+vraiment pas sa soeur _sister_. Et qu'elle
+va bientôt se marier.
+
+
+Record n�5----------
+Savez-vous que _sister_ a découvert
+qu'on a essayé de l'empoisonner ?
+
+
+Record n�6----------
+_sister_ a été trouvée morte ! Et
+juste avant son mariage, en plus.
+
+
+Record n�7----------
+Ahem. Bon, oui. Je suppose que puisque
+vous avez obtenu cet... objet pour les noces
+de ma soeur, j'ai une dette envers vous.
+
+
+Record n�8----------
+Traître ! Je vous avais envoyé en simple mission
+de transport et vous avez vendu la mèche à
+_sister_. Vous n'obtiendrez
+plus rien de moi.
+
+
+
+Record n�9----------
+Vous transportez le _item_.
+Voulez-vous le donner à _sister_ ?
+
+
+Record n�10----------
+Vous transportez le _item_.
+Voulez-vous le donner à _questg_?
+
+
+Record n�11----------
+%qdt :
+ J'ai promis à _questg_
+ de  ___questg_ que
+ j'irais récupérer un _item_ chez
+ _merchant_ à _store_
+ en échange de _gold_ pièces d'or.
+ Je dois revenir avec le _item_
+ avant la célébration de l'anniversaire de
+ la soeur de _questg_,
+ _sister_, qui se
+ déroulera dans un mois.
+
+
+Record n�12----------
+Salut. Oui, je suis _merchant_.
+Un _item_ ? Oui j'en ai. Je
+prendrai vos  20 pièces d'or et vous
+pouvez avoir le _item_.
+Merci d'être passé.
+
+
+Record n�13----------
+Salut. Oui, je suis _merchant_.
+Un _item_ ? Oui j'en ai. Je vais prendre
+vos 20 pièces d'or et vous pourrez avoir
+le _item_. Oh, je suis désolé. Vous ne
+semblez pas avoir assez d'or pour le payer.
+
+
+Record n�14----------
+Salut ? Pourquoi êtes-vous ici ? Vous dites,
+_questg_ veut un _item_
+pour fêter mon anniversaire ? Oh, quelle
+idée géniale ! Je promets de ne pas éventer la surprise !
+
+
+Record n�15----------
+Salut ? Comment êtes-vous entré ici ? Quoi ?
+_questg_ vous a demandé de lui
+apporter un _item_ ? Oh mon... Avez-vous
+la moindre idée de ce qu'il prévoit de faire avec cela ?
+Moi oui. _item_ fait partie des ingrédients
+d'une potion que mon cher frère aime concocter.
+Une potion qui tue. Vous ne devez pas le lui donner !
+Je vous en prie ! Donnez-moi le _item_.
+Vous devez le faire, ou je pourrais être tuée !
+
+
+Record n�16----------
+Je pense que je vais le prendre. Mais
+cela ne va-t-il pas gâcher la surprise ?
+Vous êtes étrange, %pcn.
+
+
+Record n�17----------
+Merci, mon frère ne peut plus
+s'en servir maintenant. Vous
+avez bien fait. Merci.
+
+
+

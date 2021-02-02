@@ -1,0 +1,64 @@
+Record n�0----------
+Baissez la voix. Mon nom est...
+euh, appelez-moi simplement
+_qgiver_. J'ai un
+boulot de la guilde pour vous.
+Paiement standard. Ca vous
+intéresse d'en savoir plus ?
+
+
+Record n�1----------
+Heureusement que je ne vous ai donné
+aucun détail. Maintenant sortez d'ici.
+
+
+Record n�2----------
+Vous devez voler le _magicitem_
+de _mansion_ à __mansion_.
+Vous avez =traveltime_ jours pour le faire
+ou le marché est rompu. Vous ai-je
+dit que l'endroit était gardé ?
+J'aurais pourtant juré l'avoir dit...
+
+
+Record n�3----------
+Vous avez la marchandise ? Ah ! Bien joué.
+La récompense standard pour ce boulot est
+_gold_ pièces d'or. Ne depensez pas tout
+au même endroit.
+
+
+Record n�4----------
+_mansion_ à __mansion_ a une importante collection d'objets 
+magiques exotiques.
+
+Record n�5----------
+Ils ont enlevé le _magicitem_ du _mansion_ pour une question de 
+sécurité.
+
+Record n�6----------
+Ce _magicitem_ a été volé à _mansion_. C'est un vrai 
+scandale.
+
+Record n�7----------
+Surpris de me voir, %pcf ? Vous pensiez que j'aurais fui avec le 
+_magicitem_, peut-être ?
+
+Record n�8----------
+Ils ont déjà déplacé le _magicitem_
+de _mansion_, %pcf. Autrement
+dit, vous avez échoué.
+Maintenant, partez.
+
+
+Record n�9----------
+%qdt :
+ _qgiver_, (enfin %g s'appelle
+ %g2-même ainsi) de la guilde m'a engagé
+ pour voler le _magicitem_ de
+ _mansion_ dans __mansion_.
+ J'ai =traveltime_ jours pour le lui ramener
+ à __qgiver_ dans ___qgiver_.
+
+
+

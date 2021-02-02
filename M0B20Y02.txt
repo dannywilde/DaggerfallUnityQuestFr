@@ -1,0 +1,98 @@
+Record n�0----------
+Ouais, j'ai un petit boulot pour toi. Je
+ne voudrais pas le confier à n'importe qui,
+mais je sais que tu fais du bon boulot. Il y
+a une bande de géants que nous voudrions
+tuer. Le salaire est plutôt standard, _reward_ pièces
+d'or. Y vas-tu pour ce prix-la ?
+
+
+Record n�1----------
+C'est un plan tordu, de toute façon.
+Ca semblait simplement être le genre
+de chose que tu aimais, c'est tout.
+
+
+Record n�2----------
+Bonne transaction, %pcf. Notre client
+a localisé les géants dans sa forteresse,
+___mondung_. Il dit qu'il y en a
+au six, et il ne nous payera
+pas tant que tous les six ne seront pas raides,
+et cela dans les =1stparton_ jours. Pas d'autres
+questions, %pcf ? Bien.
+
+
+Record n�3----------
+Vous savez, tant que ces six géants
+seront capables de respirer, il ne pourra y
+avoir de temps pour le bavardage.
+
+
+Record n�4----------
+%oth, ces géants ne savaient pas
+à qui ils avaient à faire, hein, %pcf ?
+Voici vos _reward_ pièces d'or, comme promis.
+
+
+Record n�5----------
+Il y a un paquet de géants à ___mondung_, mais ils ne dérangent 
+personne.
+Il paraît que le %t veut que ces géants à ___mondung_ meurent une 
+fois pour toute.
+
+Record n�6----------
+Quelque chose a effrayé ces géants. Je me demande bien ce que ça 
+peut être.
+Si j'étais un de ces géants, je me serais enfui aussi. Trop de 
+passage.
+
+Record n�7----------
+Je me demande combien de temps ça prendra avant qu'une nouvelle 
+bande de géants ne s'installe à ___mondung_.
+Je me sens plutôt désolé pour ces géants. Ils n'ennuyaient pas 
+vraiment qui que ce soit.
+
+Record n�8----------
+Les géants sont coriaces. Tu as bien agi
+%pcf. Tu iras loin dans la Guilde.
+
+
+Record n�9----------
+Les géants étaient trop forts pour toi, hein ?
+Peut-être la guilde aurait-elle dû t'envoyer
+t'occuper de pygmées à la place.
+
+
+Record n�10----------
+Tous les géants sont morts.
+
+
+Record n�11----------
+Ceci est le territoire des GEANTS !
+Retourne dans tes terres
+petite mouche !
+
+J'ai mangé un %ra hier.
+Ca a un bon goût.
+
+Je vais t'écraser ! T'écraser à plat !
+
+
+Record n�12----------
+%qdt :
+ La Guilde des Guerriers de ___questgiver_
+ m'a engagé pour tuer une tribu de six
+ géants dans leur repère, ___mondung_.
+ Je dois avoir accompli ma mission et être
+ de retour dans =1stparton_ jours pour avoir mon salaire.
+
+
+Record n�13----------
+Eh %pct, si c'est tuer
+que tu cherches, prends cette
+carte de ___newdung_.
+Il y a beaucoup à faire là-bas.
+
+
+

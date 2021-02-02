@@ -1,0 +1,196 @@
+Record n�0----------
+Je suis dans un petrin embarrassant, j'en
+ai peur. _lover_ et moi avons eu...
+une rencontre, seulement son amant
+est désespèrement vieux-jeu a ce sujet.
+J'ai été défie en duel.
+Heureusement, _competitor_,
+c'est le nom de mon rival, ne sait pas
+a quoi je ressemble. Vous pourriez me
+remplacer. Pour _gold_ pièces d'or, ca irait ?
+Je vous en serais très reconnaissant.
+
+Ce =competitor_ là-bas en %cn
+m'a envoyé un défi. Je suppose que
+la rumeur a circule que j'ai ruine
+l'honneur de son amant, _lover_.
+Comme si une bonne partie de %reg
+n'avait pas déjà été avec _lover_
+auparavant ! En gros, j'ai besoin de
+quelqu'un comme vous pour se faire passer
+pour moi dans le duel. _gold_ pièces d'or
+vous intéresseraient-elles pour cela ?
+
+
+Record n�1----------
+Non ? C'est très dommage. Bon, je
+trouverai certainement quelqu'un qui
+me ressemblera plus de toute façon.
+
+
+Record n�2----------
+Bien vu, %pcf. Apportez
+cette réponse a _competitor_.
+Vous %g2 trouverez à __competitor_.
+Je vous attends de retour dans
+=queston_ jours, victorieux, pour votre juste
+récompense. Bonne chance, mon ami.
+
+
+Record n�3----------
+L'Honneur est rétabli, hein, mon admirable
+%ra ? Voici vos _gold_ pièces d'or.
+Et maintenant, je vais rendre visite
+a _lover_ et lui parler de
+l'epreuve... avec une certaine alteration
+des faits, bien sur.
+
+
+Record n�4----------
+_lover_, disent-ils, à cause plus de morts qu'aucune peste.
+Le dernier amant de _lover_ est mort dans ses bras, essayant de 
+satisfaire son... appetit.
+Si _lover_ découvre qu'ils se cherchent en duel pour son coeur... 
+%oth, ce sera terrible.
+
+
+Record n�5----------
+_lover_ a quitte _competitor_ ainsi que _qgiver_.
+Tout est termine entre _lover_, _competitor_, et _qgiver_.
+
+
+Record n�6----------
+_lover_ et _qgiver_ sont à nouveau ensemble. C'est tellement 
+romantique.
+_qgiver_ a tue un =competitor_, tout cela pour l'amour de 
+_lover_.
+
+
+Record n�7----------
+Je serais honore de vous aider, %pcf. Et nous savons tous ce 
+qu'est l'honneur, n'est-ce pas ?
+
+
+Record n�8----------
+Vous êtes suppose vous faire passer pour moi, idiot ! Vous ne vous 
+en souvenez pas ?
+
+
+Record n�9----------
+%qdt :
+ _qgiver_ de __qgiver_,
+ ___qgiver_, a été défie en duel
+ et m'a envoyé pour me faire passer
+ pour lui. Je dois apporter sa réponse
+ au défi de _competitor_ et effectuer
+ ce duel.
+ Je peux trouver ce _competitor_
+ a __competitor_ là-bas
+ en ___competitor_.
+ Après le duel, je reviendrai et toucherai
+ ma récompense de _qgiver_ a
+ __qgiver_. Tout cela
+ pour l'amour _lover_.
+
+
+Record n�10----------
+Moi, _qgiver_ de ___qgiver_,
+porte par la présente réponse à votre défi.
+
+Comme c'est mon droit par les règles
+formelles du combat, je choisirai l'endroit
+ou nous pourrons nous rencontrer.
+Cet endroit est ici
+et le moment est maintenant.
+
+Ce contrat est légalement obligatoire.
+Refuser d'affronter ce défi sans
+excuses formelles reviendrait a
+sacrifier votre honneur a jamais.
+
+_qgiver_ de ___qgiver_
+
+
+Record n�11----------
+V'z'etes, heu, _qgiver_ ?
+Vous devez être a la recherche
+de l'autre personne nomme
+_competitor_, un _duelist_,
+heu, vraiment dur que vous trouverez
+a _arena_.
+Bonne chance, _qgiver_.
+J'espère que vous vaincrez !
+
+Si vous êtes _qgiver_...
+%oth, je vous rencontrerai
+a _arena_. Laissez-moi juste,
+ah, enfiler mes habits de _duelist_.
+Au revoir !
+
+
+Record n�12----------
+Vous êtes dans _arena_,
+ou _competitor_ a dit qu'%g
+vous rencontrerait.
+
+
+Record n�13----------
+Sous l'apparence de _qgiver_,
+vous avez assasine un _duelist_
+ayant pris l'apparence de _competitor_.
+Vous n'avez plus qu'a revenir
+vers votre employeur et l'honneur
+sera restaure.
+
+
+Record n�14----------
+Ceci est absurde ! D'une part,
+_competitor_ est un parfait
+rustre pour défier _qgiver_
+en duel. De l'autre, quel parfait
+couard est _qgiver_ pour
+vous envoyer a sa place. Merci
+d'avoir porte cela a ma connaissance.
+Aucun des deux ne m'aura,
+seulement vous pouvez avoir
+_lovgold_ pièces d'or puisque
+cet idiot a promis de vous payer.
+
+C'est trop romantique !
+Imaginez seulement : _competitor_
+et _qgiver_ se découpent en morceaux
+pour moi. %oth, même si c'est
+une belle preuve d'attention, je ne peux
+pas laisser cela se produire.
+Je quitterai ___lover_ pour toujours,
+mais d'abord, veuillez accepter
+_lovgold_ pièces d'or pour remplacer ce que
+_qgiver_ vous avait offert. Je ne peux pas
+vous laisser être pauvre simplement
+parce que le duel n'aura lieu.
+Portez-vous bien, %pcf.
+
+Soyons francs. Cet idiot
+de _competitor_ est jaloux de moi
+et _qgiver_ et l'a défie en duel.
+Et cet infernal couard de
+_qgiver_ vous a envoyé
+pour prétendre être lui dans ce duel ?
+Est-ce qu'aucun ne se demande si
+je n'aime aucun des deux ?
+Je m'occuperai de cela. Voici les
+_lovgold_ pièces d'or a la place de ce que
+_qgiver_ vous avait offert.
+Il n'y aura pas de duel.
+
+
+Record n�15----------
+%qdt :
+ _competitor_ s'est enfui lorsque je
+ lui ai donne la réponse a son défi.
+ Le duel doit toujours avoir lieu,
+ sous une forme ou sous une autre,
+ a _arena_ quelque part en __arena_.
+
+
+

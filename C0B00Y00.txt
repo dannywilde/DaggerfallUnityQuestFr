@@ -1,0 +1,73 @@
+Record n�0----------
+Une maison quelque part dans __house_
+est actuellement hantée par une sorte de mort-vivant.
+Nous avons besoin de quelqu'un pour exorciser cet esprit.
+En êtes-vous capable ?
+Cela vous rapportera _gold_ pièces d'or.
+
+
+Record n�1----------
+Il n'y a pas de honte à cela. Je garderai un oeil sur les
+emplois qui vous conviennent mieux.
+
+
+Record n�2----------
+Rappelez-vous, si la créature est trop forte pour que
+vous vous en occupiez seul, contentez-vous de fuir.
+Personne ne vous reprochera d'avoir sauvé votre peau.
+L'endroit s'appelle _house_ et se situe dans la région
+de __house_.
+Vous avez =traveltime_ jours ou nous enverrons
+quelqu'un d'autre faire le travail.
+
+
+Record n�3----------
+Alors, la maison n'est plus hantée. Je vais brûler
+de l'encens sur l'autel pour cet esprit. Voilà les gages du 
+temple.
+
+
+Record n�4----------
+Le fantôme de _house_ ne peut être tué, selon eux.
+
+Record n�5----------
+Le fantôme de _house_ reviendra sans cesse.
+Les esprits de _house_ ne sont toujours pas en paix.
+
+Record n�6----------
+_house_ est enfin nettoyée.
+Les esprits de _house_ sont enfin en paix.
+
+Record n�7----------
+Comment puis-je vous aider, ô exorciste de _house_?
+
+Record n�8----------
+_house_ est toujours hantée, et je devrais parler avec vous ?
+
+
+Record n�9----------
+%qdt:
+ _qgiver_ de __qgiver_
+ dans la région de ___qgiver_
+ m'a envoyé faire une course pour
+ débarrasser _house_ dans __house_
+ d'un mort-vivant qui hante les lieux. J'ai
+ =traveltime_ jours pour accomplir cela.
+
+
+Record n�10----------
+Je suis l'ancêtre de celui qui a bâti cette maison. Elle
+appartient désormais au royaume des morts. Que
+toutes les créatures vivantes quittent cet endroit.
+
+
+Record n�11----------
+Je peux comprendre pourquoi vous n'êtes
+pas resté dans les parages pour combattre
+cette chose, %pcn. Vous avez les
+remerciements du temple pour avoir au moins
+découvert la raison pour laquelle les lieux
+étaient hantés. Voilà 2 pièces d'or.
+
+
+

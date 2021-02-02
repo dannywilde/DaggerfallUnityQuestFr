@@ -1,0 +1,145 @@
+Record n�0----------
+J'ai une relation, un alchimiste d'une
+certaine habileté du nom de _chemist_.
+Dans le but d'achever un de mes projets, %g
+a besoin d'un objet plutôt rare, le coeur d'un
+daedra. Je ne vous mentirai pas : le daedra
+veut récupérer son coeur, et vous pouvez
+en rencontrer quelques-uns sur la route.
+Etes-vous disposé à prendre ce risque
+en contrepartie d'un généreux salaire ?
+
+
+Record n�1----------
+Je suis déçu, mais je ne peux pas dire que je
+ne comprends pas. Se porter volontaire
+pour une tâche impliquant un daedra demande
+certainement plus de bravoure et de vaillance
+que l'on n'en voit couramment chez les
+aventuriers %ra.
+
+
+Record n�2----------
+Vous le ferez ? Alors bonne chance à vous.
+Voici le coeur du daedra. S'il n'est pas dans les
+mains de mon ami _chemist_ dans =1stparton_ jours,
+il sera trop gâté pour être utilisé.
+Après l'avoir livré, revenez
+pour toucher votre récompense.
+Bonne chance et bon voyage.
+
+
+Record n�3----------
+Vous ne pensez pas que j'ignore
+que vous n'avez pas livré
+le coeur du daedra à mon alchimiste ?
+J'espère que vous n'attendez pas
+une récompense pour votre échec manifeste.
+Sans un coeur de daedra frais,
+le projet sera retardé une fois encore.
+Allez vous perdre en Oblivion !
+
+
+Record n�4----------
+Excellent travail, %pcf.
+Je savais que ces larves de daedra
+ne vous ralentiraient pas. Votre compétence
+superieure a été dûment notée. Merci et voici
+les _reward_ pièces d'or que nous avions convenues.
+
+
+Record n�5----------
+De terribles présages ont été lus dans le ciel. Les étoiles 
+daedriques brillent très fort.
+L'Assemblée de la Guilde des Mages dit que les daedras sont actifs 
+cette nuit.
+
+Record n�6----------
+Le daedra semble être assouvi, d'après tous les signes 
+astrologiques.
+Je pourrais presque sentir le souffre dans l'air, mais cela semble 
+parti maintenant.
+
+Record n�7----------
+Beaucoup d'activités au magasin de _chemist_. Une grande 
+expérience en cours, qu'ils disent.
+_questgiver_ est très content d'un mercenaire %ra terriblement 
+efficace.
+
+Record n�8----------
+Et que puis-je faire pour mon brave jeune %ra ?
+Salutations, héros. J'espère que vous n'avez pas été ennuyé par  
+ces daedras emplis de rancoeur.
+
+Record n�9----------
+Je suis déçu par votre échec à
+livrer ce coeur de daedra. Je suppose
+que vous pensiez que j'avais oublié cela.
+C'est la seule explication à votre
+decision de revenir à la cour.
+
+
+Record n�10----------
+Oh merveilleux. Une excellente aorte
+daedra à peine décomposée.
+Depêchez-vous de retourner chez
+_questgiver_ maintenant, %pcf.
+Il a plein de choses à l'esprit, et si
+vous n'êtes pas de retour dans =2ndparton_ jours,
+%g peut même oublier que vous êtes parti.
+
+
+Record n�11----------
+_chemist_? Qui ressemble à une sorte de =chemist_ ? Je crois %g 
+est au %di d'ici.
+Il y a un alchimiste nomme _chemist_ qui travaille pour 
+_questgiver_ au %di d'ici.
+
+Record n�12----------
+_questgiver_ ? Hé bien quoi, c'est un noble. Impliqué récemment 
+dans une activité avec les daedras.
+_questgiver_ est un noble, au %di d'ici.
+Comme beaucoup d'autres nobles, _questgiver_ a environ une 
+douzaine de projets en cours.
+_questgiver_ a énormément foi en l'alchimie, comme beaucoup de 
+nobles.
+
+Record n�13----------
+Un coeur de daedra. Ca ne se gâte jamais, mais certaines recettes 
+demandent qu'il soit frais.
+Le coeur d'un daedra. Pas le genre de chose que les daedras aiment 
+voir dans les mains des mortels.
+
+Record n�14----------
+%qdt :
+ _questgiver_ de
+ ___questgiver_ m'a
+ demandé d'apporter le coeur
+ d'un daedra à son alchimiste
+ __chemist_ de
+ ___chemist_.
+ Cet alchimiste
+ est un =chemist_ nommé
+ _chemist_, et si je peux
+ l'atteindre malgré tous les daedras
+ qui vont essayer de m'arrêter, et que
+ j'y suis dans les =1stparton_ jours,
+ _questgiver_ me donnera
+ ma récompense à mon retour
+ à __questgiver_.
+
+
+Record n�15----------
+Le daedra exhale, "%pcn,
+tu te mêles d'affaires qui sont
+au-delà de ta compréhension.
+Oui, ton nom est désormais
+connu de nous. Et nous ne nous
+arrêterons pas jusqu'à ce que le
+coeur de notre frère soit de
+retour entre nos mains.
+Prépare-toi à accomplir ta destinée,
+mortel...
+
+
+

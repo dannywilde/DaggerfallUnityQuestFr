@@ -1,0 +1,123 @@
+Record n�0----------
+Le Pouvoir est un mot si ravissant, n'est-ce pas ?
+ Il glisse sur la langue comme du miel. Si le pouvoir
+ est votre aphrodisiaque, je serais ravi de
+ vous présenter _artifact_.
+ Tout ce que vous devez faire pour moi en retour,
+ c'est de punir un prêtre parfaitement horrible qui
+ a osé me défier. Ca vous dit ?
+
+
+Record n�1----------
+Que la vérole soit sur vous, %pcn. Comment
+ osez-vous m'appeler et refuser mon
+ offre généreuse? Priez pour que je vous pardonne,
+ %pcf. Sanguin est un
+ ennemi que nul ne devrait avoir.
+
+
+Record n�2----------
+Vous ne le regretterez pas, %pcf,
+ à condition que vous vous acquittiez de
+ votre part du marché. Ce moine puritain
+ n'est pas inoffensif ; =monster_ est son
+ nom et %g il a réduit mes charmants
+ adorateurs en cendres. Allez au temple
+ abandonné où %g se cache,
+ ___mondung_, et arrachez-lui
+ le coeur de la poitrine. Mon
+ agent, _contact_ vous
+ attendra à ___contact_.
+ _contact_ n'aime pas attendre
+ alors accomplissez ce meurtre en
+ =1stparton_ jours ou moins.
+ J'ai le délicieux sentiment que nous nous
+ reverrons, %pcf. Je l'espère.
+
+
+Record n�3----------
+Ce piètre réactionnaire est toujours
+ vivant et vous le savez, %pcf.
+ Ne jouez pas avec Sanguin, %pct.
+ Vous n'aimerez pas les règles.
+
+
+Record n�4----------
+Ravi de vous rencontrer, %pcn.
+ Je suis _contact_. Sanguin
+ doit être plutôt content de vous. Il
+ avait mis de côté _artifact_ pour
+ ses disciples favoris. Et à présent il est
+ à vous. J'espère vous l'apprécierez intensément.
+
+
+Record n�5----------
+Toutes les orgies qui se sont déroulées ont été réprimées par 
+=monster_.
+Il n'y a plus grand chose à faire depuis que =monster_ a incendié 
+les orgies.
+
+Record n�6----------
+=monster_ est parti -- %g chercher des lieux de décadence vers le 
+nord.
+Tout le monde craint de s'amuser, avec des gens tels que =monster_ 
+dans les parages.
+
+Record n�7----------
+Nombreux sont ceux qui se réjouissent de la mort de =monster_. %g 
+ne plaisait qu'à ses semblables.
+Les orgies ont repris maintenant que =monster_ a disparu.
+
+Record n�8----------
+Error: Quest 70c00y00.q tried to display text
+
+Record n�9----------
+
+
+
+Record n�10----------
+Error: Quest 70c00y00.q tried to display text
+
+Record n�11----------
+
+
+
+Record n�12----------
+Sanguin est le Prince Daedra de la Luxure. Tout en excès, c'est sa 
+devise.
+Le Prince Daedra de la Perversité et des Relations Sexuelles 
+Contre-Nature, bien sûr.
+
+Record n�13----------
+Juste un =contact_ sournois au %di d'ici à __contact_.
+_contact_ est le nom d'un vilain =contact_ à __contact_.
+
+Record n�14----------
+La Rose Sanguine invoque un daedra afin qu'il combatte pour 
+vous.
+ C'est au mieux une action risquée.
+
+Le possesseur de la Rose Sanguine est sensé avoir le pouvoir 
+d'invoquer
+ de l'aide du Plan d'Oblivion.
+
+
+Record n�15----------
+=monster_ est mort.
+ Vous espérez que Sanguin
+ sera aux anges.
+
+
+Record n�16----------
+%qdt:
+ Sanguin veut que j'assassine un
+ moine appele =monster_ en échange
+ de _artifact_. Le moine
+ est à ___mondung_ et devra être mort dans
+ =1stparton_ jours ou moins, et je devrai être
+ à ___contact_ dans
+ =1stparton_ jours pour rencontrer _contact_
+ en un endroit appelé __contact_.
+
+
+

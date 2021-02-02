@@ -1,0 +1,91 @@
+Record n�0----------
+Je t'aime bien, gamin. Cette mission n'est
+pas vraiment pour n'importe qui. Il semble
+qu'il y ait un troupeau de carnivores volants --
+des harpies -- qui rendent un groupe de
+marchands itinérants réellement nerveux.
+Voudriez-vous _reward_ pièces d'or pour aller
+à ___mondung_ et jouer des pieds
+et des poings ?
+
+
+Record n�1----------
+Très mauvais. Ca me semblait plutôt être
+un satané marché, assez généreux.
+
+
+Record n�2----------
+Ok alors. Il y a cinq de ces beautés dans
+___mondung_, et elles doivent
+toutes être mortes dans les =1stparton_ jours
+sinon il n'y aura plus de marché. Et un petit
+conseil : vous devez être ici dans =1stparton_ jours,
+mais allez à ___mondung_
+aussi tôt que possible sinon ces harpies vont
+deménager et vous n'aurez plus aucune chance.
+Okay gamin, bonne chance et sort d'ici.
+
+
+Record n�3----------
+Ecoute gamin, je sais que je suis un
+charmeur, mais les harpies attendent,
+alors assures-toi de les avoir toutes
+les cinq, d'accord ?
+
+
+Record n�4----------
+D'accord, gamin, bien joué. Ces _reward_ pièces
+d'or sont pour toi. Pas trop mesquin.
+
+
+Record n�5----------
+Quelqu'un est monté voir à ___mondung_ récemment et il s'est fait 
+mettre en pièces.
+J'espère seulement que ces harpies vont deménager vers le 
+sud.
+
+Record n�6----------
+J'ai entendu dire que les harpies avaient soullie leur nid de 
+___mondung_ et avaient deménage.
+Ces harpies suivent les caravanes de marchands comme un festin 
+ambulant.
+
+Record n�7----------
+Les harpies sont un réel problème économique. Les choses devraient 
+aller mieux maintenant.
+Il paraît qu'ils ont trouvé des milliers et des milliers d'oeufs 
+dans ce nid de harpies.
+
+Record n�8----------
+He ! Le %ra qui a pris
+soin de ces Harpies est de retour.
+
+
+Record n�9----------
+Vous êtes le %ra qui n'a même pas
+pu s'occuper d'une poignée de Harpies. Pathétique !
+
+
+Record n�10----------
+Ca fait cinq. Ca devrait être assez
+pour satisfaire _questgiver_.
+
+
+Record n�11----------
+%qdt :
+ La Guilde des Guerriers de ___questgiver_
+ m'a engagé pour exterminer un nid
+ de harpies qui ont envahi ___mondung_.
+ Je dois tuer au moins cinq d'entre elles
+ et être de retour dans les =1stparton_ jours
+ si je veux recevoir ma récompense.
+
+
+Record n�12----------
+Hé, puisque vous avez été si serviable,
+voici un plan de ___newdung_.
+Vous pouvez tuer et piller tout ce que
+vous pourrez trouver. C'est moi qui offre.
+
+
+

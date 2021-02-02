@@ -1,0 +1,79 @@
+Record n�0----------
+Nous avons un boulot anonyme pour vous.
+Ca arrive tout le temps maintenant, quelqu'un
+nous paye pour faire disparaitre quelqu'un,
+mais n'explique jamais pourquoi, ou souhaite
+même travailler avec un intermédiaire pour
+garder son identité secrète. Quoiqu'il en soit
+ce boulot est pour vous, si vous le voulez.
+
+
+Record n�1----------
+Je ne peux pas vous blâmer de
+ne pas vouloir être mêlé à cela.
+
+
+Record n�2----------
+Allez à _mondung_ de __mondung_.
+Votre cible a une cicatrice sur la joue
+gauche. C'est tout ce que nous savons.
+Soyez de retour dans =1stparton_ jours
+pour toucher votre récompense.
+Que Mephala bénisse votre lame, %pcn.
+
+
+Record n�3----------
+J'ignore qui vous pensez avoir tué,
+mais ce n'était pas la bonne cible.
+Ramenez votre cul à _mondung_
+et faites ce que nous nous sommes
+engagés à faire.
+
+
+Record n�4----------
+Merveilleux, %pcf, vraiment. Cela fait
+monter les larmes à mes yeux fatigués. Une si
+ravissante mission comme je n'en ai jamais
+vue. Je sens que je vais écrire un poème.
+Pourquoi ne prendriez-vous pas vos
+_reward_ pièces d'or pour aller au diable, afin
+que je puisse composer une balade sur cette
+quête. Serieusement, je suis très fier, %pcf.
+
+
+Record n�5----------
+Magnifique temps.
+
+
+Record n�6----------
+Il paraît que le roi a une liaison.
+
+
+Record n�7----------
+Si vous voulez mon avis, les impôts sont trop lourds.
+
+
+Record n�8----------
+Bon travail avec cette mission anonyme.
+
+
+Record n�9----------
+Dommage que vous n'ayez pu accomplir cette mission anonyme. Une 
+tache indélébile dans votre dossier.
+
+
+Record n�10----------
+%qdt :
+ Mon nouveau contrat pour la Confrérie Noire
+ à ___questgiver_ est un individu anonyme à
+ _mondung_, a __mondung_. Je ne
+ pourrai reconnaître la cible que grâce à une
+ cicatrice sur la joue gauche. La mission
+ doit être accomplie dans les =1stparton_ jours.
+
+
+Record n�11----------
+Une récente cicatrice dépare la joue gauche de la cible
+
+
+

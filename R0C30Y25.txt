@@ -1,0 +1,142 @@
+Record n�0----------
+J'ai besoin de quelqu'un pour transporter un certain objet
+à un de mes contacts en ___contact_.
+Vous recevrez un autre objet en retour. Si vous
+me le rapportez, je serai heureux de vous récompenser
+de _reward_ pièces d'or. Etes-vous d'accord ?
+
+
+Record n�1----------
+Non ? Quel dommage. Je m'étais
+préparé à être plutôt généreux.
+
+
+Record n�2----------
+Très bien. Prenez cette barre d'or et apportez-la
+à un certain =contact_ denommé
+_contact_ dans un endroit appelé
+__contact_ en ___contact_.
+Vous devrez vous déplacer rapidement.
+_contact_ n'a pas l'habitude
+de poireauter après les coursiers trainards.
+Très bien, bonne chance à vous, %pcf.
+Je vous veux de retour dans =1stparton_ jours.
+
+
+Record n�3----------
+Veuillez ne pas me déranger une nouvelle fois, à moins que
+vous n'ayez l'objet que je vous avais envoyé chercher.
+
+
+Record n�4----------
+Excellent, %pcf, vous voilà de retour
+avec mon _item2_ enchanté, comme promis.
+J'ai entendu dire que vous avez rencontré des difficultés
+en chemin, et je commencais à craindre que vous ne
+soyez perdu pour nous. En témoignage de ma reconnaissance
+pour un travail bien fait, j'ajoute un _item3_ magique
+aux _reward_ pièces d'or que j'avais initialement promises.
+Je suis sûr que nous ferons à nouveau appel à vos services
+dans un futur proche. Merci.
+
+
+Record n�5----------
+Il y a eu ce =contact_ récemment ici qui demandait si j'avais vu 
+un %ra.
+Il y a peu, un =contact_ recherchait un %ra avec un _item1_.
+
+Record n�6----------
+Bon, _questgiver_ est, j'ai entendu dire, furieux contre un 
+mercenaire %ra.
+_questgiver_ compte toujours sur les mercenaires et j'ai entendu 
+qu'%g avait été grillé.
+
+Record n�7----------
+J'ai entendu que _questgiver_ avait finalement obtenu un _item2_ 
+dont %g avait besoin.
+_questgiver_ chante les louanges d'un certain mercenaire 
+%ra.
+
+Record n�8----------
+Et que puis-je faire pour vous, mon jeune et brave coursier ?
+
+Je serais heureux d'aider mon coursier favori de quelque manière 
+que je puisse.
+
+Record n�9----------
+La livraison était manifestement trop... complexe,
+hein ? Ah, l'insipidité de la jeunesse %ra.
+Laissez-moi maintenant, %pcf.
+
+
+Record n�10----------
+%qdt :
+ _questgiver_ de
+ ___questgiver_ m'a envoyé à
+ un de ses associés, _contact_
+ de __contact_, ___contact_,
+ avec une barre d'or. Je dois avoir remis
+ l'or dans les mains de _contact_ et
+ être de retour à __questgiver_
+ dans =1stparton_ jours pour obtenir mes _reward_ pièces 
+d'or
+ de _questgiver_.
+
+
+Record n�11----------
+Merveilleux, %pcf. J'adore l'or, pas toi ?
+Bon, tu auras ta part une fois que tu auras
+rapporté ce _item2_ particulier
+a _questgiver_.
+J'espère que tu te souviens du chemin
+de retour vers ___questgiver_.
+
+
+Record n�12----------
+_qgenemy_... Je pense qu'%g est de __thievesguild_.
+_qgenemy_? Demandez aux alentours de __thievesguild_. Quelqu'un 
+devrait savoir.
+
+Record n�13----------
+_qgenemy_ est impliqué dans les plus louches affaires de 
+__thievesguild_.
+Essayez _thievesguild_, c'est là où %g passe la plupart de son 
+temps.
+
+
+Record n�14----------
+Comme vous parez l'attaque de votre assaillant,
+vous sentez quelque chose vous effleurer par derrière.
+Vous entrevoyez une silhouette s'enfuir avant que votre
+attention ne soit forcée de revenir à votre lutte pour la 
+vie.
+
+
+Record n�15----------
+=thief_,
+ 
+ La cible est un %ra nomme %pcn,
+ qui transportera un _item2_ de
+ __contact_. Rapportez-moi le
+ _item2_. Le coursier est sans importance,
+ mort ou vif.
+ 
+ _qgenemy_
+
+
+Record n�16----------
+%oth ! Qui êtes-vous et comment êtes-vous entré ?
+Vous devez être ce satané coursier de _questgiver_ !
+Je savais que j'aurais dû demander à =thief_
+de vous tuer. Mon bon coeur m'apportera toujours des 
+ennuis...
+Gardes ! Tuez cet intrus !!
+
+
+Record n�17----------
+Le parchemin décrit l'emplacement de
+Coven of the Tide en Totambu,
+quoi que cela puisse être.
+
+
+

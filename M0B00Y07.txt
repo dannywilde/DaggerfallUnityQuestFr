@@ -1,0 +1,79 @@
+Record n�0----------
+De temps en temps nous avons un idiot comme
+ce client. Ce crétin a laissé sa porte de derrière ouverte
+et un animal sauvage est entré. Il semble plutôt
+embrouillé et ne sait pas s'il s'agit d'un ours ou d'un
+tigre, mais dans les deux cas, ça a voulu le manger.
+Nous avons besoin que vous alliez là-bas pour tuer
+l'animal. Votre salaire habituel est _gold_ pièces d'or.
+Voulez-vous prendre cette mission, %pcn ?
+
+
+Record n�1----------
+Tant pis. Laissons donc le tigre l'avoir.
+Le gars est un fou pour l'avoir d'abord
+laissé entrer, non ?
+
+
+Record n�2----------
+Super. Allez à _house_ en
+__house_. Je vous donne
+=2dung_ jours pour le tuer et revenir à moi.
+
+
+Record n�3----------
+Pas très difficile, je crois ?
+C'est ce que je pensais.
+Voici vos _gold_ pièces d'or.
+
+
+Record n�4----------
+J'ai entendu dire qu'il y avait un tigre 
+coincé dans _house_.
+Le propriétaire va devoir payer pour le faire tuer.
+
+
+Record n�5----------
+N'avez-vous pas tué ce tigre dechainé
+qui était entré dans _house_?
+
+
+Record n�6----------
+Un tigre a tué un pauvre type dans sa
+propre maison. Une terrible tragédie.
+
+
+Record n�7----------
+Bien manoeuvré, avec ce tigre.
+
+
+Record n�8----------
+Les tigres sont des coriaces. Peut-être devrions-nous
+vous faire démarrer par des écureuils. Quel minable.
+
+
+Record n�9----------
+%qdt :
+ _qgiver_ de ___qgiver_ m'a
+ confié la mission de tuer un tigre ou un
+ ours qui est entré dans _house_
+ à __house_. Si je reviens le voir
+ dans les =2dung_ jours, j'aurai _gold_ pièces d'or.
+
+
+Record n�10----------
+Le _monster_ est mort.
+
+
+Record n�11----------
+Le _bear_ est mort.
+
+
+Record n�12----------
+Hé, je m'en souviens maintenant,
+un des membres a trouvé cette
+carte pour ___newdung_.
+Ne tuez pas tout en une seule journée.
+
+
+

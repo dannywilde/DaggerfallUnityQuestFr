@@ -1,0 +1,35 @@
+Record n�0----------
+Démarrer la Quête Finale ?
+
+
+Record n�1----------
+Revenez lorsque vous serez prêt.
+
+
+Record n�2----------
+Désolé pour les problèmes.
+Vous allez être téléporté au
+Mantellan Crux pour la quête finale.
+Comme légère compensation, vous gagnerez
++5 en réputation avec la faction à partir de
+laquelle vous avez démarré cette quête.
+
+
+Record n�3----------
+Démarrage terminé.
+Encore une fois, désolé pour ce problème.
+
+
+Record n�4----------
+
+
+Record n�5----------
+
+
+Record n�6----------
+
+
+Record n�7----------
+
+
+

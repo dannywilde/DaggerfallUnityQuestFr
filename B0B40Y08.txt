@@ -1,0 +1,60 @@
+Record n�0----------
+On m'appelle _qgiver_. J'ai
+un travail à vous proposer si
+vous en cherchez un. Une bande
+d'orques terrorise et pille les
+convois de caravanes de %reg.
+Il faut donc tuer le chef de ces orques.
+En êtes-vous capable ?
+
+
+Record n�1----------
+Mauviette !
+
+
+Record n�2----------
+Les orques ont installé leur base 
+d'opération dans  ___dungeon_.
+Tuez-en un maximum mais soyez
+sûr de tuer leur chef, =monster_.
+Si je ne reçois pas de vos nouvelles
+dans  =2dung_ jours, je vous considérerai
+comme étant mort.
+
+
+Record n�3----------
+La menace que les orques faisaient
+planer sur %reg s'est évaporée.
+Hourra %pcn ! 
+
+
+Record n�4----------
+Les orques de __dungeon_ rendent la vie des marchands de %cn très 
+difficile.
+
+Record n�5----------
+Les orques de ___dungeon_ sont partis piller une autre région. 
+Mais pour combien de temps ?
+
+Record n�6----------
+___dungeon_ a été débarrassée des orques grâce à un %ra.
+
+Record n�7----------
+%qdt:
+ _qgiver_ de
+ ==qgiver_ dans ___qgiver_
+ m'a donné l'occasion de tuer
+ =monster_, le _monster_
+ d'une puissante bande d'orques dans
+ ___dungeon_. Je dispose de  =2dung_
+ jours pour éviter que %reg ne soit 
+ totalement envahi.
+
+
+Record n�8----------
+=monster_ est mort. Ces orques
+ne seront plus jamais une menace
+pour %reg.
+
+
+

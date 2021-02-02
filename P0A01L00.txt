@@ -1,0 +1,108 @@
+Record n�0----------
+Cher %pcn,
+ 
+    Depuis quelques temps, nous te surveillons. En fait,
+ nous te surveillons depuis que la "bénédiction" du 
+ vampirisme t'a été accordée. Tu as vécu des moments
+ déconcertants et difficiles, mais nous ne sommes
+ pas mécontents du vampire que tu es devenu.
+    Le temps est venu pour toi de connaître ton
+ héritage, la fière lignée des %vam,
+ la plus grande des lignées de vampires. Pour
+ nous prouver ta loyauté, cependant, nous te
+ demandons un sacrifice.
+     Il est, près d'ici, un lieu hanté par un membre d'une
+ lignée moins noble. Rend toi à cet endroit, 
+ nomme ___mondung_, et tue =monster_,
+ cette misérable insulte à notre race. Quand tu
+ aura accompli cet acte, va à __questgiver_ en
+ ___questgiver_ et trouve-moi. On me reconnaît
+ aisément : je ressemble à un =questgiver_.
+     J'attendrais =1stparton_ jours,
+ %pcf. Ce délai passé, je m'en irai.
+ J'espère que nous ne nous manquerons pas.
+ 
+ _questgiver_
+
+
+Record n�1----------
+Error: Questtext 1001 Called!
+
+Record n�2----------
+Error: Questtext 1002 Called!
+
+Record n�3----------
+Ecoute, je ne veux pas être dur,
+mais j'attend quelqu'un.
+Alors, fiche-le camp.
+
+
+Record n�4----------
+Excellent, %pcf. Tu feras un
+bon membre des %vam. Bienvenue
+dans la famille. On me connaît sous
+le nom de _questgiver_.
+Les %vam continueront de surveiller
+ta progression, et nous te contacterons
+sans doute de temps en temps pour des
+affaires de familles.
+Voici un anneau qui fait de toi un des nôtres.
+
+
+Record n�5----------
+On dit que ___mondung_ est de nouveau habité par quelqu'un, ou 
+quelque chose.
+Il y a de mystérieux =questgiver_ en __questgiver_.
+
+Record n�6----------
+%god soit loué, ce mystérieux =questgiver_ a quitté 
+__questgiver_.
+Il semblerait que ___mondung_ ait de nouveau été déserté.
+
+Record n�7----------
+Beaucoup de gens se demandent ce qui a pu tuer un _monster_.
+Je me demande si ce  _monster_ a été tué par quelque chose de pire 
+que lui.
+
+Record n�8----------
+Error: Questtext 1008 Called. Not sposed to be.
+
+Record n�9----------
+Error: Questtext 1009 Called. Not sposed to be.
+
+Record n�10----------
+_questgiver_? Jamais entendu parler ! %g vit dans le coin ?
+
+Record n�11----------
+Ce =questgiver_ est le mentor d'une lignée de vampires, les 
+%vam.
+_questgiver_ est un membre fier et efficace de la lignée des 
+%vam.
+
+Record n�12----------
+%qdt: J'ai recu un message
+ d'un membre de ma "famille".
+ Ils m'ont dit de tuer un "un membre
+ d'une lignée inférieure à
+ la nôtre", probablement pas un
+  %vam, dans un lieu nommé
+  ___mondung_.
+ Je dois ensuite aller à ___questgiver_
+ en __questgiver_ et trouver
+ un =questgiver_ du nom
+ de _questgiver_ avant
+ qu'%g ne s'en aille, dans
+ =1stparton_ days.
+
+
+Record n�13----------
+Un enfant décharné et pâle vous
+tend une lettre avant de s'enfuir.
+
+
+Record n�14----------
+Vous avez tué le vampire
+=monster_.
+
+
+

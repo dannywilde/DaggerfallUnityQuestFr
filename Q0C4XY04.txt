@@ -1,0 +1,113 @@
+Record n�0----------
+Une fois encore, ==questgiver_ doit
+faire appel à votre bonté et à vos
+compétences. Nous avons besoin
+d'un coeur de daedra pour nos sorts,
+mais le coeur doit être fraichement
+prélevé, et par vous. Acceptez-vous
+de trouver et de tuer un daedra
+pour vos chères tantes ?
+
+
+Record n�1----------
+Non ? Oh, quelle triste nuit.
+
+
+Record n�2----------
+La Déesse nous sourit, %pcn,
+car il y a non loin d'ici, un donjon qui
+est infesté de daedras. N'importe quel
+coeur de daedra fera l'affaire, sauf celui
+d'un Lord Daedra, car le leur est pourri par
+les vers. Rendez-vous à ___mondung_,
+%pcn, tuez un daedra pour
+nous, et ramenez-nous son coeur
+avant =1stparton_ levers de soleil.
+
+
+Record n�3----------
+Le coeur, %pcn,
+est à ___mondung_
+dans la poitrine d'un daedra.
+Inutile de le chercher ici.
+
+
+Record n�4----------
+Regardez, voyez comme il fume et
+bat encore, dans les mains sanglantes
+de %pcn ! Mettez-le dans
+la soupe saumâtre avant qu'il ne
+refroidisse. Ah, %pcn, prenez
+ce _reward_ pour votre peine.
+Vous êtes bon avec nous autres,
+pauvres sorcières.
+
+
+Record n�5----------
+Les daedras de ___mondung_ doivent être train de préparer quelque 
+chose. Quel rassemblèment !
+%god nous a maudit. Sinon pourquoi les daedras auraient-ils pris 
+___mondung_ ?
+
+
+Record n�6----------
+Loué soit %god, les daedras ont quitté ___mondung_. Je n'ai pas 
+ferme l'oeil depuis des nuits !
+Les daedras ont quitté ___mondung_ aussi mystérieusement qu'ils 
+étaient venus. Bon débarras, voilà ce que je dis.
+
+
+Record n�7----------
+Quand les étoiles s'assombrissent comme la nuit dernière, c'est le 
+signe de la mort d'un daedra.
+Avez-vous entendu cette musique dans les bois la nuit dernière ? 
+Les sorcières devaient faire la fête.
+
+
+Record n�8----------
+Ami de ==questgiver_, comment allez-vous, avec votre _reward_?
+
+
+
+Record n�9----------
+Nous espérions un coeur pour notre
+ragoût, %pcf. Si vous étiez
+trop occupé, vous auriez du nous le dire.
+Certains plans, qui avaient été élaborés
+contre nous, devaient être détruits.
+Vous êtes notre ami, mais tout de
+même... nous sommes attristées.
+
+
+Record n�10----------
+_questgiver_ est une =questgiver_ et une des ==questgiver_.
+C'est une des sorcières qui s'est installée à %reg.
+
+
+Record n�11----------
+Il paraît que ___mondung_ est un repaire de vampires.
+Les créatures de la nuit vivent à ___mondung_. Ils ne sortent 
+jamais durant le jour.
+___mondung_ ? Est-ce que ce n'est pas cette forteresse des orcs ?
+
+Les mort-vivants errent dans les couloirs de ___mondung_. Je ne 
+m'en approcherais pas.
+
+
+Record n�12----------
+%qdt:
+ _questgiver_ de
+ ==questgiver_ m'a envoyé à
+ ___mondung_ pour prendre le coeur
+ d'un daedra de n'importe quel séductrice, daedra,
+ daedra de feu ou de froid que je croiserai.
+ Je dois ramener le coeur à ___questgiver_
+ dans =1stparton_ jours ou moins.
+
+
+Record n�13----------
+Vous extirpez un coeur impeccable
+depuis le cadavre encore gigotant.
+
+
+

@@ -1,0 +1,77 @@
+Record n�0----------
+Je m'appelle _questgiver_.
+Nous avons besoin d'un membre
+pour éliminer un diablotin.
+Etes-vous volontaire ?
+Vous serez rémunéré _gold_ pièces d'or.
+
+
+Record n�1----------
+Dommage.
+
+Pitoyable.
+
+Je vois. Baladez-vous ailleurs
+dans ce cas, %pcn.
+
+
+Record n�2----------
+Bonne attitude %pcn. J'ai oublié de
+vous préciser quelque chose.
+Ce diablotin est le familier d'un
+mage très influent. Il semblerait
+que ce diablotin soit pris dans un sort
+maléfique et qu'il se soit doté de certains
+pouvoirs.Vous pourrez trouver
+la créature au _palace_ de
+__palace_. Visiblement, le diablotin
+croit qu'il peut imposer sa loi.
+Si vous ne revenez pas dans moins de
+=traveltime_ jours, vous serez supposé mort.
+
+
+Record n�3----------
+C'était facile, non ? Vous avez
+bien mérité votre argent.
+
+
+Record n�4----------
+Il s'est passé quelque chose au _palace_ de __palace_. Quelque 
+chose de bizarre.
+Tous les habitants de __palace_ se demandent ce qui se passe dans 
+le _palace_ là-bas.
+
+Record n�5----------
+Une sorte de créature s'est envolée du _palace_ de __palace_ et 
+s'est dirigée vers le Sud.
+
+Record n�6----------
+Merci,  %god ! Ce mercenaire %ra est allé dans __palace_ pour tuer 
+le diablotin.
+Ce diablotin aurait pu causer beaucoup plus dommages dans 
+__palace_ si ce %ra n'avait pas aidé.
+
+Record n�7----------
+Je ne vous ai pas oublié, %pcf. Vous êtes le %ra qui s'est occupé 
+de ce foutu diablotin.
+
+Record n�8----------
+__palace_ est quasiment détruit
+par le diablotin et vous n'avez rien
+fait pour l'empêcher. En ce qui
+me concerne, je ne vous respecte
+plus, %pcf.
+
+
+Record n�9----------
+%qdt :
+ _questgiver_ de la Guilde des Mages
+ de ___questgiver_ m'a chargé de
+ me débarrasser d'un diablotin.
+ La bête se terre dans _palace_
+ de __palace_.
+ Je dispose de =traveltime_ jours
+ pour réussir.
+
+
+

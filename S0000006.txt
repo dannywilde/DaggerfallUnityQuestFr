@@ -1,0 +1,145 @@
+Record n�0----------
+Bonjour, %pcf. Je suis Elysana,
+enfant du Roi Eadwyre et héritière de Wayrest.
+Peut-être pourriez-vous m'aider à sortir d'une
+fâcheuse situation. Le doyen du Conseil des Anciens,
+Lord Castellian, un bon ami de mon père, a
+quitté la cour pour partir en vacances et j'ai
+oublié de lui rendre un manteau que je lui avais
+emprunté. Si cela ne vous ennuie pas trop,
+voudriez-vous le lui rapporter a
+___casfort_ ? Je pourrais vous offrir
+un magnifique _jewelry_ comme paiement.
+
+
+Record n�1----------
+Non ? Oh, %oth.
+
+
+Record n�2----------
+Comme c'est gentil de votre part d'aider
+une fille stupide telle que moi. Voici la robe.
+Maintenant, il est très important que Lord
+Castellian ait la robe rapidement. Il est dans
+l'une de ses maisons, _casfort_
+à ___casfort_. Lord Castellian ne devrait pas
+être trop difficile à trouver, renseignez-vous aux
+alentours sur lui ou sur _casfort_ et
+donnez-lui la robe. J'apprécie vraiment cela,
+%pcf. Cela ne devrait vraiment pas vous
+prendre plus de =queston_ jours pour aller
+à ___casfort_ et revenir, nous nous
+reverrons alors.
+
+
+Record n�3----------
+Je sais que Lord Castellian n'a pas encore
+sa robe, et il n'est pas un homme patient.
+
+
+Record n�4----------
+Oh, comme vous êtes merveilleux. Voilà, laissez-moi
+vous donner le _jewelry_ que je vous ai promis. J'espère
+que Lord Castellian apprécie le travail supplémentaire que
+j'ai apporté à la robe. Elle attire réellement l'attention
+maintenant. Laissez-moi vous donner quelque chose
+de plus que le _jewelry_, %pcf. Mon père s'intéresse
+énormément à une certaine relique ancienne
+appelée le Totem de Tiber Septim. Il possède des
+espions partout pour le chercher. Quand ils le
+trouveront, mon père aura besoin de quelqu'un pour
+le protéger. Bien évidemment, celui qui aura été choisi
+sera fabuleusement bien récompensé. Je lui donnerai
+votre nom. C'est le moins que je puisse faire.
+
+
+Record n�5----------
+Lord Castellian soutient la législation qui fera de Helseth 
+l'héritier naturel.
+La Princesse Elysana n'a plus les faveurs du doyen du Conseil des 
+Anciens.
+
+
+Record n�6----------
+Lord Castellian a quitté _casfort_ pour retourner à Castle 
+Wayrest. Les vacances sont terminées.
+La Princesse Elysana n'a pas l'air contente que Lord Castellian 
+soit revenu de vacances.
+
+
+Record n�7----------
+Lord Castellian a disparu de _casfort_ ou il passait ses 
+vacances.
+Le Roi Eadwyre suspecte un mauvais coup pour la disparition de 
+Lord Castellian.
+
+
+Record n�8----------
+Magnifiques robes. Elles n'ont rien de particulièrement 
+inhabituel.
+Excellent travail. Quelqu'un a mis beaucoup de coeur dans la 
+broderie.
+
+
+Record n�9----------
+Une sorte d'incantation daedrique a été appliquée à l'habit.
+Un rituel d'invocation de daedra a été appliqué à cette 
+robe.
+
+
+Record n�10----------
+%qdt :
+ La Princesse Elysana m'a demandé d'apporter
+ une robe au doyen du Conseil des Anciens de
+ Wayrest, Lord Castellian dans son manoir
+ de ___casfort_, _casfort_.
+ Je dois être revenu à Castle Wayrest
+ dans =queston_ jours.
+
+
+Record n�11----------
+Idiot ! Une âme manipulatrice
+vous a donné une robe qui
+m'a invoqué pour vous tuer.
+Comme c'est délicieux !
+
+
+Record n�12----------
+Mort au traitre qui a
+assassiné Lord Castellian !
+
+Vous allez payer pour
+avoir tué mon seigneur.
+
+Assassin ! Lord Castellian était le
+meilleur des hommes. Vous allez
+mourir pour ce que vous avez fait.
+
+
+Record n�13----------
+"Un présent de Lady Elysana.
+Merci, %pcn. Il me va
+comme un gant."
+ 
+Vous entendez un son strident, comme
+si le tissu de la réalité se déchirait.
+
+
+Record n�14----------
+Quittez cet endroit, insignifiant %ra.
+Nous sommes venus réclamer Lord
+Castellian. Vous avez accompli votre
+part en lui livrant le funeste linceul
+qui nous a invoqués.
+
+
+Record n�15----------
+Lord Castellian est le plus puissant membre du conseil de 
+Wayrest.
+On dit que la Princesse Elysana n'aime pas trop Lord 
+Castellian.
+Lord Castellian ne cache pas son désir d'epouser la Princesse 
+Elysana.
+
+
+

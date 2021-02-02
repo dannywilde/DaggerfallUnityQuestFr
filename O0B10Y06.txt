@@ -1,0 +1,62 @@
+Record n�0----------
+Voici quek' chose pour vous.
+Un casse de bijouterie à faire.
+Vous voulez vous en charger ?
+Paie standard de la guilde,
+_gold_ pièces d'or.
+
+
+Record n�1----------
+A plus. J'dois trouver un membre
+de la guilde qui veut ce boulot.
+
+
+Record n�2----------
+%oth, sacrément génial.
+Allez à _mansion_
+dans __mansion_.
+Trouvez le _jewelry_ et ramenez-le
+ici. Gardez un oeil ouvert. Il paraît
+qu'il y a une sorte de gardien
+dans le dépôt.
+
+
+Record n�3----------
+Bon travail %pcn.
+Voici votre récompense de la guilde.
+
+
+Record n�4----------
+Ils disent que _mansion_ est impénétrable.
+
+Record n�5----------
+Quelqu'un a essayé de s'introduire dans _mansion_, mais il n'a pas 
+réussi.
+
+Record n�6----------
+_mansion_ a été cambriolé. Cela semble inimaginable.
+Si même _mansion_ peut être cambriolé, alors aucun endroit n'est 
+sûr.
+
+Record n�7----------
+Comment allez-vous, %pcf ? Vous n'avez pas déjà dépensé les _gold_ 
+pièces d'or, quand même ?
+
+Record n�8----------
+%oth, c'est vous. Le propriétaire de
+_mansion_ a déjà mis le
+_jewelry_ autre part, donc toute l'affaire
+tombe à l'eau. Merci beaucoup pour
+ce soit-disant admirable travail.
+
+
+Record n�9----------
+%qdt :
+ _qgiver_ de ___qgiver_
+ m'a demandé de dérober le _jewelry_
+ à _mansion_
+ à ___mansion_. Je n'ai que
+ =traveltime_ jours pour le lui ramener.
+
+
+

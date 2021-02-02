@@ -1,0 +1,109 @@
+Record n�0----------
+%pcf, I got a job for you if
+ you're interested.  A little
+ package needs delivering
+ to ___contact1_.
+ What do you say?
+
+
+Record n�1----------
+Don't do me any favors, pal.
+
+
+Record n�2----------
+Great.  Here's the package, some
+ _drugs_.  It needs to be in
+ ___contact1_ as soon as
+ possible.  _contact1_ will
+ meet you there in __contact1_.
+ Be careful.  If word of this
+ shipment leaks out, we may
+ have a bit of trouble with some
+ freelance smugglers who think
+ they own the business in %reg.
+
+
+Record n�3----------
+Didn't I say "as soon as possible"?
+
+
+Record n�4----------
+I'm glad you made it through.  These
+ amateurs don't stand a chance against
+ our organization.  Here's _gold_ gold
+ for your services.  Good work.
+
+
+Record n�5----------
+I hear the Thieves Guild is having some trouble with an
+ upstart smuggling ring.
+
+
+Record n�6----------
+It looks like the Thieves Guild is going to have to give
+ up its monopoly on smuggling in %reg.
+
+
+Record n�7----------
+The Thieves Guild seems to have quashed those rival 
+smugglers
+ that were giving them trouble.
+
+
+Record n�8----------
+Hey, good old %pcn, I remember you.  My reliable courier.
+
+
+Record n�9----------
+So, the smuggler who can't deliver the goods returns.  What do you 
+want?
+
+
+Record n�10----------
+%qdt:
+ I am on my way to ___contact1_
+ with a shipment of _drugs_
+ for _contact1_, who will
+ meet me in __contact1_.
+ I was warned to watch out
+ for thugs from a rival smuggling
+ ring.
+
+
+Record n�11----------
+%qdt:
+ I just got a note from _contact1_
+ saying %g was unable to meet me in
+ ___contact1_.  %g told me to
+ go to ___contact2_ instead,
+ and deliver the shipment to a
+ =contact2_ in __contact2_.
+
+
+Record n�12----------
+%pcn --
+ 
+ Sorry I couldn't meet you in ___contact1_
+ as planned.  The heat got too intense for me
+ to wait around.  I've arranged an alternate
+ drop in ___contact2_.  Look for a =contact2_
+ waiting for you in __contact2_.
+ 
+ Watch your back,
+ 
+ _contact1_
+
+
+Record n�13----------
+A small, dirty boy tugs on your sleeve.
+ He hands you a scrap of paper then
+ dashes off down an alley.
+
+
+Record n�14----------
+When are you Thieves Guild thugs going
+ to learn that we control the _drugs_
+ business around %reg?
+
+
+

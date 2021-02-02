@@ -1,0 +1,144 @@
+Record n�0----------
+Mon nom est _questgiver_.
+J'ai une mission facile. Si vous
+pouviez vous organiser pour livrer
+un objet à l'un de mes amis, je vous en
+serais reconnaissant et vous donnerai
+en échange _gold_ pièces d'or.
+Qu'en dites-vous, %pcf ?
+
+S'lut, j'suis _questgiver_.
+J'ai besoin que quelqu'un dépose
+un objet pour moi. C'est just' une p'tite
+course en ville, mais j'suis trop occupé
+pour le moment. Il y a _gold_ pièces
+à gagner.
+
+
+Record n�1----------
+Dommage.
+
+Vous n'avez pas besoin
+de vous vanter de cela !
+
+Je vais devoir trouver quelqu'un
+acceptant de travailler pour vivre.
+ 
+
+Record n�2----------
+Génial ! Voici le colis. Emmenez-le
+à _pickuplocal_ ici en ville.
+%g vous paiera. %g en a besoin
+là-bas demain à cette heure.
+
+Enfin quelqu'un souhaitant
+travailler pour vivre ! Amenez simplement
+ceci à _pickuplocal_ ici en ville.
+%g vous donnera les _gold_ pièces d'or.
+Amenez-le pour demain à cette même heure.
+
+
+Record n�3----------
+J'avais bien espéré que _questgiver_
+serait capable de m'amener ceci à temps.
+%g a été tellement occupé ces temps-ci.
+Voici les _gold_ pièces d'or qu'%g vous a promises.
+
+
+Record n�4----------
+Généralement, le temps est pourri
+à cette époque de l'année.
+
+
+Record n�5----------
+J'ai entendu dire que la reine avait une liaison !
+
+
+Record n�6----------
+Tous les %ra sont-ils des fouineurs ?
+
+
+Record n�7----------
+Merci d'avoir livré ce colis
+pour moi %pcf.
+
+
+Record n�8----------
+Voleur ! Vous avez pris mon colis et
+_pickuplocal_ ne l'a jamais eu.
+Je ne vous aiderai jamais.
+
+
+Record n�9----------
+%qdt :
+ _questgiver_ de ___questgiver_
+ m'a chargé de livrer un colis
+ à _pickuplocal_, de ___pickuplocal_ également.
+ Je devrai avoir livré le colis demain à cette heure.
+
+
+Record n�10----------
+Ce livre a une valeur sentimentale.
+_pickuplocal_ n'a pas vu
+d'exemplaire de _book_
+depuis des années.
+
+
+Record n�11----------
+_pickuplocal_ a besoin de
+ce _ingredient_ pour une
+infusion spéciale qu'%g prépare.
+
+
+Record n�12----------
+Ce _jewelry_ est un cadeau
+à _pickuplocal_ qui
+scellera mon accord avec %g2.
+
+
+Record n�13----------
+Ceci est un _mensclothing_ spécial
+que ma mère a fait pour _pickuplocal_
+pour la célébration.
+
+
+Record n�14----------
+_pickuplocal_ a commissionné
+ce tableau _painting_.
+Il faut qu'il soit là-bas pour son
+assemblée demain.
+
+
+Record n�15----------
+_pickuplocal_ a besoin de ce
+_potion_ aussi tôt que possible.
+
+
+Record n�16----------
+_pickuplocal_ a été menacé.
+Ce _weapon_ devrait apaiser
+ses craintes.
+
+
+Record n�17----------
+J'ai acheté cette délicate _womensclothing_
+pour le mariage de _pickuplocal_.
+Ce serait affreusement embarassant
+si elle n'arrivait pas à temps.
+
+
+Record n�18----------
+Qu'est-ce que vous voulez ? _questgiver_ ?
+Oui, %g a promis d'expédier un colis aujourd'hui.
+Si vous allez %g2 trouver, %g devrait même
+vous payer pour me l'apporter.
+
+
+Record n�19----------
+J'ai surpris _questgiver_ en train
+de vous dire qu'%g vous paierait pour
+livrer le colis. Donnez-le moi sans faire
+d'histoires et je ne vous ferai pas de mal.
+
+
+

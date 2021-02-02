@@ -1,0 +1,62 @@
+Record n�0----------
+J'ai un boulot. Travail ordinaire de la
+guilde. Valant _gold_ pièces d'or. Juste la
+récompense classique de la guilde. Interessé ?
+
+
+Record n�1----------
+Pas trop bon pour vous, %pcn.
+
+
+Record n�2----------
+Allez à __mansion_.
+Trouvez _mansion_.
+Il y a un livre rare à l'intérieur, intitule
+_book_. Ramenez-le-moi
+en moins de =traveltime_ jours, et je
+vous paierai. Plutôt simple, hein ?
+
+
+Record n�3----------
+Ah. %oth. Voilà votre récompense
+de la guilde. Peut-être qu'un jour nous
+travaillerons de nouveau ensemble.
+
+
+Record n�4----------
+Un collectionneur de __mansion_ vient d'acheter un rare exemplaire 
+de _book_.
+
+Record n�5----------
+La sécurité à _mansion_ n'était pas très bien assurée, alors ils 
+ont déplacé les objets de valeur.
+
+Record n�6----------
+Cet exemplaire de _book_ qui a été volé à _mansion_ était 
+irremplaçable.
+
+Record n�7----------
+Oh, salut, %pcf. Bon travail pour le livre, si je ne vous l'avais 
+pas déjà dit.
+
+Record n�8----------
+Ne cherchez pas d'excuses, %pcf.
+Je vous ai dit où trouver le livre et de vous
+depêcher, mais vous ne l'avez pas fait.
+Maintenant c'est trop tard, et je suis fatigué.
+Alors, soyez un bon %ra et foutez le
+camp, voulez-vous ?
+
+
+Record n�9----------
+%qdt :
+ Un membre de la Guilde des Voleurs de
+ ___qgiver_ m'a offert comme travail
+ de voler un livre, _book_
+ de _mansion_ à
+ __mansion_. J'ai
+ =traveltime_ jours pour le prendre
+ et le donner à _qgiver_.
+
+
+

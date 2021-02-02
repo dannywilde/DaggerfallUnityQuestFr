@@ -1,0 +1,80 @@
+Record n�0----------
+Si vous êtes disponible pour une mission, il
+ se pourrait que j'aie un travail pour vous. C'est une
+ affaire un peu compromettante, qui implique de punir
+ un voleur. Il y aura _reward_ pièces d'or en récompense.
+ Vous pensez que cela pourrait vous intéresser ?
+
+
+Record n�1----------
+Décevant. Bien, nous trouverons
+ quelqu'un d'autre, sans aucun doute.
+
+
+Record n�2----------
+Il est rare que nous nous fassions justice dans
+ nos affaires, mais dans le cas présent, nous
+ pensons que c'est justifié. Ce voleur, voyez-vous, a
+ volé directement dans l'une de nos caravanes et
+ nous rançonne pour l'utilisation de la grand route.
+ Très énervant. Vous trouverez le petit escroc
+ dans une cachette appelée ___mondung_.
+ Soyez de retour dans =1stparton_ jours.
+
+
+Record n�3----------
+Vous feriez mieux de vous remuer, %pcf.
+ Vous n'avez que =1stparton_ jours
+ pour tuer cet escroc.
+
+
+Record n�4----------
+Très bon travail, %pcf.
+ Cela devrait décourager d'autres
+ bandits. Voici vos _reward_
+ pièces d'or. Merci.
+
+
+Record n�5----------
+A lui tout seul, ce bandit est en train de ruiner 
+l'économie.
+Ils pensent que ce bandit de grands chemins est un voleur,
+ mais le malfaiteur est très habile avec une épée.
+
+
+Record n�6----------
+Ce bandit est parti vers une autre cachette, mais les routes ne 
+sont toujours pas sûres.
+Je ne comprends pas pourquoi ils ne parviennent pas a arrêter ce 
+bandit de grands chemins. Ca devrait être facile.
+
+Record n�7----------
+Les marchants sont plutôt contents d'avoir finalement attrapé ce 
+voleur.
+Je me fiche qu'ils aient attrapé ce criminel. Les routes ne sont 
+pas plus sûres pour autant.
+
+Record n�8----------
+Bien sûr que je vais discuter avec vous, %pcf. Je me rappelle ces 
+bandits que vous avez tués.
+
+Record n�9----------
+La Résolution continue de se faire dérober son or par ces bandits 
+de grands chemins. Pas très amusant.
+
+Record n�10----------
+Vous devez être envoyé par la Résolution.
+ Préparez-vous à mourir, chasseur de prime !
+
+
+Record n�11----------
+%qdt:
+ La Résolution de Zenithar
+ m'a envoyé tuer un voleur qui a rançonné
+ leurs caravanes. ___mondung_ est
+ le repaire de cet escroc. Je dois
+ tuer le voleur et être de retour
+ à ___questgiver_ dans =1stparton_ jours.
+
+
+

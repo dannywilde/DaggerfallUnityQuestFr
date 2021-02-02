@@ -1,0 +1,102 @@
+Record n�0----------
+Mon cousin, _qgfriend_,
+a fait appel à moi pour l'aider dans une
+situation plutôt désagréable.
+Il apparait qu'il y a un... temple
+d'une espèce d'entite sacrée,
+si c'est la phrase appropriée pour
+ces dégoutantes activités d'orcs.
+Bon, manifestement, nous devons
+l'écraser avant que cela ne prenne trop
+d'importance. Je suis disposé
+à aller jusqu'à _reward_ pièce d'or.
+Puis-je compter sur votre aide, %pcf ?
+
+
+
+Record n�1----------
+Qu'êtes-vous donc, une sorte
+d'ami des orcs ? %oth,
+Hors de ma vue !
+
+
+Record n�2----------
+D'avance je vous remercie pour cela, %pcf.
+Ce que je crois être la meilleure utilisation
+de vos capacités serait d'infiltrer ___mondung_
+et d'éliminer le soi-disant chaman de ce temple.
+Si nous pouvons le tuer avant notre assaut
+dans =1stparton_ jours, cela rendrait notre travail
+plus facile. Lorsque le contrat sera rempli, faites
+votre rapport au palais de mon cousin
+à ___qgfriend_.
+%g est celui qui vous payera pour tout cela.
+
+
+Record n�3----------
+Vous feriez mieux de vous mettre en route
+pour ___mondung_, %pcf.
+Le plan a déjà débuté,
+et nous comptons sur vous.
+
+
+Record n�4----------
+Félicitations, %pcf. Travail
+de première qualité avec ce chaman puant
+et rance. Quelle audace ils ont eu de
+monter un de leurs temples cannibales sur ces terres !
+Maintenant, il devrait être facile de negocier
+avec la populace sans leur chef. Voici vos
+_reward_ pièces d'or. Retournez à votre errance.
+
+
+Record n�5----------
+Il y a une communauté d'orcs à ___mondung_ qui dérange  
+_qgfriend_.
+___mondung_ était, je crois, un temple orcs, il y a des années. 
+Maintenant ils le font revivre.
+
+Record n�6----------
+La communauté des orcs toute entière a essuyé la colère de 
+_qgfriend_, et elle est partie ailleurs.
+Pauvre _qgfriend_, il n'a pas vraiment eu sa revanche sur les orcs 
+dans ___mondung_.
+
+Record n�7----------
+Cela apprendra à ces cannibales dégénérés à face de porc à venir 
+en %reg.
+%god bénisse _qgfriend_ et _questgiver_ et cet soldat %ra 
+inconnu.
+
+Record n�8----------
+Vous n'avez pas entendu une bonne blague orc dernièrement ? Mon 
+cousin m'a dit quel bon boulot vous aviez fait.
+Mon cousin a été fortement impressionné par votre travail avec ce 
+chaman orc, mon ami.
+
+Record n�9----------
+Mon cousin dit que vous n'avez pas
+tué ce chaman orc en fin de compte.
+Cela ne m'intéresse pas de continuer
+à parler de ce sujet.
+
+
+Record n�10----------
+=qgfriend_, non ? Un possible allié de _questgiver_ pour un 
+problème avec les orcs.
+_qgfriend_ est un violent bigot lorsque l'on parle des orcs.
+
+Record n�11----------
+Vous avez tué le chaman orc.
+
+
+Record n�12----------
+%qdt :
+ J'ai =1stparton_ jours pour assassiner un chaman orc
+ à ___mondung_, puis aller au palais
+ de _qgfriend_ à ___qgfriend_. %g
+ me payera mes _reward_ pièces d'or
+ pour la mort du chaman.
+
+
+

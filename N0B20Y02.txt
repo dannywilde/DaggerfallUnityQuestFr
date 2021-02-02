@@ -1,0 +1,132 @@
+Record n�0----------
+Bonjour, je m'appelle _qgiver_ et je suis
+le serviteur du puissant _sleepingmage_.
+J'ai pour mission de trouver des
+membres de la guilde pour assurer
+sa protection pendant qu'il récite son
+incantation. _sleepingmage_ pense qu'un
+de ses rivaux pourrait engager
+des assassins pour le tuer
+alors qu'il est sans défense.
+Il vous donnera un _magicitem_
+magique si les assassins ne remplissent
+pas leur tâche. Acceptez-vous ?
+
+C'est un très grand honneur, mon
+cher %pcf d'avoir été choisi
+pour assurer la protection du célèbre
+_sleepingmage_, qui devrait vous
+être familier, je crois.
+Oui,  il vous a personnellement choisi
+pour le protéger pendant qu'il
+est en transe. Bien sûr, un mage de
+son importance a des ennemis
+extrêmement jaloux de son
+enorme puissance. Etes-vous
+l'homme de la situation ?
+
+
+Record n�1----------
+Je vois. Nos membres sont
+généralement plus aimables. Je suis
+persuadé que  _sleepingmage_ saura
+s'en souvenir.
+
+
+Record n�2----------
+Excellent !  _sleepingmage_
+vient tout juste d'entrer dans ses trois
+heures de transe. Ainsi vous devez garder
+_magesguild_ pendant
+ce temps et le protéger car il est très
+vulnérable. Sa transe terminée, il sera
+tranporté jusqu'à l'Aetherius.
+Une fois en sécurité, la Guilde enverra
+quelqu'un avec votre récompense.
+
+
+Record n�3----------
+Une jeune femme vêtue de bleu
+apparait juste devant vous.
+
+"La Guilde vous complimente pour avoir
+mené à bien ce  travail. _sleepingmage_
+est très satisfait. Voici le _magicitem_
+magique qui vous a été promis."
+
+
+Record n�4----------
+_sleepingmage_ est une légende à ___sleepingmage_.
+_sleepingmage_ se repose toujours après avoir utilisé un sort très 
+puissant.
+
+Record n�5----------
+Quelque chose est arrivé à  _sleepingmage_ pendant qu'il dormait. 
+Je crois qu'il est décédé.
+_sleepingmage_ a disparu. Personne ne sait s'il est mort ou 
+vivant.
+
+Record n�6----------
+_sleepingmage_ se réveille, bien reposé après être resté en transe 
+durant 3 heures.
+_sleepingmage_ a été attaqué pendant qu'il dormait, mais  il a été 
+defendu par un garde.
+
+Record n�7----------
+Je suis heureux de vous aider, car vous avez assuré la protection 
+de _sleepingmage_.
+
+Record n�8----------
+_sleepingmage_ a disparu
+alors que vous étiez de garde, %pcf.
+Par conséquent,  je n'ai rien à vous dire,
+du moins rien d'aimable.
+
+
+Record n�9----------
+%qdt : J'ai accepté d'assurer
+ la protection de  _sleepingmage_ à
+ _magesguild_  pendant qu'il
+ reste en transe. Je dois le garder
+ pendant 3 heures,
+ à partir de maintenant.
+
+
+Record n�10----------
+Reste à l'écart, misérable !
+Nous sommes venus tuer _sleepingmage_
+avant qu'il puisse se réveiller. Un geste,
+et nous nous occupons aussi de toi !
+
+
+Record n�11----------
+Abruti ! Vous devriez savoir
+mieux que personne qu'il ne faut
+jamais déranger un mage pendant
+sa transe.
+Vous allez payer pour cela !
+Quittez cet endroit immédiatement
+et sachez que je ferai
+personnellement un rapport sur vous.
+
+
+Record n�12----------
+Si vous me tuez, vous serez
+renvoyé de la Guilde de Mages !
+Arrêtez maintenant ou vous
+en subirez les conséquences.
+
+
+Record n�13----------
+Je réclame personnellement
+la prime de la Guilde des Mages
+pour avoir tué _sleepingmage_.
+
+
+Record n�14----------
+Prévenez l'Archimage ! Ce
+%ra assassin a tué _sleepingmage_!
+Fermez les portes ! Aux armes ! Aux armes !
+
+
+

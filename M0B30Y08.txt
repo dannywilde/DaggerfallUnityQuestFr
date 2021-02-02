@@ -1,0 +1,81 @@
+Record n�0----------
+Un peu de querelles familiales, %pcf.
+Il semble que cette femme de __house_
+ait demandé que quelqu'un la débarrasse de la
+présence de son mari. Le seul problème est qu'il
+est mort. Vous voulez vous en occuper ?
+
+
+Record n�1----------
+Dommage. Normalement seuls les temples
+s'occupent de travaux comme celui-ci. Vous avez
+laisse passer un bon plan %pcn.
+
+
+Record n�2----------
+Son mari est un zombie. Il se cache quelque
+part durant la journée. Elle ne l'a jamais revu
+à _house_ depuis. La nuit, il traine dans
+le coin. Délivrez-le de ses souffrances et
+soyez de retour ici dans les =2dung_ jours,
+et cela vous vaudra _gold_ pièces d'or.
+
+
+Record n�3----------
+Est-ce que le vieil homme puait autant qu'ils
+le disent ? Comme un tiroir de slips laissé sous
+la pluie pendant un mois. Bien, voici votre
+paie, %pcn.
+
+
+Record n�4----------
+Vous êtes au courant ? Une vieille bonne-femme
+raconte que son mari est revenu de la tombe
+pour la hanter.
+
+
+Record n�5----------
+Ils ont trouvé une femme morte dans sa maison.
+Le corps putréfié de son mari mort de longue
+date a été trouvé près d'elle.
+
+
+Record n�6----------
+J'ai entendu dire que la Guilde des Guerriers
+avait envoyé un dur s'occuper de ce zombie.
+Ce sont des bons, à la Guilde.
+
+
+Record n�7----------
+C'était du bon boulot, avec ce zombie, %pcn.
+
+
+Record n�8----------
+Le zombie, c'était trop dur pour vous, hein ?
+Vous n'auriez jamais dû accepter un job
+que vous ne pouvez pas effectuer.
+
+
+Record n�9----------
+%qdt :
+ La Guilde des Guerriers de ___qgiver_
+ m'a engagé pour débarrasser _house_
+ à __house_ d'un zombie qui hante les lieux.
+ J'ai =2dung_ jours pour finir le travail.
+
+
+Record n�10----------
+Le _monster_ est mort.
+Sa femme peut dormir en paix.
+
+
+Record n�11----------
+He %pcf, si vous pensez que
+tuer des zombies était amusant, prenez
+cette carte vers un trou infesté de monstres
+appelé ___newdung_.
+Ca devrait être des vacances pour
+un %ra tel que vous.
+
+
+

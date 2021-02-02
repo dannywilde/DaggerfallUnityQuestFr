@@ -1,0 +1,128 @@
+Record n�0----------
+Si cela ne vous dérangeait pas de
+me faire une petite faveur, je pourrais
+mettre en votre possession une excellente
+récompense, _artifact_.
+J'ai un enfant, apparemment
+malheureux malgré toutes les
+bénédictions que je lui ai données, qui
+a besoin... quel est l'euphémisme ?
+Qu'on lui donne une leçon ? Une leçon
+tres sévère. Cela vous semble-t-il être
+un contrat acceptable, %pct?
+
+
+Record n�1----------
+Je suis profondement déçu, %pct.
+
+Rarement suis-je invoqué, encore plus rares sont
+les occasions où je suis libre de répondre
+à une invocation. Pour être tout-a-fait
+direct, ceci était une perte de mon
+si précieux temps.
+
+
+Record n�2----------
+Ah, bien. Un de mes enfants est un
+sanglier-garou qui a établi son repaire
+en un lieu appelé ___mondung_.
+Nous ne devriez pas avoir de problème pour le
+trouver. Après l'avoir délivré de son évident
+supplice, ce qui ne devrait pas prendre plus
+de =1stparton_ jours, allez à un
+endroit appelé __contact_ à ___contact_
+et cherchez une personne appelée _contact_.
+Si vous parvenez là-bas dans les =1stparton_
+prochains jours en ayant tué le sanglier-garou,
+%g vous donnera _artifact_.
+Un plaisir de traiter avec vous,
+%pct. Bonne chance et adieu.
+
+
+Record n�3----------
+Ecoutez, %pcf, vous et moi
+nous savons que le sanglier-garou
+respire toujours. Un contrat est
+un contrat.
+
+
+Record n�4----------
+Bonjour, %pcf. Vous avez réussi.
+Vous avez impressionné Hircine,
+ce qui n'est pas chose facile.
+Voici le _artifact_ qui vous était
+promis. Faites attention à vous.
+
+
+Record n�5----------
+D'horribles cris et grognements s'échappent de ___mondung_, au %di 
+d'ici.
+Il paraît qu'il y a une sorte de créature folle mi-cochon à 
+___mondung_ vers le %di.
+
+
+Record n�6----------
+Cette sorte de porc qui était ici s'est enfuit vers le nord, comme 
+si quelque chose en avait après lui.
+J'me demande ce qui pourrait effrayer un sanglier-garou, pour le 
+faire fuir ainsi.
+
+
+Record n�7----------
+Plutot calme du côté de ___mondung_, ces derniers temps.
+J'me demande ce qui est arrivé à cette sorte de porc qui trainait 
+habituellement dans les environs.
+
+
+Record n�8----------
+Error: x0c00y00.q tried to display text
+
+
+Record n�9----------
+.
+
+
+Record n�10----------
+Error: x0c00y00.q tried to display text
+
+
+Record n�11----------
+.
+
+
+Record n�12----------
+Le dernier des princes daedra. Il est leur Maitre de Chasse.
+Hircine est sensé être le créateur de tous les lycans.
+
+
+Record n�13----------
+Un =contact_ au comportement étrange à __contact_, au %di 
+d'ici.
+Un =contact_ de ce nom était à __contact_, au %di d'ici, il n'y a 
+pas très longtemps.
+
+
+Record n�14----------
+Je n'ai pas la moindre idée de l'utilité du _artifact_.
+
+
+Record n�15----------
+%qdt:
+ En contrepartie du _artifact_,
+ le Prince Daedra Hircine m'a
+ demandé de tuer un sanglier-garou
+ à ___mondung_. Le sanglier-garou
+ doit être mort dans =1stparton_ jours,
+ et je devrai être à __contact_
+ à ___contact_ dans =1stparton_ jours
+ pour rencontrer _contact_,
+ un =contact_, à propos du _artifact_.
+
+
+Record n�16----------
+Le sanglier-garou est mort,
+comme vous l'aviez promis au
+Prince Daedra Hircine.
+
+
+

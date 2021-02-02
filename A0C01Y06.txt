@@ -1,0 +1,140 @@
+Record n�0----------
+Mon nom est _qgiver_.
+Mon maître m'a demandé de trouver un
+aventurier courageux pour une mission
+dangereuse. Je ne peux vous en dire plus,
+si ce n'est que ça vaudra _gold_ pièces d'or
+à quiconque y arrivera. Etes-vous intéressé ?
+
+Appellez-moi _qgiver_. Je connais
+quelqu'un qui peut avoir du travail intéressant.
+Il y a _gold_ pièces d'or pour quiconque
+pouvant faire le boulot.
+
+
+Record n�1----------
+Je vais chercher ailleurs un héros capable
+d'accomplir la quête de mon maître.
+
+
+Record n�2----------
+Allez à _meetingplace_. La-bas
+vous trouverez mon maître, _master_.
+
+Demandez _master_ à _meetingplace_
+et %g aura un travail pour vous.
+
+
+Record n�3----------
+=mmaster_ est mort. Vos ennemis
+y penseront à deux fois avant de tenter
+à nouveau une telle trahison.
+
+
+Record n�4----------
+Il paraît qu'un orque a été aperçu en ville
+aujourd'hui. J'espère qu'ils l'attraperont.
+
+
+Record n�5----------
+Vous connaissez celle du %ra
+qui a été téléporté tout au fond d'un
+donjon ? Elle est vraiment marrante ! Oh, pardon.
+
+
+Record n�6----------
+Hé ! Vous êtes ce %ra qui a tué
+le sorcier guérisseur orque ! Bon boulot !
+
+
+Record n�7----------
+Ok, Ok. Je suppose que je vous dois un service
+pour cet incident avec l'orque chaman. Il avait été
+ensorcelé pour ressembler à un gars sympa.
+
+
+Record n�8----------
+Ne vous approchez pas ! Je n'avais pas
+l'intention de blesser quelqu'un. Cet orque avait
+été ensorcelé pour ressembler à un gars sympa.
+Ce n'est pas ma faute s'il vous a téléporté
+à l'intérieur d'un donjon.
+
+
+Record n�9----------
+%qdt :
+ J'ai rencontré _qgiver_ a
+ ___qgiver_, qui m'a dit que
+ son maître _master_
+ paierait _gold_ pièces d'or pour une
+ tâche inconnue mais de façon certaine
+ dangereuse. Il demeure à _meetingplace_
+ en __meetingplace_.
+
+
+Record n�10----------
+%qdt :
+ Le traitre =mmaster_, déguisé en
+ _master_, m'a envoyé
+ par magie à ___dungeon_.
+ Si jamais je sors, %g regrettera
+ notre prochaine rencontre.
+
+
+Record n�11----------
+Apprenez qui je suis vraiment.
+Je suis votre plus mortel ennemi
+=mmaster_ ! Et je vous ai
+réservé un destin tout particulier.
+
+
+Record n�12----------
+N'me faites pas de mal, %pcn !
+Je savais pas ce que _master_
+avait prévu. J'ai pas de problème
+avec vous, j'vous jure. %g n'm'avait
+rien dit, je l'jure, %g m'a simplement
+payé pour vous envoyer à %g2. C'est
+%g2 que vous voulez, pas moi, hein ?
+J'ai entendu dire qu'%g était parti à
+__hidingplace_.
+Cherchez là-bas.
+
+
+Record n�13----------
+Je ne sais pas comment tu t'es échappé
+de ___dungeon_, %pcf. Cependant
+tu ne t'en porteras pas mieux.
+Prépare-toi à mourir !
+
+
+Record n�14----------
+_master_ ? Non, je ne
+pense pas qu'%g soit dans le secteur.
+
+_master_ est nouveau en ville.
+Je ne sais pas trop d'où %g vient.
+
+
+Record n�15----------
+_master_ a posé des questions
+dans le coin au sujet d'un %ra.
+
+_master_ demeure ici en ville.
+Il paraît qu'%g pose pas mal de questions
+au sujet d'un %ra. Vous êtes un
+%ra, pas vrai ? Peut-être qu'%g
+vous cherche ?
+
+
+Record n�16----------
+%qdt :
+ J'ai appris que =mmaster_ se
+ cache maintenant à __hidingplace_.
+
+
+Record n�17----------
+Les chants de l'orque chaman s'élèvent 
+
+
+

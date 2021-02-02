@@ -1,0 +1,93 @@
+Record n�0----------
+Quelque chose se prépare. Je ne sais
+pas qui d'autre pourrait s'en occuper à part
+vous, %pcf. Il y a cette créature
+maléfique à ___mondung_,
+un Daedroth. Maintenant, je ne vais pas vous
+mentir : personne ne sait pourquoi elle est
+là-bas, mais tout le monde veut qu'elle s'en
+aille. Pour _reward_ pièces d'or, pensez-vous que
+vous pourriez vous en occuper, %pcf ?
+
+
+Record n�1----------
+Je ne vous blâme pas, %pcf.
+Je ne voudrais pas m'occuper
+d'un Daedroth non plus.
+
+
+Record n�2----------
+Hé, pas de problème, c'est votre enterrement,
+%pcf. Ecoutez, zigouillez ce Daedroth et
+soyez de retour ici dans =1stparton_ jours pour
+votre récompense. Je ne sais pas pendant combien
+de temps cette chose va rôder dans les parages,
+alors vous feriez mieux de vous bouger le cul. Et
+écoutez-moi bien, %pcf : soyez préparé à un
+putain de combat.
+
+
+Record n�3----------
+Est-ce que vous attendez que ce Daedroth
+meure de vieillesse, %pcf ?
+
+
+Record n�4----------
+Hé, vous êtes un meilleur %ra
+que moi, %pcf. Tueur-de-Daedroth.
+J'aime bien, ça. Voici votre or.
+
+
+Record n�5----------
+Je ne sais pas ce qu'est cette espèce de gros lézard dans 
+___mondung_, mais je n'aime pas ça.
+Tout le monde parle de cette grosse et horrible chose dans 
+___mondung_.
+
+Record n�6----------
+Je ne sais pas ce qui est arrivé à ce Daedroth. Il rôde toujours 
+quelque part dans le coin.
+C'était mieux quand je savais où le Daedroth était. Je ne sais 
+plus où être en sécurité.
+
+Record n�7----------
+Grâce à %god, la Guilde des Guerriers est dans le coin pour 
+s'occuper des Daedroths.
+En tout cas, je me demande bien ce que c'était que cette grosse  
+espèce de lézard.
+
+Record n�8----------
+Vous êtes le %ra qui a massacré le Daedroth
+à ___mondung_ pour moi.
+Laissez-moi vous serrer la main.
+
+
+Record n�9----------
+L'échec n'est pas pris à la légère dans la
+Guilde des Guerriers. Si vous ne pouviez
+pas vous occuper d'un Daedroth, vous n'auriez
+pas dû accepter ce boulot. J'ai de meilleures
+choses à faire que de gaspiller mon temps
+à vous parler.
+
+
+Record n�10----------
+Le Daedroth est mort.
+
+
+Record n�11----------
+%qdt :
+ La Guilde des Guerriers de ___questgiver_
+ me payera _reward_ pièces d'or si je tue
+ le Daedroth de ___mondung_ en
+ =1stparton_ jours ou moins.
+
+
+Record n�12----------
+Puisque vous n'avez même pas sourcillé
+à la vue d'un Daedroth, prenez cette carte de
+___newdung_. Le plein d'amusement
+pour un %pct tel que vous.
+
+
+

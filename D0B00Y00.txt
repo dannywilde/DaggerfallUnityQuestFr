@@ -1,0 +1,90 @@
+Record n�0----------
+Si vous êtes, par hasard, à la recherche de
+ travail, _reward_ pièces d'or facilement gagnées,
+ je pourrais justement avoir un boulot pour vous.
+ Cela impliquera des combats, mais vous avez l'air
+ de quelqu'un qui ne s'en soucie guère.
+ Cela vous semble-t-il envisageable?
+
+
+Record n�1----------
+Je vois. He bien, voilà qui est décevant.
+
+
+Record n�2----------
+Très bien. Vous savez que Akatosh est
+ le Dieu du Temps, mais il est également un
+ Dieu Dragon, et nous considérons les dragons
+ comme notre symbole sacré. Un des membres
+ de notre ordre guerrier, l'Ordre de l'Heure,
+ est apparemment devenu fou-furieux
+ et a entrepris d'attaquer nos dragons
+ en plein dans notre jardin sacré. Bien sûr,
+ le meurtrier doit être stoppé. Vous
+ trouverez le tueur de dragons en un lieu
+ appelé ___mondung_.
+ Si vous ne réussissez pas dans les
+ =1stparton_ prochains jours, nous enverrons l'Ordre
+ de l'Heure et votre récompense sera
+ confisquée. Puisse Akatosh
+ vous bénir dans votre quête.
+
+
+Record n�3----------
+Vous devriez vous remuer, %pcf.
+ Il ne vous reste plus beaucoup de temps
+ pour liquider le tueur de dragons.
+
+
+Record n�4----------
+Je suis content de vous revoir, %pcf.
+ Et votre mission a été un succès. Comme
+ promis, voici vos _reward_ pièces d'or.
+ Merci pour le service.
+
+
+Record n�5----------
+Le Grand-Prêtre d'Akatosh est très mecontent qu'un des leurs soit 
+un tueur de dragons.
+Je dis que ce fourbe a tous les droits de tuer des dragons, ces 
+vilaines créatures violentes.
+
+Record n�6----------
+C'est une bonne chose que le tueur de dragons se soit enfui.
+Maintenant, davantage de dragons seront tués.
+J'ai entendu dire que l'Ordre de l'Heure pourchasse le tueur de 
+dragons dans tout %reg.
+
+Record n�7----------
+Je me demande si le Grand-Prêtre d'Akatosh va essayer d'arrêter 
+tous les tueurs de dragons.
+Ah, de nos jours on ne peut même plus tuer un dragon sans avoir 
+des problèmes.
+
+Record n�8----------
+Que puis-je faire pour le grand protecteur des dragons, %pcf?
+
+
+Record n�9----------
+J'étais persuadé que vous tueriez ce tueur de dragons, %pcf. Je ne 
+ferai plus jamais cette erreur.
+
+Record n�10----------
+"Le Grand-Prêtre d'Akatosh... gagne. Tout ce
+ que je... voulais faire... c'est libérer
+ les... dragons."
+ Le tueur de dragons est mort.
+
+
+Record n�11----------
+%qdat:
+ Le Grand-Prêtre d'Akatosh m'a demandé
+ de pourchasser quelqu'un qui a attaqué
+ les dragons dans leur jardin sacré.
+ Je dois aller à ___mondung_,
+ liquider le tueur de dragons, et retourner
+ voir le Grand-Prêtre à ___questgiver_
+ en =1stparton_ jours.
+
+
+

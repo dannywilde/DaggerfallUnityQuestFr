@@ -1,0 +1,72 @@
+Record n�0----------
+Je m'appelle _qgiver_.
+La Guilde des Guerriers ne fait pas
+dans la charité. Si je n'etais pas à cours
+de combattants en ce moment, je ne
+ferais pas appel à vous %pcn.
+J'ai besoin de quelqu'un pour pourchasser
+des barbares qui rôdent dans la nature.
+Faites cela pour moi et je m'assurerai que
+tout le monde sache que vous êtes un
+%ra sur qui l'on peut compter.
+Est-ce que cela vous convient ?
+
+
+Record n�1----------
+Vous venez de faire une grosse
+erreur %pcn. Pas la peine de venir ici
+chercher du travail pendant un bout de temps.
+
+
+Record n�2----------
+Traînez votre misérable carcasse jusqu'à
+_house_. Faites fuir les barbares
+d'ici à demain, et tout ira bien.
+
+
+Record n�3----------
+Vous en avez bavé ?
+Encore une paire de boulots comme
+celui-là et vous aurez gagné votre ticket
+d'entrée à la Guilde des Guerriers.
+
+
+Record n�4----------
+Les barbares ont recommencé à ravager les fermes.
+
+
+Record n�5----------
+Les barbares ont pillé quatre fermes avant
+que la Guilde des Guerriers n'intervienne.
+
+
+Record n�6----------
+Ne seriez-vous pas ce %ra
+qui a chassé les barbares ?
+
+
+Record n�7----------
+Vous vous êtes joliment occupé de ces
+barbares %pcn. Pas mal du tout.
+
+
+Record n�8----------
+Je vous ai fait confiance pour vous occuper
+de ces barbares. Vous avez échoué, alors j'ai été
+contraint d'envoyer quelqu'un d'autre pour le faire.
+
+
+Record n�9----------
+%qdt :
+ La Guilde des Guerriers de
+ ___qgiver_ m'a proposé
+ de m'occuper de barbares
+ maraudant autour de _house_.
+ J'ai un jour complet pour y parvenir.
+
+
+Record n�10----------
+Le _monster_ est mort.
+
+
+
