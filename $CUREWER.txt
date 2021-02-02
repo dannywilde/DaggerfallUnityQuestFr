@@ -21,30 +21,30 @@ QuestFail:  [1003]
 <ce>                         Error -- 1003 called
 
 QuestComplete:  [1004]
-<ce>                     As _child_ drinks your blood,
-<ce>                    you feel your mind clear for the
-<ce>                  first time since you were afflicted
-<ce>                     with lycanthropy.  But _child_
-<ce>                 cries out in agony as %g changes form
-<ce>                        right before your eyes.
+<ce>                       Alors que _child_ boit votre sang,
+ <ce>                       votre esprit redevient limpide pour la première
+ <ce>                       fois depuis que vous êtes infecté
+ <ce>                       par la lycanthropie.  Mais _child_
+ <ce>                       pousse un cris d'agonie alors qu'%g se
+ <ce>                       transforme juste sous vos yeux.
 
 RumorsDuringQuest:  [1005]
-<ce>   _hunter_ is coming to %reg to clean out the werebeast infection.
-<ce> Maybe then we'll be able to walk the streets at night again without fear.
+<ce> _hunter_ vient à %reg pour nettoyer l'infection de lycanthropie.
+<ce> Alors peut-être pourrons-nous à nouveau nous promener la nuit dans les rues sans crainte.
 
 RumorsPostfailure:  [1006]
-<ce>_hunter_ and %g3 men killed a lot of loops in %reg, but I'll be hanged
-<ce>                          if they got 'em all.
-                                     <--->
-<ce> _hunter_ should have left well enough alone.  %g3 crusades just send
-<ce>                  the werecreatures into greater fury.
+<ce> _hunter_ et ses hommes ont tué de nombreuses bêtes à %reg,
+<ce> mais que je sois pendu s'ils les ont tous eus.
+<--->
+<ce> _hunter_ aurait vraiment dû les laisser tranquilles.  Ses
+<ce> croisades n'ont fait que mettre les lycans encore plus en colère.
 
 RumorsPostsuccess:  [1007]
-<ce>_hunter_ and %g3 men killed a lot of loops in %reg, but I'll be hanged
-<ce>                          if they got 'em all.
-                                     <--->
-<ce> _hunter_ should have left well enough alone.  %g3 crusades just send
-<ce>                  the lycanthropes into greater fury.
+<ce> _hunter_ et ses hommes ont tué de nombreuses bêtes à %reg,
+<ce> mais ils ne les ont pas tous eus, j'en mettrai ma main au feu.
+<--->
+<ce> _hunter_ n'aurait pas dû les pourchasser.  Ses
+<ce> croisades n'ont fait que rendre les lycans agressifs.
 
 QuestorPostsuccess:  [1008]
 Error -- 1008 called
@@ -53,248 +53,249 @@ QuestorPostfailure:  [1009]
 Error -- 1009 called
 
 Message:  1011
-_hunter_ searches out and destroys lycanthropes all across Tamriel.
+_hunter_ traque et anéantit les lycans à travers tout Tamriel.
 <--->
-_hunter_ has devoted %g3 life to hunting lycanthropes.
+_hunter_ a consacré sa vie à pourchasser les lycans.
 
 Message:  1012
-<ce>They say that _hunter_'s own mother was killed by a werewolf.  That's what
-<ce>               drove %g2 to %g3 fanatical hatred of them.
+<ce>Il paraît que la propre mère de _hunter_ a été tuée par un loup-garou.
+<ce>       C'est ce qui a provoqué sa haine fanatique envers eux.
                                      <--->
-<ce>_hunter_ killed %g3 own mother after she became a werewolf.  Now that's
-<ce>                       what I call a true zealot!
+<ce>_hunter_ a tué sa propre mère après qu'elle soit devenue un loup-garou.
+<ce>                Voilà ce que j'appelle un vrai fanatique!
 
 Message:  1013
-_father_ ... the name sounds familiar, but I can't say that I know him.
+_father_ ... le nom me parait familier, mais je ne peux dire si je le connais.
 <--->
-I think _father_ died years ago.  Or maybe moved away?  I'm not sure.
+Je pense que _father_ est mort il y a plusieurs années.  Ou peut-être est-il parti ailleurs?  Je n'en suis pas sûr.
 <--->
-<ce>  _father_ was the last of a once-powerful noble house in ___local_.
-<ce>                 He died several years ago, I'm afraid.
+<ce>  _father_ était le dernier d'une noble maison autrefois puissante à ___local_.
+<ce>              Il est mort voici plusieurs années, je suis désolé.
                                      <--->
-<ce>I think he was the one that died two or three years ago, leaving his only child an orphan.  But _local_ over at __local_ would know more about that.
+<ce>Je pense que c'est lui qui est mort il y a deux ou trois ans, laissant son seul enfant orphelin. Mais _local_ à __local_ en saurait davantage là-dessus.
                                      <--->
-<ce>_father_ hasn't lived in ___local_ for years.  I don't know what happened
-<ce>     to him.  But _local_ was a friend of his, and might know more.
+<ce>_father_ n'habite plus à ___local_ depuis des années. J'ignore ce qui lui est arrivé.
+<ce>     Mais _local_ était l'un de ses amis, et pourrait en savoir davantage.
                                      <--->
-<ce>_father_ moved away to ___father_ a long while back.  Or was he the one
-<ce>                        who died so tragically?
+<ce>_father_ est parti pour ___father_ il y a bien longtemps.  Ou alors est-ce lui
+<ce>                      qui est mort de façon si tragique?
 
 Message:  1014
-<ce>_father_ died several years ago.  His only child was adopted by a family
-<ce>      from __childhouse_, I think.  Ask around there for _child_.
+<ce>_father_ est mort il y a plusieurs années.  Son seul enfant fut adopté par une famille
+<ce>  de __childhouse_, je crois.  Renseignez-vous dans les environs à propos de _child_.
                                      <--->
-<ce>Were you a friend?  I'm sorry to say he died about a year ago.  His only
-<ce>       child _child_ was taken in by a family from __childhouse_.
+<ce>Etiez-vous un ami?  Je suis au regret de vous informer qu'il est mort il y a un an environ.
+<ce>     Son seul enfant _child_ fut pris en charge par une famille de __childhouse_.
 
 Message:  1020
                        %qdt
- 
- Dear %pcn,
- 
-    Or should I call you "=wereboar_," as you are
- known to the common folk of ____childhouse_, who bar their
- doors against you in fear each night?  Yes, I know
- who and what you are, and your days of terrorizing
- the Iliac Bay are numbered.  I offer you a simple
- choice: renounce your lycanthropy, or be hunted
- down like the wild beast you are.
-    Let no one say that _hunter_ lacks
- compassion. I offer you one last chance to save
- yourself.  Go to _priest_ of
- __priest_ in ___priest_ if you wish
- to live. %g is wise in the ways of lycanthropy, and if
- anyone can help you, %g can.
-    I will wait =huntstart_ days before sending my hunters
- after you.  Use the time wisely.
- 
+
+ Cher %pcn,
+
+ Ou devrais-je vous appeler "=wereboar_," tel que vous
+connaissent les gens de %reg, qui barricadent leurs
+portes chaque nuit pour se protéger de vous ? Oui, je sais
+qui et ce que vous êtes, et le nombre de jours où vous terroriserez
+encore la Baie d'Iliac vous sont comptés. Je vous propose un choix
+simple : renoncez à la lycanthropie, ou soyez pourchassé
+comme la bête sauvage que vous êtes.
+ On ne pourra pas dire que _hunter_ manque
+de compassion. Je vous offre une dernière chance de
+vous épargner. Allez voir _priest_ de
+__priest_ à ___priest_ si vous voulez
+vivre. %g a étudié la lycanthropie, et si
+quelqu'un peut vous aider, %g peut le faire.
+ J'attendrai =huntstart_ jours avant d'envoyer mes
+chassseurs à vos trousses.
+Utilisez votre temps avec sagesse.
+
 <ce>                                _hunter_
 
 Message:  1021
-<ce>                 You must be %pcn.  _hunter_ said you
-<ce>          might be coming to see me, although %g doubted that
-<ce>              you would heed %g3 warning.  Sadly, most do
-<ce>             not, already too befuddled by the Beast within
-<ce>           to save themselves.  Yes, the curse of lycanthropy
-<ce>           can be lifted, although I hesitate to speak of it,
-<ce>          as the cure may be worse than the disease.  We must
-<ce>              lower our voices.  You may not be aware that
-<ce>           lycanthropy is an hereditary condition, passed on
-<ce>            in certain families, although it can lie dormant
-<ce>            for generations before reappearing.  This is why
-<ce>          the great crusades against lycanthropes led by those
-<ce>            like _hunter_ are ultimately futile, unless the
-<ce>           families who carry this bloodline are exterminated
-<ce>            as well.  You now understand why I am reluctant
-<ce>            to share this knowledge.  As you know, the bite
-<ce>           of a werebeast can pass the infection on to a new
-<ce>            victim.  However, if you can pass the infection
-<ce>           to a latent lycanthrope, the curse will be lifted
-<ce>            from you due to the intensity of its blossoming
-<ce>           in the victim.  My studies have recently uncovered
-<ce>           a family which I am sure carries the disease.  If
-<ce>          you still wish to proceed on this dark course, I can
-<ce>            tell you where to find the last survivor of this
-<ce>                       ancient, cursed bloodline.
+<ce>        Vous devez être %pcn.  _hunter_ a dit que vous
+<ce>        viendriez peut-être me voir, bien qu'il doutait que vous
+<ce>        teniez compte de son avertissement. C'est triste, mais la
+<ce>        plupart ne le font pas, déjà trop aliénés par la Bête en eux
+<ce>        pour préserver leur vie. Oui, la malédiction de lycanthropie
+<ce>        peut être levée, bien que j'hésite à en parler,
+<ce>        car le remède peut être pire que le mal. Nous devons
+<ce>        parler plus bas. Vous l'ignorez peut-être, mais la
+<ce>        lycanthropie est une affliction héréditaire, transmise dans
+<ce>        certaines familles, bien que pouvant rester endormie
+<ce>        durant des générations avant de refaire surface. Voilà
+<ce>        pourquoi les grandes croisades contre les lycans, menées par
+<ce>        certains tels que _hunter_, sont en définitive futiles,
+<ce>        à moins que les familles portant cette lignée soient
+<ce>        exterminées également. A présent vous comprenez pourquoi
+<ce>        je suis réticent à l'idée de partager ce savoir. Comme vous le
+<ce>        savez, la morsure d'une créature lycanthrope peut transmettre
+<ce>        l'infection à une nouvelle victime. Cependant, si vous pouvez
+<ce>        transmettre l'infection à un lycan en sommeil, votre malédiction
+<ce>        sera atténuée selon l'intensité de son développement
+<ce>        dans la victime. Mes études ont récemment mis a jour
+<ce>        une famille qui, j'en suis certain, porte la maladie.
+<ce>        Si vous souhaitez toujours poursuivre dans cette sombre voie,
+<ce>        je peux vous indiquer où trouver le dernier survivant de cette
+<ce>        ancienne lignée maudite.
 
 Message:  1022
-<ce>          Very well.  I cannot blame you for wishing to live.
-<ce>            I comfort myself with the thought that _father_
-<ce>           is the last of a doomed family, best ended before
-<ce>             the curse renews itself.  Yes, he is the one.
-<ce>             As far as I know, he still lives in ___local_,
-<ce>            the family home for generations.  But first, you
-<ce>             will need to see _alchemist_ in ___alchemist_.
-<ce>            %g has assisted me in such matters before.  The
-<ce>          surest way to pass on the disease is for the victim
-<ce>          to drink the blood of the lycanthrope.  _alchemist_
-<ce>            will ask no questions and tell no tales at your
-<ce>              strange request.  May %god guide your steps.
+<ce>       Très bien. Je ne peux pas vous blâmer de vouloir vivre.
+<ce>       Je me réconforte en pensant que _father_ est le
+<ce>       dernier d'une famille condamnée, qu'il serait préférable
+<ce>       d'éteindre avant que la malédiction ne se renouvelle.
+<ce>       Oui, c'est bien lui. A ce que je sais, il vit toujours à
+<ce>       ___local_, la demeure familiale depuis des générations.
+<ce>       Mais avant tout, vous aurez besoin de rencontrer
+<ce>       _alchemist_ à ___alchemist_.
+<ce>       %g m'a aidé dans des affaires similaires auparavant. Le
+<ce>       moyen le plus sûr de transmettre l'infection est que la victime
+<ce>        boive le sang du lycan. _alchemist_ ne posera
+<ce>       aucune question et ne vous racontera pas d'histoires à propos
+<ce>        de votre étrange requête. Que %god guide vos pas.
 
 Message:  1023
-<ce>           I understand.  In fact, I am almost relieved that
-<ce>            you shun this road to salvation.  It shows that
-<ce>             the Beast does not yet wholly dominate you.  I
-<ce>           would not offer false hope, but if you still wish
-<ce>           to try to cure yourself ... Well, this is no more
-<ce>             than a legend, but supposedly there is a coven
-<ce>            somewhere which can cure lycanthropy.  The best
-<ce>            lead I can offer is an ancient text, "A History
-<ce>            of the Daedric Sects."  Unfortunately, the only
-<ce>                existing copy disappeared in the sack of
-<ce>              ___hintdung_ over a century ago.  Perhaps it
-<ce>              remains hidden somewhere in the ruins there.
-<ce>            If nothing else, the search might help you keep
-<ce>                the Beast at bay, at least for a while.
-<ce>                       May %god guide your steps.
+<ce>     Je comprends. En fait, je suis presque soulagé que
+<ce>     vous rejetiez cette route vers le salut. Cela montre que
+<ce>     la Bête ne vous domine par encore entièrement.
+<ce>     Je ne voudrais pas vous donner de faux espoir, mais si
+<ce>     vous désirez toujours essayer de vous soigner... Eh bien,ce
+<ce>      n'est rien de plus qu'une légende, mais il y aurait une bande
+<ce>      de sorcières quelque part qui peut guérir la lycanthropie.
+<ce>     La meilleure piste que je peux donner est un texte ancien,
+<ce>     "Une Histoire des Sectes Daedras". Malheureusement,
+<ce>     le seul exemplaire existant a disparu lors du pillage de
+<ce>     ___hintdung_ il y a plus d'un siècle. Peut-être est-il
+<ce>     encore caché là-bas, quelque part dans les ruines.
+<ce>     Au moins, la recherche pourra vous aider à maintenir
+<ce>     la Bête à distance, au moins pour un temps.
+<ce>     Que %god guide vos pas.
 
 Message:  1024
-<ce>               So, another visitor from _priest_.  Yeah,
-<ce>               I know what you want, but it ain't cheap.
-<ce>               1000 gold up front.  Take it or leave it.
-<ce>               Alright then, hold still a minute.  There
-<ce>                   you go, didn't hurt a bit, right?
-<ce>                  Now get outta here before one of my
-<ce>                    respectable customers sees you.
+<ce>             Ainsi, un autre visiteur de la part de _priest_.
+<ce>             Ouais, je sais ce que vous voulez, mais c'est pas gratuit.
+<ce>             1000 pièces d'or, pas moins. A prendre ou à laisser.
+<ce>             Très bien, restez immobile quelques instants. Voilà
+<ce>             c'est fait, ce n'était pas douloureux, pas vrai?
+<ce>             Maintenant partez d'ici avant qu'un de mes
+<ce>             respectables clients ne vous aperçoive.
 
 Message:  1025
-<ce>               So, another visitor from _priest_.  Yeah,
-<ce>               I know what you want, but it ain't cheap.
-<ce>               1000 gold up front.  Take it or leave it.
-<ce>                Sorry pal, you haven't got enough cash.
-<ce>                   Move it before I call the guards.
+<ce>             Ainsi, un autre visiteur de la part de _priest_.
+<ce>             Ouais, je sais ce que vous voulez, mais c'est pas gratuit.
+<ce>             1000 pièces d'or, pas moins. A prendre ou à laisser.
+<ce>             Désolé mon vieux, vous n'avez pas assez d'argent.
+<ce>             Dégagez avant que j'appelle les gardes.
 
 Message:  1026
-<ce>               You're looking for _father_?  I'm afraid
-<ce>             that he died three years ago.  Killed himself,
-<ce>               actually, although very few know that part
-<ce>               of it.  I'm not sure what happened, but he
-<ce>               became very moody, and began disappearing
-<ce>                for days at a time.  Left a note saying
-<ce>             something about he couldn't live with himself,
-<ce>                and didn't want _child_ to find out the
-<ce>               truth about it.  I never figured out what
-<ce>                it was all about.  Yes, _child_ was his
-<ce>                only child.  %g was taken in by a family
-<ce>                 from __childhouse_ after %g3 father's
-<ce>                 death.  I'm afraid that's all I know.
+<ce>            Vous recherchez _father_?  J'ai bien peur
+<ce>            qu'il ne soit mort depuis trois ans. Il s'est suicidé en
+<ce>            réalité, bien que très peu de gens soient au courant.
+<ce>            Je ne suis pas certain de ce qui s'est passé, mais
+<ce>            il est devenu très lunatique et a commencé à disparaitre
+<ce>            parfois durant des jours. Il a laissé un message
+<ce>            comme quoi il ne pouvait pas vivre avec lui-même et
+<ce>            qu'il ne voulait pas que _child_ découvre la vérité
+<ce>            à son sujet. Je n'ai jamais compris de quoi il
+<ce>            s'agissait. Oui, _child_ était son seul enfant.
+<ce>            %g fut emmené par une famille
+<ce>            de __childhouse_ après la mort de son père.
+<ce>            C'est tout ce que je sais, je le crains.
 
 Message:  1027
-<ce>               Hello.  Are you a doctor?  I haven't been
-<ce>               feeling very well today.  Is that medicine
-<ce>                         you have there for me?
+<ce>            Bonjour. Etes-vous docteur ? Je ne me sens pas
+<ce>            très bien aujourd'hui. Le remède que vous avez là
+<ce>                     pourrait-il me convenir ?
 
 Message:  1028
-<ce>                   Do you give the blood to _child_?
+<ce>                   Donnez-vous le sang à _child_?
 
 Message:  1030
-<ce>                   Do you wish to seek out a victim
-<ce>                   in order to cure your lycanthropy?
+<ce>                   Voulez-vous rechercher une victime
+<ce>                   pour guérir votre lycanthropie ?
 
 Message:  1040
-<ce>                   _hunter_ said I'd find you here.
-<ce>                            Die, =wereboar_!
+<ce>                   _hunter_ m'a dit que je vous trouverais ici.
+<ce>                            Mourez, =wereboar_!
 
 QuestTimeLapse:  [1045]
-<ce>                   An unfamiliar object in your pack
-<ce>                   catches your eye.  It is a letter,
-<ce>                 addressed to you in an elegant flowing
-<ce>                    script.  How did that get there?
+<ce>                   Un objet inhabituel dans votre sac
+<ce>                    attire votre attention. C'est une lettre,
+<ce>                  qui vous est adressée, son écriture est élégante
+<ce>                   et raffinée. Comment est-elle arrivée là ?
 
 Message:  1050
 %qdt:
- The lycanthrope hunter _hunter_
- has sent me a letter vowing to
- hunt me down unless I cure myself
- of lycanthropy.  %g directed me to
- a _priest_ of __priest_,
- ___priest_. I have =huntstart_ days
- before the hunt begins.
+Le chasseur de lycans _hunter_
+m'a envoyé une lettre, jurant de me
+pourchasser à moins que je ne soigne
+ma lycanthropie. %g m'a conseillé d'aller voir
+un _priest_ de __priest_,
+___priest_. J'ai =huntstart_ jours
+avant que la chasse ne commence.
 
 Message:  1051
 %qdt:
- _priest_ told me the only way
- to cure myself is to find _father_
- of ___local_, the last of a latent lycanthrope
- family, and force him to drink my blood, thus
- transferring the disease completely from me
- to him.  An alchemist named _alchemist_ in
- ___alchemist_ can prepare a vial of my
- blood for this purpose.
+_priest_ m'a dit que le seul moyen de
+me guérir est de trouver _father_ de
+___local_, le dernier représentant d'une famille de
+lycans en sommeil, et de l'obliger à boire mon sang de
+façon à transférer complètement ma maladie vers lui.
+Un alchimiste appelé _alchemist_ à
+___alchemist_ peut préparer une fiole de
+mon sang à cet effet.
 
 Message:  1052
 %qdt:
- I declined _priest_'s offer to cure
- my lycanthropy by inflicting it on
- another.  %g3 only additional advice
- was to seek out a book which might
- lead me to a Coven purported to have
- the cure.  The book's last known location
- was ___hintdung_, so I may as well
- start there.
+J'ai decliné l'offre de _priest_ de guérir
+ma lycanthropie en l'infligeant à quelqu'un
+d'autre. Son seul conseil supplémentaire
+a été de rechercher un livre qui pourrait me mener
+à un Cercle de sorcières qui devraient avoir le
+remède. Le dernier emplacement connu du livre
+était ___hintdung_, donc je devrais aussi bien
+commencer par là.
 
 Message:  1053
 %qdt:
- I found a page from the book, which
- said that more information on the
- "Glenmoril Coven" could be found
- in the library of ___mapdung_.
+J'ai trouvé une page du livre, disant que
+davantage d'informations sur les sorcières
+du "Glenmoril Coven" pourraient se trouver
+à la librairie de ___mapdung_.
 
 Message:  1054
 %qdt:
- It seems that _father_ is already
- dead.  However, all hope is not lost,
- since I have learned that he had a
- child, _child_, who is now living
- in __childhouse_.
+Il semble que _father_ soir déjà mort.
+Cependant, tout espoir n'est pas perdu,
+car j'ai appris qu'il avait un enfant,
+_child_, qui vit désormais
+à __childhouse_.
 
 Message:  1060
-<ce>                     A map showing the location of
-<ce>                 Glenmoril Coven in the Ilessan Hills.
+<ce>                     Une carte indiquant l'emplacement du
+<ce>                 Glenmoril Coven dans les Ilessan Hills.
 
 Message:  1061
-This appears to be a page torn from a book:
- 
- "...reputed to have the ability to raise the
- dead, although as yet the Conclave has not
- unearthed any evidence of this beyond the
- usual legends and anecdotes.
- 
-   By contrast, the existence of the Glenmoril
- Coven is firmly rooted in history.  In fact, this
- coven is of such antiquity that its very origins
- have been lost.  The Circle of Seven, as it is
- often called (the Glenmoril Coven regards thirteen
- as a newfangled corruption of the original seven
- Initiates plus six Acolytes -- one for each of the
- Circle except for the Mistress, who is considered
- above such apprenticeship duties).  As usual,
- legend mixes with fact in the popular belief that
- the Glenmoril Coven possesses the cure for
- lycanthropy.  Complete documentation of these legends
- may be found in the library of ___mapdung_.
- 
-   The Iliac Bay region is also home to another of..."
+On dirait une page arrachée d'un livre :
+
+"...réputé avoir le pouvoir de ressusciter les morts,
+bien que jusqu'à présent le Conclave n'a mis à jour
+aucune preuve de cela, au-delà des légendes
+habituelles et des anecdotes.
+
+A l'inverse, l'existence du Glenmoril Coven est profondément
+ancré dans l'histoire.  En fait, ce cercle est tellement ancien
+que ses origines ont été oubliées. Le Cercle des Sept, comme
+on l'appelle souvent (le Glenmoril Coven considère treize comme
+une corruption moderne des sept Inities originaux, plus six
+Acolytes, un pour chaque Initié du Cercle, sauf pour la
+Maitresse, que l'on considère comme étant au-dessus de telles
+occupations d'apprentissage). Comme d'habitude, la légende
+se mélange avec le fait que dans la croyance populaire,
+le Glenmoril Coven possède le remède contre la lycanthropie.
+La documentation complète de ces légendes peut être trouvée
+à la librairie de ___mapdung_.
+
+La région de la Baie d'Illiac est également la demeure d'un autre de..."
 
 
 -- Symbols used in the QRC file:
@@ -349,102 +350,102 @@ Foe _F.00_ is Knight
 Foe _wereboar_ is Wereboar
 
 --	Quest start-up:
-	place item _map_ at _mapdung_ 
-	place item map2 at _hintdung_ 
-	dialog link for location glenmorilCoven person _hunter_ 
-	dialog link for location _mapdung_ person _priest_ 
-	dialog link for person _local_ 
-	dialog link for location _hintdung_ person _alchemist_ 
-	dialog link for person _father_ 
-	dialog link for person _child_ 
-	_letter_ used do _readletter_ 
-	_map_ used do _S.10_ 
-	map2 used do _S.16_ 
-	have _letter_ set _S.09_ 
-	give pc _letter_ notify 1045 
-	create npc at _childhouse_ 
-	place npc _child_ at _childhouse_ 
+	place item _map_ at _mapdung_
+	place item map2 at _hintdung_
+	dialog link for location glenmorilCoven person _hunter_
+	dialog link for location _mapdung_ person _priest_
+	dialog link for person _local_
+	dialog link for location _hintdung_ person _alchemist_
+	dialog link for person _father_
+	dialog link for person _child_
+	_letter_ used do _readletter_
+	_map_ used do _S.10_
+	map2 used do _S.16_
+	have _letter_ set _S.09_
+	give pc _letter_ notify 1045
+	create npc at _childhouse_
+	place npc _child_ at _childhouse_
 
 _S.00_ task:
-	clicked npc _priest_ 
-	prompt 1030 yes _S.03_ no _S.04_ 
-	say 1021 
+	clicked npc _priest_
+	prompt 1030 yes _S.03_ no _S.04_
+	say 1021
 
 _readletter_ task:
-	add dialog for person _hunter_ 
-	add dialog for person _priest_ 
-	log 1050 step 0 
+	add dialog for person _hunter_
+	add dialog for person _priest_
+	log 1050 step 0
 
 variable _S.02_
 _S.03_ task:
-	add dialog for person _father_ 
-	add dialog for person _alchemist_ 
-	log 1051 step 1 
-	say 1022 
+	add dialog for person _father_
+	add dialog for person _alchemist_
+	log 1051 step 1
+	say 1022
 
 _S.04_ task:
-	reveal _hintdung_ 
-	log 1052 step 1 
-	say 1023 
+	reveal _hintdung_
+	log 1052 step 1
+	say 1023
 
 _S.05_ task:
-	make _map_ permanent 
-	end quest 
+	make _map_ permanent
+	end quest
 
 _huntstart_ task:
-	start timer _S.05_ 
+	start timer _S.05_
 
 _S.07_ task:
-	injured _F.00_ saying 1040 
+	injured _F.00_ saying 1040
 
 _S.08_ task:
-	toting _blood_ and _child_ clicked 
-	prompt 1028 yes _S.14_ no _S.15_ 
-	say 1027 
+	toting _blood_ and _child_ clicked
+	prompt 1028 yes _S.14_ no _S.15_
+	say 1027
 
 _S.09_ task:
-	start timer _huntstart_ 
+	start timer _huntstart_
 
 _S.10_ task:
-	reveal glenmorilCoven in province 60 at 81312 
+	reveal glenmorilCoven in province 60 at 81312
 
 _npc_ task:
-	clicked _alchemist_ and at least 1000 gold otherwise do _S.12_ 
-	get item _blood_ 
-	say 1024 
+	clicked _alchemist_ and at least 1000 gold otherwise do _S.12_
+	get item _blood_
+	say 1024
 
 _S.12_ task:
-	say 1025 
-	clear _S.12_ _npc_ 
+	say 1025
+	clear _S.12_ _npc_
 
 _S.13_ task:
-	clicked npc _local_ 
-	add dialog for person _child_ 
-	log 1054 step 2 
-	say 1026 
+	clicked npc _local_
+	add dialog for person _child_
+	log 1054 step 2
+	say 1026
 
 _S.14_ task:
-	give pc nothing 
-	hide npc _child_ 
-	cure lycanthropy 
-	legal repute -10 
-	place foe _wereboar_ at _childhouse_ 
+	give pc nothing
+	hide npc _child_
+	cure lycanthropy
+	legal repute -10
+	place foe _wereboar_ at _childhouse_
 
 _S.15_ task:
-	get item _blood_ 
+	get item _blood_
 
 _S.16_ task:
-	reveal _mapdung_ 
-	log 1053 step 2 
+	reveal _mapdung_
+	log 1053 step 2
 
 _S.17_ task:
-	killed 1 _wereboar_ 
-	legal repute -20 
+	killed 1 _wereboar_
+	legal repute -20
 
 _S.18_ task:
-	when _huntstart_ 
-	create foe _F.00_ every 79 minutes 30 times with 20% success 
+	when _huntstart_
+	create foe _F.00_ every 79 minutes 30 times with 20% success
 
 _S.19_ task:
-	when _S.14_ 
-	clear _S.18_ 
+	when _S.14_
+	clear _S.18_
