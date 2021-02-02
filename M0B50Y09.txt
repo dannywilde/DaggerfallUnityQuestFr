@@ -1,80 +1,139 @@
-Record n�0----------
-Un certain marchand a besoin qu'un monstre,
-une gargouille pour être précis, soit achevé. Le
-salaire est un modeste _gold_ pièces d'or.
-Puis-je compter sur votre aide pour cette affaire ?
+-- Quest: C:\QUESTS\WORKING\M0B50Y09.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: fighter
+-- Repute: 50
+-- QuestId: 9
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 81
+Quest: M0B50Y09
+DisplayName: Hunt for a Gargoyle
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>              A certain merchant needs to have a monster,
+<ce>               a gargoyle to be precise, dispatched. The
+<ce>               pay is a modest _gold_ gold pieces. Can I
+<ce>                     have your help in this matter?
+
+RefuseQuest:  [1001]
+<ce>                      Hmmm. Not the brave, heroic
+<ce>                             sort I guess.
+
+AcceptQuest:  [1002]
+<ce>               It seems this merchant hired a wizard to
+<ce>                build him a grand mansion. Then the poor
+<ce>               fool tried to cheat the mage of his wages.
+<ce>               The wizard grew angry and animated one of
+<ce>                the stone gargoyles on the new mansion.
+<ce>                   It has been attacking the merchant
+<ce>                   ceaselessly. Go out to ___dungeon_
+<ce>                     and kill the thing. You've got
+<ce>                   =2dung_ days to complete the task.
+
+QuestComplete:  [1004]
+<ce>                        Hail to the hero, %pcn!
+<ce>                     Well done! This paltry fee of
+<ce>                    _gold_ is hardly a worthy reward
+<ce>                            for such a deed.
+
+RumorsDuringQuest:  [1005]
+<ce>                  The Mages Guild has refused to kill
+<ce>                that rampaging gargoyle. They claim its
+<ce>                    not their fault. Lazy bastards.
+
+RumorsPostfailure:  [1006]
+<ce>                 Some merchant was killed recently. I
+<ce>                 hear that a gargoyle was seen hovering
+<ce>                             over his body.
+
+RumorsPostsuccess:  [1007]
+<ce>                The Fighters Guild took out a gargoyle.
+<ce>                  Those guys are good to have around.
+
+QuestorPostsuccess:  [1008]
+<ce>                   Well done with the gargoyle %pcn.
+
+QuestorPostfailure:  [1009]
+<ce>                  That gargoyle killed the merchant.
+<ce>                  You should never have taken the job.
+<ce>                    Now you've made yourself and the
+<ce>                            guild look bad.
+
+QuestLogEntry:  [1010]
+On %qdt,
+ The Fighters Guild of ___qgiver_
+ charged me with the duty of destroying a
+ gargoyle that lairs in ___dungeon_.
+ I have =2dung_ days to finish the task.
+
+Message:  1011
+<ce>                        The _monster_ is dead.
+<ce>                         Hopefully that foolish
+<ce>                       merchant has learned never
+<ce>                            to cheat a mage.
+
+Message:  1080
+<ce>                     Maybe this map to ___newdung_
+<ce>                    will sweeten the deal a little.
 
 
-Record n�1----------
-Hmmm. Pas le genre brave
-et héroique que je pensais.
+-- Symbols used in the QRC file:
+--
+--              %pcn occurs 3 times.
+--              %qdt occurs 1 time.
+--           =2dung_ occurs 3 times.
+--       ___dungeon_ occurs 2 times.
+--       ___newdung_ occurs 1 time.
+--        ___qgiver_ occurs 1 time.
+--            _gold_ occurs 2 times.
+--         _monster_ occurs 1 time.
 
+QBN:
+Item _gold_ gold
 
-Record n�2----------
-Il semble que ce marchand ait engagé un sorcier
-pour lui bâtir un imposant manoir. Ensuite le pauvre
-fou a essayé de gruger le mage sur ses gages.
-Le sorcier s'est mis en colère et a animé une des
-gargouilles de pierre du nouveau manoir.
-Elle attaque le marchand sans cesse.
-Allez jusqu'à ___dungeon_
-et tuez la chose. Vous avez =2dung_ jours
-pour achever le travail.
+Person _qgiver_ group Questor male
 
+Place _dungeon_ remote dungeon
+Place _newdung_ remote dungeon8
 
-Record n�3----------
-Salut au héros, %pcn !
-Bien joué ! Ce misérable honoraire
-de _gold_ pièces d'or est une bien
-faible récompense pour une telle action.
+Clock _2dung_ 00:00 0 flag 17 range 0 2
+Clock _end_ 00:00
 
+Foe _monster_ is Gargoyle
 
-Record n�4----------
-La Guilde des Mages a refusé de tuer
-cette gargouille déchainée. Ils prétendent que
-ce n'est pas leur faute. Salauds de feignants.
+--	Quest start-up:
+	start timer _2dung_ 
+	reveal _dungeon_ 
+	log 1010 step 0 
+	pick one of _map_ _nomap_ 
+	place foe _monster_ at _dungeon_ 
 
+_2dung_ task:
+	end quest 
 
-Record n�5----------
-Un marchand a été tué récemment. J'ai entendu
-dire qu'une gargouille a été vue planant au dessus
-de son corps.
+_S.01_ task:
+	killed 1 _monster_ saying 1011 
 
+_victory_ task:
+                when _S.01_ and _qgclicked_
+	give pc _gold_ 
+                start timer _end_
 
-Record n�6----------
-La Guilde des Guerriers a éliminé une gargouille.
-Ces gars sont bons à avoir à portée de mains.
+_end_ task:
+	end quest 
 
+_qgclicked_ task:
+               clicked npc _qgiver_
 
-Record n�7----------
-Bien joué avec la gargouille %pcn.
+_clearclick_ task:
+	when _qgclicked_ and not _S.01_ 
+	clear _qgclicked_ _clearclick_ 
 
-
-Record n�8----------
-Cette gargouille a tué le marchand.
-Vous n'auriez jamais dû prendre ce
-boulot. Maintenant vous vous êtes fait
-mal voir, ainsi que la guilde.
-
-
-Record n�9----------
-Le %qdt,
- La Guilde des Guerriers de ___qgiver_
- m'a chargé de la corvée de détruire une
- gargouille qui rôde dans ___dungeon_.
- J'ai =2dung_ jours pour achever le boulot.
-
-
-Record n�10----------
-Le _monster_ est mort.
-Espérons que cet imprudent
-marchand aura appris à ne jamais
-tricher avec un magicien.
-
-
-Record n�11----------
-Peut-être que cette carte de ___newdung_
-adoucira un peu le contrat.
-
-
-
+variable _map_
+variable _nomap_
+_S.06_ task:
+	when _map_ and _victory_ 
+	reveal _newdung_ readmap
+    say 1080

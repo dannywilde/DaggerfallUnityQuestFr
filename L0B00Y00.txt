@@ -1,87 +1,140 @@
-Record n�0----------
-Il y a un traitre au sein de la Confrérie.
-Vous prendrez les mesures
-nécessaires concernant cette
-affaire, n'est-ce pas?
+-- Quest: C:\QUESTS\WORKING\L0B00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Brotherhood
+-- Repute: 0
+-- QuestId: 0
+Messages: 22
+Quest: L0B00Y00
+DisplayName: A Renegade Member
+-- Message panels
+QRC:
 
-De temps en temps, la Confrérie
-se voit dans l'obligation de balayer
-devant sa porte. Un traitre a été
-démasqué au sein de notre ordre, et
-il doit être remis dans le droit chemin.
-Vous avez été choisi pour faire
-honneur au Temple.
+QuestorOffer:  [1000]
+<ce>                There is a traitor in the Brotherhood.
+<ce>               You will perform the necessary accounting
+<ce>                   on this liability, will you not?
+                                     <--->
+<ce>                 From time to time, the Brotherhood is
+<ce>                 forced to do an accounting in our own
+<ce>                books. A traitor has been found within
+<ce>                our order who must be settled. You have
+<ce>                    been selected to do the honors.
 
+RefuseQuest:  [1001]
+<ce>                 An ignoble reply. I expected better.
 
-Record n�1----------
-Une réponse ignoble. J'attendais mieux de vous.
+AcceptQuest:  [1002]
+<ce>                   Very good. The traitor has taken
+<ce>                         refuge in ___mondun_
+<ce>                 to the %di. If you have not returned
+<ce>                 in =queston_ days, your honor will be
+<ce>               forfeit and another will take your place.
+<ce>                     Do not fail us in this, %pcf.
 
+QuestFail:  [1003]
+<ce>                  The traitor is not dead. Do not try
+<ce>                       to convince me otherwise.
 
-Record n�2----------
-Fort bien. Le traitre a trouvé
-refuge dans ___mondun_
-vers le %di. Si vous n'êtes pas revenu
-dans =queston_ jours, votre honneur
-sera bafoué et un autre prendra
-votre place. Ne nous
-decevez pas, %pcf.
+QuestComplete:  [1004]
+<ce>                Well done. You have reason to be proud.
 
+RumorsDuringQuest:  [1005]
+That assassin ran off to ___mondun_ like the hounds of hell were behind him.
+<--->
+_qgiver_ can't just let that traitor go after what %g did to the Brotherhood.
 
-Record n�3----------
-Le traitre n'est pas mort. N'essayez pas
-de me faire croire le contraire.
+RumorsPostfailure:  [1006]
+That traitor is apparently tougher than _qgiver_ thought. What an escape.
+<--->
+<ce>              The nightblade has moved north I hear, but
+ the memory still plagues the Brotherhood.
 
+RumorsPostsuccess:  [1007]
+The traitor's story just proves it. You don't play around with the Brotherhood.
+<--->
+I never thought the Brotherhood would be merciful to a dolt like that traitor assassin.
 
-Record n�4----------
-Bien joué. Vous avez toutes les raisons d'être fier.
+QuestorPostsuccess:  [1008]
+What do you need, o slayer of the traitor?
 
+QuestorPostfailure:  [1009]
+<ce>                  I am ill at ease speaking with you.
+<ce>                  After all, I trusted you to account
+<ce>                        that traitor, didn't I?
 
-Record n�5----------
-Cet assassin s'est enfui vers ___mondun_ comme si tous les démons 
-de l'enfer étaient à ses trousses.
-_qgiver_ ne peut pas laisser ce traitre en paix après ce qu'%g a 
-fait à la Confrérie.
+QuestLogEntry:  [1010]
+%qdt:
+ The Dark Brotherhood in ___qgiver_ has
+ sent me to find and slay a traitor to the guild.
+ The rogue assassin is hiding out in ___mondun_.
+ I have =queston_ days to accomplish this.
 
-
-Record n�6----------
-Ce traitre est visiblement plus coriace que _qgiver_ le pensait. 
-Quelle évasion !
-J'ai entendu dire que le nightblade est parti en direction du 
-nord, mais
-l'ombre de ses méfaits tourmente toujours la Confrérie.
-
-
-Record n�7----------
-L'histoire du traitre le prouve simplement. On ne joue pas 
-impunément avec la Confrérie Noire.
-Je n'ai jamais pensé que la Confrérie puisse être miséricordieuse 
-avec un misérable traitre assassin.
-
-
-Record n�8----------
-De quoi avez-vous besoin, pourfendeur de traitres ?
-
-
-Record n�9----------
-Vous parler me met mal à l'aise.
-Après tout, je vous avais donné ma
-confiance pour vous occuper de
-ce traitre, qu'en avez-vous fait ?
-
-
-Record n�10----------
-%qdt :
- La Confrérie Noire de ___qgiver_ m'a
- envoyé débusquer et pourfendre un traitre
- de la guilde. La crapule assassin se terre
- en ___mondun_.
- J'ai =queston_ jours pour accomplir ma mission.
+Message:  1021
+<ce>                        "I am not...the traitor
+<ce>                     you...think I am. The...real
+<ce>            traitor is..." The contract has been fulfilled.
 
 
-Record n�11----------
-"Je ne suis pas... le traitre que
-vous... pensez que je suis. Le... véritable
-traitre est..." Le contrat a été honoré.
+-- Symbols used in the QRC file:
+--
+--               %di occurs 1 time.
+--                %g occurs 2 times.
+--              %pcf occurs 2 times.
+--              %qdt occurs 1 time.
+--         =queston_ occurs 3 times.
+--        ___mondun_ occurs 3 times.
+--        ___qgiver_ occurs 3 times.
 
+QBN:
 
+Person _qgiver_ group Questor male
 
+Place _mondun_ remote dungeon
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _assassin_ is Assassin
+Foe _nightblade_ is Nightblade
+Foe _acrobat_ is Acrobat
+Foe _battlemage_ is Battle_mage
+
+--	Quest start-up:
+	start timer _queston_ 
+	reveal _mondun_ 
+	log 1010 step 0 
+	pick one of _S.05_ _S.06_ _S.07_ _S.08_ 
+
+_queston_ task:
+	end quest 
+
+_pcgetsgold_ task:
+	when _mondead_ and _qgclicked_ 
+	give pc nothing 
+	end quest 
+
+_mondead_ task:
+	killed 1 _nightblade_ saying 1021 
+	killed 1 _battlemage_ saying 1021 
+	killed 1 _acrobat_ saying 1021 
+	killed 1 _assassin_ saying 1021 
+
+_qgclicked_ task:
+	clicked npc _qgiver_ 
+
+_clearclick_ task:
+	when _qgclicked_ and not _mondead_ 
+	say 1003
+	clear _qgclicked_ _clearclick_ 
+
+_S.05_ task:
+	place foe _nightblade_ at _mondun_ 
+
+_S.06_ task:
+	place foe _battlemage_ at _mondun_ 
+
+_S.07_ task:
+	place foe _acrobat_ at _mondun_ 
+
+_S.08_ task:
+	place foe _assassin_ at _mondun_ 

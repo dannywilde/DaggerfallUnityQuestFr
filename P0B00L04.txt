@@ -1,183 +1,262 @@
-Record n�0----------
+-- Quest: C:\QUESTS\WORKING\P0B00L04.Qbn.
+-- StartsBy: letter
+-- Questee: member
+-- Questor: vampire
+-- Repute: 0
+-- QuestId: 4
+Messages: 17
+Quest: P0B00L04
+DisplayName: An Old Enemy
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
 Error: Questtext 1000 called.
 
-Record n�1----------
+RefuseQuest:  [1001]
 Error: Questtext 1001 called.
 
-Record n�2----------
+AcceptQuest:  [1002]
 Error: Questtext 1002 called.
 
-Record n�3----------
-Est-ce un signe de tristresse sur ton
-front, %pcf ? Je comprends.
-J'ai eu plus d'une occasion de tuer
-un de mes descendants. Tu dois essayer
-de t'élever au-dessus de cet intérêt
-écoeurant qu'ont les mortels pour leur
-progéniture. Ce que tu dois faire est
-regrettable, mais tu dois durcir ton
-coeur pour devenir un véritable %vam.
-Tu as fait un pas en avant, et je
-t'en félicite.
+QuestComplete:  [1004]
+<ce>                Is that a hint of sorrow on your brow,
+<ce>                       %pcf? I quite understand.
+<ce>                 I have on more than on occasion had to
+<ce>                slay an offspring of mine. You must try
+<ce>                to rise above this mawkish mortal regard
+<ce>                 for propagation. What you have had to
+<ce>                  do is lamentable, but you must chill
+<ce>                your blood to truly become one of %vam.
+<ce>                 You have made a step toward that, for
+<ce>                   which you deserve congratulations.
 
+RumorsDuringQuest:  [1005]
+The grave of =vampire_ must have been robbed. It's all ... torn up.
+<--->
+There's been a lot of activity around ___mondung_ lately. At night.
 
-Record n�4----------
-La tombe de =vampire_ a dû être pillée. C'est entièrement... 
-sacagé.
-Il y a beaucoup d'activité ces temps-ci autour de ___mondung_. De 
-nuit.
+RumorsPostfailure:  [1006]
+I got a boil the other day ... but it healed.
+<--->
+I just had a three hour conversation about the weather.
+<--->
+The weather is pretty usual for this time of year.
+<--->
+It seems a trifle coolish in %cn for this time of year.
+<--->
+It sure is a lot warmer today than this time last year.
+<--->
+My great aunt is going to a specialist across the Bay.
+<--->
+It's always funny what time it gets dark around here.
+<--->
+We should erect a war statue around here.
+<--->
+The kids these days with their magic. %oth, I don't know.
+<--->
+I had the weirdest dream last night.
+<--->
+I heard a great joke. %jok
+<--->
+%jok Actually, that's a joke.
+<--->
+%jok Can you explain that to me?
+<--->
+The legal system in %reg has its good points and bad ones.
 
-Record n�5----------
-Je me suis fait une brûlure l'autre jour... mais elle est 
-guérie.
-Je viens juste d'avoir une conversation de trois heures à propos 
-du temps.
-Le temps est tout a fait normal pour cette époque de 
-l'année.
-Il semble qu'il fasse un peu frais en %cn pour cette époque de 
-l'année.
-C'est sur qu'il fait beaucoup plus chaud aujourd'hui qu'il y a un 
-an.
-Ma grand-tante va aller voir un spécialiste de l'autre côte de la 
-Baie.
-Il est vraiment curieux de voir à quelle heure il fait nuit 
-ici.
-Nous devrions ériger un monument aux morts près d'ici.
-Les enfants de nos jours avec leur magie. %oth, je ne sais 
-pas.
-J'ai fait un rêve des plus étranges la nuit dernière.
-On m'en a raconté une bien bonne ! %jok
-%jok. Effectivement, c'est une sacrée blague...
-%jok. Je ne comprends pas. Pourriez-vous me l'expliquer ?
-Le système de lois en %reg a ses bons et ses mauvais côtés.
+RumorsPostsuccess:  [1007]
+I got a boil the other day ... but it healed.
+<--->
+I just had a three hour conversation about the weather.
+<--->
+The weather is pretty usual for this time of year.
+<--->
+It seems a trifle coolish in %cn for this time of year.
+<--->
+It sure is a lot warmer today than this time last year.
+<--->
+My great aunt is going to a specialist across the Bay.
+<--->
+It's always funny what time it gets dark around here.
+<--->
+We should erect a war statue around here.
+<--->
+The kids these days with their magic. %oth, I don't know.
+<--->
+I had the weirdest dream last night.
+<--->
+I heard a great joke. %jok
+<--->
+%jok Actually, that's a joke.
+<--->
+%jok Can you explain that to me?
+<--->
+The legal system in %reg has it good points and bad ones.
 
-Record n�6----------
-Je me suis fait une brûlure l'autre jour... mais elle est 
-guérie.
-Je viens juste d'avoir une conversation de trois heures à propos 
-du temps.
-Le temps est tout a fait normal pour cette époque de 
-l'année.
-Il semble qu'il fasse un peu frais en %cn pour cette époque de 
-l'année.
-C'est sur qu'il fait beaucoup plus chaud aujourd'hui qu'il y a un 
-an.
-Ma grand-tante va aller voir un spécialiste de l'autre côte de la 
-Baie.
-Il est vraiment curieux de voir à quelle heure il fait nuit 
-ici.
-Nous devrions ériger un monument aux morts près d'ici.
-Les enfants de nos jours avec leur magie. %oth, je ne sais 
-pas.
-J'ai fait un rêve des plus étranges la nuit dernière.
-On m'en a raconté une bien bonne ! %jok
-%jok. Effectivement, c'est une sacrée blague...
-%jok. Je ne comprends pas. Pourriez-vous me l'expliquer ?
-Le système de lois en %reg a ses bons et ses mauvais côtés.
-
-Record n�7----------
+QuestorPostsuccess:  [1008]
 Error: Questtext 1008 Called
 
-Record n�8----------
+QuestorPostfailure:  [1009]
 Error: Questtext 1009 Called
 
-Record n�9----------
+QuestLogEntry:  [1010]
                      __vamp_
                       ___vamp_
  
  
-Mon cher %pcn,
+ My Dear %pcn,
  
-      Peut-être te souviens-tu d'un guerrier
- que tu as rencontré une fois, =vampire_ ?
- Chic, succulent, au sang très fin,
- et finalement un repas mémorable.
- Et bien, %g est revenu de sa tombe à présent.
+      Perhaps you remember a warrior
+ you met once, =vampire_?  Taut,
+ succulent, slightly thin-blooded,
+ but all in all, a memorable meal. Well,
+ %g's back from the grave now.
  
-      %vam a des sentiments plutôt
- mitigés au sujet de l'existence de
- ton enfant. Viens me voir et nous en
- discuterons.
+      %vam have rather
+ mixed emotions about your progeny's
+ existence. Come see me and we'll discuss
+ it.
  
  
-                    Jusqu'à la Mort,
+                    Yours in Death,
  
                     _vamp_
 
+Message:  1011
+<ce>                    A pale young boy slips a letter
+<ce>                     into your hand and disappears,
+<ce>                            nimble as a rat.
 
-Record n�10----------
-Un garcon bien pâle glisse une lettre
-dans votre main et disparait,
-vif comme un rat.
-
-
-Record n�11----------
+Message:  1012
 %qdt:
- _vamp_ des %vam m'a
- envoyé une lettre, exigeant que
- je vienne rapidement le voir en
- ___vamp_ en un lieu appelé
- __vamp_.
+ _vamp_ of %vam sent
+ me a letter, asking for my
+ immediate presence in ___vamp_
+ at a place called __vamp_.
 
+Message:  1013
+<ce>              Ah, good evening to you, blood of my blood.
+<ce>               We have a problem, you and I. One of your
+<ce>               old meals has come back out of the grave.
+<ce>                  =vampire_? I don't know if the name
+<ce>                 means anything to you. In any case, we
+<ce>                 have been watching %g2, as we watched
+<ce>               you, to see if %g3 response to immortality
+<ce>                      is worthy of %g3 bloodline.
+<ce>               It has not been. With every drop of blood
+<ce>                %g drinks, %g3 thirst increases tenfold.
+<ce>               A mad, virgin vampire loose in the region
+<ce>                 is a threat to all civilized vampiric
+<ce>                      business. Go to ___mondung_
+<ce>               and slay this troublesome child of yours.
+<ce>                  It is unpleasant business, but it is
+<ce>                   your responsibility. I will expect
+<ce>                  to see you again in =queston_ nights
+<ce>                   with the deed completed. Farewell.
 
-Record n�12----------
-Ah, bonsoir à toi, sang de mon sang.
-Nous avons un problème, toi et moi. Un
-de tes anciens repas est revenu de la tombe.
-=vampire_ ? Je ne sais pas si ce nom veut
-dire quelque chose pour toi. Dans tous les cas,
-nous l'avons surveillé, comme nous t'avions
-surveillé, afin de voir si sa réaction a
-l'immortalité est digne de sa lignée.
-Ce ne fut pas le cas. A chaque goutte bue,
-sa soif de sang ne fait que croître.
-Un vampire vierge et écervelé lâché
-dans la région est une menace pour
-les affaires de tous les vampires
-"civilisés". Va à ___mondung_
-et tue cet enfant turbulent.
-C'est une besogne déplaisante, mais
-elle t'incombe. Je t'attends dans
-=queston_ nuits une fois ta mission achevée. Adieu.
-
-
-Record n�13----------
-%dat:
- _vamp_ m'a envoyé à
- ___mondung_ ou
- je dois tuer =vampire_, un
- vampire que j'ai créé. J'ai
- =queston_ nuits pour
- accomplir ma besogne
- et revenir voir
+Message:  1014
+%qdt:
+ _vamp_ has sent me to
+ ___mondung_ where
+ I am to slay =vampire_, a
+ vampire I created. I have
+ =queston_ nights to do
+ this duty and report back to
  ___vamp_.
 
+Message:  1015
+<ce>                     Better not spare that rod, my
+<ce>                        parent. You'll spoil me.
+                                     <--->
+<ce>                     I know you. You were the last
+<ce>                      face I saw, smeared with the
+<ce>                    blood of my body. Come, my dear
+<ce>                        creator, let us embrace.
+                                     <--->
+<ce>                      Your face is the face of my
+<ce>                          nightmare, %pcn. You
+<ce>                      are the one who cursed me to
+<ce>                         this life, aren't you?
 
-Record n�14----------
-Tu ferais mieux de ne
-pas hésiter avec ce
-bâton, parent.
-Tu me raterais.
-
-Je te reconnais. Ton visage,
-tâché de mon sang, est le
-dernier que j'ai vu. Approche,
-mon cher créateur,
-embrassons nous.
-
-Ton visage est celui de
-mon cauchemar, %pcn. Tu
-es celui qui m'a condamné
-à vivre éternellement sous
-cette forme, n'est-ce pas?
-
-
-Record n�15----------
-=vampire_ est enfin
-vraiment mort.
-Vous devez retourner
-voir _vamp_ pour le
-lui dire.
+Message:  1016
+<ce>                            =vampire_ dies
+<ce>                         at last a true death.
+<ce>                        You must return to tell
+<ce>                            _vamp_ that the
+<ce>                             deed is done.
 
 
+-- Symbols used in the QRC file:
+--
+--               %cn occurs 2 times.
+--              %dat occurs 1 time.
+--                %g occurs 2 times.
+--               %g2 occurs 1 time.
+--               %g3 occurs 3 times.
+--              %jok occurs 6 times.
+--              %oth occurs 10 times.
+--              %pcf occurs 1 time.
+--              %pcn occurs 3 times.
+--              %qdt occurs 1 time.
+--              %reg occurs 2 times.
+--              %vam occurs 3 times.
+--         =queston_ occurs 2 times.
+--         =vampire_ occurs 5 times.
+--       ___mondung_ occurs 3 times.
+--          ___vamp_ occurs 15 times.
 
+QBN:
+Item _letter_ letter used 1010
+
+Person _vamp_ factiontype Vampire_Clan male
+
+Place _mondung_ remote dungeon
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+Clock _S.05_ 00:00 0 flag 17 range 1 4
+
+Foe _vampire_ is Vampire
+
+--	Quest start-up:
+	dialog link for location _mondung_ person _vamp_ 
+	_letter_ used do _readletter_ 
+	have _letter_ set _S.08_ 
+	give pc _letter_ notify 1011 
+	place foe _vampire_ at _mondung_ 
+
+_vampclicked_ task:
+	clicked npc _vamp_ 
+
+_S.07_ task:
+	when _vampclicked_ 
+	reveal _mondung_ 
+	log 1014 step 1 
+	say 1013 
+
+_S.01_ task:
+	killed 1 _vampire_ 
+	say 1016 
+
+until _S.01_ performed:
+	clear _vampclicked_ 
+
+_queston_ task:
+	end quest 
+
+_S.03_ task:
+	injured _vampire_ 
+	say 1015 
+
+_reward_ task:
+	when _vampclicked_ and _S.01_ 
+	give pc nothing 
+	end quest 
+
+variable _S.05_
+_readletter_ task:
+	add dialog for person _vamp_ 
+	log 1012 step 0 
+
+_S.08_ task:
+	start timer _queston_ 

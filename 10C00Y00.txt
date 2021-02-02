@@ -1,98 +1,87 @@
-Record n�0----------
-Oh, oui mon cher, je pense que je peux vous aider
- dans votre ambition. Si je vous donne un objet de valeur,
- ferez-vous d'abord quelque chose pour moi?
+-- Quest: C:\QUESTS\WORKING\10C00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: Meridia
+-- Repute: 0
+-- QuestId: 0
+Messages: 41
+Quest: 10C00Y00
+DisplayName: Meridia's Quest
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>           Oh, oui mon cher, je pense que je peux vous aider
+<ce>           dans votre ambition. Si je vous donne un objet de valeur,
+<ce>                  ferez-vous d'abord quelque chose pour moi?
 
-Record n�1----------
-Oh, quelle honte. Comme conseil amical, de mauvaises
- choses arrivent aux aventuriers %ra avides, voulant
- prendre mais ne voulant pas donner.
+RefuseQuest:  [1001]
+<ce>            Oh, quelle honte. Voici un conseil amical, de mauvaises
+<ce>             choses arrivent aux aventuriers %ra avides, voulant
+<ce>                   prendre mais ne voulant pas donner.
 
+AcceptQuest:  [1002]
+<ce>        Vous acceptez? Oh, c'est très gentil. Beaucoup plus gentil
+<ce>              qu'un certain _monster_ que je connais, dénommé
+<ce>                =monster_, qui a passé un marché avec moi,
+<ce>                mais qui a ensuite décidé de se rétracter.
+<ce>               Pourriez-vous rendre visite à =monster_
+<ce>            et lui faire savoir qu'un comportement de goujat est fatal.
+<ce>         Puis allez voir mon cher ami, _qgfriend_, qui vous attendra
+<ce>         durant =1stparton_ jours à __qgfriend_ à ___qgfriend_,
+<ce>          pour vous donner mon _artifact_ lorsque vous  arriverez.
+<ce>             C'est précisement l'objet qu'il vous faut.
+<ce>            A présent, vous devriez partir. Prenez soin de vous.
 
-Record n�2----------
-Vous acceptez? Oh, c'est très gentil. Beaucoup plus gentil
- qu'un certain _monster_ que je connais, dénommé
- =monster_, qui a passé un marché avec moi,
- mais qui a ensuite décidé de se retracter.
- Pourriez-vous rendre visite à =monster_
- et lui faire savoir qu'un tel comportement non galant
- est fatal. Puis allez voir mon cher ami,
- _qgfriend_, qui vous attendra durant =1stparton_ jours à
- __qgfriend_ à ___qgfriend_,
- pour vous donner mon _artifact_ lorsque vous
- arriverez. C'est précisement l'objet qu'il vous faut.
- A présent, vous devriez partir. Prenez soin de vous.
+QuestFail:  [1003]
+<ce>          Vous n'envisagez pas d'abuser de la gentillesse de Meridia
+<ce>                en me disant que vous avez tué =monster_
+<ce>          alors que nous savons tous les deux qu'il n'en est rien,
+<ce>                n'est-ce pas? J'espère vraiment que non.
 
+QuestComplete:  [1004]
+<ce>                %pcn? Je suis _qgfriend_. Je crois savoir que
+<ce>              vous me cherchez. J'ai ici le _artifact_, comme
+<ce>           Meridia l'avait promis. Meridia est impressionnée par
+<ce>          le fait que vous ayez rempli votre contrat jusqu'au bout.
 
-Record n�3----------
-Vous n'envisagez pas d'abuser de la gentillesse de Meridia
- en me disant que vous avez tué =monster_
- alors que nous savons tous les deux qu'il n'en est rien,
- n'est-ce pas? J'espère vraiment que non.
+RumorsDuringQuest:  [1005]
+Le sorcier à ___mondung_ est un célèbre collecteur d'artéfacts étranges.
+<--->
+Il paraît que =monster_ traite avec les esprits pour alimenter ses collectes.
 
+RumorsPostfailure:  [1006]
+Ce répugnant sorcier a finalement quitté ___mondung_. Pour acquérir davantage de camelote, j'imagine.
+<--->
+Ce =qgfriend_ _qgfriend_ a quitté __qgfriend_ en grommelant à propos d'un %ra malhonnête.
 
-Record n�4----------
-%pcn? Je suis _qgfriend_. Je crois savoir que
- vous me cherchez. J'ai ici le _artifact_, comme
- Meridia l'avait promis. Meridia est impressionnée par
- le fait que vous ayez rempli votre contrat jusqu'au bout,
- pourrais-je ajouter.
+RumorsPostsuccess:  [1007]
+On dit qu'une créature de la collection de =monster_ s'est soulevée et l'a tué.
+<--->
+Apparemment, =monster_ a été tué par quelqu'un qui s'intéressait à sa grande collection.
 
+Message:  1011
+_qgfriend_ est le nom de ce =qgfriend_ à __qgfriend_, juste au %di d'ici.
+<--->
+_qgfriend_ est un =qgfriend_ tranquille que j'ai rencontré à __qgfriend_. C'est vers le %di.
 
-Record n�5----------
-Le sorcier à ___mondung_ est un célèbre collecteur d'artéfacts 
-étranges.
-Il paraît que =monster_ traite avec les esprits pour alimenter ses 
-collectes.
+Message:  1012
+_qgfriend_ est l'un des collecteurs de Meridia à %reg. Charmant, comme %g doit l'être.
+<--->
+_qgfriend_ est un serviteur de la Dame Daedra de la Cupidité, Meridia.
 
-Record n�6----------
-Ce répugnant sorcier a finalement quitté ___mondung_. Pour 
-acquérir davantage de camelote, j'imagine.
-Ce =qgfriend_ _qgfriend_ a quitté __qgfriend_ en grommelant à 
-propos d'un %ra malhonnête.
+Message:  1013
+Meridia est un Regent Daedra et collectionneuse de spécimens humains.
+<--->
+Meridia est une sorte de Prince Daedra intérimaire, et impitoyable dans ses acquisitions.
 
-Record n�7----------
-On dit qu'une créature de la collection de =monster_ s'est 
-soulevée et l'a tué.
-Apparemment, =monster_ a été tué par quelqu'un qui s'intéressait à 
-sa grande collection.
+Message:  1014
+<ce>   L'anneau est un ancien objet de pouvoir. Il est sensé rendre celui
+<ce>          qui le porte invisible, silencieux, et vif comme le vent.
 
-Record n�8----------
-Error: Tried to call questtext 1008. Whoopsy!
-
-
-Record n�9----------
-Error: Tried to call questtext 1009. Ye Gods!
-
-
-Record n�10----------
-_qgfriend_ est le nom de ce =qgfriend_ à __qgfriend_, juste au %di 
-d'ici.
-_qgfriend_ est un =qgfriend_ tranquille que j'ai rencontré à 
-__qgfriend_. C'est vers le %di.
-
-Record n�11----------
-_qgfriend_ est l'un des collecteurs de Meridia à %reg. Charmant, 
-comme %g doit l'être.
-_qgfriend_ est un serviteur de la Dame Daedra de la Cupidité, 
-Meridia.
-
-Record n�12----------
-Meridia est un Regent Daedra et collectionneuse de spécimens 
-humains.
-Meridia est une sorte de Prince Daedra intérimaire, et impitoyable 
-dans ses acquisitions.
-
-Record n�13----------
-L'anneau est un ancien objet de pouvoir. Il est sensé rendre 
-celui
- qui le porte invisible, silencieux, et vif comme le vent.
-
-
-Record n�14----------
+Message:  1020
 %qdt:
- J'ai =1stparton_ jours pour trouver et tuer un
+ J'ai =1stparton_ jours pour trouver et tuer u
  _monster_ appelé =monster_, être à
  ___qgfriend_ pour rencontrer un =qgfriend_
  appelé _qgfriend_, et recevoir l'artéfact que Meridia
@@ -102,17 +91,85 @@ Record n�14----------
  à ___qgfriend_.
 
 
+Message:  1030
+<ce>                   =monster_ gît mort à vos pieds.
+<ce>              Dame Meridia est désormais votre débitrice.
 
-Record n�15----------
-=monster_ gît mort à vos pieds.
- Dame Meridia est désormais votre débitrice.
-
-
-Record n�16----------
-Ainsi, Meridia envoie ses laquais contre moi.
- Mais je ne suis pas sans alliés non plus.
- Venez à moi, enfants d'Oblivion ! Servez votre
- maître =monster_ quand il en a besoin !
+Message:  1040
+<ce>                 Ainsi, Meridia envoie ses laquais contre moi.
+<ce>                  Mais je ne suis pas sans alliés non plus.
+<ce>                 Venez à moi, enfants d'Oblivion ! Servez votre
+<ce>                    maître =monster_ quand il en a besoin !
 
 
+-- Symbols used in the QRC file:
+--
+--               %di occurs 2 times.
+--                %g occurs 3 times.
+--               %g2 occurs 2 times.
+--               %g3 occurs 9 times.
+--              %pcn occurs 1 time.
+--              %qdt occurs 1 time.
+--               %ra occurs 2 times.
+--              %reg occurs 1 time.
+--       =1stparton_ occurs 2 times.
+--         =monster_ occurs 12 times.
+--        =qgfriend_ occurs 4 times.
+--       ___mondung_ occurs 3 times.
+--      ___qgfriend_ occurs 9 times.
+--        _artifact_ occurs 3 times.
+--         _monster_ occurs 2 times.
+--        _qgfriend_ occurs 9 times.
 
+QBN:
+Item _artifact_ artifact Ring_of_Khajiit anyInfo 1014
+
+Person _qgfriend_ group Librarian anyInfo 1011 rumors 1012
+
+Place _mondung_ remote dungeon
+
+Clock _1stparton_ 00:00 0 flag 1 range 2 5
+
+Foe _monster_ is Sorceror
+Foe _daedra1_ is Fire_daedra
+Foe _daedra2_ is Daedroth
+--added dungeon name to block 1002. Quest previously did not name dungeon except in journal.
+
+--	Quest start-up:
+	start timer _1stparton_
+	reveal _mondung_
+	log 1020 step 0
+	place foe _monster_ at _mondung_
+
+_1stparton_ task:
+	end quest
+
+variable _2ndparton_
+--unused variable
+_pcgetsgold_ task:
+	when _npcclicked_ and _mondead_
+	give pc _artifact_
+	end quest
+--removed unnecessary delay
+
+_mondead_ task:
+	killed 1 _monster_
+	say 1030
+	clear _S.08_
+
+_npcclicked_ task:
+	clicked npc _qgfriend_
+
+_clearclick_ task:
+	when _npcclicked_ and not _mondead_
+	say 1003
+	clear _npcclicked_ _clearclick_
+
+_S.07_ task:
+	injured _monster_
+	say 1040
+
+_S.08_ task:
+	when _S.07_ and not _mondead_
+	create foe _daedra2_ every 3 minutes 3 times with 100% success
+	create foe _daedra1_ every 2 minutes 2 times with 100% success

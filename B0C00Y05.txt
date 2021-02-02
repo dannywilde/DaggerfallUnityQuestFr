@@ -1,94 +1,154 @@
-Record n�0----------
-Vous n'êtes pas encore un membre
-de notre Ordre à qui l'on peut faire
-confiance, %pcn. Quoi qu'il en soit,
-je pense connaître un moyen de
-monter dans notre estime. Il y a
-un traitre à l'Ordre dans ___qgiver_,
-un _monster_ lâche qui a osé
-rejoindre nos ennemis. La trahison
-est punie par la mort, et encore ce
-n'est pas un châtiment suffisant selon
-moi. Seriez-vous prêt à nous en débarasser ?
+-- Quest: C:\QUESTS\WORKING\B0C00Y05.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: knight
+-- Repute: 0
+-- QuestId: 5
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 81
+Quest: B0C00Y05
+DisplayName: The Traitor
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>                  You are not yet a trusted member of
+<ce>                       our knightly order, %pcn.
+<ce>                   However, I think I know a way you
+<ce>                     can earn our trust. There is a
+<ce>                  traitor to the order in ___qgiver_,
+<ce>                     a dastardly _monster_ who has
+<ce>                   betrayed us to our enemies. Death
+<ce>                   is a fair punishment for treason,
+<ce>                       don't you think %pcn? Will
+<ce>                       you do this for the order?
 
-Record n�1----------
-N'espérez pas obtenir une quelconque
-faveur de la part de notre Ordre avant un
-long moment.
- 
+RefuseQuest:  [1001]
+<ce>                     Don't expect any favors from
+<ce>                   this knightly order anytime soon.
 
-Record n�2----------
-Le traitre est un _monster_
-nomme  =monster_ qui se cache
-comme un lâche peureux dans
-___mondun_.
-Si vous n'êtes pas de retour dans
-=queston_  jours, nous penserons
-que vous nous avez trahi et nous
-enverrons quelqu'un d'autre faire
-ce travail. 
+AcceptQuest:  [1002]
+<ce>                      The traitor is a _monster_
+<ce>                     named =monster_ who is hiding
+<ce>                        like a craven coward in
+<ce>                              ___mondun_.
+<ce>                        If you have not returned
+<ce>                    in =queston_ days, our trust is
+<ce>                     forfeit and another will take
+<ce>                              your place.
 
+QuestFail:  [1003]
+<ce>                 The _monster_ is not dead. Do not try
+<ce>                       to convince me otherwise.
 
-Record n�3----------
-Le _monster_ n'est toujours pas mort ! N'essayez
-même pas de me persuader du contraire.
+QuestComplete:  [1004]
+<ce>                       Maybe you are not as bad
+<ce>                         as they say. %pcn, you
+<ce>                      have earned a bit of respect
+<ce>                       with this knightly order.
 
+RumorsDuringQuest:  [1005]
+That _monster_ ran off to ___mondun_ like the hounds of hell were behind him.
+<--->
+_qgiver_ can't just let =monster_ go after what %g did to the knightly order.
 
-Record n�4----------
-Peut-être n'êtes vous pas aussi
-mauvais que cela, après tout ! 
-Vous avez gagné un peu plus
-de respect au sein de cet Ordre.
+RumorsPostfailure:  [1006]
+=monster_ is apparently tougher than _qgiver_ thought. What an escape.
+<--->
+=monster_ has moved north I hear, but %g3 memory still plagues the order.
 
+RumorsPostsuccess:  [1007]
+=monster_'s story just proves it. You don't play around with the ==qgiver_.
+<--->
+I always thought the Order would be more merciful to a dolt like =monster_.
 
-Record n�5----------
-Ce _monster_ s'est enfui à ___mondun_ comme si tous les chiens de 
-l'enfer le poursuivaient.
-_qgiver_ ne peut pas se contenter de laisser =monster_ s'en aller 
-après ce qu'il a fait à notre Ordre.
+QuestorPostsuccess:  [1008]
+I'd be happy to help you however I can, killer.
 
-Record n�6----------
-=monster_ est apparemment plus résistant que _qgiver_ ne l'avait 
-prévu. Quelle épopée !
-=monster_ s'est enfui vers le nord, mais son souvenir infecte 
-toujours l'honneur de l'Ordre.... 
+QuestorPostfailure:  [1009]
+Your heart is too soft, %pcf. Don't waste my time.
 
-Record n�7----------
-L'histoire de =monster_ le prouve. Il ne faut jamais trahir les 
-%kno. 
-J'ai toujours pensé que l'Ordre aurait pu être plus clément envers 
-=monster_.
-
-Record n�8----------
-Je serais heureux de pouvoir vous rendre service, tueur.
-
-Record n�9----------
-Vous n'avez pas assez de cran, %pcf. Ne me faites pas perdre mon 
-temps .
-
-Record n�10----------
+QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ de ___qgiver_
- m'a demandé de tuer un _monster_
- appelé =monster_ qui s'est éclipsé
- quelque part vers ___mondun_. Je dispose
- de =queston_ jours pour accomplir cette mission.
+ _qgiver_ of ___qgiver_
+ has sent me to find and slay a _monster_
+ called =monster_ who is slinking
+ around in ___mondun_. I have
+ =queston_ days to accomplish this.
+
+Message:  1011
+<ce>               You have killed =monster_, the _monster_.
+<ce>                   The knightly order will be proud.
+
+Message:  1080
+<ce>                    As a token of our appreciation,
+<ce>                 please accept this map to ___newdung_,
+<ce>                  a foul, vermin-infested hole by all
+<ce>                   accounts.  Just the kind of place
+<ce>                     a budding knight should enjoy
+<ce>                              cleaning up.
 
 
-Record n�11----------
-Vous avez tué =monster_, le _monster_.
-L'Ordre des Chevaliers va être fier de vous.
+-- Symbols used in the QRC file:
+--
+--                %g occurs 1 time.
+--               %g3 occurs 1 time.
+--              %pcf occurs 2 times.
+--              %pcn occurs 3 times.
+--              %qdt occurs 1 time.
+--         ==qgiver_ occurs 1 time.
+--         =monster_ occurs 28 times.
+--         =queston_ occurs 2 times.
+--        ___mondun_ occurs 3 times.
+--       ___newdung_ occurs 1 time.
+--        ___qgiver_ occurs 2 times.
+--         _monster_ occurs 6 times.
+--          _qgiver_ occurs 3 times.
 
+QBN:
 
-Record n�12----------
-Veuillez accepter cette carte de 
-___newdung_ en tant que preuve
-de notre gratitude. Cet endroit
-est infesté de vermines de toutes sortes.
-En fait, c'est exactement le type d'endroit
-qu'un chevalier comme vous aime
-nettoyer.
+Person _qgiver_ group Questor male
 
+Place _mondun_ remote dungeon
+Place _newdung_ remote dungeon
 
+Clock _queston_ 00:00 0 flag 17 range 0 2
 
+Foe _monster_ is Nightblade
+
+--	Quest start-up:
+	start timer _queston_ 
+	reveal _mondun_ 
+	log 1010 step 0 
+	pick one of _map_ _nomap_ _nomap_ 
+	place foe _monster_ at _mondun_ 
+
+_queston_ task:
+	end quest 
+
+_pcgetsgold_ task:
+	when _mondead_ and _qgclicked_ 
+	give pc nothing 
+
+_mondead_ task:
+	killed 1 _monster_ saying 1011 
+
+_qgclicked_ task:
+	clicked npc _qgiver_ 
+
+_clearclick_ task:
+	when not _mondead_ and _qgclicked_ 
+	say 1003
+	clear _qgclicked_ _clearclick_ 
+
+variable _map_
+variable _nomap_
+_S.07_ task:
+	when _map_ and _pcgetsgold_
+    say 1080
+	reveal _newdung_
+	end quest
+
+_S.08_ task:
+    when not _map_ and _pcgetsgold_
+    end quest

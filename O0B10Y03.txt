@@ -1,92 +1,168 @@
-Record n�0----------
-J'ai un boulot pour toi, si
-ça t'intéresse. Mon nom est
-_qgiver_. Un gars veut qu'un
-_religiousitem_ soit dérobé
-à _temple_.
-Tu t'en charges ?
+-- Quest: C:\QUESTS\WORKING\O0B10Y03.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: thief
+-- Repute: 10
+-- QuestId: 3
+Messages: 11
+Quest: O0B10Y03
+DisplayName: A Temple Visit
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                      Got a guild job for ya, if
+<ce>                        yer innerested. Name is
+<ce>                        _qgiver_. Some guy wants
+<ce>                       the _religiousitem_ lifted
+<ce>                             from _temple_.
+<ce>                             Wanna take it?
+
+RefuseQuest:  [1001]
+<ce>                       I'll keep ya in mind %pcn
+<ce>                       if a more interestin' job
+<ce>                               comes up.
+
+AcceptQuest:  [1002]
+<ce>                        OK. Here's the skinny.
+<ce>                         You go to _temple_ in
+<ce>                          __temple_. Take the
+<ce>                       _religiousitem_ and bring
+<ce>                         it back to me. You get
+<ce>                         the usual guild fee of
+<ce>                         _gold_ gold pieces. Ya
+<ce>                      got =traveltime_ days ta put
+<ce>                            it in my hands.
+
+QuestComplete:  [1004]
+<ce>                      Boy, some guys are hard ta
+<ce>                      figure out. Can you believe
+<ce>                      he paid to have this lifted
+<ce>                      Wasn't as if there was some
+<ce>                      "hideous guardian" stoppin'
+<ce>                      from doin' it himself. Huh?
+<ce>                       There was! Maybe he wasn't
+<ce>                       so screwy. Here's yer fee
+<ce>                           %pcf. Good workin'
+<ce>                                with ya.
+
+RumorsDuringQuest:  [1005]
+I got a boil the other day ... but it healed.
+<--->
+I just had a three hour conversation about the weather.
+<--->
+The weather is pretty usual for this time of year.
+<--->
+It seems a trifle coolish in %cn for this time of year.
+<--->
+It sure is a lot warmer today than this time last year.
+<--->
+My great aunt is going to a specialist across the Bay.
+<--->
+It's always funny what time it gets dark around here.
+<--->
+We should erect a war statue around here.
+<--->
+The kids these days with their magic. %oth, I don't know.
+<--->
+I had the weirdest dream last night.
+<--->
+I heard a great joke. %jok
+<--->
+%jok Actually, that's a joke.
+<--->
+%jok Can you explain that to me?
+<--->
+The legal system in %reg has its good points and bad ones.
+
+RumorsPostfailure:  [1006]
+_temple_ is pretty well-guarded against thieves, it seems.
+
+RumorsPostsuccess:  [1007]
+The guy who owns _temple_ paid some thieves to break into his own place.
+
+QuestorPostsuccess:  [1008]
+How are you, %pcf? I'm still waiting to hear from the guy who hired us.
+
+QuestorPostfailure:  [1009]
+<ce>                       I don't care whether that
+<ce>                     temple was guarded by the Lord
+<ce>                         of All Oblivion, %pcf.
+<ce>                     There is no excuse for failing
+<ce>                         an assignment for the
+<ce>                             Thieves Guild.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ of ___qgiver_
+ of the Thieves Guild gave me a job
+ to heist a _religiousitem_
+ from the _temple_ in
+ __temple_. I have
+ =traveltime_ days to get it back
+ to %g2 for my fee.
 
 
-Record n�1----------
-Je m'en souviendrai %pcn
-si un travail plus intéressant
-est disponible.
+-- Symbols used in the QRC file:
+--
+--               %cn occurs 1 time.
+--               %g2 occurs 3 times.
+--              %jok occurs 3 times.
+--              %oth occurs 5 times.
+--              %pcf occurs 3 times.
+--              %pcn occurs 1 time.
+--              %qdt occurs 1 time.
+--              %reg occurs 1 time.
+--      =traveltime_ occurs 2 times.
+--        ___qgiver_ occurs 1 time.
+--         __temple_ occurs 2 times.
+--            _gold_ occurs 1 time.
+--          _qgiver_ occurs 2 times.
+--   _religiousitem_ occurs 3 times.
+--          _temple_ occurs 5 times.
 
+QBN:
+Item _religiousitem_ religious
+Item _gold_ gold
 
-Record n�2----------
-OK. Voilà le plan.
-Tu vas à _temple_ dans
-__temple_. Prends le
-_religiousitem_ et rapporte-le
-moi. Tu auras la récompense
-habituelle de la guilde, de
-_gold_ pièces d'or. Tu as =traveltime_ jours
-pour le mettre entre mes mains.
+Person _qgiver_ group Questor male
 
+Place _temple_ remote temple
 
-Record n�3----------
-Gamin, certains sont difficiles à
-comprendre. Peux-tu croire qu'il
-a payé pour qu'on le lui dérobe ?
-Ce n'est pas comme s'il y avait un "terrible
-gardien" l'empêchant de le faire lui-même.
-Hein ? Il y en avait un ! Peut-être qu'il
-n'était pas si cinglé, après tout.
-Voilà ta récompense, %pcf.
-C'est bien de bosser avec toi.
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
 
+Foe _F.00_ is 2 Knight
+Foe _F.01_ is Giant_scorpion
+Foe _F.02_ is Monk
+Foe _F.03_ is Zombie
 
-Record n�4----------
-J'ai eu un furoncle l'autre jour... mais c'est guéri.
-Je viens d'avoir une discussion de trois heures sur le 
-temps.
-Le temps est assez habituel pour cette époque de l'année.
-Cela semble un peu frais à %cn pour cette période de 
-l'année.
-Il fait vraiment beaucoup plus chaud aujourd'hui que l'année 
-derrière à la même période.
-Ma grande-tante va voir un spécialiste de l'autre côté de la 
-Baie.
-L'heure à laquelle il commence à faire nuit par ici est vraiment 
-bizarre.
-Nous devrions ériger une statue de guerre par ici.
-Ces gosses d'aujourd'hui avec leur magie. %oth, je ne sais 
-pas.
-J'ai fait un rêve très étrange la nuit dernière.
-J'ai entendu une bonne blague. %jok
-%jok. En fait, c'est une plaisanterie.
-%jok. Pouvez-vous me l'expliquer ?
-Le système judiciaire de %reg a ses bons et ses mauvais cô
-tés.
+--	Quest start-up:
+	place item _religiousitem_ at _temple_ 
+	start timer _traveltime_ 
+	log 1010 step 0 
+	pc at _temple_ set _S.01_ 
 
-Record n�5----------
-_temple_ est plutôt bien protègé contre les voleurs, on 
-dirait.
+_traveltime_ task:
+	make _religiousitem_ permanent 
+	change repute with _qgiver_ by -5 
+	end quest 
 
-Record n�6----------
-Le gars qui possède _temple_ a payé des voleurs pour s'introduire 
-dans sa propre propriété.
+_S.01_ task:
+	pick one of _guard1_ _guard2_ _guard3_ _guard4_ 
 
-Record n�7----------
-Comment vas-tu, %pcf ? J'attends encore des nouvelles du gars qui 
-a fait appel à nos services.
+_questdone_ task:
+	toting _religiousitem_ and _qgiver_ clicked 
+	give pc _gold_ 
+	end quest 
 
-Record n�8----------
-Je ne ferais aucune difference si ce
-temple avait été gardé par le Seigneur de
-Tout Oblivion en personne, %pcf.
-Il n'y a aucune excuse pour échouer à
-une mission de la Guilde des Voleurs.
+_guard1_ task:
+	create foe _F.00_ every 4 minutes 1 times with 10% success 
 
+_guard2_ task:
+	create foe _F.01_ every 4 minutes 1 times with 10% success 
 
-Record n�9----------
-%qdt :
- _qgiver_ de ___qgiver_
- de la Guilde des Voleurs m'a demandé
- de dérober un _religiousitem_
- à _temple_ dans __temple_.
- J'ai =traveltime_ jours pour le lui ramener
- et avoir ma récompense.
+_guard3_ task:
+	create foe _F.02_ every 4 minutes 1 times with 10% success 
 
-
-
+_guard4_ task:
+	create foe _F.03_ every 4 minutes 1 times with 10% success 

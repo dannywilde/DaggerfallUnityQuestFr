@@ -1,93 +1,145 @@
-Record n�0----------
-Voici une considération plutôt amusante qui pourrait
-faire appel à votre sens de l'humour morbide.
-Il semble qu'il y ait ce barde sans talent,
-avec un penchant pour les poèmes insolents
-envers ses anciens employeurs. Il s'avère que
-ses connaissances en généalogie étaient
-incomplètes, et %g a chanté un poème
-à propos d'un duc incestueux
-envers sa nouvelle patronne, la fille du duc.
-Etes-vous partant pour régler son compte
-à cet artiste grossier, pour _reward_ pièces d'or ?
+-- Quest: C:\QUESTS\WORKING\L0B10Y01.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Brotherhood
+-- Repute: 10
+-- QuestId: 1
+Messages: 21
+Quest: L0B10Y01
+DisplayName: A Fateful Song
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>                Here's a rather amusing accounting that
+<ce>               may appeal to your morbid sense of humor.
+<ce>                   Seems there's this untalented bard
+<ce>                   with a penchant for rude limericks
+<ce>                 about former patrons. As it turns out,
+<ce>                %g3 knowledge of genealogy was lacking,
+<ce>                 and %g sang a song about an incestuous
+<ce>                 duke to %g3 new patroness, the duke's
+<ce>                daughter. Interested in accounting this
+<ce>               uncouth artiste for _reward_ gold pieces?
 
-Record n�1----------
-Vous ai-je mal compris, ou avez-vous
-vraiment dit non ? Comment comptez-vous
-apprécier la richesse de l'humanité si
-vous n'avez pas le temps de massacrer
-un musicien pouilleux ?
+RefuseQuest:  [1001]
+<ce>                  Did I misunderstand you, or did you
+<ce>                  really say no? How do you expect to
+<ce>                    appreciate the rich tapestry of
+<ce>                    humanity if you don't have time
+<ce>                      to butcher a lousy musician?
 
+AcceptQuest:  [1002]
+<ce>                I thought it would appeal. Apparently,
+<ce>                   the bard is aware of our contract
+<ce>                 and is hiding in a dismal hole called
+<ce>                              ___mondung_.
+<ce>                     Shouldn't be more than a minor
+<ce>                   scuffle, but do not let down your
+<ce>                   guard. A desperate songster can be
+<ce>                  an unpredictable adversary. Be back
+<ce>                     in =1stparton_ days to collect
+<ce>                    your accounting fee. Good luck.
 
-Record n�2----------
-Je pensais bien que cela vous intéresserait.
-Apparemment, le barde est au courant de notre
-contrat et il se cache dans un  trou lugubre
-appelé ___mondung_.
-Cela ne devrait être qu'une petite bagarre,
-mais ne baissez pas votre garde. Un
-chanteur désespéré peut être un adversaire
-imprévisible. Soyez de retour dans
-=1stparton_ jours pour recevoir vos
-honoraires. Bonne chance.
+QuestFail:  [1003]
+<ce>                     I'm willing to bet that bard
+<ce>                     is not launched into Oblivion
+<ce>                       yet. But you're here. That
+<ce>                    seems odd to me. Does it to you?
 
+QuestComplete:  [1004]
+<ce>                  Ah, did you stay to hear the final
+<ce>                note from that boorish instrumentalist?
+<ce>                Here's your cut for being the instrument
+<ce>                         of the bard's requiem:
+<ce>                      _reward_ gold pieces. Enjoy.
 
-Record n�3----------
-Je suis prêt à parier que ce barde
-n'a pas encore été expédié en Oblivion.
-Pourtant vous êtes ici. Voilà qui me parait
-vraiment étrange. Ne trouvez-vous pas ?
+RumorsDuringQuest:  [1005]
+I wonder whether that duke really did have incest with his daughter.
+<--->
+That poor _monster_ couldn't even carry a tune anyhow.
 
+RumorsPostfailure:  [1006]
+Well, =monster_ may have moved on but we'll always remember %g3 songs.
+<--->
+I hear that duchess is madder than a magister about the bard getting away.
 
-Record n�4----------
-Ah, êtes-vous resté pour entendre la note
-finale de ce grossier instrumentaliste ?
-Voici votre paiement pour avoir été l'instrument
-du requiem du barde :
-_reward_ pièces d'or. Faites-en bon usage.
+RumorsPostsuccess:  [1007]
+They say you can still hear =monster_'s mocking song in the breeze at night.
+<--->
+I, for one, am happy that =monster_'s dead; %g was an awful bore.
 
+QuestorPostsuccess:  [1008]
+Ah, hello, %pcf. 'Tis music to my eyes to see thee again.
 
-Record n�5----------
-Je me demande si ce duc a réellement commis un inceste avec sa 
-fille.
-Ce pauvre _monster_ ne savait plus chanter juste, de toute fa
-çon.
+QuestorPostfailure:  [1009]
+<ce>                      How can I greet thee, %pcf?
+<ce>                You have failed to slay the bard. A very
+<ce>                   sour note on your record, indeed.
 
-Record n�6----------
-He bien, il est possible que =monster_ soit parti, mais nous 
-n'oublierons jamais ses chansons.
-Il paraît que cette duchesse est folle de rage à cause du départ 
-du barde.
+QuestLogEntry:  [1010]
+<ce>                       You have slain =monster_.
 
-Record n�7----------
-Certains disent qu'on peut encore entendre les chants satiriques 
-de =monster_ dans la brise nocturne.
-En ce qui me concerne, je suis content que ce =monster_ soit mort 
-: %g était d'un ennui mortel.
-
-Record n�8----------
-Ah, bonjour, %pcf. Vous revoir est comme une musique pour mes 
-yeux.
-
-Record n�9----------
-Comment puis-je vous accueillir, %pcf ?
-Vous avez échoué à tuer le barde. Un très
-mauvais point pour vous, vraiment.
-
-
-Record n�10----------
-Vous avez tué =monster_.
-
-
-Record n�11----------
+Message:  1020
 %qdt:
- La Confrérie Noire m'a envoyé assassiner
- un barde appelé =monster_, et je dois revenir
- à _questgiver_ de ___questgiver_
- avant =1stparton_ jours. Ce barde se cache
- apparemment dans un donjon
- appelé ___mondung_.
+ The Dark Brotherhood has sent me to assassinate
+ a bard by the name of =monster_ and be
+ back to _questgiver_ of ___questgiver_
+ in =1stparton_ days. This bard is apparently
+ in hiding in a dungeon
+ called ___mondung_.
 
 
+-- Symbols used in the QRC file:
+--
+--                %g occurs 2 times.
+--               %g3 occurs 3 times.
+--              %pcf occurs 2 times.
+--              %qdt occurs 1 time.
+--       =1stparton_ occurs 2 times.
+--         =monster_ occurs 7 times.
+--       ___mondung_ occurs 4 times.
+--    ___questgiver_ occurs 1 time.
+--         _monster_ occurs 1 time.
+--      _questgiver_ occurs 1 time.
+--          _reward_ occurs 3 times.
 
+QBN:
+Item _reward_ gold
+
+Person _questgiver_ face 112 group Questor
+
+Place _mondung_ remote dungeon
+
+Clock _1stparton_ 00:00 0 flag 18 range 0 2
+Clock _2ndparton_ 2.18:40 4.04:00 flag 2 range 0 0
+
+Foe _monster_ is Bard
+
+--	Quest start-up:
+	start timer _1stparton_ 
+	reveal _mondung_ 
+	log 1020 step 0 
+	place foe _monster_ at _mondung_ 
+
+_pcgetsgold_ task:
+	when _qgclicked_ and _S.02_ 
+	give pc _reward_ 
+	end quest 
+
+_qgclicked_ task:
+	clicked npc _questgiver_ 
+
+_S.02_ task:
+	killed 1 _monster_ 
+	say 1010 
+
+variable _queston_
+_1stparton_ task:
+	end quest 
+
+variable _2ndparton_
+_clearclick_ task:
+	when _qgclicked_ and not _S.02_ 
+	say 1003
+	clear _qgclicked_ _clearclick_ 

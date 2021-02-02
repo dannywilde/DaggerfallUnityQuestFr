@@ -1,77 +1,126 @@
-Record n�0----------
-Je ne vous fait pas confiance,
-%pcn. Vous n'êtes pas un membre
-de notre Ordre. Si vous voulez
-gagner ma confiance, et peut-être
-même un semblant de respect,
-allez tuer le _monster_ qui pille
-les fermes des environs. En
-êtes-vous capable ?
+-- Quest: C:\QUESTS\WORKING\B0C00Y06.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: knight
+-- Repute: 0
+-- QuestId: 6
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: B0C00Y06
+DisplayName: The Hunter
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                        I don't trust you, %pcn.
+<ce>                      You are not a member of our
+<ce>                    order. If you would like to earn
+<ce>                   my trust, and maybe even a modicum
+<ce>                   of respect, go kill the _monster_
+<ce>                  raiding the farms. Are you up to it?
+
+RefuseQuest:  [1001]
+<ce>                     I thought so. The heart of a
+<ce>                    coward beats within your chest.
+<ce>                     The sight of you makes me ill.
+
+AcceptQuest:  [1002]
+<ce>                  The _monster_ has made its lair in
+<ce>                       ___dungeon_. Go there and
+<ce>                      kill it. There may be other
+<ce>                  _monster_s there, but I don't care.
+<ce>                   I am only interested in one with a
+<ce>                 large burn mark on its back. It's the
+<ce>                one that has been raiding the peasants.
+<ce>                         You have =2dung_ days.
+
+QuestComplete:  [1004]
+<ce>                      Hmmph. You did better than
+<ce>                     expected, %pcn. Maybe someday
+<ce>                      you will even be worthy of a
+<ce>                   membership in the knightly order.
+
+RumorsDuringQuest:  [1005]
+That _monster_ is a real nuisance in ___qgiver_.
+<--->
+Many wish the knights would do something about that _monster_.
+
+RumorsPostfailure:  [1006]
+Thank %god, and not the knightly order, the _monster_ moved on.
+<--->
+It's only natural that the _monster_ moved. But it'll return.
+
+RumorsPostsuccess:  [1007]
+Everyone is thanking the knights for slaying that _monster_.
+<--->
+No one expected the knightly order to do anything about the _monster_.
+
+QuestorPostsuccess:  [1008]
+Awright, kid. After what you did, I can be civil to you.
+
+QuestorPostfailure:  [1009]
+_monster_ Lover, get outta here.
+<--->
+You make me sick, _monster_ Lover.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ of
+ the knightly order in ___qgiver_
+ told me of a _monster_ that needs
+ slaying in ___dungeon_.
+ I only have =2dung_ days.
+
+Message:  1011
+<ce>                        On it's back is a large
+<ce>                      scorched area. This must be
+<ce>                       the one _qgiver_ spoke of.
 
 
-Record n�1----------
-C'est bien ce que je pensais. Vous
-avez le coeur d'un lâche. Votre
-vue me rend malade !
+-- Symbols used in the QRC file:
+--
+--               %cn occurs 1 time.
+--              %god occurs 1 time.
+--              %pcn occurs 2 times.
+--              %qdt occurs 1 time.
+--           =2dung_ occurs 4 times.
+--       ___dungeon_ occurs 2 times.
+--        ___qgiver_ occurs 1 time.
+--         _monster_ occurs 29 times.
+--          _qgiver_ occurs 4 times.
 
+QBN:
 
-Record n�2----------
-Le _monster_ a fait son nid dans
-___dungeon_. Allez là-bas et tuez-le.
-Il peut y avoir d'autres _monster_s
-là-bas, mais à vrai dire, je m'en
-désintéresse totalement. Le seul qui
-m'intéresse a une large brûlure sur
-le dos. C'est celui-là qui a pillé
-les fermes. Vous avez =2dung_ jours.
+Person _qgiver_ group Questor male
+Person _local_ face 207 group Resident2
 
+Place _dungeon_ remote dungeon
 
-Record n�3----------
-Hmmph. Vous vous en êtes
-mieux sorti que je ne l'aurais pensé,
-%pcn. Peut-être qu'un jour vous serez
-un membre honorable de notre Ordre...
+Clock _2dung_ 00:00 0 flag 17 range 0 2
 
+Foe _monster_ is Giant
 
-Record n�4----------
-Ce _monster_ est une réelle nuisance pour tout %cn.
-Beaucoup de gens voudraient que les Chevaliers fassent quelque 
-chose contre ce _monster_.
+--	Quest start-up:
+	start timer _2dung_ 
+	reveal _dungeon_ 
+	log 1010 step 0 
+	place foe _monster_ at _dungeon_ 
 
-Record n�5----------
-%god merci , le _monster_ est enfin parti. Les Chevaliers auraient 
-quand même pu faire quelque chose !
-C'est de manière naturelle que le _monster_ est parti. Mais il 
-reviendra.
+_2dung_ task:
+	end quest 
 
-Record n�6----------
-Tout le monde remercie les Chevaliers pour avoir massacré ce 
-_monster_.
-Personne ne pensait que les Chevaliers feraient quelque chose 
-contre ce _monster_.
+_S.01_ task:
+	killed 1 _monster_ saying 1011 
 
-Record n�7----------
-D'accord, gamin. Après ce que vous avez fait pour nous, je peux me 
-montrer courtois.
+_S.02_ task:
+	clicked npc _qgiver_ 
 
-Record n�8----------
-Ami de _monster_, allez-vous en !
-Vous me rendez malade, Ami de _monster_.
+_success_ task:
+	when _S.02_ and _S.01_ 
+	give pc nothing 
+	change repute with _local_ by +4 
+	end quest 
 
-Record n�9----------
-%qdt :
- _qgiver_ de l'Ordre des
- Chevaliers à ___qgiver_
- m'a parlé d'un _monster_ qui aurait grand
- besoin d'une correction dans ___dungeon_.
- Je ne dispose que de =2dung_ jours.
-
-
-Record n�10----------
-Vous remarquez une large 
-brûlure sur son dos. Cela doit
-donc être celui dont _qgiver_
-vous a tant parlé.
-
-
-
+_clearclick_ task:
+	when _S.02_ and not _S.01_ 
+	clear _S.02_ _clearclick_ 

@@ -1,124 +1,201 @@
-Record n�0----------
-Si vous le pouviez, %pcf, j'ai besoin
-de l'assistance de quelqu'un que je sais
-ne pas être un complet bouffon. J'ai envoyé
-un autre mercenaire livrer un petit paquet
-à un temple, rien de grande valeur, mais
-que je sois maudit s'il n'a pas été volé.
-Bon, au moins ce stupide mercenaire a fait
-attention vers où les bandits sont allés.
-Pensez-vous que vous pourriez me
-sauver et récupérer mon colis ?
+-- Quest: C:\QUESTS\WORKING\R0C10Y08.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 10
+-- QuestId: 8
+Messages: 21
+Quest: R0C10Y08
+DisplayName: Theft from a Temple
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                      If you could, %pcf, I am in
+<ce>              need of assistance from someone I know isn't
+<ce>              a complete buffoon. I sent another mercenary
+<ce>              out to deliver a small package to a temple,
+<ce>            nothing of great value, but damned if it wasn't
+<ce>               stolen. Well, at least this idiotic hired
+<ce>                hand paid attention to where the bandits
+<ce>                   went. Do you think you could help
+<ce>                     me out and get my parcel back?
+
+RefuseQuest:  [1001]
+<ce>                 %oth, I was afraid you were going to
+<ce>              say that. Ah well, I suppose that is better
+<ce>                      than saying yes and failing.
+
+AcceptQuest:  [1002]
+<ce>                      Thank you in advance, %pcf.
+<ce>              Now, the complications. The bandits sold the
+<ce>                    _item_ to a temple, _itemplace_
+<ce>                     in __itemplace_. It apparently
+<ce>               has some sort of religious significance to
+<ce>              them. In order to avoid embarassment, I need
+<ce>                   you to steal the _item_ out of the
+<ce>                  temple and get it to _transporter_.
+<ce>                  You'll find %g2 at _inn_ in __inn_.
+<ce>           The _item_ must be in the moronic _transporter_'s
+<ce>          hands within =1stparton_ days; and you must be back
+<ce>            here from __inn_ in =2ndparton_ days after that,
+<ce>          understand?  Not a lot of time. I'm counting on you,
+<ce>                     %pcf. Good luck and farewell.
+
+QuestFail:  [1003]
+<ce>              Yes? You didn't expect a reward before you
+<ce>                 actually did anything, did you, %pcf?
+
+QuestComplete:  [1004]
+<ce>                   %oth, welcome back, %pcf. I don't
+<ce>             know why I hired that mental deficient in the
+<ce>              first place. Well, here's your _reward_ gold
+<ce>                   pieces. You certainly deserve it.
+
+RumorsDuringQuest:  [1005]
+_itemplace_ is tightening up their security for some reason.
+<--->
+For some reason, _itemplace_ is more worried about thieves than usual.
+
+RumorsPostfailure:  [1006]
+_itemplace_ recovered some kind of _item_ that was stolen.
+<--->
+_itemplace_ recovered their stolen _item_ and moved it to a safer place.
+
+RumorsPostsuccess:  [1007]
+Some kind of valuable _item_ was stolen from _itemplace_.
+<--->
+It's getting so even temples are having break-ins. Shocking.
+
+QuestorPostsuccess:  [1008]
+Fearfully good to see you again. How may I help you?
+<--->
+You're the %ra who helped me with that unpleasantness with the temple, yes?
+
+QuestorPostfailure:  [1009]
+<ce>                        %oth, it's you. Come to
+<ce>                  apologize for your sloppy questing,
+<ce>                     I suppose. Well, don't bother.
+<ce>                          I haven't the time.
+
+QuestLogEntry:  [1010]
+<ce>                     Thank %god you arrived, %pcf.
+<ce>                   Listen, hurry back to _questgiver_
+<ce>                 -- %g will pretend to forget you ever
+<ce>                 existed and you won't get a copper if
+<ce>                  you're not back in =2ndparton_ days.
+<ce>                      Believe me, I know %g3 ways.
+
+Message:  1011
+<ce>           _transporter_ is a nervous-looking =transporter_
+<ce>                   with connections to _questgiver_.
+                                     <--->
+A =transporter_ -- %g's %di of here at __transporter_.
+
+Message:  1012
+<ce>                        You pick up the _item_.
+<ce>                    Now to get it to _transporter_.
+
+Message:  1015
+%qdt:
+_questgiver_
+ has sent me to _itemplace_
+ in __itemplace_ to steal
+ a certain _item_, then deliver it to
+ _transporter_ in __inn_
+ at a place called _inn_.
+ I have =1stparton_ days to make the delivery.
+ Finally, I have to return for my reward.
+ I have =2ndparton_ days to travel from
+ __inn_ to __questgiver_,
+ _questgiver_'s home in ___questgiver_.
+
+Message:  1020
+<ce>           Stop thief!  Vile desecrator of our holy _item_!
 
 
-Record n�1----------
-%oth, je craignais que vous ne
-disiez ça. Bon, je suppose que c'est mieux
-que de dire oui et d'échouer.
+-- Symbols used in the QRC file:
+--
+--               %di occurs 1 time.
+--                %g occurs 2 times.
+--               %g2 occurs 1 time.
+--               %g3 occurs 2 times.
+--              %god occurs 1 time.
+--              %oth occurs 3 times.
+--              %pcf occurs 7 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 1 time.
+--       =1stparton_ occurs 2 times.
+--       =2ndparton_ occurs 3 times.
+--     =transporter_ occurs 2 times.
+--    ___questgiver_ occurs 2 times.
+--            __inn_ occurs 4 times.
+--      __itemplace_ occurs 2 times.
+--     __questgiver_ occurs 11 times.
+--             _inn_ occurs 2 times.
+--            _item_ occurs 11 times.
+--       _itemplace_ occurs 7 times.
+--      _questgiver_ occurs 5 times.
+--          _reward_ occurs 1 time.
+--     _transporter_ occurs 6 times.
 
+QBN:
+Item _reward_ gold
+Item _item_ religious
 
-Record n�2----------
-Merci par avance, %pcf.
-Maintenant, les complications. Les bandits ont vendu le
-_item_ à un temple, _itemplace_
-à __itemplace_. Cela a
-apparemment une sorte de signification religieuse
-pour eux. Afin d'éviter un embarras, j'ai besoin
-que vous dérobiez le _item_ du temple
-et que vous le donniez à _transporter_,
-que vous trouverez à _inn_ dans __inn_.
-Le _item_ doit être dans les mains du
-_transporter_ dans =1stparton_ jours et vous devez
-etre de retour de __inn_ dans =2ndparton_ jours
-après cela, compris ? Pas beaucoup de temps.
-Je compte sur vous, %pcf.
-Bonne chance et adieu.
+Person _questgiver_ face 112 group Questor
+Person _transporter_ face 1 group Local_3.0 anyInfo 1011
+Person shopkeeper2 factiontype Temple female
 
+Place _itemplace_ remote temple
+Place _inn_ remote tavern
 
-Record n�3----------
-Pardon ? Vous n'attendiez pas de récompense
-avant d'avoir réellement fait quelque chose,
-n'est-ce pas, %pcf ?
+Clock _1stparton_ 00:00 0 flag 1 range 0 5
+Clock _2ndparton_ 00:00 0 flag 1 range 2 3
 
+Foe _F.00_ is Monk
 
-Record n�4----------
-%oth, bienvenue, %pcf.
-Je ne sais pas pourquoi j'ai engagé ce
-déficient mental en premier lieu.
-Bon, voici vos _reward_ pièces d'or.
-Vous les avez bien méritées.
+--	Quest start-up:
+	place item _item_ at _itemplace_ 
+	start timer _1stparton_ 
+	reveal _inn_ 
+	log 1015 step 0 
+	place npc _transporter_ at _inn_ 
 
+_pcgetsgold_ task:
+	when _S.05_ and _qgclicked_ 
+	give pc _reward_ 
+	end quest 
 
-Record n�5----------
-_itemplace_ renforce leur sécurité pour une quelconque 
-raison.
-Pour une quelconque raison, _itemplace_ est plus soucieux des 
-voleurs que d'habitude.
+_pchasitem_ task:
+	clicked item _item_ 
+	pc at _itemplace_ set _S.09_ 
+	say 1012 
+	change repute with shopkeeper2 by -10 
 
-Record n�6----------
-_itemplace_ a récupéré une sorte de _item_ qui avait été 
-volé.
-_itemplace_ a récupéré leur _item_ volé et l'a déplacé en un 
-endroit plus sûr.
+_queston_ task:
+	when _2ndparton_ 
+	when _1stparton_ and not _S.05_ 
+	make _item_ permanent 
+	end quest 
 
-Record n�7----------
-Une sorte de _item_ précieux a été volé à _itemplace_.
-Il arrive que même les temples se fassent cambrioler. 
-Stupéfiant.
+variable _npcclicked_
+_qgclicked_ task:
+	clicked npc _questgiver_ 
 
-Record n�8----------
-Terriblement bon de vous revoir. Comment puis-je vous aider ?
+_S.05_ task:
+	toting _item_ and _transporter_ clicked 
+	start timer _2ndparton_ 
+	say 1010 
 
-Vous êtes le %ra qui m'a aidé dans ce désaccord avec le temple, 
-oui ?
+variable _1stparton_
+variable _2ndparton_
+_clearclick_ task:
+	when _qgclicked_ and not _S.05_ 
+	clear _qgclicked_ _clearclick_ 
 
-Record n�9----------
-%oth, c'est vous. Venu pour
-vous excuser pour votre quête négligée,
-je suppose. Bon, ne m'ennuyez pas.
-Je n'ai pas le temps.
+_S.09_ task:
+	create foe _F.00_ every 3 minutes 4 times with 50% success 
 
-
-Record n�10----------
-Grâce à %god vous êtes arrivé, %pcf.
-Ecoutez, hâtez-vous de retourner vers
-_questgiver_, %g prêtendra oublier
-que vous avez jamais existé et vous n'aurez
-pas une pièce si vous n'êtes pas de retour
-dans =2ndparton_ jours.
-Croyez-moi, je connais ses manières.
-
-
-Record n�11----------
-_transporter_ est un =transporter_ peureux
-en relation avec _questgiver_.
-
-Un =transporter_, %g est au %di d'ici à __tranporter_.
-
-Record n�12----------
-Vous prenez le _item_.
-Maintenant apportez-le
-à _transporter_.
-
-
-Record n�13----------
-%qdt :
- _questgiver_ de  __questgiver_
- m'a envoyé à _itemplace_
- en __itemplace_ pour dérober
- un certain _item_, puis le livrer à
- _transporter_ à __inn_
- dans un endroit appelé _inn_.
- J'ai =1stparton_ jours pour effectuer la livraison.
- Puis je devrai revenir pour toucher ma
- récompense. J'ai =2ndparton_ jours pour voyager de
- __inn_ à __questgiver_,
- la maison de _questgiver_
- à ___questgiver_.
-
-
-Record n�14----------
-Arrête, voleur ! Vil profanateur de notre saint _item_ !
-
-
-
+totemLetter5 task:
+	injured _F.00_ saying 1020 

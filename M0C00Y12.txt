@@ -1,79 +1,119 @@
-Record n�0----------
-Mon nom est _qgiver_.
-Je n'aime pas confier des tâches aux non-membres
-de la Guilde. Vous semblez cependant un type de
-confiance. Un pauvre hère a rapporté chez lui
-un oeuf d'araignée géante qui a éclos.
-Il paraît qu'ils l'ont confondu avec un cocon de
-ver à soie. Le pauvre rustaud ne peut pas se
-payer le luxe d'acheter nos services pour que
-nous nous en occupions. Cependant, si vous
-vous en occupiez gracieusement, la Guilde
-en serait bien vue, et je m'assurerais que vous
-rentriez en ses bonnes dispositions.
-Est-ce que cela vous intéresse ?
+-- Quest: C:\QUESTS\WORKING\M0C00Y12.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: fighter
+-- Repute: 0
+-- QuestId: 12
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: M0C00Y12
+DisplayName: Hunt for a Giant Spider
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                         My name is _qgiver_.
+<ce>              I don't like handing out jobs to non-guild
+<ce>              members. You seem like the trustworthy sort
+<ce>              though. Some poor soul brought home a giant
+<ce>             spider's egg that hatched. Seems they mistook
+<ce>             it for a silkworm cocoon. The poor slob can't
+<ce>              afford to pay us to get rid of it. However,
+<ce>               if you take care of it for free the guild
+<ce>             looks good and I'll make sure you look good.
+<ce>                          Are you interested?
+
+RefuseQuest:  [1001]
+<ce>                     I should have known you were
+<ce>                          serious about work.
+
+AcceptQuest:  [1002]
+<ce>                     This is your shot at the big
+<ce>                      time. The spider is trapped
+<ce>                     in _house_. Kill it today and
+<ce>                   I'll put in a good word for you.
+
+QuestComplete:  [1004]
+<ce>                          You got spunk %pcf.
+<ce>                       Keep up the good work and
+<ce>                       you'll be Fighter's Guild
+<ce>                             material yet.
+
+RumorsDuringQuest:  [1005]
+<ce>               Did you hear about the idiot that brought
+<ce>                home a giant spider's egg. Now he's got
+<ce>                an eight legged pet thats trying to eat
+<ce>                            him for dinner!
+
+RumorsPostfailure:  [1006]
+<ce>              Some poor fool was stung and nearly killed
+<ce>              by a giant spider, in his own home no less!
+
+RumorsPostsuccess:  [1007]
+<ce>             You're that guy that killed the giant spider.
+<ce>           You should join the Fighter's Guild or something.
+
+QuestorPostsuccess:  [1008]
+<ce>                  Nicely done with that giant spider.
+
+QuestorPostfailure:  [1009]
+<ce>                If you can't handle spiders, how do you
+<ce>               expect to handle the other jobs the guild
+<ce>                         might want you to do?
+
+QuestLogEntry:  [1010]
+%qdt: The Fighters
+ Guild of ___qgiver_ has
+ offered to let me to kill a
+ giant spider which hatched
+ in _house_.
+ It's got be done today.
+
+Message:  1011
+<ce>                        The _monster_ is dead.
 
 
-Record n�1----------
-J'aurais dû savoir que vous ne plaisantez
-pas avec le travail.
+-- Symbols used in the QRC file:
+--
+--              %pcf occurs 1 time.
+--              %qdt occurs 1 time.
+--        ___qgiver_ occurs 1 time.
+--           _house_ occurs 2 times.
+--         _monster_ occurs 3 times.
+--          _qgiver_ occurs 1 time.
 
+QBN:
 
-Record n�2----------
-C'est à vous de jouer maintenant.
-L'araignée est piègée dans _house_.
-Tuez-la aujourd'hui et je glisserai
-un mot en votre faveur à la Guilde.
+Person _qgiver_ group Questor male
 
+Place _house_ local random
 
-Record n�3----------
-Vous avez eu du cran, %pcf.
-Continuez à faire du bon boulot
-comme ça, et vous aurez l'étoffe pour
-entrer dans la Guilde des Guerriers.
+Clock _2dung_ 1.00:00 0 flag 1 range 0 1
 
+Foe _monster_ is Spider
 
-Record n�4----------
-Vous avez entendu parler de cet idiot qui
-a ramené un oeuf d'araignée géante ?
-Maintenant il a un animal de compagnie à huit
-pattes qui essaye de le manger pour le dîner !
+--	Quest start-up:
+	start timer _2dung_ 
+	reveal _house_ 
+	log 1010 step 0 
+	create npc at _house_ 
+	place foe _monster_ at _house_ 
 
+_2dung_ task:
+	end quest 
 
-Record n�5----------
-Un pauvre fou s'est fait piquer par une araignée
-géante et en est presque mort, dans sa propre
-maison, rien de moins !
+_S.01_ task:
+	killed 1 _monster_ saying 1011 
 
+_S.02_ task:
+	when _qgclicked_ and _S.01_ 
+	give pc nothing 
+	end quest 
 
-Record n�6----------
-Vous êtes ce gars qui a tué cette araignée géante.
-Vous devriez rejoindre la Guilde des Guerriers
-ou quelque chose comme cela.
+_qgclicked_ task:
+    clicked npc _qgiver_
 
-
-Record n�7----------
-Joliment joué avec cette araignée géante.
-
-
-Record n�8----------
-Si vous ne pouvez pas vous occuper d'araignées,
-comment comptez-vous vous y prendre avec les
-autres travaux que la Guilde pourrait vouloir vous
-confier ?
-
-
-Record n�9----------
-%qdt :
- La Guilde des Guerriers de
- ___qgiver_ m'a offert de
- me laisser tuer une araignée géante
- qui a éclos dans _house_.
- Cela doit être fait dans la journée.
-
-
-Record n�10----------
- La _monster_ est morte.
-
-
-
+_clearclick_ task:
+	when _qgclicked_ and not _S.01_ 
+	clear _qgclicked_ _clearclick_ 
+	--removed duplicate clearclick

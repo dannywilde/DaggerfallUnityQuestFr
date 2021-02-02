@@ -1,165 +1,237 @@
-Record n�0----------
-As-tu quelques
-nuits de libres pour
-les %vam ?
+-- Quest: C:\QUESTS\WORKING\P0B00L01.Qbn.
+-- StartsBy: letter
+-- Questee: member
+-- Questor: vampire
+-- Repute: 0
+-- QuestId: 1
+Messages: 27
+Quest: P0B00L01
+DisplayName: The Vampire's Letter
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>                                Do you
+<ce>                         have a few nights free
+<ce>                               for %vam?
 
-Record n�1----------
-Non n'est pas la réponse que
-j'espérais. A l'avenir, essaye
-de faire des efforts et de donner
-de ton temps pour les %vam,
-petit morveux. Tu n'aimerais
-pas être abandonné par ta
-famille.
+RefuseQuest:  [1001]
+<ce>                      No was not the answer I was
+<ce>                     anticipating. Try to make some
+<ce>                        time and effort for %vam
+<ce>                       in the future, whelp. You
+<ce>                          would not like being
+<ce>                               abandoned.
 
+AcceptQuest:  [1002]
+<ce>                      %pcf, I need you to deliver
+<ce>                      a letter to an ally of %vam.
+<ce>               _pawn_ will wait for you for no more than
+<ce>                    =1stparton_ nights at __pawn_ in
+<ce>                 ___pawn_. Do not miss the appointment.
+<ce>           I will expect you back here in =1stparton_ nights.
+<ce>                                Goodbye.
 
-Record n�2----------
-%pcf, j'ai besoin que tu portes
-une lettre à un allié des %vam.
-_pawn_ t'attendra pendant
-=1stparton_ nuits à __pawn_ en
-___pawn_. Ne rate pas cette entrevue.
-Je t'attendrai ici dans =1stparton_ nuits.
-Au revoir.
+QuestFail:  [1003]
+<ce>                         Until my letter is in
+<ce>                            _pawn_'s sweaty
+<ce>                       hands, I'm not interested
+<ce>                           in talking, %pcf.
 
+QuestComplete:  [1004]
+<ce>                 Thank you for delivering that letter
+<ce>                    so promptly, %pcf. It was rather
+<ce>                   important. I have also been busy.
+<ce>                      Take this _reward_ as a gift
+<ce>                          for a job well done.
 
-Record n�3----------
-Tant que ma lettre ne
-sera pas entre les mains
-moites de _pawn_ , je ne
-désire pas te parler,
-%pcf.
+RumorsDuringQuest:  [1005]
+That =pawn_ in __pawn_ is waiting for someone. Someone who's arriving at night.
+<--->
+They say the %t is finally going to do something about the vampire menace.
 
+RumorsPostfailure:  [1006]
+That nervous =pawn_ finally left __pawn_. Must've missed %g3 nighttime meeting.
+<--->
+That =vampire_ in __vampire_ was muttering about that %ra %g's always with.
 
-Record n�4----------
-Merci d'avoir apporté cette lettre
-si promptement, %pcf. C'était très
-important. J'ai moi aussi été très
-occupé. Prend ce _reward_ comme
-une récompense pour un travail
-bien fait.
+RumorsPostsuccess:  [1007]
+The %rt apparently changed %g3 mind about the existence of vampires in %reg.
+<--->
+The %rt was going to put more guards out at night, but changed %g3 mind.
 
+QuestorPostsuccess:  [1008]
+Salutations, %pcf. I hope _pawn_ was sufficiently polite to you.
 
-Record n�5----------
-Ce =pawn_, à  __pawn_, attend quelqu'un. Quelqu'un qui arrivera de 
-nuit.
-Ils disent que le %t va finalement faire quelque chose contre la 
-menace des vampires.
+QuestorPostfailure:  [1009]
+<ce>                      When I sent you to _pawn_,
+<ce>                   I expected you to go to %g2, %pcf.
+<ce>                        Don't ... make me angry.
 
-Record n�6----------
-Ce nerveux =pawn_ a finalement quitté __pawn_. %g a dû manquer son 
-rendez-vous nocturne.
-Ce =vampire_ à __vampire_ grommelait contre ce %ra qui est 
-toujours avec %g2.
+QuestLogEntry:  [1010]
+<ce>                        Yes, my name is _pawn_.
+<ce>                          Y-you must be %pcn.
+<ce>                          Tell _vampire_ that
+<ce>                   I'll take care of everything. Make
+<ce>                   sure %g knows I'm loyal. Nothing's
+<ce>                     changed. Thank you. I'll make
+<ce>                        sure everything's fine.
 
-Record n�7----------
-Le %rt a apparemment changé d'avis à propos de l'existence de 
-vampires en %reg.
-Le %rt voulait renforcer la garde de nuit, mais il a changé 
-d'avis.
+Message:  1011
+_vampire_?  A very charming =vampire_ who stays at __vampire_, I believe.
+<--->
+_vampire_ is that =vampire_ at __vampire_.
 
-Record n�8----------
-Salutations, %pcf. J'espère que _pawn_ a été suffisamment poli 
-avec toi.
+Message:  1012
+_vampire_ is one of %vam vampires.
+<--->
+_vampire_ is a mentor, a fairly young member of %vam bloodline.
 
-Record n�9----------
-Quand je t'ai envoyé à  _pawn_,
-j'espérais que tu irais a lui, %pcf.
-Ne... m'énerve pas.
-
-
-Record n�10----------
-Oui, je suis _pawn_.
-T-tu dois être %pcn.
-Dis à _vampire_ que
-je m'occuperai de tout. 
-Fais en sorte qu'%g soit
-mis au courant de ma loyauté.
-Rien n'a changé. Je te remercie.
-Je prendrai garde à ce que tout
-marche bien.
-
-
-Record n�11----------
-_vampire_ ? Un charmant =vampire_ qui vit à __vampire_, je 
-pense.
-_vampire_ est ce =vampire_ de __vampire_.
-
-Record n�12----------
-_vampire_ est un des vampires %vam .
-_vampire_ est un mentor, un membre plutôt jeune de la lignée %vam 
-.
-
-Record n�13----------
+Message:  1013
 _pawn_,
  
-   Nous avons appris qu'une fois encore
-  %t a l'intention d'augmenter la
- garde de nuit en %reg pour combattre
- les agressions "mystérieuses". %t
- %rt recevra un visiteur de la part
- des %vam, je pense donc que
- la situation va être rapidement résolue.
-   S'il te plait, agis en cette occasion
- comme tu en as l'habitude. Cela
- n'amuse pas les %vam que nous soyons
- éternellement confrontés à ce même
- problème potentiel.
-    A propos, la famille du %t se
- porte plutôt bien. Ce n'est pas
- une coincidence. Ou une situation
- sans remède.
+   We have heard that once again the %t
+ is considering increasing the number of
+ patrols in %reg during the night
+ to combat the unexplained attacks. %t
+ %rt will be receiving a visitor
+ from %vam so this situation will
+ be reasonably resolved.
+   Please assist in this matter as per
+ the usual plan. %vam are not
+ amused that we must continually address
+ this same potential problem.
+   The %t's family has grown quite
+ healthy incidentally. Not a coincidence.
+ Or a situation without a remedy.
  
- -- _vampire_
+<ce>                              -- _vampire_
 
+Message:  1014
+_pawn_ is a nervous =pawn_ at __pawn_, %di of here.
+<--->
+_pawn_ is the name of that =pawn_ I saw at __pawn_. That's to the %di.
 
-Record n�14----------
-_pawn_ est un nerveux =pawn_ de __pawn_, au %di d'ici.
-_pawn_ est le nom de ce =pawn_ que j'ai vu à __pawn_. C'est au 
-%di.
+Message:  1015
+_pawn_ is a pawn of %vam vampires, who operates out of __pawn_.
+<--->
+That =pawn_ is an ally of %vam vampires -- %g lives at __pawn_.
 
-Record n�15----------
-_pawn_ est un larbin des vampires %vam, qui opère hors de 
-__pawn_.
-Ce =pawn_ est un allié des vampires %vam -- %g vit à 
-__pawn_.
-
-Record n�16----------
+Message:  1020
 %pcn,
-    %vam te convoque à
- ___vampire_. Cherche moi
- là-bas et donne moi cette
- lettre.
+    %vam summon you
+ to ___vampire_. Look for
+ me there and present this
+ letter.
  
- Reçois mon dernier soupir,
- _vampire_
+ With dying breath,
+<ce>                               _vampire_
 
+Message:  1021
+<ce>                      You have received a letter.
 
-Record n�17----------
-Vous avez reçu une lettre.
-
-
-Record n�18----------
+Message:  1025
 %qdt:
- _vampire_ des %vam de
- __vampire_, ___vampire_,
- m'a envoyé porter une lettre
- à une sorte de =pawn_ à
- ___pawn_, qui porte le nom
- ingrat de _pawn_. Il est
- apparemment très important que
- je rencontre cette personne
- à __pawn_ dans moins de
- =1stparton_ nuits.
+ _vampire_ of %vam in
+ __vampire_, ___vampire_
+ has sent me to bring a letter
+ to some sort of =pawn_ in
+ ___pawn_ with the unfortunate
+ name of _pawn_. It is apparently
+ of great importance that I meet %g2
+ at __pawn_ no later than =1stparton_
+ nights from now.
 
-
-Record n�19----------
+Message:  1026
 %qdt:
- _vampire_ de ___vampire_
- m'a prié de me rendre à
- __vampire_ pour des affaires
- de %vam.
+ _vampire_ of ___vampire_
+ has summoned me to __vampire_
+ on %vam business.
 
 
+-- Symbols used in the QRC file:
+--
+--               %di occurs 32 times.
+--                %g occurs 31 times.
+--               %g2 occurs 2 times.
+--               %g3 occurs 3 times.
+--              %pcf occurs 11 times.
+--              %pcn occurs 2 times.
+--              %qdt occurs 2 times.
+--               %ra occurs 1 time.
+--              %reg occurs 2 times.
+--               %rt occurs 3 times.
+--                %t occurs 7 times.
+--              %vam occurs 36 times.
+--       =1stparton_ occurs 13 times.
+--            =pawn_ occurs 6 times.
+--         =vampire_ occurs 3 times.
+--          ___pawn_ occurs 2 times.
+--       ___vampire_ occurs 3 times.
+--           __pawn_ occurs 36 times.
+--        __vampire_ occurs 10 times.
+--            _pawn_ occurs 10 times.
+--          _reward_ occurs 1 time.
+--         _vampire_ occurs 10 times.
 
+QBN:
+Item _reward_ magic_item
+Item _letter_ letter used 1013
+Item letter36 letter used 1020
+
+Person _vampire_ factiontype Vampire_Clan male anyInfo 1011 rumors 1012
+Person _pawn_ group Group_5.0 female anyInfo 1014 rumors 1015
+
+
+Clock _1stparton_ 00:00 0 flag 17 range 1 2
+
+
+--	Quest start-up:
+	dialog link for person _vampire_ 
+	dialog link for person _pawn_ 
+	letter36 used do _S.12_ 
+	have letter36 set _S.13_ 
+	give pc letter36 notify 1021 
+	create npc _vampire_ 
+
+variable _pcgetsgold_
+variable _queston_
+variable _S.02_
+variable _S.03_
+_npcclicked_ task:
+	toting _letter_ and _pawn_ clicked 
+	say 1010 
+	change repute with _vampire_ by +5 
+
+_vampclicked_ task:
+	toting letter36 and _vampire_ clicked 
+	add dialog for person _pawn_ 
+	log 1025 step 1 
+	get item _letter_ 
+	say AcceptQuest 
+	create npc _pawn_ 
+
+_1stparton_ task:
+	end quest 
+
+_vampsecondclick_ task:
+	clicked npc _vampire_
+
+variable _2ndparton_
+_clearclick_ task:
+	when _vampsecondclick_ and not _npcclicked_ 
+	clear _S.11_ _vampsecondclick_ _clearclick_
+
+variable _S.09_
+variable _S.10_
+_S.11_ task:
+	when _vampsecondclick_ 
+	give pc _reward_ 
+	end quest 
+
+_S.12_ task:
+	add dialog for person _vampire_ 
+	log 1026 step 0 
+
+_S.13_ task:
+	start timer _1stparton_ 

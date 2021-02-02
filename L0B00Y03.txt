@@ -1,84 +1,135 @@
-Record n�0----------
-La Guilde des Mages nous a sollicité
-pour une affaire trop rude et salissante
-pour eux. Un mage renégat
-doit être éliminé dans les plus brefs délais.
-Intéressé ?
+-- Quest: C:\QUESTS\WORKING\L0B00Y03.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Brotherhood
+-- Repute: 0
+-- QuestId: 3
+Messages: 12
+Quest: L0B00Y03
+DisplayName: A Renegade Mage
+-- Message panels
+QRC:
 
-Nous avons pour client la Guilde des Mages
-cette fois-ci. Il semble qu'un de leur membres
-trop orgueilleux ai fait sécession avec sa guilde.
-Cela vous semble-t-il intéressant, %pct ?
+QuestorOffer:  [1000]
+<ce>                  The Mages Guild has come to us for
+<ce>                   a bit of messy business that's too
+<ce>                    gross and nasty for them to deal
+<ce>                     with. A renegade mage needs an
+<ce>                      accounting fast. Interested?
+                                     <--->
+<ce>                 We have the Mages Guild for a client
+<ce>                  again. Seems that one of their boys
+<ce>                  has been sniffing too much bat gut,
+<ce>                     and has gone off on a rampage.
+<ce>                        Sound interesting, %pct?
 
+RefuseQuest:  [1001]
+<ce>                         That's disappointing.
 
-Record n�1----------
-C'est décevant.
+AcceptQuest:  [1002]
+<ce>                  Good. Now, this mage -- the name is
+<ce>                             =mage_ -- has
+<ce>               absconded with a number of magic thingies
+<ce>                but the Mages Guild doesn't mind if you
+<ce>                 take whatever %g has stolen. They just
+<ce>              want %g2 dead. And you've only got =queston_
+<ce>                    days to bring in the accounting.
+<ce>                You'll find %g2 cowering down in a nasty
+<ce>                       place called ___mondung_.
+<ce>              Get back here with the world minus one rogue
+<ce>                 mage in =queston_ days. Mephala steady
+<ce>                            your arm, %pct.
 
+QuestComplete:  [1004]
+<ce>                   So, you put the spark out of that
+<ce>                         Sparkcaster, %pcf? Ah,
+<ce>                  Mephala is pleased with you, as are
+<ce>                             her children.
 
-Record n�2----------
-Bien. Maintenant, ce mage (son nom est
-=mage_) a disparu
-avec nombre d'objets magiques, mais
-la guilde des mages ne vous tiendra pas
-rigueur si vous récupérez ce qu'%g a volé. Ils
-veulent juste %g3 mort. Et vous avez seulement =queston_
-jours pour revenir nous faire un compte
-rendu de votre mission. Vous %g2 trouverez
-en train de se terrer dans un lieu
-nommé ___mondung_.
-Revenez ici après avoir tué ce traitre de magicien
-avant =queston_ jours. Puisse Mephala guider votre
-bras, %pct.
+RumorsDuringQuest:  [1005]
+The Mages Guild denies that =mage_ is beyond their control.
+<--->
+The Order of the Lamp is too official an organization to deal with =mage_.
 
+RumorsPostfailure:  [1006]
+=mage_ has fled across the Bay. Who can say what %g3 plans are?
 
-Record n�3----------
-Alors vous avez oté la vie de ce
-lanceur de sort, %pcf ? Ah,
-Mephala est certainement contente
-de vous, et doit désormais vous compter
-comme un de ses enfants.
+RumorsPostsuccess:  [1007]
+=mage_, the common people say, was done in by the Order of the Lamp.
+<--->
+Who can say what would've happened if that _mage_ had been suffered to live.
 
+QuestorPostsuccess:  [1008]
+Greeting and salutations. How may =qgiver_ assist thee, slayer of mages?
 
-Record n�4----------
-La Guilde des Mages dément que =mage_ est hors de contrôle.
-L'ordre de la lampe est une organisation trop officielle 
-pour
-s'occuper de =mage_.
+QuestorPostfailure:  [1009]
+<ce>               You have failed your contract with us, so
+<ce>               we have failed our contract with the Mages
+<ce>               Guild. I have little but scorn for you at
+<ce>                            this time, %pcf.
 
-
-Record n�5----------
-=mage_ s'est enfui au delà de la Baie. Qui peut présumer de %g3 
-plans ?
-
-Record n�6----------
-Les gens du peuple disent que =mage_ s'est fait rattraper par 
-l'Ordre de la Lampe.
-Qui peut dire ce qui lui est précisement arrivé ? _mage_ est parti 
-pour de bon.
-
-Record n�7----------
-Salutations. Comment =qgiver_ peut-il vous rendre service, tueur 
-de mages?
-
-Record n�8----------
-Vous avez échoué dans notre contrat avec
-la Guilde des Mages. Pour le moment je n'ai
-aucune estime pour vous, %pcf.
-
-
-Record n�9----------
+QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ de la Confrérie Noire
- à __qgiver_, ___qgiver_,
- m'a envoyé à ___mondung_
- m'occuper d'un mage renégat de
- la Guilde des Mages. J'ai =queston_ jours pour
- mener mon contrat à terme.
+ _qgiver_ of the Dark Brotherhood
+ in __qgiver_, ___qgiver_
+ has sent me to ___mondung_
+ to deal with a renegade mage from
+ the Mages Guild. I've =queston_ days to
+ put the matter to rest.
+
+Message:  1011
+<ce>                    =mage_'s light is snuffed out.
+<ce>          The Brotherhood and the Mages Guild will be pleased.
 
 
-Record n�10----------
-=mage_ s'est éteint.
-La Confrérie et la Guilde des Mages seront satisfaits.
+-- Symbols used in the QRC file:
+--
+--                %g occurs 1 time.
+--               %g2 occurs 2 times.
+--               %g3 occurs 1 time.
+--              %pcf occurs 4 times.
+--              %pct occurs 4 times.
+--              %qdt occurs 1 time.
+--            =mage_ occurs 7 times.
+--          =qgiver_ occurs 1 time.
+--         =queston_ occurs 4 times.
+--       ___mondung_ occurs 2 times.
+--        ___qgiver_ occurs 2 times.
+--            _mage_ occurs 1 time.
+--          _qgiver_ occurs 1 time.
 
+QBN:
 
+Person _qgiver_ group Questor male
 
+Place _mondung_ remote dungeon
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _mage_ is Mage
+
+--	Quest start-up:
+	start timer _queston_ 
+	reveal _mondung_ 
+	log 1010 step 0 
+	place foe _mage_ at _mondung_ 
+
+_queston_ task:
+	end quest 
+
+_S.01_ task:
+	killed 1 _mage_ 
+	say 1011 
+
+_S.02_ task:
+	clicked npc _qgiver_ 
+
+variable _ma1_
+_S.04_ task:
+	when _S.02_ and not _S.01_ 
+	clear _S.02_ _S.04_ 
+
+_reward_ task:
+	when _S.02_ and _S.01_ 
+	give pc nothing 
+	end quest 

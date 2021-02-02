@@ -1,204 +1,170 @@
-Record n�0----------
-Vous désirez, %pcn, le pouvoir.
-Avec lui vous pouvez tirer les ficelles
-dans l'ombre et avoir de l'espoir.
-Si je vous apporte cet espoir, que
-m'offririez-vous en échange ? Détruiriez-
-vous celui qui me cause des ennuis ?
+-- Quest: C:\QUESTS\WORKING\40C00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: Nocturnal
+-- Repute: 0
+-- QuestId: 0
+Messages: 51
+Quest: 40C00Y00
+DisplayName: Nocturnal's Quest
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>                    Vous désirez, %pcn, le pouvoir.
+<ce>                 Avec lui vous pouvez tirer les ficelles
+<ce>                 dans l'ombre et avoir de l'espoir.
+<ce>                 Si je vous apporte cet espoir, que
+<ce>                 m'offririez-vous en échange ? Détruiriez-
+<ce>                vous celui qui me cause des ennuis ?
 
-Record n�1----------
-C'est ce que je pensais, aucun coeur.
-Nous ne pouvons donc conclure aucun
-pacte, vous et moi et, déçue, je m'en retourne
-en mon palais glace. Les âmes qui y sont
-ne sont pas plus aimables que celles d'ici,
-mais là-bas, elles sont fidèles.
+RefuseQuest:  [1001]
+<ce>                C'est ce que je pensais, aucun coeur.
+<ce>                Nous ne pouvons donc conclure aucun
+<ce>             pacte, vous et moi, déçue, je m'en retourne
+<ce>             en mon palais glace. Les âmes qui y sont
+<ce>            ne sont pas plus aimables que celles d'ici,
+<ce>               mais là-bas, elles sont fidèles.
 
+AcceptQuest:  [1002]
+<ce>               Vous voudriez bien ? Vous voudriez être mon
+<ce>               anesthésie ? Vous iriez dans le repaire de _monster_
+  <ce>              =monster_ à ___mondung_ pour le massacrer ?
+  <ce>                 Ah, %pcf, pour cela je vous donnerai
+  <ce>                    mon _artifact_ que j'ai confié
+<ce>                 à mon serviteur _qgfriend_.
+<ce>                Dès que le =monster_ sera mort,
+<ce>                allez à ___qgfriend_ et rencontrez mon
+<ce>                esclave à __qgfriend_. Vous le
+<ce>                reconnaîtrez facilement : un =qgfriend_.
+<ce>                Là-bas, vous recevrez le _artifact_.
+<ce>                Et maintenant, je dois retourner dans mon froid
+<ce>               palais d'Oblivion. J'attendrai de vos nouvelles.
 
-Record n�2----------
-Vous voudriez bien ? Vous voudriez être mon
-anesthésie ? Vous iriez dans le repaire de _monster_
-=monster_ à ___mondung_ pour le massacrer ?
-Ah, %pcf, pour cela je vous donnerai
-mon _artifact_ que j'ai confié
-à mon serviteur _qgfriend_.
-Après que le =monster_ sera mort,
-allez à ___qgfriend_ et rencontrez mon
-esclave à __qgfriend_. Vous le
-reconnaîtrez facilement : un =qgfriend_.
-Là-bas, vous recevrez le _artifact_.
-Et maintenant, je dois retourner dans mon froid
-palais d'Oblivion. J'attendrai de vos nouvelles.
+QuestFail:  [1003]
+<ce>                      Non. Vous devez chercher
+<ce>                        un autre =qgfriend_.
+<ce>                      Mon nom n'est pas _qgfriend_.
 
+QuestComplete:  [1004]
+<ce>                           Ainsi c'est vous %pcn,
+<ce>                        pas vrai ? Je suis _qgfriend_.
+<ce>              Je dois dire, je me demandais quelle sorte
+<ce>               de %ra il avait choisi pour se glisser dans
+<ce>               la forteresse de _monster_, assassiner le
+<ce>               maître des lieux et en sortir vivant.
+<ce>             Très impressionnant. Nocturnal est tout
+<ce>              autant intriguée par vous, d'où ce cadeau :
+<ce>                  _artifact_. Soyez prudent avec, %pcf.
 
-Record n�3----------
-Non. Vous devez chercher
-un autre =qgfriend_.
-Mon nom n'est pas _qgfriend_.
+RumorsDuringQuest:  [1005]
+=monster_ est un sournois, %g attire la suspicion sur la Guilde des Mages toute entière.
+<--->
+Je ne peux avoir confiance en personne à la Guilde des Mages, sachant que =monster_ en est membre.
+<--->
+Les Mages déclarent que =monster_ se cache de la colère d'Oblivion à ___fakedung_.
+<--->
+Les Mages se rassemblent pour fouiller ___fakedung_ pour retrouver cette crapule de =monster_.
+<--->
+J'ai vu une troupe de mages se dirigeant droit vers ___fakedung_.
+<--->
+J'ai entendu dire que ce traitre de =monster_ se cache maintenant à  ___fakedung_.
 
+RumorsPostfailure:  [1006]
+Je savais bien que =monster_ devait avoir des problèmes, sinon pourquoi serait-%g parti aussi rapidement ?
+<--->
+La Guilde des Mages doit avoir décidé que =monster_ faisait du tort à son image.
 
-Record n�4----------
-Ainsi c'est vous %pcn,
-pas vrai ? Je suis _qgfriend_.
-Je dois dire, je me demandais quelle sorte
-de %ra il avait choisi pour se glisser dans
-la forteresse de _monster_, assassiner le
-maître des lieux et en sortir vivant.
-Très impressionnant. Nocturnal est tout
-autant intriguée par vous, d'où ce cadeau :
-_artifact_.
-Soyez prudent avec, %pcf.
+RumorsPostsuccess:  [1007]
+Bon, je ne peux pas dire que j'ai été surpris au sujet de =monster_; son passé l'a rattrapé.
+<--->
+Je ne pense même pas que l'Archimage ait été attristé d'apprendre la mort de =monster_.
 
+Message:  1011
+_qgfriend_ est un habitué de __qgfriend_, juste au %di d'ici.
+<--->
+_qgfriend_ est un =qgfriend_ qui traine vers __qgfriend_. C'est vers le %di.
 
-Record n�5----------
-=monster_ est un sournois, %g attire la suspicion sur la Guilde 
-des Mages toute entière.
-Je ne peux avoir confiance en personne à la Guilde des Mages, 
-sachant que =monster_ en est membre.
-Les Mages déclarent que =monster_ se cache de la colère d'Oblivion 
-à ___fakedung_.
-Les Mages se rassemblent pour fouiller ___fakedung_ pour retrouver 
-cette crapule de =monster_.
-J'ai vu une troupe de mages se dirigeant droit vers 
-___fakedung_.
-J'ai entendu dire que ce traitre de =monster_ se cache maintenant 
-à ___fakedung_.
+Message:  1012
+_qgfriend_ est un agent de Nocturnal, opérant à __qgfriend_, au %di d'ici.
+<--->
+_qgfriend_ est un des serviteurs de Nocturnal, la Dame Daedra de la Nuit.
 
+Message:  1013
+Nocturnal est la mystérieuse Dame de la Nuit, une des Régentes Daedra.
+<--->
+Nocturnal est une Régente d'Oblivion, dont la sphère est l'obscurité et le mystère.
 
-Record n�6----------
-Je savais bien que =monster_ devait avoir des problèmes, sinon 
-pourquoi serait-%g parti aussi rapidement ?
-La Guilde des Mages doit avoir décidé que =monster_ faisait du 
-tort à son image.
-
-
-Record n�7----------
-Bon, je ne peux pas dire que j'ai été surpris au sujet de 
-=monster_; son passé l'a rattrapé.
-Je ne pense même pas que l'Archimage ait été attristé d'apprendre 
-la mort de =monster_.
-
-
-Record n�8----------
-Error: Quest 40c00y00.q tried to display text
-
-
-Record n�9----------
- 
-
-
-Record n�10----------
-Error: Quest 40c00y00.q tried to display text
-
-
-Record n�11----------
- 
-
-
-Record n�12----------
-_qgfriend_ est un habitué de __qgfriend_, juste au %di 
-d'ici.
-_qgfriend_ est un =qgfriend_ qui traine vers __qgfriend_. C'est 
-vers le %di.
-
-
-Record n�13----------
-_qgfriend_ est un agent de Nocturnal, opérant à __qgfriend_, au 
-%di d'ici.
-_qgfriend_ est un des serviteurs de Nocturnal, la Dame Daedra de 
-la Nuit.
-
-
-Record n�14----------
-Nocturnal est la mystérieuse Dame de la Nuit, une des Régentes 
-Deadra.
-Nocturnal est une Régente d'Oblivion, dont la sphère est 
-l'obscurité et le mystère.
-
-
-Record n�15----------
+Message:  1014
 Ce _artifact_ peut ouvrir n'importe quelle serrure.
 
+Message:  1015
+Les Mages déclarent que =monster_ se cache de la colère d'Oblivion à ___fakedung_.
+<--->
+Les Mages se rassemblent pour fouiller ___fakedung_ afin de retrouver cette crapule de =monster_.
+<--->
+J'ai vu une troupe de mages se dirigeant droit vers ___fakedung_.
+<--->
+J'ai entendu dire que ce traitre de =monster_ se cache maintenant à ___fakedung_.
 
-Record n�16----------
-Les Mages déclarent que =monster_ se cache de la colère d'Oblivion 
-à ___fakedung_.
-Les Mages se rassemblent pour fouiller ___fakedung_ afin de 
-retrouver cette crapule de =monster_.
-J'ai vu une troupe de mages se dirigeant droit vers 
-___fakedung_.
-J'ai entendu dire que ce traitre de =monster_ se cache maintenant 
-à ___fakedung_.
+Message:  1016
+<ce>                           %oth!  =monster_,
+<ce>                     l'agent d'Oblivion arrive à nous !
+<ce>               J'ai déplacé les réactifs qui ont le plus
+<ce>                      de valeur vers ___fakedung_ et
+<ce>             j'ai prévu de vous rencontrer là-bas après que
+<ce>             vous vous soyez débarassé de cet importun %ra.
+<ce>
+<ce>                                  N.
 
+Message:  1017
+<ce>                         Une voix semble résonner dans
+<ce>                             vos oreilles : =monster_
+<ce>                         ...bien sûr...endroit spécial...
+<ce>                              des nouvelles...
 
-Record n�17----------
-%oth !  =monster_,
-l'agent d'Oblivion arrive sur nous !
-J'ai déplacé les réactifs qui ont le plus
-de valeur vers ___fakedung_ et
-j'ai prévu de vous rencontrer là-bas après que
-vous vous soyez débrouillé de cet agaçant %ra.
- 
-N.
+Message:  1018
+%qdt:
+ Quand je suis arrivé à ___mondung_
+  un écho a mentionné un 'special
+ "endroit spécial" en son sein.
 
+Message:  1019
+%qdt:
+ J'ai trouvé un mot de =monster_
+  disant qu'%g attendrait à ___fakedung_
+  après avoir essayé de me soudoyer.
 
-Record n�18----------
-Une voix semble résonner dans
-vos oreilles : =monster_
-...bien sûr...endroit spécial...
-des nouvelles...
-
-
-Record n�19----------
-%qdt :
- Quand je suis arrivé à
- ___mondung_
- un écho a mentionné un
- "endroit spécial" à l'intérieur.
-
-
-Record n�20----------
-%qdt :
- J'ai trouvé un papier de =monster_
- disant qu'%g attendrait à ___fakedung_
- après avoir essayé de me soudoyer.
-
-
-Record n�21----------
-%qdt :
- J'ai maintenant conclu un pacte avec Nocturnal,
- un des Princes Deadra d'Oblivion. J'ai accepté
+Message:  1020
+%qdt:
+  J'ai maintenant conclu un pacte avec Nocturnal
+  un des Princes Deadra d'Oblivion. J'ai accepté
  de tuer _monster_ =monster_ dans sa
  forteresse de ___mondung_ en échange
  d'un artéfact de Nocturnal, le _artifact_.
- Je dois avoir fait mon devoir et avoir rencontré
- son agent _qgfriend_ à
- __qgfriend_ de ___qgfriend_
- dans =1stparton_ jours ou ce sera un échec. Cela
- signifierait certainement quelque chose de pire pour moi
- que simplement ne pas obtenir le _artifact_.
+ Je dois remplir ma tâche et avoir rencontré
+  son agent _qgfriend_ à __qgfriend_ de ___qgfriend_
+ d'ici =1stparton_ jours ou ce sera un échec. Cela
+ pourrait-être très préjudiciable pour moi,
+ bien au delà que ne pas obtenir le _artifact_.
 
-
-Record n�22----------
-%qdt :
- =monster_ m'a proposé _bow_ en
+Message:  1021
+%qdt:
+  =monster_ m'a proposé _bow_ en
  échange de sa vie, et je n'ai pas pu résister.
  %g a dit qu'il est quelque part dans ___bowdung_.
  Puisque j'ai d'ores et déjà trahi Nocturnal,
  je peux tout aussi bien essayer de le trouver.
 
-
-Record n�23----------
-%qdt :
+Message:  1022
+%qdt:
  =monster_ m'a proposé le _ring_ en
  échange de sa vie, et je n'ai pas pu résister.
  %g a dit qu'il était quelque part dans ___ringdung_.
  Puisque j'ai d'ores et déjà trahi Nocturnal,
  je peux tout aussi bien essayer de le trouver.
 
-
-Record n�24----------
+Message:  1023
 %qdt:
  =monster_ m'a proposé le _staff_ en
  échange de sa vie, et je n'ai pas pu résister.
@@ -206,135 +172,333 @@ Record n�24----------
  Puisque j'ai d'ores et déjà trahi Nocturnal,
  je peux tout aussi bien essayer de le trouver.
 
+Message:  1030
+<ce>           Attendez ! Je sais que Nocturnal vous a
+<ce>          envoyé et qu'elle vous a promis _artifact_.
+<ce>          Seulement, si c'est réellement le pouvoir que
+<ce>          vous recherchez, je peux vous faire une bien
+<ce>           meilleure offre : si vous cessez votre attaque,
+<ce>           je vous dirai où trouver le _bow_.
+<ce>            Acceptez-vous ma proposition ?
 
-Record n�25----------
-Attendez ! Je sais que Nocturnal vous a
-envoyé et qu'elle vous a promis _artifact_.
-Seulement, si c'est réellement le pouvoir que
-vous recherchez, je peux vous faire une bien
-meilleure offre : si vous cessez votre attaque,
-je vous dirai où trouver le _bow_.
-Acceptez-vous ma proposition ?
+Message:  1031
+<ce>            Attendez ! Je sais que Nocturnal vous a
+<ce>          envoyé et qu'elle vous a promis _artifact_.
+<ce>         Seulement, si c'est réellement le pouvoir que
+<ce>          vous recherchez, je peux vous faire une bien
+<ce>        meilleure offre : si vous cessez votre attaque,
+<ce>              je vous dirai ou trouver le _ring_.
+<ce>               Acceptez-vous ma proposition ?
 
+Message:  1032
+<ce>                  Attendez ! Je sais que Nocturnal vous a
+<ce>                  envoyé et qu'elle vous a promis _artifact_.
+<ce>                  Seulement, si c'est réellement le pouvoir que
+<ce>                 vous recherchez, je peux vous faire une bien
+<ce>                meilleure offre : si vous cessez votre attaque,
+<ce>                  je vous dirai ou trouver le _staff_.
+<ce>                    Acceptez-vous ma proposition ?
 
-Record n�26----------
-Attendez ! Je sais que Nocturnal vous a
-envoyé et qu'elle vous a promis _artifact_.
-Seulement, si c'est réellement le pouvoir que
-vous recherchez, je peux vous faire une bien
-meilleure offre : si vous cessez votre attaque,
-je vous dirai ou trouver le _ring_.
-Acceptez-vous ma proposition ?
+Message:  1035
+<ce>                       Vous avez tué =monster_.
+<ce>                       Prince Nocturnal sera
+<ce>                       désormais tranquille.
 
+Message:  1040
+<ce>                      Excellent. Je savais que vous aviez
+<ce>                      une âme de mercenaire. _bow_
+<ce>                      est dissimulé à ___bowdung_.
+<ce>                     Il ne vous reste plus qu'à le trouver et
+<ce>                     vous deviendrez une force
+<ce>                   avec laquelle il faudra compter.
+<ce>                   Maintenant, je vous souhaite une bonne
+<ce>                    journée, de peur que vous ne décidiez
+<ce>                     de vouloir à la fois _bow_
+<ce>                   et _artifact_ en me tuant.
+<ce>                   Il ne faut pas faire trop confiance
+<ce>                    à un coeur de mercenaire tel que le vôtre !
 
-Record n�27----------
-Attendez ! Je sais que Nocturnal vous a
-envoyé et qu'elle vous a promis _artifact_.
-Seulement, si c'est réellement le pouvoir que
-vous recherchez, je peux vous faire une bien
-meilleure offre : si vous cessez votre attaque,
-je vous dirai ou trouver le _staff_.
-Acceptez-vous ma proposition ?
+Message:  1041
+<ce>                      Excellent. Je savais que vous aviez
+<ce>                   une âme de mercenaire. _ring_
+<ce>                  est dissimulé à ___ringdung_.
+<ce>                  Il ne vous reste plus qu'à le trouver et
+<ce>                  vous deviendrez bien entendu une puissance
+<ce>                  avec laquelle il faudra compter.
+<ce>                   Maintenant, je vous souhaite une bonne
+<ce>                  journée, de peur que vous ne décidiez
+<ce>                   de vouloir à la fois _ring_
+<ce>                    et _artifact_ en me tuant.
+<ce>                    Il ne faut pas faire trop confiance
+<ce>                      à un coeur de mercenaire tel que le vôtre !
 
+Message:  1042
+<ce>                      Excellent.  I knew you had
+<ce>                   a mercenary's heart.  The _staff_
+<ce>                     lies hidden in ___staffdung_.
+<ce>                     You have only to find it and
+<ce>                       you will be a power to be
+<ce>                      reckoned with indeed.  Now,
+<ce>                     I bid you good day, lest you
+<ce>                   decide to claim both the _staff_
+<ce>                         and the _artifact_ by
+<ce>                    killing me.  A mercenary heart
+<ce>                      such as yours should not be
+<ce>                           trusted too far!
 
-Record n�28----------
-Vous avez tué =monster_.
-Prince Nocturnal sera
-désormais tranquille.
+QuestTimeLapse:  [1045]
+<ce>                Un rire moqueur résonne dans votre esprit,
+<ce>
+<ce>                  "Vous auriez mieux fait de me faire confiance,
+<ce>                   %pcn. Peut-être que cette ombre de pouvoir
+<ce>                   peut satisfaire votre soif de puissance pour l'instant,
+<ce>                   tandis que vous déchainez vainement votre rage contre
+<ce>                   celui qui la possède réellement. Moi par exemple.
+<ce>                 actually possess it.  Me for example.
+<ce>                 J'espère que la douce Nocturnal ne sera pas
+<ce>                 trop déçue par votre traitrise."
+<ce>
+<ce>                 Dans vos mains, le _bow_ se réduit en poussière.
 
+Message:  1046
+<ce>                 Mocking laughter echoes in your mind,
+<ce>
+<ce>                  "Vous auriez mieux fait de me faire confiance,
+<ce>                   %pcn. Peut-être que cette ombre de pouvoir
+<ce>                   peut satisfaire votre soif de puissance pour l'instant,
+<ce>                   tandis que vous déchainez vainement votre rage contre
+<ce>                   celui qui la possède réellement. Moi par exemple.
+<ce>                 actually possess it.  Me for example.
+<ce>                 J'espère que la douce Nocturnal ne sera pas
+<ce>                 trop déçue par votre traitrise."
+<ce>
+<ce>               Dans vos mains, le _ring_ se réduit en poussière.
 
-Record n�29----------
-Excellent. Je savais que vous aviez
-une âme de mercenaire. _bow_
-est dissimulé à ___bowdung_.
-Il ne vous reste plus qu'à le trouver et
-vous deviendrez bien entendu une puissance
-avec laquelle il faudra compter.
-Maintenant, je vous souhaite une bonne
-journée, de peur que vous ne décidiez
-de vouloir à la fois _bow_
-et _artifact_ en me tuant.
-Il ne faut pas faire trop confiance
-à un coeur de mercenaire comme le vôtre !
+Message:  1047
+<ce>                 Mocking laughter echoes in your mind,
+<ce>
+<ce>                  "Vous auriez mieux fait de me faire confiance,
+<ce>                   %pcn. Peut-être que cette ombre de pouvoir
+<ce>                   peut satisfaire votre soif de puissance pour l'instant,
+<ce>                   tandis que vous déchainez vainement votre rage contre
+<ce>                   celui qui la possède réellement. Moi par exemple.
+<ce>                 actually possess it.  Me for example.
+<ce>                 J'espère que la douce Nocturnal ne sera pas
+<ce>                 trop déçue par votre traitrise."
+<ce>
+<ce>              Dans vos mains, le _staff_ se réduit en poussière.
 
-
-Record n�30----------
-Excellent. Je savais que vous aviez
-une âme de mercenaire. _ring_
-est dissimulé à ___ringdung_.
-Il ne vous reste plus qu'à le trouver et
-vous deviendrez bien entendu une puissance
-avec laquelle il faudra compter.
-Maintenant, je vous souhaite une bonne
-journée, de peur que vous ne décidiez
-de vouloir à la fois _ring_
-et _artifact_ en me tuant.
-Il ne faut pas faire trop confiance
-à un coeur de mercenaire comme le vôtre !
-
-
-Record n�31----------
-Excellent. Je savais que vous aviez
-une âme de mercenaire. _staff_
-est dissimulé à ___staffdung_.
-Il ne vous reste plus qu'à le trouver et
-vous deviendrez bien entendu une puissance
-avec laquelle il faudra compter.
-Maintenant, je vous souhaite une bonne
-journée, de peur que vous ne décidiez
-de vouloir à la fois _staff_
-et _artifact_ en me tuant.
-Il ne faut pas faire trop confiance
-à un coeur de mercenaire comme le vôtre !
-
-
-Record n�32----------
-Un rire goguenard résonne dans votre esprit,
- 
-"Vous auriez mieux fait de me faire confiance,
-%pcn. Peut-être que cette ombre de pouvoir
-peut satisfaire votre faim de puissance pour l'instant,
-tandis que vous vous déchainez vainement contre
-celui qui le possède réellement. Moi par exemple.
-J'espère que la douce Nocturnal ne sera pas
-trop déçue par votre traitrise."
- 
-Dans vos mains, le _bow_ se réduit en poussière.
-
-
-Record n�33----------
-Un rire goguenard résonne dans votre esprit,
- 
-"Vous auriez mieux fait de me faire confiance,
-%pcn. Peut-être que cette ombre de pouvoir
-peut satisfaire votre soif de puissance pour l'instant,
-tandis que vous vous déchainez vainement contre
-celui qui le possède réellement. Moi par exemple.
-J'espère que la douce Nocturnal ne sera pas
-trop déçue par votre traitrise."
- 
-Dans vos mains, le _ring_ se réduit en poussière.
-
-
-Record n�34----------
-Un rire goguenard résonne dans votre esprit,
- 
-"Vous auriez mieux fait de me faire confiance,
-%pcn. Peut-être que cette ombre de pouvoir
-peut satisfaire votre soif de puissance pour l'instant,
-tandis que vous vous déchainez vainement contre
-celui qui le possède réellement. Moi par exemple.
-J'espère que la douce Nocturnal ne sera pas
-trop déçue par votre traitrise."
- 
-Dans vos mains, le _staff_ se réduit en poussière.
-
-
-Record n�35----------
-Nocturnal a été très impressionnée par
-votre audace, %pcn. Elle m'a demandé
-de vous tuer rapidement, en récompense
-d'une traitrise aussi audacieuse.
+Message:  1050
+<ce>                 Nocturnal a été très impressionnée par
+<ce>                    votre audace, %pcn. Elle m'a demandé
+<ce>                   de vous tuer rapidement, en récompense
+<ce>                     d'une traitrise aussi audacieuse.
 
 
+-- Symbols used in the QRC file:
+--
+--               %di occurs 4 times.
+--                %g occurs 11 times.
+--               %g2 occurs 5 times.
+--               %g3 occurs 5 times.
+--              %oth occurs 1 time.
+--              %pcf occurs 3 times.
+--              %pcn occurs 6 times.
+--              %qdt occurs 6 times.
+--               %ra occurs 5 times.
+--       =1stparton_ occurs 1 time.
+--         =monster_ occurs 37 times.
+--        =qgfriend_ occurs 4 times.
+--       ___bowdung_ occurs 2 times.
+--      ___fakedung_ occurs 38 times.
+--       ___mondung_ occurs 3 times.
+--      ___qgfriend_ occurs 2 times.
+--      ___ringdung_ occurs 2 times.
+--     ___staffdung_ occurs 2 times.
+--       __qgfriend_ occurs 6 times.
+--        _artifact_ occurs 14 times.
+--             _bow_ occurs 7 times.
+--         _monster_ occurs 3 times.
+--        _qgfriend_ occurs 9 times.
+--            _ring_ occurs 10 times.
+--           _staff_ occurs 40 times.
 
+QBN:
+Item _artifact_ artifact Skeletons_Key used 1014
+Item _bow_ artifact Auriels_Bow
+Item _ring_ artifact Warlocks_Ring
+Item _staff_ artifact Staff_of_Magnus
+Item _letter_ letter used 1016
+
+Person _questgiver_ face 112 group Questor anyInfo 1013
+Person _qgfriend_ group Librarian anyInfo 1011 rumors 1012
+
+Place _mondung_ remote dungeon
+Place _bowdung_ remote dungeon
+Place _ringdung_ remote dungeon
+Place _staffdung_ remote dungeon
+Place _fakedung_ remote dungeon
+
+Clock _1stparton_ 00:00 0 flag 1 range 2 5
+Clock _bonk_ 01:00 0 flag 1 range 0 1
+Clock _S.22_ 1.00:00 2.18:40
+Clock _betrayQuestor_ 00:02 00:30
+
+Foe _monster_ is Mage
+Foe _monster1_ is Mage
+Foe _daedra_ is Frost_daedra
+
+--	Quest start-up:
+	start timer _1stparton_
+	reveal _mondung_
+	log 1020 step 0
+	pick one of _S.08_ _S.09_ _S.33_
+	pc at _mondung_ set _S.00_
+	_letter_ used do _S.02_
+	place foe _monster_ at _mondung_
+
+variable _S.00_
+_S.01_ task:
+	when _S.00_ and not _S.05_ and not _S.17_
+	log 1018 step 1
+	say 1017
+
+_S.02_ task:
+	reveal _fakedung_
+	log 1019 step 1
+
+_1stparton_ task:
+	end quest
+
+_S.04_ task:
+	clicked npc _qgfriend_
+
+_S.05_ task:
+	killed 1 _monster_
+	killed 1 _monster1_
+	say 1035
+
+_S.06_ task:
+	when _S.04_ and _S.05_
+	give pc _artifact_
+	start timer _bonk_
+	unset _S.04_
+
+_clearclick_ task:
+	when _S.04_ and not _S.05_
+	say 1003
+	clear _S.04_ _clearclick_
+
+_S.07_ task:
+	injured _monster_
+	place item _letter_ at _mondung_
+
+variable _S.08_
+variable _S.09_
+variable _betrayQuestor_
+_S.11_ task:
+	clicked item _bow_
+	clear _S.08_
+
+_S.12_ task:
+	clicked item _ring_
+	clear _S.09_
+
+_S.13_ task:
+	clicked item _staff_
+	clear _S.33_
+
+_S.14_ task:
+	when _S.17_ and _S.19_
+	place item _bow_ at _bowdung_
+	reveal _bowdung_
+	log 1021 step 2
+	say 1040
+
+_S.15_ task:
+	when _S.17_ and _S.20_
+	place item _ring_ at _ringdung_
+	reveal _ringdung_
+	log 1022 step 2
+	say 1041
+
+_S.16_ task:
+	when _S.17_ and _S.21_
+	place item _staff_ at _staffdung_
+	reveal _staffdung_
+	log 1023 step 2
+	say 1042
+
+_S.17_ task:
+	place item _letter_ at _mondung_
+	dialog link for location _fakedung_
+	start timer _S.22_
+	rumor mill 1015
+	change repute with _questgiver_ by -20
+	remove foe _monster_
+	place foe _monster1_ at _fakedung_
+--replaced faulty action "place foe _monster_ at _fakedung_" with remove foe, otherwise foe would not disappear. added new monster1 variable
+
+
+variable _S.18_
+_S.19_ task:
+	when _S.07_ and _S.08_
+	prompt 1030 yes _S.17_ no _S.18_
+
+_S.20_ task:
+	when _S.07_ and _S.09_
+	prompt 1031 yes _S.17_ no _S.18_
+
+_S.21_ task:
+	when _S.07_ and _S.33_
+	prompt 1032 yes _S.17_ no _S.18_
+
+_S.22_ task:
+	create foe _daedra_ every 3 minutes 4 times with 100% success
+
+_S.23_ task:
+	injured _daedra_
+	say 1050
+
+_S.24_ task:
+	when _betrayQuestor_ and _S.14_
+	place item _bow_ at _fakedung_
+	say 1045
+
+_S.25_ task:
+	when _betrayQuestor_ and _S.15_
+	place item _ring_ at _fakedung_
+	say 1046
+
+_S.26_ task:
+	when _betrayQuestor_ and _S.16_
+	place item _staff_ at _fakedung_
+	say 1047
+
+_S.27_ task:
+	when _S.11_ and not _S.05_
+	start timer _betrayQuestor_
+
+_S.28_ task:
+	when _S.12_ and not _S.05_
+	start timer _betrayQuestor_
+
+_S.29_ task:
+	when _S.13_ and not _S.05_
+	start timer _betrayQuestor_
+
+_S.30_ task:
+	when _S.11_ and _S.05_
+	make _bow_ permanent
+
+_S.31_ task:
+	when _S.12_ and _S.05_
+	make _ring_ permanent
+
+_S.32_ task:
+	when _S.13_ and _S.05_
+	make _staff_ permanent
+
+variable _S.33_
+_bonk_ task:
+	end quest

@@ -1,101 +1,160 @@
-Record n�0----------
-Sans aucun doute, vous avez entendu parler
-du Sorcier Fou _wizard_. Etant donné son
-énorme puissance magique et militaire,
-%rt %rn a reporté toute attaque contre
-_wizard_, mais cette stratégie touche à sa
-fin. Le %t nous a demandé d'envoyer un de
-nos membres pour tuer le mage psychotique.
-Le ferez-vous si nous vous donnons un
-_reward_ magique ?
+-- Quest: C:\QUESTS\WORKING\N0B20Y05.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: mage
+-- Repute: 20
+-- QuestId: 5
+Messages: 41
+Quest: N0B20Y05
+DisplayName: A Dangerous Wizard
+-- Message panels
+QRC:
 
-Les habitants de %reg ont demandé à la
-Guilde des Mages de s'opposer au Sorcier
-Fou qui terrorise toute la région depuis quelques
-semaines. Ainsi, comme l'Archimage l'a
-lui-même demandé, nous nous efforçons
-de recruter des membres pour satisfaire
-cette requête. Je sais que ce n'est pas le
-genre de mission qu'une institution donnerait,
-mais compte tenu des récents évènements,
-nous serions prêts à payer un de nos membres
-pour trouver et tuer le sorcier. Cela vous
-intéresse-t-il ?
+QuestorOffer:  [1000]
+<ce>                Doubtless, you have heard of the crazed
+<ce>                         wizard _wizard_. Given
+<ce>                    the enormous power %g has at %g3
+<ce>                          command, %rt %rn has
+<ce>                been delaying any offensive move against
+<ce>                           _wizard_, but that
+<ce>                   strategy is at an end. The %t has
+<ce>                asked us to send someone to destroy the
+<ce>                psychopathic mage. In return for a magic
+<ce>                  _reward_, would you do that for us?
+                                     <--->
+<ce>                        The people of %reg have
+<ce>                been demanding that the Mages Guild take
+<ce>                 a stand against the mad wizard who has
+<ce>                been terrorizing the land for some time
+<ce>                 now. Now, by order of the Archmagister
+<ce>                himself, we are doing just that. I know
+<ce>                 it's hardly the assignment a scholarly
+<ce>                 institution should give, but would you
+<ce>                   be willing and able to pay the mad
+<ce>                  wizard a call and then hack him into
+<ce>                                pieces?
+
+RefuseQuest:  [1001]
+<ce>                 Damn. I had hoped that we could count
+<ce>                         on you in this affair.
+
+AcceptQuest:  [1002]
+<ce>               Excellent. I knew that you would not let
+<ce>                        us down, %pcf. Now then,
+<ce>                        _wizard_ will be in %g3
+<ce>                      laboratory, ___mondung_, for
+<ce>                 at most =1stparton_ days before moving
+<ce>                   on to a new location. The %t wants
+<ce>               word that the mage is dead in =1stparton_
+<ce>                 days, so do not tarry after doing the
+<ce>               deed. I will see you in =1stparton_ days.
+<ce>                     Thank you and good luck, %pcf.
+
+QuestFail:  [1003]
+<ce>                 I think you ought to be moving along
+<ce>                 on that matter we spoke of, don't you?
+
+QuestComplete:  [1004]
+<ce>                 Once again, you astonish me with your
+<ce>                      skill and efficiency, %pcf.
+<ce>                    An excellent job -- the %t will
+<ce>                   be as pleased as I am. Here is the
+<ce>                          _reward_ I promised.
+<ce>                               Enjoy it.
+
+RumorsDuringQuest:  [1005]
+The Mages Guild has sent someone to deal with that mad wizard in ___mondung_.
+<--->
+Everyone's just holding their breath, waiting for that wizard's next move.
+
+RumorsPostfailure:  [1006]
+Not even the Mages Guild could do anything about that crazed sorcerer.
+<--->
+No one knows where that _wizard_ is, but nowhere's safe until %g1's gone.
+
+RumorsPostsuccess:  [1007]
+Hopefully, that's the last we hear of the mad wizard of ___mondung_.
+<--->
+It seems kind of quiet now that we don't have a mad wizard to worry about.
+
+QuestorPostsuccess:  [1008]
+Hello, %pcf. I hope that mad wizard didn't hurt you too much.
+
+QuestorPostfailure:  [1009]
+<ce>                       So, you're back, but you
+<ce>                     didn't slay the Mad Wizard of
+<ce>                         ___mondung_, did you?
+<ce>                            Hopeless, %pcf,
+<ce>                               hopeless.
+
+Message:  1030
+%qdt:
+ The Mages Guild of ___questgiver_ has
+ asked me to slay the Wizard of ___mondung_.
+ I need to have the deed done in =1stparton_ days
+ in order to collect my reward.
+
+Message:  1040
+<ce>                       You have slain _wizard_,
+<ce>                     the Mad Wizard of ___mondung_.
 
 
-Record n�1----------
-Zut. J'avais espèré que nous pourrions
-compter sur vous pour résoudre ce
-problème...
+-- Symbols used in the QRC file:
+--
+--                %g occurs 1 time.
+--               %g1 occurs 1 time.
+--               %g3 occurs 3 times.
+--              %pcf occurs 6 times.
+--              %qdt occurs 1 time.
+--              %reg occurs 1 time.
+--               %rn occurs 1 time.
+--               %rt occurs 1 time.
+--                %t occurs 3 times.
+--       =1stparton_ occurs 10 times.
+--       ___mondung_ occurs 8 times.
+--    ___questgiver_ occurs 1 time.
+--          _reward_ occurs 2 times.
+--          _wizard_ occurs 5 times.
 
+QBN:
+Item _reward_ magic_item
 
-Record n�2----------
-Excellent. Je savais que vous ne nous
-laisseriez pas tomber, %pcf.  Maintenant,
-passons aux choses sérieuses :
-_wizard_ se trouve en ce moment même
-dans son laboratoire,  ___mondung_,
-pendant les =1stparton_ jours qui viennent.
-Le %t veut que le mage soit mort dans =1stparton_
-jours, donc ne tardez pas. Je vous verrai dans
-=1stparton_ jours. Merci et bonne chance, %pcf !
+Person _questgiver_ group Questor male
+Person _wizard_ face 249 faction The_Mages_Guild
 
+Place _mondung_ remote dungeon9
 
-Record n�3----------
-Je pense que vous devriez changer de
-sujet de discussion après ce qui s'est
-passé, non ?
+Clock _1stparton_ 00:00 0 flag 17 range 0 2
 
+Foe _monster_ is Mage
 
-Record n�4----------
-Une fois de plus, vous m'avez impressionné
-par vos compétences et votre efficacité, %pcf.
-C'est un travail excellent  -- le %t sera
-aussi ravi que moi. Voici le  _reward_ 
-que je vous avais promis. Profitez-en bien !
+--	Quest start-up:
+	start timer _1stparton_ 
+	reveal _mondung_ 
+	log 1030 step 0 
+	place foe _monster_ at _mondung_ 
 
+_pcgetsgold_ task:
+	when _qgclicked_ and _mondead_ 
+	give pc _reward_ 
+	unset _qgclicked_ 
+	end quest 
 
-Record n�5----------
-La Guilde des Mages a envoyé un de leurs membres s'occuper du 
-Sorcier Fou de ___mondung_.
-Toute la population retient son souffle en attendant la prochaine 
-action du Sorcier Fou.
+variable _queston_
+_mondead_ task:
+	killed 1 _monster_ 
+	say 1040 
 
-Record n�6----------
-Même la Guilde des Mages n'a pu faire quoi que ce soit contre le 
-Sorcier Fou !
-Personne ne sait où _wizard_ se cache, mais personne n'est à 
-l'abri tant qu'il n'est pas mort.
+_qgclicked_ task:
+	clicked npc _questgiver_ 
 
-Record n�7----------
-Heureusement, c'est la dernière fois que nous entendons parler du 
-Sorcier Fou de ___mondung_.
-La région a retrouvé son calme depuis que le Sorcier Fou est 
-mort.
+_1stparton_ task:
+	end quest 
 
-Record n�8----------
-Bonjour, %pcf. J'espère que ce Sorcier Fou ne vous a pas posé trop 
-de problèmes.
+variable _2ndparton_
 
-Record n�9----------
-Ainsi vous êtes de retour sans
-avoir tué le Sorcier Fou de
-___mondung_, n'est-ce pas ?
-C'est sans espoir, %pcf, sans
-espoir...
-
-
-Record n�10----------
-%qdt :
- La Guilde des Mages de ___questgiver_ m'a
- demandé de tuer le Sorcier Fou de ___mondung_.
- Je dois accomplir ma tâche en moins de =1stparton_ 
- jours pour obtenir ma récompense.
-
-
-Record n�11----------
-Vous avez tué  _wizard_,
-le Sorcier Fou de ___mondung_.
-
-
-
+_clearclick_ task:
+	when _qgclicked_ and not _mondead_ 
+	say 1003
+	clear _qgclicked_ _clearclick_ 
+--added full clearclick action. was mere variable previously.

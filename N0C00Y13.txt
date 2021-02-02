@@ -1,154 +1,215 @@
-Record n�0----------
-Hmmph. Vous n'êtes pas un
-membre de la Guilde. Je ne
-devrais réellement pas confier
-du travail aux non-membres.
-Cependant, j'ai quelque chose
-que je dois faire et sur laquelle je
-ne veux absolument pas que
-quelqu'un d'autre dans la guilde
-se renseigne.
-Si vous faites cela gratuitement
-pour moi, je raconterai que vous
-êtes notre type de %ra.
-Qu'en dites-vous %pcf ?
+-- Quest: C:\QUESTS\WORKING\N0C00Y13.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: mage
+-- Repute: 0
+-- QuestId: 13
+Messages: 46
+Quest: N0C00Y13
+DisplayName: An Ancient Scroll
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>                   Hmmph. You're not a guild member.
+<ce>                    I really shouldn't give out jobs
+<ce>                    to non-members. However, I have
+<ce>                    something that I need done that
+<ce>                    I don't really want anyone else
+<ce>                    in the guild to find out about.
+<ce>                    If you do this for me for free,
+<ce>                     I'll spread it around that you
+<ce>                       are our kind of %ra. What
+<ce>                            do you say %pcf?
 
-Record n�1----------
-Partez. Vous me dérangez.
+RefuseQuest:  [1001]
+<ce>                        Go away. You bother me.
+                                     <--->
+<ce>                               Ingrate.
 
-Ingrat.
+AcceptQuest:  [1002]
+<ce>                       My name is _questgiver_.
+<ce>                  There is an ancient text supposedly
+<ce>                         hidden in ___dungeon_.
+<ce>              Bring it back to me within =traveltime_ days
+<ce>                    and I'll consider the job done.
 
+QuestComplete:  [1004]
+<ce>                Excellent. I remembered to warn you not
+<ce>                to read this, didn't I?  Could be quite
+<ce>                dangerous if you pronounced "nagog" with
+<ce>            the hard g, as laymen are apt.  Well, thanks for
+<ce>                     your help, %pcn. Keep this up
+<ce>                 and we'll consider you for membership
+<ce>                          in the Mages Guild.
 
-Record n�2----------
-Mon nom est _questgiver_.
-Il y a un ancien texte supposé
-être caché à ___dungeon_.
-Rapportez-le moi avant =traveltime_ jours
-et je considèrerai le travail comme fait.
+RumorsDuringQuest:  [1005]
+I got a boil the other day ... but it healed.
+<--->
+I just had a three hour conversation about the weather.
+<--->
+The weather is pretty usual for this time of year.
+<--->
+It seems a trifle coolish in %cn for this time of year.
+<--->
+It sure is a lot warmer today than this time last year.
+<--->
+My great aunt is going to a specialist across the Bay.
+<--->
+It's always funny what time it gets dark around here.
+<--->
+We should erect a war statue around here.
+<--->
+The kids these days with their magic. %oth, I don't know.
+<--->
+I had the weirdest dream last night.
+<--->
+I heard a great joke. %jok
+<--->
+%jok Actually, that's a joke.
+<--->
+%jok Can you explain that to me?
+<--->
+The legal system in %reg has some good points and bad ones.
 
+RumorsPostfailure:  [1006]
+I got a boil the other day ... but it healed.
+<--->
+I just had a three hour conversation about the weather.
+<--->
+The weather is pretty usual for this time of year.
+<--->
+It seems a trifle coolish in %cn for this time of year.
+<--->
+It sure is a lot warmer today than this time last year.
+<--->
+My great aunt is going to a specialist across the Bay.
+<--->
+It's always funny what time it gets dark around here.
+<--->
+We should erect a war statue around here.
+<--->
+The kids these days with their magic. %oth, I don't know.
+<--->
+I had the weirdest dream last night.
+<--->
+I heard a great joke. %jok
+<--->
+%jok Actually, that's a joke.
+<--->
+%jok Can you explain that to me?
+<--->
+The legal system in %reg has some good points and bad ones.
 
-Record n�3----------
-Excellent. Je me souvenais de vous
-avoir averti de ne pas le lire, non ?
-Cela pourrait être un peu dangereux
-si vous prononciez "nagog" avec
-le g soutenu, comme les profanes
-ont tendance à le faire. Bien, merci
-pour votre aide, %pcn.
-Continuez comme cela, et nous
-prendrons en considération votre
-affiliation à la Guilde des Mages.
+RumorsPostsuccess:  [1007]
+I got a boil the other day ... but it healed.
+<--->
+I just had a three hour conversation about the weather.
+<--->
+The weather is pretty usual for this time of year.
+<--->
+It seems a trifle coolish in %cn for this time of year.
+<--->
+It sure is a lot warmer today than this time last year.
+<--->
+My great aunt is going to a specialist across the Bay.
+<--->
+It's always funny what time it gets dark around here.
+<--->
+We should erect a war statue around here.
+<--->
+The kids these days with their magic. %oth, I don't know.
+<--->
+I had the weirdest dream last night.
+<--->
+I heard a great joke. %jok
+<--->
+%jok Actually, that's a joke.
+<--->
+%jok Can you explain that to me?
+<--->
+The legal system in %reg has some good points and bad ones.
 
+QuestorPostsuccess:  [1008]
+Certainly I remember you, %pcf. You brought me that text, right?
 
-Record n�4----------
-J'ai eu un furoncle l'autre jour... mais c'est guéri.
-Je viens juste d'avoir une conversation de trois heures à propos 
-du temps.
-Le temps est assez habituel pour cette époque de l'année.
-Il semble un tantinet frisquet à %cn pour cette époque de 
-l'année.
-C'est sûr qu'il fait un peu plus chaud aujourd'hui que l'année 
-dernière à cette heure.
-Ma grande tante va chez un spécialiste à l'autre bout de la 
-Baie.
-C'est toujours amusant de voir comment le temps rapidement 
-s'assombrit par ici.
-Nous devrions ériger un monument aux morts dans le coin.
-Les gosses, de nos jours, avec leur magie, %oth, je ne sais 
-pas.
-J'ai fait un rêve bizarre la nuit dernière.
-J'ai entendu une super blague. %jok
-%jok En fait, c'est une blague.
-%jok Pouvez-vous m'expliquer celle-là ?
-Le système legal en %reg a ses bons et ses mauvais côtés.
+QuestorPostfailure:  [1009]
+<ce>               I can't imagine a simpler assignment than
+<ce>               the one I gave you -- just find a rare old
+<ce>               scroll. Now, I can't imagine a reason why
+<ce>                    I should keeping talking to you.
 
-Record n�5----------
-J'ai eu un furoncle l'autre jour... mais c'est guéri.
-Je viens juste d'avoir une conversation de trois heures à propos 
-du temps.
-Le temps est assez habituel pour cette époque de l'année.
-Il semble un tantinet frisquet à %cn pour cette époque de 
-l'année.
-C'est sûr qu'il fait un peu plus chaud aujourd'hui que l'année 
-dernière à cette heure.
-Ma grande tante va chez un spécialiste à l'autre bout de la 
-Baie.
-C'est toujours amusant de voir comment le temps rapidement 
-s'assombrit par ici.
-Nous devrions ériger un monument aux morts dans le coin.
-Les gosses, de nos jours, avec leur magie, %oth, je ne sais 
-pas.
-J'ai fait un rêve bizarre la nuit dernière.
-J'ai entendu une super blague. %jok
-%jok En fait, c'est une blague.
-%jok Pouvez-vous m'expliquer celle-là ?
-Le système legal en %reg a ses bons et ses mauvais côtés.
+QuestLogEntry:  [1010]
+%qdt: I met _questgiver_
+ of the Mages Guild of ___questgiver_
+ who sent me on a quest to find an
+ ancient text hidden in ___dungeon_.
+ I have =traveltime_ days to get it to %g2.
 
-Record n�6----------
-J'ai eu un furoncle l'autre jour... mais c'est guéri.
-Je viens juste d'avoir une conversation de trois heures à propos 
-du temps.
-Le temps est assez habituel pour cette époque de l'année.
-Il semble un tantinet frisquet à %cn pour cette époque de 
-l'année.
-C'est sûr qu'il fait un peu plus chaud aujourd'hui que l'année 
-dernière à cette heure.
-Ma grande tante va chez un spécialiste à l'autre bout de la 
-Baie.
-C'est toujours amusant de voir comment le temps rapidement 
-s'assombrit par ici.
-Nous devrions ériger un monument aux morts dans le coin.
-Les gosses, de nos jours, avec leur magie, %oth, je ne sais 
-pas.
-J'ai fait un rêve bizarre la nuit dernière.
-J'ai entendu une super blague. %jok
-%jok En fait, c'est une blague.
-%jok Pouvez-vous m'expliquer celle-là ?
-Le système legal en %reg a ses bons et ses mauvais côtés.
-
-Record n�7----------
-Bien sûr que je me souviens de vous, %pcf. Vous m'avez apporté ce 
-texte, pas vrai ?
-
-Record n�8----------
-Je n'arrive pas à imaginer une affectation
-plus simple que celle que je vous ai
-donnée : simplement trouver un rare
-parchemin ancien. Maintenant, je
-n'arrive pas à imaginer une raison
-pour laquelle je continuerais à
-parler avec vous.
-
-
-Record n�9----------
-%qdt : J'ai rencontré _questgiver_
- de la Guilde des Mages de
- ___questgiver_
- qui m'a confié la mission
- de trouver un ancien texte
- caché à ___dungeon_.
- J'ai =traveltime_ jours pour lui ramener.
-
-
-Record n�10----------
+Message:  1020
 Zephrim alga n' nagog. Carti
-alga n' belyl. Azuth Zephrim ne'
-nagog. Partik aloy partik frae i
-eyominathraq n' toyl. Berik azuth
-n' nagog. Charlaq gimle n' maluk
-Zephrim qork.
+ alga n' belyl. Azuth Zephrim ne'
+ nagog. Partik aloy partik frae i
+ eyominathraq n' toyl. Berik azuth
+ n' nagog. Charlaq gimle n' maluk
+ Zephrim qork.
+
+Message:  1040
+<ce>                      This must be the parchment
+<ce>                     _questgiver_ sent you to find.
+
+QuestTimeLapse:  [1045]
+<ce>                      As you read the final word,
+<ce>                      a frigid blast almost whirls
+<ce>                      the paper out of your hands.
 
 
-Record n�11----------
-Cela doit être le parchemin que
-_questgiver_ vous a envoyé trouver.
+-- Symbols used in the QRC file:
+--
+--               %cn occurs 3 times.
+--               %g2 occurs 17 times.
+--              %jok occurs 9 times.
+--              %oth occurs 15 times.
+--              %pcf occurs 3 times.
+--              %pcn occurs 1 time.
+--              %qdt occurs 1 time.
+--               %ra occurs 1 time.
+--              %reg occurs 3 times.
+--      =traveltime_ occurs 3 times.
+--       ___dungeon_ occurs 2 times.
+--    ___questgiver_ occurs 4 times.
 
+QBN:
+Item _ingredient_ letter used 1020
 
-Record n�12----------
-Comme vous lisez le mot final,
-une rafale de vent glaciale
-fait presque s'envoler le papier
-de vos mains.
+Person _questgiver_ group Questor male
 
+Place _dungeon_ remote dungeon
 
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+
+Foe _atronach_ is Ice_atronach
+
+--	Quest start-up:
+	place item _ingredient_ at _dungeon_ 
+	start timer _traveltime_ 
+	reveal _dungeon_ 
+	log 1010 step 0 
+
+_traveltime_ task:
+	end quest 
+
+_S.01_ task:
+	toting _ingredient_ and _questgiver_ clicked 
+	give pc nothing 
+	end quest 
+
+_S.02_ task:
+	clicked item _ingredient_ 
+	_ingredient_ used do _S.03_ 
+	--moved "saying 1045" from used do, not a valid argument, to S.03.
+	say 1040 
+
+_S.03_ task:
+	say 1045
+	create foe _atronach_ every 1 minutes 1 times with 100% success 

@@ -1,85 +1,131 @@
-Record n�0----------
-Si vous êtes intéressé pour gagner
-_reward_ pièces d'or à ne rien faire
-de plus que livrer un petit colis à un
-de mes agents, dites-le maintenant.
+-- Quest: C:\QUESTS\WORKING\R0C10Y10.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 10
+-- QuestId: 10
+Messages: 11
+Quest: R0C10Y10
+DisplayName: Weapon Supply
+-- Message panels
+QRC:
 
-Je pourrais utiliser les services de quelqu'un
-aux talents modérés, plus discret que la plupart,
-et d'accord pour assurer la position
-de modeste coursier pour _reward_ pièces d'or.
-Etes-vous cette personne ?
+QuestorOffer:  [1000]
+<ce>               If you are interested in earning _reward_
+<ce>                    gold for doing nothing more than
+<ce>                    delivering a little parcel to an
+<ce>                      agent of mine, speak up now.
+                                     <--->
+<ce>                I could use the services of someone of
+<ce>               moderate talent, above average discretion,
+<ce>                 and willingness to assume the position
+<ce>                  of a lowly courier for _reward_ gold
+<ce>                      pieces. Are you that person?
+
+RefuseQuest:  [1001]
+<ce>                 Really? Too busy, perhaps? Your loss.
+
+AcceptQuest:  [1002]
+<ce>                    Excellent. Here's the _weapon_.
+<ce>                    Now, _contact_ needs to have it
+<ce>                      in ___contact_ in =queston_
+<ce>            days. That ought to be just enough time, I hope.
+<ce>                    You will recognize _contact_ --
+<ce>                       just look for a =contact_.
+<ce>                        Good luck and thank you.
+
+QuestFail:  [1003]
+<ce>             Couldn't accomplish a simple little delivery,
+<ce>                %pcf? I certainly hope you weren't still
+<ce>                          expecting a reward.
+
+QuestComplete:  [1004]
+<ce>                   Ah, good to see you %pcf. And the
+<ce>                  _weapon_ too. Excellent. Here's the
+<ce>                _reward_ gold pieces I believe you were
+<ce>                       promised by _questgiver_.
+
+RumorsDuringQuest:  [1005]
+_questgiver_ is still in the smuggling business, I hear.
+<--->
+There's been an extraordinary increase in smuggling lately.
+
+RumorsPostfailure:  [1006]
+Someone found a very lovely _weapon_ around here recently.
+<--->
+I hear _questgiver_ is mad as hell at some %ra adventurer.
+
+RumorsPostsuccess:  [1007]
+Someone named _contact_ has been waving around some _weapon_.
+<--->
+The smuggling of religious artifacts is apparently the big new crime.
+
+QuestorPostsuccess:  [1008]
+Oh, it's my old courier. How charming. How may I help you?
+<--->
+You look familiar. You made a little delivery for me recently, didn't you?
+
+QuestorPostfailure:  [1009]
+<ce>                     You look almost exactly like
+<ce>                      a %ra who failed a delivery
+<ce>                     for me. Curious. Go away now.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _questgiver_ of
+ __questgiver_, ___questgiver_
+ has sent me to deliver a _weapon_
+ to an ally named _contact_.
+ I need to have the _weapon_ in
+ _contact_'s hands in =queston_
+ days. The =contact_
+ can apparently be found in a place called
+ __contact_ in ___contact_.
 
 
-Record n�1----------
-Vraiment ? Trop occupé, peut-être ?
-Ce sera ta perte.
+-- Symbols used in the QRC file:
+--
+--              %pcf occurs 2 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 2 times.
+--         =contact_ occurs 2 times.
+--         =queston_ occurs 3 times.
+--       ___contact_ occurs 4 times.
+--    ___questgiver_ occurs 1 time.
+--        __contact_ occurs 1 time.
+--     __questgiver_ occurs 1 time.
+--         _contact_ occurs 5 times.
+--      _questgiver_ occurs 5 times.
+--          _reward_ occurs 3 times.
+--          _weapon_ occurs 6 times.
+
+QBN:
+Item _weapon_ weapon
+Item _reward_ gold
+
+Person _questgiver_ face 112 group Questor
+Person _contact_ group Local_3.0 female
 
 
-Record n�2----------
-Excellent. Voici le _weapon_.
-Maintenant, _contact_ doit l'avoir
-à ___contact_ dans les =queston_ prochains
-jours. Cela devrait être suffisant, j'espère.
-Vous reconnaîtrez _contact_,
-cherchez juste un =contact_.
-Bonne chance et merci.
+Clock _queston_ 00:00 0 flag 1 range 1 2
 
 
-Record n�3----------
-On ne peut même pas accomplir une simple livraison,
- %pcf ? J'espère assurement que
-vous n'attendez toujours pas une récompense.
+--	Quest start-up:
+	start timer _queston_ 
+	log 1010 step 0 
+	get item _weapon_ 
+	create npc _contact_ 
 
+_pcgetsgold_ task:
+	toting _weapon_ and _contact_ clicked 
+	give pc _reward_ 
+	end quest 
 
-Record n�4----------
-Ah, c'est bon de vous revoir %pcf. 
-Et le _weapon_ aussi. Excellent.
-Voici les _reward_ pièces d'or qui vous ont,
-je crois, été promises par _questgiver_.
+variable _pchasitem_
+variable _npcclicked_
+_queston_ task:
+	make _weapon_ permanent 
+	change repute with _questgiver_ by -20 
+	end quest 
 
-
-Record n�5----------
-_questgiver_ est toujours dans la contrebande, il paraît.
-Il y a une extraordinaire recrudescence de contrebande, ces 
-temps-ci.
-
-Record n�6----------
-Quelqu'un a trouvé un très adorable _weapon_ près d'ici 
-récemment.
-J'ai entendu dire que _questgiver_ est fou de rage contre un 
-certain aventurier %ra.
-
-Record n�7----------
-Quelqu'un dénommé _contact_ a farfouillé autour de _weapon_.
-La contrebande d'objets religieux est apparemment le nouveau grand 
-délit.
-
-Record n�8----------
-Oh, c'est mon vieux messager. Comme c'est charmant. Comment puis-
-je vous aider ?
-Vous me paraissez familier. Vous avez effectué une petite course 
-pour moi récemment, non ?
-
-Record n�9----------
-Vous ressemblez énormément
-au %ra qui a échoué à effectuer
-une livraison pour moi. Curieux.
-Partez maintenant.
-
-
-Record n�10----------
-%qdt :
- _questgiver_ de
- __questgiver_, ___questgiver_,
- m'a envoyé pour livrer un _weapon_
- à un allié nomme _contact_.
- Je dois avoir déposé le _weapon_
- dans les mains de _contact_
- dans =queston_ jours. Le =contact_
- peut apparemment être trouvé dans
- un endroit appelé __contact_
- à ___contact_.
-
-
-
+variable _1stparton_

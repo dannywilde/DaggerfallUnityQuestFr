@@ -1,116 +1,182 @@
-Record n�0----------
-%oth, existe-t-il quelque chose
-de plus exaspérant que de découvrir
-que les bandages de momie dont vous
-avez besoin sont pourris ? Je
-pourrais utiliser ceux de la Guilde, mais
-la formule fait référence à des "bandages
-relativement recents". Je suppose que vous
-ne pourriez pas aller me trouver quelques
-bandages d'une momie qui en a plus que
-nécessaire ? 
- 
-Créer des recettes est un métier difficile, %pct.
-Je travaille sur une formule qui fait appel à
-"un morceau de =mummy_". Mais qu'est-ce
-que =mummy_? Une herbe ? Un minéral ? En
-fait, j'ai récemment compris que =mummy_
-est une momie. Etonnant, non ? Et le meilleur,
-c'est que cette momie se trouve en %reg. 
-Pouvez vous aller me chercher
-un morceau de =mummy_ dans sa tombe
-pour, disons, _gold_ pièces d'or ?
+-- Quest: C:\QUESTS\WORKING\N0B00Y06.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: mage
+-- Repute: 0
+-- QuestId: 6
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: N0B00Y06
+DisplayName: Mummy Wrappings
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                     %oth, existe-t-il quelque chose
+<ce>             de plus exaspérant que de découvrir
+<ce>               que les bandages de momie dont vous
+<ce>              avez besoin pour vos potions sont pourris ?
+<ce>               Je pourrais utiliser ceux de la Guilde, mais
+<ce>              la formule fait référence à des "bandages de momie
+<ce>             frais," peut importe ce que cela signifie. Je suppose
+<ce>              que vous seriez prêt à me récupérer  quelques
+<ce>               bandages d'une momie qui en a plus que nécessaire
+<ce>                     et dont elle ne sait quoi faire ?
+                                     <--->
+<ce>                  Recipes are a daft business, %pct.
+<ce>               I'm working on a formula that calls for a
+<ce>                  "goodly piece of =mummy_. What is a
+<ce>                   =mummy_? An herb? A mineral? Well,
+<ce>              I've researched the matter and found =mummy_
+<ce>            is a mummy. Imagine that. And this particularly
+<ce>                  mummy is right here in %reg. Could I
+<ce>              talk you into going to its tomb and grabbing
+<ce>            a piece of =mummy_ for, say, _gold_ gold pieces?
+
+RefuseQuest:  [1001]
+<ce>                           Oh, %oth. I know
+<ce>                     it's not a swing by the local
+<ce>                     general store, but I had hoped
+<ce>                      for a little enthusiasm and
+<ce>                          adventurous whatnot.
+
+AcceptQuest:  [1002]
+<ce>                      Jolly good, %pct. It'll be
+<ce>                     worth _gold_ gold to you. Now
+<ce>                    this mummy's tomb is not too far
+<ce>                   away at all, so it shouldn't take
+<ce>                 you any longer than =queston_ days to
+<ce>                   get there, make your grab, and get
+<ce>                     back. Remember, it's got to be
+<ce>                   fresh -- preferably off its body.
+<ce>                   The name of the place is something
+<ce>                           like ___mondung_.
+<ce>                    It's sure to be gruesome there.
+<ce>                    You might want to bring a sword
+<ce>                     or some such thing. Well, good
+<ce>                            luck, young %ra.
+
+QuestComplete:  [1004]
+<ce>                     Now that is a lovely piece of
+<ce>                      wrapping. Thanks awfully. I
+<ce>                    believe we agreed on _gold_ gold
+<ce>                              pieces, yes?
+
+RumorsDuringQuest:  [1005]
+=mummy_ in ___mondung_ is supposedly all that's left of an ancient %t of %reg.
+<--->
+=mummy_ was supposedly a %t in ancient %reg who was too wicked to die.
+
+RumorsPostfailure:  [1006]
+I got a boil the other day ... but it healed.
+<--->
+I just had a three hour conversation about the weather.
+<--->
+The weather is pretty usual for this time of year.
+<--->
+It seems a trifle coolish in %cn for this time of year.
+<--->
+It sure is a lot warmer today than this time last year.
+<--->
+My great aunt is going to a specialist across the Bay.
+<--->
+It's always funny what time it gets dark around here.
+<--->
+We should erect a war statue around here.
+<--->
+The kids these days with their magic. %oth, I don't know.
+<--->
+I had the weirdest dream last night.
+<--->
+I heard a great joke. %jok
+<--->
+%jok Actually, that's a joke.
+<--->
+%jok Can you explain that to me?
+<--->
+The legal system in %reg has it good points and bad ones.
+
+RumorsPostsuccess:  [1007]
+=mummy_'s reign in %reg began before the First Era and ended with you.
+<--->
+_qgiver_ finally can finish %g3 potion thanks to =mummy_'s contribution.
+
+QuestorPostsuccess:  [1008]
+How are you, %pcf? I hope you aren't coming down with mummy rot or anything.
+
+QuestorPostfailure:  [1009]
+<ce>                     I needed that wrapping, %pcf.
+<ce>                  It's very annoying to need something
+<ce>                            and not have it.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ of the Mages Guild
+ in ___qgiver_ has sent me to
+ ___mondung_ to grab some
+ wrappings off of a mummy
+ named =mummy_. I have
+ =queston_ days to complete this quest.
+
+Message:  1011
+<ce>                        You find the wrappings
+<ce>                             that _qgiver_
+<ce>                         wanted you to get from
+<ce>                                =mummy_.
 
 
-Record n�1----------
-Quoi ?! Il est vrai que ce
-n'est pas la porte à côté mais
-quand même, j'aurais 
-apprécié plus de courage
-de votre part.
+-- Symbols used in the QRC file:
+--
+--               %cn occurs 1 time.
+--               %g3 occurs 1 time.
+--              %jok occurs 3 times.
+--              %oth occurs 7 times.
+--              %pcf occurs 2 times.
+--              %pct occurs 2 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 2 times.
+--              %reg occurs 21 times.
+--                %t occurs 2 times.
+--           =mummy_ occurs 11 times.
+--         =queston_ occurs 2 times.
+--       ___mondung_ occurs 3 times.
+--        ___qgiver_ occurs 1 time.
+--            _gold_ occurs 7 times.
+--          _qgiver_ occurs 3 times.
 
+QBN:
+Item _wrappings_ mummy_wrappings
+Item _gold_ gold
 
-Record n�2----------
-Merveilleux, %pct. Je vous
-devrai _gold_ pièces d'or.
-Maintenant, je dois vous
-dire que la momie n'est
-pas loin du tout et cela
-ne devrait vous prendre guère
-plus de =queston_ jours pour y
-aller, et me rapporter un morceau
-de cette momie. Mais rappelez-vous
-que ce morceau doit être intact.
-Le nom de l'endroit doit être
-quelque chose comme ___mondung_.
-Je suis sûr que vous la trouverez.
-Une dernière chose, vous devriez
-vous armer, jeune %ra. 
+Person _qgiver_ group Questor male
 
+Place _mondung_ remote dungeon0
 
-Record n�3----------
-Ah ! Merveilleux morceau
-de bandage. Je crois que nous
-nous étions entendu pour _gold_ 
-pièces d'or, non ?
+Clock _queston_ 00:00 0 flag 17 range 0 2
 
+Foe _mummy_ is Mummy
 
-Record n�4----------
-=mummy_ dans ___mondung_ est supposément ce qui reste d'un ancien 
-%t en %reg.
-=mummy_ était supposé être un %t de l'ancienne %reg qui était trop 
-affreux pour mourir.
+--	Quest start-up:
+	start timer _queston_
+	reveal _mondung_
+	log 1010 step 0
+	place foe _mummy_ at _mondung_
 
-Record n�5----------
-J'avais un furoncle l'autre jour, mais c'est parti.
-Je viens de parler du temps pendant 3 heures.
-Il fait plutôt beau aujourd'hui, non ?
-Il fait frais pour cette saison.
-Il fait plus chaud que l'année dernière.
-Ma tante est en voyage dans la baie.
-C'est toujours amusant de savoir quand la nuit tombe.
-Nous devrions construire une statue ici.
-Le temps n'est plus ce qu'il était.
-J'ai fait un drôle de rêve la nuit dernière.
-J'en ait une bonne : %jok
-%jok. En fait, c'est une blague ! 
-%jok. Vous avez saisi ?
-Le systeme pénal en %reg a des avantages et des 
-inconvénients.
+_queston_ task:
+	end quest
 
-Record n�6----------
-Le règne de =mummy_ en %reg se termine par votre 
-intervention.
-_qgiver_ peut finalement terminer sa potion grâce aux bandages de  
-=mummy_.
+_reward_ task:
+	toting _wrappings_ and _qgiver_ clicked
+	give pc _gold_
+	take _wrappings_ from pc
+	end quest
+--forums discussion, failsafe to ensure removal of wrappings
 
-Record n�7----------
-Comment allez vous, %pcf ? J'espère que vous ne revenez pas avec 
-la malédiction de la momie ou quelque chose du genre.
+variable _qgclicked_
+_S.03_ task:
+	clicked item _wrappings_
+	say 1011
 
-Record n�8----------
-J'avais terriblement besoin 
-de ce bandage, %pcf.
-C'est très frustrant d'avoir besoin 
-de quelque chose et de ne pas 
-l'avoir.
-
-
-Record n�9----------
-%qdt :
- _qgiver_ de la Guilde des Mages
- de ___qgiver_ m'a envoyé à
- ___mondung_ pour prendre
- quelques bandages d'une
- momie : =mummy_. J'ai 
- =queston_ jours pour lui en ramener.
-
-
-Record n�10----------
-Vous trouvez les bandages
-de =mummy_ que _qgiver_ 
-voulait que vous lui
-rapportiez.
-
-
-
+_S.04_ task:
+	injured _mummy_
+	give item _wrappings_ to _mummy_

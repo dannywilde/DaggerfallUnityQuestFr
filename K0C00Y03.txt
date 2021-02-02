@@ -1,167 +1,259 @@
-Record n�0----------
-Cela ne vous dérangerait pas de faire un
-peu de contrebande pour moi, n'est-ce pas,
-%pcf ? Il y a une possibilité
-de risque, mais une certitude de profit
-pour nous deux. Votre part serait de
-_gold_ pièces d'or. Qu'en dites-vous ?
+-- Quest: C:\QUESTS\WORKING\K0C00Y03.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: merchant
+-- Repute: 0
+-- QuestId: 3
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 18
+Quest: K0C00Y03
+DisplayName: Smuggling
+-- Message panels
+QRC:
 
-La contrebande est un vilain mot, hein ?
-Je préfère dire que j'ai besoin que certaines
-marchandises pas très légales soient
-apportées à un endroit où des individus
-les accepteraient, tandis que d'autres,
-d'après la loi, ne le feraient pas.
-Interessé ?
+QuestorOffer:  [1000]
+<ce>                  You wouldn't have any problem doing
+<ce>                 a bit of smuggling for me, would you,
+<ce>                      %pcf? There's a possibility
+<ce>                 of risk, but a certainty of profit for
+<ce>                    both of us. Your share would be
+<ce>                  _gold_ gold pieces. What do you say?
+                                     <--->
+<ce>                 Smuggling is a nasty word, isn't it?
+<ce>                  I prefer to say I need some legally
+<ce>                   ambiguous stuff brought to a place
+<ce>                  where some elements will welcome it,
+<ce>                   and others, the law specifically,
+<ce>                         will not. Interested?
 
+RefuseQuest:  [1001]
+<ce>                      We never met then. Remember
+<ce>                              that, %pcf.
+                                     <--->
+<ce>                       In that case, I will deny
+<ce>                           ever meeting you.
 
-Record n�1----------
-Nous ne nous sommes jamais
-rencontrés. Souvenez-vous en,
-%pcf.
+AcceptQuest:  [1002]
+<ce>                    Grand. Here's the scheme, %pcf.
+<ce>                I have a little side business exporting
+<ce>                         _item_ to __conhouse_,
+<ce>                but my regular agents are being watched
+<ce>                 by the %t's guard. If you can get the
+<ce>                        _item_ into __conhouse_
+<ce>                     to a place called _conhouse_,
+<ce>                     my client _contact_ will give
+<ce>                you the _gold_ gold pieces I mentioned.
+<ce>                Don't talk to any lawmen while you have
+<ce>                      the _item_ and don't fail to
+<ce>                  get to _conhouse_ in =queston_ days,
+<ce>                  or I'll make it my life business to
+<ce>                    destroy your reputation with the
+<ce>                 government, the underworld, and anyone
+<ce>                 else I can think of. But I'm sure you
+<ce>                  won't fail me. Good luck, my child.
+<ce>                          Make _qgiver_ proud.
 
-Dans ce cas, je nierai vous
-avoir jamais rencontré.
+QuestComplete:  [1004]
+<ce>                  Jolly nerve-wracking sitting here,
+<ce>                       waiting for you, %pcf. Ah,
+<ce>                     the _item_. Good quality this.
+<ce>                  Here, here's the _gold_ gold pieces.
+<ce>                      Good doing business with you
+<ce>                             and _qgiver_.
 
+RumorsDuringQuest:  [1005]
+The _item_ smuggling between ___qgiver_ and __conhouse_ is a %reg disgrace.
+<--->
+The %t has vowed to do something about the _item_ smuggling spree.
 
-Record n�2----------
-Merveilleux. Voici la combine, %pcf.
-J'ai de côté une petite affaire d'exportation
-de _item_ à __conhouse_,
-mais mes agents habituels sont
-surveillés par les gardes de %t.
-Si vous amenez le
-_item_ dans __conhouse_
-à un endroit appelé _conhouse_,
-mon client _contact_ vous
-donnera les _gold_ pièces d'or que j'ai
-mentionnées. Ne parlez à aucun représentant
-de la loi tant que vous avez le _item_,
-et n'échouez pas à être à _conhouse_
-dans =queston_ jours, ou j'emploierai ma vie
-d'homme d'affaires à détruire votre réputation
-avec le gouvernement, la mafia , et toute
-autre personne à laquelle je pourrai penser.
-Mais je suis certain que vous ne me faillirez
-pas. Bonne chance, mon enfant.
-Faites honneur à _qgiver_ .
+RumorsPostsuccess:  [1007]
+They'll never be able to end the _item_ smuggling in %reg. Too much demand.
+<--->
+%rt %rn has appointed _qgiver_ special enforcer in the war against smuggling.
 
+QuestorPostsuccess:  [1008]
+_contact_ tells me you arrived just fine. For that, I thank you.
 
-Record n�3----------
-C'était terriblement stressant de vous
-attendre ici, à ne rien faire, %pcf.
-Ah, le _item_. Bonne qualité, ça.
-Voilà, voici les _gold_ pièces d'or.
-C'est bon de faire des affaires
-avec vous et _qgiver_.
+QuestorPostfailure:  [1009]
+<ce>               Maybe you betrayed me, maybe you're just
+<ce>                  a bad smuggler. Either way, sod off.
 
+QuestLogEntry:  [1010]
+%qdt:
+ _qgiver_ of
+ ___qgiver_ has given me some
+ _item_ to smuggle into __conhouse_.
+ The name of my contact there is
+ _contact_ and %g will
+ be waiting at _conhouse_
+ there. Naturally, I'll need to
+ watch out for the city guards
+ in this enterprise. I have =queston_ days
+ to get there.
 
-Record n�4----------
-La contrebande de _item_ entre ___qgiver_ et __conhouse_ est la 
-honte de %reg.
-%t a juré de faire quelque chose contre la contrebande de 
-_item_.
-
-Record n�5----------
-Ils ne seront jamais capables de mettre un terme à la contrebande 
-de _item_ en %reg. Trop de demandes.
-%rt %rn a nommé _qgiver_ pour le renforcer dans la guerre contre 
-la contrebande.
-
-Record n�6----------
-_contact_ m'a dit que vous êtes arrivé juste à point. Pour cela, 
-je vous remercie.
-
-Record n�7----------
-Peut-être m'avez-vous trahi, peut-être êtes-vous
-simplement un mauvais contrebandier.
-Quoi qu'il en soit, foutez-moi le camp.
-
-
-Record n�8----------
-%qdt :
- _qgiver_ de ___qgiver_
- m'a confié un _item_
- à acheminer en fraude
- à __conhouse_.
- Le nom de mon contact là-bas
- est _contact_ et %g attendra
- à _conhouse_. Naturellement,
- je devrai faire attention aux gardes
- de la ville dans cette affaire.
- J'ai =queston_ jours pour arriver là-bas.
-
-
-Record n�9----------
-Cher %pcf,
+Message:  1011
+Dear %pcf,
  
-      Vous avez été trompé. _contact_
- n'est pas à _conhouse_.
- Un chevalier nomme =guard_
- attend là-bas pour vous tendre
- une embuscade. Si vous désirez
- vous débarrasser de ce _item_,
- apportez-le moi à __contact2_
- en ___contact2_.
+      You have been set up. _contact_
+ is not at _conhouse_. A knight
+ named =guard_ is waiting there
+ to ambush you. If you want to get rid of
+ that _item_, bring it to me
+ at __contact2_ here in
+ ___contact2_.
  
  
  _contact2_
 
+Message:  1012
+<ce>                           A letter has been
+<ce>                        slipped into your hands.
 
-Record n�10----------
-Une lettre a été glissée
-dans vos mains.
-
-
-Record n�11----------
-%qdt :
- J'ai reçu une lettre de quelqu'un du nom
- de _contact2_, disant que
- _conhouse_ est un piège.
- Le message me propose de donner
- le _item_ à ce _contact2_
- à son auberge à ___contact2_,
+Message:  1013
+%qdt:
+ I received a letter from someone by the name of
+ _contact2_, saying that
+ _conhouse_ is a trap. I
+ have been offered the option of giving
+ the _item_ to this _contact2_
+ at %g3 inn in ___contact2_,
  __contact2_.
 
+Message:  1014
+<ce>                   Ah, you received my letter. Good
+<ce>                    thing for you. There was a nasty
+<ce>                   situation brewing and I'd hate to
+<ce>                     have you caught up in it. I'll
+<ce>                          take that _item_ in
+<ce>                    return for my services clearing
+<ce>                      up your involvement in this
+<ce>                       botched smuggling scheme.
+<ce>                          No need to thank me.
 
-Record n�12----------
-Ah, vous avez recu ma lettre. Bonne
-chose pour vous. C'était une sale
-situation qui était en train de se mettre
-en place, et j'aurais détesté
-vous voir piègé la-dedans. Je
-prendrai ce _item_ en récompense
-de mes services pour avoir clarifié
-votre implication dans cet
-douteuse combine de contrebande.
-Pas besoin de me remercier.
+Message:  1015
+<ce>                   Wait a minute, kid. We don't want
+<ce>                       you. Just _qgiver_ and the
+<ce>                      _item_. Hand it over and you
+<ce>                       can get out of here, okay?
+                                     <--->
+<ce>                  Listen, kid, nothing personal. Just
+<ce>                          gimme the _item_ and
+<ce>                       I'll tell my boss you got
+<ce>                              away. Deal?
 
+Message:  1016
+<ce>                         Yer a smart kid. Now,
+<ce>                            get outta here.
 
-Record n�13----------
-Attends une minute, gamin. Ce
-n'est pas toi qui nous intéresse.
-Uniquement _qgiver_ et le _item_.
-Laisse-le nous et tu pourras partir
-d'ici, d'accord ?
-
-Ecoute, gamin, rien de personnel.
-File-moi juste le _item_ et
-je dirai à mon boss que tu
-t'es enfui. Marché conclu ?
-
-
-Record n�14----------
-T'es un bon gamin.
-Maintenant, barre-toi.
-
-
-Record n�15----------
-_qgiver_ ne va pas être
-content que vous conserviez
-le _item_, mais il est trop tard
-pour le livrer à qui que ce soit.
-Vous pourriez peut-être
-le vendre quelque part...
+Message:  1017
+<ce>                        _qgiver_ isn't going to
+<ce>                    be happy about you holding on to
+<ce>                        the _item_, but it's too
+<ce>                      late to deliver it anywhere.
+<ce>                       You might be able to sell
+<ce>                            it somewhere ...
 
 
+-- Symbols used in the QRC file:
+--
+--                %g occurs 1 time.
+--               %g3 occurs 1 time.
+--              %pcf occurs 7 times.
+--              %qdt occurs 2 times.
+--              %reg occurs 2 times.
+--               %rn occurs 1 time.
+--               %rt occurs 1 time.
+--                %t occurs 2 times.
+--           =guard_ occurs 1 time.
+--         =queston_ occurs 6 times.
+--      ___contact2_ occurs 4 times.
+--        ___qgiver_ occurs 2 times.
+--       __conhouse_ occurs 4 times.
+--       __contact2_ occurs 2 times.
+--        _conhouse_ occurs 5 times.
+--        _contact2_ occurs 3 times.
+--         _contact_ occurs 4 times.
+--            _gold_ occurs 3 times.
+--            _item_ occurs 14 times.
+--          _qgiver_ occurs 8 times.
 
+QBN:
+Item _gold_ gold
+Item _item_ drug
+Item _letter_ letter used 1011
+
+Person _qgiver_ group Questor male
+Person _contact_ face 1 group Innkeeper
+Person _contact2_ group Innkeeper female
+
+Place _conhouse_ remote house2
+
+Clock _2letter_ 03:20 06:40
+Clock _queston_ 00:00 0 flag 1 range 2 5
+
+Foe _guard_ is Knight
+
+--	Quest start-up:
+	dialog link for person _contact_ 
+	start timer _queston_ 
+	log 1010 step 0 
+	get item _item_ 
+	pick one of _whip_ _S.02_ 
+	legal repute -100 
+	place npc _contact_ at _conhouse_ 
+
+variable _traveltime_
+_whip_ task:
+	pc at _conhouse_ set _S.04_ 
+	start timer _2letter_ 
+
+variable _S.02_
+variable _S.03_
+_S.04_ task:
+	hide npc _contact_ 
+	place foe _guard_ at _conhouse_ 
+
+_S.05_ task:
+	injured _guard_ 
+	prompt 1015 yes _deed_ no _no_ 
+
+_deed_ task:
+	take _item_ from pc
+	--classic would transfer the item from pc to guard. DFU requires a take item action.
+	give item _item_ to _guard_ 
+	say 1016 
+	restrain foe _guard_ 
+
+_2letter_ task:
+	_letter_ used do _S.08_ 
+	give pc _letter_ notify 1012 
+
+_S.08_ task:
+	log 1013 step 1 
+
+_reward_ task:
+	toting _item_ and _contact_ clicked 
+	give pc _gold_ 
+	legal repute +100 
+	end quest 
+
+_S.10_ task:
+	toting _item_ and _contact2_ clicked 
+
+_S.11_ task:
+	when _S.10_ and _whip_ 
+	say 1014 
+	legal repute +100 
+	end quest 
+
+_S.12_ task:
+	when _queston_ and _S.14_ 
+	say 1017 
+	make _item_ permanent 
+
+_queston_ task:
+	have _item_ set _S.14_ 
+	end quest 
+
+variable _S.14_
+variable _no_

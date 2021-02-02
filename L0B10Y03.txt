@@ -1,128 +1,188 @@
-Record n�0----------
-La Confrérie s'enorgueillit de toujours
-savoir, à tout moment, où se trouvent
-nos Frères. Je pourrais te dire où tu étais
-Tirdas dernier avec une relative précision.
-Un de nos Frères, cependant, a subitement
-disparu en pleine mission.
-Vous essayerez de retrouver
-=target_,
-et, à moins qu'%g n'ait une bonne excuse
-pour son absence, vous lui réglerez
-son compte. Je crois que vous avez du temps
-pour cela, oui ?
+-- Quest: C:\QUESTS\WORKING\L0B10Y03.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Brotherhood
+-- Repute: 10
+-- QuestId: 3
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 15
+Quest: L0B10Y03
+DisplayName: Unauthorized Absence
+-- Message panels
+QRC:
 
-Comme vous le savez, personne ne peut quitter
-la Confrérie Noire. Un Frère a disparu
-en mission et nous devons savoir si
-=target_ est mort ou vivant.
-Vous avez été choisi pour cette tâche.
+QuestorOffer:  [1000]
+<ce>                   The Brotherhood prides itself on
+<ce>                   always knowing where each Brother
+<ce>                   is at all times. I could tell you
+<ce>                   where you were last Tirdas within
+<ce>                 a foot of dirt. One of our Brothers,
+<ce>                  however, has disappeared and while
+<ce>                  on assignment. You will attempt to
+<ce>                            find =target_,
+<ce>                  and, unless %g has suitable excuse
+<ce>                   for %g3 absence, you will account
+<ce>                    %g2. I trust you have time for
+<ce>                              this, yes?
+                                     <--->
+<ce>                  As you know, no one ever leaves the
+<ce>                   Dark Brotherhood. One Brother has
+<ce>                   disappeared on assignment, and we
+<ce>                         must know if =target_
+<ce>                    is dead or alive. You have been
+<ce>                      picked for this assignment.
 
+RefuseQuest:  [1001]
+<ce>                     Truly? Well, I suppose you're
+<ce>                   entitled to refuse an occasional
+<ce>                              assignment.
 
-Record n�1----------
-Vraiment? Eh bien, je suppose que vous
-avez le droit de refuser une mission
-de temps à autres...
+AcceptQuest:  [1002]
+<ce>                          Good. =target_ has
+<ce>                      a cousin in ___contact_ --
+<ce>                          a =contact_ called
+<ce>                             _contact_ who
+<ce>                   generally can be found at a place
+<ce>                        called __contact_. Talk
+<ce>                  to %g2 -- firmly -- and find where
+<ce>                %g3 cousin is. I'll give you =queston_
+<ce>                  days to take care of this business
+<ce>                              and return.
 
+QuestComplete:  [1004]
+<ce>                            =target_ was a
+<ce>                   vampire? Well, that does explain
+<ce>                    things. If you haven't already,
+<ce>                      you'll want to get yourself
+<ce>                   healed at a temple, so you don't
+<ce>                         end up in =target_'s
+<ce>                         bloodsucking family.
 
-Record n�2----------
-Bien. =target_ possède
-un cousin à ___contact_,
-un =contact_ nommé
-_contact_ qui
-peut généralement être trouvé en
-un lieu appelé __contact_.
-Parlez-lui avec fermeté et découvrez où
-se trouve son cousin. Je vous donne =queston_
-jours pour faire votre devoir et revenir.
+RumorsDuringQuest:  [1005]
+Nobody, but nobody, doublecrosses the Dark Brotherhood.
+<--->
+=target_ supposedly went after some baron somewhere in %reg before %g vanished.
 
+RumorsPostfailure:  [1006]
+Some say that =target_ is dead. But others have seen %g2 ... at night only.
 
-Record n�3----------
-=target_ était un
-vampire ? Bien, cela explique beaucoup
-de choses. Si vous ne l'avez pas déjà fait,
-vous pouvez allez vous soigner dans un temple
-afin de ne pas finir dans la famille de
-suceurs de sang de =target_
+RumorsPostsuccess:  [1007]
+Funny, the Brotherhood offing that bloodsucker. You think they'd get along.
+<--->
+Apparently, =target_'s last target was more than %g expected him to be.
 
+QuestorPostsuccess:  [1008]
+Hello, %pcf. I hope you've had a priest look at you after that vampire battle.
 
-Record n�4----------
-Personne, mais alors personne, ne double la Confrérie Noire.
-=target_ en avait certainement après quelque baron, quelque part 
-en %reg, juste avant sa disparition.
+QuestorPostfailure:  [1009]
+<ce>                     I have nothing but scorn for
+<ce>                   those who fail their assignments.
+<ce>                        Begone with you, %pcf.
 
-
-Record n�5----------
-Certains affirment que =target_ est mort. Mais d'autres pensent 
-l'avoir aperçu... de nuit seulement.
-
-Record n�6----------
-Amusant, la Confrérie s'occupant de ce suceur de sang. Vous pensez 
-qu'ils se sont bien débrouillés !
-Apparamment, la dernière victime de =target_ était davantage que 
-ce qu'%g attendait.
-
-
-Record n�7----------
-Salut, %pcf. J'espère qu'un prêtre s'est occupé de vous après le 
-combat contre le vampire.
-
-
-Record n�8----------
-J'ai seulement du mépris pour ceux
-qui échouent dans leur mission.
-En particulier pour vous, %pcf.
-
-
-Record n�9----------
+QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ de la Confrérie Noire,
- à ___qgiver_,
- veut que je retrouve un Frère
- disparu et, si ce dernier n'offre aucune
- raison valable, que je lui règle son
- compte. Ce personnage, nommé
- =target_, a un cousin
- vivant à ___contact_,
- un =contact_ nommé
- _contact_. J'ai
- =queston_ jours pour trouver ce que sait
- ce cousin, pister =target_
- et revenir auprès de __qgiver_.
+ _qgiver_ of the Dark Brotherhood,
+ in ___qgiver_ wants me to track
+ down a Brother who disappeared,
+ and, if no reasonable explanation
+ is offered, to do the accounting.
+ This character, named =target_,
+ has a cousin living in ___contact_,
+ a =contact_ named _contact_.
+ I have =queston_ days to find what
+ this cousin knows, track =target_
+ down, and get back to __qgiver_.
 
+Message:  1011
+<ce>                     I haven't heard from =target_
+<ce>              since %g went off looking for that baron in
+<ce>                     ___mondung_. Weird character,
+<ce>               that baron. Never came around during the
+<ce>               day, lived in that creepy place. It's no
+<ce>               wonder someone wanted him dead. Still, if
+<ce>                 someone was going to stop my cousin's
+<ce>              career in the Brotherhood, I wouldn't have
+<ce>                    expected him to be that skinny,
+<ce>                              pale baron.
 
-Record n�10----------
-Je n'ai plus de nouvelles de =target_
-depuis qu'%g est parti traquer ce baron à
-___mondung_. Etrange personnage
-que ce baron. Il n'est jamais venu
-durant la journée, il vit dans des lieux
-sombres et glauques. Il n'est pas
-étonnant que quelqu'un veuille sa mort.
-Pourtant, si quelqu'un devait stopper la carrière
-de mon cousin au sein de la Confrérie Noire,
-je ne m'attendais pas à ce qu'il s'agisse de ce
-mince et pâle baron.
-
-
-Record n�11----------
+Message:  1012
 %qdt:
- _contact_ m'a dit que
- =target_ est parti à
- ___mondung_ à la recherche d'un
- mystérieux baron afin de lui régler son compte.
- ___mondung_ sera donc mon prochain arrêt.
+ _contact_ told me that
+ =target_ went to
+ ___mondung_, looking for
+ some mysterious baron for an accounting.
+ ___mondung_ will be my next stop.
+
+Message:  1013
+<ce>                      "Let me share with you the
+<ce>                    immortality the baron gave me,"
+<ce>                           =target_ hisses.
+
+Message:  1014
+<ce>                         The Vampire, =target_
+<ce>                          is at last at rest.
 
 
-Record n�12----------
-"Laisse-moi te faire partager
- l'immortalité que le baron m'a donnée",
- dit =target_ dans un sifflement.
+-- Symbols used in the QRC file:
+--
+--                %g occurs 6 times.
+--               %g2 occurs 4 times.
+--               %g3 occurs 2 times.
+--              %pcf occurs 5 times.
+--              %qdt occurs 2 times.
+--              %reg occurs 2 times.
+--         =contact_ occurs 2 times.
+--         =queston_ occurs 2 times.
+--          =target_ occurs 16 times.
+--       ___contact_ occurs 2 times.
+--       ___mondung_ occurs 3 times.
+--        ___qgiver_ occurs 1 time.
+--        __contact_ occurs 1 time.
+--         __qgiver_ occurs 2 times.
+--         _contact_ occurs 3 times.
+--          _qgiver_ occurs 1 time.
 
+QBN:
 
-Record n�13----------
-Le vampire =target_
-repose enfin en paix.
+Person _qgiver_ group Questor male
+Person _contact_ face 176 group Innkeeper
 
+Place _mondung_ remote dungeon
 
+Clock _queston_ 00:00 0 flag 17 range 0 2
 
+Foe _target_ is Vampire
+
+--	Quest start-up:
+	start timer _queston_ 
+	log 1010 step 0 
+	place foe _target_ at _mondung_ 
+
+_queston_ task:
+	end quest 
+
+_qgclicked_ task:
+	clicked npc _qgiver_ 
+
+_reward_ task:
+    when _qgclicked_ and _S.04_
+    give pc nothing 
+	end quest 
+
+_S.02_ task:
+	clicked npc _contact_ 
+	reveal _mondung_ 
+	log 1012 step 1 
+	say 1011 
+
+_S.03_ task:
+	injured _target_ saying 1013 
+
+_S.04_ task:
+	killed 1 _target_ saying 1014 
+
+variable _S.06_
+--unused variables
+_clearclick_ task:
+	when _qgclicked_ and not _S.04_ 
+	clear _qgclicked_ _clearclick_ 

@@ -1,79 +1,127 @@
-Record n�0----------
-Nous avons un traitre à __qgiver_,
-un affreux _monster_ qui a osé
-se retourner contre ses propres frères.
-Notre honneur est en jeu, %pct.
-Joignez-vous à notre vengeance
-justifiée contre lui !
+-- Quest: C:\QUESTS\WORKING\B0B00Y01.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: knight
+-- Repute: 0
+-- QuestId: 1
+Messages: 12
+Quest: B0B00Y01
+DisplayName: Retribution
+-- Message panels
+QRC:
 
-__qgiver_ a été trahi par un
-_monster_ vicieux.
-Nous aiderez-vous à le poursuivre
-et à le détruire ?
+QuestorOffer:  [1000]
+<ce>                    We have a traitor in __qgiver_,
+<ce>                 a villianous _monster_ who has turned
+<ce>                 against %g3 brethren. Our honor is at
+<ce>                         stake, %pct. Join our
+<ce>                            righteous fury.
+                                     <--->
+<ce>                      __qgiver_ has been betrayed
+<ce>                       by a perfidious _monster_.
+<ce>                  Will you help us track the cowardly
+<ce>                     villian down and destroy %g2?
 
+RefuseQuest:  [1001]
+<ce>                 An ignoble reply. I expected better.
 
-Record n�1----------
-Une réponse ignoble. J'avais espéré mieux.
+AcceptQuest:  [1002]
+<ce>                 Very good. The traitor is a _monster_
+<ce>                     named =monster_ who has taken
+<ce>                      refuge in ___mondun_ to the
+<ce>                     %di. If you have not returned
+<ce>                 in =queston_ days, your honor will be
+<ce>               forfeit and another will take your place.
+<ce>                     Do not fail us in this, %pcf.
 
+QuestFail:  [1003]
+<ce>                 The _monster_ is not dead. Do not try
+<ce>                       to convince me otherwise.
 
-Record n�2----------
-Très bien. Le traitre en question
-est un _monster_ appelé
-=monster_ qui s'est refugié dans
-___mondun_ vers le %di.
-Si vous n'êtes pas de retour dans
-=queston_  jours, votre honneur
-en pâtira et nous enverrons un
-autre de nos membres faire ce travail.
-Ne nous faites pas défaut, %pcf.
+QuestComplete:  [1004]
+<ce>                Well done. You have reason to be proud.
 
+RumorsDuringQuest:  [1005]
+That _monster_ ran off to ___mondun_ like the hounds of hell were behind him.
+<--->
+_qgiver_ can't just let =monster_ go after what %g did to the %kno.
 
-Record n�3----------
-Le _monster_  est toujours en vie.
-N'essayez pas de prétendre le contraire.
+RumorsPostfailure:  [1006]
+=monster_ is apparently tougher than _qgiver_ thought. What an escape.
+<--->
+=monster_ has moved north I hear, but %g3 memory still plagues the order.
 
+RumorsPostsuccess:  [1007]
+=monster_'s story just proves it. You don't play around with the %kno.
+<--->
+I always thought the Order would be more merciful to a dolt like =monster_.
 
-Record n�4----------
-Bien joué ! Vous avez toutes les raisons d'être fier.
+QuestorPostsuccess:  [1008]
+You have proven yourself in the =monster_ affair. How can we help you?
 
+QuestorPostfailure:  [1009]
+__qgiver_ has been embarrassed by the =monster_ affair. What do you want now?
 
-Record n�5----------
-Ce _monster_ s'est enfui dans ___mondun_ comme si les chiens de 
-l'enfer le poursuivaient.
-_qgiver_ ne peut pas se contenter de laisser =monster_ s'en aller 
-comme ça.
-
-Record n�6----------
-=monster_ est apparemment plus résistant que _qgiver_ ne l'avait 
-prévu. Quelle épopée !
-=monster_ s'est enfui vers le nord, mais son souvenir infecte 
-toujours l'honneur de l'Ordre...
-
-Record n�7----------
-L'histoire de =monster_ le prouve. Il ne faut jamais trahir les 
-%kno.
-J'ai toujours pensé que l'Ordre aurait pu être plus clément envers 
-=monster_.
-
-Record n�8----------
-Vous avez fait fait vos preuves dans l'affaire du =monster_. En 
-quoi pouvons-nous vous aider ?
-
-Record n�9----------
-__qgiver_ a été très gêné par l'affaire du =monster_. Que voulez-
-vous maintenant ?!
-
-Record n�10----------
+QuestLogEntry:  [1010]
 %qdt:
- Le %kno à ___qgiver_
- m'a demandé de détruire un _monster_
- nommé =monster_ dans
- sa cachette, ___mondun_. Je dispose de
- =queston_ jours pour y arriver.
+ The %kno in ___qgiver_
+ has sent me to find and slay a _monster_
+ called =monster_ in
+ %g3 hideout, ___mondun_. I have
+ =queston_ days to accomplish this.
+
+Message:  1011
+<ce>               You have slain =monster_, the _monster_.
 
 
-Record n�11----------
-Vous avez massacré =monster_, le _monster_.
+-- Symbols used in the QRC file:
+--
+--               %di occurs 1 time.
+--                %g occurs 1 time.
+--               %g2 occurs 2 times.
+--               %g3 occurs 3 times.
+--              %kno occurs 3 times.
+--              %pcf occurs 2 times.
+--              %pct occurs 1 time.
+--              %qdt occurs 1 time.
+--         =monster_ occurs 14 times.
+--         =queston_ occurs 2 times.
+--        ___mondun_ occurs 3 times.
+--        ___qgiver_ occurs 4 times.
+--         _monster_ occurs 10 times.
+--          _qgiver_ occurs 2 times.
 
+QBN:
 
+Person _qgiver_ group Questor male
 
+Place _mondun_ remote dungeon
+
+Clock _queston_ 00:00 0 flag 17 range 0 2
+
+Foe _monster_ is Nightblade
+
+--	Quest start-up:
+	start timer _queston_ 
+	reveal _mondun_ 
+	log 1010 step 0 
+	place foe _monster_ at _mondun_ 
+
+_queston_ task:
+	end quest 
+
+_pcgetsgold_ task:
+	when _mondead_ and _qgclicked_ 
+	give pc nothing 
+	end quest 
+
+_mondead_ task:
+	killed 1 _monster_ saying 1011 
+
+_qgclicked_ task:
+	clicked npc _qgiver_ 
+
+_clearclick_ task:
+	when not _mondead_ and _qgclicked_
+	say 1003 
+	clear _qgclicked_ _clearclick_ 

@@ -1,111 +1,182 @@
-Record n�0----------
-Je me présente, je suis _qgiver_.
-Un autochtone est venu se plaindre à la guilde,
-Il semble qu'un animal sauvage se soit introduit chez lui.
-Nous avons besoin de quelqu'un pour aller tuer cet animal.
-La guilde est prête à verser _gold_ pièces d'or.
-Voulez-vous prendre en charge ce travail ? 
-%pcn ?
+-- Quest: C:\QUESTS\WORKING\M0B00Y06.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: fighter
+-- Repute: 0
+-- QuestId: 6
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 81
+Quest: M0B00Y06
+DisplayName: Wild Animal
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>                            I am _qgiver_.
+<ce>                We have a request from a local citizen.
+<ce>                It seems a wild animal has gotten into
+<ce>                 his place. We need someone to go kill
+<ce>              the thing. The guild will pay _gold_ gold.
+<ce>                         Do you want it %pcn?
 
-Record n�1----------
-Je suis sûr que quelqu'un d'autre voudra
-bien s'occuper de cet ours nuisible.
+RefuseQuest:  [1001]
+<ce>                      I'm sure someone else will
+<ce>                      be willing to take care of
+<ce>                          this nuisance bear.
 
+AcceptQuest:  [1002]
+<ce>                    "OK, %pcf. Get over to _house_
+<ce>                 here in town. Get it done in one day.
+<ce>               Nobody wants a animal left roaming around
+<ce>                in their place. Come back here when the
+<ce>                 beast is dead and I'll have your pay
+<ce>                           waiting for you."
+<ce>                                    
+<ce>                  _qgiver_ calls out, "Hey, what kind
+<ce> of animal is it in _house_?"
 
-Record n�2----------
-"D'accord, %pcf. Allez à _house_
-ici en ville. Faites votre boulot en un jour.
-Personne ne veut d'animaux trainant en ville.
-Revenez ici quand la bête sera morte,
-et  je vous paierai."
+QuestComplete:  [1004]
+<ce>                           Well done, %pcf.
+<ce>                       Here's your _gold_ gold.
 
-_qgiver_ s'exclame, "Mais quel genre
-d'animal est-ce donc, à _house_?"
+RumorsDuringQuest:  [1005]
+<ce>                   Did you hear? An animal got into
+<ce>                    a building in town. I hope they
+<ce>                             kill it soon.
 
+RumorsPostfailure:  [1006]
+<ce>                    The Fighter's Guild killed that
+<ce>                      bear that got into _house_.
+<ce>                 It's a good thing we have them around.
 
-Record n�3----------
-Très bien, %pcf.
-Voici vos _gold_ pièces d'or.
+RumorsPostsuccess:  [1007]
+<ce>                That creature mauled some woman before
+<ce>                being chased out of town. What a pity.
 
+QuestorPostsuccess:  [1008]
+<ce>                     Good job killin' that beast.
+<ce>                        What can I do for you?
 
-Record n�4----------
-Vous avez entendu ? Un animal a réussi
-à entrer dans une maison en ville.
-J'espère qu'ils vont bientôt le tuer.
+QuestorPostfailure:  [1009]
+<ce>                   I hear that a critter ate the guy
+<ce>                    that owned the house. Gave us a
+<ce>                 bad rep. Try to do better next time.
 
-
-Record n�5----------
-La Guilde des Guerriers a tué cet
-ours qui avait pénétré dans _house_.
-C'est une bonne chose que la Guilde soit là.
-
-
-Record n�6----------
-La créature a agressé une femme avant
-d'être chassée hors de la ville. Pitoyable !
-
-
-Record n�7----------
-Vous avez fait du bon travail en tuant cet ours.
-Qu'est-ce que je peux faire pour vous ?
-
-
-Record n�8----------
-Il paraît qu'une créature a dévoré le type
-à qui appartenait la maison. Cela nous a donné
-mauvaise réputation. On essaiera de faire mieux
-la prochaine fois.
-
-
-Record n�9----------
+QuestLogEntry:  [1010]
 %qdt:
- La Guilde des Guerriers de ___qgiver_
- m'a demandé de tuer une bête sauvage
- qui a pénétré dans _house_. J'ai
- un jour pour effectuer cette tâche.
+ The Fighters Guild of ___qgiver_
+ has asked me to slay a wild beast which
+ has gotten into _house_. It's got
+ be done in one day.
+
+Message:  1011
+<ce>                           The bear is dead.
+
+Message:  1012
+<ce>                          The harpy is dead.
+
+Message:  1013
+<ce>                          The spider is dead.
+
+Message:  1014
+<ce>                          The tiger is dead.
+
+Message:  1021
+<ce>                   You hear a voice call out from an
+<ce>                      upper floor, "Its a bear."
+
+Message:  1022
+<ce>                   You hear a voice call out from an
+<ce>                      upper floor, "Its a harpy."
+
+Message:  1023
+<ce>                   You hear a voice call out from an
+<ce>                     upper floor, "Its a spider."
+
+Message:  1024
+<ce>                   You hear a voice call out from an
+<ce>                      upper floor, "Its a tiger."
+
+Message:  1080
+<ce>                 By the way, since you seemed to have
+<ce>                  so much fun with that beast, here's
+<ce>              a map to ___newdung_.  Knock yourself out.
 
 
-Record n�10----------
-L'ours est mort.
+-- Symbols used in the QRC file:
+--
+--              %pcf occurs 2 times.
+--              %pcn occurs 2 times.
+--              %qdt occurs 1 time.
+--       ___newdung_ occurs 3 times.
+--        ___qgiver_ occurs 1 time.
+--            _gold_ occurs 9 times.
+--           _house_ occurs 6 times.
+--          _qgiver_ occurs 2 times.
 
+QBN:
+Item _gold_ gold
 
-Record n�11----------
-La harpie est morte.
+Person _qgiver_ group Questor male
 
+Place _house_ local random
+Place _newdung_ remote dungeon
 
-Record n�12----------
-L'araignée est morte.
+Clock _2dung_ 1.00:00 0 flag 1 range 0 1
 
+Foe _bear_ is Grizzley_bear
+Foe _tiger_ is Sabretooth_tiger
+Foe _harpy_ is Harpy
+Foe _spider_ is Spider
 
-Record n�13----------
-Le tigre est mort.
+--	Quest start-up:
+	start timer _2dung_ 
+	reveal _house_ 
+	log 1010 step 0 
+	pick one of _map_ _nomap_ _nomap_ _nomap_ 
+	pick one of _monster1_ _monster2_ _monster3_ _monster4_ 
+	create npc at _house_ 
 
+_2dung_ task:
+	end quest 
 
-Record n�14----------
-Vous entendez un cri provenant
-des étages supérieurs : "C'est un ours !"
+_mondead_ task:
+	killed 1 _spider_ saying 1013 
+	killed 1 _tiger_ saying 1014 
+	killed 1 _harpy_ saying 1012 
+	killed 1 _bear_ saying 1011 
 
+_S.02_ task:
+	when _qgclicked_ and _mondead_ 
+	give pc _gold_ 
+	end quest 
 
-Record n�15----------
-Vous entendez un cri provenant
-des étages supérieurs : "C'est une harpie !"
+_clearclick_ task:
+	when _qgclicked_ and not _mondead_ 
+	clear _qgclicked_ _clearclick_ 
 
+_qgclicked_ task:
+	clicked npc _qgiver_ 
 
-Record n�16----------
-Vous entendez un cri provenant
-des étages supérieurs : "C'est une araignée !"
+variable _map_
+variable _nomap_
+_S.06_ task:
+	when _map_ and _S.02_ 
+	reveal _newdung_ readmap
+    say 1080 
 
+_monster1_ task:
+	say 1021 
+	place foe _bear_ at _house_ 
 
-Record n�17----------
-Vous entendez un cri provenant
-des étages supérieurs : "C'est un tigre !"
+_monster2_ task:
+	say 1022 
+	place foe _harpy_ at _house_ 
 
+_monster3_ task:
+	say 1023 
+	place foe _spider_ at _house_ 
 
-Record n�18----------
-Au fait, puisque que vous avez apparemment
-pris du plaisir à tuer cette bête, voici une
-carte vers ___newdung_.  Aller jeter un coup d'oeil.
-
-
-
+_monster4_ task:
+	say 1024 
+	place foe _tiger_ at _house_ 

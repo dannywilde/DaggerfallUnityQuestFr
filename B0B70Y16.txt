@@ -1,101 +1,164 @@
-Record n�0----------
-Chut ! Ne laissez personne entendre
-ce qui va suivre, %pct. Je viens
-d'apprendre qu'un dragon a été repéré.
-D'accord, il ne s'agit pas d'un dragon adulte,
-juste d'un bebé dragon. Il n'y a rien de
-plus héroique aux yeux de notre Ordre
-que de tuer un dragon, même petit.
-Je sais où le trouver. Si vous le tuez,
-nous pourrions tous les deux en
-recevoir la gloire. On fait affaire ?
+-- Quest: C:\QUESTS\WORKING\B0B70Y16.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: knight
+-- Repute: 70
+-- QuestId: 16
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: B0B70Y16
+DisplayName: The Dragonslayer
+-- Message panels
+QRC:
 
-C'est l'heure de prouver que
-vous êtes un membre de
-==qgiver_, %pct. C'est l'heure
-de tuer un dragon.
+QuestorOffer:  [1000]
+<ce>                   Shhh! Don't let anyone else hear
+<ce>                         this, %pct. I just got
+<ce>               word that a dragon has been spotted! Well,
+<ce>                 not a full grown dragon, just a little
+<ce>               dragonling. There is no quest more heroic
+<ce>                 for a member of ==qgiver_ than to slay
+<ce>               a dragon. I know where it is, you go kill
+<ce>               it. We can both lay claim to the glory. Is
+<ce>                             it a bargain?
+                                     <--->
+<ce>                    'Tis time for you to prove that
+<ce>                      you are truly of ==qgiver_,
+<ce>                      %pct. It is time for you to
+<ce>                             slay a dragon.
 
+RefuseQuest:  [1001]
+<ce>                      You tell anyone else about
+<ce>                     this and I'll see you drummed
+<ce>                           out of ==qgiver_.
 
-Record n�1----------
-Si vous en parlez à n'importe qui
-d'autre, vous pouvez être sûr
-que je vous ferai exclure de
-==qgiver_.
+AcceptQuest:  [1002]
+<ce>                      The dragon egg just hatched
+<ce>                        in ___dungeon_. I don't
+<ce>                      know if there are any other
+<ce>                       dragonlings there or not.
+<ce>                       I can keep it all a secret
+<ce>                           for =2dung_ days.
 
+QuestComplete:  [1004]
+<ce>                         All hail %pcn, known
+<ce>                      from this point onward as a
+<ce>                         dragonslayer! All hail
+<ce>                         _qgiver_, strong right
+<ce>                       arm and valued confidant!
 
-Record n�2----------
-L'oeuf de dragon juste éclos
-se trouve dans ___dungeon_.
-Je ne sais pas s'il y a d'autres
-bébés dragon là-bas. Je ne
-pourrai vous attendre que
-pendant =2dung_ jours.
+RumorsDuringQuest:  [1005]
+Nothing much of any interest going on.
+<--->
+I got a boil the other day ... but it healed.
+<--->
+I just had a three hour conversation about the weather.
+<--->
+The weather is pretty usual for this time of year.
+<--->
+It seems a trifle coolish in %cn for this time of year.
+<--->
+It sure is a lot warmer today than this time last year.
+<--->
+My great aunt is going to a specialist across the Bay.
+<--->
+It's always funny what time it gets dark around here.
+<--->
+We should erect a war statue around here.
+<--->
+The kids these days with their magic. %oth, I don't know.
+<--->
+I had the weirdest dream last night.
+<--->
+I heard a great joke. %jok
+<--->
+%jok Actually, that's a joke.
+<--->
+%jok Can you explain that to me?
+<--->
+The legal system in %reg has it good points and bad ones.
 
+RumorsPostfailure:  [1006]
+%kno went stomping about in ___dungeon_ for no reason.
 
-Record n�3----------
-Hourra, %pcn, qui sera
-connu à dater de ce jour
-comme le Tueur de Dragons !
-Hourra _qgiver_, puissant bras
-droit et confident de %pcn !
+RumorsPostsuccess:  [1007]
+The dragon in ___dungeon_ was fifty feet long!
+<--->
+The ___dungeon_ dragon was a hundred feet long!
+<--->
+The dragon that %ra slew ate forty cows for lunch!
 
+QuestorPostsuccess:  [1008]
+What can I do for my fellow dragon slayer?
 
-Record n�4----------
-Il ne se passe rien de très intéressant en ce moment.
-J'ai eu un furoncle l'autre jour... mais il a guéri.
-Je viens juste d'avoir une conversation de trois heures à propos 
-du temps.
-Le temps est assez habituel pour cette époque de l'année.
-Il fait un tantinet frisquet à %cn pour cette époque de 
-l'année.
-C'est sûr qu'il fait un peu plus chaud aujourd'hui que l'année 
-dernière à cette époque.
-Ma grand tante va chez un spécialiste à l'autre bout de la 
-Baie.
-C'est toujours amusant de voir comment le temps s'assombrit par 
-ici.
-Nous devrions ériger un mémorial de guerre dans le coin.
-Les gosses de nos jours avec leur magie, %oth, je ne sais 
-pas.
-J'ai fait un rêve bizarre la nuit dernière.
-J'ai entendu une super blague. %jok
-%jok En fait, c'est une blague.
-%jok Pouvez-vous m'expliquer celle-là ?
-Le système légal en %reg a ses bons et ses mauvais côtés.
+QuestorPostfailure:  [1009]
+You really let me down with that dragon. Leave me alone.
 
-Record n�5----------
-Des chevaliers ont fait un raid sur ___dungeon_ sans raison.
-
-Record n�6----------
-Le dragon de ___dungeon_ mesurait plus de quinze mètres !
-Le dragon de ___dungeon_ mesurait une trentaine de mètres !
-Le dragon qu'a tué le %ra mangeait quarante vaches pour son 
-déjeuner !
-
-
-Record n�7----------
-Que puis-je faire pour mon ami le tueur de dragons ?
-
-Record n�8----------
-Vous m'avez vraiment laissé tomber avec le dragon. Laissez-moi 
-seul.
-
-Record n�9----------
+QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ de
- ==qgiver_ à ___qgiver_
- m'a parlé d'un oeuf de dragon qui
- se trouverait dans ___dungeon_.
- Je dispose de =2dung_ pour
- tuer ce qu'il y a à l'intérieur
- et revenir plein de gloire.
+ _qgiver_ of
+ ==qgiver_ in ___qgiver_
+ told me that a dragon's egg
+ hatched in ___dungeon_.
+ I have =2dung_ days to slay
+ the beast and bask in the
+ glory of the deed.
+
+Message:  1011
+<ce>                        The dragonling is dead.
+<ce>                       They'll talk about this in
+<ce>                          ==qgiver_ for years!
 
 
-Record n�10----------
-Le bébé dragon est mort.
-On va en parler dans
-==qgiver_ pendant des 
-années !
+-- Symbols used in the QRC file:
+--
+--               %cn occurs 1 time.
+--              %jok occurs 3 times.
+--              %kno occurs 1 time.
+--              %oth occurs 5 times.
+--              %pcn occurs 1 time.
+--              %pct occurs 2 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 1 time.
+--              %reg occurs 1 time.
+--           =2dung_ occurs 3 times.
+--         ==qgiver_ occurs 6 times.
+--       ___dungeon_ occurs 5 times.
+--        ___qgiver_ occurs 3 times.
 
+QBN:
 
+Person _qgiver_ group Questor male
+Person _local_ face 93 group Resident2
 
+Place _dungeon_ remote dungeon14
+
+Clock _2dung_ 00:00 0 flag 17 range 0 2
+
+Foe _monster_ is Dragonling
+
+--	Quest start-up:
+	start timer _2dung_ 
+	reveal _dungeon_ 
+	log 1010 step 0 
+	place foe _monster_ at _dungeon_ 
+
+_2dung_ task:
+	end quest 
+
+_S.01_ task:
+	killed 1 _monster_ saying 1011 
+
+_S.02_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _S.02_ and _S.01_
+	give pc nothing 
+	change repute with _local_ by +6 
+	change repute with _qgiver_ by +10 
+	end quest 
+
+_clearclick_ task:
+	when _S.02_ and not _S.01_ 
+	clear _S.02_ _clearclick_ 

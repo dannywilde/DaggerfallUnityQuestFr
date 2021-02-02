@@ -1,91 +1,157 @@
-Record n�0----------
-Voici qui pourrait être une mission difficile,
-même pour vous %pcf. C'est un des meilleurs
-combattants de tout %reg. Etes-vous
-sûr que vous voulez ce boulot ?
+-- Quest: C:\QUESTS\WORKING\L0B60Y10.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Brotherhood
+-- Repute: 60
+-- QuestId: 10
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 24
+Quest: L0B60Y10
+DisplayName: The Veteran
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                  This could be a tough one, even for
+<ce>                    you %pcf. It's one of the best
+<ce>                     fighters in all of %reg. Are
+<ce>                      you sure you want this job?
+
+RefuseQuest:  [1001]
+<ce>                   Don't blame you a bit. This could
+<ce>                        be a bit too dangerous.
+
+AcceptQuest:  [1002]
+<ce>                  Somehow I thought you might try for
+<ce>     this one. It's your funeral. This mark is no arena gladiator.
+<ce>                   We're talking about a veteran of
+<ce>                 the Betony war. Killed 9 men, if the
+<ce>                  stories are right. Go to _mondung_
+<ce>                     in ___mondung_. You'll be able
+<ce>                  to identify the mark easily because
+<ce>                   of the limp. A spear in the knee
+<ce>                  during the war caused it. Get back
+<ce>                       here in =1stparton_ days.
+
+QuestFail:  [1003]
+<ce>                   I don't know who you think you've
+<ce>                   killed, but it wasn't the target.
+<ce>                      Get back to ___mondung_ and
+<ce>                  finish what we were contracted for.
+
+QuestComplete:  [1004]
+<ce>                    What a battle! I heard about it
+<ce>                 already. Street gossip is faster than
+<ce>              a horse you know. Here's the _reward_ gold
+<ce>                       pieces for the job, %pcf.
+
+RumorsDuringQuest:  [1005]
+Such a shame, what's happening in Daggerfall.
+
+RumorsPostfailure:  [1006]
+I hear the queen is pregnant. At least that's what everyone is saying.
+
+RumorsPostsuccess:  [1007]
+Did you hear about that war hero? Killed in a duel. What a shame.
+
+QuestorPostsuccess:  [1008]
+You battle with that war hero is still being told %pcn.
+
+QuestorPostfailure:  [1009]
+You failed in your contract to kill the war hero. The brotherhood never forgets failure.
+
+Message:  1020
+%qdt:
+ My contract for the Dark Brotherhood
+ in ___questgiver_ is a war hero at _mondung_,
+ in ___mondung_. The deed must be
+ done in =1stparton_ days.
+
+Message:  1021
+<ce>                 "You have succeeded...where all...the
+<ce>               soldiers in the...war of Betony failed."
+<ce>                                    
+<ce>                   The contract has been fulfilled.
+
+Message:  1022
+<ce>                   "Do not think me a cripple, just
+<ce>                   because I have a limp. I'll still
+<ce>                       tear you limb from limb!"
+
+Message:  1023
+<ce>                   This isn't a man! It's a vampire!
 
 
-Record n�1----------
-On ne peut pas vous blâmer. Ca
-pourrait être un peu trop dangereux.
+-- Symbols used in the QRC file:
+--
+--              %pcf occurs 3 times.
+--              %pcn occurs 2 times.
+--              %qdt occurs 1 time.
+--              %reg occurs 1 time.
+--       =1stparton_ occurs 4 times.
+--    ___questgiver_ occurs 1 time.
+--        __mondung_ occurs 8 times.
+--          _reward_ occurs 3 times.
 
+QBN:
+Item _reward_ gold
 
-Record n�2----------
-D'une certaine façon, je pensais bien que
-vous pourriez bien relever ce défi. C'est 
-très risqué. Cette cible n'est pas un
-gladiateur d'arène. Nous parlons d'un vétéran
-de la Guerre de Betony. Il a tué 9 hommes,
-si les histoires que l'on raconte sont vraies.
-Allez à _mondung_ à __mondung_.
-Vous serez capable d'identifier aisément la
-cible à son déhanchement. Une flèche dans
-le genou durant la guerre en est la cause.
-Soyez de retour ici dans les =1stparton_ jours.
+Person _questgiver_ face 112 group Questor
 
+Place _mondung_ remote weaponstore
 
-Record n�3----------
-J'ignore qui vous pensez avoir
-tué, mais ce n'était pas la cible. Retournez
-à __mondung_ et finissez ce
-à quoi nous nous sommes engagés.
+Clock _1stparton_ 00:00 0 flag 18 range 0 2
 
+Foe _F.00_ is Ancient_vampire
+Foe _F.01_ is Ranger
+Foe _F.02_ is Monk
+Foe _F.03_ is Barbarian
 
-Record n�4----------
-Quel combat ! J'en ai entendu parler.
-Les rumeurs de la rue vont plus vite qu'un
-cheval vous savez. Voici les _reward_ pièces
-d'or pour le boulot, %pcf.
+--	Quest start-up:
+	start timer _1stparton_ 
+	log 1020 step 0 
+	pick one of _S.06_ _S.07_ _S.08_ _onehour_ 
 
+_pcgetsgold_ task:
+	when _qgclicked_ and _S.02_ 
+	give pc _reward_ 
+	end quest 
 
-Record n�5----------
-Ce qui se passe à Daggerfall, quelle honte !
+_qgclicked_ task:
+	clicked npc _questgiver_ 
 
+--removed duplicate clearclick here
 
-Record n�6----------
-Il paraît que la reine est enceinte. Tout du moins, c'est ce que 
-tout le monde raconte.
+_S.02_ task:
+	killed 1 _F.00_ saying 1021 
+	killed 1 _F.03_ saying 1021 
+	killed 1 _F.02_ saying 1021 
+	killed 1 _F.01_ saying 1021 
 
+variable _queston_
+_1stparton_ task:
+	end quest 
 
-Record n�7----------
-Vous êtes au courant pour ce héros de guerre ? Tué en duel. Quelle 
-honte !
+variable _2ndparton_
+_S.06_ task:
+	place foe _F.00_ at _mondung_ 
 
+_S.07_ task:
+	place foe _F.01_ at _mondung_ 
 
-Record n�8----------
-On parle toujours de votre combat contre ce héros de guerre 
-%pcn.
+_S.08_ task:
+	place foe _F.02_ at _mondung_ 
 
+_onehour_ task:
+	place foe _F.03_ at _mondung_ 
 
-Record n�9----------
-Vous avez échoué dans votre contrat consistant à tuer le héros de 
-guerre. La Confrérie n'oublie jamais l'échec.
+_clearclick_ task:
+	when _qgclicked_ and not _S.02_
+	say 1003 
+	clear _qgclicked_ _clearclick_ 
 
-
-Record n�10----------
-%qdt :
- Mon contrat avec la Confrérie Noire
- à ___questgiver_ est un héros de
- guerre à _mondung_,
- à __mondung_. L'acte doit
- être commis dans les =1stparton_ jours.
-
-
-Record n�11----------
-" Vous avez réussi... là où... tous les
-soldats... de la guerre de Betony... ont échoué."
- 
-Le contrat a été rempli.
-
-
-Record n�12----------
-"Ne pensez pas que je sois un invalide
-simplement parce que je boite. Je suis encore
-capable de t'arracher les membres un par un !"
-
-
-Record n�13----------
-Ce n'est pas un homme ! C'est un vampire !
-
-
-
+_S.11_ task:
+	injured _F.03_ saying 1022 
+	injured _F.02_ saying 1022 
+	injured _F.01_ saying 1022 
+	injured _F.00_ saying 1023 

@@ -1,142 +1,250 @@
-Record n�0----------
-J'ai besoin de quelqu'un pour transporter un certain objet
-à un de mes contacts en ___contact_.
-Vous recevrez un autre objet en retour. Si vous
-me le rapportez, je serai heureux de vous récompenser
-de _reward_ pièces d'or. Etes-vous d'accord ?
+-- Quest: C:\QUESTS\WORKING\R0C30Y25.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 30
+-- QuestId: 25
+Messages: 36
+Quest: R0C30Y25
+DisplayName: The Thieves Gang
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>              I need someone to bring a certain item to a
+<ce>                    contact of mine in ___contact_.
+<ce>              You will receive an item in return. If you
+<ce>              bring that item back to me, I will happy to
+<ce>                 reward you with _reward_ gold pieces.
+<ce>                             Do you agree?
 
-Record n�1----------
-Non ? Quel dommage. Je m'étais
-préparé à être plutôt généreux.
+RefuseQuest:  [1001]
+<ce>                No? What a shame. I was prepared to be
+<ce>                            quite generous.
 
+AcceptQuest:  [1002]
+<ce>                   Very good. Take this bar of gold
+<ce>                  and bring it to a certain =contact_
+<ce>                  called _contact_ in a place called
+<ce>                      __contact_ in ___contact_.
+<ce>                    You will need to move quickly.
+<ce>                    _contact_ isn't in the habit of
+<ce>                 waiting around for laggard couriers.
+<ce>                  Very well, good luck to you, %pcf.
+<ce>              I will expect you back in =1stparton_ days.
 
-Record n�2----------
-Très bien. Prenez cette barre d'or et apportez-la
-à un certain =contact_ denommé
-_contact_ dans un endroit appelé
-__contact_ en ___contact_.
-Vous devrez vous déplacer rapidement.
-_contact_ n'a pas l'habitude
-de poireauter après les coursiers trainards.
-Très bien, bonne chance à vous, %pcf.
-Je vous veux de retour dans =1stparton_ jours.
+QuestFail:  [1003]
+<ce>                Please don't bother me again unless you
+<ce>                 have the item I sent you to pick up.
 
+QuestComplete:  [1004]
+<ce>                   Excellent, %pcf, you've returned
+<ce>            with my enchanted _item2_ as promised. I heard
+<ce>              that you ran into some trouble on the road,
+<ce>              and I was beginning to worry that you were
+<ce>              lost to us.  As a token of my appreciation
+<ce>           for a job well done, I am adding a magic _item3_
+<ce>              to the _reward_ gold I originally promised.
+<ce>              I am sure we will make use of your services
+<ce>                 again in the near future. Thank you.
 
-Record n�3----------
-Veuillez ne pas me déranger une nouvelle fois, à moins que
-vous n'ayez l'objet que je vous avais envoyé chercher.
+RumorsDuringQuest:  [1005]
+There was this =contact_ here recently asking if I'd seen a %ra.
+<--->
+Some =contact_ was looking for a %ra with a _item1_ a while back.
 
+RumorsPostfailure:  [1006]
+Well, _questgiver_ is, I've heard, furious at some %ra mercenary.
+<--->
+_questgiver_ is still relying on mercenaries and I've heard %g's been burned.
 
-Record n�4----------
-Excellent, %pcf, vous voilà de retour
-avec mon _item2_ enchanté, comme promis.
-J'ai entendu dire que vous avez rencontré des difficultés
-en chemin, et je commencais à craindre que vous ne
-soyez perdu pour nous. En témoignage de ma reconnaissance
-pour un travail bien fait, j'ajoute un _item3_ magique
-aux _reward_ pièces d'or que j'avais initialement promises.
-Je suis sûr que nous ferons à nouveau appel à vos services
-dans un futur proche. Merci.
+RumorsPostsuccess:  [1007]
+I hear that _questgiver_ finally got some _item2_ %g needed.
+<--->
+_questgiver_ has been singing the praises of a certain %ra mercenary.
 
+QuestorPostsuccess:  [1008]
+And what can I do for you, my brave young courier?
+<--->
+I'd be happy to help out my favorite courier any way I can.
 
-Record n�5----------
-Il y a eu ce =contact_ récemment ici qui demandait si j'avais vu 
-un %ra.
-Il y a peu, un =contact_ recherchait un %ra avec un _item1_.
+QuestorPostfailure:  [1009]
+<ce>              The delivery was obviously too ... complex,
+<ce>                  eh? Ah, the vapidity of %ra youth.
+<ce>                          Leave me now, %pcf.
 
-Record n�6----------
-Bon, _questgiver_ est, j'ai entendu dire, furieux contre un 
-mercenaire %ra.
-_questgiver_ compte toujours sur les mercenaires et j'ai entendu 
-qu'%g avait été grillé.
+QuestLogEntry:  [1010]
+%qdt:
+ _questgiver_ of
+ ___questgiver_ has sent me to
+ an associate of %g3, _contact_
+ of __contact_, ___contact_,
+ with a bar of gold. I need to have the
+ gold in _contact_'s hands and
+ be back in __questgiver_ in
+ =1stparton_ days to get my _reward_
+ gold pieces from
+ _questgiver_.
 
-Record n�7----------
-J'ai entendu que _questgiver_ avait finalement obtenu un _item2_ 
-dont %g avait besoin.
-_questgiver_ chante les louanges d'un certain mercenaire 
-%ra.
+Message:  1011
+<ce>                      Marvelous, %pcf. I do adore
+<ce>                gold, don't you? Well, you'll get your
+<ce>              share once you've returned this particular
+<ce>                       _item2_ to _questgiver_.
+<ce>                  I hope you remember the way back to
+<ce>                            ___questgiver_.
 
-Record n�8----------
-Et que puis-je faire pour vous, mon jeune et brave coursier ?
+Message:  1015
+_qgenemy_ ... I think %g's from __thievesguild_.
+<--->
+_qgenemy_?  Ask around __thievesguild_.  Someone should know %g2.
 
-Je serais heureux d'aider mon coursier favori de quelque manière 
-que je puisse.
+Message:  1016
+<ce>   _qgenemy_ is involved in most shady dealings in __thievesguild_.
+<ce>    Try _thievesguild_ -- that's where %g spends most of %g3 time.
 
-Record n�9----------
-La livraison était manifestement trop... complexe,
-hein ? Ah, l'insipidité de la jeunesse %ra.
-Laissez-moi maintenant, %pcf.
+Message:  1020
+<ce>          As you fend off your assailant, you feel something
+<ce>              brush against you from behind.  You glimpse
+<ce>            a figure running away before your attention is
+<ce>             forcibly returned to keeping yourself alive.
 
-
-Record n�10----------
-%qdt :
- _questgiver_ de
- ___questgiver_ m'a envoyé à
- un de ses associés, _contact_
- de __contact_, ___contact_,
- avec une barre d'or. Je dois avoir remis
- l'or dans les mains de _contact_ et
- être de retour à __questgiver_
- dans =1stparton_ jours pour obtenir mes _reward_ pièces 
-d'or
- de _questgiver_.
-
-
-Record n�11----------
-Merveilleux, %pcf. J'adore l'or, pas toi ?
-Bon, tu auras ta part une fois que tu auras
-rapporté ce _item2_ particulier
-a _questgiver_.
-J'espère que tu te souviens du chemin
-de retour vers ___questgiver_.
-
-
-Record n�12----------
-_qgenemy_... Je pense qu'%g est de __thievesguild_.
-_qgenemy_? Demandez aux alentours de __thievesguild_. Quelqu'un 
-devrait savoir.
-
-Record n�13----------
-_qgenemy_ est impliqué dans les plus louches affaires de 
-__thievesguild_.
-Essayez _thievesguild_, c'est là où %g passe la plupart de son 
-temps.
-
-
-Record n�14----------
-Comme vous parez l'attaque de votre assaillant,
-vous sentez quelque chose vous effleurer par derrière.
-Vous entrevoyez une silhouette s'enfuir avant que votre
-attention ne soit forcée de revenir à votre lutte pour la 
-vie.
-
-
-Record n�15----------
+Message:  1021
 =thief_,
  
- La cible est un %ra nomme %pcn,
- qui transportera un _item2_ de
- __contact_. Rapportez-moi le
- _item2_. Le coursier est sans importance,
- mort ou vif.
+ The mark is a %ra named %pcn,
+ who will pick up a _item2_ from
+ __contact_.  Bring the _item2_
+ to me.  The courier is of no importance,
+ dead or alive.
  
- _qgenemy_
+<ce>                               _qgenemy_
+
+Message:  1030
+<ce>            %oth, who are you and how did you get in here?!
+<ce>          You must be that damned courier of _questgiver_'s!
+<ce>          I knew I should have had =thief_ kill you.  My soft
+<ce>            heart, always getting me in trouble ... Guards!
+<ce>                         Kill this intruder!!
+
+Message:  1035
+<ce>                 The parchment describes the location
+<ce>                 of the Coven of the Tide in Myrkwasa,
+<ce>                           whatever that is.
 
 
-Record n�16----------
-%oth ! Qui êtes-vous et comment êtes-vous entré ?
-Vous devez être ce satané coursier de _questgiver_ !
-Je savais que j'aurais dû demander à =thief_
-de vous tuer. Mon bon coeur m'apportera toujours des 
-ennuis...
-Gardes ! Tuez cet intrus !!
+-- Symbols used in the QRC file:
+--
+--                %g occurs 6 times.
+--               %g2 occurs 2 times.
+--               %g3 occurs 29 times.
+--              %oth occurs 1 time.
+--              %pcf occurs 6 times.
+--              %pcn occurs 1 time.
+--              %qdt occurs 1 time.
+--               %ra occurs 13 times.
+--       =1stparton_ occurs 3 times.
+--         =contact_ occurs 4 times.
+--           =thief_ occurs 2 times.
+--       ___contact_ occurs 3 times.
+--    ___questgiver_ occurs 2 times.
+--        __contact_ occurs 3 times.
+--     __questgiver_ occurs 1 time.
+--   __thievesguild_ occurs 4 times.
+--         _contact_ occurs 4 times.
+--           _item1_ occurs 2 times.
+--           _item2_ occurs 5 times.
+--           _item3_ occurs 1 time.
+--         _qgenemy_ occurs 4 times.
+--      _questgiver_ occurs 8 times.
+--          _reward_ occurs 8 times.
+--    _thievesguild_ occurs 2 times.
 
+QBN:
+Item _reward_ gold
+Item _item1_ gold_bar
+Item _item2_ magic_item
+Item _letter_ letter used 1021
+Item _item3_ magic_item
+Item _map_ letter used 1035
 
-Record n�17----------
-Le parchemin décrit l'emplacement de
-Coven of the Tide en Totambu,
-quoi que cela puisse être.
+Person _questgiver_ face 72 group Questor
+Person _contact_ faction Dancers
+-- Person:    1 80 -1 0 13278 0 0.
 
+Person _qgenemy_ face 1 faction The_Thieves_Guild anyInfo 1015 rumors 1016
 
+Place _thievesguild_ remote house1
+Place totambuCoven permanent MyrkwasaCoven
 
+Clock _1stparton_ 00:00 0 flag 17 range 1 4
+Clock _2ndparton_ 00:00 0 flag 1 range 2 5
+
+Foe _thief_ is 2 Nightblade
+Foe _F.01_ is Thief
+Foe _guards_ is Rogue
+
+--	Quest start-up:
+	dialog link for location _thievesguild_ person _qgenemy_ 
+	start timer _1stparton_ 
+	log 1010 step 0 
+	get item _item1_ 
+	pick one of _yesmap_ _nomap_ _nomap_ _nomap_ 
+	_map_ used do _readmap_ 
+	create npc _contact_ 
+
+_pcgetsgold_ task:
+	toting _item2_ and _questgiver_ clicked 
+	give pc _reward_
+	give pc _item3_ 
+	end quest 
+
+_queston_ task:
+	when _2ndparton_ 
+	when _1stparton_ and not _pchasitem2_ 
+	make _item1_ permanent 
+	make _item2_ permanent 
+	change repute with _questgiver_ by -20 
+	end quest 
+
+variable _qgclicked_
+_npcclicked_ task:
+	toting _item1_ and _contact_ clicked 
+	create foe _thief_ every 10 minutes 3 times with 100% success 
+	get item _item2_ 
+	say 1011 
+
+variable _1stparton_
+variable _pchasitem1_
+_pchasitem2_ task:
+	pc at _thievesguild_ set _S.10_ 
+-	place item _item2_ at _thievesguild_ 
+- this duplicate was placed on the floor for some reason, should not be
+	start timer _2ndparton_ 
+
+variable yes
+_S.08_ task:
+	injured _thief_ 
+	give item _letter_ to _thief_ 
+	say 1020 
+	have _item2_ set _pchasitem2_ 
+
+variable _no_
+_S.10_ task:
+	give item _item2_ to _F.01_ 
+	restrain foe _F.01_ 
+	place foe _F.01_ at _thievesguild_ 
+
+_S.11_ task:
+	injured _F.01_ 
+	create foe _guards_ every 2 minutes 6 times with 50% success 
+	say 1030 
+	change repute with _qgenemy_ by -20 
+
+variable _2ndparton_
+_yesmap_ task:
+	give item _map_ to _F.01_ 
+
+variable _nomap_
+_readmap_ task:
+	reveal totambuCoven in province 46 at 423290 

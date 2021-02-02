@@ -1,145 +1,261 @@
-Record n�0----------
-Bonjour, %pcf. Je suis Elysana,
-enfant du Roi Eadwyre et héritière de Wayrest.
-Peut-être pourriez-vous m'aider à sortir d'une
-fâcheuse situation. Le doyen du Conseil des Anciens,
-Lord Castellian, un bon ami de mon père, a
-quitté la cour pour partir en vacances et j'ai
-oublié de lui rendre un manteau que je lui avais
-emprunté. Si cela ne vous ennuie pas trop,
-voudriez-vous le lui rapporter a
-___casfort_ ? Je pourrais vous offrir
-un magnifique _jewelry_ comme paiement.
+-- Quest: C:\QUESTS\WORKING\S0000006.Qbn.
+-- Main story quest.
+-- QuestId: 6
+Messages: 31
+Quest: S0000006
+DisplayName: Elysana's Robe
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                      Hello, %pcf. I am Elysana,
+<ce>               King Eadwyre's child and heir apparent to
+<ce>                Wayrest. Perhaps you could help me out
+<ce>               of a bit of an embarrassing predicament.
+<ce>                The senior member of the elder council,
+<ce>               my father's good friend Lord Castellian,
+<ce>                has left court on holiday and I forgot
+<ce>                to return a cloak I borrowed from him.
+<ce>                If it isn't too much of a bore to you,
+<ce>                 would you mind bringing it to him in
+<ce>                    ___casfort_? I could offer you
+<ce>                    a lovely _jewelry_ as payment.
+
+RefuseQuest:  [1001]
+<ce>                             No? Oh, %oth.
+
+AcceptQuest:  [1002]
+<ce>                 How frightfully nice of you to help a
+<ce>               silly girl like myself. Here's the robe.
+<ce>                 Now, it's very important that milord
+<ce>                Castellian has the robe soon. He is at
+<ce>                     one of his houses, _casfort_
+<ce>               in ___casfort_. Lord Castellian shouldn't
+<ce>               be too hard to find, just ask around for
+<ce>                   him or for _casfort_ and give him
+<ce>                the robe. I do really appreciate this,
+<ce>                       %pcf. It really shouldn't
+<ce>              take you longer than =queston_ days to get
+<ce>                      to ___casfort_ and back, so
+<ce>                          I'll see you then.
+
+QuestFail:  [1003]
+<ce>                I know Lord Castellian doesn't have his
+<ce>                 robe yet, and he's not a patient man.
+
+QuestComplete:  [1004]
+<ce>             Oh, how marvelous you are. Here, let me give
+<ce>               you the _jewelry_ I promised you. I hope
+<ce>             Lord Castellian appreciates the extra work I
+<ce>               put into the robe. It is a real attention
+<ce>              getter now. Let me give you something more
+<ce>                  than the _jewelry_, %pcf. My father
+<ce>             is very interested in a certain ancient relic
+<ce>               called the Totem of Tiber Septim. He has
+<ce>             spies all over the place looking for it. When
+<ce>             they find it, my father will need someone to
+<ce>             secure it. Obviously, whoever he chooses will
+<ce>              be fabulously well rewarded. I'll give him
+<ce>                your name. That is the least I can do.
+
+RumorsDuringQuest:  [1005]
+Lord Castellian is backing legislation which will make Helseth heir apparent.
+<--->
+Princess Elysana is out of favor with the senior member of the elder council.
+
+RumorsPostfailure:  [1006]
+Lord Castellian returned to Castle Wayrest from _casfort_. Holiday's over.
+<--->
+Princess Elysana does not look happy to see Lord Castellian back from holiday.
+
+RumorsPostsuccess:  [1007]
+Lord Castellian has disappeared from _casfort_ where he was on holiday.
+<--->
+King Eadwyre is suspecting foul play in the disappearance of Lord Castellian.
+
+QuestorPostsuccess:  [1008]
+Beautiful robes. Nothing particularly unusual about them.
+<--->
+Excellent craftsmanship. Someone put a lot of heart into the embroidery.
+
+QuestorPostfailure:  [1009]
+Some kind of daedric incantations embroidered into the cloth.
+<--->
+A daedra summoning ritual has been embroidered into this robe.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Princess Elysana has asked me to bring a
+ robe to the elder member of the Wayrest
+ Elder Council, Lord Castellian at his
+ manor in ___casfort_, _casfort_.
+ I need to be back at Castle Wayrest
+ in =queston_ days.
+
+Message:  1020
+<ce>                     Fool! Some enterprising soul
+<ce>                       has given you a robe that
+<ce>                       summoned me to slay you.
+<ce>                            How delicious!
+
+Message:  1021
+<ce>                       Death to the traitor that
+<ce>                     assasinated Lord Castellian!
+                                     <--->
+<ce>                       You shall pay for killing
+<ce>                            my liege lord.
+                                     <--->
+<ce>                     Assassin! Lord Castellian was
+<ce>                    the best of men. You shall die
+<ce>                           for what you did.
+
+Message:  1022
+<ce>                   "A gift from Lady Elysana. Thank
+<ce>                         you, %pcn. It fits me
+<ce>                            like a glove."
+<ce>                                    
+<ce>                    You feel a tearing sound, as if
+<ce>                   the fabric of reality were being
+<ce>                             ripped open.
+
+Message:  1023
+<ce>                      Leave this place litte %ra.
+<ce>                      We have come to claim Lord
+<ce>                    Castellian. You have done your
+<ce>                    part by delivering his funeral
+<ce>                       shroud which summoned us.
+
+Message:  1030
+Lord Castellian is the most powerful council member of Wayrest.
+<--->
+They say that Princess Elysana has little love for Lord Castellian.
+<--->
+Lord Castellian makes no secret of his desire to wed Princess Elysana.
 
 
-Record n�1----------
-Non ? Oh, %oth.
+-- Symbols used in the QRC file:
+--
+--              %oth occurs 2 times.
+--              %pcf occurs 3 times.
+--              %pcn occurs 1 time.
+--              %qdt occurs 1 time.
+--               %ra occurs 1 time.
+--         =queston_ occurs 3 times.
+--       ___casfort_ occurs 9 times.
+--         _jewelry_ occurs 4 times.
 
+QBN:
+Item _I.00_ Formal_cloak anyInfo QuestorPostsuccess used QuestorPostfailure
+Item _jewelry_ trinket
+Item _I.04_ dead_body
 
-Record n�2----------
-Comme c'est gentil de votre part d'aider
-une fille stupide telle que moi. Voici la robe.
-Maintenant, il est très important que Lord
-Castellian ait la robe rapidement. Il est dans
-l'une de ses maisons, _casfort_
-à ___casfort_. Lord Castellian ne devrait pas
-être trop difficile à trouver, renseignez-vous aux
-alentours sur lui ou sur _casfort_ et
-donnez-lui la robe. J'apprécie vraiment cela,
-%pcf. Cela ne devrait vraiment pas vous
-prendre plus de =queston_ jours pour aller
-à ___casfort_ et revenir, nous nous
-reverrons alors.
+Person _elysana_ named Princess_Elysana atHome
+Person Castellian face 1 named Lord_Castellian anyInfo 1030
 
+Place _casfort_ remote house1
 
-Record n�3----------
-Je sais que Lord Castellian n'a pas encore
-sa robe, et il n'est pas un homme patient.
+Clock _S.04_ 04:00 01:40
+Clock _queston_ 00:00 0 flag 17 range 0 2
+Clock _S.16_ 1.00:00 0 flag 1 range 0 1
 
+Foe _F.00_ is Daedra_seducer
+Foe _F.01_ is 2 Knight
+Foe _F.02_ is 2 Spellsword
+Foe _F.03_ is Daedra_seducer
+Foe _F.04_ is Daedroth
+Foe _F.05_ is Daedroth
 
-Record n�4----------
-Oh, comme vous êtes merveilleux. Voilà, laissez-moi
-vous donner le _jewelry_ que je vous ai promis. J'espère
-que Lord Castellian apprécie le travail supplémentaire que
-j'ai apporté à la robe. Elle attire réellement l'attention
-maintenant. Laissez-moi vous donner quelque chose
-de plus que le _jewelry_, %pcf. Mon père s'intéresse
-énormément à une certaine relique ancienne
-appelée le Totem de Tiber Septim. Il possède des
-espions partout pour le chercher. Quand ils le
-trouveront, mon père aura besoin de quelqu'un pour
-le protéger. Bien évidemment, celui qui aura été choisi
-sera fabuleusement bien récompensé. Je lui donnerai
-votre nom. C'est le moins que je puisse faire.
+--	Quest start-up:
+	prompt QuestorOffer yes yes no _no_ 
+	have _I.04_ set _deadbody_
 
+_pcgetsgold_ task:
+	when _S.01_ and _S.03_ 
+	give pc _jewelry_ 
+	start task _S.07_ 
+	change repute with _elysana_ by +10 
+	drop _elysana_ as questor 
 
-Record n�5----------
-Lord Castellian soutient la législation qui fera de Helseth 
-l'héritier naturel.
-La Princesse Elysana n'a plus les faveurs du doyen du Conseil des 
-Anciens.
+_S.01_ task:
+	clicked npc _elysana_ 
 
+variable _S.02_
+_S.03_ task:
+	toting _I.00_ and Castellian clicked saying 1022 
+	pc at _casfort_ set _S.12_ 
+	place item _I.04_ at _casfort_
+	start timer _S.04_ 
+	hide npc Castellian 
 
-Record n�6----------
-Lord Castellian a quitté _casfort_ pour retourner à Castle 
-Wayrest. Les vacances sont terminées.
-La Princesse Elysana n'a pas l'air contente que Lord Castellian 
-soit revenu de vacances.
+_S.04_ task:
+	create foe _F.02_ every 53 minutes 20 times with 15% success 
 
+_queston_ task:
+	when _S.15_ and _S.02_ 
+	drop _elysana_ as questor 
+	end quest 
 
-Record n�7----------
-Lord Castellian a disparu de _casfort_ ou il passait ses 
-vacances.
-Le Roi Eadwyre suspecte un mauvais coup pour la disparition de 
-Lord Castellian.
+_deadbody_ task:
+	take _I.04_ from pc
+--added deadbody task. otherwise body would clog inventory
 
+UnknownElysanna _S.06_
+ElysannaSatisfied _S.07_
+	end quest 
 
-Record n�8----------
-Magnifiques robes. Elles n'ont rien de particulièrement 
-inhabituel.
-Excellent travail. Quelqu'un a mis beaucoup de coeur dans la 
-broderie.
+yes task:
+	_I.00_ used do _S.02_ 
+	start timer _queston_ 
+	log 1010 step 0 
+	get item _I.00_ 
+	say AcceptQuest 
+	add _elysana_ as questor 
+	create npc at _casfort_ 
+	place npc Castellian at _casfort_ 
 
+_no_ task:
+	say RefuseQuest 
+	end quest 
 
-Record n�9----------
-Une sorte d'incantation daedrique a été appliquée à l'habit.
-Un rituel d'invocation de daedra a été appliqué à cette 
-robe.
+_S.10_ task:
+	injured _F.03_ saying 1020 
+	injured _F.04_ 
+	say 1020 
 
+_clearclick_ task:
+	when _S.01_ and not _S.03_ 
+	clear _S.01_ _clearclick_ 
 
-Record n�10----------
-%qdt :
- La Princesse Elysana m'a demandé d'apporter
- une robe au doyen du Conseil des Anciens de
- Wayrest, Lord Castellian dans son manoir
- de ___casfort_, _casfort_.
- Je dois être revenu à Castle Wayrest
- dans =queston_ jours.
+_S.12_ task:
+	create foe _F.01_ every 2 minutes 4 times with 50% success 
 
+_S.13_ task:
+	injured _F.00_ 
+	injured _F.05_ 
+	say 1023 
+	restrain foe _F.00_ 
 
-Record n�11----------
-Idiot ! Une âme manipulatrice
-vous a donné une robe qui
-m'a invoqué pour vous tuer.
-Comme c'est délicieux !
+_greklith_ task:
+	injured _F.01_ saying 1021 
+	injured _F.02_ saying 1021 
 
+_S.15_ task:
+	killed 3 _F.03_ 
 
-Record n�12----------
-Mort au traitre qui a
-assassiné Lord Castellian !
+variable _S.16_
+UnknownHelseth _S.17_
+_S.18_ task:
+	when not _S.17_ and _S.02_ 
+	create foe _F.03_ every 1 minutes 3 times with 20% success 
 
-Vous allez payer pour
-avoir tué mon seigneur.
+_S.19_ task:
+	when _S.17_ and _S.02_ 
+	create foe _F.04_ every 1 minutes 3 times with 20% success 
 
-Assassin ! Lord Castellian était le
-meilleur des hommes. Vous allez
-mourir pour ce que vous avez fait.
+_S.20_ task:
+	when not _S.17_ and _S.12_ 
+	create foe _F.00_ every 1 minutes 3 times with 50% success 
 
-
-Record n�13----------
-"Un présent de Lady Elysana.
-Merci, %pcn. Il me va
-comme un gant."
- 
-Vous entendez un son strident, comme
-si le tissu de la réalité se déchirait.
-
-
-Record n�14----------
-Quittez cet endroit, insignifiant %ra.
-Nous sommes venus réclamer Lord
-Castellian. Vous avez accompli votre
-part en lui livrant le funeste linceul
-qui nous a invoqués.
-
-
-Record n�15----------
-Lord Castellian est le plus puissant membre du conseil de 
-Wayrest.
-On dit que la Princesse Elysana n'aime pas trop Lord 
-Castellian.
-Lord Castellian ne cache pas son désir d'epouser la Princesse 
-Elysana.
-
-
-
+_S.21_ task:
+	when _S.17_ and _S.12_ 
+	create foe _F.05_ every 1 minutes 32768 times with 100% success 

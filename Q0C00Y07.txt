@@ -1,102 +1,155 @@
-Record n�0----------
-Notre soeur _witch_
-a été emprisonnée. Il nous faut
-quelqu'un comme vous pour la secourir.
-Acceptez-vous ?
+-- Quest: C:\QUESTS\WORKING\Q0C00Y07.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: witch
+-- Repute: 0
+-- QuestId: 7
+Messages: 14
+Quest: Q0C00Y07
+DisplayName: The Imprisoned Witch
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>                          Our sister _witch_
+<ce>                    has been in imprisoned. We need
+<ce>                   someone like thee to rescue her.
+<ce>                           Art thou willing?
 
-Record n�1----------
-Vous avez un coeur de glace,
-%pcf. Quelle honte.
+RefuseQuest:  [1001]
+<ce>                       Thou hast a heart of ice,
+<ce>                           %pcf. For shame.
 
+AcceptQuest:  [1002]
+<ce>                   If thou does this for us, we will
+<ce>                   be very grateful indeed. Give her
+<ce>                  these clothes to disguise her when
+<ce>                     you find her in ___mondung_.
+<ce>                 We will expect both of you back here
+<ce>                   in =queston_ days if not sooner.
 
-Record n�2----------
-Si vous faires cela pour nous, nous serons
-vraiment très reconnaissantes. Donnez-lui
-ces habits pour la camoufler lorsque vous la
-trouverez à ___mondung_.
-Nous attendrons votre retour à tous les deux
-ici, dans =queston_ jours ou même plus tôt.
+QuestComplete:  [1004]
+<ce>                          _witch_, it does my
+<ce>                 heart good to see thee here and well.
+<ce>                         %pcf, you have today
+<ce>                         earned the respect of
+<ce>                              ==qgiver_.
 
+RumorsDuringQuest:  [1005]
+After they've finished interrogating _witch_, she's fire food.
+<--->
+There's going to be a hanging or a burning for _witch_ real soon.
 
-Record n�3----------
-_witch_, cela me réchauffe
-le coeur de vous voir ici en bonne santé.
-%pcf, aujourd'hui vous
-avez gagné le respect de
-==qgiver_.
+RumorsPostfailure:  [1006]
+_witch_'s execution was quite a sight. Fun for the whole family.
+<--->
+_witch_ is just ash now. All her spells couldn't help her.
 
+RumorsPostsuccess:  [1007]
+_witch_ got away. They say ==qgiver_ was behind it.
+<--->
+_witch_ was never brought to justice. Never even really tortured.
 
-Record n�4----------
-Quand ils auront fini d'interroger _witch_, elle sera 
-brûlée.
-Il vont pendre ou brûler _witch_ très prochainement.
+QuestorPostsuccess:  [1008]
+_witch_ is recovering nicely, %pcf, you'll be glad to know.
 
+QuestorPostfailure:  [1009]
+<ce>                          Our sister _witch_
+<ce>                    is dead, burned alive. Perhaps
+<ce>                   thou could've saved her, perhaps
+<ce>                  not. But you are not welcome here.
+<ce>                  Perhaps not for quite a long time.
 
-Record n�5----------
-L'exécution de _witch_ était un sacré spectacle. Amusant pour 
-toute la famille.
-_witch_ n'est plus que poussière désormais. Tous ses sortilèges 
-n'ont pas pu l'aider.
-
-
-Record n�6----------
-_witch_ s'est enfuie. Il paraît que ==qgiver_ a commandité 
-cela.
-_witch_ n'a jamais été traduite devant la justice. A peine 
-torturée.
-
-
-Record n�7----------
-_witch_ se remet bien, %pcf, vous serez content de 
-l'apprendre.
-
-
-Record n�8----------
-Notre soeur _witch_
-est morte, brûlée vive. Peut-être
-auriez-vous pu la sauver, peut-être pas.
-En tout cas vous n'êtes plus le bienvenu ici.
-Peut-être pas pour très longtemps.
-
-
-Record n�9----------
+QuestLogEntry:  [1010]
 %qdt:
- ==qgiver_ m'a envoyé
- à ___mondung_
- ou _witch_, une
- soeur des sorcières, a été
- emprisonnée. Je dois lui donner
- un _clothes_ pour la camoufler,
- et retourner à ==qgiver_
- avant que =queston_ jours
- se soient écoulés.
+ ==qgiver_ have sent
+ me to ___mondung_
+ where _witch_, a
+ sister of the witches has been
+ imprisoned. I am to give her
+ a _clothes_ to disguise
+ her, and return to ==qgiver_
+ before =queston_ days
+ have passed.
+
+Message:  1011
+<ce>                          ==qgiver_ sent you?
+<ce>                        Praise ==daedra_! I'll
+<ce>                         put on the _clothes_
+<ce>                     and we can slip out of here.
+
+Message:  1012
+<ce>                          "It's _witch_, the
+<ce>                        prisoner! Stop! Witch!"
+                                     <--->
+<ce>                       "No more prison for you,
+<ce>                           _witch_! Straight
+<ce>                       to execution this time!"
+                                     <--->
+<ce>                             "Halt! You're
+<ce>                               _witch_!"
+
+Message:  1013
+<ce>                      "I think I can get back to
+<ce>                         ==qgiver_ from here,"
+<ce>                          _witch_ thanks you
+<ce>                         and goes on her way.
 
 
-Record n�10----------
-==qgiver_ vous a envoyé ?
-Béni soit  ==daedra_ ! Je vais
-enfiler le _clothes_ et nous
-pourrons partir discrètement d'ici.
+-- Symbols used in the QRC file:
+--
+--              %pcf occurs 5 times.
+--              %qdt occurs 1 time.
+--         ==daedra_ occurs 1 time.
+--         ==qgiver_ occurs 6 times.
+--         =queston_ occurs 3 times.
+--       ___mondung_ occurs 2 times.
+--         _clothes_ occurs 2 times.
+--           _witch_ occurs 16 times.
 
+QBN:
+Item _clothes_ womens_robe
 
-Record n�11----------
-"C'est _witch_, la
-prisonnière ! Arrêtez ! Sorcière !"
+Person _qgiver_ group Questor male
+Person _witch_ face 1 faction The_Prostitutes
+Person _daedra_ face 105 factiontype Daedra
 
-"Plus de prison pour toi,
-_witch_ ! Exécution
-sommaire cette fois !"
+Place _mondung_ remote dungeon3
 
-"Halte ! vous êtes
-_witch_!"
+Clock _queston_ 00:00 0 flag 17 range 0 2
 
+Foe _guard_ is Warrior
 
-Record n�12----------
-"Je pense pouvoir retourner à
-==qgiver_ depuis ici,"
-vous remercie _witch_,
-avant de continuer seule.
+--	Quest start-up:
+	dialog link for person _daedra_ 
+	start timer _queston_ 
+	reveal _mondung_ 
+	log 1010 step 0 
+	get item _clothes_ 
+	place npc _witch_ at _mondung_ 
 
+_queston_ task:
+	end quest 
 
+_S.01_ task:
+	toting _clothes_ and _witch_ clicked 
+	create foe _guard_ every 2 minutes 30 times with 50% success msg 1012 
+	hide npc _witch_ 
+	say 1011 
+	add _witch_ face 
 
+_qgclicked_ task:
+	clicked npc _qgiver_ 
+
+_S.03_ task:
+	when _qgclicked_ and not _S.01_ 
+	clear _qgclicked_ _S.03_ 
+
+_reward_ task:
+	when _qgclicked_ and _S.01_ 
+	give pc nothing 
+	end quest 
+
+_S.05_ task:
+	when _queston_ and _S.01_ 
+	say 1013 

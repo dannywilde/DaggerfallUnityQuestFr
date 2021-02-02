@@ -1,145 +1,237 @@
-Record n�0----------
-Des bucherons ont fait appel à la
-guilde pour tuer un spriggan.
-Il semble que le monstre les attaque
-quand ils sortent dans l'exploitation
-forestière. Vous voulez vous en
-occuper %pcn ?
+-- Quest: C:\QUESTS\WORKING\M0B40Y05.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: fighter
+-- Repute: 40
+-- QuestId: 5
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 81
+Quest: M0B40Y05
+DisplayName: Hunt for a Spriggan
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                     Some woodsmen have hired the
+<ce>                       guild to kill a spriggan.
+<ce>                    Seems the monster is attacking
+<ce>                     them when they are out in the
+<ce>                     woods logging. Want to take a
+<ce>                           hack at it %pcn?
+
+RefuseQuest:  [1001]
+<ce>                     Fair enough. Run along. I've
+<ce>                      got to find someone to take
+<ce>                               this job.
+
+AcceptQuest:  [1002]
+<ce>                      Two attempted ambushes have
+<ce>                     failed. The spriggan is just
+<ce>                     too smart. You'll have to go
+<ce>                     to its lair, in ___dungeon_.
+<ce>                     Get back to me within =2dung_
+<ce>                    days and I'll have _gold_ gold
+<ce>                           waiting for you.
+
+QuestFail:  [1003]
+<ce>                       The spriggan is kindling?
+<ce>                      You are proving yourself to
+<ce>                       be quite reliable, %pct.
+
+QuestComplete:  [1004]
+<ce>                       Here is your _gold_ gold
+<ce>                             as promised.
+
+RumorsDuringQuest:  [1005]
+<ce>                     I hear _woodsman_ is stirring
+<ce>                up the woodsmen against the spriggans.
+<ce>                 Funny. I've never known the spriggans
+<ce>                      to cause us trouble before.
+
+RumorsPostfailure:  [1006]
+<ce>                   Another woodsman died. I hear it
+<ce>                      was _woodsman_. The rest of
+<ce>                  them have decided to log elsewhere.
+
+RumorsPostsuccess:  [1007]
+<ce>                  I haven't heard about that spriggan
+<ce>                   lately. Must have left the area.
+
+QuestorPostsuccess:  [1008]
+<ce>                  Well done work with that spriggan.
+
+QuestorPostfailure:  [1009]
+<ce>                    Spriggans aren't so tough. What
+<ce>                   happened? You get scared and hid?
+
+QuestLogEntry:  [1010]
+On %qdt, The Fighters
+ Guild of ___qgiver_
+ hired me to kill a spriggan
+ that is molesting woodsmen.
+ It's hiding in ___dungeon_.
+ I was given =2dung_ days to
+ get the job done.
+
+Message:  1011
+<ce>                         The spriggan is dead.
+<ce>                       Those woodsmen can log in
+<ce>                              safety now.
+
+Message:  1020
+<ce>                     You attack me without cause,
+<ce>                         %ra. Yes I did wreak
+<ce>                     vengence upon the slayers of
+<ce>                     wood. Know that they did slay
+<ce>                     seedlings of mine. Would you
+<ce>                    stand rooted while someone slew
+<ce>                   your seedlings? I have no quarrel
+<ce>                    with you. Convince the woodsmen
+<ce>                    to prune with care, and I shall
+<ce>                     leave them in peace. Will you
+<ce>                         take this mission up?
+
+Message:  1021
+<ce>                    The main culprit is _woodsman_,
+<ce>                  who hacks down trees without care.
+<ce>                    Go to ___house_ and secure his
+<ce>                   promise. Do not visit me again. I
+<ce>                 shall know of your success or failure
+<ce>                  by how the woodsmen do their work.
+
+Message:  1022
+<ce>                  I should have known better than to
+<ce>                   trust a creature of flesh. Now I
+<ce>                      shall give you no quarter.
+
+Message:  1023
+<ce>                   So the tree creature wants to cut
+<ce>                   a deal, eh? Well I suppose I can
+<ce>                   convince the boys to only log the
+<ce>                   big trees. But if his kind attack
+<ce>                  us again, we'll burn every sapling
+<ce>                  we can find! You've got yourself a
+<ce>                              deal, %pcn.
+
+Message:  1025
+<ce>                   You worked it so the woodsmen and
+<ce>                   the spriggan ain't fightin'? Very
+<ce>                   clever %pcn. You'll go far if you
+<ce>                        keep those wits sharp.
+
+Message:  1030
+%qdt:
+ The spriggan has convinced me that
+ it is not the villain. Apparently a
+ woodsman named _woodsman_
+ in ___house_ has been
+ cutting down its trees. If I can get
+ _woodsman_ to agree to log
+ the forest more carefully, this whole
+ thing can be settled without bloodshed.
+
+Message:  1080
+<ce>               By the way, since I'm feelin' charitable,
+<ce>              here's a map to a hole called ___newdung_.
+<ce>              Full of monsters needin' killing, treasure
+<ce>                    to loot, the works.  Have fun.
 
 
-Record n�1----------
-C'est plutôt normal. Sauvez-vous.
-Je dois trouver quelqu'un pour
-s'occuper de ce boulot.
+-- Symbols used in the QRC file:
+--
+--              %pcn occurs 5 times.
+--              %pct occurs 2 times.
+--              %qdt occurs 2 times.
+--               %ra occurs 1 time.
+--           =2dung_ occurs 2 times.
+--       ___dungeon_ occurs 2 times.
+--         ___house_ occurs 2 times.
+--       ___newdung_ occurs 1 time.
+--        ___qgiver_ occurs 1 time.
+--            _gold_ occurs 4 times.
+--        _woodsman_ occurs 5 times.
 
+QBN:
+Item _gold_ gold
 
-Record n�2----------
-Deux tentatives d'embuscade ont échoué.
-Le spriggan est tout simplement trop
-malin. Vous allez devoir aller dans son
-repaire, à ___dungeon_.
-Revenez à moi dans les =2dung_ jours
-et j'aurai _gold_ pièces d'or qui vous attendront.
+Person _qgiver_ group Questor male
+Person _woodsman_ face 168 group Resident2
 
+Place _dungeon_ remote dungeon
+Place _newdung_ remote dungeon
+Place _house_ remote house1
 
-Record n�3----------
-Le spriggan est en train de brûler ?
-Vous venez de prouver qu'on peut
-plutôt compter sur vous, %pct.
+Clock _2dung_ 00:00 0 flag 17 range 0 2
+Clock _end_ 00:00
 
+Foe _monster_ is Spriggan
 
-Record n�4----------
-Voici vos _gold_ pièces d'or
-comme promis.
+--	Quest start-up:
+	dialog link for location _house_ person _woodsman_ 
+	start timer _2dung_ 
+	reveal _dungeon_ 
+	log 1010 step 0 
+	pick one of _map_ _nomap_
+	place foe _monster_ at _dungeon_ 
 
+_2dung_ task:
+	end quest 
 
-Record n�5----------
-J'ai entendu dire que _woodsman_
-incitait les bucherons à se révolter contre les
-spriggans. Amusant. Je n'avais jamais
-eu connaissance que les spriggans
-nous aient causé des problèmes auparavant.
+_S.01_ task:
+	killed 1 _monster_ saying 1011 
 
+_qgclicked_ task:
+	clicked npc _qgiver_ 
 
-Record n�6----------
-Un autre bûcheron est mort. Il paraît que
-c'est _woodsman_. Les autres
-ont décidé de bûcheronner ailleurs.
+_normalvict_ task:
+                when _qgclicked_ and _S.01_
+	say 1003
+                start task _victory_
+--1003 appears to be a victory statement for kill path
 
+_victory_ task:
+	give pc _gold_ 
+                start timer _end_
+	end quest 
 
-Record n�7----------
-Je n'ai pas entendu parler de ce spriggan
-récemment. Il a dû quitter le secteur.
+_clearclick_ task:
+	when _qgclicked_ and not _S.01_ and not _S.07_ 
+	clear _qgclicked_ _clearclick_ 
 
+_S.04_ task:
+	injured _monster_
 
-Record n�8----------
-Du bon boulot avec ce spriggan.
+_injtalk_ task:
+    when _S.04_ and not _S.01_
+	prompt 1020 yes _yes_ no _no_ 
 
+_yes_ task:
+	add dialog for person _woodsman_ 
+	log 1030 step 1 
+	say 1021 
+	restrain foe _monster_ 
+	create npc at _house_ 
+	place npc _woodsman_ at _house_ 
 
-Record n�9----------
-Les spriggans ne sont pas si coriaces.
-Que s'est-il passé ? Vous avez paniqué et
-vous vous êtes caché ?
+_no_ task:
+	say 1022 
 
+_S.07_ task:
+	clicked npc _woodsman_
+                say 1023 
+	change repute with _woodsman_ by +10 
 
-Record n�10----------
-Le %qdt, la Guilde des
-Guerriers de ___qgiver_
-m'a engagé pour tuer un spriggan
-qui moleste des bûcherons.
-Il se cache à ___dungeon_.
-On m'a donné =2dung_ jours pour que
-ce boulot soit mené à bien.
+_S.08_ task:
+	when _qgclicked_ and _S.07_ 
+	say 1025 
+	start task _victory_
 
+variable _map_
+variable _nomap_
+_S.11_ task:
+	when _map_ and _victory_ 
+	reveal _newdung_ readmap
+    say 1080 
 
-Record n�11----------
-Le spriggan est mort.
-Ces bûcherons peuvent travailler
-en sécurité maintenant.
-
-
-Record n�12----------
-Vous m'attaquez sans raison, %ra.
-Oui je suis parti en vendetta contre les
-assassins d'arbres. Sachez qu'ils ont
-massacré les plus jeunes des miens.
-Auriez-vous pris racine pendant que quelqu'un
-assassinait vos enfants ? Je n'ai pas de
-grief contre vous. Convainquez les bûcherons
-d'élaguer avec précaution, et je pourrai les
-laisser en paix. Acceptez-vous cette mission ?
-
-
-Record n�13----------
-Le principal responsable est _woodsman_,
-qui taille les arbres à la hache sans discernement.
-Allez à ___house_ et assurez-vous de
-sa promesse. Inutile de revenir me voir. J'aurai
-connaissance de votre succès ou de votre échec
-par la manière dont le bucheron fera son travail.
-
-
-Record n�14----------
-J'aurais dû savoir que je ne pouvais pas
-faire confiance à une créature de chair.
-Maintenant, je ne vais pas faire de quartiers avec vous.
-
-
-Record n�15----------
-Ainsi la créature arbre veut passer un
-marché, hein ? Bon, je suppose que je
-peux convaincre les gars de seulement
-couper les gros arbres. Seulement s'il y a
-à nouveau la moindre attaque contre nous,
-nous brûlerons toutes les pousses d'arbres
-que nous pourrons trouver ! Nous venons
-de passer un marché, %pcn.
-
-
-Record n�16----------
-Vous avez oeuvré de telle sorte que
-les bûcherons et le spriggan ne se
-combattent plus ? Très habile %pcn.
-Vous irez loin si vous continuez à être rusé.
-
-
-Record n�17----------
-%qdt :
- Le spriggan m'a convaincu que ce
- n'est pas lui le méchant. Apparemment
- un bûcheron dénommé _woodsman_
- de ___house_ a abattu sa
- jeune famille. Si je peux m'arranger pour
- que _woodsman_ accepte d'exploiter
- la forêt plus précautionneusement, tout
- pourra s'arranger sans que le sang ne coule.
-
-
-Record n�18----------
-A propos, puisque je me sens charitable,
-voici une carte d'un trou appelé ___newdung_.
-Plein de monstres à tuer, un trésor à piller,
-la routine. Amusez-vous bien.
-
-
-
+_end_ task:
+                end quest
