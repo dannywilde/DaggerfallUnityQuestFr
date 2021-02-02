@@ -11,64 +11,64 @@ DisplayName: Peryite's Quest
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                 You can't really have too much power,
-<ce>                       can you, %pcf? You look a
-<ce>                   lot like someone I used to know --
-<ce>                  but that was back during your First
-<ce>                 Era, so it couldn't very well be you,
-<ce>                  could it? Now then, if you'd like, I
-<ce>                  can give you a little shield of mine
-<ce>                   called the Spell Breaker. It will
-<ce>                 certainly give you the power you want,
-<ce>                  but first, I need a little proof of
-<ce>                   your seriousness. You are serious,
-<ce>                              aren't you?
+<ce>                On n'a jamais réellement trop de pouvoir,
+<ce>                   n'est-ce pas, %pcf? Vous ressemblez
+<ce>                 énormément à quelqu'un que j'ai connu,
+<ce>               mais c'était à l'époque de votre Première Ere,
+<ce>                 donc ça pourrait difficilement être vous,
+<ce>                  hein ? Donc, si vous acceptiez, je peux
+<ce>               vous donner un petit bouclier en ma possession,
+<ce>                 appelé le Briseur de Sort. Il vous apportera
+<ce>                certainement le pouvoir que vous recherchez,
+<ce>             mais d'abord, il me faut une petite preuve de votre
+<ce>                      sérieux. Vous êtes sérieux,
+<ce>                            n'est-ce pas?
 
 RefuseQuest:  [1001]
-<ce>                   Changed your mind, eh? Don't feel
-<ce>                    bad. It's a sign of maturity to
-<ce>                    be brave enough to say no. Just
-<ce>                     give me a call when you change
-<ce>                      your mind. I know you will.
+<ce>                  Vous avez changé d'avis, hein? Ne vous
+<ce>               sentez pas mal. C'est un signe de maturité que
+<ce>                 d'être suffisamment courageux pour dire non.
+<ce>                     Prevenez-moi juste quand vous
+<ce>                  changerez d'avis. Je sais que vous le ferez.
 
 AcceptQuest:  [1002]
-<ce>                  Excellent. It's wonderful seeing a
-<ce>                   %ra with clear objectives. So rare
-<ce>                 in this day and age. Now then, there's
-<ce>                 this _monster_, frankly a vampire, who
-<ce>                 I know you'd hate. Thoroughly stupid,
-<ce>                 unattractive, and mean-spirited sort.
-<ce>                  He needs to go on a one-way trip to
-<ce>                   you-know-where. Then, after you've
-<ce>                taken care of that unpleasant business,
-<ce>                    go visit my friend, _qgfriend_,
-<ce>                         a charming =qgfriend_,
-<ce>                    who will meet you at __qgfriend_
-<ce>                     in ___qgfriend_. Now, I don't
-<ce>                 want to rush you, but I can't ask %g2
-<ce>                   to wait more than =1stparton_ days
-<ce>                for you. And just getting to ___mondung_
-<ce>                  may take a good while, so you ought
-<ce>                 not dawdle along the way.  _qgfriend_
-<ce>                  will be happy to show you the Spell
-<ce>                  Breaker. Now, I've prattled on long
-<ce>                     enough. It's been a pleasure.
+<ce>                  Excellent. C'est magnifique de voir un
+<ce>                   %ra avec des objectifs précis.
+<ce>                  C'est si rare de nos jours. Eh bien, il y a
+<ce>                  ce _monster_, en réalité un vampire, que
+<ce>                  vous hairiez, j'en suis certain. Parfaitement
+<ce>                  stupide, peu séduisant et mesquin.
+<ce>                Il doit donc prendre un aller simple vers
+<ce>                   où vous savez. Ensuite, après vous
+<ce>                 être occupé de ce travail déplaisant,
+<ce>                    allez voir mon ami, _qgfriend_,
+<ce>                        un charmant =qgfriend_,
+<ce>                   que vous rencontrerez à __qgfriend_
+<ce>                     à ___qgfriend_.  Maintenant,
+<ce>               je ne veux pas vous brusquer, mais je ne peux pas
+<ce>            lui demander  de vous attendre plus de =1stparton_ jours.
+<ce>                Et rien que le trajet pour ___mondung_
+<ce>                 pourrait prendre un bon moment, donc vous
+<ce>                 ne devriez pas flâner en route.  _qgfriend_
+<ce>                 sera ravi de vous montrer le Briseur de Sort.
+<ce>                   Bien, j'ai suffisamment parlé.
+<ce>                      Ce fut un plaisir.
 
 QuestFail:  [1003]
-<ce>                       You must be looking for a
-<ce>                         different =qgfriend_.
+<ce>                       Vous devez chercher un
+<ce>                         autre =qgfriend_.
 
 QuestComplete:  [1004]
-<ce>                         There you are, %pct.
-<ce>                            I'm _qgfriend_,
-<ce>              I believe the Master wanted you to find me?
-<ce>               The Master is very pleased with your work
-<ce>                        on the dread _monster_,
-<ce>               if you don't mind me saying so. The Master
-<ce>               seems very fond of you in general. Here is
-<ce>               the shield you wanted, the Spell Breaker.
-<ce>                  Spellcasters will come to fear you.
-<ce>                        I hope it pleases, %pct.
+<ce>                         Ahhh, vous voilà, %pct.
+<ce>                     Je suis _qgfriend_, je crois savoir
+<ce>               que le Maitre voulait que vous me trouviez ?
+<ce>               Le Maitre est très satisfait de votre travail
+<ce>                     sur le redoutable _monster_,
+<ce>                si vous me le permettez. Le Maitre
+<ce>                semble vous apprécier énormément. Voici
+<ce>                le bouclier que vous vouliez, le Briseur de Sort.
+<ce>              Les lanceurs de sorts finiront par vous craindre.
+<ce>                     J'espère qu'il vous plaît, %pct.
 
 RumorsDuringQuest:  [1005]
 =monster_ of ___mondung_, they say, has made powerful enemies as well as friends.
@@ -145,30 +145,30 @@ Clock _1stparton_ 00:00 0 flag 1 range 1 5
 Foe _monster_ is Ancient_vampire
 
 --	Quest start-up:
-	start timer _1stparton_ 
-	reveal _mondung_ 
-	log 1015 step 0 
-	place foe _monster_ at _mondung_ 
+	start timer _1stparton_
+	reveal _mondung_
+	log 1015 step 0
+	place foe _monster_ at _mondung_
 
 _1stparton_ task:
-	end quest 
+	end quest
 
 variable _2ndparton_
 _pcgetsgold_ task:
-	when _npcclicked_ and _mondead_ 
-	give pc _artifact_ 
-	end quest 
+	when _npcclicked_ and _mondead_
+	give pc _artifact_
+	end quest
 --removed unnecessary delay
 
 _mondead_ task:
-	killed 1 _monster_ 
-	say 1014 
-	change repute with questPerson by -20 
+	killed 1 _monster_
+	say 1014
+	change repute with questPerson by -20
 
 _npcclicked_ task:
-	clicked npc _qgfriend_ 
+	clicked npc _qgfriend_
 
 _clearclick_ task:
 	when _npcclicked_ and not _mondead_
-	say 1003 
-	clear _npcclicked_ _clearclick_ 
+	say 1003
+	clear _npcclicked_ _clearclick_

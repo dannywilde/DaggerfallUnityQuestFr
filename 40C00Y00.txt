@@ -233,18 +233,18 @@ Message:  1041
 <ce>                      à un coeur de mercenaire tel que le vôtre !
 
 Message:  1042
-<ce>                      Excellent.  I knew you had
-<ce>                   a mercenary's heart.  The _staff_
-<ce>                     lies hidden in ___staffdung_.
-<ce>                     You have only to find it and
-<ce>                       you will be a power to be
-<ce>                      reckoned with indeed.  Now,
-<ce>                     I bid you good day, lest you
-<ce>                   decide to claim both the _staff_
-<ce>                         and the _artifact_ by
-<ce>                    killing me.  A mercenary heart
-<ce>                      such as yours should not be
-<ce>                           trusted too far!
+<ce>                      Excellent. Je savais que vous aviez
+<ce>                   une âme de mercenaire. _staff_
+<ce>                  est dissimulé à ___staffdung_.
+<ce>                  Il ne vous reste plus qu'à le trouver et
+<ce>                  vous deviendrez bien entendu une puissance
+<ce>                  avec laquelle il faudra compter.
+<ce>                   Maintenant, je vous souhaite une bonne
+<ce>                  journée, de peur que vous ne décidiez
+<ce>                   de vouloir à la fois _staff_
+<ce>                    et _artifact_ en me tuant.
+<ce>                    Il ne faut pas faire trop confiance
+<ce>                      à un coeur de mercenaire tel que le vôtre !
 
 QuestTimeLapse:  [1045]
 <ce>                Un rire moqueur résonne dans votre esprit,
@@ -254,37 +254,34 @@ QuestTimeLapse:  [1045]
 <ce>                   peut satisfaire votre soif de puissance pour l'instant,
 <ce>                   tandis que vous déchainez vainement votre rage contre
 <ce>                   celui qui la possède réellement. Moi par exemple.
-<ce>                 actually possess it.  Me for example.
-<ce>                 J'espère que la douce Nocturnal ne sera pas
-<ce>                 trop déçue par votre traitrise."
+<ce>                   J'espère que la douce Nocturnal ne sera pas
+<ce>                      trop déçue par votre traitrise."
 <ce>
 <ce>                 Dans vos mains, le _bow_ se réduit en poussière.
 
 Message:  1046
-<ce>                 Mocking laughter echoes in your mind,
+<ce>                 Un rire moqueur résonne dans votre esprit,
 <ce>
 <ce>                  "Vous auriez mieux fait de me faire confiance,
 <ce>                   %pcn. Peut-être que cette ombre de pouvoir
 <ce>                   peut satisfaire votre soif de puissance pour l'instant,
 <ce>                   tandis que vous déchainez vainement votre rage contre
 <ce>                   celui qui la possède réellement. Moi par exemple.
-<ce>                 actually possess it.  Me for example.
-<ce>                 J'espère que la douce Nocturnal ne sera pas
-<ce>                 trop déçue par votre traitrise."
+<ce>                   J'espère que la douce Nocturnal ne sera pas
+<ce>                   trop déçue par votre traitrise."
 <ce>
 <ce>               Dans vos mains, le _ring_ se réduit en poussière.
 
 Message:  1047
-<ce>                 Mocking laughter echoes in your mind,
+<ce>                 Un rire moqueur résonne dans votre esprit,
 <ce>
 <ce>                  "Vous auriez mieux fait de me faire confiance,
 <ce>                   %pcn. Peut-être que cette ombre de pouvoir
 <ce>                   peut satisfaire votre soif de puissance pour l'instant,
 <ce>                   tandis que vous déchainez vainement votre rage contre
 <ce>                   celui qui la possède réellement. Moi par exemple.
-<ce>                 actually possess it.  Me for example.
-<ce>                 J'espère que la douce Nocturnal ne sera pas
-<ce>                 trop déçue par votre traitrise."
+<ce>                   J'espère que la douce Nocturnal ne sera pas
+<ce>                   trop déçue par votre traitrise."
 <ce>
 <ce>              Dans vos mains, le _staff_ se réduit en poussière.
 
