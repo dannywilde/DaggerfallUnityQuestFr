@@ -12,115 +12,114 @@ DisplayName: Sheogorath's Quest
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                Oh, my. I bet ye weren't expecting me!
-<ce>               My unbrothers and nonsisters are sometimes
-<ce>                 a bit slow, so I step in for them. Too
-<ce>                 bad for thou. You'll just have to cut
-<ce>                  thy deal with me. Be quick about it!
-<ce>                 Before the hour of the pale be passed,
-<ce>                   have I plenty to do elsewhere. So!
-<ce>                     Power the %ra craves to rub on
-<ce>                   the body and ease the four hundred
-<ce>                 sores of mortal life? Yes, Sheogorath
-<ce>                  has power, power enough to pull the
-<ce>                  branches across the eyes of the moon
-<ce>                 and rain blood over Tamriel. For this
-<ce>                    power, wilt thou send someone an
-<ce>                       invitation to tea for me?
+<ce>          Eh bien. Je parie que vous ne m'attendiez pas !
+<ce>          Mes non-frères et non-soeurs sont parfois
+<ce>          un peu lents, alors je les devance. Tant pis
+<ce>          pour vous. Vous allez devoir traiter
+<ce>          avec moi. Soyez prompt !
+<ce>          Avant que l'aube ne se lève,
+<ce>          j'ai beaucoup à faire ailleurs. Donc !
+<ce>          Le pouvoir, le %ra meurt d'envie de
+<ce>          se frotter le corps pour apaiser les quatre cents
+<ce>          plaies de la vie mortelle ? Oui, Sheogorath
+<ce>          a du pouvoir, assez de pouvoir pour crever
+<ce>          les yeux de la lune et faire pleuvoir des larmes
+<ce>          de sang sur Tamriel. Pour avoir ce pouvoir,
+<ce>          accepterez-vous d'envoyer à quelqu'un
+<ce>          une invitation à prendre le thé avec moi ?
 
 RefuseQuest:  [1001]
-<ce>                     La, rejected by a squalid %ra
-<ce>                   with lice in its hair. How far has
-<ce>                   Sheogorath risen! I shall have to
-<ce>                    ask for a raise in my allowance.
-<ce>                             Tirrah, %pct.
+<ce>                   Ah, rejeté par un sordide %ra
+<ce>                avec des poux dans les cheveux. Comme
+<ce>                Sheogorath s'est élevé ! Il faudra que je
+<ce>                demande une augmentation de ma rente.
+<ce>                Pouah, %pct.
 
 AcceptQuest:  [1002]
-<ce>                To tea, to a tea party with me! Go, go
-<ce>                     to a place called ___mondung_,
-<ce>                 where the object of my gallous desires
-<ce>                 doth trip and pose and wear blackberry
-<ce>                  crowns. Wait ... do not invite this
-<ce>                    battlemage to tea with me. Now I
-<ce>                        remember. This =monster_
-<ce>                    the name is. Kill %g2 to death,
-<ce>                murder %g2 fatally, that's what I wish.
-<ce>                     Then go from ___mondung_ to a
-<ce>                 lunatic asylum called ___contactdung_
-<ce>                         and see my =qgfriend_,
-<ce>                       _qgfriend_. _artifact_ for
-<ce>                you %g will have. Will wait for you for
-<ce>                  =1stparton_ days and then will go to
-<ce>                marry the unknown heir of Rowanda. Now I
-<ce>                     bid you a yapow and gazeenza.
+<ce>               Le thé, pour une soirée thé avec moi ! Allez,
+<ce>               allez à un endroit appelé ___mondung_,
+<ce>              où s'est rendu l'objet des désirs, qui
+<ce>              porte des couronnes de mûres.
+<ce>              Attendez... n'invitez pas ce battlemage
+<ce>              à venir prendre le thé avec moi.
+<ce>              Maintenant je me souviens. Il s'appelle
+<ce>              =monster_. Tuez-le à mort, assassinez-le
+<ce>              fatalement, c'est ce que je souhaite.
+<ce>              Puis allez de ___mondung_ jusqu'à
+<ce>              un asile d'aliénés appelé ___contactdung_
+<ce>              pour voir mon =qgfriend_,
+<ce>              _qgfriend_. _artifact_ pour vous,
+<ce>              il aura. Il vous attendra
+<ce>              =1stparton_ jours puis partira épouser
+<ce>              l'héritier inconnu de Rowanda. Maintenant
+<ce>              je vous souhaite un yapow et gazeenza.
 
 QuestFail:  [1003]
-<ce>                    Excuse me, you don't know this,
-<ce>                   but I'm completely mad. And if you
-<ce>                  don't shove off, I'll vomit on you.
+<ce>                Excusez moi, vous l'ignorez certainement, mais
+<ce>                   je suis complètement fou. Et si vous ne
+<ce>                  déguerpissez pas, je vous vomirai dessus.
 
 QuestComplete:  [1004]
-<ce>                  Ah, nice of you to let me out of my
-<ce>                 cell, madam jailer. Sheogorath changed
-<ce>                 his mind and decided that he wanted to
-<ce>                         take =monster_ to tea
-<ce>                  after all. But when he found out, %g
-<ce>                  was dead, he decided that was best.
-<ce>                           That way =monster_
-<ce>                 wouldn't eat all the posy pies. Before
-<ce>                   I forget, here's _artifact_. Don't
-<ce>                            point it at me.
+<ce>                 Ah, c'est gentil à vous me laisser sortir de ma
+<ce>                cellule, madame le geôlier. Sheogorath a changé
+<ce>                d'avis et a finalement décidé d'inviter
+<ce>                =monster_ pour le thé.
+<ce>                Mais quand il a su qu'il
+<ce>                était mort, il a décidé que c'était mieux ainsi.
+<ce>                De cette façon =monster_ ne pourrait
+<ce>                pas manger toutes les bonnes tartes. Avant
+<ce>                que je n'oublie, voici _artifact_. Ne le pointez pas
+<ce>                               vers moi.
 
 RumorsDuringQuest:  [1005]
-A mad battlemage is terrorizing the countryside around ___mondung_.
+Un battlemage fou terrorise la campagne autour de ___mondung_.
 
 RumorsPostfailure:  [1006]
-<ce>___mondung_ is quiet now that that =monster_ moved on, but %g'll be back,
-<ce>                              I'll wager.
+<ce>___mondung_ est tranquille, maintenant que ce =monster_ est parti,
+<ce>                        mais il reviendra,  j'en prend le pari.
 
 RumorsPostsuccess:  [1007]
-Good riddance on the battlemage =monster_ in ___mondung_. I hear %g was mad as a magister.
+Bon débarras, pour le battlemage =monster_ à ___mondung_. paraît qu'il était complètement fou.
 <--->
-So, someone finally killed that mad battlemage in ___mondung_. Thank %god.
+Ainsi, quelqu'un a finalement tué ce battlemage fou à ___mondung_. Merci %god.
 
 Message:  1011
-_qgfriend_ is that mad, slobbering =qgfriend_ who lives in ___contactdung_.
+_qgfriend_ est ce =qgfriend_ fou et baveux, qui vit à ___contactdung_.
 <--->
-<ce>  _qgfriend_ is that crazy =qgfriend_ that came to town a while back.
- They say %g actually lives in ___contactdung_.
+<ce>  _qgfriend_ est ce =qgfriend_ fou qui est arrivé en ville il y a peu.
+ On dit qu'en réalité il vit à ___contactdung_.
 
 Message:  1012
-Sheogorath is the Daedra Prince of Insanity. Not a good one to count on.
+Sheogorath est le Prince Daedra de l'Insanité. Pas quelqu'un sur qui on peut compter.
 <--->
-Sheogorath is the Mad One, the Daedra who revels in chaos and lunacy.
-
+Sheogorath est Le Fou, le Daedra qui se délecte du chaos et de la folie.
 Message:  1013
-_artifact_ is an ancient artifact with wildly random magical effects.
+_artifact_ est un artéfact ancien possédant des effets magiques très aléatoires.
 <--->
-_artifact_ can transform its targets into other other creatures.
+_artifact_ peut transformer ses cibles en d'autres créatures.
 
 Message:  1014
-_qgfriend_ is one of the Daedra Prince Sheogorath's most loyal servants.
+_qgfriend_ est l'un des plus loyaux serviteurs du Prince Daedra Sheogorath.
 <--->
-_qgfriend_ is the name of the =qgfriend_ who is a slave of Sheogorath.
+_qgfriend_ est le nom du =qgfriend_ qui est un esclave de Sheogorath.
 
 Message:  1020
 %qdt:
- The Daedra Prince Sheogorath has
- promised me an artifact called _artifact_
- in exchange for the death of a battlemage
- named =monster_. If this battlemage,
- who resides in a placed called ___mondung_,
- is dead and I meet Sheogorath's contact in
- ___contactdung_, _qgfriend_
- will give me _artifact_. But I have to
- have this all accomplished in =1stparton_ days.
+Le Prince Daedra Sheogorath m'a
+promis un artéfact appelé _artifact_
+en échange de la mort d'un battlemage
+nomme =monster_. Si ce battlemage,
+qui habite un lieu appelé ___mondung_,
+est tué et que je rencontre le contact
+de Sheogorath à ___contactdung_, _qgfriend_
+me donnera _artifact_. Mais je dois avoir
+tout fini en =1stparton_ jours.
 
 Message:  1030
-<ce>                     You have dispatched =monster_
-<ce>                    from this mortal plane.  Now to
-<ce>                   see if Sheogorath still remembers
-<ce>                            your agreement.
+<ce>                     Vous avez débarrassé ce monde
+<ce>                  de =monster_. A présent, voyez si
+<ce>                    Sheogorath se souvient de
+<ce>                         votre arrangement.
 
 
 -- Symbols used in the QRC file:
@@ -152,29 +151,29 @@ Clock _1stparton_ 00:00 0 flag 1 range 2 5
 Foe _monster_ is Battle_mage
 
 --	Quest start-up:
-	start timer _1stparton_ 
-	reveal _contactdung_ 
-	reveal _mondung_ 
-	log 1020 step 0 
-	place foe _monster_ at _mondung_ 
-	place npc _qgfriend_ at _contactdung_ 
+	start timer _1stparton_
+	reveal _contactdung_
+	reveal _mondung_
+	log 1020 step 0
+	place foe _monster_ at _mondung_
+	place npc _qgfriend_ at _contactdung_
 
 _1stparton_ task:
-	end quest 
+	end quest
 
 variable _2ndparton_
 _pcgetsgold_ task:
-	when _npcclicked_ and _mondead_ 
-	give pc _artifact_ 
-	end quest 
+	when _npcclicked_ and _mondead_
+	give pc _artifact_
+	end quest
 --removed unnecessary delay
 
 _mondead_ task:
-	killed 1 _monster_ 
-	say 1030 
+	killed 1 _monster_
+	say 1030
 
 _npcclicked_ task:
-	clicked npc _qgfriend_ 
+	clicked npc _qgfriend_
 
 --defining clearclick to prevent out-of-place victory condition
 _clearclick_ task:
