@@ -12,81 +12,81 @@ DisplayName: Malacath's Quest
 QRC:
 
 QuestorOffer:  [1000]
-<ce>              Yes, I know someone else who was interested
-<ce>              in power. A little panikosa in Oblivion who
-<ce>              dreamed of power, who asked me to supply it
-<ce>                with the beauty and grace it had always
-<ce>               desired. And when I made it beautiful, it
-<ce>               fought against me, resisting my will as if
-<ce>                 I had not made it. Perhaps you are the
-<ce>               same. If I made you strong and beautiful,
-<ce>                you would respect the gift I gave, would
-<ce>                                you not?
+<ce>             Oui, je connais une autre personne qui s'intéressait
+<ce>            au pouvoir. Un petit panikosa à Oblivion qui
+<ce>           rêvait de pouvoir, qui m'a demandé de lui
+<ce>           procurer la beauté et la grâce qu'il avait toujours
+<ce>           desiré. Et après que je l'ai rendu magnifique, il
+<ce>           s'est battu contre moi, s'opposant à ma volonté
+<ce>           comme si je n'avais rien fait. Peut-être êtes-vous
+<ce>           pareil. Si je vous rendais fort et magnifique,
+<ce>           vous respecteriez le cadeau que vous ai fait,
+<ce>           n'est-ce pas?
 
 RefuseQuest:  [1001]
-<ce>                      Witless %ra, don't you even
-<ce>                  know enough to lie? Do not waste my
-<ce>                   time with your pathetic yearnings.
+<ce>                Stupide %ra, vous n'avez même pas appris
+<ce>                   à mentir? Ne gaspillez pas mon
+<ce>                  temps avec vos envies pathétiques.
 
 AcceptQuest:  [1002]
-<ce>                        I believe you, %pcn. In
-<ce>               exchange for the death of the treacherous
-<ce>              seducer I once trusted, I will give you the
-<ce>                 _artifact_, my most prized possession
-<ce>             in your world. It will make you most powerful
-<ce>               indeed. You will find the loathed creature
-<ce>                  in ___mondung_. Slay her and meet my
-<ce>                  dear and trusted subject, _qgfriend_
-<ce>                  in ___qgfriend_. I will tell %g2 to
-<ce>             meet you at the palace there for convenience.
-<ce>               I don't think the whole affair should take
-<ce>                 more than =1stparton_ days if done as
-<ce>               efficiently as it should. Go then into the
-<ce>                     world and do my bidding, %pcn.
+<ce>                    Je vous crois, %pcn. En
+<ce>             échange de la mort de la perfide séductrice
+<ce>          en qui j'ai jadis eu confiance, je vous donnerai
+<ce>             le _artifact_, mon bien le plus précieux
+<ce>          dans votre monde. Il vous rendra vraiment très
+<ce>          puissant. Vous trouverez la créature répugnante
+<ce>               à ___mondung_. Tuez-la et rejoignez mon
+<ce>                 cher et fiable sujet, _qgfriend_
+<ce>              à ___qgfriend_. Je lui dirai de vous y
+<ce>                 rencontrer au palais par commodité.
+<ce>             Je ne pense pas que toute l'affaire prenne
+<ce>          plus de =1stparton_ jours, si elle est accomplie
+<ce>         efficacement comme il se doit. Allez dans le monde
+<ce>                 et accomplissez mes ordres, %pcn.
 
 QuestFail:  [1003]
-<ce>                     Get lost you slobbering %ra.
-<ce>                 I'm looking for an actual human being.
+<ce>                     Foutez le camp, %ra bavant.
+<ce>                Je cherche un véritable être humain.
 
 QuestComplete:  [1004]
-<ce>                       So you're %pcn. Malacath
-<ce>                described you perfectly. Good work with
-<ce>                     old =monster_. She just didn't
-<ce>               know how to keep her mouth shut, you know?
-<ce>                  Anyhow, here's the _artifact_. Not a
-<ce>             halfbad smasher. And who knows? You might have
-<ce>                 to use it on Malacath himself one day.
-<ce>                             I'm joking ...
-<ce>                               of course.
+<ce>                    Ainsi vous êtes %pcn. Malacath
+<ce>                vous a parfaitement décrit. Bon travail avec
+<ce>               la vieille =monster_. Elle ne savait vraiment pas
+<ce>                comment lui fermer la bouche, vous savez ?
+<ce>              Quoi qu'il en soit, voici le _artifact_. Pas une
+<ce>            mauvaise arme. Et qui sait ? Vous pourriez avoir
+<ce>               à l'utiliser contre Malacath lui-même un jour.
+<ce>                            Je plaisante ...
+<ce>                               bien sûr.
 
 RumorsDuringQuest:  [1005]
-_murder_ was found dead, right in %g3 palace in ___ruler_.
+_murder_ a été retrouvé mort, dans son palais de ___ruler_.
 <--->
-Most daedra seducers have a mission. The one in ___mondung_ is just waiting.
+La plupart des séductrices Daedras ont une mission. Celle de ___mondung_ n'attend que ça.
 
 RumorsPostfailure:  [1006]
-I'm still thinking about that woman's laughter I heard coming from the sky.
+Je pense encore au rire de cette femme que j'ai entendu venant du ciel.
 <--->
-Don't know where, but a lot of people saw her flying around some nights ago.
+Je ne sais pas où, mais beaucoup de gens l'ont vue voler aux alentours il y a quelques nuits.
 
 RumorsPostsuccess:  [1007]
-I hear that seducer was murdered by her master's agents for falling in love.
+J'ai appris que la séductrice a été assassinée par les agents de son maître pour être tombée amoureuse.
 <--->
-Made me nervous -- that seducer just sitting in that hole, waiting for something.
+Ca me rendait nerveux, cette séductrice simplement assise dans ce trou, attendant quelque chose.
 
 Message:  1011
-_qgfriend_ is a noble, rumored to have had a secret romance with a dark lady.
+_qgfriend_ est un noble, on dit qu'il a eu une aventure secrète avec une dame sombre.
 <--->
-_qgfriend_ is a noble with a lot of secret allegiances.
+_qgfriend_ est un noble qui a de nombreuses allégeances secrètes.
 
 Message:  1012
-Malacath is the Daedra Prince of Lies, Deception, and Hypocrisy.
+Malacath est le Prince Daedra du Mensonge, de la Duperie et de l'Hypocrisie.
 <--->
-Malacath breeds lies like a dead dog breeds maggots.
+Malacath profère des mensonges comme un chien mort attire les asticots
 
 Message:  1013
-<ce>      The _artifact_ is a war hammer of great power, able to sap
-<ce>                      the strength of its victims.
+<ce>      Le _artifact_ est un marteau de guerre d'un grand pouvoir, capable
+<ce>                      de saper la force de ses victimes.
 
 
 Message:  1015
@@ -94,71 +94,72 @@ Message:  1015
 
 Message:  1020
 %qdt:
- I summoned the Daedra Prince Malacath
- who has offered the _artifact_ in exchange for
- the death of =monster_, a daedra seducer
- formerly affiliated with him. The seducer has sought
- refuge in a place called ___mondung_.
- If I can kill =monster_ and get to the Palace of
- ___qgfriend_ within =1stparton_ days,
- a =qgfriend_ named _qgfriend_ will give
- me the _artifact_.
+ J'ai invoqué le Prince Daedra Malacath
+  qui m'a offert le _artifact_ en échange de
+  la mort de =monster_, une séductrice daedra
+  qui fut son amante. La séductrice a trouvé
+  refuge en un lieu appelé ___mondung_.
+  Si je peux tuer =monster_ et rejoindre le Palais de
+  ___qgfriend_ en =1stparton_ jours,
+  un =qgfriend_ nomme _qgfriend_ me donnera
+  le _artifact_.
 
 Message:  1030
 =monster_,
- 
-      Malacath wishes _murder_ dead.
- %g3 agents have uncovered one too many of
- our plots.  %g must be stopped before all
- our plans for %reg are ruined.  You will
- find %g2 in the Palace of ___ruler_.  Make
- sure %g3 death cannot be traced back to us.
-     Once you have carried out the assassination,
- wait for me in ___mondung_.  I will bring
- your reward and your next assignment from
- Malacath.
- 
+
+    Malacath veut la mort de _murder_.
+Ses agents ont découvert trop de nos intrigues.
+Il doit être arrêté avant que tous nos plans
+pour %reg ne soient ruinés. Vous le
+trouverez au Palais de ___ruler_.
+Assurez-vous que la piste de son meurtre
+ne puisse pas être remontée jusqu'à nous.
+Après l'avoir assassiné, attendez
+moi à ___mondung_.  J'apporterai votre
+récompense et votre prochaine lettre de
+mission de la part de Malacath.
+
 <ce>                               _qgfriend_
 
 Message:  1040
-<ce>                     %oth!  _qgfriend_ was behind
-<ce>                    _murder_'s death?  And involved
-<ce>                   in a daedra plot as well?  We may
-<ce>                 never have solved this murder without
-<ce>                   your help, %pcn.  Your loyalty to
-<ce>                     the %rt will not be forgotten.
+<ce>                     %oth!  _qgfriend_ était
+<ce>                derrière le meurtre de _murder_ ? Et également
+<ce>                 impliqué dans un complot daedra ? On aurait
+<ce>                  pu ne jamais élucider ce meurtre sans
+<ce>                  votre aide, %pcn. Votre loyauté envers
+<ce>                     le %rt ne sera pas oubliée.
 
 Message:  1041
-<ce>                       Do you give _qgfriend_'s
-<ce>                            note to _ruler_?
+<ce>                       Donnez-vous la lettre de _qgfriend_
+<ce>                             à _ruler_ ?
 
 Message:  1050
-<ce>_murder_'s death is still a mystery.  _ruler_ is leading the investigation,
-<ce>                        but so far has no leads.
+<ce>        Le meurtre de _murder_ reste un mystère. _ruler_ mène
+<ce>         l'enquête, mais pour l'instant il n'a pas de pistes.
                                      <--->
-<ce>I'm sure _murder_ was killed because of %g3 investigation of corruption
-<ce>                                in %reg.
+<ce>Je suis certain que _murder_ a été tué à cause de ses enquêtes
+<ce>                     sur la corruption à %reg.
 
 Message:  1051
-<ce>  _murder_ was investigating a plot to overthrow %rt %rn when %g was
-<ce> "mysteriously" killed.  _ruler_ is trying to find out who was responsible,
-<ce>                but %g'll never get to the bottom of it.
+<ce>  _murder_ enquêtait sur un complot pour renverser %rt %rn quand il
+<ce> a été "mystérieusement" tué.  _ruler_ tente de trouver qui est
+<ce>      responsable,  mais %g ne résoudra jamais cette affaire.
                                      <--->
-<ce>_murder_ was found dead in the Palace of ___ruler_, and all %g3 notes on %g3
-<ce>    investigation into high-level treason were stolen.  _ruler_ was
-<ce>      sent to track down the killer, but %g has nothing to go on.
+<ce>  _murder_  a été retrouvé mort au Palace de ___ruler_, et toutes ses
+<ce>  notes sur ses investigations à propos de haute-trahison ont été volées.
+<ce>  _ruler_ a été   envoyé sur la trace du tueur, mais %g ne sais pas où chercher.
 
 Message:  1052
-<ce>      _ruler_ is leading the investigation into _murder_'s death,
-<ce>                        but so far has no leads.
+<ce>      _ruler_ mène l'enquête sur la mort de _murder_,
+<ce>         mais il n'y a pas de piste pour l'instant.
                                      <--->
-<ce> _ruler_ is investigating _murder_'s death at the Palace of ___ruler_.
+<ce> _ruler_ enquête sur la mort de _murder_ au Palais de ___ruler_.
 
 Message:  1053
-<ce>_ruler_ is trying to find out who was responsible for _murder_'s death,
-<ce>                but %g'll never get to the bottom of it.
+<ce>_ruler_ essaie de trouver qui est responsable de la mort de _murder_,
+<ce>                mais %g ne résoudra jamais cette affaire.
                                      <--->
-<ce>_ruler_ was sent to track down _murder_'s killer, but has nothing to go on.
+<ce>_ruler_ a été envoyé sur la trace de l'assassin de _murder_, mais ne sais pas où chercher.
 
 
 -- Symbols used in the QRC file:
@@ -199,32 +200,32 @@ Clock _1stparton_ 00:00 0 flag 18 range 2 5
 Foe _monster_ is Daedra_seducer
 
 --	Quest start-up:
-	dialog link for person _ruler_ 
-	dialog link for person _murder_ 
-	start timer _1stparton_ 
-	reveal _mondung_ 
-	log 1020 step 0 
-	give item _note_ to _monster_ 
-	_note_ used do _readnote_ 
-	place foe _monster_ at _mondung_ 
+	dialog link for person _ruler_
+	dialog link for person _murder_
+	start timer _1stparton_
+	reveal _mondung_
+	log 1020 step 0
+	give item _note_ to _monster_
+	_note_ used do _readnote_
+	place foe _monster_ at _mondung_
 
 _1stparton_ task:
-	end quest 
+	end quest
 
 variable _2ndparton_
 _pcgetsgold_ task:
-	when _npcclicked_ and _mondead_ 
-	give pc _artifact_ 
-	end quest 
+	when _npcclicked_ and _mondead_
+	give pc _artifact_
+	end quest
 --removed unnecessary delay
 
 _mondead_ task:
-	killed 1 _monster_ 
-	say 1015 
-	create npc _qgfriend_ 
+	killed 1 _monster_
+	say 1015
+	create npc _qgfriend_
 
 _npcclicked_ task:
-	clicked npc _qgfriend_ 
+	clicked npc _qgfriend_
 
 --defining clearclick to prevent out-of-place victory condition
 _clearclick_ task:
@@ -233,15 +234,15 @@ _clearclick_ task:
 	clear _npcclicked_ _clearclick_
 
 _readnote_ task:
-	add dialog for person _murder_ 
+	add dialog for person _murder_
 
 _rulerclicked_ task:
-	toting _note_ and _ruler_ clicked 
-	prompt 1041 yes _S.09_ no _school_ 
+	toting _note_ and _ruler_ clicked
+	prompt 1041 yes _S.09_ no _school_
 
 _S.09_ task:
-	say 1040 
-	change repute with _murder_ by +15 
+	say 1040
+	change repute with _murder_ by +15
 
 _school_ task:
-	get item _note_ 
+	get item _note_

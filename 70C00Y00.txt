@@ -11,100 +11,99 @@ DisplayName: Sanguine's Quest
 QRC:
 
 QuestorOffer:  [1000]
-<ce>               Power is such a lovely word, isn't it? It
-<ce>               drips from the tongue like honey. If power
-<ce>                is your aphrodisiac, I would be ecstatic
-<ce>                    to present you with _artifact_.
-<ce>                 All you have to do for me in return is
-<ce>               punish a perfectly awful priest who dared
-<ce>                  to challenge me. Sounds good to you?
+<ce>              Le Pouvoir est un mot si ravissant, n'est-ce pas ?
+<ce>               Il glisse sur la langue comme du miel. Si le pouvoir
+<ce>              est votre aphrodisiaque, je serais ravi de
+<ce>              vous présenter _artifact_.
+<ce>              Tout ce que vous devez faire pour moi en retour,
+<ce>              c'est de punir un prêtre parfaitement horrible qui
+<ce>              a osé me défier. Ca vous dit ?
 
 RefuseQuest:  [1001]
-<ce>                        A pox on you, %pcn. How
-<ce>                 dare you summon me forth and refuse my
-<ce>                generous offer? Pray that I forgive you,
-<ce>                          %pcf. Sanguine is an
-<ce>                        enemy none should have.
+<ce>             Que la vérole soit sur vous, %pcn. Comment
+<ce>             osez-vous m'appeler et refuser mon
+<ce>             offre généreuse? Priez pour que je vous pardonne,
+<ce>             %pcf. Sanguin est un ennemi que nul ne devrait avoir.
 
 AcceptQuest:  [1002]
-<ce>                     You won't regret this, %pcf,
-<ce>                  provided you fulfill your end of our
-<ce>                  agreement. This sanctimonius monk is
-<ce>                       not harmless; =monster_ is
-<ce>                    %g3 name and %g burned my lovely
-<ce>                    worshippers to crisps. Go to the
-<ce>                    abandoned temple where %g lurks,
-<ce>                          ___mondung_, and rip
-<ce>                      %g3 heart from %g3 chest. My
-<ce>                         agent, _contact_ will
-<ce>                       await you in ___contact_.
-<ce>                        _contact_ does not like
-<ce>                  to wait so accomplish the murder in
-<ce>                  =1stparton_ days or less. I have the
-<ce>                 delicious feeling we'll see each other
-<ce>                        again, %pcf. I hope so.
+<ce>            Vous ne le regretterez pas, %pcf,
+<ce>           à condition que vous vous acquittiez de
+<ce>           votre part du marché. Ce moine puritain
+<ce>           n'est pas inoffensif ; =monster_ est son
+<ce>           nom et %g il a réduit mes charmants
+<ce>           adorateurs en cendres. Allez au temple
+<ce>           abandonné où %g se cache,
+<ce>           ___mondung_, et arrachez-lui
+<ce>           le coeur de la poitrine. Mon
+<ce>           agent, _contact_ vous
+<ce>           attendra à ___contact_.
+<ce>           _contact_ n'aime pas attendre
+<ce>           alors accomplissez ce meurtre en
+<ce>           =1stparton_ jours ou moins.
+<ce>           J'ai le délicieux sentiment que nous nous
+<ce>           reverrons, %pcf. Je l'espère.
 
 QuestFail:  [1003]
-<ce>                  That pietistic reactionary is still
-<ce>                      alive and you know it, %pcf.
-<ce>                 Don't play games with Sanguine, %pct.
-<ce>                       You won't like the rules.
+<ce>                  Ce piètre réactionnaire est toujours
+<ce>                   vivant et vous le savez, %pcf.
+<ce>                  Ne jouez pas avec Sanguin, %pct.
+<ce>                   Vous n'aimeriez pas les règles.
 
 QuestComplete:  [1004]
-<ce>                      Charmed to meet you, %pcn.
-<ce>                        I'm _contact_. Sanguine
-<ce>                 must be quite enraptured with you. He
-<ce>                      had _artifact_ set aside for
-<ce>                  his favored disciples. And now it's
-<ce>                 yours. I hope you enjoy it immensely.
+<ce>                  Ravi de vous rencontrer, %pcn.
+<ce>                  Je suis _contact_. Sanguin
+<ce>                  doit être plutôt content de vous. Il
+<ce>                  avait mis de côté _artifact_ pour
+<ce>                  ses disciples favoris. Et à présent il est
+<ce>               à vous. J'espère vous l'apprécierez intensément.
 
 RumorsDuringQuest:  [1005]
-All those orgies that used to go on have been stamped out by =monster_.
+Toutes les orgies qui se sont déroulées ont été réprimées par =monster_.
 <--->
-There isn't much to do since =monster_ set a torch to the orgies.
+Il n'y a plus grand chose à faire depuis que =monster_ a incendié les orgies.
 
 RumorsPostfailure:  [1006]
-=monster_'s moved on -- %g's looking for dens of decadence to the north.
+=monster_ est parti -- %g chercher des lieux de décadence dans le nord.
 <--->
-Everyone's afraid to do anything at all fun with people like =monster_ around.
+Tout le monde craint de s'amuser, avec des gens tels que =monster_ dans les parages.
 
 RumorsPostsuccess:  [1007]
-Lots of people are happy about =monster_'s death. Just desserts for %g3 ilk.
+Nombreux sont ceux qui se réjouissent de la mort de =monster_. %g ne plaisait qu'à ses semblables.
 <--->
-The orgies have started up again now that =monster_'s out of the picture.
+Les orgies ont repris maintenant que =monster_ a disparu.
 
 Message:  1011
-Sanguine is the Daedra Prince of Lust. Anything in excess is his motto.
+Sanguin est le Prince Daedra de la Luxure. Tout en excès, c'est sa devise.
 <--->
-The Daedra Prince of Perversity and Unnatural Sexual Relations, of course.
+Le Prince Daedra de la Perversité et des Relations Sexuelles Contre-Nature, bien sûr.
 
 Message:  1012
-Just a leering =contact_ %di of here in __contact_.
+Juste un =contact_ sournois au %di d'ici à __contact_.
 <--->
-_contact_ is the name of a naughty =contact_ in __contact_.
+_contact_ est le nom d'un vilain =contact_ à __contact_.
 
 Message:  1014
-<ce>The Sanguine Rose summons a daedra to fight for you.  A risky proposition
-<ce>                                at best.
+<ce>La Rose Sanguine invoque un daedra afin qu'il combatte pour vous.
+<ce>                 C'est au mieux une action risquée.
                                      <--->
-<ce>The possessor of the Sanguine Rose is supposed to have the power to summon
-<ce>                    aid from the plane of Oblivion.
+<ce>Le possesseur de la Rose Sanguine est sensé avoir
+<ce>          le pouvoir d'invoquer de l'aide du Plan d'Oblivion.
 
 Message:  1015
-<ce>                          =monster_ is dead.
-<ce>                       Sanguine will be ecstatic,
-<ce>                               you hope.
+<ce>                         =monster_ est mort.
+<ce>                       Sanguine sera extatique,
+<ce>                               vous l'espérez.
 
 Message:  1020
 %qdt:
- Sanguine wants me to murder a
- monk named =monster_ in return for
- _artifact_. The monk
- is in ___mondung_ and must be dead in
- =1stparton_ days or less, and I must be
- in ___contact_ in
- =1stparton_ days to meet with _contact_
- at a place called __contact_.
+  Sanguin veut que j'assassine un
+  moine appelé =monster_ en échange de
+ _artifact_. Le moine
+  est à ___mondung_ et devra être mort dans
+ =1stparton_ jours ou moins, et je devrai être
+  à ___contact_ dans
+ =1stparton_ jours pour rencontrer _contact_
+  en un endroit appelé __contact_.
 
 
 -- Symbols used in the QRC file:
@@ -137,29 +136,29 @@ Clock _1stparton_ 00:00 0 flag 1 range 2 5
 Foe _monster_ is Monk
 
 --	Quest start-up:
-	start timer _1stparton_ 
-	reveal _mondung_ 
-	log 1020 step 0 
-	place foe _monster_ at _mondung_ 
-	create npc _contact_ 
+	start timer _1stparton_
+	reveal _mondung_
+	log 1020 step 0
+	place foe _monster_ at _mondung_
+	create npc _contact_
 
 _pcgetsgold_ task:
-	when _qgclicked_ and _mondead_ 
-	give pc _artifact_ 
-	end quest 
+	when _qgclicked_ and _mondead_
+	give pc _artifact_
+	end quest
 --removed unnecessary delay
 
 _mondead_ task:
-	killed 1 _monster_ 
-	say 1015 
+	killed 1 _monster_
+	say 1015
 
 _qgclicked_ task:
-	clicked npc _contact_ 
+	clicked npc _contact_
 
 _1stparton_ task:
-	end quest 
+	end quest
 
 _clearclick_ task:
-	when _qgclicked_ and not _mondead_ 
+	when _qgclicked_ and not _mondead_
 	say 1003
-	clear _qgclicked_ 
+	clear _qgclicked_

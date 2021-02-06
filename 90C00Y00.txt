@@ -11,110 +11,112 @@ DisplayName: Vaernima's Quest
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                    A very wise %ra once said that
-<ce>                   power corrupts, and absolute power
-<ce>                   is absolutely fabulous. That's why
-<ce>                    I am going to help you. Now, I'm
-<ce>                  sure you have certain moral problems
-<ce>                  with murdering an innocent who never
-<ce>                   hurt you in any way. But you'll do
-<ce>                 it to win my Skull of Corruption, yes?
+<ce>                    Un vénérable %ra a dit un jour que
+<ce>                   le pouvoir corrompt et que le pouvoir absolu
+<ce>                   est absolument fabuleux. C'est pourquoi
+<ce>                  je vais vous aider. Cependant, je suis sûre
+<ce>                  que vous avez quelques problèmes moraux avec
+<ce>                l'assassinat d'un innocent qui ne vous a jamais
+<ce>                   fait le moindre mal. Mais vous le ferez
+<ce>                 pour gagner mon Crâne de Corruption, n'est-ce pas ?
 
 RefuseQuest:  [1001]
-<ce>                          No? Why ... you ...
-<ce>                        contemptible, sniveling,
-<ce>                        virtuous, sterling piece
-<ce>                        of goblin snot! I'm not
-<ce>                        going waste my precious
-<ce>                          time with anyone so
-<ce>                           poisonously moral.
+<ce>                          Non ? Comment... vous...
+<ce>                         méprisable, pleurnicheur,
+<ce>                       vertueux, arrogant espèce de
+<ce>                     gobelin morveux ! Je ne vais pas
+<ce>                      perdre mon précieux temps
+<ce>                       avec quelqu'un d'aussi
+<ce>                        vénéneusement moral.
 
 AcceptQuest:  [1002]
-<ce>               Grand. The particular innocent I have in
-<ce>                      mind is a _monster_. You're
-<ce>               probably thinking, an innocent lich? Well,
-<ce>                    innocent to you. To me, he is a
-<ce>                  treacherous former servant who took
-<ce>                all the power I offered him, and ignored
-<ce>                my orders. You will find his cadaverous
-<ce>                        presence in ___mondung_.
-<ce>                He's nervous, so be ready for a battle.
-<ce>                After your victory, go to ___qgfriend_,
-<ce>                  and look for my servant _qgfriend_,
-<ce>                      a =qgfriend_ at __qgfriend_.
+<ce>              Magnifique. L'innocent en question que j'ai
+<ce>                  en tête est un _monster_. Vous devez
+<ce>           probablement vous dire, une innocente liche ? Eh bien,
+<ce>                 innocente pour vous. Pour moi, c'est un
+<ce>               ancien serviteur perfide qui a pris tout
+<ce>              le pouvoir que lui ai offert, puis a ignoré
+<ce>               mes ordres. vous trouverez sa présence
+<ce>                   cadavérique à ___mondung_.
+<ce>           Il est nerveux, alors préparez-vous à vous battre.
+<ce>              Après votre victoire, allez à ___qgfriend_,
+<ce>                et cherchez mon serviteur _qgfriend_,
+<ce>                   un =qgfriend_ à __qgfriend_.
+
 
 QuestFail:  [1003]
-<ce>                       Why, you treacherous %ra.
-<ce>                    Are you pretending you've slain
-<ce>                   the lich to get your grabby hands
-<ce>                    on the Skull? Vaernima would be
-<ce>                     amused, but, alas, I am under
-<ce>                     strict orders. Come back when
-<ce>                    you've fulfilled your contract.
+<ce>                      Quoi, espèce de %ra perfide.
+<ce>                   Pretendez-vous avoir tué la liche
+<ce>                     afin de poser vos mains avides
+<ce>                     sur le Crâne ? Vaernima serait
+<ce>                     amusée, mais hélas, mes ordres
+<ce>                     sont stricts. Revenez quand vous
+<ce>                     aurez accompli votre contrat.
 
 QuestComplete:  [1004]
-<ce>                 So, did the lich cough up a cloud of
-<ce>                     dust when it died? _qgfriend_
-<ce>                    here, %pcf. Vaernima will be so
-<ce>                   pleased with the news. I hope you
-<ce>                   won't mind if I embellish a little
-<ce>                  about some horrible outrageous sins
-<ce>                   you committed in your journey. Here
-<ce>                   is _artifact_. Use it whenever you
-<ce>                  want a target to be faced with their
-<ce>                     darkest side. Farewell, %pcf,
-<ce>                              but do bad.
+<ce>               Ainsi, la liche a craché un nuage de
+<ce>              poussière quand elle est morte ? _qgfriend_
+<ce>              ici, %pcf. Vaernima sera tellement
+<ce>              ravie de cette nouvelle. J'espère que cela ne
+<ce>              vous dérange pas si j'embellis un peu les choses
+<ce>              avec quelques horrible pêchés scandaleux
+<ce>              que vous auriez commis durant votre voyage.
+<ce>              Voici _artifact_. Utilisez-le chaque fois que
+<ce>              vous souhaitez qu'un adversaire se retrouve
+<ce>              confronté à son côté le plus sombre.
+<ce>                          Adieu, %pcf,
+<ce>                    et surtout faites le mal.
 
 RumorsDuringQuest:  [1005]
-There is a curse on this land while that lich remains in ___mondung_.
+Cette région est maudite tant que cette liche réside à ___mondung_.
 <--->
-If only some great hero would come to slay that ancient lich in ___mondung_.
+Si seulement un grand héros venait tuer cette ancienne liche à ___mondung_.
 
 RumorsPostfailure:  [1006]
-That lich left ___mondung_, but it's not dead. It'll be back when it's ready.
+Cette liche a quitté ___mondung_, mais elle n'est pas morte. Elle reviendra lorsqu'elle sera prête.
 <--->
-I'm just happy that lich is gone, even if it isn't dead.
+Je suis bien content que cette liche soit partie, même si elle n'est pas morte.
 
 RumorsPostsuccess:  [1007]
-I hear %god sent us an angel to rid ___mondung_ of that accursed lich.
+Il paraît que %god nous a envoyé un ange pour débarrasser ___mondung_ de cette maudite liche.
 <--->
-We may never know who destroyed that lich in ___mondung_, but he's in our prayers.
+Il se peut qu'on ne sache jamais qui a détruit cette liche à ___mondung_, mais il est dans nos prières.
 
 Message:  1011
-_qgfriend_ is that creepy =qgfriend_ over at __qgfriend_ to the %di.
+_qgfriend_ est ce =qgfriend_ terrifiant, là-bas à __qgfriend_ vers le %di.
 <--->
-_qgfriend_ is the foul-smelling =qgfriend_ I saw at __qgfriend_.
+_qgfriend_ est le =qgfriend_ puant que j'ai vu à __qgfriend_.
 
 Message:  1012
-_qgfriend_ is one of Vaernima's agents of corruption in %reg.
+_qgfriend_ est l'un des agents corrupteurs de Vaernima à %reg.
 <--->
-_qgfriend_ is one of Vaernima's dirty little spreaders of corruption.
+_qgfriend_ est l'un des sales petits colporteurs de corruption de Vaernima.
 
 Message:  1013
-Vaernima is the Daedra Lady of Corruption and Decay. Not nice to look at.
+Vaernima est la Lady Daedra de la Corruption et de la Décadence. Pas belle à voir.
 <--->
-Vaernima is a Regent of Oblivion, and her sphere is Corruption and Decay.
+Vaernima est une Régente d'Oblivion, et sa sphère est la Corruption et la Décadence.
 
 Message:  1014
-The Skull of Corruptions creates dark and oppositional duplicates of a target.
+Le Crâne de Corruption crée le clone maléfique et opposé d'un adversaire.
 <--->
-The Skull brings forth a target's dark half from Vaernima's plane of Oblivion.
+Le Crâne ramène la moitié ténébreuse d'un adversaire depuis le plan d'Oblivion de Vaernima.
 
 Message:  1015
-<ce>                     You have slain the _monster_,
-<ce>                  fulfilling your part of the bargain
-<ce>                          with Lady Vaernima.
+<ce>                     Vous avez tué _monster_,
+<ce>                   accomplissant votre part du marché
+<ce>                        avec Lady Vaernima.
 
 Message:  1020
 %qdt:
- I have made a contract with the Daedra Prince Vaernima.
- She will order her agent in ___qgfriend_
- to give me her artifact, _artifact_, if
- I can meet %g2 at __qgfriend_ with the
- dust of a certain _monster_ on my hands
- in =1stparton_ days or less.
- All I know about the _monster_ is that it
- lives in ___mondung_.
+%qdt: J'ai passé un pacte avec la Princcesse Daedra
+ Vaernima. Elle ordonnera à son agent à ___qgfriend_
+ de me donner son artéfact, _artifact_, si
+ je peux le retrouver à __qgfriend_ avec les cendres
+ d'un certain _monster_ dans les mains,
+ dans =1stparton_ jours ou moins.
+ Tout ce que je sais de _monster_, c'est qu'il
+ vit à ___mondung_.
 
 
 -- Symbols used in the QRC file:
@@ -147,32 +149,32 @@ Foe _monster_ is Lich
 --fixed msg 1020 to not share qdt line
 
 --	Quest start-up:
-	start timer _1stparton_ 
-	reveal _mondung_ 
-	log 1020 step 0 
-	place foe _monster_ at _mondung_ 
+	start timer _1stparton_
+	reveal _mondung_
+	log 1020 step 0
+	place foe _monster_ at _mondung_
 
 _1stparton_ task:
-	end quest 
+	end quest
 
 variable _2ndparton_
 --unused variable
 _pcgetsgold_ task:
-	when _npcclicked_ and _mondead_ 
-	give pc _artifact_ 
-	end quest 
+	when _npcclicked_ and _mondead_
+	give pc _artifact_
+	end quest
 --removed unnecessary delay
 
 variable _queston_
 --unused variable
 _mondead_ task:
-	killed 1 _monster_ 
-	say 1015 
+	killed 1 _monster_
+	say 1015
 
 _npcclicked_ task:
-	clicked npc _qgfriend_ 
+	clicked npc _qgfriend_
 
 _clearclick_ task:
-	when _npcclicked_ and not _mondead_ 
+	when _npcclicked_ and not _mondead_
 	say 1003
-	clear _npcclicked_ 
+	clear _npcclicked_
