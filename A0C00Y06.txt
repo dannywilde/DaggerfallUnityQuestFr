@@ -11,62 +11,61 @@ DisplayName: An Unexpected Journey
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                         My name is _qgiver_.
-<ce>                       My master has asked me to
-<ce>                        find a brave adventurer
-<ce>                       for a dangerous mission.
-<ce>                        I cannot tell you more,
-<ce>                       other than to say that it
-<ce>                      is worth _gold_ gold pieces
-<ce>                       to whoever succeeds. Are
-<ce>                            you interested?
+<ce>                         Mon nom est _qgiver_.
+<ce>                       Mon maître m'a demandé de
+<ce>                    trouver un valeureux aventurier
+<ce>                      pour une mission dangereuse.
+<ce>                     Je ne peux vous en dire plus,
+<ce>                        si ce n'est que cette
+<ce>                   mission rapportera _gold_ pièces d'or
+<ce>                        à qui l'accomplira. Cela
+<ce>                         vous intéresse-t-il ?
 
 RefuseQuest:  [1001]
-<ce>                      I shall seek elsewhere for
-<ce>                         a hero to fulfill my
-<ce>                            master's quest.
+<ce>                      Je devrai chercher ailleurs
+<ce>                        un héros pour accomplir
+<ce>                         la quête de mon maître.
 
 AcceptQuest:  [1002]
-<ce>                         Go to _meetingplace_.
-<ce>                        There you will find my
-<ce>                                master.
+<ce>                         Allez à _meetingplace_.
+<ce>                        Là vous trouverez mon
+<ce>                               maître.
 
 QuestLogEntry:  [1010]
-%qdt: I met
- _qgiver_ in ___qgiver_,
- who told me %g3 master in
- _meetingplace_ would
- pay _gold_ gold pieces for
- an unknown but certainly
- dangerous task.
+%qdt:  J'ai rencontré
+ _qgiver_ à ___qgiver_,
+ qui m'a dit que son maître, à
+ _meetingplace_, me payerait
+  _gold_ pièces d'or pour
+ un travail mystérieux et
+ certainement dangereux.
 
 Message:  1011
-%qdt: The traitor
- _traitor_ magicked me
- to __dungeon_.
- If I ever get out, we will meet again.
+%qdt: Le traitre
+ _traitor_ m'a téléporté
+ dans __dungeon_.
+ Si je sors d'ici, je le retrouverai.
 
 Message:  1012
-<ce>                       Know me for who I really
-<ce>                      am. I am your mortal enemy,
-<ce>                          _traitor_! I have a
-<ce>                       special fate in store for
-<ce>                                 you.
+<ce>                        Découvrez mon vrai visage.
+<ce>                      Je suis votre ennemi mortel
+<ce>                        _traitor_ ! Et je vous ai
+<ce>                        réservé un sort funeste.
 
 Message:  1013
-<ce>                        I didn't know _traitor_
-<ce>                      would betray you like that.
-<ce>                       I ain't got no beef with
-<ce>                          you, %pcn. %g moved
-<ce>                    to _hidingplace_ here in town.
-<ce>                          Look for %g2 there.
+<ce>                      Je ne savais pas que _traitor_
+<ce>                       vous trahirait de la sorte.
+<ce>                       Je n'ai rien contre vous,
+<ce>                        %pcn. %g a fait route
+<ce>                   vers _hidingplace_ ici en ville.
+<ce>                       Cherchez là-bas.
 
 Message:  1014
-<ce>                         I don't know how you
-<ce>                       escaped from ___dungeon_,
-<ce>                         %pcf. It won't do you
-<ce>                       much good, though. Prepare
-<ce>                                to die!
+<ce>                      Je ne sais pas comment vous avez pu
+<ce>                         vous enfuir de ___dungeon_
+<ce>                        %pcf. Mais cela ne vous
+<ce>                      sauvera pas. Préparez vous à
+<ce>                              mourir !
 
 
 -- Symbols used in the QRC file:
@@ -102,51 +101,51 @@ Clock _shortdelay_ 00:01 0 flag 1 range 0 1
 Foe _mtraitor_ is Mage
 
 --	Quest start-up:
-	dialog link for location _hidingplace_ 
-	start timer _escapetime_ 
-	log 1010 step 0 
-	place npc _traitor_ at _meetingplace_ 
+	dialog link for location _hidingplace_
+	start timer _escapetime_
+	log 1010 step 0
+	place npc _traitor_ at _meetingplace_
 
 _escapetime_ task:
-	end quest 
+	end quest
 
 variable _shortdelay_
 _clickonenemy_ task:
-	clicked npc _traitor_ say 1012 
-	start timer _shortdelay_ 
-	hide npc _traitor_ 
-	place foe _mtraitor_ at _meetingplace_ 
+	clicked npc _traitor_ say 1012
+	start timer _shortdelay_
+	hide npc _traitor_
+	place foe _mtraitor_ at _meetingplace_
 
 _traitordead_ task:
-	killed 1 _mtraitor_ 
-	end quest 
+	killed 1 _mtraitor_
+	end quest
 --removed unnecessary delay
 
 _teleportpc_ task:
-	pc at _hidingplace_ set _revenge_ 
-	when not _traitordead_ and _shortdelay_ 
-	reveal _dungeon_ 
-	log 1011 step 1 
-	place foe _mtraitor_ at _hidingplace_ 
-	teleport pc to _dungeon_ 
+	pc at _hidingplace_ set _revenge_
+	when not _traitordead_ and _shortdelay_
+	reveal _dungeon_
+	log 1011 step 1
+	place foe _mtraitor_ at _hidingplace_
+	teleport pc to _dungeon_
 
 _hittraitor_ task:
-	injured _mtraitor_ 
+	injured _mtraitor_
 
 variable _revenge_
 _foundme_ task:
-	when _revenge_ and _hittraitor_ and _teleportpc_ 
-	say 1014 
+	when _revenge_ and _hittraitor_ and _teleportpc_
+	say 1014
 
 variable _questdone_
 _clickqgiver_ task:
-	clicked npc _qgiver_ 
+	clicked npc _qgiver_
 
 _findtraitor_ task:
-	when _clickqgiver_ and _teleportpc_ 
-	add dialog for location _hidingplace_ 
-	say 1013 
+	when _clickqgiver_ and _teleportpc_
+	add dialog for location _hidingplace_
+	say 1013
 
 _clearclick_ task:
-	when _clickqgiver_ and not _teleportpc_ 
-	clear _clickqgiver_ 
+	when _clickqgiver_ and not _teleportpc_
+	clear _clickqgiver_

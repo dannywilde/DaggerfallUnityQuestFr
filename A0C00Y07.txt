@@ -12,82 +12,84 @@ DisplayName: The Exterminator
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                I need help. _qgiver_ at your service,
-<ce>                 although I hope yours will be at mine.
-<ce>                   _house_ is infested with monsters.
-<ce>                Can you kill them for me? I can pay you
-<ce>                          _gold_ gold pieces.
+<ce>           J'ai besoin d'aide. Je suis _qgiver_, à votre service,
+<ce>              bien que j'espère que vous serez au mien.
+<ce>                 _house_ est infesté de monstres.
+<ce>            Pouvez-vous les tuer pour moi ? Je vous paierai
+<ce>                       _gold_ pièces d'or.
 
 RefuseQuest:  [1001]
-<ce>                 I need help! Won't somebody help me?
+<ce>           J'ai besoin d'aide ! Est-ce que personne ne va m'aider ?
 
 AcceptQuest:  [1002]
-<ce>             Thank you, thank you, thank you! If they are
-<ce>            not gone by this time tomorrow, I'll be ruined.
+<ce>             Merci, merci, merci ! S'ils ne sont pas éliminés
+<ce>                demain à la même heure, je serai ruiné.
 
 QuestComplete:  [1004]
-<ce>                What a relief. I hate those things. You
-<ce>                     have been most helpful, %pcn.
-<ce>                Here is the _gold_ gold that I promised.
+<ce>               Quel soulagement ! Je hais ces choses !
+<ce>                  Vous m'avez été très utile, %pcn.
+<ce>          Voici les _gold_ pièces d'or que je vous avais promises.
 
 RumorsDuringQuest:  [1005]
-<ce>                   I think it's hilarious! _qgiver_'s
-<ce>                  _house_ is overrun with giant bugs!
+<ce>                Je trouve cela hilarant ! La maison de _qgiver_
+<ce>                     est envahie de cafards géants !
                                      <--->
-<ce>                    I feel sorry for _qgiver_. %g3
-<ce>                    _house_ has been virtually taken
-<ce>                over by 12 foot long rats with poisonous
-<ce>                stingers. I hear they can turn a man to
-<ce>                      stone with a single glance!
+<ce>                 La situation de _qgiver_ me navre. Sa
+<ce>                   maison a été littéralement envahie
+<ce>               par des rats de 4 mètres de long, avec des dards
+<ce>               empoisonnés. J'ai entendu dire qu'ils peuvent transformer
+<ce>                   un homme en pierre d'un simple regard !
 
 RumorsPostfailure:  [1006]
-<ce>                     _qgiver_ had to sell _house_.
+<ce>                    _qgiver_ a dû vendre _house_ !
                                      <--->
-<ce>               I hear someone in the Fighters Guild died
-<ce>                   trying to clear the infestation of
-<ce>                          _qgiver_'s _house_.
+<ce>               J'ai entendu dire que quelqu'un
+<ce>               à la Guilde des Guerriers est
+<ce>              mort en essayant de désinfecter
+<ce>                  _house_ de _qgiver_.
 
 RumorsPostsuccess:  [1007]
-<ce>                    Aren't you the %ra that helped
-<ce>                     _qgiver_ get rid of the beasts
-<ce>                    that had taken over %g3 _house_?
+<ce>                  N'êtes vous pas le fameux %ra qui a aidé
+<ce>                   _qgiver_ à se débarrasser des monstres
+<ce>                    qui avaient envahi sa maison ?
                                      <--->
-<ce>                       I hear that _qgiver_ paid
-<ce>                   someone to kill all the creatures
-<ce>                     that had overrun %g3 _house_.
+<ce>                   J'ai entendu dire que _qgiver_ avait payé
+<ce>                   quelqu'un pour le débarrasser des monstres
+<ce>                     qui avaient envahi sa maison.
 
 QuestorPostsuccess:  [1008]
-<ce>                %pcf, I owe you a debt of gratitude for
-<ce>                    clearing my _house_ of monsters.
+<ce>               %pcf, j'ai une dette envers vous pour avoir
+<ce>                 nettoyé ma demeure de ses monstres.
                                      <--->
-<ce>                Everyone, listen up. I want you to meet
-<ce>             my friend, %pcn, exterminator extraordinaire.
-<ce>               %g rid my _house_ of three dozen monsters!
+<ce>              Ecoutez, tout le monde ! Je voudrais vous présenter
+<ce>            mon compagnon, %pcn, l'extraordinaire exterminateur.
+<ce>              %g a débarrassé ma demeure de trois douzaines
+<ce>                          de monstres !
 
 QuestorPostfailure:  [1009]
-<ce>                  You! You ruined me! I lost _house_
-<ce>                 because you weren't able to take care
-<ce>                    of a handful of monsters in it.
+<ce>                  Vous ! Vous m'avez ruiné ! J'ai perdu _house_
+<ce>                 parce que vous n'avez pas été capable de
+<ce>                  me débarrasser d'une poignée de monstres.
                                      <--->
-<ce>                  Aren't you the %ra that failed me?
-<ce>                   I hired you to kill some monsters
-<ce>                     infesting my _house_, and you
-<ce>                     just couldn't do it. Go away.
+<ce>                 N'êtes vous pas l'immonde %ra qui m'a ruiné ?
+<ce>                Je vous avais engagé pour tuer quelques monstres
+<ce>                    qui infestaient _house_, et vous
+<ce>                     avez échoué ! Allez-vous en !
 
 QuestLogEntry:  [1010]
 %qdt:
- In ___qgiver_, I met _qgiver_.
- %g asked me to rid _house_ in
- __house_ of monsters. %g needs
- them gone within a day.
+A ___qgiver_, j'ai rencontré _qgiver_.
+%g m'a demandé de nettoyer _house_ à
+__house_ des monstres qui s'y trouvent.
+%g veut en être débarrassé en un jour.
 
 Message:  1011
-<ce>  That should be enough.
+<ce>  Cela devrait suffire.
 
 Message:  1012
-<ce>  You hear scratching noises coming from the walls.
-<ce>  The creatures will most certainly react poorly
-<ce>  to your intrusion on their territory.
+<ce>  Vous entendez des bruits de grattement provenant des murs
+<ce>  Les créatures n'apprécierons certainement pas
+<ce>  votre intrusion sur leur territoire.
 
 -- Symbols used in the QRC file:
 --
@@ -119,13 +121,13 @@ Foe _scorpions_ is Giant_scorpion
 Foe _bats_ is Giant_bat
 
 --	Quest start-up:
-	start timer _oneday_ 
-	log 1010 step 0 
-	pc at _house_ set _S.01_ 
-	create npc at _house_ 
+	start timer _oneday_
+	log 1010 step 0
+	pc at _house_ set _S.01_
+	create npc at _house_
 
 _oneday_ task:
-	end quest 
+	end quest
 
 --instant reward glitch fixed.
 _questdone_ task:
@@ -137,42 +139,42 @@ _S.01_ task:
 --preventing multiple spawns by using static pick
 
 _pickspawn_ task:
-	pick one of _S.04_ _S.05_ _S.06_ _S.07_ 
+	pick one of _S.04_ _S.05_ _S.06_ _S.07_
 
 --this quest had a rare case of no victory message
 _S.03_ task:
-	killed 6 _bats_ 
-	killed 3 _spiders_ 
-	killed 7 _rats_ 
+	killed 6 _bats_
+	killed 3 _spiders_
+	killed 7 _rats_
 	killed 3 _scorpions_
 	say 1011
 
 variable _S.04_
 _spawn1_ task:
 	when _S.01_ and _S.04_ and not _S.03_
-	create foe _bats_ every 2 minutes indefinitely with 100% success 
+	create foe _bats_ every 2 minutes indefinitely with 100% success
 
 variable _S.05_
 _spawn2_ task:
 	when _S.01_ and _S.05_ and not _S.03_
-	create foe _rats_ every 2 minutes indefinitely with 100% success 
+	create foe _rats_ every 2 minutes indefinitely with 100% success
 
 variable _S.06_
 _spawn3_ task:
 	when _S.01_ and _S.06_ and not _S.03_
-	create foe _scorpions_ every 3 minutes indefinitely with 100% success 
+	create foe _scorpions_ every 3 minutes indefinitely with 100% success
 
 variable _S.07_
 _spawn4_ task:
 	when _S.01_ and _S.07_ and not _S.03_
-	create foe _spiders_ every 3 minutes indefinitely with 100% success 
+	create foe _spiders_ every 3 minutes indefinitely with 100% success
 
 _clearclick_ task:
-	when not _S.03_ and _questdone_ 
-	clear _questdone_ _clearclick_ 
+	when not _S.03_ and _questdone_
+	clear _questdone_ _clearclick_
 
 
 _pcgetsgold_ task:
 	when _questdone_ and _S.03_
-	give pc _gold_ 
+	give pc _gold_
 	end quest
