@@ -11,131 +11,134 @@ DisplayName: The Escort
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                          I am _questgiver_.
-<ce>              I am in need of an escort. Would you protect
-<ce>                  me on my journey to __destination_?
-<ce>               It's less than =traveltime_ days from here.
+<ce>                          Je suis _questgiver_.
+<ce>              J'ai besoin d'une escorte. Accepteriez-
+<ce>                vous de me protéger dans mon voyage
+<ce>                   vers __destination_ ?
+<ce>              C'est à moins de =traveltime_ jours d'ici.
                                      <--->
-<ce>                       My name is _questgiver_.
-<ce>                  I have to get out of ___questgiver_
-<ce>             right away. I want to hire you to guard me on
-<ce>                     my journey to __destination_.
-<ce>                   I can pay you _gold_ gold pieces.
+<ce>                      Mon nom est _questgiver_.
+<ce>                 Je dois quitter ___questgiver_
+<ce>                bientôt. Je voudrais vous engager
+<ce>                pour me protéger durant mon voyage
+<ce>                       vers __destination_.
+<ce>              Je peux vous payer _gold_ pièces d'or.
                                      <--->
-<ce>             You have to help me! My name is _questgiver_.
-<ce>                 I need to get to __destination_ within
-<ce>                =traveltime_ days and I need an escort.
+<ce>            Vous devez m'aider ! Mon nom est _questgiver_.
+<ce>                 J'ai besoin d'être à __destination_
+<ce>        dans les =traveltime_ jours et j'ai besoin d'une escorte.
 
 RefuseQuest:  [1001]
-<ce>                   I guess I'll have to find someone
-<ce>                   else to protect me on my journey.
+<ce>                   Je suppose que je devrai trouver quelqu'un
+<ce>                   d'autre pour me protéger durant mon voyage.
                                      <--->
-<ce>                            Heartless oaf!
+<ce>                          Rustre sans-coeur !
 
 AcceptQuest:  [1002]
-<ce>                       Blessings upon you, %pcn.
-<ce>                  I travel light, so I'm ready to go.
-<ce>                    I know you don't work for free.
-<ce>                      Take me to _destination_ in
-<ce>              __destination_ and I'll pay you _gold_ gold
-<ce>                           when we get there.
+<ce>                       Soyez béni %pcn.
+<ce>                 Je voyage léger, je suis donc prêt à partir.
+<ce>              Je sais que vous ne travaillez pas pour rien.
+<ce>                     Amenez-moi à _destination_ à
+<ce>                 __destination_ et je vous paierai
+<ce>        _gold_ pièces d'or quand nous serons là-bas.
 
 QuestComplete:  [1004]
-<ce>                        Ah! _destination_! You
-<ce>                    have fulfilled your part of the
-<ce>                      bargain. Here is the gold I
-<ce>                             promised you.
+<ce>                       Ah ! _destination_ ! Vous
+<ce>                    avez rempli votre part du marché.
+<ce>                  Voici l'or que je vous avais promis.
 
 RumorsDuringQuest:  [1005]
-<ce>                   I hear the guards are looking for
-<ce>                 _questgiver_. %g had to flee the town.
+<ce>                   Il paraît que les gardes recherchent
+<ce>                 _questgiver_. %g a dû fuir la ville.
                                      <--->
-<ce>                 Don't you know? The Thieves Guild is
-<ce>                   after _questgiver_. Or was it the
-<ce>                      Dark Brotherhood? I forget.
+<ce>                 Vous savez quoi ? La Guilde des Voleurs
+<ce>                    en a après _questgiver_. Ou alors
+<ce>                    c'était la Confrérie Noire ?
+<ce>                      Je ne m'en souviens plus.
                                      <--->
-<ce>                     I heard _questgiver_ has been
-<ce>                   forced to marry. %g has to get to
-<ce>                       __destination_ before the
-<ce>                       pregnancy begins to show.
+<ce>                   Il paraît que _questgiver_ a été
+<ce>                  obligé de se marier. %g a dû aller
+<ce>                     à __destination_ avant que
+<ce>                 la grossesse ne devienne visible.
 
 RumorsPostfailure:  [1006]
-<ce>                     They caught _questgiver_. %g
-<ce>                      will stand trial next week.
+<ce>                    Ils ont attrapé _questgiver_. %g
+<ce>                    sera jugé la semaine prochaine.
 
 RumorsPostsuccess:  [1007]
-<ce>                    Did you hear? Some %ra smuggled
-<ce>                     _questgiver_ out of town just
-<ce>                   in time. Otherwise they would have
-<ce>                         beheaded %g2 for sure.
+<ce>                   Vous êtes au courant ? Un %ra a fait passer
+<ce>                   _questgiver_ hors de la ville juste à
+<ce>                 temps. Autrement ils l'auraient décapité,
+<ce>                             c'est sûr.
 
 QuestorPostsuccess:  [1008]
-<ce>                   Thanks for getting me out of that
-<ce>                     town, %pcf. I have recommended
-<ce>                     you to several of my friends.
+<ce>                Merci de m'avoir fait sortir de cette ville,
+<ce>                    %pcf. Je vous ai recommandé
+<ce>                   à plusieurs de mes amis.
 
 QuestorPostfailure:  [1009]
-<ce>                    You! Because you wouldn't help
-<ce>                    me get out of town, the Thieves
-<ce>                      Guild took my shop! Go away.
+<ce>                   Vous ! Parce que vous ne m'avez pas
+<ce>                  aidé à quitter la ville, la Guilde des
+<ce>                   Voleurs a saisi ma boutique ! Sortez.
 
 QuestLogEntry:  [1010]
 %qdt:
- I met _questgiver_
- in ___questgiver_. %g
- will pay me to escort %g2 to
- _destination_ in __destination_.
- In particular, %g needs to get to _destination_
- within =traveltime_ days.
+J'ai rencontré _questgiver_
+à ___questgiver_. %g
+me paiera pour l'escorter à
+_destination_ en __destination_.
+En particulier, %g a besoin d'être à
+_destination_ dans les =traveltime_ jours.
 
 Message:  1019
-<ce>                        _questgiver_ says, "Ha!
-<ce>                     I hired this %ra to protect me
-<ce>                        from this. %pcn, are you
-<ce>                        going to turn me over?"
+<ce>                       _questgiver_ dit, "Ha !
+<ce>                    J'ai engagé ce %ra pour me
+<ce>                      protéger de cela. %pcn,
+<ce>                     allez-vous m'abandonner ?"
 
 Message:  1020
-<ce>                    Halt! I have a warrant for the
-<ce>                     arrest of _questgiver_ in the
-<ce>                    name of %reg. We don't want you,
-<ce>                    just %g2. Turn %g2 over and you
-<ce>                              can go free.
+<ce>                   Halte ! J'ai un mandat pour arrêter
+<ce>                     _questgiver_ au nom de %reg.
+<ce>                     Ce n'est pas vous que nous voulons,
+<ce>                    mais simplement _questgiver_.
+<ce>                       Livrez _questgiver_
+<ce>                  et vous pourrez partir librement.
 
 Message:  1021
-<ce>                   There is no need for us to fight.
-<ce>                   Our quarrel is with _questgiver_.
-<ce>                    The Mages Guild does not accept
-<ce>                     treachery lightly. Give %g2 to
-<ce>                     us and you can be on your way.
+<ce>                  Il n'est pas nécessaire de nous battre.
+<ce>                   Notre différent concerne _questgiver_.
+<ce>                   La Guilde des Mages n'accepte pas
+<ce>                  la moindre trahison. Livrez nous _questgiver_
+<ce>                 et vous pourrez reprendre votre route.
 
 Message:  1022
-<ce>                      Out of the way, %ra. We want
-<ce>                         _questgiver_, and you
-<ce>                   can't stop us. Just turn %g2 over.
-<ce>                         Hey, _questgiver_. You
-<ce>                    didn't think you could cheat the
-<ce>                    Thieves Guild and live, did you?
+<ce>                     Hors de notre route %ra. Nous voulons
+<ce>                      _questgiver_ et vous ne pouvez pas nous
+<ce>                    arrêter. Livrez nous _questgiver_ simplement.
+<ce>                      Hé, _questgiver_. Tu ne pensais
+<ce>                   pas que tu pourrais tromper la Guilde
+<ce>                des Voleurs et continuer à vivre, n'est-ce pas ?
 
 Message:  1023
-<ce>                           Stand aside, %ra.
-<ce>                       _questgiver_ is wanted by
-<ce>                       the Dark Brotherhood. You
-<ce>                      aren't such a fool as to try
-<ce>                        to protect %g2, are you?
+<ce>                        Restez en dehors de cela, %ra.
+<ce>                       _questgiver_ est recherché
+<ce>                       par la Confrérie Noire. Vous
+<ce>                      n'êtes pas assez fou pour essayer
+<ce>                      de protéger _questgiver_, n'est-ce pas ?
 
 Message:  1030
-<ce>                         _questgiver_ is slain
-<ce>                        right before your eyes.
+<ce>                        _questgiver_ a été
+<ce>                       assassiné juste sous vos yeux.
 
 Message:  1040
-<ce>                  Have it your way. Kill them both!
+<ce>                Comme vous voulez. Tuez-les tous les deux !
 
 Message:  1050
-<ce>                          Are you lost, %pcn?
-<ce>                      I guess I'll have to find my
-<ce>                       own way to __destination_.
-<ce>                     Thanks for nothing, worthless
-<ce>                                wretch.
+<ce>                         Etes-vous perdu, %pcn ?
+<ce>                     On dirait que je vais devoir
+<ce>                    trouver mon chemin tout seul
+<ce>                        vers __destination_.
+<ce>                 Je ne vous remercie pas, misérable vaurien.
 
 
 -- Symbols used in the QRC file:
@@ -172,94 +175,94 @@ Foe _guards_ is 2 Warrior
 Foe _F.03_ is 2 Assassin
 
 --	Quest start-up:
-	start timer _traveltime_ 
-	log 1010 step 0 
-	pick one of _S.01_ _S.02_ _S.14_ _S.03_ 
-	hide npc _questgiver_ 
-	add _questgiver_ face 
-	create npc at _destination_ 
+	start timer _traveltime_
+	log 1010 step 0
+	pick one of _S.01_ _S.02_ _S.14_ _S.03_
+	hide npc _questgiver_
+	add _questgiver_ face
+	create npc at _destination_
 
 variable _traveltime_
 _S.01_ task:
-	create foe _guards_ every 5 minutes 5 times with 20% success 
+	create foe _guards_ every 5 minutes 5 times with 20% success
 
 _S.02_ task:
-	create foe _mages_ every 5 minutes 3 times with 25% success 
+	create foe _mages_ every 5 minutes 3 times with 25% success
 
 _S.03_ task:
-	create foe _F.01_ every 5 minutes 3 times with 25% success 
+	create foe _F.01_ every 5 minutes 3 times with 25% success
 
 variable _S.04_
 _S.05_ task:
-	injured _mages_ saying 1021 
-	injured _guards_ saying 1020 
-	injured _F.03_ saying 1023 
-	injured _F.01_ saying 1022 
-	prompt 1019 yes _yes_ no _no_ 
+	injured _mages_ saying 1021
+	injured _guards_ saying 1020
+	injured _F.03_ saying 1023
+	injured _F.01_ saying 1022
+	prompt 1019 yes _yes_ no _no_
 --added underscores to yes
 
 _S.06_ task:
-	give pc _gold_ 
-	drop _questgiver_ face 
-	place npc _questgiver_ at _destination_ 
-	end quest 
+	give pc _gold_
+	drop _questgiver_ face
+	place npc _questgiver_ at _destination_
+	end quest
 
 _extratime_ task:
-	end quest 
+	end quest
 
 _yes_ task:
-	start timer _extratime_ 
-	say 1030 
-	drop _questgiver_ face 
+	start timer _extratime_
+	say 1030
+	drop _questgiver_ face
 
 until _yes_ performed:
-	pc at _destination_ set _S.06_ 
+	pc at _destination_ set _S.06_
 
 _no_ task:
-	say 1040 
+	say 1040
 
 variable _S.10_
 _S.11_ task:
-	when _yes_ and _S.01_ 
-	legal repute +10 
-	restrain foe _guards_ 
+	when _yes_ and _S.01_
+	legal repute +10
+	restrain foe _guards_
 
 _S.12_ task:
-	when _yes_ and _S.02_ 
-	change repute with _mage_ by +10 
-	restrain foe _mages_ 
+	when _yes_ and _S.02_
+	change repute with _mage_ by +10
+	restrain foe _mages_
 
 _S.13_ task:
-	when _yes_ and _S.03_ 
-	change repute with _thief_ by +10 
-	restrain foe _F.01_ 
+	when _yes_ and _S.03_
+	change repute with _thief_ by +10
+	restrain foe _F.01_
 
 _S.14_ task:
-	create foe _F.03_ every 5 minutes 3 times with 25% success 
+	create foe _F.03_ every 5 minutes 3 times with 25% success
 
 _S.15_ task:
-	when _yes_ and _S.14_ 
-	change repute with _darkb_ by +10 
-	restrain foe _F.03_ 
+	when _yes_ and _S.14_
+	change repute with _darkb_ by +10
+	restrain foe _F.03_
 
 _S.16_ task:
-	when _no_ and _S.03_ 
-	change repute with _thief_ by -20 
+	when _no_ and _S.03_
+	change repute with _thief_ by -20
 
 _S.17_ task:
-	when _no_ and _S.01_ 
-	legal repute -20 
+	when _no_ and _S.01_
+	legal repute -20
 
 _S.18_ task:
-	when _no_ and _S.02_ 
-	change repute with _mage_ by -20 
+	when _no_ and _S.02_
+	change repute with _mage_ by -20
 
 _S.19_ task:
-	when _no_ and _S.14_ 
-	change repute with _darkb_ by -20 
+	when _no_ and _S.14_
+	change repute with _darkb_ by -20
 
 _S.20_ task:
-	when _traveltime_ and not _S.06_ 
-	say 1050 
-	drop _questgiver_ face 
-	end quest 
+	when _traveltime_ and not _S.06_
+	say 1050
+	drop _questgiver_ face
+	end quest

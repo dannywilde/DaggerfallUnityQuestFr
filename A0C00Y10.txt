@@ -12,155 +12,161 @@ DisplayName: The Duel
 QRC:
 
 QuestorOffer:  [1000]
-<ce>              Excuse me?! Can't you see I'm busy, you smelly
-<ce>             %ra? Are you looking for trouble or something?
+<ce>              Excuse-moi ! Tu ne vois pas que je suis occupé,
+<ce>           espèce de %ra puant. Tu cherches les ennuis ou quoi ?
                                      <--->
-<ce>           What? What did you say? I hope I didn't hear you
-<ce>                 say something. Did you say something?
+<ce>          Quoi ? Qu'est-ce que t'as dit ? J'espère que j'ai mal entendu.
+<ce>                           Tu as dit quelque chose ?
                                      <--->
-<ce>            Can't you see I'm busy?! And not in a good mood,
-<ce>               I might add! If you don't leave now, there
-<ce>                could be trouble. Is that what you want?
-                                     <--->
-<ce>            Well, excuse me! Didn't want to get in your way,
-<ce>               you fat %ra pig. You want to step outside?
+<ce>            Tu vois donc pas que je suis occupé !
+<ce>             Et pas de bonne humeur en plus !
+<ce>            Si tu ne pars pas immédiatement
+<ce>            il pourrait t'arriver des problèmes.
+<ce>                   C'est ce que tu veux ?
+                                    <--->
+<ce>               Bon, excuse-moi mais tu ne pourrais pas
+<ce>             te barrer de ton côté, gros porc. de %ra ?
+<ce>              Tu veux qu'on aille s'expliquer dehors ?
 
 RefuseQuest:  [1001]
-<ce>                  That's more like it. Now shove off.
+<ce>                 C'est mieux comme ça, maintenant dégage.
                                      <--->
-<ce>            I didn't think so. Go on with whatever you do.
+<ce>            Je ne pense pas. Va voir ailleurs si j'y suis.
                                      <--->
-<ce>                Didn't think you would say yes anyway.
-<ce>                       Now begone with yourself.
+<ce>               Je ne pensais pas que tu dirais oui de toute façon.
+<ce>                       Maintenant, du balai !
 
 AcceptQuest:  [1002]
-<ce>                    Oh... you want to play, do you?
+<ce>                      Oh... tu veux jouer, hein ?
                                      <--->
-<ce>                     I think we've got a live one!
+<ce>                     Je crois qu'on en tient un vivant !
                                      <--->
-<ce>                       Well... looks like my day
-<ce>                       just got more interesting!
+<ce>                       Bon... on dirait que ma journée
+<ce>                       commence à devenir intéressante !
                                      <--->
-<ce>                 You really are as stupid as you look!
-<ce>                       Fine, %ra, I'll play too.
+<ce>                Tu es aussi stupide que tu en as l'air !
+<ce>                 Très bien, %ra, je vais jouer aussi.
                                      <--->
-<ce>          So that's the way you want it! I'm game to any %ra!
+<ce>          Ahhhh c'est comme ça que tu veux la jouer !
+<ce>           Je me tiens prêt pour n'importe quel %ra !
 
 QuestFail:  [1003]
 %qdt
- I have agreed to duel with _giver_ at
- _inn_ in ___giver_ in six hours.
+J'ai accepté un duel avec _giver_ à
+_inn_ dans ___giver_ dans six heures.
 
 QuestComplete:  [1004]
-<ce>                    As you gaze down on your fallen
-<ce>                     adversary, you know that your
-<ce>                       honor has been satisfied.
+<ce>                    Tandis que votre regard surplombe
+<ce>                   votre adversaire à terre, vous savez
+<ce>                     que votre honneur a été respecté.
 
 RumorsDuringQuest:  [1005]
-<ce>                      _giver_ has challenged some
-<ce>                        wandering %ra to a duel!
+<ce>                      _giver_ a défié en
+<ce>                      duel un vagabond %ra !
 
 RumorsPostfailure:  [1006]
-<ce>                     Aren't you that coward, %pcn?
-<ce>                    You refused a duel, didn't you?
+<ce>                N'êtes-vous pas ce trouillard de %pcn ?
+<ce>                 Vous avez refusé un duel, n'est-ce pas ?
                                      <--->
-<ce>                         I heard that _giver_
-<ce>                 challenged someone to a duel, and the
-<ce>                        sap didn't even show up!
+<ce>                   J'ai entendu dire que _giver_
+<ce>                 avait défié quelqu'un en duel et que
+<ce>                l'andouille ne s'est même pas montré !
 
 RumorsPostsuccess:  [1007]
-<ce>                       You're the %ra that beat
-<ce>                          _giver_'s champion!
-<ce>                               Well done!
+<ce>                        Vous êtes le %ra qui a vaincu
+<ce>                          le champion de _giver_ !
+<ce>                                Bien joué !
                                      <--->
-<ce>                        I heard the _giver_ was
-<ce>                    publicly embarrassed when some
-<ce>       wandering adventurer beat %g3 champion. Serves %g2 right.
+<ce>                       Il paraît que _giver_ a été
+<ce>                  publiquement ridiculisé quand un vagabond
+<ce>        aventurier a vaincu son champion. Que ça lui serve de leçon.
 
 QuestorPostsuccess:  [1008]
-<ce>                    %oth. I had hoped never to see
-<ce>                 you again. You bested my champion in a
-<ce>                  duel, but I am an honorable person.
+<ce>                  %oth. J'avais espèré ne plus jamais
+<ce>                vous revoir. Vous avez vaincu mon champion
+<ce>                en duel, mais je reste une personne estimée.
                                      <--->
-<ce>                  Don't hurt me! You beat my champion
-<ce>                     in a duel, isn't that enough?
+<ce>                  Ne me faites pas de mal ! Vous avez vaincu
+<ce>                mon champion en duel, n'est-ce pas suffisant ?
 
 QuestorPostfailure:  [1009]
-<ce>                  Hah! You didn't even bother to show
-<ce>                  up for the duel. Thought I wouldn't
-<ce>                    remember eh? Shove off, coward!
+<ce>                 Hah ! Tu n'a même pas daigné te montrer
+<ce>                  au duel. Tu pensais que je ne m'en
+<ce>              souviendrais pas, hein ? Dégage, trouillard !
 
 Message:  1016
-<ce>                     Oh, smelly one. 'Tis not your
-<ce>                      lucky day. How about a duel?
+<ce>                     Oh, un déchet humain ! C'pas ton jour
+<ce>                     de chance. Ca te dit un duel ?
                                      <--->
-<ce>               Then we shall settle this like warriors.
-<ce>                       What do you say to a duel?
+<ce>                  Alors nous allons arranger cela comme
+<ce>                  des guerriers. Que dirais-tu d'un duel ?
                                      <--->
-<ce>                  I settle my arguments the old way.
-<ce>                           How about a duel?
+<ce>                 Je fais valoir mes arguments à l'ancienne.
+<ce>                        Que dirais-tu d'un duel ?
                                      <--->
-<ce>                   We'll settle this one. At least,
-<ce>                    I will! How about a duel later?
+<ce>                 Nous allons arranger cela. Tout du moins,
+<ce>                 moi ! Que dirais-tu d'un duel plus tard ?
 
 Message:  1018
-<ce>             Excellent! Ha ha! A duel it is. But not here,
-<ce>              pig. Six hours from now, at _inn_. I'll see
-<ce>                               you there.
- 
+<ce>            Excellent ! Ha ha ! Un duel. Mais pas ici,
+<ce>               moucheron. Dans six heures, à _inn_.
+<ce>                       Je te verrai là-bas.
+
                                      <--->
-<ce>                  A bad decision, %ra. The duel is on
-<ce>                       then. Meet me at _inn_ in
-<ce>                      six hours. I'll be waiting!
+<ce>                  Mauvaise décision, %ra. Le duel
+<ce>                aura donc lieu. Rencontre-moi à _inn_
+<ce>                  dans six heures. Je t'attendrai !
                                      <--->
-<ce>             Don't push too hard. Effort like that killed
-<ce>             a horse of mine ... and it may kill you! Meet
-<ce>                   me at _inn_ and we'll settle this.
-<ce>                 Be there in six hours. I must prepare.
+<ce>             Ne pousse pas trop. Un effort comme celui-là
+<ce>           a tué un de mes chevaux... et il pourrait te tuer !
+<ce>               Retrouve-moi à _inn_ et nous arrangerons
+<ce>                 cela. Soit là-bas dans six heures.
+<ce>                  Je dois me préparer maintenant.
                                      <--->
-<ce>             A duel it is! You'll be sorry... but you had
-<ce>                your chance to keep walking. Meet me at
-<ce>             _inn_ in six hours and we'll settle this one.
+<ce>            C'est parti pour un duel ! Tu le regretteras...
+<ce>            mais tu a laissé passer ta chance d'y échapper.
+<ce>           Retrouve-moi à _inn_ dans six heures et on fera ça.
 
 Message:  1019
-<ce>                    Then the %ra is not a coward as
-<ce>                     _giver_ said you were. %g paid
-<ce>                  me well to come here and cut you to
-<ce>                pieces. And I shall. Prepare for battle!
+<ce>                    Ainsi le %ra n'est pas un trouillard
+<ce>                     comme _giver_ le prétendait.
+<ce>                 %g m'a grassement payé pour venir ici et
+<ce>              te tailler en pièces. Et c'est ce je vais faire.
+<ce>                       Prépare-toi au combat !
                                      <--->
-<ce>              It's you! _giver_ said you would be here,
-<ce>                    and I always finish %g3 fights.
+<ce>              C'est toi ! _giver_ disait que tu viendrais
+<ce>                  et je finis toujours mes combats.
                                      <--->
-<ce>                  You should watch who you mess with.
-<ce>                 _giver_ has many friends. Now prepare
-<ce>                                to die!
+<ce>                  Tu devrais mieux te renseigner sur les personnes
+<ce>                à qui tu cherches des histoires. _giver_
+<ce>             a beaucoup d'amis. Maintenant prépare-toi à mourir !
 
 Message:  1025
-<ce>            This could get ugly. Not as ugly as you, but I
-<ce>             have no problem cutting your head off for such
-<ce>           words! You want this to turn into a battle, do ya?
+<ce>            Ca pourrait devenir moche, pas aussi moche que toi,
+<ce>     mais ca ne me pose pas de problèmes de te casser la tête pour avoir dit ca !
+<ce>                Tu veux que ça dégénére en bagarre, hein ?
                                      <--->
-<ce>                You're lookin' for a fight, aren't you?
-<ce>                     Is that what you want, child?
+<ce>                    T'cherches la bagarre, hein ?
+<ce>                     C'est c'que tu veux, gamin ?
                                      <--->
-<ce>                  Oh... we do have a live one... with
-<ce>                  weapons! You want to use that on me?
+<ce>                  Oh... il en reste un en vie avec...
+<ce>                des armes ! Tu veux t'en servir sur moi ?
                                      <--->
-<ce>          The two fights I got into yesterday didn't end well
-<ce>           for the other pigs! You want to take me on, do ya?
+<ce>          Les deux combats d'hier ne se sont pas bien terminé
+<ce>        pour les autres porcs ! Tu veux te mesurer à moi, t'es sûr ?
 
 Message:  1027
-<ce>                   I didn't think so. Now shove off.
+<ce>               Je n'en pensais pas moins. Maintenant casse-toi.
                                      <--->
-<ce>                  That's more like it. Now leave me.
+<ce>                C'est mieux comme ça. Maintenant laisse-moi.
                                      <--->
-<ce>                   Now we see who you are. Goodbye.
+<ce>                 On voit maintenant qui tu es. Salut.
                                      <--->
-<ce>                  Pass on by then. I don't have time
-<ce>                            to waste on you.
+<ce>                    Barre-toi alors. Je n'ai pas de
+<ce>                      temps à gaspiller avec toi.
                                      <--->
-<ce>                    Then move along. I have a busy
-<ce>                               day ahead.
+<ce>                     Alors bouge. J'ai une journée
+<ce>                         chargée qui m'attend.
 
 
 -- Symbols used in the QRC file:
@@ -189,41 +195,41 @@ Clock _S.02_ 01:00
 Foe _F.00_ is Spellsword
 
 --	Quest start-up:
-	start timer _S.01_ 
-	start timer _S.02_ 
-	start timer _S.00_ 
-	prompt 1025 yes _S.03_ no _S.05_ 
-	pc at _inn_ set _S.08_ 
+	start timer _S.01_
+	start timer _S.02_
+	start timer _S.00_
+	prompt 1025 yes _S.03_ no _S.05_
+	pc at _inn_ set _S.08_
 
 _S.00_ task:
-	place foe _F.00_ at _inn_ 
+	place foe _F.00_ at _inn_
 
 _S.01_ task:
-	end quest 
+	end quest
 
 _S.02_ task:
-	hide npc _giver_ 
+	hide npc _giver_
 
 _S.03_ task:
-	prompt 1016 yes _S.04_ no _S.05_ 
+	prompt 1016 yes _S.04_ no _S.05_
 
 _S.04_ task:
-	log 1003 step 0 
-	say 1018 
+	log 1003 step 0
+	say 1018
 
 --moved "saying ###" to its own line as "say". Should not be an argument to end quest.
 _S.05_ task:
     say 1027
-	end quest 
+	end quest
 
 _S.06_ task:
-	injured _F.00_ saying 1019 
+	injured _F.00_ saying 1019
 
 _S.07_ task:
-	killed 1 _F.00_ 
-	give pc nothing 
+	killed 1 _F.00_
+	give pc nothing
 
 variable _S.08_
 _S.09_ task:
-	when not _S.08_ and _S.07_ 
-	end quest 
+	when not _S.08_ and _S.07_
+	end quest

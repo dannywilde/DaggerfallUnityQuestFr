@@ -12,103 +12,107 @@ DisplayName: The Assassin
 QRC:
 
 QuestorOffer:  [1000]
-<ce>             My name is unimportant. All you need to know
-<ce>               is that I need someone who isn't afraid to
-<ce>            spill a little blood for, say, _gold_ gold. Tell
-<ce>            me now if you're not interested. Are you willing
-<ce>                           to take this job?
+<ce>             Mon nom n'a pas d'importance. Tout ce que vous devez savoir,
+<ce>              c'est que j'ai besoin de quelqu'un qui n'a pas peur
+<ce>            de verser un peu de sang pour... disons _gold_ pièces d'or.
+<ce>           Si vous n'êtes pas intéressé, dites-le moi maintenant.
+<ce>                       Acceptez vous ce travail ?
                                      <--->
-<ce>               Shhh! Keep your voice down. Before I say
-<ce>              anything else, are you the kind of %ra that
-<ce>               will kill for gold? How about _gold_ gold?
+<ce>             Chuuut ! Parlez moins fort. Avant que je n'en dise plus,
+<ce>              seriez-vous le genre de %ra qui tuerait pour de l'or ?
+<ce>                    Disons pour _gold_ pièces d'or ?
                                      <--->
-<ce>             I am looking for someone that won't faint at
-<ce>            the sight of blood. Human blood. For _gold_ gold,
-<ce>                         would you kill a man?
+<ce>             Je cherche quelqu'un qui ne s'évanouit pas à
+<ce>       la vue du sang... du sang humain. Pour _gold_ pièces d'or,
+<ce>                seriez-vous capable de tuer un homme ?
 
 RefuseQuest:  [1001]
-<ce>                           You never saw me.
+<ce>                           Vous ne m'avez jamais vu.
                                      <--->
-<ce>        Scram. I don't want anyone to see us talking together.
+<ce>       Partez ! Je ne veux pas que quelqu'un nous voie discuter ensemble.
                                      <--->
-<ce>                          Fine. Be that way.
+<ce>                     Très bien. Qu'il en soit ainsi.
 
 AcceptQuest:  [1002]
-<ce>              I want _darkb_ killed. The problem is that
-<ce>           the Dark Brotherhood won't take the job. Something
-<ce>           about a favor they owe. I need an independent. Do
-<ce>           the job and get back to me within a week and I'll
-<ce>          pay you the _gold_ gold. Just ask for _questgiver_.
-<ce>                  I'll be waiting right here for you.
+<ce>              Je veux que _darkb_ soit assassiné.
+<ce>           Le problème est que la Confrérie Noire
+<ce>         n'acceptera pas le travail. C'est en rapport
+<ce>                   avec une dette qu'ils ont.
+<ce>           J'ai besoin d'un indépendant. Accomplissez
+<ce>        le travail et soyez de retour d'ici une semaine,
+<ce>             je vous paierai _gold_ pièces d'or.
+<ce>        Demandez _questgiver_, je vous attendrai ici.
 
 QuestComplete:  [1004]
-<ce>            Revenge is mine! By the way, you had better get
-<ce>            out of town. I hear the Brotherhood caught wind
-<ce>                    of this. Here's your money, %pcf.
+<ce>            La vengeance est mienne ! A propos, vous feriez
+<ce>           mieux de quitter la ville. J'ai entendu dire que la
+<ce>           Confrérie Noire avait eu vent de cette histoire.
+<ce>                      Voici votre or %pcf.
 
 RumorsDuringQuest:  [1005]
-<ce>                  I hear _questgiver_ hates _darkb_.
+<ce>               Il paraît que _questgiver_  déteste _darkb_.
                                      <--->
-<ce>             _darkb_ is connected to the Dark Brotherhood.
+<ce>             _darkb_ a des liens avec la Confrérie Noire.
 
 RumorsPostsuccess:  [1007]
-<ce>             Someone slew _darkb_, and in public, no less!
+<ce>            Quelqu'un a tué _darkb_, et en public en plus !
                                      <--->
-<ce>                Did you hear about the murder? _darkb_
-<ce>                       was slain by an assassin.
+<ce>               Avez-vous entendu parler du meurtre ?
+<ce>                 _darkb_ a été tué par un assassin.
                                      <--->
-<ce>              I never did like _darkb_. I'm glad someone
-<ce>                  finally offed %g2. I hear it was the
-<ce>                           Dark Brotherhood.
+<ce>              Je n'ai jamais aimé _darkb_. Cela me réjouit
+<ce>           que quelqu'un ait décidé sa mort. J'ai entendu dire
+<ce>                    que c'était la Confrérie Noire.
 
 QuestorPostsuccess:  [1008]
-<ce>               Keep your voice down. You killed _darkb_
-<ce>            for me, and I acknowledge the debt, but I don't
-<ce>           want people thinking I had anything to do with it.
+<ce>               Parlez moins fort. Vous avez tué _darkb_
+<ce>              pour moi, et je sais ce que je vous dois,
+<ce>              mais je ne veux pas que les gens pensent
+<ce>             que j'ai quoi que ce soit à voir là dedans.
 
 QuestorPostfailure:  [1009]
-<ce>              I hired you to do a job, but you couldn't.
-<ce>                  All you had to do was kill _darkb_.
-<ce>               Now it's too late, and the Dark Brotherhood
-<ce>                   is after me. Just leave me alone.
+<ce>             Je vous ai confié un travail et vous ne l'avez pas fait.
+<ce>              Tout ce que vous aviez à faire était de tuer _darkb_.
+<ce>               Maintenant c'est trop tard, et la Confrérie Noire
+<ce>                   est à mes trousses. Laissez-moi seul.
 
 QuestLogEntry:  [1010]
 %qdt:
- I accepted a contract to kill _darkb_.
- I have a week to get back to _questgiver_
- of ___questgiver_ with the deed done.
+J'ai accepté un contrat pour tuer _darkb_.
+J'ai une semaine pour revenir voir _questgiver_
+de ___questgiver_ après avoir exécuté le contrat.
 
 Message:  1015
-<ce>                _darkb_ isn't dead! What kind of a fool
-<ce>                        do you take me for, %pcf?
+<ce>               _darkb_ est encore en vie. Tu me prends
+<ce>                   pour un lapin de 6 semaines, %pcf?
 
 Message:  1021
-<ce>                         Help! Murderer! Help!
+<ce>                 Au secours ! Au meurtre ! Au secours !
 
 Message:  1022
-<ce>         Cur! What kind of assassin are you? To arms! To arms!
+<ce>        Mais quel genre d'assassin êtes-vous ? Aux armes ! Aux armes !
 
 Message:  1023
-<ce>                            I'm hit! %oth.
+<ce>                        Je suis touché ! %oth.
 
 Message:  1024
-<ce>          Coward! You attack me without cause or provocation.
+<ce>       Lâche ! Vous m'attaquez sans la moindre raison ni provocation !
 
 Message:  1030
-<ce>              _questgiver_? I don't know much about %g2.
-<ce>                           Keeps to %g2self.
+<ce>        _questgiver_ ? Je ne sais pas grand chose sur %g2.
+<ce>               C'est quelqu'un de plutôt discret.
 
 Message:  1031
-<ce>          I hear _questgiver_ has some pretty shady friends.
-<ce>                    But you didn't hear it from me.
+<ce>         Il semble que _questgiver_ ait de amis assez louche.
+<ce>             Mais ce n'est pas moi qui vous l'ai dit !
 
 Message:  1032
-<ce>                A fine upstanding citizen. Ask anyone.
+<ce>        Un citoyen de haut rang ! Demandez autour de vous.
 
 Message:  1033
-<ce>                  _darkb_ is usually at _place_, but
-<ce>                I wouldn't get mixed up in %g3 affairs.
-<ce>                    Just a friendly word of advice.
+<ce>             _darkb_ est généralement à _place_, mais à votre
+<ce>              place je ne me mêlerais pas de ses affaires.
+<ce>                    C'est juste un conseil d'ami.
 
 
 -- Symbols used in the QRC file:
@@ -142,59 +146,59 @@ Foe _archer_ is Archer
 Foe _spellsword_ is Spellsword
 
 --	Quest start-up:
-	start timer _S.00_ 
-	log 1010 step 0 
-	pc at _place_ set _S.11_ 
-	place npc _darkb_ at _place_ 
+	start timer _S.00_
+	log 1010 step 0
+	pc at _place_ set _S.11_
+	place npc _darkb_ at _place_
 
 _S.00_ task:
-	end quest 
+	end quest
 
 _S.01_ task:
-	restrain foe _archer_ 
-	place foe _archer_ at _place_ 
+	restrain foe _archer_
+	place foe _archer_ at _place_
 
 _S.02_ task:
-	restrain foe _bard_ 
-	place foe _bard_ at _place_ 
+	restrain foe _bard_
+	place foe _bard_ at _place_
 
 _S.03_ task:
-	restrain foe _rogue_ 
-	place foe _rogue_ at _place_ 
+	restrain foe _rogue_
+	place foe _rogue_ at _place_
 
 _S.04_ task:
-	restrain foe _spellsword_ 
-	place foe _spellsword_ at _place_ 
+	restrain foe _spellsword_
+	place foe _spellsword_ at _place_
 
 variable _S.05_
 _S.06_ task:
-	injured _rogue_ saying 1023 
-	injured _archer_ saying 1021 
-	injured _bard_ saying 1022 
-	injured _spellsword_ saying 1024 
+	injured _rogue_ saying 1023
+	injured _archer_ saying 1021
+	injured _bard_ saying 1022
+	injured _spellsword_ saying 1024
 
 _S.07_ task:
-	killed 1 _archer_ 
-	killed 1 _bard_ 
-	killed 1 _rogue_ 
-	killed 1 _spellsword_ 
-	change repute with _darkb_ by -20 
-	legal repute -75 
+	killed 1 _archer_
+	killed 1 _bard_
+	killed 1 _rogue_
+	killed 1 _spellsword_
+	change repute with _darkb_ by -20
+	legal repute -75
 
 _S.08_ task:
-	clicked npc _questgiver_ 
+	clicked npc _questgiver_
 
 _clearclick_ task:
-	when _S.08_ and not _S.07_ 
-	say 1015 
+	when _S.08_ and not _S.07_
+	say 1015
 	clear _S.08_ _clearclick_
 --added an additional clear clearclick here. Otherwise this clearing function would stop working after the first click.
 
 _S.10_ task:
-	when _S.08_ and _S.07_ 
-	give pc _gold_ 
-	end quest 
+	when _S.08_ and _S.07_
+	give pc _gold_
+	end quest
 
 _S.11_ task:
-	pick one of _S.01_ _S.02_ _S.03_ _S.04_ 
-	hide npc _darkb_ 
+	pick one of _S.01_ _S.02_ _S.03_ _S.04_
+	hide npc _darkb_
