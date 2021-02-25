@@ -10,208 +10,216 @@ DisplayName: Defamation
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                Good day. _giver_ is the name. You may
-<ce>               have heard of me lately. Somebody has been
-<ce>                 filling the streets with horrible lies
-<ce>                  concerning my private life. I'll pay
-<ce>               _gold_ gold to the person who puts a stop
-<ce>                       to them. What do you say?
+<ce>                Bonjour. _giver_ est mon nom.
+<ce>               vous avez peut-être entendu parler de moi
+<ce>              dernièrement. Quelqu'un a repandu dans les rues
+<ce>               d'horribles mensonges concernant ma vie privée.
+<ce>               Je paierai _gold_ pièces d'or à la personne
+<ce>                  qui mettra fin à cela. Qu'en dites-vous ?
                                      <--->
-<ce>                  The malicious, downright slanderous
-<ce>                 rumors about me must cease and desist
-<ce>                 immediately. I need someone anonymous
-<ce>                  to trace these rumors back to their
-<ce>                   infernal source. Would _gold_ gold
-<ce>                      pieces be enough to buy your
-<ce>                      investigative skills in this
-<ce>                                matter?
+<ce>              Les rumeurs malveillantes et diffamatoires
+<ce>               à mon sujet doivent cesser et disparaitre
+<ce>           immédiatement. J'ai besoin de quelqu'un d'anonyme
+<ce>              pour pister ces rumeurs jusqu'à leur source
+<ce>                 infernale. Est-ce que _gold_ pièces d'or
+<ce>                 seraient suffisantes pour acheter vos
+<ce>              compétences d'investigation dans cette affaire ?
 
 RefuseQuest:  [1001]
-<ce>                  I guess you heard the one about me
-<ce>                  not keeping my promises. Damn lies!
+<ce>               Je suppose que vous avez entendu celle qui prétend que
+<ce>                je ne tiens pas mes promesses. Satanés mensonges !
 
 AcceptQuest:  [1002]
-<ce>                  You will? Excellent. Come back when
-<ce>                  you have some proof of who's behind
-<ce>                 all these nasty rumors about me. I'll
-<ce>                 give you the gold then. If you're not
-<ce>                   back within a month, I will assume
-<ce>                         that you have failed.
+<ce>               Vous le ferez ? Excellent. Revenez quand vous
+<ce>             avez des preuves de qui se cache derrière toutes
+<ce>            ces sales rumeurs à mon sujet et je vous donnerai
+<ce>               l'or. Si vous n'êtes pas de retour d'ici un
+<ce>                mois, je supposerai que vous avez échoué.
+
 
 QuestFail:  [1003]
 %qdt:
- Someone has been spreading rumors around
- ___giver_ about _giver_.
- %g has hired me to put a stop
- to them for _gold_ gold. I have 1 month to
- return with proof of my success.
+ Quelqu'un a fait courir des rumeurs aux environs
+ de ___giver_ au sujet de _giver_.
+ %g m'a engagé pour y mettre fin pour
+ _gold_ pièces d'or. J'ai 1 mois pour revenir
+ avec des preuves de mon succès.
 
 QuestComplete:  [1004]
-<ce>              You have been honorable, %pcn. I thank you.
-<ce>           Take this _magicsword_, my most prized possession.
-<ce>          It is the least I can offer. We are friends forever,
-<ce>                             and I owe you.
-<ce>                   Leave _giver_ and _sister_ to me,
-<ce>                   I have something planned for them.
+<ce>             Vous avez été honorable, %pcn.
+<ce>         Je vous remercie. Prenez ce _magicsword_,
+<ce>        mon bien le plus précieux, c'est le moins que je
+<ce>           puisse offrir. Nous sommes amis à jamais,
+<ce>            et je suis votre débiteur. Laissez-moi
+<ce>              m'occuper de _giver_ et de _sister_,
+<ce>              j'ai prévu quelque chose pour eux.
 
 RumorsDuringQuest:  [1005]
-<ce>                   I heard that _giver_ keeps slaves!
+<ce>                  Il paraît que _giver_ possède des esclaves !
 <--->
-<ce>                       _giver_ beats %g3 spouse.
+<ce>                      _giver_ bat son conjoint.
 
 RumorsPostfailure:  [1006]
-<ce>                    _giver_ is a pariah. Nobody in
-<ce>                town wants anything to do with %g2. You
-<ce>                 have heard all the things %g has done?
+<ce>                     _giver_ est un paria. Personne en
+<ce>             ville ne veut avoir à faire avec %g2. Vous êtes au
+<ce>                courant de toutes les choses qu'%g a faites ?
 
 RumorsPostsuccess:  [1007]
-<ce>                 _lover_ was rescued from ___dungeon_
-<ce>                 by some %ra. Hey! Aren't you that %ra?
+<ce>               _lover_ a été sauvé de ___dungeon_
+<ce>           par un %ra. Hé ! Ne seriez-vous pas ce %ra ?
 
 QuestorPostsuccess:  [1008]
-<ce>                 You must think I am a horrible person
-<ce>                 after what I did to my sister's lover,
-<ce>                   _lover_. Let me make it up to you.
+<ce>                Vous devez penser que je suis une personne
+<ce>           horrible après ce que j'ai fait à l'amant de ma soeur,
+<ce>                 _lover_. Laissez-moi vous expliquer.
 
 QuestorPostfailure:  [1009]
-<ce>                  You failed me! My sister no longer
-<ce>                   speaks to me and it's your fault.
+<ce>                  Vous m'avez trahi ! Ma soeur ne me
+<ce>                  parle plus et c'est de votre faute.
 
 QuestLogEntry:  [1010]
  %qdt:
- I have learned that _giver_ made a deal with
- %g3 sister, _sister_, to kidnap her lover,
- _lover_. There is a letter received by
- _giver_ that outlines the plan.
+ J'ai appris que _giver_
+ a passé un marché avec sa soeur,
+ _sister_, pour kidnapper
+ son amant, _lover_.
+ Il existe une lettre reçue par
+ _giver_ qui décrit le plan.
 
 Message:  1015
 _giver_,
- My words will be quick. _lover_ is too
- much, as you have said, and a little scare
- may be what is needed. I'll be leaving on a trip
- tonight, so tomorrow at sunset,
- you should take him. I'll be in touch again,
- but I don't imagine we will need to continue
- for more than a week.
+ Mes mots seront brefs. _lover_ est
+ trop comme vous aviez dit, et une petite frayeur
+ pourrait être la solution. Je partirai en voyage
+ ce soir, ainsi demain au coucher du soleil
+ vous pourrez l'enlever. Je serai à nouveau joignable,
+ et je ne crois pas que nous aurons besoin
+ de continuer plus d'une semaine.
+
 <ce>                               -_sister_
 
 Message:  1017
-<ce>                     What's that you say? _giver_?
-<ce>               I have heard something... but we must keep
-<ce>                 our voices low. Seems that %g3 sister,
-<ce>            _sister_, was having a hard time with her lover.
-<ce>             I believe his name is _lover_. I do know that
-<ce>                there was a deal struck between _giver_
-<ce>               and %g3 sister to have _lover_ dealt with.
-<ce>             I'm not sure how, but a young chap I met says
-<ce>             he delivered a letter from _sister_ outlining
-<ce>                          the plan to _giver_.
-
+<ce>                    Qu'est-ce que vous dites ? _giver_ ?
+<ce>              J'ai appris quelque chose... mais nous ne devons
+<ce>                 pas l'ébruiter. Il semble que sa soeur,
+<ce>                 _sister_, ait passé des moments
+<ce>           difficiles avec son amant. Je crois que son
+<ce>                nom est _lover_. Je sais qu'il y a une
+<ce>                   combine entre _giver_ et
+<ce>               sa soeur pour s'occuper de _lover_.
+<ce>          Je ne connais pas les détails, mais un jeune mec
+<ce>          que j'ai rencontré dit qu'il a livré une lettre de la
+<ce>             part de _sister_ décrivant le plan à _giver_.
 Message:  1018
 %qdt:
- I have shown _giver_ the letter
- outlining the plan to kidnap _lover_,
- and _giver_ has now divulged that
- %g hired some bandits to lock him away in
- ___dungeon_. %g begged for his life
- and asked that I rescue _lover_.
+J'ai montré à _giver_
+la lettre décrivant le plan pour kidnapper
+_lover_, et _giver_
+a alors admis qu'%g avait engagé des bandits
+pour l'emprisonner au loin à ___dungeon_.
+%g m'a supplié pour que je l'épargne, et m'a demandé
+d'aller secourir _lover_.
 
 Message:  1020
-<ce>                         Lies, all lies I say!
-<ce>                   I hate those nasty street rumors.
-<ce>                Please hurry up and put a stop to them!
+<ce>              Mensonges, rien que des mensonges, je vous dis !
+<ce>                 Je déteste ces sales rumeurs publiques,
+<ce>             s'il vous plaît depêchez-vous d'y mettre fin !
 
 Message:  1021
-<ce>                     What?! What is this? Oh my...
-<ce>                     Please, please don't kill me!
-<ce>                  My sister put me up to it... I didn't
-<ce>                  mean any harm. She only asked that I
-<ce>                 scare him a little, you know, make him
-<ce>                appreciate her more. I know I shouldn't
-<ce>                have done it. Now I'm in over my head...
-<ce>               you see, I paid a group of bandits to take
-<ce>                 him away and lock him in ___dungeon_.
-<ce>                I figured this would scare him enough...
-<ce>               but he hasn't returned! I went too far... I
-<ce>             know. Please... you must rescue him! I thought
-<ce>               I could cover it up, but I can't anymore.
-<ce>            You've got to rescue him. If he's not back when 
-<ce>           my sister returns... well, she'll kill me for sure!
+<ce>               Quoi ?! Qu'est-ce que c'est que ça ? Oh mon...
+<ce>             S'il vous plaît, ne me tuez pas, s'il vous plaît !
+<ce>                 Ma soeur m'a embarqué là-dedans... Je
+<ce>            n'avais pas l'intention de faire du mal. Elle a
+<ce>            seulement demandé que je lui fasse un peu peur,
+<ce>             vous savez, lui faire l'apprécier un peu plus.
+<ce>              Je sais que je n'aurais pas dû faire cela.
+<ce>              Maintenant j'en ai par dessus la tête...
+<ce>             Vous voyez, j'ai payé un groupe de bandits pour
+<ce>           l'enlever et l'emprisonner loin d'ici à ___dungeon_.
+<ce>           Je pensais que cela l'effrayerait suffisamment...
+<ce>             mais il n'est jamais revenu ! Je suis allé
+<ce>           trop loin, je sais. S'il vous plaît... Vous devez le
+<ce>            sauver ! Je pensais que je pourrais gérer tout ça,
+<ce>          mais je n'en peux plus. Vous devez le délivrer,
+<ce>            s'il n'est pas là quand ma soeur reviendra...
+<ce>              eh bien, elle me tuera, ça c'est sûr
 
 Message:  1022
-<ce>                  _giver_ is a big topic these days.
+<ce>                 _giver_ est un vaste sujet ces jours-ci.
                                      <--->
-<ce>              _giver_ has been staying at _givershouse_.
+<ce>              _giver_ a sejourné à _givershouse_.
                                      <--->
-<ce>                 _giver_'s sister's lover is missing.
+<ce>               L'amant de la soeur de _giver_ a disparu.
                                      <--->
-<ce>               You can usually find _giver_ at __giver_.
+<ce>           Vous pouvez habituellement trouver _giver_ à __giver_.
                                      <--->
-<ce>              _giver_? You can find %g2 either at __giver_,
-<ce>                      or at home at _givershouse_.
+<ce>             _giver_ ? %g peut être trouvé soit à __giver_,
+<ce>                soit dans sa maison à _givershouse_.
                                      <--->
-<ce>                  _giver_ is well liked in ___giver_.
+<ce>                  _giver_ est apprécié à ___giver_.
                                      <--->
-<ce>                         You should try _inn_.
-<ce>                    The good gossip is always there.
+<ce>                       Vous devriez essayer _inn_,
+<ce>               les bonnes rumeurs circulent toujours là-bas.
                                      <--->
-<ce>       _giver_ is often seen shopping with %g3 sister, _sister_.
+<ce>   _giver_ a souvent été vu faisant les boutiques avec sa soeur, _sister_.
                                      <--->
-<ce>                    _giver_ has been stealing from
-<ce>                    _inn_. Or was that someone else?
+<ce>                  _giver_ a volé quelque chose à _inn_.
+<ce>                   Ou est-ce quelqu'un d'autre ?
                                      <--->
-<ce>                     _giver_ murdered his sister.
+<ce>                    _giver_ a assassiné sa soeur.
                                      <--->
-<ce>                 _giver_'s father was raised by orcs.
+<ce>                Le père de _giver_ a été élevé par des orques.
                                      <--->
-<ce>                    _giver_ has taken an orc lover.
+<ce>                    _giver_ a pris un amant orque.
                                      <--->
-<ce>              _giver_ has been stealing from the temples.
+<ce>                 _giver_ a volé dans les temples.
                                      <--->
-<ce>                  _giver_ is in league with the orcs.
+<ce>            _giver_ est de connivence avec les orques.
                                      <--->
-<ce>                  There are more rumors about _giver_
-<ce>                than anyone else in ___giver_ this week.
+<ce>                 Il y a plus de rumeurs sur _giver_ que
+<ce>              sur n'importe qui dans ___giver_ cette semaine.
                                      <--->
-<ce>            _giver_ promised to kidnap %g3 sister's lover.
+<ce>            _giver_ a promis de kidnapper l'amant de sa soeur.
                                      <--->
-<ce>         There is so much talk around these parts of nothing.
+<ce>        Il y a tellement de bavardages sur ces sujets sans intérêt.
                                      <--->
-<ce>                  _giver_ doesn't keep %g3 promises.
+<ce>                  _giver_ ne tient pas ses promesses.
                                      <--->
-<ce>                _giver_ has been keeping some secrets.
+<ce>                _giver_ a des secrets bien gardés.
                                      <--->
-<ce>              Everyone around here has their own stories.
+<ce>             Tout le monde par ici à ses propres histoires.
                                      <--->
-<ce>                     There's always talk at _inn_.
+<ce>                    Ils bavardent toujours à _inn_.
 
 Message:  1030
-<ce>_lover_ is _sister_'s lover. You know, I haven't seen him around lately.
+<ce>_lover_ est l'amant de _sister_. Vous savez, je ne l'ai pas vu
+<ce>                    dans le coin dernièrement.
 <--->
-<ce>_lover_ hasn't been seen around town in days. I bet _giver_ is behind
-<ce>                              it somehow.
+<ce>_lover_ n'a pas été vu dans les environs ces jours-ci. Je parie
+<ce>  que _giver_ est derrière cela d'une manière ou d'une autre.
 
 Message:  2000
-<ce>       Thank %god someone has found me! I thought I'd never get
-<ce>             out of here. I've been wandering around these
-<ce>                passages for days, trying to stay alive.
-<ce>                   What is that you say? _sister_ and
-<ce>                      _giver_ are behind all this!?
-<ce>               Well, you get me back to _sistershouse_ in
-<ce>               __sistershouse_ and I'll reward you well.
-<ce>                And then I will take care of those two!
+<ce>       Grâce à %god quelqu'un m'a trouvé ! Je pensais que
+<ce>        je ne sortirais jamais d'ici. Je déambule au hasard
+<ce>           dans ces couloirs depuis des jours, essayant
+<ce>            de rester vivant. Qu'est-ce que vous dites ?
+<ce>               _sister_ et _giver_ sont derrière
+<ce>              tout cela ! Bon, ramenez-moi à _sistershouse_
+<ce>              à __sistershouse_ et je vous récompenserai
+<ce>             bien. Et ensuite je m'occuperai de ces deux-là !
 
 Message:  2001
 %qdt:
- I have found _lover_ and am escorting him
- back to _sistershouse_
- in __sistershouse_.
+J'ai trouvé _lover_ et je l'escorte
+pour retourner à _sistershouse_
+à __sistershouse_.
+
 
 Message:  2005
-<ce>                             _lover_ says,
-<ce>                      "Thanks for your help, %pcn,
-<ce>                     but I'll find my own way home
-<ce>                              from here."
+<ce>                           _lover_ dit,
+<ce>                      "Merci pour votre aide, %pcn,
+<ce>                     mais je saurai trouver mon chemin
+<ce>                    jusqu'à la maison à partir d'ici."
 
 
 -- Symbols used in the QRC file:
@@ -254,43 +262,43 @@ Clock _S.00_ 30.00:00 0 flag 9 range 0 1
 
 
 --	Quest start-up:
-	place item _letter_ at _givershouse_ 
-	dialog link for location _givershouse_ person informant2 
-	dialog link for location _sistershouse_ person _lover_ item _letter_ 
-	dialog link for location _dungeon_ person _sister_ item _gold_ 
-	start timer _S.00_ 
-	log 1003 step 0 
-	clicked npc _giver_ say 1020 
-	place npc informant2 at _inn_ 
-	place npc _lover_ at _dungeon_ 
+	place item _letter_ at _givershouse_
+	dialog link for location _givershouse_ person informant2
+	dialog link for location _sistershouse_ person _lover_ item _letter_
+	dialog link for location _dungeon_ person _sister_ item _gold_
+	start timer _S.00_
+	log 1003 step 0
+	clicked npc _giver_ say 1020
+	place npc informant2 at _inn_
+	place npc _lover_ at _dungeon_
 
 _S.00_ task:
-	end quest 
+	end quest
 
 _S.01_ task:
-	clicked npc informant2 say 1017 
-	log 1010 step 1 
+	clicked npc informant2 say 1017
+	log 1010 step 1
 
 variable _S.02_
 variable _S.03_
 _S.04_ task:
-	toting _letter_ and _giver_ clicked saying 1021 
-	reveal _dungeon_ 
-	log 1018 step 2 
+	toting _letter_ and _giver_ clicked saying 1021
+	reveal _dungeon_
+	log 1018 step 2
 
 _S.05_ task:
-	give pc _magicsword_ 
-	drop _lover_ face 
-	end quest 
+	give pc _magicsword_
+	drop _lover_ face
+	end quest
 
 _S.06_ task:
-	clicked npc _lover_ say 2000 
-	pc at _sistershouse_ set _S.05_ 
-	log 2001 step 3 
-	hide npc _lover_ 
-	add _lover_ face 
+	clicked npc _lover_ say 2000
+	pc at _sistershouse_ set _S.05_
+	log 2001 step 3
+	hide npc _lover_
+	add _lover_ face
 
 _S.07_ task:
-	when _S.00_ and _S.06_ and not _S.05_ 
-	say 2005 
-	drop _lover_ face 
+	when _S.00_ and _S.06_ and not _S.05_
+	say 2005
+	drop _lover_ face

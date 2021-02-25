@@ -10,151 +10,151 @@ DisplayName: The Mummy's Finger
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                  I need someone to deliver something
-<ce>                  for me, and I'm willing to pay very
-<ce>              generously. _gold1_ gold up front, _gold2_
-<ce>                       more when the job is done.
-<ce>                         Will you help me out?
+<ce>               J'ai besoin de quelqu'un pour livrer quelque
+<ce>                 chose pour moi, et je suis disposé à
+<ce>             payer très généreusement. _gold1_ pièces d'or
+<ce>           maintenant, et _gold2_ de plus lorsque le boulot
+<ce>            aura été fait. Viendrez-vous à mon aide ?
 
 RefuseQuest:  [1001]
-<ce>                    %oth, I'll never be rid of this
-<ce>                    thing! Why will no one help me?
+<ce>                   %oth, je ne me débarrasserai jamais de
+<ce>              cette chose ! Pourquoi personne ne veut-il m'aider ?
 
 AcceptQuest:  [1002]
-<ce>                 Thank %god! You don't know how much
-<ce>                  this means to me. Here's your gold.
-<ce>                Now, take this to _dummy_ in ___dummy_.
-<ce>                 %g'll pay you the rest. I really must
-<ce>                   be going now. Thank you so much!
+<ce>                Grâce à %god ! Vous ne savez pas combien
+<ce>           cela représente pour moi. Voici votre or. Maintenant,
+<ce>                apportez ça à _dummy_ en ___dummy_,
+<ce>           %g vous paiera le reste. Je dois vraiment y aller
+<ce>                  maintenant. Merci beaucoup !
 
 QuestComplete:   [1004]
-<ce>                  _giver_ hands you a letter wrapped
-<ce>                around a small object and hurries away.
+<ce>                  _giver_ tend une lettre enroulée autour
+<ce>                d'un petit objet et se sauve au loin.
 
 RumorsDuringQuest:  [1005]
-<ce>                  The pirates have been particularly
-<ce>                           active this year.
+<ce>                  Les pirates ont été particulièrement
+<ce>                          actifs cette année.
 
 RumorsPostfailure:  [1006]
-<ce>                 Have you heard the story of the curse
-<ce>                  of the mummy's finger? Oh. Sorry. I
-<ce>                           didn't realize...
+<ce>                 Avez-vous entendu parler de cette histoire
+<ce>                 de malédiction du doigt de la momie ?
+<ce>                 Oh. Désolé. Je n'avais pas réalisé...
 
 RumorsPostsuccess:  [1007]
-<ce>                 Some brave %ra went into ___dungeon_.
-<ce>                               Poor fool.
+<ce>                   Un brave %ra est allé à
+<ce>                   ___dungeon_. Pauvre fou.
 
 QuestorPostsuccess:  [1008]
-<ce>                The loons will be back early this year.
+<ce>          Les sots reviendront de bonne heure cette année.
 
 QuestorPostfailure:  [1009]
-<ce>                  Do you think I'm fat? Everyone says
-<ce>                      I am, but I don't think so.
+<ce>                  Vous pensez que je suis gros ? Tout le monde
+<ce>                  dit que je le suis, mais je ne le pense pas.
 
 QuestLogEntry:  [1010]
 %qdt:
- I have been hired to make a delivery
- to a _dummy_ of ___dummy_.
- My mysterious employer paid me _gold1_
- gold and promised _gold2_ more when I
- complete my assignment. No time frame
- was specified, but my employer seemed
- very anxious for me to be on my way.
+J'ai été engagé pour faire une livraison
+à un _dummy_ de ___dummy_.
+Mon mystérieux employeur m'a payé _gold1_
+pièces d'or et promis _gold2_ de plus quand
+j'aurai achevé ma mission. Aucune limite de temps
+n'a été spécifiée, mais mon employeur semblait
+très impatient que je me mette en route.
 
 Message:  1011
 %qdt:
- I have been tricked. The supposed
- delivery to _dummy_ was actually
- a cursed mummy finger.
+J'ai été dupé. La supposée livraison
+à _dummy_ était en réalité
+un doigt de momie maudit.
 
 Message:  1012
 %qdt:
- I have learned that the mummy whose
- curse I suffer is buried in ___dungeon_.
- I must destroy his true form or his
- spirit will continue to haunt me for
- 1001 nights.
+J'ai appris que la momie dont la malédiction
+m'a frappé est ensevelie à ___dungeon_.
+Je dois détruire sa forme réelle sinon son esprit
+continuera à me hanter pendant 1001 nuits.
 
 Message:  1013
-<ce> Package? From _giver_? No, %g1
-<ce> would've told me beforehand. You must
-<ce> be mistaken. Why don't you read the
-<ce> contents to see who it's for?
+<ce> Un paquet ? De _giver_? Non, %g1
+<ce> me l'aurait dit à l'avance. Vous devez
+<ce> vous tromper. Pourquoi ne lisez-vous pas
+<ce> son contenu pour voir à qui il est adressé
 
 Message:  1015
-<ce>     I wouldn't know anything about that. Try asking at a temple.
+<ce>    Je ne sais rien de cela. Essayez de demander dans un temple.
                                      <--->
-<ce>              _sage_ knows about such things. Go ask %g2.
+<ce>           _sage_ connaît ce genre de choses. Allez lui demander.
                                      <--->
-<ce>         Have you tried asking around at __sage_ in ___sage_?
+<ce>         Avez-vous essayé de demander à __sage_ en ___sage_ ?
                                      <--->
-<ce>     I hear that someone in ___sage_ might know about such things.
+<ce>    Il paraît que quelqu'un en ___sage_ en saurait beaucoup sur ce genre de choses.
                                      <--->
-<ce>      They say that _sage_ is the foremost expert in such things.
+<ce>   Ils disent que _sage_ est l'expert reconnu pour ce genre de choses.
                                      <--->
-<ce>                   Maybe that sage at __sage_ knows.
+<ce>                  Peut-être que ce sage à __sage_ sait.
 
 Message:  1016
-<ce>                  He who stole my _finger_ must die!
+<ce>                 Celui qui a volé mon _finger_ doit mourir !
                                      <--->
-<ce>                        I come for my _finger_.
+<ce>                    Je viens pour mon _finger_.
                                      <--->
-<ce>                Accept your doom. Lay down your weapon.
+<ce>                Accepte ton destin. Pose ton arme.
                                      <--->
-<ce>                       My _finger_, my _finger_.
+<ce>                      Mon _finger_, mon _finger_.
                                      <--->
-<ce>            You have my _finger_. Without it, I cannot rest.
+<ce>          Vous avez mon _finger_. Sans cela, je ne peux reposer en paix.
                                      <--->
-<ce>          You may destroy me this night, but I shall return.
+<ce>          Vous pouvez me détruire cette nuit, mais je reviendrai.
                                      <--->
-<ce>              I will rise again to come for my _finger_.
+<ce>        Je me lèverai à nouveau pour venir chercher mon _finger_.
 
 Message:  1020
-<ce>              All who violate my tomb must be destroyed!
+<ce>         Tous ceux qui violent ma tombe doivent être détruits !
 
 Message:  1025
-<ce>                    Let me see the _finger_. Ah...
-<ce>                Yes, it bears the curse of =realmummy_.
-<ce>                  Each night, for 1001 nights, at the
-<ce>                    stroke of midnight the spirit of
-<ce>                    =realmummy_ will visit the owner
-<ce>                   of this _finger_. The only way to
-<ce>                   break the curse is to destroy the
-<ce>                    real =realmummy_ in his tomb at
-<ce>                              ___dungeon_.
+<ce>                 Laissez-moi voir ce _finger_. Ah...
+<ce>              Oui, ça apporte la malédiction de =realmummy_.
+<ce>               Chaque nuit, pendant 1001 nuits, aux coups
+<ce>                de minuit l'esprit de =realmummy_ rendra
+<ce>                visite à celui qui possède ce _finger_.
+<ce>              La seule façon de briser la malédiction est
+<ce>                  de détruire le =realmummy_ dans
+<ce>                      sa tombe à ___dungeon_.
+
 
 Message:  1026
-<ce>                What you describe sounds like a classic
-<ce>                mummy's curse, but without the _finger_
-<ce>               itself, I cannot tell you more than that.
-<ce>             Bring it to me, and I may be able to determine
-<ce>                          from whence it came.
+<ce>                Ce que vous décrivez ressemble à une banale
+<ce>                malédiction de momie, mais sans le _finger_
+<ce>               lui-même, je ne peux pas vous en dire plus.
+<ce>            Apportez-le moi, et je serai peut-être capable de
+<ce>               determiner de quel lieu il provient.
 
 Message:  1030
-<ce>               With =realmummy_ dead, you know you have
-<ce>                   rid yourself of %g3 curse forever.
+<ce>              Avec la mort de =realmummy_, vous savez que
+<ce>         vous vous êtes libéré de sa malédiction pour toujours.
 
 Message:  1040
-Dear Stranger,
- 
- I hope you will forgive me for what I have
- done, but I had no choice. The mummy has
- haunted me every night since I found this
- cursed finger. I've tried throwing it away,
- but it did no good. A learned sage advised me
- that only by finding the mummy's tomb or by giving
- the finger away could I be rid of its hateful
- curse. I am no warrior, and who would knowingly
- take up this burden for me? You looked brave
- enough to endure the curse and perhaps solve it.
- Please understand, I meant you no harm, but I
- would have been killed or driven mad otherwise!
+Cher Etranger,
+
+J'espère que vous me pardonnerez pour ce que j'ai
+fait, seulement je n'avais pas le choix. La momie m'a
+hanté chaque nuit depuis que j'ai trouvé ce doigt
+maudit. J'ai essayé de le jeter au loin, mais ça n'a rien
+changé. Un sage érudit m'a appris que le seul moyen
+de me libérer de cette odieuse malédiction était de trouver
+la tombe de la momie ou bien de donner le doigt à quelqu'un
+d'autre. Je ne suis pas un guerrier, et qui prendrait en
+toute connaissance ce fardeau à ma place ?
+Vous avez l'air suffisamment brave pour endurer
+la malédiction et peut-être la résoudre. Veuillez
+comprendre, je ne vous veux aucun mal, mais sinon
+j'aurais fini par être tué ou bien devenir fou !
 
 Message:  1050
-<ce>                 _sage_ is a noted sage from ___sage_.
+<ce>                 _sage_ est un illustre sage de ___sage_.
                                      <--->
-<ce>                     You'll find _sage_ in __sage_
-<ce>                              in ___sage_.
+<ce>                   Vous trouverez _sage_ à __sage_
+<ce>                           en ___sage_.
 
 
 -- Symbols used in the QRC file:
@@ -195,27 +195,27 @@ Foe _F.00_ is Mummy
 Foe _realmummy_ is Mummy
 
 --	Quest start-up:
-	dialog link for person _sage_ item _finger_ 
-	start timer _S.10_ 
-	log 1010 step 0 
-	get item _letter_ 
-	get item _finger_ 
-	get item _gold1_ 
-	start task _S.03_ 
+	dialog link for person _sage_ item _finger_
+	start timer _S.10_
+	log 1010 step 0
+	get item _letter_
+	get item _finger_
+	get item _gold1_
+	start task _S.03_
 	give pc nothing
 --changed "say 1045" to "give pc nothing." This ensures faction increase for completing this quest.
-	_letter_ used do _readletter_ 
-	place foe _realmummy_ at _dungeon_ 
-	destroy _giver_ 
+	_letter_ used do _readletter_
+	place foe _realmummy_ at _dungeon_
+	destroy _giver_
 
 variable _S.00_
 _S.01_ task:
-	daily from 00:00 to 01:00 
-	create foe _F.00_ every 35 minutes 1001 times with 100% success 
+	daily from 00:00 to 01:00
+	create foe _F.00_ every 35 minutes 1001 times with 100% success
 
 _S.02_ task:
-	injured _F.00_ saying 1016 
-	unset _S.02_ 
+	injured _F.00_ saying 1016
+	unset _S.02_
 
 _dummytalk_ task:
 	clicked npc _dummy_
@@ -223,35 +223,35 @@ _dummytalk_ task:
 
 variable _S.03_
 _S.04_ task:
-	clicked npc _sage_ 
-	have _finger_ set _S.07_ 
+	clicked npc _sage_
+	have _finger_ set _S.07_
 
 _S.05_ task:
-	killed 1 _realmummy_ 
-	say 1030 
-	make _gold1_ permanent 
-	end quest 
+	killed 1 _realmummy_
+	say 1030
+	make _gold1_ permanent
+	end quest
 
 _S.06_ task:
-	when _S.04_ and _S.07_ 
-	reveal _dungeon_ 
-	log 1012 step 2 
-	say 1025 
-	unset _S.06_ _S.08_ _S.04_ _S.07_ 
+	when _S.04_ and _S.07_
+	reveal _dungeon_
+	log 1012 step 2
+	say 1025
+	unset _S.06_ _S.08_ _S.04_ _S.07_
 
 variable _S.07_
 _S.08_ task:
-	when _S.04_ and not _S.07_ 
-	say 1026 
+	when _S.04_ and not _S.07_
+	say 1026
 
 _S.09_ task:
-	injured _realmummy_ 
-	say 1020 
+	injured _realmummy_
+	say 1020
 
 _S.10_ task:
-	make _gold1_ permanent 
-	end quest 
+	make _gold1_ permanent
+	end quest
 
 _readletter_ task:
-	add dialog for item _finger_ 
-	log 1011 step 1 
+	add dialog for item _finger_
+	log 1011 step 1

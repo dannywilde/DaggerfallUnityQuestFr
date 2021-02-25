@@ -11,124 +11,129 @@ DisplayName: The Princess
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                       %pcf, the Princess _lady_
-<ce>                 has been captured from our protection,
-<ce>                   and it is the responsibility of us
-<ce>                 knights to rescue her. Unfortunately,
-<ce>                  many of our members are off fighting
-<ce>                  in the war. In the truest spirit of
-<ce>                  chivalry, will you go to rescue the
-<ce>                  princess from the _monster_ who has
-<ce>                             captured her?
+<ce>                      %pcf, la Princesse _lady_ a été
+<ce>                 capturée alors qu'elle était sous notre
+<ce>                 protection. Il est évident que la retrouver
+<ce>                est une des responsabilités de nos chevaliers.
+<ce>                 Malheureusement, nombreux sont nos
+<ce>               membres qui sont partis en guerre.
+<ce>               Dans le plus pur esprit de la Chevalerie,
+<ce>               iriez-vous porter secours à la Princesse
+<ce>               et l'arracher des griffes du _monster_
+<ce>                          qui l'a capturé
                                      <--->
-<ce>                    The war has busied the order to
-<ce>                  such a degree that important duties
-<ce>                  such as protecting the virtue of the
-<ce>                         noblewomen of %reg has
-<ce>                  fallen rather by the wayside. There
-<ce>                    is literally no one available to
-<ce>                         rescue Princess _lady_
-<ce>                   who was carried off the other day.
-<ce>                       Are you free for this most
-<ce>                           worthy of quests?
+<ce>                  La guerre a tellement occupé l'Ordre
+<ce>                   que même les missions de protection
+<ce>                  des femmes nobles de %reg ont été
+<ce>                  mises de côté. Il n'y a personne
+<ce>                  de disponible pour aller porter secours
+<ce>                 à la Princesse _lady_ qui a été enlevée
+<ce>                 il y a peu. Etes-vous disponible pour
+<ce>                 ce genre de quête très gratifiante ?
 
 RefuseQuest:  [1001]
-<ce>                   Ah, that is not the spirit of our
-<ce>                 order. There is nothing more important
-<ce>                    to us than protecting the virtue
-<ce>                            of the innocent.
+<ce>                   Ah, ce n'est pas vraiment l'état
+<ce>                d'esprit de notre Ordre. Pour nous,
+<ce>               il n'y a rien de plus important que
+<ce>               de protéger la vertu des innocents.
 
 AcceptQuest:  [1002]
-<ce>                  You will? I must say, your heart is
-<ce>                brave. A _monster_ is a fearsome foe. Be
-<ce>                certain to prepare for a battle. Do not
-<ce>                  be foolhardy -- we care only for the
-<ce>                rescue of the princess. If the _monster_
-<ce>                  can be left alone, leave him. And if
-<ce>              you are not returned in =2mondung_ days, we
-<ce>                 will assume that you have failed, and
-<ce>                  someone will be sent in your place.
-<ce>                  I am certain you do not want someone
-<ce>                 else to earn the honor of the rescue.
+<ce>                  Vraiment ? Je dois dire que vous avez
+<ce>                un bon coeur. Un _monster_ est un
+<ce>                adversaire  redoutable . Préparez-vous
+<ce>                 à un sacré combat. Cependant ne
+<ce>                soyez pas  imprudent, car ce qui nous
+<ce>               importe est le sauvetage de la princesse.
+<ce>                Essayez tant que possible d'éviter de
+<ce>               combattre. Si vous n'êtes pas de retour
+<ce>               dans =2mondung_ jours, nous penserons
+<ce>               que vous avez été tué et nous enverrons
+<ce>               quelqu'un d'autre. Je suis persuadé que
 <ce>                      May %god bless your journey
 <ce>                            to ___mondung_.
 
 QuestFail:  [1003]
-<ce>                         Hurry, %pcf. You only
-<ce>                       have =2mondung_ days left.
+<ce>                      Vite, %pcf. Il ne vous reste
+<ce>                        que =2mondung_ jours.
 
 QuestComplete:  [1004]
-<ce>                      Princess _lady_, may I more
-<ce>                 officially introduce you to your good
-<ce>                             rescuer, %pcn.
-<ce>                You have done a fine and honorable thing
-<ce>                 this day, my friend, and it shall not
-<ce>                             be forgotten.
+<ce>                      Princesse _lady_, puis-je vous
+<ce>                 présenter officiellement votre
+<ce>                             sauveur, %pcn.
+<ce>                Vous avez accompli une chose des
+<ce>               plus honorables aujourd'hui, cela
+<ce>                       ne sera jamais oublié.
 
 RumorsDuringQuest:  [1005]
-Poor Princess _lady_. When her father gets to ___qgiver_, he will be furious.
+Pauvre Princesse _lady_. Quand son père apprendra la nouvelle, il sera furieux.
 <--->
-_qgiver_ promised Princess _lady_'s father that she would be protected.
+_qgiver_ a promis au père de _lady_ qu'elle serait bien protégée.
 
 RumorsPostfailure:  [1006]
-The Princess managed to escape ___mondung_ by herself. Some knightly valor.
+La Princesse a réussi à s'enfuir de  ___mondung_ toute seule.
 <--->
-The Princess just wandered in ___qgiver_ by herself, pale from bloodloss.
+La Princesse se promenait toute seule, pale comme si elle avait perdu du sang....
 
 RumorsPostsuccess:  [1007]
-The knights are celebrating the heroism of the great %ra who rescued _lady_.
+Les Chevaliers célèbrent le grand courage du %ra qui a sauvé la princesse _lady_.
 <--->
-Lady _lady_ has begun writing poetry about the valorous %ra who rescued her.
+La Princesse _lady_  a commencé à écrire un poème sur le %ra qui l'a sauvée.
 
 QuestorPostsuccess:  [1008]
-Greetings, %pct. You'll be happy to know that Lady _lady_ is doing well.
+Bonjour, %pct. Vous serez heureux d'apprendre que la Princesse _lady_ va bien.
 
 QuestorPostfailure:  [1009]
-What a fiasco that Lady _lady_ affair was. I imagine you want it behind you.
+Quel fiasco, cette affaire à propos de _lady_ ! J'imagine que vous voulez l'oublier.
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of __qgiver_
- in ___qgiver_ has given me a quest
- to rescue the fair Lady _lady_
- from ___mondung_, where she
- has been captured and imprisoned by a _monster_.
- I have =2mondung_ days to rescue her before someone
- else is sent to win my honor and glory.
+_qgiver_ de __qgiver_
+à ___qgiver_ m'a demandé de
+sauver la Princesse _lady_
+de ___mondung_, où elle est
+retenue prisonnière par un _monster_.
+J'ai =2mondung_ jours pour la sauver avant que
+l'Ordre n'envoie quelqu'un d'autre.
 
 Message:  1011
-<ce>             A small, thin, pale little boy hisses at you
-<ce>              and slips a note into your hand. He vanishes
-<ce>                   almost the moment you notice him.
+<ce>            Un petit garcon maigre et pâle avance
+<ce>            jusqu'à vous et vous glisse un mot
+<ce>            dans la main. Il disparait au moment même
+<ce>                  où vous le remarquez.
 
 Message:  1012
-<ce>                  You have just slain the _monster_,
-<ce>                   the stuff of _lady_'s nightmares.
+<ce>                 Vous venez de tuer le _monster_, celui-là
+<ce>                 même qui hante les cauchemars de _lady_.
 
 Message:  1013
-<ce>                        Lady _lady_ leaves you,
-<ce>                   intent on making her own way home.
+<ce>                       La Princesse _lady_ s'en va
+<ce>                  avec la ferme intention de rentrer
+<ce>                        chez elle toute seule.
 
 Message:  1014
-Dear %pcf,
- 
-      If you were hesitating in that quest out of
- reasonable fear that your dear friends, the _monster_s
- of %reg would not want you to foil the
- rather lascivious plans of one of its order, do not
- fear. =monster_ is about
- as precious to our cold hearts as a puddle of month
- old spew.
-      Enjoy yourself. And, if you are so inclined,
- enjoy _lady_.
- 
-<ce>                           Your Dear Friends,
-<ce>                        The Oldest Power in %reg
+Cher %pcf,
+
+      Si vous n'êtes pas encore décidé à attaquer
+ le _monster_ , il est préférable que vous
+ sachiez que vos amis, les _monster_s
+ de %reg ne veulent pas que vous vous
+ reteniez de tuer un des membres les plus vils
+ de tout le clan. =monster_ est aussi précieux
+ à nos yeux qu'une flaque de vomi vieille
+ de plusieurs mois.
+      Amusez-vous, et si ça vous tente,
+ appréciez la Princesse _lady_.
+
+  Vos chers amis,
+  La Puissance la Plus Vieille de %reg.
+
+<ce>                           Vos chers Amis,
+<ce>                        La plus ancienne puissance de %reg
 
 Message:  1015
-<ce>                       "You're %pcf! Thank %god!
-<ce>                            I'm Lady _lady_,
-<ce>                      let's get out of here now."
+<ce>                       "Vous êtes  %pcf ! Merci %god !
+<ce>                           Je suis Lady _lady_,
+<ce>                       partons d'ici tout de suite."
 
 
 -- Symbols used in the QRC file:
@@ -165,52 +170,52 @@ Foe _monster_ is Vampire
 Foe imp0 is Giant_rat
 
 --	Quest start-up:
-	dialog link for person _vamp_ 
-	start timer _2mondung_ 
-	reveal _mondung_ 
-	log 1010 step 0 
-	repute with _vamp_ exceeds 20 do _S.05_ 
-	pc at _mondung_ set _S.03_ 
-	place foe _monster_ at _mondung_ 
-	place npc _lady_ at _mondung_ 
+	dialog link for person _vamp_
+	start timer _2mondung_
+	reveal _mondung_
+	log 1010 step 0
+	repute with _vamp_ exceeds 20 do _S.05_
+	pc at _mondung_ set _S.03_
+	place foe _monster_ at _mondung_
+	place npc _lady_ at _mondung_
 
 _2mondung_ task:
-	end quest 
+	end quest
 
 _S.01_ task:
-	when _qgclicked_ and _S.04_ 
-	give pc nothing 
-	end quest 
+	when _qgclicked_ and _S.04_
+	give pc nothing
+	end quest
 
 _S.02_ task:
-	killed 1 _monster_ 
-	say 1012 
+	killed 1 _monster_
+	say 1012
 
 _S.03_ task:
-	create foe imp0 every 40 minutes 100 times with 15% success 
+	create foe imp0 every 40 minutes 100 times with 15% success
 
 _S.04_ task:
-	clicked npc _lady_ 
-	hide npc _lady_ 
-	say 1015 
-	add _lady_ face 
+	clicked npc _lady_
+	hide npc _lady_
+	say 1015
+	add _lady_ face
 
 _S.05_ task:
-	start timer _S.07_ 
+	start timer _S.07_
 
 _qgclicked_ task:
-	clicked npc _qgiver_ 
+	clicked npc _qgiver_
 
 _S.07_ task:
-	get item letter31 
-	say 1011 
+	get item letter31
+	say 1011
 
 variable _S.08_
 _S.09_ task:
-	when _S.04_ and _2mondung_ 
-	say 1013 
+	when _S.04_ and _2mondung_
+	say 1013
 
 _clearclick_ task:
 	when _qgclicked_ and not _S.04_
-	say 1003 
-	clear _qgclicked_ _clearclick_ 
+	say 1003
+	clear _qgclicked_ _clearclick_

@@ -11,67 +11,70 @@ DisplayName: Retribution
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                    We have a traitor in __qgiver_,
-<ce>                 a villianous _monster_ who has turned
-<ce>                 against %g3 brethren. Our honor is at
-<ce>                         stake, %pct. Join our
-<ce>                            righteous fury.
+<ce>                    Nous avons un traitre à __qgiver_,
+<ce>                     un affreux _monster_ qui a osé
+<ce>                se retourner contre ses propres frères.
+<ce>                       Notre honneur est en jeu, %pct.
+<ce>                      Joignez-vous à notre vengeance
+<ce>                          justifiée contre lui !
                                      <--->
-<ce>                      __qgiver_ has been betrayed
-<ce>                       by a perfidious _monster_.
-<ce>                  Will you help us track the cowardly
-<ce>                     villian down and destroy %g2?
+<ce>                   __qgiver_ a été trahi par un
+<ce>                       _monster_ vicieux.
+<ce>                 Nous aiderez-vous à le poursuivre
+<ce>                       et à le détruire ?
 
 RefuseQuest:  [1001]
-<ce>                 An ignoble reply. I expected better.
+<ce>                Une réponse ignoble. J'avais espéré mieux.
 
 AcceptQuest:  [1002]
-<ce>                 Very good. The traitor is a _monster_
-<ce>                     named =monster_ who has taken
-<ce>                      refuge in ___mondun_ to the
-<ce>                     %di. If you have not returned
-<ce>                 in =queston_ days, your honor will be
-<ce>               forfeit and another will take your place.
-<ce>                     Do not fail us in this, %pcf.
+<ce>                 Très bien. Le traitre en question
+<ce>                   est un _monster_ appelé
+<ce>                 =monster_ qui s'est refugié dans
+<ce>                  ___mondun_ vers le %di.
+<ce>               Si vous n'êtes pas de retour dans
+<ce>                =queston_  jours, votre honneur
+<ce>                en pâtira et nous enverrons un
+<ce>            autre de nos membres faire ce travail.
+<ce>              Ne nous faites pas défaut, %pcf.
 
 QuestFail:  [1003]
-<ce>                 The _monster_ is not dead. Do not try
-<ce>                       to convince me otherwise.
+<ce>                   Le _monster_  n'est pas mort.
+<ce>                N'essayez pas de prétendre le contraire.
 
 QuestComplete:  [1004]
-<ce>                Well done. You have reason to be proud.
+<ce>          Bien joué ! Vous avez toutes les raisons d'être fier.
 
 RumorsDuringQuest:  [1005]
-That _monster_ ran off to ___mondun_ like the hounds of hell were behind him.
+Ce _monster_ s'est enfui dans ___mondun_ comme si les chiens de l'enfer le poursuivaient.
 <--->
-_qgiver_ can't just let =monster_ go after what %g did to the %kno.
+_qgiver_ ne peut pas se contenter de laisser =monster_ s'en aller comme ça.
 
 RumorsPostfailure:  [1006]
-=monster_ is apparently tougher than _qgiver_ thought. What an escape.
+=monster_ est apparemment plus résistant que _qgiver_ ne l'avait prévu. Quelle épopée !
 <--->
-=monster_ has moved north I hear, but %g3 memory still plagues the order.
+=monster_ s'est enfui vers le nord, mais son souvenir affecte toujours l'honneur de l'Ordre...
 
 RumorsPostsuccess:  [1007]
-=monster_'s story just proves it. You don't play around with the %kno.
+L'histoire de =monster_ le prouve. Il ne faut jamais trahir les %kno.
 <--->
-I always thought the Order would be more merciful to a dolt like =monster_.
+J'ai toujours pensé que l'Ordre aurait pu être plus clément envers =monster_.
 
 QuestorPostsuccess:  [1008]
-You have proven yourself in the =monster_ affair. How can we help you?
+Vous avez fait fait vos preuves dans l'affaire du =monster_. En quoi pouvons-nous vous aider ?
 
 QuestorPostfailure:  [1009]
-__qgiver_ has been embarrassed by the =monster_ affair. What do you want now?
+__qgiver_ a été très gêné par l'affaire du =monster_. Que voulez-vous maintenant ?!
 
 QuestLogEntry:  [1010]
 %qdt:
- The %kno in ___qgiver_
- has sent me to find and slay a _monster_
- called =monster_ in
- %g3 hideout, ___mondun_. I have
- =queston_ days to accomplish this.
+Le %kno à ___qgiver_
+m'a demandé de détruire un _monster_
+nommé =monster_ dans
+sa cachette, ___mondun_. Je dispose de
+=queston_ jours pour y arriver.
 
 Message:  1011
-<ce>               You have slain =monster_, the _monster_.
+<ce>              Vous avez massacré =monster_, le _monster_.
 
 
 -- Symbols used in the QRC file:
@@ -102,26 +105,26 @@ Clock _queston_ 00:00 0 flag 17 range 0 2
 Foe _monster_ is Nightblade
 
 --	Quest start-up:
-	start timer _queston_ 
-	reveal _mondun_ 
-	log 1010 step 0 
-	place foe _monster_ at _mondun_ 
+	start timer _queston_
+	reveal _mondun_
+	log 1010 step 0
+	place foe _monster_ at _mondun_
 
 _queston_ task:
-	end quest 
+	end quest
 
 _pcgetsgold_ task:
-	when _mondead_ and _qgclicked_ 
-	give pc nothing 
-	end quest 
+	when _mondead_ and _qgclicked_
+	give pc nothing
+	end quest
 
 _mondead_ task:
-	killed 1 _monster_ saying 1011 
+	killed 1 _monster_ saying 1011
 
 _qgclicked_ task:
-	clicked npc _qgiver_ 
+	clicked npc _qgiver_
 
 _clearclick_ task:
 	when not _mondead_ and _qgclicked_
-	say 1003 
-	clear _qgclicked_ _clearclick_ 
+	say 1003
+	clear _qgclicked_ _clearclick_

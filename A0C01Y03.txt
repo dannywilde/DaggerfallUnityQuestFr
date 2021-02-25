@@ -11,126 +11,126 @@ DisplayName: The Riddle
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                       I am _qgiver_, and I need
-<ce>                the services of a hunter of men. I am in
-<ce>                      love with _spouse_. Alas, %g
-<ce>             refuses to marry unless I prove my worthiness
-<ce>                    by answering a riddle %g3 mentor
-<ce>                 _hermit_ left behind when %g vanished.
-<ce>               I need you to find %g2 and find the answer
-<ce>               to %g3 riddle. I will pay you _gold_ gold
-<ce>                         pieces if you succeed.
+<ce>              Je suis _qgiver_, et je recherche les services
+<ce>               d'un chasseur de prime. Je suis amoureux de
+<ce>              _spouse_. Hélas, elle refuse de m'épouser
+<ce>            tant que je ne lui aurai pas prouvé ma valeur
+<ce>            en répondant à une énigme laissée par son tuteur
+<ce>                  _hermit_ avant de disparaître.
+<ce>          Je vous demande de le retrouver ainsi que la réponse
+<ce>            à l'énigme. Je vous payerai _gold_ pièces d'or
+<ce>                     si vous réussissez.
 
 RefuseQuest:  [1001]
-<ce>              I will continue my search for an adventurer
-<ce>               willing to take up my charge. If you meet
-<ce>                anyone who would be interested in such a
-<ce>                    quest, direct them to _qgiver_.
+<ce>             Je vais poursuivre mes recherches pour trouver
+<ce>            un aventurier souhaitant résoudre le problème.
+<ce>             Si vous rencontrez un amateur, envoyez-le
+<ce>                    directement à _qgiver_.
 
 AcceptQuest:  [1002]
-<ce>                The only person who might help you find
-<ce>                         _hermit_ is _spouse_.
-<ce>                     %g can be found in ___spouse_.
-<ce>              Take these flowers. They are %g3 favorites.
-<ce>                 They may gain you some favor with %g2.
-<ce>                    Here is a letter with _hermit_'s
-<ce>               riddle inscribed upon it. If you have not
-<ce>                returned in three months, I will assume
-<ce>                         that you have failed.
+<ce>                La seule personne qui pourrait vous aider
+<ce>                  à retrouver _hermit_ est _spouse_.
+<ce>                    Elle demeure à ___spouse_.
+<ce>              Prenez ces fleurs, ce sont ses favorites.
+<ce>              Elles vous aideront à gagner ses faveurs.
+<ce>                Je vous donne une lettre pour _hermit_.
+<ce>              J'ai écrit l'énigme à son intention. Si vous
+<ce>                 n'êtes pas de retour dans trois mois,
+<ce>                  je supposerai que vous avez échoué.
 
 QuestComplete:  [1004]
-<ce>                  _qgiver_ rips open the letter from
-<ce>                  _hermit_. "Kindness! Of course. Now
-<ce>                  I understand why _spouse_ sent me on
-<ce>               this quest. It is not enough to love %g2,
-<ce>                I have to show %g2 kindness as well. You
-<ce>                   have been most helpful, %pcf. Here
-<ce>                      is the gold I promised you."
+<ce>                _qgiver_ ouvre fébrilement la lettre de
+<ce>              _hermit_. "La Bonté ! Bien sûr. Maintenant
+<ce>               je comprends pourquoi _spouse_ m'a imposé
+<ce>             cette quête. Il n'est pas suffisant de l'aimer,
+<ce>              il me faut aussi faire preuve de bonté.
+<ce>              Votre aide fut des plus précieuses, %pcf.
+<ce>              Voici la somme que je vous avais promise."
 
 RumorsDuringQuest:  [1005]
-<ce>                    _qgiver_ is smitten with love.
-<ce>                   %g has been trying to get _spouse_
-<ce>                to accept a marriage proposal for ages.
+<ce>                    _qgiver_ est fou d'amour !
+<ce>                  Il a demandé _spouse_ en mariage
+<ce>              depuis des lustres sans obtenir de réponse.
 
 RumorsPostfailure:  [1006]
-<ce>                     I hear that _spouse_ over in
-<ce>                      ___spouse_ married. _qgiver_
-<ce>                 will be heartbroken when %g finds out.
+<ce>                     On dit que _spouse_ de
+<ce>                  ___spouse_ est mariée. _qgiver_
+<ce>            aura le coeur brisé quand il l'apprendra !
 
 RumorsPostsuccess:  [1007]
-<ce>                        Good news! _spouse_ and
-<ce>                    _qgiver_ were married recently.
+<ce>                    Bonne nouvelle ! _spouse_ et
+<ce>                   _qgiver_ viennent de se marier.
 
 QuestorPostsuccess:  [1008]
-<ce>                  Anything for the %ra that found the
-<ce>                     answer to my riddle. _spouse_
-<ce>                      and I are married, you know.
+<ce>                    Je ne peux rien refuser au %ra qui
+<ce>                    a trouvé laréponse à mon énigme.
+<ce>                _spouse_ et moi sommes mariés, vous savez.
 
 QuestorPostfailure:  [1009]
-<ce>              You are the %ra that was unable to find the
-<ce>              answer to the hermit's riddle. I have no use
-<ce>                           for failed heroes.
+<ce>              Vous êtes le %ra qui a été incapable de trouver
+<ce>            la réponse à l'énigme du tuteur. Je n'ai que faire
+<ce>                        des héros vaincus !
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of ___qgiver_
- asked me to find _hermit_.
- Supposedly, _hermit_ has the
- answer to a riddle. The only clue
- I have is that %g once worked with
- _spouse_ in ___spouse_.
+_qgiver_ de ___qgiver_
+m'a demandé de trouver _hermit_.
+Normalement, _hermit_ détient la réponse
+à une énigme. Le seul indice
+dont je dispose est qu'il a travaillé avec
+_spouse_ de ___spouse_.
 
 Message:  1011
-<ce>               The _flowers_ were not really necessary.
-<ce>                    _hermit_ left to study under the
-<ce>                      famous teacher _teacher_ in
-<ce>                    __school_. If you give %g2 this
-<ce>                 book, %g may look upon you favorably.
+<ce>            Les _flowers_ n'étaient pas vraiment nécessaires.
+<ce>               _hermit_ est parti étudier avec le fameux
+<ce>                      professeur _teacher_ à
+<ce>            __school_. Si vous lui donnez ce livre, il pourra
+<ce>                     certainement vous aider.
 
 Message:  1012
-<ce>                    _hermit_ asked me not to reveal
-<ce>                 %g3 whereabouts to strangers. However,
-<ce>                      since you bring _book_ from
-<ce>                   _spouse_, you are clearly not just
-<ce>                    some stranger. _hermit_ secluded
-<ce>                  %g2self in a dungeon to study arcane
-<ce>                  lore. I have marked its location on
-<ce>                       your map. Good luck, %pcn.
+<ce>                    _hermit_ m'a demandé de ne pas révéler
+<ce>               le lieu de sa retraite aux étrangers. Cependant
+<ce>                   puisque vous m'apportez le livre _book_ de
+<ce>                   _spouse_, il est clair que vous n'êtes pas
+<ce>                   juste un étranger. _hermit_ s'est retiré
+<ce>                dans un donjon pour étudier à l'écart du monde.
+<ce>                  J'ai marqué son emplacement sur votre carte.
+<ce>                           Bonne chance, %pcn.
 
 Message:  1013
-<ce>                  I hate being bothered! If the only
-<ce>                  way to get you to leave me alone is
-<ce>                 to give you the answer to that stupid
-<ce>                  riddle, then here, take it. Now get
-<ce>                   out of here before I summon a fire
-<ce>                      daedra to show you the way.
+<ce>                J'ai horreur d'être dérangé ! Si le seul moyen de
+<ce>                 me débarrasser rapidement de vous est de
+<ce>                vous donner la  réponse à cette énigme stupide,
+<ce>                 alors la voilà ! Je vous écris la solution.
+<ce>            Et maintenant disparaissez ! Avant que je ne demande à
+<ce>              tous les démons de l'enfer de vous raccompagner.
 
 Message:  1014
-Speak not of love or hate, but tell
- me this: what gift can you give to
- me that I can never buy for myself?
+Sans parler d'amour ou de haine, dites-moi :
+quel cadeau pouvez-vous me donner que
+je ne puisse m'offrir à moi-même ?
 
 Message:  1015
-On %qdt, I spoke with
- _spouse_. %g told me that
- _hermit_ left to
- study under _teacher_
- in __school_.
+Le %dat, j'ai eu une conversation avec
+ _spouse_. %g m'a appris que
+ _hermit_ était parti étudier
+ avec le professeur _teacher_
+ à __school_.
 
 Message:  1016
-On %qdt, I met with
- _hermit_'s teacher,
- _teacher_ of
- __school_. %g said that
- _hermit_ had secluded %g2self in
- ___dungeon_.
+Le %dat, j'ai rencontré
+le professeur d'_hermit_,
+_teacher_ de
+__school_  qui m'a appris que
+_hermit_ s'était retiré à
+___dungeon_.
 
 Message:  1017
-Speak not of love or hate, but tell
- me this: what gift can you give to
- to me that I can never buy for myself?
- 
- 'It's KINDNESS, stupid!'
+Sans parler d'amour ou de haine, dites-moi :
+quel cadeau pouvez-vous me donner que je ne puisse
+m'offrir à moi-même ?
+
+-- C'est la BONTE, imbécile!
 
 
 -- Symbols used in the QRC file:
@@ -176,37 +176,37 @@ Clock _S.01_ 90.00:00
 
 
 --	Quest start-up:
-	dialog link for location _school_ person _teacher_ 
-	dialog link for location _dungeon_ person _hermit_ 
-	start timer _S.01_ 
-	log 1010 step 0 
-	get item _flowers_ 
-	get item _letter_ 
-	create npc _spouse_ 
-	place npc _hermit_ at _dungeon_ 
-	place npc _teacher_ at _school_ 
+	dialog link for location _school_ person _teacher_
+	dialog link for location _dungeon_ person _hermit_
+	start timer _S.01_
+	log 1010 step 0
+	get item _flowers_
+	get item _letter_
+	create npc _spouse_
+	place npc _hermit_ at _dungeon_
+	place npc _teacher_ at _school_
 
 variable _questdone_
 _S.01_ task:
-	end quest 
+	end quest
 
 _S.02_ task:
-	toting _flowers_ and _spouse_ clicked saying 1011 
-	add dialog for location _school_ person _teacher_ 
-	log 1015 step 1 
-	get item _book_ 
+	toting _flowers_ and _spouse_ clicked saying 1011
+	add dialog for location _school_ person _teacher_
+	log 1015 step 1
+	get item _book_
 
 _S.03_ task:
-	toting _book_ and _teacher_ clicked saying 1012 
-	add dialog for person _hermit_ 
-	reveal _dungeon_ 
-	log 1016 step 2 
+	toting _book_ and _teacher_ clicked saying 1012
+	add dialog for person _hermit_
+	reveal _dungeon_
+	log 1016 step 2
 
 _S.04_ task:
-	toting _letter_ and _hermit_ clicked saying 1013 
-	get item _answer_ 
+	toting _letter_ and _hermit_ clicked saying 1013
+	get item _answer_
 
 _S.05_ task:
-	toting _answer_ and _qgiver_ clicked 
-	give pc _gold_ 
-	end quest 
+	toting _answer_ and _qgiver_ clicked
+	give pc _gold_
+	end quest

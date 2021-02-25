@@ -12,73 +12,75 @@ DisplayName: The Bodyguard
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                    %pcn, I fear for my very life.
-<ce>                    Will you protect me? _villains_s
-<ce>              have threatened to kill me tonight because I
-<ce>                have refused to sell my land. I can pay
-<ce>                            you _gold_ gold.
+<ce>                 %pcn, j'ai peur pour ma vie.
+<ce>              Me protégerez-vous ? Des _villains_s
+<ce>             ont prévu de me tuer cette nuit parce
+<ce>             que j'ai refusé de vendre mes terres.
+<ce>            Je peux vous payer _gold_ pièces d'or.
                                      <--->
-<ce>               You find me in desperate straits, my dear
-<ce>                  %ra. I have received word from some
-<ce>                 %cn thugs that they intend to ransack
-<ce>                my house tonight. I don't suppose you'd
-<ce>                  be available to do a little creative
-<ce>                 facial rearrangement on these fellows?
+<ce>              Vous me trouvez complètement désespéré,
+<ce>                mon cher %ra. J'ai recu un mot
+<ce>               de voyous %cn disant qu'ils prévoyaient
+<ce>              de piller ma maison cette nuit. Je suppose
+<ce>             que vous n'êtes pas disponible pour faire un
+<ce>           petit réarrangement facial créatif sur ces gars ?
 
 RefuseQuest:  [1001]
-<ce>                    Fear not for my safety, %pcn. I
-<ce>                shall find another protector... somehow.
+<ce>                   Ne craignez pas pour ma sécurité, %pcn.
+<ce>                    Je trouverai un autre protecteur...
+<ce>                       d'une façon ou d'une autre.
 
 AcceptQuest:  [1002]
-<ce>             Thank you and bless you! They will strike at
-<ce>                 _qgiverhome_ in the three hours before
-<ce>              midnight. Be there and wait with me for that
-<ce>               time. Once they have been defeated, I will
-<ce>                          be safe once again.
+<ce>       Merci et soyez béni ! Ils frapperont à _qgiverhome_
+<ce>            dans les trois heures avant minuit.
+<ce>      Soyez là-bas et attendez qu'ils arrivent avec moi.
+<ce>            Je serai à nouveau en sécurité
+<ce>         qu'une fois qu'ils auront été battus.
 
 QuestComplete:  [1004]
-<ce>                 You have saved my life, %pcf. I will
-<ce>                 gladly pay you our agreed upon amount.
+<ce>               Vous m'avez sauvé la vie, %pcf. Je vous
+<ce>               paierai avec plaisir la somme convenue.
 
 RumorsDuringQuest:  [1005]
-<ce>                    _qgiver_ is in trouble with the
-<ce>                Thieves Guild. I hear they are going to
-<ce>                             rough %g2 up.
+<ce>                 _qgiver_ a des ennuis avec la
+<ce>                Guilde des Voleurs. J'ai entendu dire
+<ce>                   qu'ils allaient %g2 bousculer.
 
 RumorsPostfailure:  [1006]
-<ce>                    I saw _qgiver_ recently. %g was
-<ce>                        beaten up by some thugs.
+<ce>                   J'ai vu _qgiver_ récemment.
+<ce>                %g s'est fait tabasser par des voyous.
 
 RumorsPostsuccess:  [1007]
-<ce>                        Aren't you the %ra that
-<ce>                  chased off those thugs that tried to
-<ce>                           beat up _qgiver_?
+<ce>                       N'êtes-vous pas le %ra qui
+<ce>                 a chassé ces voyous qui essayaient
+<ce>                        de tabasser _qgiver_ ?
 
 QuestorPostsuccess:  [1008]
-<ce>                 I still remember what you did for me,
-<ce>                     %pcf. Chasing off those thugs
-<ce>                        leaves me in your debt.
+<ce>                Je n'ai pas oublié ce que vous avez
+<ce>               fait pour moi %pcf. Chasser ces voyous
+<ce>                    a fait de moi votre débiteur.
 
 QuestorPostfailure:  [1009]
-<ce>                I still have the scars from when those
-<ce>                 thugs found me. I hired you to protect
-<ce>                 me and you blew it. Get away from me.
+<ce>               J'ai toujours les cicatrices que ces
+<ce>                voyous m'ont faites. Je vous avais engagé
+<ce>              pour me protéger et vous vous êtes dégonflé.
+<ce>                          Hors de ma vue.
 
 QuestLogEntry:  [1010]
-On %qdt,
- _qgiver_ of ___qgiver_ asked
- me to protect %g2. _villains_s have
- threatened to assault %g2 between
- 9 and midnight at _qgiverhome_.
+%qdt :
+_qgiver_ de ___qgiver_
+m'a demandé de %g2 protéger. Des
+_villains_s ont prévu de l'attaquer
+entre 21 heures et minuit à _qgiverhome_.
 
 Message:  1011
-<ce>               This is not your problem, stranger. Leave
-<ce>                   _qgiver_ to us or we will cut you
-<ce>                         down where you stand!
+<ce>               Ce n'est pas ton problème, étranger.
+<ce>                 Laisse-nous _qgiver_ ou nous
+<ce>                   t'abattrons sur place !
 
 Message:  1013
-<ce>                  This must be the place. It fits the
-<ce>                     description _qgiver_ gave you.
+<ce>                  Ce doit être le bon endroit. Cela correspond à
+<ce>                  la description que _qgiver_ vous a donnée.
 
 
 -- Symbols used in the QRC file:
@@ -109,45 +111,45 @@ Clock _S.00_ 1.03:00
 Foe _villains_ is 2 Assassin
 
 --	Quest start-up:
-	start timer _S.00_ 
-	log 1010 step 0 
+	start timer _S.00_
+	log 1010 step 0
 	pc at _qgiverhome_ set _S.05_
 	---removed "saying" as unacceptable argument. moved to S.05
-	create npc at _qgiverhome_ 
+	create npc at _qgiverhome_
 
 _S.00_ task:
-	end quest 
+	end quest
 
 _S.01_ task:
-	daily from 21:00 to 23:59 
+	daily from 21:00 to 23:59
 	--changed 24:00 to 23:59. 24:00 shouldn't exist.
-	place npc _qgiver_ at _qgiverhome_ 
+	place npc _qgiver_ at _qgiverhome_
 
 _S.02_ task:
-	killed 2 _villains_ 
+	killed 2 _villains_
 
 _questdone_ task:
-	when _S.04_ and _S.02_ 
-	give pc _gold_ 
+	when _S.04_ and _S.02_
+	give pc _gold_
 
 _S.04_ task:
-	clicked npc _qgiver_ 
+	clicked npc _qgiver_
 
 _S.05_ task:
 	say 1013
 
 _S.06_ task:
-	injured _villains_ saying 1011 
+	injured _villains_ saying 1011
 
 _clearclick_ task:
-	when not _S.02_ and _S.04_ 
-	clear _S.04_ _clearclick_ 
+	when not _S.02_ and _S.04_
+	clear _S.04_ _clearclick_
 
 _S.08_ task:
 	when _S.05_ and _S.01_ and not _S.06_
-	create foe _villains_ every 10 minutes 1 times with 25% success 
+	create foe _villains_ every 10 minutes 1 times with 25% success
 --added "not S06" to prevent multiple spawns
 
 _mmap_ task:
-	when _questdone_ and not _S.05_ 
-	end quest 
+	when _questdone_ and not _S.05_
+	end quest
