@@ -12,69 +12,73 @@ DisplayName: The Hunter
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                        I don't trust you, %pcn.
-<ce>                      You are not a member of our
-<ce>                    order. If you would like to earn
-<ce>                   my trust, and maybe even a modicum
-<ce>                   of respect, go kill the _monster_
-<ce>                  raiding the farms. Are you up to it?
+<ce>                       Je ne vous fait pas confiance,
+<ce>                      %pcn. Vous n'êtes pas un membre
+<ce>                      de notre Ordre. Si vous voulez
+<ce>                      gagner ma confiance, et peut-être
+<ce>                      même un semblant de respect,
+<ce>                      allez tuer le _monster_ qui pille
+<ce>                      les fermes des environs. En
+<ce>                          êtes-vous capable ?
 
 RefuseQuest:  [1001]
-<ce>                     I thought so. The heart of a
-<ce>                    coward beats within your chest.
-<ce>                     The sight of you makes me ill.
+<ce>                     C'est bien ce que je pensais. Vous
+<ce>                      avez le coeur d'un lâche. Votre
+<ce>                           vue me rend malade !
+
 
 AcceptQuest:  [1002]
-<ce>                  The _monster_ has made its lair in
-<ce>                       ___dungeon_. Go there and
-<ce>                      kill it. There may be other
-<ce>                  _monster_s there, but I don't care.
-<ce>                   I am only interested in one with a
-<ce>                 large burn mark on its back. It's the
-<ce>                one that has been raiding the peasants.
-<ce>                         You have =2dung_ days.
+<ce>                  Le _monster_ a fait son nid dans
+<ce>                 ___dungeon_. Allez là-bas et tuez-le.
+<ce>                 Il peut y avoir d'autres _monster_s
+<ce>                 là-bas, mais à vrai dire, je m'en
+<ce>                 désintéresse totalement. Le seul qui
+<ce>                 m'intéresse a une large brûlure sur
+<ce>                 le dos. C'est celui-là qui a pillé
+<ce>                 les fermes. Vous avez =2dung_ jours.
 
 QuestComplete:  [1004]
-<ce>                      Hmmph. You did better than
-<ce>                     expected, %pcn. Maybe someday
-<ce>                      you will even be worthy of a
-<ce>                   membership in the knightly order.
+<ce>                     Hmmph. Vous vous en êtes
+<ce>                    mieux sorti que je ne l'aurais pensé,
+<ce>                    %pcn. Peut-être qu'un jour vous serez
+<ce>                    un membre honorable de notre Ordre...
 
 RumorsDuringQuest:  [1005]
-That _monster_ is a real nuisance in ___qgiver_.
+Ce _monster_ est une réelle nuisance pour tout %cn.
 <--->
-Many wish the knights would do something about that _monster_.
+Beaucoup de gens voudraient que les Chevaliers fassent quelque chose contre ce _monster_.
 
 RumorsPostfailure:  [1006]
-Thank %god, and not the knightly order, the _monster_ moved on.
+%god merci , le _monster_ est enfin parti. Les Chevaliers auraient quand même pu faire quelque chose !
 <--->
-It's only natural that the _monster_ moved. But it'll return.
+C'est de manière naturelle que le _monster_ est parti. Mais il reviendra.
 
 RumorsPostsuccess:  [1007]
-Everyone is thanking the knights for slaying that _monster_.
+Tout le monde remercie les Chevaliers pour avoir massacré ce _monster_.
 <--->
-No one expected the knightly order to do anything about the _monster_.
+Personne ne pensait que les Chevaliers feraient quelque chose contre ce _monster_.
 
 QuestorPostsuccess:  [1008]
-Awright, kid. After what you did, I can be civil to you.
+D'accord, gamin. Après ce que vous avez fait pour nous, je peux me montrer courtois.
 
 QuestorPostfailure:  [1009]
-_monster_ Lover, get outta here.
+Ami de _monster_, allez-vous en !
 <--->
-You make me sick, _monster_ Lover.
+Vous me rendez malade, Ami de _monster_.
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of
- the knightly order in ___qgiver_
- told me of a _monster_ that needs
- slaying in ___dungeon_.
- I only have =2dung_ days.
+_qgiver_ de l'Ordre des
+Chevaliers à ___qgiver_
+m'a parlé d'un _monster_ qui aurait grand
+besoin d'une correction dans ___dungeon_.
+Je ne dispose que de =2dung_ jours.
 
 Message:  1011
-<ce>                        On it's back is a large
-<ce>                      scorched area. This must be
-<ce>                       the one _qgiver_ spoke of.
+<ce>                        Vous remarquez une large
+<ce>                      brûlure sur son dos. Cela doit
+<ce>                        donc être celui dont _qgiver_
+<ce>                            vous a tant parlé.
 
 
 -- Symbols used in the QRC file:
@@ -101,26 +105,26 @@ Clock _2dung_ 00:00 0 flag 17 range 0 2
 Foe _monster_ is Giant
 
 --	Quest start-up:
-	start timer _2dung_ 
-	reveal _dungeon_ 
-	log 1010 step 0 
-	place foe _monster_ at _dungeon_ 
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	place foe _monster_ at _dungeon_
 
 _2dung_ task:
-	end quest 
+	end quest
 
 _S.01_ task:
-	killed 1 _monster_ saying 1011 
+	killed 1 _monster_ saying 1011
 
 _S.02_ task:
-	clicked npc _qgiver_ 
+	clicked npc _qgiver_
 
 _success_ task:
-	when _S.02_ and _S.01_ 
-	give pc nothing 
-	change repute with _local_ by +4 
-	end quest 
+	when _S.02_ and _S.01_
+	give pc nothing
+	change repute with _local_ by +4
+	end quest
 
 _clearclick_ task:
-	when _S.02_ and not _S.01_ 
-	clear _S.02_ _clearclick_ 
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_

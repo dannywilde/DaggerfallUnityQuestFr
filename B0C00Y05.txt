@@ -12,81 +12,85 @@ DisplayName: The Traitor
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                  You are not yet a trusted member of
-<ce>                       our knightly order, %pcn.
-<ce>                   However, I think I know a way you
-<ce>                     can earn our trust. There is a
-<ce>                  traitor to the order in ___qgiver_,
-<ce>                     a dastardly _monster_ who has
-<ce>                   betrayed us to our enemies. Death
-<ce>                   is a fair punishment for treason,
-<ce>                       don't you think %pcn? Will
-<ce>                       you do this for the order?
+<ce>                  Vous n'êtes pas encore un membre
+<ce>                  de notre Ordre à qui l'on peut faire
+<ce>                  confiance, %pcn. Quoi qu'il en soit,
+<ce>                  je pense connaître un moyen de
+<ce>                  monter dans notre estime. Il y a
+<ce>                  un traitre à l'Ordre dans ___qgiver_,
+<ce>                     un _monster_ lâche qui a osé
+<ce>                  rejoindre nos ennemis. La trahison
+<ce>                  est punie par la mort, et encore ce
+<ce>                  n'est pas un châtiment suffisant selon
+<ce>               moi. Seriez-vous prêt à nous en débarasser ?
 
 RefuseQuest:  [1001]
-<ce>                     Don't expect any favors from
-<ce>                   this knightly order anytime soon.
+<ce>                    N'espérez pas obtenir une quelconque
+<ce>                  faveur de la part de notre Ordre avant un
+<ce>                              long moment.
 
 AcceptQuest:  [1002]
-<ce>                      The traitor is a _monster_
-<ce>                     named =monster_ who is hiding
-<ce>                        like a craven coward in
+<ce>                      Le traitre est un _monster_
+<ce>                      nomme  =monster_ qui se cache
+<ce>                      comme un lâche peureux dans
 <ce>                              ___mondun_.
-<ce>                        If you have not returned
-<ce>                    in =queston_ days, our trust is
-<ce>                     forfeit and another will take
-<ce>                              your place.
+<ce>                      Si vous n'êtes pas de retour dans
+<ce>                      =queston_  jours, nous penserons
+<ce>                      que vous nous avez trahi et nous
+<ce>                      enverrons quelqu'un d'autre faire
+<ce>                             ce travail.
 
 QuestFail:  [1003]
-<ce>                 The _monster_ is not dead. Do not try
-<ce>                       to convince me otherwise.
+<ce>                 Le _monster_ n'est toujours pas mort ! N'essayez
+<ce>                     même pas de me persuader du contraire.
 
 QuestComplete:  [1004]
-<ce>                       Maybe you are not as bad
-<ce>                         as they say. %pcn, you
-<ce>                      have earned a bit of respect
-<ce>                       with this knightly order.
+<ce>                     Peut-être n'êtes vous pas aussi
+<ce>                      mauvais que cela, après tout !
+<ce>                        Vous avez gagné un peu plus
+<ce>                      de respect au sein de cet Ordre.
 
 RumorsDuringQuest:  [1005]
-That _monster_ ran off to ___mondun_ like the hounds of hell were behind him.
+Ce _monster_ s'est enfui à ___mondun_ comme si tous les chiens de l'enfer le poursuivaient.
 <--->
-_qgiver_ can't just let =monster_ go after what %g did to the knightly order.
+_qgiver_ ne peut pas se contenter de laisser =monster_ s'en aller après ce qu'il a fait à notre Ordre.
 
 RumorsPostfailure:  [1006]
-=monster_ is apparently tougher than _qgiver_ thought. What an escape.
+=monster_ est apparemment plus résistant que _qgiver_ ne l'avait prévu. Quelle épopée !
 <--->
-=monster_ has moved north I hear, but %g3 memory still plagues the order.
+=monster_ s'est enfui vers le nord, mais son souvenir infecte toujours l'honneur de l'Ordre....
 
 RumorsPostsuccess:  [1007]
-=monster_'s story just proves it. You don't play around with the ==qgiver_.
+L'histoire de =monster_ le prouve. Il ne faut jamais trahir les %kno.
 <--->
-I always thought the Order would be more merciful to a dolt like =monster_.
+J'ai toujours pensé que l'Ordre aurait pu être plus clément envers =monster_.
 
 QuestorPostsuccess:  [1008]
-I'd be happy to help you however I can, killer.
+Je serais heureux de pouvoir vous rendre service, tueur.
 
 QuestorPostfailure:  [1009]
-Your heart is too soft, %pcf. Don't waste my time.
+Vous n'avez pas assez de cran, %pcf. Ne me faites pas perdre mon temps .
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of ___qgiver_
- has sent me to find and slay a _monster_
- called =monster_ who is slinking
- around in ___mondun_. I have
- =queston_ days to accomplish this.
+_qgiver_ de ___qgiver_
+m'a demandé de tuer un _monster_
+appelé =monster_ qui s'est éclipsé
+quelque part vers ___mondun_. Je dispose
+de =queston_ jours pour accomplir cette mission.
 
 Message:  1011
-<ce>               You have killed =monster_, the _monster_.
-<ce>                   The knightly order will be proud.
+<ce>               Vous avez tué =monster_, le _monster_.
+<ce>             L'Ordre de Chevalerie va être fier de vous.
 
 Message:  1080
-<ce>                    As a token of our appreciation,
-<ce>                 please accept this map to ___newdung_,
-<ce>                  a foul, vermin-infested hole by all
-<ce>                   accounts.  Just the kind of place
-<ce>                     a budding knight should enjoy
-<ce>                              cleaning up.
+<ce>                    Veuillez accepter cette carte de
+<ce>                   ___newdung_ en tant que preuve
+<ce>                   de notre gratitude. Cet endroit
+<ce>               est infesté de vermines de toutes sortes.
+<ce>              En fait, c'est exactement le type d'endroit
+<ce>                   qu'un chevalier comme vous aime
+<ce>                              nettoyer.
 
 
 -- Symbols used in the QRC file:
@@ -117,29 +121,29 @@ Clock _queston_ 00:00 0 flag 17 range 0 2
 Foe _monster_ is Nightblade
 
 --	Quest start-up:
-	start timer _queston_ 
-	reveal _mondun_ 
-	log 1010 step 0 
-	pick one of _map_ _nomap_ _nomap_ 
-	place foe _monster_ at _mondun_ 
+	start timer _queston_
+	reveal _mondun_
+	log 1010 step 0
+	pick one of _map_ _nomap_ _nomap_
+	place foe _monster_ at _mondun_
 
 _queston_ task:
-	end quest 
+	end quest
 
 _pcgetsgold_ task:
-	when _mondead_ and _qgclicked_ 
-	give pc nothing 
+	when _mondead_ and _qgclicked_
+	give pc nothing
 
 _mondead_ task:
-	killed 1 _monster_ saying 1011 
+	killed 1 _monster_ saying 1011
 
 _qgclicked_ task:
-	clicked npc _qgiver_ 
+	clicked npc _qgiver_
 
 _clearclick_ task:
-	when not _mondead_ and _qgclicked_ 
+	when not _mondead_ and _qgclicked_
 	say 1003
-	clear _qgclicked_ _clearclick_ 
+	clear _qgclicked_ _clearclick_
 
 variable _map_
 variable _nomap_

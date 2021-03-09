@@ -12,62 +12,64 @@ DisplayName: Killing a Giant
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                      I've just gotten word of a
-<ce>                      _monster_ raiding farms and
-<ce>                       devouring cattle. My name?
-<ce>                       A thousand apologies %pcf.
-<ce>                        I am _qgiver_. Will you
-<ce>                         go slay the _monster_?
+<ce>                      Je viens juste d'apprendre
+<ce>                      qu'un _monster_ pillait des
+<ce>                       fermes et des châteaux.
+<ce>                         Mon nom ? Ah, pardon,
+<ce>                      je suis _qgiver_. Seriez-vous
+<ce>                    en mesure de tuer ce _monster_ ?
 
 RefuseQuest:  [1001]
-<ce>                     Where are the noble knights?
-<ce>                      Have they all vanished from
-<ce>                           %reg? Begone %pcn.
+<ce>                     Mais ou peuvent bien être les
+<ce>                   nobles chevaliers ? Ont-ils tous
+<ce>                   disparu de %reg ?! Partez, %pcn.
 
 AcceptQuest:  [1002]
-<ce>                     The _monster_ has made a den
-<ce>                         out of ___dungeon_. Go
-<ce>                        there and kill him. You
-<ce>                      might find other _monster_s
-<ce>                     there. Kill them if you must,
-<ce>                       but be sure to get the one
-<ce>                       with the bear claw branded
-<ce>                      on his arm. I can only give
-<ce>                           you =2dung_ days.
+<ce>                     Le  _monster_ a bâti sa
+<ce>                     tanière dans ___dungeon_.
+<ce>                    Allez là-bas et tuez-le.
+<ce>                   Vous trouverez peut-être d'autres
+<ce>                   _monster_s. Tuez-les si vous en
+<ce>                  avez l'occasion mais n'oubliez pas
+<ce>                   que seule la mort de celui avec
+<ce>                 la griffe d'un ours sur l'avant-bras
+<ce>                 m'intéresse. Je ne peux vous donner
+<ce>                  que =2dung_ jours pour y arriver.
 
 QuestComplete:  [1004]
-<ce>                     Now you are a true _monster_
-<ce>                       killer, %pcf! And to think
-<ce>                       I got to shake your hand.
+<ce>                     Maintenant vous faites partie de la
+<ce>                     famille des tueurs de  _monster_,
+<ce>                %pcf ! Permettez-moi de vous serrer la main.
 
 RumorsDuringQuest:  [1005]
-Giants are not generally all that aggressive. But the one in ___dungeon_ sure is.
+Normalement, les géants ne sont pas aussi aggressifs. Cependant, celui dans ___dungeon_ est fou à lier.
 
 RumorsPostfailure:  [1006]
-I hear the ___dungeon_ giant moved down south. They must be cursing us there.
+J'ai entendu dire que le géant de ___dungeon_ s'est enfui vers le Sud.
 
 RumorsPostsuccess:  [1007]
-The %kno saved %reg again. A %ra of their order killed the ___dungeon_ giant.
+Le %kno a encore sauvé %reg. Un %ra de leur Ordre a tué le géant de  ___dungeon_.
 
 QuestorPostsuccess:  [1008]
-Hullo, %pcf the Giant-Killer. What can I do for you?
+Salut, %pcf, Tueur de Géants. Que puis-je faire pour vous ?
 
 QuestorPostfailure:  [1009]
-Come back when you know how to slay one lousy giant, %pcf.
+Revenez quand vous serez enfin prêt à tuer un misérable géant, %pcn.
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of
- __qgiver_ in ___qgiver_
- told me of a _monster_ that needs
- slaying in ___dungeon_.
- I only have =2dung_ days.
+_qgiver_ de
+__qgiver_ dans ___qgiver_
+m'a parlé d'un _monster_ qui aurait
+grand besoin d'une correction dans
+___dungeon_. Je dispose de  =2dung_
+jours pour y arriver.
 
 Message:  1011
-<ce>                     A bear claw brand is clearly
-<ce>                      visible on the upper arm of
-<ce>                      the _monster_. This must be
-<ce>                       the one _qgiver_ spoke of.
+<ce>                    Une griffe d'ours est clairement
+<ce>                   visible sur l'avant-bras du _monster_.
+<ce>                   Cela doit donc être celui dont _qgiver_
+<ce>                               a parlé.
 
 
 -- Symbols used in the QRC file:
@@ -97,26 +99,26 @@ Clock _2dung_ 00:00 0 flag 17 range 0 2
 Foe _monster_ is Giant
 
 --	Quest start-up:
-	start timer _2dung_ 
-	reveal _dungeon_ 
-	log 1010 step 0 
-	place foe _monster_ at _dungeon_ 
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	place foe _monster_ at _dungeon_
 
 _2dung_ task:
-	end quest 
+	end quest
 
 _S.01_ task:
-	killed 1 _monster_ saying 1011 
+	killed 1 _monster_ saying 1011
 
 _S.02_ task:
-	clicked npc _qgiver_ 
+	clicked npc _qgiver_
 
 _success_ task:
-	when _S.02_ and _S.01_ 
+	when _S.02_ and _S.01_
 	give pc nothing
-	change repute with _local_ by +4 
-	end quest 
+	change repute with _local_ by +4
+	end quest
 
 _clearclick_ task:
-	when _S.02_ and not _S.01_ 
-	clear _S.02_ _clearclick_ 
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_

@@ -12,92 +12,92 @@ DisplayName: Eternal Rest
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                    Have I got a good one for you.
-<ce>                        It seems _nobleman_ just
-<ce>                      read about an ancient family
-<ce>                      curse. Now %g is scared out
-<ce>                     of %g3 mind. %g wants someone
-<ce>                    to go destroy %g3 great, great,
-<ce>                       great grandmother, whom %g
-<ce>                      fears walks the earth as an
-<ce>                      undead monstrosity. Are you
-<ce>                           interested, %pct?
+<ce>                J'ai un travail pour vous. Il semblerait
+<ce>                       qu'un noble, _nobleman_,
+<ce>                  vienne juste d'apprendre qu'une
+<ce>                 malédiction frappe sa famille. Inutile
+<ce>              de dire qu'il a d'abord été très surpris,
+<ce>                puis il nous a demandé de tuer son
+<ce>                arrière arrière arrière grand-mère qui
+<ce>              serait, selon lui, la réincarnation d'un
+<ce>                    esprit mafaisant. Etes-vous
+<ce>                         intéressé, %pct?
                                      <--->
-<ce>                 This may potentially be nothing more
-<ce>                   than a simple poke around a tomb,
-<ce>                      but _nobleman_ has asked us
-<ce>                    to investigate the resting place
-<ce>                    of %g3 great, great, great grand
-<ce>                   mother. Apparently %g had a dream
-<ce>                    that %g had been brought to life
-<ce>                    and would escape from the family
-<ce>                     burial mound in =2dung_ days.
-<ce>                   Perhaps it is all perfect rot, but
-<ce>                   perhaps not. Will you investigate,
-<ce>                                 %pct?
+<ce>             Ce qui suit n'est peut-être qu'une blague
+<ce>                d'un goût douteux, mais _nobleman_
+<ce>               a fait appel à nous pour enquêter
+<ce>               sur la tombe de son arrière arrière
+<ce>               arrière grand-mère, qui aurait été
+<ce>              selon lui ramenée à la vie et qui
+<ce>              voudrait quitter le tombeau familial
+<ce>                   d'ici   =2dung_ jours.
+<ce>             C'est peut être une information moisie,
+<ce>              mais peut-être pas. Le seul moyen de
+<ce>                le savoir est d'aller enquêter.
+<ce>                Cela vous intéresse-t-il, %pct?
 
 RefuseQuest:  [1001]
-<ce>                   If you run into any knights that
-<ce>                     might take this job, send them
-<ce>                                 to me.
+<ce>                  Si vous rencontrez un chevalier
+<ce>                 qui serait intéressé par ce travail,
+<ce>                         envoyez-le moi.
 
 AcceptQuest:  [1002]
-<ce>                     _nobleman_'s ancient ancestor
-<ce>                    is entombed in a mausoleum named
-<ce>                          ___dungeon_ that was
-<ce>                   designed to prevent graverobbing.
-<ce>                     There is no proof she is even
-<ce>                     undead. Odds are she's just a
-<ce>                    corpse. If so, burn the body in
-<ce>                    a proper funeral pyre. Get back
-<ce>                   within =2dung_ days, or _nobleman_
-<ce>                   says the curse will be triggered.
+<ce>                     L'ancêtre de _nobleman_
+<ce>                   est enterrée dans un mausolée nommé
+<ce>                ___dungeon_ qui a été conçu pour empêcher
+<ce>                 le pillage de la tombe. Il n'y a bien sûr
+<ce>                aucune preuve qu'elle soit revenue à la vie.
+<ce>               Il est probable qu'elle ne soit qu'un cadavre.
+<ce>                   Cependant, si elle ne l'était
+<ce>               pas, brûlez le corps dans une urne funéraire
+<ce>                digne de ce nom. Revenez dans au plus
+<ce>                  =2dung_ jours sinon _nobleman_
+<ce>                dit que la malédiction se déclenchera.
 
 QuestComplete:  [1004]
-<ce>                     Well I'll be. I didn't figure
-<ce>                       _nobleman_'s ancestor was
-<ce>                    really one of the walking dead!
-<ce>                    You have saved the local people
-<ce>                       much misery and suffering.
+<ce>                     Bon. Ainsi soit-il. Je n'aurais
+<ce>                     jamais imaginé que l'ancêtre
+<ce>                   de  _nobleman_ soit réellement l'une
+<ce>                    des morts-vivants ! Vous avez
+<ce>                 brillamment réussi votre travail.
 
 RumorsDuringQuest:  [1005]
-_nobleman_ is a superstitious fool, but %g3 great grandmother was an odd one.
+_nobleman_ est un idiot superstitieux, mais sa grand-mère était étrange de son vivant...
 <--->
-_nobleman_ comes a strange family. Maybe %g3 great grandmother is a zombie.
+_nobleman_ vient d'une famille bizarre. Peut-être que sa grand-mère est un zombie.
 
 RumorsPostfailure:  [1006]
-%kno looked into _nobleman_'s story and, I guess, decided it was a hoax.
+%kno ont écouté l'histoire de _nobleman_ et, je pense, ont décidé que c'était une farce.
 
 RumorsPostsuccess:  [1007]
-_nobleman_'s great, great grandmother was undead after all! How about that?
+L'arrière arrière grand-mère de _nobleman_ était revenue des morts, finalement ! Qu'est-ce que vous en dites ?
 
 QuestorPostsuccess:  [1008]
-After saving %reg from an undead menace we didn't know we had, what can I do?
+Après avoir sauvé %reg d'une grande menace, que puis-je faire pour vous ?
 
 QuestorPostfailure:  [1009]
-As a matter of fact, I know _nobleman_'s story wasn't a hoax, you sluggard!
+Au fait, j'ai appris que l'histoire de _nobleman_ n'avait rien d'un canular, espèce de fainéant !
 <--->
-I happen to know there was a real monster in ___dungeon_, you dormouse!
+J'ai appris qu'il y avait réellement un monstre dans ___dungeon_, espèce de loir !
 <--->
-You failed %kno when you failed _nobleman_, %pcf.
+Vous avez failli aux %kno quand vous avez failli à _nobleman_, %pcf.
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of
- ==qgiver_ in ___qgiver_
- charged me with the duty of
- cremating the corpse of
- _nobleman_'s ancient ancestor
- in ___dungeon_. There is
- a chance it is an undead
- horror, which will need to
- be put to rest. I have =2dung_
- days to finish the quest.
+_qgiver_ de
+==qgiver_ dans ___qgiver_
+m'a demandé d'incinérer le corps
+d'un ancient ancêtre de _nobleman_
+qui se trouve dans ___dungeon_.
+Il est possible que je trouve
+un zombie, qui a besoin d'être en
+paix. J'ai =2dung_ jours pour finir
+cette quête.
 
 Message:  1011
-<ce>                    The _monster_ is laid to rest.
-<ce>                       _nobleman_ need not worry
-<ce>                         about that curse now.
+<ce>             Le _monster_ peut enfin reposer en paix.
+<ce>              Dorénavant, _nobleman_ n'a plus besoin
+<ce>                 de se soucier de la malédiction.
 
 
 -- Symbols used in the QRC file:
@@ -131,27 +131,27 @@ Clock _2dung_ 00:00 0 flag 17 range 0 2
 Foe _monster_ is Mummy
 
 --	Quest start-up:
-	start timer _2dung_ 
-	reveal _dungeon_ 
-	log 1010 step 0 
-	place foe _monster_ at _dungeon_ 
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	place foe _monster_ at _dungeon_
 
 _2dung_ task:
-	end quest 
+	end quest
 
 _S.01_ task:
-	killed 1 _monster_ saying 1011 
+	killed 1 _monster_ saying 1011
 
 _S.02_ task:
-	clicked npc _qgiver_ 
+	clicked npc _qgiver_
 
 _success_ task:
-	when _S.02_ and _S.01_ 
-	give pc nothing 
-	change repute with _local_ by +4 
-	change repute with _nobleman_ by +10 
-	end quest 
+	when _S.02_ and _S.01_
+	give pc nothing
+	change repute with _local_ by +4
+	change repute with _nobleman_ by +10
+	end quest
 
 _clearclick_ task:
-	when _S.02_ and not _S.01_ 
-	clear _S.02_ _clearclick_ 
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_

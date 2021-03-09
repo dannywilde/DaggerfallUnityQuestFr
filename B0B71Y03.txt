@@ -11,286 +11,312 @@ DisplayName: The Artifact
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                      A rumor has surfaced as to
-<ce>                     the whereabouts of an ancient
-<ce>                       artifact of power. This is
-<ce>                          a once in a lifetime
-<ce>                       opportunity. Are you up to
-<ce>                               it, %pct?
+<ce>                      Une rumeur concernant le
+<ce>               passé d'un ancien artéfact de puissance
+<ce>                 a fait surface. Cela n'arrive qu'une
+<ce>                    fois dans une vie... Cela vous
+<ce>                      intéresse-t-il, %pct ?
 
 RefuseQuest:  [1001]
-<ce>                      Not the ambitious type, eh?
-<ce>                        Some other lucky knight
-<ce>                       will be sure to snap this
-<ce>                                one up.
+<ce>                      Vous n'êtes pas du genre
+<ce>                    ambitieux, hein ? Je suis sûr
+<ce>                     qu'un autre chevalier voudra
+<ce>                      bien vous remplacer...
 
 AcceptQuest:  [1002]
-<ce>                       I thought I detected the
-<ce>                       gleam of ambition in your
-<ce>                         eyes %pcf. Supposedly,
-<ce>                       a witch living deep in the
-<ce>                         bowels of ___dungeon1_
-<ce>                      has discovered a clue about
-<ce>                       where to find this thing.
-<ce>                          I'd start with her.
+<ce>                   Je pensais bien avoir détecté la lueur
+<ce>                     de l'ambition dans vos yeux, %pcf.
+<ce>                     J'ai entendu dire qu'une sorcière
+<ce>                      vivant dans les profondeurs de
+<ce>                         ___dungeon1_ aurait
+<ce>                  un indice sur l'endroit où le trouver.
+<ce>                 Je serais vous, je commencerais par elle.
 
 QuestComplete:  [1004]
-<ce>                             Your quest is
-<ce>                               complete.
+<ce>                           Votre quête vient
+<ce>                             de s'achever.
 
 RumorsDuringQuest:  [1005]
-I got a boil the other day ... but it healed.
+J'ai eu un furoncle l'autre jour... mais il est guéri.
 <--->
-I just had a three hour conversation about the weather.
+Je viens juste d'avoir une conversation de trois heures à propos du temps.
 <--->
-The weather is pretty usual for this time of year.
+Le temps est assez habituel pour cette époque de l'année.
 <--->
-It seems a trifle coolish in %cn for this time of year.
+Il fait un tantinet frisquet à %cn pour cette époque de l'année.
 <--->
-It sure is a lot warmer today than this time last year.
+C'est sur qu'il fait un peu plus chaud aujourd'hui que l'année dernière à cette époque.
 <--->
-My great aunt is going to a specialist across the Bay.
+Ma grand tante va chez un spécialiste à l'autre bout de la Baie.
 <--->
-It's always funny what time it gets dark around here.
+C'est toujours amusant de voir comment le temps s'assombrit par ici.
 <--->
-We should erect a war statue around here.
+Nous devrions ériger un mémorial de guerre dans le coin.
 <--->
-The kids these days with their magic. %oth, I don't know.
+Les gosses de nos jours avec leur magie, %oth, je ne sais pas.
 <--->
-I had the weirdest dream last night.
+J'ai fait un rêve bizarre la nuit dernière.
 <--->
-I heard a great joke. %jok
+J'ai entendu une super blague. %jok
 <--->
-%jok Actually, that's a joke.
+%jok En fait, c'est une blague.
 <--->
-%jok Can you explain that to me?
+%jok Pouvez-vous m'expliquer celle-là ?
 <--->
-The legal system in %reg has its good points and bad ones.
+Le systeme légal en %reg a ses bons et ses mauvais côtés.
 
 RumorsPostfailure:  [1006]
-I got a boil the other day ... but it healed.
+J'ai eu un furoncle l'autre jour... mais il est guéri.
 <--->
-I just had a three hour conversation about the weather.
+Je viens juste d'avoir une conversation de trois heures à propos du temps.
 <--->
-The weather is pretty usual for this time of year.
+Le temps est assez habituel pour cette époque de l'année.
 <--->
-It seems a trifle coolish in %cn for this time of year.
+Il fait un tantinet frisquet à %cn pour cette époque de l'année.
 <--->
-It sure is a lot warmer today than this time last year.
+C'est sur qu'il fait un peu plus chaud aujourd'hui que l'année dernière à cette époque.
 <--->
-My great aunt is going to a specialist across the Bay.
+Ma grand tante va chez un spécialiste à l'autre bout de la Baie.
 <--->
-It's always funny what time it gets dark around here.
+C'est toujours amusant de voir comment le temps s'assombrit par ici.
 <--->
-We should erect a war statue around here.
+Nous devrions ériger un mémorial de guerre dans le coin.
 <--->
-The kids these days with their magic. %oth, I don't know.
+Les gosses de nos jours avec leur magie, %oth, je ne sais pas.
 <--->
-I had the weirdest dream last night.
+J'ai fait un rêve bizarre la nuit dernière.
 <--->
-I heard a great joke. %jok
+J'ai entendu une super blague. %jok
 <--->
-%jok Actually, that's a joke.
+%jok En fait, c'est une blague.
 <--->
-%jok Can you explain that to me?
+%jok Pouvez-vous m'expliquer celle-là ?
 <--->
-The legal system in %reg has its good points and bad ones.
+Le systeme légal en %reg a ses bons et ses mauvais côtés.
 
 RumorsPostsuccess:  [1007]
-I got a boil the other day ... but it healed.
+J'ai eu un furoncle l'autre jour... mais il est guéri.
 <--->
-I just had a three hour conversation about the weather.
+Je viens juste d'avoir une conversation de trois heures à propos du temps.
 <--->
-The weather is pretty usual for this time of year.
+Le temps est assez habituel pour cette époque de l'année.
 <--->
-It seems a trifle coolish in %cn for this time of year.
+Il fait un tantinet frisquet à %cn pour cette époque de l'année.
 <--->
-It sure is a lot warmer today than this time last year.
+C'est sur qu'il fait un peu plus chaud aujourd'hui que l'année dernière à cette époque.
 <--->
-My great aunt is going to a specialist across the Bay.
+Ma grand tante va chez un spécialiste à l'autre bout de la Baie.
 <--->
-It's always funny what time it gets dark around here.
+C'est toujours amusant de voir comment le temps s'assombrit par ici.
 <--->
-We should erect a war statue around here.
+Nous devrions ériger un mémorial de guerre dans le coin.
 <--->
-The kids these days with their magic. %oth, I don't know.
+Les gosses de nos jours avec leur magie, %oth, je ne sais pas.
 <--->
-I had the weirdest dream last night.
+J'ai fait un rêve bizarre la nuit dernière.
 <--->
-I heard a great joke. %jok
+J'ai entendu une super blague. %jok
 <--->
-%jok Actually, that's a joke.
+%jok En fait, c'est une blague.
 <--->
-%jok Can you explain that to me?
+%jok Pouvez-vous m'expliquer celle-là ?
 <--->
-The legal system in %reg has its good points and bad ones.
+Le systeme légal en %reg a ses bons et ses mauvais côtés.
 
 QuestorPostsuccess:  [1008]
-So, you won that which you quested for. What would have now?
+Alors comme ça vous avez obtenu ce que vous cherchiez. Et maintenant ?
 
 QuestorPostfailure:  [1009]
-I haven't anything to say to you, %pcf.
+Je n'ai rien à vous dire, %pcf.
 <--->
-I wasted my breath talking to you before.
+J'ai déjà perdu mon souffle à vous parler.
 
 QuestLogEntry:  [1010]
 %qdt:
- I embarked upon a quest to find a legendary,
- artifact of power. The only clue
- _questgiver_ of __questgiver_
- was able to provide is that a witch hermited
- in ___dungeon1_ might know
- something about it.
+Je me suis personnellement engagé
+à trouver un légendaire artéfact.
+Le seul indice que _questgiver_
+de __questgiver_ a pu me donner
+concerne une sorcière qui se trouve
+dans ___dungeon1_. Je vais commencer
+par lui rendre une petite visite.
 
 Message:  1011
 %qdt:
- The witch, _witch_,
- in ___dungeon1_ demanded
- that I kidnap _child_,
- in _palace_, in __palace_,
- her great granddaughter, and bring her
- to the witch if I am ever to find
- _aurielsbow_.
+La sorcière, _witch_,
+dans ___dungeon1_  m'a
+demandé d'enlever un enfant,
+_child, qui se trouve dans
+_palace_, dans __palace_,
+et qui s'avère être sa petite-fille.
+Je dois absoluement la lui rapporter
+si je veux obtenir  _aurielsbow_.
 
 Message:  1012
 %qdt:
- The witch, _witch_,
- in ___dungeon1_ demanded
- that I kidnap _child_,
- in _palace_, in __palace_,
- her great granddaughter, and bring her
- to the witch if I am ever to find
- _aurielshield_.
+La sorcière, _witch_,
+dans ___dungeon1_  m'a
+demandé d'enlever un enfant,
+_child, qui se trouve dans
+_palace_, dans __palace_,
+et qui s'avère être sa petite-fille.
+Je dois absoluement la lui rapporter
+si je veux obtenir   _aurielshield_.
 
 Message:  1013
 %qdt:
- The witch, _witch_,
- in ___dungeon1_ demanded
- that I kidnap _child_,
- in _palace_, in __palace_,
- her great granddaughter, and bring her
- to the witch if I am ever to find
- _lordsmail_.
+La sorcière, _witch_,
+dans ___dungeon1_  m'a
+demandé d'enlever un enfant,
+_child, qui se trouve dans
+_palace_, dans __palace_,
+et qui s'avère être sa petite-fille.
+Je dois absoluement la lui rapporter
+si je veux obtenir  _lordsmail_.
 
 Message:  1021
-<ce>              I am _witch_. So, you want _aurielshield_.
-<ce>          It is true that I know something of it. You must do
-<ce>            something for me if you wish to learn my secret.
-<ce>            Long ago, when I was young and your grandfather
-<ce>                  was less than a gleam in your great
-<ce>             grandmother's eye, I gave birth to a daughter.
-<ce>        I left the child to be raised by others, but now that my
-<ce>                   powers are waning, I need an heir.
-<ce>                 My daughter is long dead, but I have a
-<ce>                  great granddaughter of the right age
-<ce>                     named _child_. Bring her to me
-<ce>         within =finddaughter_ days and I will tell you what I
-<ce>               know of _aurielshield_. _child_'s parents
-<ce>           know nothing of her birthright and will certainly
-<ce>                    resist any attempt to take her.
-<ce>                     You will find her in _palace_
-<ce>                             in __palace_.
+<ce>              Je suis _witch_. Alors comme cela
+<ce>                  vous voulez _aurielshield_.
+<ce>              Il est vrai que j'en sais pas mal sur
+<ce>               cet artéfact. Cependant, je ne vous
+<ce>               révèlerai mes secrets que si vous
+<ce>              faites un travail pour moi. Il y a
+<ce>            longtemps, quand j'étais jeune et quand
+<ce>              votre grand-père ne connaissait pas
+<ce>              encore votre grand-mère, j'ai donné
+<ce>           la vie à une petite fille. Je l'ai laissée
+<ce>            se faire éduquer par d'autres personnes
+<ce>              mais maintenant que mes pouvoirs
+<ce>            disparaissent, j'en ai besoin pour
+<ce>              la former à être mon héritière.
+<ce>            Ma fille est morte depuis longtemps
+<ce>              mais elle a donné naissance à ma
+<ce>            petite-fille : _child_. Apportez-la moi
+<ce>              dans moins de =finddaughter_ jours
+<ce>            et je vous dirai tout ce que je sais sur
+<ce>              _aurielshield_.  Les parents de _child_
+<ce>              ne savent pas qui elle est réellement
+<ce>            et tenteront certainement de vous arrêter.
+<ce>          Vous la trouverez dans _palace_ dans __palace_.
 
 Message:  1020
-<ce>               I am _witch_. So, you want _aurielsbow_.
-<ce>          It is true that I know something of it. You must do
-<ce>            something for me if you wish to learn my secret.
-<ce>            Long ago, when I was young and your grandfather
-<ce>                  was less than a gleam in your great
-<ce>             grandmother's eye, I gave birth to a daughter.
-<ce>        I left the child to be raised by others, but now that my
-<ce>                   powers are waning, I need an heir.
-<ce>                 My daughter is long dead, but I have a
-<ce>                  great granddaughter of the right age
-<ce>                     named _child_. Bring her to me
-<ce>         within =finddaughter_ days and I will tell you what I
-<ce>                know of _aurielsbow_. _child_'s parents
-<ce>           know nothing of her birthright and will certainly
-<ce>                    resist any attempt to take her.
-<ce>                     You will find her in _palace_
-<ce>                             in __palace_.
+<ce>              Je suis _witch_. Alors comme cela
+<ce>                vous voulez _aurielsbow_.
+<ce>            Il est vrai que j'en sais pas mal sur
+<ce>             cet artéfact. Cependant, je ne vous
+<ce>             révèlerai mes secrets que si vous
+<ce>             faites un travail pour moi. Il y a
+<ce>           longtemps, quand j'étais jeune et quand
+<ce>             votre grand-père ne connaissait pas
+<ce>             encore votre grand-mère, j'ai donné
+<ce>         la vie à une petite fille. Je l'ai laissée
+<ce>           se faire éduquer par d'autres personnes
+<ce>             mais maintenant que mes pouvoirs
+<ce>            disparaissent, j'en ai besoin pour
+<ce>             la former à être mon héritière.
+<ce>           Ma fille est morte depuis longtemps
+<ce>             mais elle a donné naissance à ma
+<ce>          petite-fille : _child_. Apportez-la moi
+<ce>             dans moins de =finddaughter_ jours
+<ce>          et je vous dirai tout ce que je sais sur
+<ce>             _aurielsbow_.  Les parents de _child_
+<ce>             ne savent pas qui elle est réellement
+<ce>           et tenteront certainement de vous arrêter.
+<ce>            Vous la trouverez dans _palace_ dans
+<ce>                       __palace_.
 
 Message:  1022
-<ce>                I am _witch_. So, you want _lordsmail_.
-<ce>          It is true that I know something of it. You must do
-<ce>            something for me if you wish to learn my secret.
-<ce>            Long ago, when I was young and your grandfather
-<ce>                  was less than a gleam in your great
-<ce>             grandmother's eye, I gave birth to a daughter.
-<ce>        I left the child to be raised by others, but now that my
-<ce>                   powers are waning, I need an heir.
-<ce>                 My daughter is long dead, but I have a
-<ce>                  great granddaughter of the right age
-<ce>                     named _child_. Bring her to me
-<ce>         within =finddaughter_ days and I will tell you what I
-<ce>                 know of _lordsmail_. _child_'s parents
-<ce>           know nothing of her birthright and will certainly
-<ce>                    resist any attempt to take her.
-<ce>                     You will find her in _palace_
-<ce>                             in __palace_.
+<ce>                Je suis _witch_. Alors comme cela
+<ce>                     vous voulez _lordsmail_.
+<ce>                Il est vrai que j'en sais pas mal sur
+<ce>                cet artéfact. Cependant, je ne vous
+<ce>                 révèlerai mes secrets que si vous
+<ce>                faites un travail pour moi. Il y a
+<ce>             longtemps, quand j'étais jeune et quand
+<ce>                votre grand-père ne connaissait pas
+<ce>                encore votre grand-mère, j'ai donné
+<ce>            la vie à une petite fille. Je l'ai laissée
+<ce>              se faire éduquer par d'autres personnes
+<ce>                 mais maintenant que mes pouvoirs
+<ce>                disparaissent, j'en ai besoin pour
+<ce>                  la former à être mon héritière.
+<ce>               Ma fille est morte depuis longtemps
+<ce>                mais elle a donné naissance à ma
+<ce>              petite-fille : _child_. Apportez-la moi
+<ce>                dans moins de =finddaughter_ jours
+<c                et je vous dirai tout ce que je sais sur
+<ce>                _lordsmail_.  Les parents de _child_
+<ce>                ne savent pas qui elle est réellement
+<ce>             et tenteront certainement de vous arrêter.
+<ce>                Vous la trouverez dans _palace_ dans
+<ce>                          __palace_.
+
 
 Message:  1025
-<ce>                      What are you doing! I don't
-<ce>                       want to go with you. Help!
-<ce>                          Mommy, daddy, help!
+<ce>                      "Que faites-vous ?! Je ne
+<ce>                     veux pas partir avec vous !
+<ce>                     A l'aide ! Papa, maman, au secours !"
 
 Message:  1026
-<ce>                          Intruder! Intruder!
+<ce>                        Un intrus ! Un intrus !
 
 Message:  1027
-<ce>                          Put down _child_ or
-<ce>                     I will be forced to kill you.
+<ce>                    Laissez _child_ partir sinon
+<ce>                    je serai obligé de vous tuer.
 
 Message:  1032
-<ce>                     Ah yes, my heir. What did you
-<ce>                      say it's name was? _child_?
-<ce>                         Yes, %g will do fine.
-<ce>                         %pcn, you have earned
-<ce>                  the right to pursue _aurielshield_.
-<ce>                      The stars have told me that
-<ce>                    the path to _aurielshield_ leads
-<ce>                         through ___dungeon2_.
-<ce>                          That is all I know.
+<ce>                    Ahh, enfin, mon héritière.
+<ce>                 Comment s'appelle-t-elle déjà ?
+<ce>                  _child_? Oui, elle convient
+<ce>                    parfaitement. %pcn, vous
+<ce>                 avez bien gagné les informations
+<ce>                    concernant _aurielshield_.
+<ce>                  Les étoiles m'ont dit que le chemin
+<ce>                 pour aller vers _aurielshield_ passait
+<ce>                  par ___dungeon2_. C'est tout ce que
+<ce>                             je sais.
 
 Message:  1031
-<ce>                     Ah yes, my heir. What did you
-<ce>                      say it's name was? _child_?
-<ce>                         Yes, %g will do fine.
-<ce>                         %pcn, you have earned
-<ce>                   the right to pursue _aurielsbow_.
-<ce>                      The stars have told me that
-<ce>                     the path to _aurielsbow_ leads
-<ce>                         through ___dungeon2_.
-<ce>                          That is all I know.
+<ce>                    Ahh, enfin, mon héritière.
+<ce>                 Comment s'appelle-t-elle déjà ?
+<ce>                  _child_? Oui, elle convient
+<ce>                    parfaitement. %pcn, vous
+<ce>                 avez bien gagné les informations
+<ce>                    concernant _aurielshield_.
+<ce>                  Les étoiles m'ont dit que le chemin
+<ce>                 pour aller vers _aurielshield_ passait
+<ce>                  par ___dungeon2_. C'est tout ce que
+<ce>                             je sais.
 
 Message:  1033
-<ce>                     Ah yes, my heir. What did you
-<ce>                      say it's name was? _child_?
-<ce>                         Yes, %g will do fine.
-<ce>                         %pcn, you have earned
-<ce>                    the right to pursue _lordsmail_.
-<ce>                      The stars have told me that
-<ce>                     the path to _lordsmail_ leads
-<ce>                         through ___dungeon2_.
-<ce>                          That is all I know.
+<ce>                    Ahh, enfin, mon héritière.
+<ce>                 Comment s'appelle-t-elle déjà ?
+<ce>                  _child_? Oui, elle convient
+<ce>                    parfaitement. %pcn, vous
+<ce>                 avez bien gagné les informations
+<ce>                    concernant _aurielshield_.
+<ce>                  Les étoiles m'ont dit que le chemin
+<ce>                 pour aller vers _aurielshield_ passait
+<ce>                  par ___dungeon2_. C'est tout ce que
+<ce>                             je sais.
 
 Message:  1051
 %qdt:
- _witch_ has told me that
- the path to _aurielshield_
- is through ___dungeon2_.
+_witch_ m'a dit que le chemin
+pour trouver _aurielshield_
+passe par ___dungeon2_.
 
 Message:  1050
 %qdt:
- _witch_ has told me that
- the path to _aurielsbow_
- is through ___dungeon2_.
+_witch_ m'a dit que le chemin
+pour trouver _aurielsbow_
+passe par ___dungeon2_.
 
 Message:  1052
 %qdt:
- _witch_ has told me that
- the path to _lordsmail_
- is through ___dungeon2_.
+_witch_ m'a dit que le chemin
+pour trouver _lordsmail_
+passe par ___dungeon2_.
 
 
 -- Symbols used in the QRC file:
@@ -339,127 +365,127 @@ Foe _battlemage_ is Battle_mage
 Foe _warrior_ is Warrior
 
 --	Quest start-up:
-	start timer _finddaughter_ 
-	reveal _dungeon1_ 
-	log 1010 step 0 
-	pick one of _artifact1_ _artifact2_ _artifact3_ 
-	pc at _palace_ set _S.10_ 
-	place npc _child_ at _palace_ 
-	place npc _witch_ at _dungeon1_ 
+	start timer _finddaughter_
+	reveal _dungeon1_
+	log 1010 step 0
+	pick one of _artifact1_ _artifact2_ _artifact3_
+	pc at _palace_ set _S.10_
+	place npc _child_ at _palace_
+	place npc _witch_ at _dungeon1_
 
 _S.00_ task:
-	clicked npc _witch_ 
+	clicked npc _witch_
 
 _S.01_ task:
-	clicked npc _child_ say 1025 
-	create foe _F.00_ every 3 minutes 5 times with 30% success 
-	create foe _battlemage_ every 4 minutes 5 times with 25% success 
-	hide npc _child_ 
-	add _child_ face 
+	clicked npc _child_ say 1025
+	create foe _F.00_ every 3 minutes 5 times with 30% success
+	create foe _battlemage_ every 4 minutes 5 times with 25% success
+	hide npc _child_
+	add _child_ face
 	clear _S.00_
 --added this clear task. otherwise witch would talk in palace re success
 
 -_clearclick_ task:
--	when _S.00_ and not _S.01_ 
--	clear _S.00_ _clearclick_ 
+-	when _S.00_ and not _S.01_
+-	clear _S.00_ _clearclick_
 --removed this clearclick. prevented quest from working
 variable _finddaughter_
 variable _artifact1_
 variable _artifact2_
 variable _artifact3_
 _how1_ task:
-	when _S.16_ and _artifact1_ 
-	log 1011 step 1 
+	when _S.16_ and _artifact1_
+	log 1011 step 1
 
 _how2_ task:
-	when _S.16_ and _artifact2_ 
-	log 1012 step 1 
+	when _S.16_ and _artifact2_
+	log 1012 step 1
 
 _fire_ task:
-	when _S.16_ and _artifact3_ 
-	log 1013 step 1 
+	when _S.16_ and _artifact3_
+	log 1013 step 1
 
 _S.10_ task:
-	create foe _warrior_ every 5 minutes 5 times with 50% success 
+	create foe _warrior_ every 5 minutes 5 times with 50% success
 
 _greklith_ task:
-	injured _warrior_ saying 1026 
+	injured _warrior_ saying 1026
 
 _S.12_ task:
-	injured _battlemage_ 
-	injured _F.00_ 
-	prompt 1027 yes _S.13_ no _S.14_ 
+	injured _battlemage_
+	injured _F.00_
+	prompt 1027 yes _S.13_ no _S.14_
 
 _S.13_ task:
-	drop _child_ face 
-	change repute with _local_ by +6 
-	change repute with _child_ by -10 
-	end quest 
+	drop _child_ face
+	change repute with _local_ by +6
+	change repute with _child_ by -10
+	end quest
 
 _S.14_ task:
-	change repute with _ruler_ by -50 
+	change repute with _ruler_ by -50
 
 _S.15_ task:
-	when _S.01_ and not _S.13_ and _S.00_ 
+	when _S.01_ and not _S.13_ and _S.00_
 	reveal _dungeon2_
-	clear _S.01_ 
+	clear _S.01_
 
 _S.16_ task:
-	when _S.00_ and not _S.01_ 
+	when _S.00_ and not _S.01_
 
 _S.17_ task:
-	when _artifact1_ and _S.15_ 
-	place item _aurielsbow_ at _dungeon2_ 
-	log 1050 step 2 
-	say 1031 
+	when _artifact1_ and _S.15_
+	place item _aurielsbow_ at _dungeon2_
+	log 1050 step 2
+	say 1031
 	drop _child_ face
 --moved "drop face" here, was not cooperating in S.15
 
 _S.18_ task:
-	when _artifact2_ and _S.15_ 
-	place item _aurielshield_ at _dungeon2_ 
-	log 1051 step 2 
-	say 1032 
+	when _artifact2_ and _S.15_
+	place item _aurielshield_ at _dungeon2_
+	log 1051 step 2
+	say 1032
 	drop _child_ face
 --moved "drop face" here, was not cooperating in S.15
 
 _S.19_ task:
-	when _artifact3_ and _S.15_ 
-	place item _lordsmail_ at _dungeon2_ 
-	log 1052 step 2 
-	say 1033 
+	when _artifact3_ and _S.15_
+	place item _lordsmail_ at _dungeon2_
+	log 1052 step 2
+	say 1033
 	drop _child_ face
 --moved "drop face" here, was not cooperating in S.15
 
 _S.20_ task:
-	clicked item _aurielsbow_ 
-	make _aurielsbow_ permanent 
+	clicked item _aurielsbow_
+	make _aurielsbow_ permanent
 --	Discovered a new op-code:
 	_0x3c_ 19
 
 _S.21_ task:
-	clicked item _aurielshield_ 
-	make _aurielshield_ permanent 
+	clicked item _aurielshield_
+	make _aurielshield_ permanent
 
 _S.22_ task:
-	clicked item _lordsmail_ 
-	make _lordsmail_ permanent 
+	clicked item _lordsmail_
+	make _lordsmail_ permanent
 
 _S.23_ task:
-	when _S.20_ or _S.22_ or _S.21_ 
-	give pc nothing 
-	end quest 
+	when _S.20_ or _S.22_ or _S.21_
+	give pc nothing
+	end quest
 
 _S.24_ task:
 	when _S.00_ and _artifact1_
-	say 1020 
+	say 1020
 
 _S.25_ task:
 	when _S.00_ and _artifact2_
-	say 1021 
+	say 1021
 
 _S.26_ task:
 	when _S.00_ and _artifact3_
-	say 1022 
+	say 1022
 
 variable _love_

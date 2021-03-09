@@ -12,102 +12,105 @@ DisplayName: The Dragonslayer
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                   Shhh! Don't let anyone else hear
-<ce>                         this, %pct. I just got
-<ce>               word that a dragon has been spotted! Well,
-<ce>                 not a full grown dragon, just a little
-<ce>               dragonling. There is no quest more heroic
-<ce>                 for a member of ==qgiver_ than to slay
-<ce>               a dragon. I know where it is, you go kill
-<ce>               it. We can both lay claim to the glory. Is
-<ce>                             it a bargain?
+<ce>                 Chut ! Ne laissez personne entendre
+<ce>                  ce qui va suivre, %pct. Je viens
+<ce>              d'apprendre qu'un dragon a été repéré.
+<ce>             D'accord, il ne s'agit pas d'un dragon adulte,
+<ce>              juste d'un bébé dragon. Il n'y a rien de
+<ce>              plus héroique aux yeux de notre Ordre
+<ce>                que de tuer un dragon, même petit.
+<ce>             Je sais où le trouver. Si vous le tuez,
+<ce>                  nous pourrions tous les deux en
+<ce>                recevoir la gloire. On fait affaire ?
                                      <--->
-<ce>                    'Tis time for you to prove that
-<ce>                      you are truly of ==qgiver_,
-<ce>                      %pct. It is time for you to
-<ce>                             slay a dragon.
+<ce>                   C'est l'heure de prouver que
+<ce>                    vous êtes un vrai membre de
+<ce>                  ==qgiver_, %pct. C'est l'heure
+<ce>                       de tuer un dragon.
 
 RefuseQuest:  [1001]
-<ce>                      You tell anyone else about
-<ce>                     this and I'll see you drummed
-<ce>                           out of ==qgiver_.
+<ce>                     Si vous en parlez à n'importe qui
+<ce>                     d'autre, vous pouvez être sûr
+<ce>                      que je vous ferai exclure de
+<ce>                               ==qgiver_.
 
 AcceptQuest:  [1002]
-<ce>                      The dragon egg just hatched
-<ce>                        in ___dungeon_. I don't
-<ce>                      know if there are any other
-<ce>                       dragonlings there or not.
-<ce>                       I can keep it all a secret
-<ce>                           for =2dung_ days.
+<ce>                      L'oeuf de dragon juste éclos
+<ce>                       se trouve dans ___dungeon_.
+<ce>                     Je ne sais pas s'il y a d'autres
+<ce>                       bébés dragon là-bas. Je ne
+<ce>                       pourrai vous attendre que
+<ce>                         pendant =2dung_ jours.
 
 QuestComplete:  [1004]
-<ce>                         All hail %pcn, known
-<ce>                      from this point onward as a
-<ce>                         dragonslayer! All hail
-<ce>                         _qgiver_, strong right
-<ce>                       arm and valued confidant!
+<ce>                        Hourra, %pcn, qui sera
+<ce>                       connu à dater de ce jour
+<ce>                      comme le Tueur de Dragons !
+<ce>                    Hourra _qgiver_, puissant bras
+<ce>                      droit et confident de %pcn !
 
 RumorsDuringQuest:  [1005]
-Nothing much of any interest going on.
+Il ne se passe rien de très intéressant en ce moment.
 <--->
-I got a boil the other day ... but it healed.
+J'ai eu un furoncle l'autre jour... mais il a guéri.
 <--->
-I just had a three hour conversation about the weather.
+Je viens juste d'avoir une conversation de trois heures à propos du temps.
 <--->
-The weather is pretty usual for this time of year.
+Le temps est assez habituel pour cette époque de l'année.
 <--->
-It seems a trifle coolish in %cn for this time of year.
+Il fait un tantinet frisquet à %cn pour cette époque de l'année.
 <--->
-It sure is a lot warmer today than this time last year.
+C'est sûr qu'il fait un peu plus chaud aujourd'hui que l'année dernière à cette époque.
 <--->
-My great aunt is going to a specialist across the Bay.
+Ma grand tante va chez un spécialiste à l'autre bout de la Baie.
 <--->
-It's always funny what time it gets dark around here.
+C'est toujours amusant de voir comment le temps s'assombrit par ici.
 <--->
-We should erect a war statue around here.
+Nous devrions ériger un mémorial de guerre dans le coin.
 <--->
-The kids these days with their magic. %oth, I don't know.
+Les gosses de nos jours avec leur magie, %oth, je ne sais pas.
 <--->
-I had the weirdest dream last night.
+J'ai fait un rêve bizarre la nuit dernière.
 <--->
-I heard a great joke. %jok
+J'ai entendu une super blague. %jok
 <--->
-%jok Actually, that's a joke.
+%jok En fait, c'est une blague.
 <--->
-%jok Can you explain that to me?
+%jok Pouvez-vous m'expliquer celle-là ?
 <--->
-The legal system in %reg has it good points and bad ones.
+Le système légal en %reg a ses bons et ses mauvais côtés.
 
 RumorsPostfailure:  [1006]
-%kno went stomping about in ___dungeon_ for no reason.
+Des chevaliers ont fait un raid sur ___dungeon_ sans raison.
 
 RumorsPostsuccess:  [1007]
-The dragon in ___dungeon_ was fifty feet long!
+Le dragon de ___dungeon_ mesurait plus de quinze mètres !
 <--->
-The ___dungeon_ dragon was a hundred feet long!
+Le dragon de ___dungeon_ mesurait une trentaine de mètres !
 <--->
-The dragon that %ra slew ate forty cows for lunch!
+Le dragon qu'a tué le %ra mangeait quarante vaches pour son déjeuner !
 
 QuestorPostsuccess:  [1008]
-What can I do for my fellow dragon slayer?
+Que puis-je faire pour mon ami le tueur de dragons ?
 
 QuestorPostfailure:  [1009]
-You really let me down with that dragon. Leave me alone.
+Vous m'avez vraiment laissé tomber avec le dragon. Laissez-moi seul.
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of
- ==qgiver_ in ___qgiver_
- told me that a dragon's egg
- hatched in ___dungeon_.
- I have =2dung_ days to slay
- the beast and bask in the
- glory of the deed.
+_qgiver_ de
+==qgiver_ à ___qgiver_
+m'a parlé d'un oeuf de dragon qui
+se trouverait dans ___dungeon_.
+Je dispose de =2dung_ pour
+tuer ce qu'il y a à l'intérieur
+et revenir plein de gloire.
 
 Message:  1011
-<ce>                        The dragonling is dead.
-<ce>                       They'll talk about this in
-<ce>                          ==qgiver_ for years!
+<ce>                        Le bébé dragon est mort.
+<ce>                         On va en parler dans
+<ce>                        ==qgiver_ pendant des
+<ce>                               années !
 
 
 -- Symbols used in the QRC file:
@@ -138,27 +141,27 @@ Clock _2dung_ 00:00 0 flag 17 range 0 2
 Foe _monster_ is Dragonling
 
 --	Quest start-up:
-	start timer _2dung_ 
-	reveal _dungeon_ 
-	log 1010 step 0 
-	place foe _monster_ at _dungeon_ 
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	place foe _monster_ at _dungeon_
 
 _2dung_ task:
-	end quest 
+	end quest
 
 _S.01_ task:
-	killed 1 _monster_ saying 1011 
+	killed 1 _monster_ saying 1011
 
 _S.02_ task:
 	clicked npc _qgiver_
 
 _success_ task:
 	when _S.02_ and _S.01_
-	give pc nothing 
-	change repute with _local_ by +6 
-	change repute with _qgiver_ by +10 
-	end quest 
+	give pc nothing
+	change repute with _local_ by +6
+	change repute with _qgiver_ by +10
+	end quest
 
 _clearclick_ task:
-	when _S.02_ and not _S.01_ 
-	clear _S.02_ _clearclick_ 
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_

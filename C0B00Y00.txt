@@ -12,66 +12,68 @@ DisplayName: The Haunted House
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                       A house over in __house_
-<ce>            is being haunted by some sort of undead. We need
-<ce>           someone to exorcise the spirit. Are you up to it?
-<ce>                      It pays _gold_ gold pieces.
+<ce>                  Une maison quelque part dans __house_
+<ce>            est actuellement hantée par une sorte de mort-vivant.
+<ce>            Nous avons besoin de quelqu'un pour exorciser cet esprit.
+<ce>                         En êtes-vous capable ?
+<ce>                Cela vous rapportera _gold_ pièces d'or.
 
 RefuseQuest:  [1001]
-<ce>           No shame in that. I'll keep an eye open for jobs
-<ce>                          more to your liking.
+<ce>         Il n'y a pas de honte à cela. Je garderai un oeil sur les
+<ce>                emplois qui vous conviennent mieux.
 
 AcceptQuest:  [1002]
-<ce>            Remember, if the haunt is too tough for you to
-<ce>          handle yourself, just get out of there. No one will
-<ce>          blame you for saving your skin. The place is called
-<ce>                     _house_ and it's in __house_.
-<ce>           You have =traveltime_ days or we send someone else
-<ce>                           out to do the job.
+<ce>           Rappelez-vous, si la créature est trop forte pour que
+<ce>           vous vous en occupiez seul, contentez-vous de fuir.
+<ce>           Personne ne vous reprochera d'avoir sauvé votre peau.
+<ce>           L'endroit s'appelle _house_ et se situe dans la région
+<ce>                     de __house_.
+<ce>           Vous avez =traveltime_ jours ou nous enverrons
+<ce>                quelqu'un d'autre faire le travail.
 
 QuestComplete:  [1004]
-<ce>          So the haunt is no more. I will burn incense at the
-<ce>             altar for its spirit. Here is your temple fee.
+<ce>         Alors, la maison n'est plus hantée. Je vais brûler de l'encens
+<ce>         sur l'autel pour cet esprit. Voilà les gages du temple.
 
 RumorsDuringQuest:  [1005]
-The ghost of _house_ cannot be killed, they say.
+Le fantôme de _house_ ne peut être tué, selon eux.
 
 RumorsPostfailure:  [1006]
-The ghost of _house_ will keep coming back.
+Le fantôme de _house_ reviendra sans cesse.
 <--->
-The spirits of _house_ are still not at rest.
+Les esprits de _house_ ne sont toujours pas en paix.
 
 RumorsPostsuccess:  [1007]
-_house_ is clean at last.
+_house_ est enfin nettoyée.
 <--->
-The spirits of _house_ are at last at rest.
+Les esprits de _house_ sont enfin en paix.
 
 QuestorPostsuccess:  [1008]
-How may I help you, o exorciser of _house_?
+Comment puis-je vous aider, ô exorciste de _house_?
 
 QuestorPostfailure:  [1009]
-_house_ is still haunted, and I should speak with thee?
+_house_ est toujours hantée, et je devrais parler avec vous ?
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of __qgiver_
- in ___qgiver_
- sent me on an errand to rid
- _house_ in __house_
- of an undead haunt. I have
- =traveltime_ days to do the job.
+_qgiver_ de __qgiver_
+dans la région de ___qgiver_
+m'a envoyé faire une course pour
+débarrasser _house_ dans __house_
+d'un mort-vivant qui hante les lieux. J'ai
+=traveltime_ jours pour accomplir cela.
 
 Message:  1011
-<ce>          I am the ancestor of the builder of this house. It
-<ce>           now belongs to the dead. Let all living creatures
-<ce>                            shun this place.
+<ce>     Je suis l'ancêtre de celui qui a bâti cette maison.
+<ce>       Elle appartient désormais au royaume des morts. Que
+<ce>       toutes les créatures vivantes quittent cet endroit.
 
 Message:  1012
-<ce>          I can see why you didn't stick around to fight that
-<ce>                thing, %pcn. You have the thanks of the
-<ce>            temple for at least finding out about the haunt.
-<ce>                          Here's 2 gold coins.
-
+<ce>        Je peux comprendre pourquoi vous n'êtes
+<ce>        pas resté dans les parages pour combattre
+<ce>        remerciements du temple pour avoir au moins
+<ce>        découvert la raison pour laquelle les lieux
+<ce>       étaient hantés. Voilà 2 pièces d'or.
 
 -- Symbols used in the QRC file:
 --
@@ -101,49 +103,49 @@ Foe _wraith_ is Wraith
 Foe _zombie_ is Zombie
 
 --	Quest start-up:
-	start timer _traveltime_ 
-	log 1010 step 0 
-	pick one of _S.02_ _S.03_ _S.04_ _S.05_ 
-	pc at _house_ set _S.08_ 
-	create npc at _house_ 
+	start timer _traveltime_
+	log 1010 step 0
+	pick one of _S.02_ _S.03_ _S.04_ _S.05_
+	pc at _house_ set _S.08_
+	create npc at _house_
 
 _traveltime_ task:
-	end quest 
+	end quest
 
 _questdone_ task:
-	clicked npc _qgiver_ 
+	clicked npc _qgiver_
 
 _success_ task:
-	when _questdone_ and _S.06_ 
-	give pc _gold_ 
-	end quest 
+	when _questdone_ and _S.06_
+	give pc _gold_
+	end quest
 
 _S.02_ task:
-	place foe _ghost_ at _house_ 
+	place foe _ghost_ at _house_
 
 _S.03_ task:
-	place foe _skeleton_ at _house_ 
+	place foe _skeleton_ at _house_
 
 _S.04_ task:
-	place foe _wraith_ at _house_ 
+	place foe _wraith_ at _house_
 
 _S.05_ task:
-	place foe _zombie_ at _house_ 
+	place foe _zombie_ at _house_
 
 _S.06_ task:
-	killed 1 _zombie_ 
-	killed 1 _skeleton_ 
-	killed 1 _wraith_ 
-	killed 1 _ghost_ 
+	killed 1 _zombie_
+	killed 1 _skeleton_
+	killed 1 _wraith_
+	killed 1 _ghost_
 
 _S.07_ task:
-	injured _zombie_ saying 1011 
-	injured _wraith_ saying 1011 
-	injured _skeleton_ saying 1011 
-	injured _ghost_ saying 1011 
+	injured _zombie_ saying 1011
+	injured _wraith_ saying 1011
+	injured _skeleton_ saying 1011
+	injured _ghost_ saying 1011
 
 variable _S.08_
 variable _S.09_
 _clearclick_ task:
-	when _questdone_ and not _S.06_ 
-	clear _questdone_ _clearclick_ 
+	when _questdone_ and not _S.06_
+	clear _questdone_ _clearclick_

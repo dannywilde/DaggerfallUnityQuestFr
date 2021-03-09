@@ -12,70 +12,71 @@ DisplayName: Trouble with Orcs
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                        I am _qgiver_. You are
-<ce>                  not a member of this knightly order.
-<ce>                 We are not sure if you can be trusted
-<ce>                  yet. If you were to slay the leader
-<ce>                  of the bandit band of orcs troubling
-<ce>                  our area, it might change our minds.
-<ce>                 Do you have the stomach for such work?
+<ce>                        Je me nomme _qgiver_. Vous
+<ce>                      ne faites pas partie de cet Ordre
+<ce>                      de Chevalerie. Nous ne sommes
+<ce>                      donc pas encore sûrs de pouvoir
+<ce>                      vous  faire confiance. Si vous
+<ce>                      décidiez de tuer le chef d'une bande
+<ce>                      d'orcs qui empoisonnent la vie
+<ce>                      des habitants, cela pourrait nous faire
+<ce>                      changer d'avis... Avez-vous assez de
+<ce>                           cran pour le faire ?
 
 RefuseQuest:  [1001]
-<ce>                        Why am I not surprised?
-<ce>                      Come back when you are ready
-<ce>                          to earn our respect.
+<ce>                       Pourquoi ne suis-je pas surpris ?
+<ce>                       Revenez quand vous serez décidé
+<ce>                         à gagner notre respect..
 
 AcceptQuest:  [1002]
-<ce>                     Kill as many orcs as you can,
-<ce>                       but be sure to kill their
-<ce>                           leader, =monster_.
-<ce>                     The foul band is hiding up in
-<ce>                         ___dungeon_. If you're
-<ce>                      not back in =2dung_ days, I
-<ce>                      will know you are the coward
-<ce>                         everyone says you are.
+<ce>                    Tuez autant d'orcs que vous le
+<ce>                    pouvez mais soyez certain de
+<ce>                    tuer leur chef, =monster_.
+<ce>                    La bande en question se cache
+<ce>                    dans ___dungeon_. Si vous n'êtes
+<ce>                    pas de retour dans =2dung_ jours,
+<ce>                    nous saurons que vous êtes le lâche
+<ce>                       dont tout le monde parle.
 
 QuestComplete:  [1004]
-<ce>                    Hmmm. Maybe we should consider
-<ce>                     you for membership. Not a bad
-<ce>                           job at all, %pcn.
+<ce>                    Hmmm. Peut-être devrions-nous
+<ce>                   reconsidèrer votre candidature.
+<ce>                   Ce n'est pas mal du tout, %pcn.
 
 RumorsDuringQuest:  [1005]
-That orc tribe has eluded the knights so far.
+Cette tribu d'orques a évité les Chevaliers jusqu'à maintenant.
 <--->
-That orc tribe would be lost without its leader.
+Cette tribu d'orques serait perdue sans le commandement de leur chef.
 
 RumorsPostfailure:  [1006]
-The orcs will be back. Their leader still lives.
+Les orques reviendront. Leur chef est toujours en vie.
 
 RumorsPostsuccess:  [1007]
-Some %ra came out of nowhere, slew the orc leader, and left.
+Un %ra est sorti de nulle part, a massacré le chef des orques, puis il est parti.
 
 QuestorPostsuccess:  [1008]
-What can I do for you, orc slayer?
+Que puis-je faire pour vous, tueur d'orques ?
 
 QuestorPostfailure:  [1009]
-You are not worth my time, orc fancier.
+Vous ne méritez pas d'être écouté, amateur d'orques.
 <--->
-Why would I talk to a lousy orc lover?
+Pourquoi devrais-je parler à quelqu'un aimant les orques ?
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of
- the knightly order in ___qgiver_
- gave me the task of wiping
- out an orc band that makes
- it's home in ___dungeon_.
- In particular I must get the
- leader, a certain =monster_
- I need to get back to %g2
- =2dung_ days or %g will
- assume I'm dead.
+_qgiver_ de l'Ordre des
+Chevaliers à ___qgiver_
+m'a demandé de m'occuper
+d'une bande d'orques qui ont
+élu domicile dans ___dungeon_.
+Je dois tuer leur chef, =monster_.
+Je dois être de retour dans  =2dung_ jours
+sinon l'Ordre pensera que je suis mort.
 
 Message:  1011
-<ce>                          =monster_ is dead.
-<ce>                      Without a leader, these orcs
-<ce>                  will never be more than a nuisance.
+<ce>                          =monster_ est mort.
+<ce>                     Sans un chef digne de ce nom,
+<ce>                  ces orques ne seront plus jamais une nuisance.
 
 
 -- Symbols used in the QRC file:
@@ -102,26 +103,26 @@ Clock _2dung_ 00:00 0 flag 17 range 0 2
 Foe _monster_ is Orc_sergeant
 
 --	Quest start-up:
-	start timer _2dung_ 
-	reveal _dungeon_ 
-	log 1010 step 0 
-	place foe _monster_ at _dungeon_ 
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	place foe _monster_ at _dungeon_
 
 _2dung_ task:
-	end quest 
+	end quest
 
 _S.01_ task:
-	killed 1 _monster_ saying 1011 
+	killed 1 _monster_ saying 1011
 
 _S.02_ task:
-	clicked npc _qgiver_ 
+	clicked npc _qgiver_
 
 _success_ task:
-	when _S.02_ and _S.01_ 
-	give pc nothing 
-	change repute with _local_ by +4 
-	end quest 
+	when _S.02_ and _S.01_
+	give pc nothing
+	change repute with _local_ by +4
+	end quest
 
 _clearclick_ task:
-	when _S.02_ and not _S.01_ 
-	clear _S.02_ _clearclick_ 
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_

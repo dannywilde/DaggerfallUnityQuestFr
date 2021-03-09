@@ -12,70 +12,71 @@ DisplayName: The Army of Undead
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                      I am _qgiver_ of ==qgiver_.
-<ce>                     I have a most dangerous quest
-<ce>                        %pcn. You are one of the
-<ce>                      few that could possibly take
-<ce>                      it on. A lich is raising an
-<ce>                    army of undead. We need someone
-<ce>                     to go in and put a stop to it.
+<ce>                      Je suis _qgiver de ==qgiver_.
+<ce>                    J'ai une quête dangereuse à vous
+<ce>                     proposer, %pcn. Vous êtes l'un
+<ce>                  des seuls à pouvoir accomplir cette
+<ce>                    quête. Une liche met en place une
+<ce>                       armée de morts-vivants.
+<ce>                   Nous avons besoin de quelqu'un pour
+<ce>                 aller mettre un point d'arrêt à tout cela.
 
 RefuseQuest:  [1001]
-<ce>                          I understand, %pcn.
-<ce>                     This is too dangerous even for
-<ce>                    you. There are one or two other
-<ce>                      heroes that might be able to
-<ce>                     pull this one off. I'll go ask
-<ce>                                 them.
+<ce>                     Je comprends, %pcn. Même
+<ce>                  pour vous c'est trop dangereux.
+<ce>                 Je pense qu'il ne reste plus qu'un
+<ce>                  ou deux héros à qui je peux faire
+<ce>                   appel. Je vais le leur demander.
 
 AcceptQuest:  [1002]
-<ce>                    You are brave indeed. The lich
-<ce>                       has made ___dungeon_ into
-<ce>                     its lair. Go there and destroy
-<ce>                    the foul thing. In =2dung_ days
-<ce>                     we will send out someone else,
-<ce>                         should you not return.
+<ce>                    Vous êtes vraiment courageux.
+<ce>                    La liche s'est réfugiée dans
+<ce>                     ___dungeon_ . Allez-y et
+<ce>                    tuez la créature maléfique.
+<ce>                   Je vous donne  =2dung_ jours,
+<ce>                  passé ce délai je serai obligé
+<ce>                   d'envoyer quelqu'un d'autre.
 
 QuestComplete:  [1004]
-<ce>                        Hail to the hero, %pcn!
-<ce>                      Well done! You name will be
-<ce>                     recorded in all the histories.
+<ce>                        Hourra,  %pcn ! Bien joué !
+<ce>                      Votre nom restera gravé dans
+<ce>                          toutes les mémoires..
 
 RumorsDuringQuest:  [1005]
-The Great Lich of ___dungeon_ is awake again.
+La Grande Liche de  ___dungeon_ s'est encore réveillée.
 
 RumorsPostfailure:  [1006]
-The Lich of ___dungeon_ went across the Bay, I hear.
+La liche de ___dungeon_ s'est promenée du côté de la Baie, l'autre soir.
 <--->
-The Lich is gathering forces outside of %reg.
+La liche rassemble ses troupes près des frontières de %reg.
 
 RumorsPostsuccess:  [1007]
-Thank %god for ==qgiver_. They saved us all.
+%reg a été sauvé grâce à  ==qgiver_.
 <--->
-A %ra from ==qgiver_ destroyed the Lich of ___dungeon_.
+Un Chevalier %ra de ==qgiver_ a battu la liche de ___dungeon_.
 
 QuestorPostsuccess:  [1008]
-I would be honored to help you in any way, hero.
+Je serais honoré de pouvoir vous aider, %pcn.
 
 QuestorPostfailure:  [1009]
-After the ___dungeon_ debacle, you have a lot of nerve returning.
+Après vous être enfui de  ___dungeon_ , vous avez du cran de revenir ici.
 <--->
-I trusted you to slay that lich. Think of my situation!
+Je vous ai fait confiance pour la liche ! Je suis déçu !
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of
- ==qgiver_ in ___qgiver_
- charged me with the duty of
- destroying the lich of
- ___dungeon_. I have =2dung_
- days to finish the task.
+_qgiver_ de
+==qgiver_ dans ___qgiver_
+m'a demandé de détruire une
+liche qui se cache dans
+___dungeon_. Je dispose de
+=2dung_ jours pour y arriver.
 
 Message:  1011
-<ce>                       The lich is dead. Without
-<ce>                        his magical support, the
-<ce>                     army of undead will return to
-<ce>                               the grave.
+<ce>                      La liche est morte. Sans son
+<ce>                      soutien magique, l'armée des
+<ce>                       morts-vivants va retourner
+<ce>                           dans sa tombe.
 
 
 -- Symbols used in the QRC file:
@@ -103,33 +104,33 @@ Foe _F.00_ is Ancient_lich
 Foe _F.01_ is Lich
 
 --	Quest start-up:
-	start timer _2dung_ 
-	reveal _dungeon_ 
-	log 1010 step 0 
-	pick one of _old_ _S.04_ _S.04_ 
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	pick one of _old_ _S.04_ _S.04_
 
 _2dung_ task:
-	end quest 
+	end quest
 
 _S.01_ task:
-	killed 1 _F.00_ saying 1011 
-	killed 1 _F.01_ saying 1011 
+	killed 1 _F.00_ saying 1011
+	killed 1 _F.01_ saying 1011
 
 _S.02_ task:
-	clicked npc _qgiver_ 
+	clicked npc _qgiver_
 
 _success_ task:
-	when _S.02_ and _S.01_ 
-	give pc nothing 
-	change repute with _local_ by +4 
-	end quest 
+	when _S.02_ and _S.01_
+	give pc nothing
+	change repute with _local_ by +4
+	end quest
 
 _clearclick_ task:
-	when _S.02_ and not _S.01_ 
-	clear _S.02_ _clearclick_ 
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_
 
 _S.04_ task:
-	place foe _F.01_ at _dungeon_ 
+	place foe _F.01_ at _dungeon_
 
 _old_ task:
-	place foe _F.00_ at _dungeon_ 
+	place foe _F.00_ at _dungeon_

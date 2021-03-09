@@ -11,64 +11,63 @@ DisplayName: The Exorcism
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                            I am _qgiver_.
-<ce>                        One of the local nobles,
-<ce>                      _nobleman_, has just gotten
-<ce>                        the deed to an abandoned
-<ce>                      piece of property. Too late,
-<ce>                      %g found out it is haunted.
-<ce>                      Someone needs to go out and
-<ce>                      banish the ghost that haunts
-<ce>                      it. Are you willing to take
-<ce>                             up this quest?
+<ce>                       Je m'appelle _qgiver_. Un des
+<ce>                       nobles du coin, _nobleman_,
+<ce>                  vient juste d'acquérir un vieux terrain
+<ce>                  Malheureusement, cet endroit est hanté.
+<ce>                 Il veut donc engager quelqu'un pour
+<ce>                   bannir le fantôme qui y sévit.
+<ce>                     Cela vous intéresse-t-il ?
+
 
 RefuseQuest:  [1001]
-<ce>                        Ghosts are normally the
-<ce>                      temple's problem. Maybe I'll
-<ce>                      turn this one over to them.
+<ce>                       Les fantômes sont plus du
+<ce>                     ressort des temples. Peut-être
+<ce>                  devrais-je leur proposer ce travail.
 
 AcceptQuest:  [1002]
-<ce>                       _nobleman_ wants to begin
-<ce>                    rebuilding within =2dung_ days.
-<ce>                    %g has the deed to ___dungeon_,
-<ce>                     where you'll find the spirit.
+<ce>                       _nobleman_ veut pouvoir
+<ce>                   commencer à reconstruire dans
+<ce>                   =2dung_ jours. Vous trouverez
+<ce>                   le fantôme dans ___dungeon_.
 
 QuestComplete:  [1004]
-<ce>                       _nobleman_ will be quite
-<ce>                      pleased. %g has even offered
-<ce>                       to dedicate a fountain in
-<ce>                               your name.
+<ce>                      _nobleman_ va être content.
+<ce>                     Il a même proposé de donner
+<ce>                     votre nom à une fontaine.
+
 
 RumorsDuringQuest:  [1005]
-_nobleman_ was crazy to accept the deed to ___dungeon_. Crazy or stupid.
+_nobleman_ a été fou d'accepter le certificat de ___dungeon_. Fou ou stupide.
 
 RumorsPostfailure:  [1006]
-Poor _nobleman_ appealed to %kno to exorcise ___dungeon_, but they failed.
+Pauvre _nobleman_, il a appelé les %kno pour exorciser ___dungeon_, mais ils ont échoué.
 
 RumorsPostsuccess:  [1007]
-___dungeon_ can be made into a warehouse or a summer home, thanks to %kno.
+___dungeon_ peut être reconverti en une maison ou un entrepôt grâce aux  %kno.
 
 QuestorPostsuccess:  [1008]
-Greetings, %pcf. After helping us with _nobleman_, what can I do for you?
+Salutations, %pcf. Après nous avoir aidé dans l'affaire _nobleman_, que pouvons-nous faire pour vous ?
 
 QuestorPostfailure:  [1009]
-You failed %kno when you failed _nobleman_, %pcf. A grave disappointment.
+Vous avez failli aux %kno quand vous avez failli à _nobleman_, %pcf. C'est une grande déception...
 
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of
- ==qgiver_ in ___qgiver_
- pled with me to rid ___dungeon_
- of a ghost that is haunting
- it. I have =2dung_ days before
- they they need to begin
- the reconstruction.
+_qgiver_ de
+==qgiver_ dans ___qgiver_
+m'a supplié de débarrasser
+___dungeon_ du fantôme qui le hante.
+Je dispose de  =2dung_ jours
+avant que la reconstruction
+ne commence.
 
 Message:  1011
-<ce>                      The ghost has been laid to
-<ce>                        rest. _nobleman_ can now
-<ce>                          rebuild ___dungeon_.
+<ce>                     Le fantôme a trouvé le repos.
+<ce>                        _nobleman_ peut désormais
+<ce>                         commencer à reconstruire
+<ce>                              ___dungeon_.
 
 
 -- Symbols used in the QRC file:
@@ -99,31 +98,31 @@ Foe _ghost_ is Ghost
 Foe _wraith_ is Wraith
 
 --	Quest start-up:
-	start timer _2dung_ 
-	reveal _dungeon_ 
-	log 1010 step 0 
-	pick one of _S.04_ _S.05_ 
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	pick one of _S.04_ _S.05_
 
 _2dung_ task:
-	end quest 
+	end quest
 
 _S.01_ task:
-	killed 1 _wraith_ saying 1011 
-	killed 1 _ghost_ saying 1011 
+	killed 1 _wraith_ saying 1011
+	killed 1 _ghost_ saying 1011
 
 _S.02_ task:
-	clicked npc _qgiver_ 
-	give pc nothing 
-	change repute with _local_ by +4 
-	change repute with _nobleman_ by +10 
-	end quest 
+	clicked npc _qgiver_
+	give pc nothing
+	change repute with _local_ by +4
+	change repute with _nobleman_ by +10
+	end quest
 
 _clearclick_ task:
-	when _S.02_ and not _S.01_ 
-	clear _S.02_ _clearclick_ 
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_
 
 _S.04_ task:
-	place foe _wraith_ at _dungeon_ 
+	place foe _wraith_ at _dungeon_
 
 _S.05_ task:
-	place foe _ghost_ at _dungeon_ 
+	place foe _ghost_ at _dungeon_
