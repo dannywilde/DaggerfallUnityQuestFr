@@ -1,309 +1,491 @@
-Record n�0----------
-Une rumeur concernant le 
-passé d'un ancien artéfact de puissance
-a fait surface. Cela n'arrive qu'une
-fois dans une vie... Cela vous
-intéresse-t-il, %pct ?
+-- Quest: C:\QUESTS\WORKING\B0B71Y03.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: knight
+-- Repute: 71
+-- QuestId: 3
+Messages: 53
+Quest: B0B71Y03
+DisplayName: The Artifact
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>                      Une rumeur concernant le
+<ce>               passé d'un ancien artéfact de puissance
+<ce>                 a fait surface. Cela n'arrive qu'une
+<ce>                    fois dans une vie... Cela vous
+<ce>                      intéresse-t-il, %pct ?
 
-Record n�1----------
-Vous n'êtes pas du genre 
-ambitieux, hein ? Je suis sûr
-qu'un autre chevalier voudra
-bien vous remplacer...
+RefuseQuest:  [1001]
+<ce>                      Vous n'êtes pas du genre
+<ce>                    ambitieux, hein ? Je suis sûr
+<ce>                     qu'un autre chevalier voudra
+<ce>                      bien vous remplacer...
 
+AcceptQuest:  [1002]
+<ce>                   Je pensais bien avoir détecté la lueur
+<ce>                     de l'ambition dans vos yeux, %pcf.
+<ce>                     J'ai entendu dire qu'une sorcière
+<ce>                      vivant dans les profondeurs de
+<ce>                         ___dungeon1_ aurait
+<ce>                  un indice sur l'endroit où le trouver.
+<ce>                 Je serais vous, je commencerais par elle.
 
-Record n�2----------
-Je pensais bien avoir détecté la lueur
-de l'ambition dans vos yeux, %pcf.
-J'ai entendu dire qu'une sorcière
-vivant dans les profondeurs de
-___dungeon1_ aurait
-un indice sur l'endroit où le trouver.
-Je serais vous, je commencerais par elle.
+QuestComplete:  [1004]
+<ce>                           Votre quête vient
+<ce>                             de s'achever.
 
-
-Record n�3----------
-Votre quête vient
-de s'achever.
-
-
-Record n�4----------
+RumorsDuringQuest:  [1005]
 J'ai eu un furoncle l'autre jour... mais il est guéri.
-Je viens juste d'avoir une conversation de trois heures à propos 
-du temps.
+<--->
+Je viens juste d'avoir une conversation de trois heures à propos du temps.
+<--->
 Le temps est assez habituel pour cette époque de l'année.
-Il fait un tantinet frisquet à %cn pour cette époque de 
-l'année.
-C'est sur qu'il fait un peu plus chaud aujourd'hui que l'année 
-dernière à cette époque.
-Ma grand tante va chez un spécialiste à l'autre bout de la 
-Baie.
-C'est toujours amusant de voir comment le temps s'assombrit par 
-ici.
+<--->
+Il fait un tantinet frisquet à %cn pour cette époque de l'année.
+<--->
+C'est sur qu'il fait un peu plus chaud aujourd'hui que l'année dernière à cette époque.
+<--->
+Ma grand tante va chez un spécialiste à l'autre bout de la Baie.
+<--->
+C'est toujours amusant de voir comment le temps s'assombrit par ici.
+<--->
 Nous devrions ériger un mémorial de guerre dans le coin.
-Les gosses de nos jours avec leur magie, %oth, je ne sais 
-pas.
+<--->
+Les gosses de nos jours avec leur magie, %oth, je ne sais pas.
+<--->
 J'ai fait un rêve bizarre la nuit dernière.
+<--->
 J'ai entendu une super blague. %jok
+<--->
 %jok En fait, c'est une blague.
+<--->
 %jok Pouvez-vous m'expliquer celle-là ?
+<--->
 Le systeme légal en %reg a ses bons et ses mauvais côtés.
 
-Record n�5----------
+RumorsPostfailure:  [1006]
 J'ai eu un furoncle l'autre jour... mais il est guéri.
-Je viens juste d'avoir une conversation de trois heures à propos 
-du temps.
+<--->
+Je viens juste d'avoir une conversation de trois heures à propos du temps.
+<--->
 Le temps est assez habituel pour cette époque de l'année.
-Il fait un tantinet frisquet à %cn pour cette époque de 
-l'année.
-C'est sur qu'il fait un peu plus chaud aujourd'hui que l'année 
-dernière à cette époque.
-Ma grand tante va chez un spécialiste à l'autre bout de la 
-Baie.
-C'est toujours amusant de voir comment le temps s'assombrit par 
-ici.
+<--->
+Il fait un tantinet frisquet à %cn pour cette époque de l'année.
+<--->
+C'est sur qu'il fait un peu plus chaud aujourd'hui que l'année dernière à cette époque.
+<--->
+Ma grand tante va chez un spécialiste à l'autre bout de la Baie.
+<--->
+C'est toujours amusant de voir comment le temps s'assombrit par ici.
+<--->
 Nous devrions ériger un mémorial de guerre dans le coin.
-Les gosses de nos jours avec leur magie, %oth, je ne sais 
-pas.
+<--->
+Les gosses de nos jours avec leur magie, %oth, je ne sais pas.
+<--->
 J'ai fait un rêve bizarre la nuit dernière.
+<--->
 J'ai entendu une super blague. %jok
+<--->
 %jok En fait, c'est une blague.
+<--->
 %jok Pouvez-vous m'expliquer celle-là ?
+<--->
 Le systeme légal en %reg a ses bons et ses mauvais côtés.
 
-Record n�6----------
+RumorsPostsuccess:  [1007]
 J'ai eu un furoncle l'autre jour... mais il est guéri.
-Je viens juste d'avoir une conversation de trois heures à propos 
-du temps.
+<--->
+Je viens juste d'avoir une conversation de trois heures à propos du temps.
+<--->
 Le temps est assez habituel pour cette époque de l'année.
-Il fait un tantinet frisquet à %cn pour cette époque de 
-l'année.
-C'est sur qu'il fait un peu plus chaud aujourd'hui que l'année 
-dernière à cette époque.
-Ma grand tante va chez un spécialiste à l'autre bout de la 
-Baie.
-C'est toujours amusant de voir comment le temps s'assombrit par 
-ici.
+<--->
+Il fait un tantinet frisquet à %cn pour cette époque de l'année.
+<--->
+C'est sur qu'il fait un peu plus chaud aujourd'hui que l'année dernière à cette époque.
+<--->
+Ma grand tante va chez un spécialiste à l'autre bout de la Baie.
+<--->
+C'est toujours amusant de voir comment le temps s'assombrit par ici.
+<--->
 Nous devrions ériger un mémorial de guerre dans le coin.
-Les gosses de nos jours avec leur magie, %oth, je ne sais 
-pas.
+<--->
+Les gosses de nos jours avec leur magie, %oth, je ne sais pas.
+<--->
 J'ai fait un rêve bizarre la nuit dernière.
+<--->
 J'ai entendu une super blague. %jok
+<--->
 %jok En fait, c'est une blague.
+<--->
 %jok Pouvez-vous m'expliquer celle-là ?
+<--->
 Le systeme légal en %reg a ses bons et ses mauvais côtés.
 
-Record n�7----------
-Alors comme ça vous avez obtenu ce que vous cherchiez. Et 
-maintenant ?
+QuestorPostsuccess:  [1008]
+Alors comme ça vous avez obtenu ce que vous cherchiez. Et maintenant ?
 
-Record n�8----------
+QuestorPostfailure:  [1009]
 Je n'ai rien à vous dire, %pcf.
+<--->
 J'ai déjà perdu mon souffle à vous parler.
 
-Record n�9----------
+QuestLogEntry:  [1010]
 %qdt:
- Je me suis personnellement engagé
- à trouver un légendaire artéfact.
- Le seul indice que _questgiver_ 
- de __questgiver_ a pu me donner
- concerne une sorcière qui se trouve
- dans ___dungeon1_. Je vais commencer
- par lui rendre une petite visite.
+Je me suis personnellement engagé
+à trouver un légendaire artéfact.
+Le seul indice que _questgiver_
+de __questgiver_ a pu me donner
+concerne une sorcière qui se trouve
+dans ___dungeon1_. Je vais commencer
+par lui rendre une petite visite.
 
-
-Record n�10----------
+Message:  1011
 %qdt:
- La sorcière, _witch_,
- dans ___dungeon1_  m'a
- demandé d'enlever un enfant, 
- _child, qui se trouve dans
- _palace_, dans __palace_,
- et qui s'avère être sa petite-fille.
- Je dois absoluement la lui rapporter
- si je veux obtenir  _aurielsbow_.
+La sorcière, _witch_,
+dans ___dungeon1_  m'a
+demandé d'enlever un enfant,
+_child, qui se trouve dans
+_palace_, dans __palace_,
+et qui s'avère être sa petite-fille.
+Je dois absoluement la lui rapporter
+si je veux obtenir  _aurielsbow_.
 
-
-Record n�11----------
+Message:  1012
 %qdt:
- La sorcière, _witch_,
- dans ___dungeon1_  m'a
- demandé d'enlever un enfant, 
- _child, qui se trouve dans
- _palace_, dans __palace_,
- et qui s'avère être sa petite-fille.
- Je dois absoluement la lui rapporter
- si je veux obtenir   _aurielshield_.
+La sorcière, _witch_,
+dans ___dungeon1_  m'a
+demandé d'enlever un enfant,
+_child, qui se trouve dans
+_palace_, dans __palace_,
+et qui s'avère être sa petite-fille.
+Je dois absoluement la lui rapporter
+si je veux obtenir   _aurielshield_.
 
-
-Record n�12----------
+Message:  1013
 %qdt:
- La sorcière, _witch_,
- dans ___dungeon1_  m'a
- demandé d'enlever un enfant, 
- _child, qui se trouve dans
- _palace_, dans __palace_,
- et qui s'avère être sa petite-fille.
- Je dois absoluement la lui rapporter
- si je veux obtenir  _lordsmail_.
+La sorcière, _witch_,
+dans ___dungeon1_  m'a
+demandé d'enlever un enfant,
+_child, qui se trouve dans
+_palace_, dans __palace_,
+et qui s'avère être sa petite-fille.
+Je dois absoluement la lui rapporter
+si je veux obtenir  _lordsmail_.
+
+Message:  1021
+<ce>              Je suis _witch_. Alors comme cela
+<ce>                  vous voulez _aurielshield_.
+<ce>              Il est vrai que j'en sais pas mal sur
+<ce>               cet artéfact. Cependant, je ne vous
+<ce>               révèlerai mes secrets que si vous
+<ce>              faites un travail pour moi. Il y a
+<ce>            longtemps, quand j'étais jeune et quand
+<ce>              votre grand-père ne connaissait pas
+<ce>              encore votre grand-mère, j'ai donné
+<ce>           la vie à une petite fille. Je l'ai laissée
+<ce>            se faire éduquer par d'autres personnes
+<ce>              mais maintenant que mes pouvoirs
+<ce>            disparaissent, j'en ai besoin pour
+<ce>              la former à être mon héritière.
+<ce>            Ma fille est morte depuis longtemps
+<ce>              mais elle a donné naissance à ma
+<ce>            petite-fille : _child_. Apportez-la moi
+<ce>              dans moins de =finddaughter_ jours
+<ce>            et je vous dirai tout ce que je sais sur
+<ce>              _aurielshield_.  Les parents de _child_
+<ce>              ne savent pas qui elle est réellement
+<ce>            et tenteront certainement de vous arrêter.
+<ce>          Vous la trouverez dans _palace_ dans __palace_.
+
+Message:  1020
+<ce>              Je suis _witch_. Alors comme cela
+<ce>                vous voulez _aurielsbow_.
+<ce>            Il est vrai que j'en sais pas mal sur
+<ce>             cet artéfact. Cependant, je ne vous
+<ce>             révèlerai mes secrets que si vous
+<ce>             faites un travail pour moi. Il y a
+<ce>           longtemps, quand j'étais jeune et quand
+<ce>             votre grand-père ne connaissait pas
+<ce>             encore votre grand-mère, j'ai donné
+<ce>         la vie à une petite fille. Je l'ai laissée
+<ce>           se faire éduquer par d'autres personnes
+<ce>             mais maintenant que mes pouvoirs
+<ce>            disparaissent, j'en ai besoin pour
+<ce>             la former à être mon héritière.
+<ce>           Ma fille est morte depuis longtemps
+<ce>             mais elle a donné naissance à ma
+<ce>          petite-fille : _child_. Apportez-la moi
+<ce>             dans moins de =finddaughter_ jours
+<ce>          et je vous dirai tout ce que je sais sur
+<ce>             _aurielsbow_.  Les parents de _child_
+<ce>             ne savent pas qui elle est réellement
+<ce>           et tenteront certainement de vous arrêter.
+<ce>            Vous la trouverez dans _palace_ dans
+<ce>                       __palace_.
+
+Message:  1022
+<ce>                Je suis _witch_. Alors comme cela
+<ce>                     vous voulez _lordsmail_.
+<ce>                Il est vrai que j'en sais pas mal sur
+<ce>                cet artéfact. Cependant, je ne vous
+<ce>                 révèlerai mes secrets que si vous
+<ce>                faites un travail pour moi. Il y a
+<ce>             longtemps, quand j'étais jeune et quand
+<ce>                votre grand-père ne connaissait pas
+<ce>                encore votre grand-mère, j'ai donné
+<ce>            la vie à une petite fille. Je l'ai laissée
+<ce>              se faire éduquer par d'autres personnes
+<ce>                 mais maintenant que mes pouvoirs
+<ce>                disparaissent, j'en ai besoin pour
+<ce>                  la former à être mon héritière.
+<ce>               Ma fille est morte depuis longtemps
+<ce>                mais elle a donné naissance à ma
+<ce>              petite-fille : _child_. Apportez-la moi
+<ce>                dans moins de =finddaughter_ jours
+<c                et je vous dirai tout ce que je sais sur
+<ce>                _lordsmail_.  Les parents de _child_
+<ce>                ne savent pas qui elle est réellement
+<ce>             et tenteront certainement de vous arrêter.
+<ce>                Vous la trouverez dans _palace_ dans
+<ce>                          __palace_.
 
 
-Record n�13----------
-Je suis _witch_. Alors comme cela
-vous voulez _aurielshield_.
-Il est vrai que j'en sais pas mal sur
-cet artéfact. Cependant, je ne vous
-révèlerai mes secrets que si vous
-faites un travail pour moi. Il y a
-longtemps, quand j'étais jeune et quand
-votre grand-père ne connaissait pas
-encore votre grand-mère, j'ai donné
-la vie à une petite fille. Je l'ai laissée
-se faire éduquer par d'autres personnes
-mais maintenant que mes pouvoirs
-disparaissent, j'en ai besoin pour
-la former à être mon héritière.
-Ma fille est morte depuis longtemps
-mais elle a donné naissance à ma
-petite-fille : _child_. Apportez-la moi
-dans moins de =finddaughter_ jours
-et je vous dirai tout ce que je sais sur
-_aurielshield_.  Les parents de _child_
-ne savent pas qui elle est réellement
-et tenteront certainement de vous arrêter.
-Vous la trouverez dans _palace_ dans
-__palace_.
+Message:  1025
+<ce>                      "Que faites-vous ?! Je ne
+<ce>                     veux pas partir avec vous !
+<ce>                     A l'aide ! Papa, maman, au secours !"
 
+Message:  1026
+<ce>                        Un intrus ! Un intrus !
 
-Record n�14----------
-Je suis _witch_. Alors comme cela
-vous voulez _aurielsbow_.
-Il est vrai que j'en sais pas mal sur
-cet artéfact. Cependant, je ne vous
-révèlerai mes secrets que si vous
-faites un travail pour moi. Il y a
-longtemps, quand j'étais jeune et quand
-votre grand-père ne connaissait pas
-encore votre grand-mère, j'ai donné
-la vie à une petite fille. Je l'ai laissée
-se faire éduquer par d'autres personnes
-mais maintenant que mes pouvoirs
-disparaissent, j'en ai besoin pour
-la former à être mon héritière.
-Ma fille est morte depuis longtemps
-mais elle a donné naissance à ma
-petite-fille : _child_. Apportez-la moi
-dans moins de =finddaughter_ jours
-et je vous dirai tout ce que je sais sur
-_aurielsbow_.  Les parents de _child_
-ne savent pas qui elle est réellement
-et tenteront certainement de vous arrêter.
-Vous la trouverez dans _palace_ dans
-__palace_.
+Message:  1027
+<ce>                    Laissez _child_ partir sinon
+<ce>                    je serai obligé de vous tuer.
 
+Message:  1032
+<ce>                    Ahh, enfin, mon héritière.
+<ce>                 Comment s'appelle-t-elle déjà ?
+<ce>                  _child_? Oui, elle convient
+<ce>                    parfaitement. %pcn, vous
+<ce>                 avez bien gagné les informations
+<ce>                    concernant _aurielshield_.
+<ce>                  Les étoiles m'ont dit que le chemin
+<ce>                 pour aller vers _aurielshield_ passait
+<ce>                  par ___dungeon2_. C'est tout ce que
+<ce>                             je sais.
 
-Record n�15----------
-Je suis _witch_. Alors comme cela
-vous voulez _lordsmail_.
-Il est vrai que j'en sais pas mal sur
-cet artéfact. Cependant, je ne vous
-révèlerai mes secrets que si vous
-faites un travail pour moi. Il y a
-longtemps, quand j'étais jeune et quand
-votre grand-père ne connaissait pas
-encore votre grand-mère, j'ai donné
-la vie à une petite fille. Je l'ai laissée
-se faire éduquer par d'autres personnes
-mais maintenant que mes pouvoirs
-disparaissent, j'en ai besoin pour
-la former à être mon héritière.
-Ma fille est morte depuis longtemps
-mais elle a donné naissance à ma
-petite-fille : _child_. Apportez-la moi
-dans moins de =finddaughter_ jours
-et je vous dirai tout ce que je sais sur
-_lordsmail_.  Les parents de _child_
-ne savent pas qui elle est réellement
-et tenteront certainement de vous arrêter.
-Vous la trouverez dans _palace_ dans
-__palace_.
+Message:  1031
+<ce>                    Ahh, enfin, mon héritière.
+<ce>                 Comment s'appelle-t-elle déjà ?
+<ce>                  _child_? Oui, elle convient
+<ce>                    parfaitement. %pcn, vous
+<ce>                 avez bien gagné les informations
+<ce>                    concernant _aurielshield_.
+<ce>                  Les étoiles m'ont dit que le chemin
+<ce>                 pour aller vers _aurielshield_ passait
+<ce>                  par ___dungeon2_. C'est tout ce que
+<ce>                             je sais.
 
+Message:  1033
+<ce>                    Ahh, enfin, mon héritière.
+<ce>                 Comment s'appelle-t-elle déjà ?
+<ce>                  _child_? Oui, elle convient
+<ce>                    parfaitement. %pcn, vous
+<ce>                 avez bien gagné les informations
+<ce>                    concernant _aurielshield_.
+<ce>                  Les étoiles m'ont dit que le chemin
+<ce>                 pour aller vers _aurielshield_ passait
+<ce>                  par ___dungeon2_. C'est tout ce que
+<ce>                             je sais.
 
-Record n�16----------
- "Que faites-vous ?! Je ne
-veux pas partir avec vous ! 
-A l'aide ! Papa, maman, au
-secours !"
-
-
-Record n�17----------
-"Aux armes ! Aux armes !"
-
-
-Record n�18----------
-Laissez _child_ partir sinon
-je serai obligé de vous tuer.
-
-
-Record n�19----------
-Ahh, enfin, mon héritière.
-Comment s'appelle-t-elle déjà ?
-_child_? Oui, elle convient
-parfaitement. %pcn, vous
-avez bien gagné les informations
-concernant _aurielshield_.
-Les étoiles m'ont dit que le chemin 
-pour aller vers _aurielshield_ passait
-par ___dungeon2_. C'est tout ce que
-je sais.
-
-
-Record n�20----------
-Ahh, enfin, mon héritière.
-Comment s'appelle-t-elle déjà ?
-_child_? Oui, elle convient
-parfaitement. %pcn, vous
-avez bien gagné les informations
-concernant _aurielsbow_.
-Les étoiles m'ont dit que le chemin 
-pour aller vers _aurielsbow_ passait
-par ___dungeon2_. C'est tout ce que
-je sais.
-
-
-Record n�21----------
-Ahh, enfin, mon héritière.
-Comment s'appelle-t-elle déjà ?
-_child_? Oui, elle convient
-parfaitement. %pcn, vous
-avez bien gagné les informations
-concernant _lordsmail_.
-Les étoiles m'ont dit que le chemin 
-pour aller vers _lordsmail_ passait
-par ___dungeon2_. C'est tout ce que
-je sais.
-
-
-Record n�22----------
+Message:  1051
 %qdt:
- _witch_ m'a dit que le chemin
- pour trouver _aurielshield_
- passe par ___dungeon2_.
+_witch_ m'a dit que le chemin
+pour trouver _aurielshield_
+passe par ___dungeon2_.
 
-
-Record n�23----------
+Message:  1050
 %qdt:
- _witch_ m'a dit que le chemin
- pour trouver _aurielsbow_
- passe par ___dungeon2_.
+_witch_ m'a dit que le chemin
+pour trouver _aurielsbow_
+passe par ___dungeon2_.
 
-
-Record n�24----------
+Message:  1052
 %qdt:
- _witch_ m'a dit que le chemin
- pour trouver _lordsmail_
- passe par ___dungeon2_.
+_witch_ m'a dit que le chemin
+pour trouver _lordsmail_
+passe par ___dungeon2_.
 
 
+-- Symbols used in the QRC file:
+--
+--               %cn occurs 3 times.
+--                %g occurs 3 times.
+--              %jok occurs 9 times.
+--              %oth occurs 15 times.
+--              %pcf occurs 2 times.
+--              %pcn occurs 3 times.
+--              %pct occurs 2 times.
+--              %qdt occurs 7 times.
+--              %reg occurs 3 times.
+--    =finddaughter_ occurs 3 times.
+--      ___dungeon1_ occurs 5 times.
+--      ___dungeon2_ occurs 12 times.
+--         __palace_ occurs 9 times.
+--     __questgiver_ occurs 1 time.
+--      _aurielsbow_ occurs 6 times.
+--    _aurielshield_ occurs 6 times.
+--           _child_ occurs 13 times.
+--       _lordsmail_ occurs 6 times.
+--          _palace_ occurs 12 times.
+--      _questgiver_ occurs 1 time.
+--           _witch_ occurs 9 times.
 
+QBN:
+Item _aurielshield_ artifact Auriels_Shield
+Item _aurielsbow_ artifact Auriels_Bow
+Item _lordsmail_ artifact Lords_Mail
+
+Person _witch_ face 1 faction The_Glenmoril_Witches
+Person _child_ face 211 faction Children
+Person _ruler_ group Noble female
+Person _local_ face 33 group Resident2
+Person _questgiver_ face 67 group Questor
+
+Place _dungeon1_ remote dungeon
+Place _palace_ remote palace
+Place _dungeon2_ remote dungeon
+
+Clock _finddaughter_ 00:00 0 flag 17 range 1 2
+
+Foe _F.00_ is 2 Knight
+Foe _battlemage_ is Battle_mage
+Foe _warrior_ is Warrior
+
+--	Quest start-up:
+	start timer _finddaughter_
+	reveal _dungeon1_
+	log 1010 step 0
+	pick one of _artifact1_ _artifact2_ _artifact3_
+	pc at _palace_ set _S.10_
+	place npc _child_ at _palace_
+	place npc _witch_ at _dungeon1_
+
+_S.00_ task:
+	clicked npc _witch_
+
+_S.01_ task:
+	clicked npc _child_ say 1025
+	create foe _F.00_ every 3 minutes 5 times with 30% success
+	create foe _battlemage_ every 4 minutes 5 times with 25% success
+	hide npc _child_
+	add _child_ face
+	clear _S.00_
+--added this clear task. otherwise witch would talk in palace re success
+
+-_clearclick_ task:
+-	when _S.00_ and not _S.01_
+-	clear _S.00_ _clearclick_
+--removed this clearclick. prevented quest from working
+variable _finddaughter_
+variable _artifact1_
+variable _artifact2_
+variable _artifact3_
+_how1_ task:
+	when _S.16_ and _artifact1_
+	log 1011 step 1
+
+_how2_ task:
+	when _S.16_ and _artifact2_
+	log 1012 step 1
+
+_fire_ task:
+	when _S.16_ and _artifact3_
+	log 1013 step 1
+
+_S.10_ task:
+	create foe _warrior_ every 5 minutes 5 times with 50% success
+
+_greklith_ task:
+	injured _warrior_ saying 1026
+
+_S.12_ task:
+	injured _battlemage_
+	injured _F.00_
+	prompt 1027 yes _S.13_ no _S.14_
+
+_S.13_ task:
+	drop _child_ face
+	change repute with _local_ by +6
+	change repute with _child_ by -10
+	end quest
+
+_S.14_ task:
+	change repute with _ruler_ by -50
+
+_S.15_ task:
+	when _S.01_ and not _S.13_ and _S.00_
+	reveal _dungeon2_
+	clear _S.01_
+
+_S.16_ task:
+	when _S.00_ and not _S.01_
+
+_S.17_ task:
+	when _artifact1_ and _S.15_
+	place item _aurielsbow_ at _dungeon2_
+	log 1050 step 2
+	say 1031
+	drop _child_ face
+--moved "drop face" here, was not cooperating in S.15
+
+_S.18_ task:
+	when _artifact2_ and _S.15_
+	place item _aurielshield_ at _dungeon2_
+	log 1051 step 2
+	say 1032
+	drop _child_ face
+--moved "drop face" here, was not cooperating in S.15
+
+_S.19_ task:
+	when _artifact3_ and _S.15_
+	place item _lordsmail_ at _dungeon2_
+	log 1052 step 2
+	say 1033
+	drop _child_ face
+--moved "drop face" here, was not cooperating in S.15
+
+_S.20_ task:
+	clicked item _aurielsbow_
+	make _aurielsbow_ permanent
+--	Discovered a new op-code:
+	_0x3c_ 19
+
+_S.21_ task:
+	clicked item _aurielshield_
+	make _aurielshield_ permanent
+
+_S.22_ task:
+	clicked item _lordsmail_
+	make _lordsmail_ permanent
+
+_S.23_ task:
+	when _S.20_ or _S.22_ or _S.21_
+	give pc nothing
+	end quest
+
+_S.24_ task:
+	when _S.00_ and _artifact1_
+	say 1020
+
+_S.25_ task:
+	when _S.00_ and _artifact2_
+	say 1021
+
+_S.26_ task:
+	when _S.00_ and _artifact3_
+	say 1022
+
+variable _love_

@@ -1,134 +1,210 @@
-Record n�0----------
-Le pouvoir, oui, est une quête impalpable mais
-éloquente. Un de mes larbins possède un
-ancien livre appelé l'Oghma Infinium,
-qui gratifie d'un grand pouvoir ceux qui
-lisent ses pages. Si vous éliminez un
-certain patricien infâme, qui a suscité
-mon mécontentement, j'arrangerai
-une rencontre entre vous et le livre.
-Acceptez-vous ?
+-- Quest: C:\QUESTS\WORKING\W0C00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: Hermaeus Mora
+-- Repute: 0
+-- QuestId: 0
+Messages: 46
+Quest: W0C00Y00
+DisplayName: Hermaeus Mora's Quest
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>                Power, yes, is an allusive but eloquent
+<ce>               prosecution. One of my minions possesses
+<ce>              an ancient tome called the Oghma Infinium,
+<ce>               which bequeaths great power on those who
+<ce>                 read its pages. If you exterminate a
+<ce>                 certain scrofulous patrician who has
+<ce>                aroused my displeasure, I will arrange
+<ce>                  a meeting between you and the book.
+<ce>                          Is this agreeable?
 
-Record n�1----------
-Vous déclinez l'offre ! Dois-je comprendre que
-vous recherchez le pouvoir, mais gratuitement ?
-Vous auriez plutôt dû rechercher la sagesse,
-car c'est ce qui vous manque. Je vous
-adresse mes salutations les plus déçues.
+RefuseQuest:  [1001]
+<ce>               You answer negatively. Am I to understand
+<ce>                that you sought power, but seek it for
+<ce>                 free? You ought to have sought wisdom
+<ce>                 instead, for that is what you need. I
+<ce>                 bid you a very disappointed goodbye.
 
+AcceptQuest:  [1002]
+<ce>                Very well. This socialite I referred to
+<ce>                  resides at the palace of __palace_.
+<ce>                For the record, the name of your quarry
+<ce>                              is _enemy_.
+<ce>                 Kill %g2 and proceed to ___contact_,
+<ce>                      where my servant _contact_
+<ce>                 will wait for you in a library. I do
+<ce>                   not think there is anything to be
+<ce>                 gained by continuing this interview.
+<ce>                    Fail me not in this, %pcf, and
+<ce>                 the power thou craves will be thine.
 
-Record n�2----------
-Très bien. Cet individu auquel je faisais référence
-réside au palace de __palace_.
-Pour information, le nom de votre cible
-est _enemy_.
-Tuez-le et rendez-vous à ___contact_,
-où mon serviteur _contact_
-vous attendra dans une librairie.
-Je ne pense pas qu'il soit utile
-de poursuivre cet entretien.
-N'échouez pas dans cette entreprise, %pcf,
-et le pouvoir que vous convoitez sera vôtre.
+QuestFail:  [1003]
+<ce>                        Listen, if you're %pcf,
+<ce>                       go back and kill _enemy_
+<ce>                     again. Hermaeus Mora tells me
+<ce>                       not to give you the book,
+<ce>                       'cause %g's still alive.
+<ce>                      I'm sorry, but that's that.
 
+QuestComplete:  [1004]
+<ce>                %pcf, I underestimated you. I told Mora
+<ce>             you couldn't do it, but here you are, and all
+<ce>                  %reg is in an uproar over _enemy_'s
+<ce>                death. As promised, the book. Remember:
+<ce>                      you can only read it once.
+<ce>                         See you later, maybe.
 
-Record n�3----------
-Ecoutez, si vous êtes %pcf,
-revenez quand _enemy_ sera mort.
-Hermaeus Mora me dit de ne
-pas vous donner le livre,
-car %g est toujours en vie.
-Je suis désolé, mais c'est ainsi.
+RumorsDuringQuest:  [1005]
+They say _enemy_ got all %g3 power direct from the daedras themselves.
+<--->
+_enemy_ must have made a deal with the daedra. No one can be that lucky.
 
+RumorsPostfailure:  [1006]
+_enemy_ left %reg quick as you like. I guess %g's past caught up with %g2.
+<--->
+You can cheat the daedra. _enemy_ did. Had to run away, but %g's still alive.
 
-Record n�4----------
-%pcf, je vous ai sous-estimé. J'ai dit à Mora que
-vous ne pourriez pas le faire, mais vous voilà,
-et tout %reg ne parle que de la mort de _enemy_.
-Comme promis, le livre. Rappelez-vous :
-vous ne pouvez le lire qu'une seule fois.
-A bientôt, peut-être.
+RumorsPostsuccess:  [1007]
+What goes around, comes around. _enemy_ tried to cheat fate, so they say.
+<--->
+I can still hear _enemy_ bragging about cheating the daedra. What a fool.
 
+Message:  1011
+Just a =contact_ who deals with the daedra.
+<--->
+Some =contact_ who practically lives at __contact_.
 
-Record n�5----------
-Il paraît que _enemy_ tirait tout son pouvoir directement des 
-Daedras eux-mêmes.
-_enemy_ avait certainement un accord avec le Daedra. Personne ne 
-peut être aussi chanceux.
+Message:  1012
+The Daedra Prince of Forbidden Knowledge, the wisest of the infernal ones.
+<--->
+Hermaeus Mora has a mind as old as Tamriel. And a body of slime.
 
+Message:  1013
+The Oghma Infinium is the book of knowledge. But knowledge can be forgotten.
+<--->
+It is the book that gifts its reader with stronger bodies and abler minds.
 
-Record n�6----------
-_enemy_ a quitté %reg aussi vite que possible. J'imagine que son 
-passé l'a rattrapé.
-Vous pouvez tromper le Daedra. _enemy_ l'a fait. %g a dû s'enfuir, 
-mais %g est encore en vie.
-
-
-Record n�7----------
-On recolte ce qu'on a semé. _enemy_ a tenté de tromper le destin, 
-à ce qu'on dit.
-J'entends encore _enemy_ se vanter d'avoir trompé le Daedra. Quel 
-idiot.
-
-
-Record n�8----------
-Juste un =contact_ qui fait affaire avec le Daedra.
-Un =contact_ qui vit à __contact_.
-
-
-Record n�9----------
-Le Prince Daedra de la Connaissance Interdite, le plus sage des 
-infernaux.
-Hermaeus Mora a un esprit aussi vieux que Tamriel. Et un corps 
-gluant.
-
-
-Record n�10----------
-L'Oghma Infinium est le le livre de la connaissance. Mais la 
-connaissance peut être maudite.
-C'est le livre qui donne à celui qui le lit un corps plus fort et 
-un esprit plus vif.
-
-
-Record n�11----------
+Message:  1020
 %qdt:
- Le Prince Daedra Hermaeus Mora
- veut que j'assassine un magelame qui a rompu
- un contrat avec lui. _enemy_
- réside au Palace de __palace_.
- Quand je l'aurai tué et que j'aurai rejoint le
- contact de Hermaeus Mora à ___contact_,
- _contact_, en moins de =1stparton_ jours,
- je recevrai le livre de la connaissance,
- l'Oghma Infinium. _contact_
- attendra là-bas dans une librairie.
+ The Daedric Prince Hermaeus Mora
+ wants me to assassinate a spellsword who went
+ back on a contract with him. _enemy_
+ resides in the Palace of __palace_.
+ In exchange for killing %g2 and getting to
+ Hermaeus Mora's contact in ___contact_,
+ _contact_, in =1stparton_ days or
+ less, I will be given the book of knowledge,
+ the Oghma Infinium. _contact_
+ will be waiting in a library there.
+
+Message:  1030
+<ce>                    Hermaeus Mora will be pleased--
+<ce>                        you have slain _enemy_.
+
+Message:  1035
+<ce>             No!  Wait!  I swear, I meant to pay Lord Mora
+<ce>                  back.  Don't kill me, I beg of you!
+<ce>            Here, spare my life and take this _magic_ back
+<ce>              to him as a token of my goodwill and a down
+<ce>               payment on what I owe.  Please, will you?
+
+Message:  1040
+<ce>             Hmm, well, thanks for the _magic_, I guess...
+<ce>                   Now, let's get down to business.
+
+QuestTimeLapse:  [1045]
+<ce>              You're telling me you let that little worm
+<ce>             live, and you bring me this pathetic _magic_
+<ce>               instead of _enemy_'s blood on your hands?
+<ce>             Hermaeus Mora will be very unhappy with this
+<ce>                                 news.
 
 
-Record n�12----------
-Hermaeus Mora sera content :
-vous avez tué _enemy_.
+-- Symbols used in the QRC file:
+--
+--                %g occurs 4 times.
+--               %g2 occurs 3 times.
+--               %g3 occurs 1 time.
+--              %pcf occurs 3 times.
+--              %qdt occurs 1 time.
+--              %reg occurs 2 times.
+--       =1stparton_ occurs 1 time.
+--         =contact_ occurs 7 times.
+--         __palace_ occurs 2 times.
+--         _contact_ occurs 3 times.
+--           _enemy_ occurs 15 times.
+--           _magic_ occurs 3 times.
 
+QBN:
+Item _artifact_ artifact Oghma_Infinium anyInfo 1013
+Item _magic_ magic_item
 
-Record n�13----------
-Non!  Attendez !  Je le jure, j'avais l'intention
-de rembourser le Prince Mora. Ne me tuez pas,
-je vous en supplie !
-Voilà, épargnez ma vie et rapportez-lui ce _magic_
-comme preuve de ma bonne foi et pour acompte de
-ce que je lui dois.  Acceptez, je vous en supplie !
+Person _questgiver_ face 112 group Questor anyInfo 1012
+Person _contact_ group Librarian female anyInfo 1011
+Person _enemy_ face 1 factiontype Province
 
+Place _palace_ remote palace
+Place _L.01_ remote dungeon
 
-Record n�14----------
-Hmm, bien, merci pour le _magic_, j'imagine... 
-Maintenant, remettons-nous au travail.
+Clock _1stparton_ 00:00 0 flag 1 range 2 5
 
+Foe _monster_ is Spellsword
+Foe _guard1_ is Barbarian
+Foe _guard2_ is Ranger
 
-Record n�15----------
-Vous me dites que vous avez laissé vivre ce misérable
-ver, et vous m'apportez ce pathétique _magic_
-au lieu du sang de _enemy_ sur vos mains ?
-Hermaeus Mora sera très mécontent de cette
-nouvelle.
+--	Quest start-up:
+	start timer _1stparton_ 
+	log 1020 step 0 
+	pc at _palace_ set _S.06_ 
+	place npc _enemy_ at _palace_ 
 
+_1stparton_ task:
+	end quest 
 
+variable _2ndparton_
+_pcgetsgold_ task:
+	when _npcclicked_ and _mondead_ 
+	when _S.10_ and _mondead_ 
+	give pc _artifact_ 
+	end quest 
+--removed unnecessary delay
 
+_mondead_ task:
+	killed 1 _monster_ 
+	create foe _guard2_ every 3 minutes 5 times with 50% success 
+	say 1030 
+
+_npcclicked_ task:
+	clicked npc _contact_ 
+
+_clearclick_ task:
+	when not _mondead_ and _npcclicked_
+	say 1003 
+	clear _npcclicked_ _clearclick_ 
+
+_S.06_ task:
+	hide npc _enemy_ 
+	restrain foe _monster_ 
+	place foe _monster_ at _palace_ 
+
+_S.07_ task:
+	injured _monster_ 
+	prompt 1035 yes yes no _no_ 
+
+yes task:
+	get item _magic_ 
+	place foe _monster_ at _L.01_ 
+
+_no_ task:
+	create foe _guard1_ every 2 minutes 5 times with 35% success 
+
+_S.10_ task:
+	toting _magic_ and _contact_ clicked 
+	say 1040 
+
+_S.11_ task:
+	when _S.10_ and not _mondead_ 
+	say 1045 

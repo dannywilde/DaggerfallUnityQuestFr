@@ -1,105 +1,167 @@
-Record n�0----------
-Je suis désespéré. La Confrérie Noire
-a enlevé mon enfant _child_
-et %g2 tuera si je ne paye pas une rançon.
-Je n'ai pas assez d'argent pour acheter
-sa liberté, mais je peux vous payer
-_money_ pièces d'or si vous %g2 libérez.
+-- Quest: C:\QUESTS\WORKING\A0C10Y02.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 10
+-- QuestId: 2
+Quest: A0C10Y02
+DisplayName: The Abducted Child
+-- Message panels
+QRC:
 
-Mon enfant, mon pauvre _child_
-est parti, emporté au loin par la
-Confrérie Noire pour %god sait quel
-but caché. Vous devez m'aider, %pcf.
-Je vous donnerai tout ce que j'ai,
-_money_ pièces d'or, si vous me ramenez
-mon enfant à la maison.
+QuestorOffer:  [1000]
+<ce>                Je suis désespéré. La Confrérie Noire
+<ce>                   a enlevé mon enfant _child_
+<ce>               et %g2 tuera si je ne paye pas une rançon.
+<ce>               Je n'ai pas assez d'argent pour acheter
+<ce>                 sa liberté, mais je peux vous payer
+<ce>             _money_ pièces d'or si vous %g2 libérez.
+                                     <--->
+<ce>                      Mon enfant, mon pauvre _child_
+<ce>                    est parti, emporté au loin par la
+<ce>                  Confrérie Noire pour %god sait quel
+<ce>                  but caché. Vous devez m'aider, %pcf.
+<ce>                   Je vous donnerai tout ce que j'ai,
+<ce>                _money_ pièces d'or, si vous me ramenez
+<ce>                       mon enfant à la maison.
 
+RefuseQuest:  [1001]
+<ce>                     C'est un sombre jour pour moi.
+<ce>                  _child_ sera sûrement assassiné
+<ce>                par la Confrérie Noire. Puisse son fantôme
+<ce>                vous hanter pour le restant de vos jours !
 
-Record n�1----------
-Ceci est un sombre jour pour moi.
-_child_ sera sûrement assassiné
-par la Confrérie Noire. Puisse son fantôme
-vous hanter pour le restant de vos jours !
+AcceptQuest:  [1002]
+<ce>               Vous êtes mon sauveur ! Mon nom est _qgiver_.
+<ce>            Faites-vite, vous avez seulement =timeforq_ jours
+<ce>               avant qu'ils ne tuent _child_. %g est détenu
+<ce>                     dans _dbguild_ en __dbguild_.
 
+QuestFail:  [1003]
+<ce>                   _child_ ? Où est-%g ? Pourquoi
+<ce>                  ne l'avez-vous encore pas ramené ? Si
+<ce>              vous voulez sauver sa vie, partez maintenant !
 
-Record n�2----------
-Vous êtes mon sauveur ! Mon nom est _qgiver_.
-Faites-vite, vous avez seulement =timeforq_ jours
-avant qu'ils ne tuent _child_. %g est détenu
-dans _dbguild_ en __dbguild_.
+QuestComplete:  [1004]
+<ce>                   _child_ ! Tu es vivant et en bonne
+<ce>                  santé ! %pcf, j'ai une dette envers vous,
+<ce>                  qui ne pourra jamais être complètement
+<ce>                 remboursée. Cette modeste récompense
+<ce>                est le moins que je puisse vous donner.
 
+RumorsDuringQuest:  [1005]
+<ce>                 La Confrérie Noire est allée trop loin
+<ce>                cette fois. Kidnapper l'enfant de _qgiver_
+<ce>                        est impardonnable.
 
-Record n�3----------
-_child_ ? Où est-%g ? Pourquoi
-ne l'avez-vous encore pas ramené ? Si
-vous voulez sauver sa vie, partez maintenant !
-
-
-Record n�4----------
-_child_ ! Tu es vivant et en bonne
-santé ! %pcf, j'ai une dette envers vous,
-qui ne pourra jamais être complètement
-remboursée. Cette modeste récompense
-est le moins que je puisse vous donner.
-
-
-Record n�5----------
-La Confrérie Noire est allée trop loin
-cette fois. Kidnapper l'enfant de _qgiver_
-est impardonnable.
-
-
-Record n�6----------
-Je ne pense pas que _qgiver_
-passera la saison. %g se suicidera
-probablement. Vous êtes au courant que
-la Confrérie Noire a kidnappé et tué
-son enfant _child_ ?
-
-
-
-Record n�7----------
-Vous êtes ce %ra qui a sauvé le
-petit _child_ ! Quel héros !
+RumorsPostfailure:  [1006]
+<ce>                   Je ne pense pas que _qgiver_
+<ce>                 passera la saison. %g se suicidera
+<ce>                probablement. Vous êtes au courant que
+<ce>        la Confrérie Noire a kidnappé et tué son enfant _child_ ?
 
 
-Record n�8----------
-Le sauveur de mon enfant ! Je vous remercie
-et _child_ vous remercie d'avoir
-sauvé sa vie. Soyez béni %pcf.
+RumorsPostsuccess:  [1007]
+<ce>                   Vous êtes ce %ra qui a sauvé le
+<ce>                     petit _child_ ! Quel héros !
+
+QuestorPostsuccess:  [1008]
+<ce>              Le sauveur de mon enfant ! Je vous remercie
+<ce>                   et _child_ vous remercie d'avoir
+<ce>                   sauvé sa vie. Soyez béni %pcf.
+
+QuestorPostfailure:  [1009]
+<ce>                   Mon enfant _child_ est mort à cause
+<ce>             de vous ! Ne remettez plus jamais les pieds ici.
+
+QuestLogEntry:  [1010]
+<ce>                Etes-vous ici pour me sauver ? Mon nom
+<ce>                  est _child_. Je n'aime pas ces gens.
+<ce>                S'il vous plaît, ramenez-moi dans ma famille.
+
+Message:  1011
+<ce>                         _dbguild_ est sombre et
+<ce>                      préoccupé. Il est certain que
+<ce>                     des ennemis se cachent partout.
+
+Message:  1012
+On %qdt :
+_qgiver_ m'a parlé de l'accablant
+kidnapping de son enfant _child_
+par la Confrérie Noire. J'ai immédiatement
+accepté de %g2 sauver de _dbguild_ en
+__dbguild_. Sa famille attendra durant
+=timeforq_ jours mon retour de __qgiver_
+en ___qgiver_.
+
+Message:  1020
+<ce>                Personne ne peut chercher des histoires
+<ce>              à la Confrérie Noire et continuer de vivre !
 
 
-Record n�9----------
-Mon enfant _child_ est mort à cause
-de vous ! Ne remettez plus jamais les pieds ici.
+-- Symbols used in the QRC file:
+--
+--                %g occurs 3 times.
+--               %g2 occurs 5 times.
+--               %g3 occurs 18 times.
+--              %god occurs 1 time.
+--              %pcf occurs 4 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 1 time.
+--        =timeforq_ occurs 2 times.
+--        ___qgiver_ occurs 2 times.
+--        __dbguild_ occurs 3 times.
+--         __qgiver_ occurs 1 time.
+--           _child_ occurs 46 times.
+--         _dbguild_ occurs 4 times.
+--           _money_ occurs 2 times.
+--          _qgiver_ occurs 6 times.
 
+QBN:
+Item _money_ gold
 
-Record n�10----------
-Etes-vous ici pour me sauver ? Mon nom
-est _child_. Je n'aime pas ces gens.
-S'il vous plaît, ramenez-moi dans ma famille.
+Person _child_ face 1 faction Children
+Person _qgiver_ face 121 group Questor
+Person _dummydarkb_ face 169 faction The_Dark_Brotherhood
 
+Place _dbguild_ remote house1
 
-Record n�11----------
-_dbguild_ est sombre et
-préoccupé. Il est certain que
-des ennemis se cachent partout.
+Clock _timeforq_ 00:00 0 flag 17 range 1 4
 
+Foe _darkb_ is Assassin
 
-Record n�12----------
-%qdt :
- _qgiver_ m'a parlé de l'accablant
- kidnapping de son enfant _child_
- par la Confrérie Noire. J'ai immédiatement
- accepté de %g2 sauver de _dbguild_ en
- __dbguild_. Sa famille attendra durant
- =timeforq_ jours mon retour de __qgiver_
- en ___qgiver_.
+--	Quest start-up:
+	dialog link for person _child_
+	start timer _timeforq_
+	log 1012 step 0
+	pc at _dbguild_ set _S.01_ saying 1011
+	place npc _child_ at _dbguild_
 
+_timeforq_ task:
+	end quest
 
-Record n�13----------
-Personne ne peut chercher des histoires
-à la Confrérie Noire et continuer de vivre !
+_S.01_ task:
+	create foe _darkb_ every 2 minutes 4 times with 30% success
 
+_S.02_ task:
+	clicked npc _child_ say 1010
+	hide npc _child_
+	add _child_ face
 
+_qgclicked_ task:
+	clicked npc _qgiver_
 
+_vamp1_ task:
+	when _qgclicked_ and _S.02_
+	give pc _money_
+	change repute with _dummydarkb_ by -15
+	end quest
+
+_clearclick_ task:
+	when _qgclicked_ and not _S.02_
+	say 1003
+	clear _qgclicked_ _clearclick_
+
+_S.06_ task:
+	injured _darkb_
+	say 1020

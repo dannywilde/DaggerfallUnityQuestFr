@@ -1,100 +1,96 @@
-Record n�0----------
-Mon nom est _qgiver_. J'ai une mission qui
-requiert beaucoup de discrétion et le plus grand secret. Le
-risque est minime et je vous paierai _gold_ pièces d'or. Cela 
-ne
-vous prendra que =traveltime_ jours. Je ne peux
-vous en dire plus, sauf si vous acceptez la mission.
+-- Quest: C:\QUESTS\WORKING\A0C00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 0
+-- QuestId: 0
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 32
+Quest: A0C00Y00
+DisplayName: The Postman
+-- Message panels
+QRC:
 
-Bonjour jeune %ra. Voudriez-vous gagner
-_gold_ pièces d'or en réalisant ce que
-les mercenaires appellent "le vieil échange" ?
+QuestorOffer:  [1000]
+<ce>                 Mon nom est _qgiver_. J'ai une mission qui
+<ce>           requiert beaucoup de discrétion et le plus grand secret. Le
+<ce>       risque est minime et je vous paierai _gold_ pièces d'or. Cela ne
+<ce>            vous prendra que =traveltime_ jours. Je ne peux
+<ce>          vous en dire plus, sauf si vous acceptez la mission.
 
+<ce>           Bonjour jeune %ra. Voudriez-vous gagner
+<ce>           _gold_ pièces d'or en réalisant ce que
+<ce>        les mercenaires appellent "le vieil échange" ?
 
-Record n�1----------
-Je comprends. Je suis heureux de ne vous avoir révélé
-aucun détail. Ainsi vous ne pouvez pas me trahir.
-
-Très bien. Mais votre manque d'ambition sera
-votre perte, mon jeune ami.
-
-
-
-Record n�2----------
-Allez à _inn_ dans l'auberge __inn_.
-Il s'y trouve un courrier chargé d'une lettre. Prenez-la
-et remplacez la par celle-ci. Ne touchez à rien
-d'autre. S'il s'apercoit que la lettre a été
-échangée, tous mes plans tomberont à l'eau.
-Si vous êtes pris, n'essayez
-pas de me retrouver.
-
-
-Record n�3----------
-N'avez-vous pas une lettre à "livrer" pour moi ?
-
-Revenez quand vous avez rempli votre mission, %pcf.
+RefuseQuest:  [1001]
+<ce>           Je comprends. Je suis heureux de ne vous avoir révélé
+<ce>             aucun détail. Ainsi vous ne pouvez pas me trahir.
+                                     <--->
+<ce>          Très bien. Mais votre manque d'ambition sera
+<ce>                votre perte, mon jeune ami.
 
 
-Record n�4----------
-Ah! Très bien, %pcf.Voici votre récompense.
-Ne mentionnez jamais cette affaire. Je nierai
-vous avoir déjà rencontré.
+AcceptQuest:  [1002]
+<ce>               Allez à _inn_ dans l'auberge __inn_.
+<ce>          Il s'y trouve un courrier chargé d'une lettre. Prenez-la
+<ce>            et remplacez la par celle-ci. Ne touchez à rien
+<ce>            d'autre. S'il s'apercoit que la lettre a été
+<ce>             échangée, tous mes plans tomberont à l'eau.
+<ce>                  Si vous êtes pris, n'essayez
+<ce>                    pas de me retrouver.
 
+QuestFail:  [1003]
+<ce>             N'avez-vous pas une lettre à me "livrer" ?
+                                     <--->
+<ce>         Revenez quand vous aurez rempli votre mission, %pcf.
 
-Record n�5----------
-Les moissons devraient être bonnes cette année
+QuestComplete:  [1004]
+<ce>             Ah! Très bien, %pcf.Voici votre récompense.
+<ce>           Ne mentionnez jamais cette affaire. Je nierai
+<ce>                    vous avoir déjà rencontré.
 
+RumorsDuringQuest:  [1005]
+<ce>              Les moissons devraient être bonnes cette année
 
-Record n�6----------
-_qgiver_ vit des moments difficiles depuis quelques temps.
+RumorsPostfailure:  [1006]
+<ce>          _qgiver_ vit des moments difficiles depuis quelques temps.
 
+RumorsPostsuccess:  [1007]
+<ce>           _qgiver_ a beaucoup de chance en ce moment.
 
-Record n�7----------
-_qgiver_ a beaucoup de chance en ce moment.
+QuestorPostsuccess:  [1008]
+<ce>         Chuuut. Je me rappelle très bien cette mission d'échange
+<ce>        de lettre que vous avez exécutée pour moi, mais il vaudrait
+<ce>               mieux que personne d'autre ne le sache.
 
+QuestorPostfailure:  [1009]
+<ce>          C'est vous ! Tout ce que je vous avais demandé, c'était
+<ce>        d'échanger une simple lettre, et vous n'avez même pas su faire ça.
+<ce>                           Hors de ma vue !
 
-Record n�8----------
-Chuuut. Je me rappelle très bien cette mission d'échange
-de lettre que vous avez exécutée pour moi, mais il vaudrait
-mieux que personne d'autre ne le sache.
-
-
-Record n�9----------
-C'est vous ! Tout ce que je vous avais demandé, c'était 
-d'échanger
-une simple lettre, et vous n'avez même pas su faire ça.
-Hors de ma vue !
-
-
-Record n�10----------
+QuestLogEntry:  [1010]
 %qdt:
  J'ai secrètement rencontré _qgiver_ à
- ___qgiver_ qui m'a remis une lettre
- falsifiée. Je dois me rendre à l'auberge
+ ___qgiver_ qui m'a remis une lettre falsifiée
+Je dois me rendre à l'auberge
  _inn_ à __inn_ et
- faire l'échange avec la véritable lettre. J'ai =traveltime_ 
-jours
- pour remplir cette quête. Si on me prend,
+ faire l'échange avec la véritable lettre. J'ai =traveltime_
+jours pour compléter cette quête. Si on me prend,
  personne ne m'aidera.
 
-
-Record n�11----------
+Message:  1011
 _npc1_,
-    Vous êtes l'homme le plus répugnant du monde. Comment ai-je 
-pu
- penser que je vous aimais ? Puisque vous m'avez surprise
- sur mon balcon dans les bras de _npc2_,
- je peux désormais vous avouer que nous somme amants. %g est
- capable de m'offrir ce que vous ne m'offrez pas. Vous 
-m'avez
- salie en me couvrant d'or.
- Ne franchissez plus jamais le seuil de ma porte.
- 
+    Vous êtes l'homme le plus répugnant du monde. Comment ai-je pu
+penser que je vous aimais ? Puisque vous m'avez surprise
+sur mon balcon dans les bras de _npc2_,
+je peux désormais vous avouer que nous somme amants. %g est
+capable de m'offrir ce que vous ne m'offrez pas.
+Vous m'avezsalie en me couvrant d'or.
+Ne franchissez plus jamais le seuil de ma porte.
+
                        _npc3_
 
-
-Record n�12----------
+Message:  1012
 Mon très cher _npc1_,
     Je sais que vous êtes en colère et blessé. Je ferais
  n'importe quoi pour regagner votre amour.
@@ -102,40 +98,32 @@ Mon très cher _npc1_,
  ce que je desirais. J'avais trop bu cette nuit là
  et _npc2_ a profité de la situation pour
  me voler un baiser. %g a été renvoyé et ne fait
- désormais plus partie de mon personnel. Par pitié, pardonnez-
-moi.
+ désormais plus partie de mon personnel. Par pitié, pardonnez-moi.
  Je n'aime que vous.
- 
+
                        _npc3_
 
+Message:  1013
+<ce>          Cette auberge ressemble à toutes les autres. Cependant, pour vous,
+<ce>             c'est un lieu ou la discrétion compte plus que la
+<ce>            force. Il vous faut maintenant trouver où le courrier
+<ce>                         a laissé cette lettre.
 
-Record n�13----------
-Cette auberge ressemble à toutes les autres. Cependant, pour 
-vous,
- c'est un lieu ou la discrétion compte plus que la
- force. Il vous faut maintenant trouver où le courrier
- a laissé cette lettre.
+Message:  1014
+<ce>      Voleur ! Je vais vous apprendre à piller un honnête messager !
 
+Message:  1015
+<ce>           Alors que vous déposez la lettre pleine de mensonges,
+<ce>            vous savez que votre mission est à moitié remplie.
 
-Record n�14----------
-Voleur ! Je vais vous apprendre à piller un honnête messager !
-
-
-
-Record n�15----------
-Alors que vous déposez la lettre pleine de mensonges,
-vous savez que votre mission est à moitié remplie.
-
-
-Record n�16----------
+Message:  1016
 Baron _npc1_,
     Le Conte _npc2_ aura des hommes
- pour vous tendre une embuscade dans le passage.
+ pour tendre une embuscade sur votre trajet.
  Ne tombez pas dans ce piège.
                      _npc3_
 
-
-Record n�17----------
+Message:  1017
 _npc1_,
     Votre offre est ridicule !
  Je peux l'avoir pour moitié prix
@@ -143,18 +131,15 @@ _npc1_,
  ___npc1_, et je le ferai.
                   _npc2_
 
-
-Record n�18----------
+Message:  1018
 Honorable _npc1_,
     J'ai décidé de voter pour vous
  quand la guilde élira son
  nouveau trésorier. Bien entendu
- j'espère bien être payé de retour
- dans le futur.
+ j'espère bien être payé en retour.
                    _npc2_
 
-
-Record n�19----------
+Message:  1019
 Baron _npc1_,
     Le Comte _npc2_ vous attendra
  au lieu convenu.
@@ -162,18 +147,16 @@ Baron _npc1_,
  honorable et juste.
                   _npc3_
 
-
-Record n�20----------
+Message:  1020
 _npc1_,
-    Votre prix est juste.
- Cette lettre est mon bon de
- règlement pour le colis. Présentez-
- le à mon employé quand vous
- viendrez me livrer.
+Votre prix est juste.
+Cette lettre est mon bon de
+règlement pour le colis. Présentez-
+le à mon employé quand vous
+le livrerez.
                   _npc2_
 
-
-Record n�21----------
+Message:  1021
 Honorable _npc1_,
     J'ai décidé de voter pour _npc3_
  lors de la prochaine assemblée de la guilde.
@@ -181,14 +164,149 @@ Honorable _npc1_,
  guilde à de nombreuses reprises.
                    _npc2_
 
+Message:  1022
+<ce>  Vous avez été pris sur le fait et le savez.
+<ce>  Hors de ma vue, %ra.
 
-Record n�22----------
-_qgiver_ est une honnête personne.
+Message:  1030
+<ce>                      _qgiver_ est une vrai fouine.
+
+Message:  1031
+<ce>                      _qgiver_ semble plutôt sympathique,
+<ce>                   mais je ne jouerais pas aux cartes avec lui.
 
 
-Record n�23----------
-_qgiver_ semble plutôt sympathique,
- mais je ne jouerais pas aux cartes avec lui.
+-- Symbols used in the QRC file:
+--
+--                %g occurs 3 times.
+--               %g2 occurs 3 times.
+--               %g3 occurs 3 times.
+--              %pcf occurs 4 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 1 time.
+--      =traveltime_ occurs 2 times.
+--          ___npc1_ occurs 1 time.
+--        ___qgiver_ occurs 1 time.
+--            __inn_ occurs 2 times.
+--            _gold_ occurs 2 times.
+--             _inn_ occurs 2 times.
+--            _npc1_ occurs 8 times.
+--            _npc2_ occurs 13 times.
+--            _npc3_ occurs 12 times.
+--          _qgiver_ occurs 6 times.
 
+QBN:
+Item _letter3a_ letter used 1012
+Item _falseletter1_ letter used 1011
+Item _gold_ gold
+Item _treasure_ trinket
+Item _falseletter2_ letter used 1016
+Item _falseletter3_ letter used 1017
+Item _falseletter4_ letter used 1018
+Item _letter4a_ letter used 1019
+Item _letter5_ letter used 1020
+Item _letter6_ letter used 1021
 
+Person _qgiver_ face 1 group Questor anyInfo 1030 rumors 1031
+Person _npc1_ face 4 group Local_4.0 male
+Person _npc2_ face 4 group Local_3.0 male
+Person _npc3_ face 2 group Group_6.0
 
+Place _inn_ remote tavern
+
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+
+Foe _ranger_ is Ranger
+Foe _spellsword_ is Spellsword
+Foe _knight_ is Knight
+Foe _monk_ is Monk
+
+--	Quest start-up:
+	place item _treasure_ at _inn_
+	start timer _traveltime_
+	log 1010 step 0
+	pick one of _letter1_ _letter2_ _letter3_ _letter4_
+	pc at _inn_ set _S.00_ saying 1013
+
+variable _S.00_
+_questdone_ task:
+	when _S.02_ and _S.03_ and not _traveltime_ and not _S.04_
+	give pc _gold_
+	end quest
+
+_badend_ task:
+	when _S.02_ and _S.04_
+	say 1022
+	end quest
+--added badend task and msg 1022. Previously if the PC grabbed the treasure and completed the quest, the questgiver would ignore entirely.
+
+_S.02_ task:
+	toting _letter6_ and _qgiver_ clicked
+	toting _letter4a_ and _qgiver_ clicked
+	toting _letter3a_ and _qgiver_ clicked
+	toting _letter5_ and _qgiver_ clicked
+
+_S.03_ task:
+	dropped _falseletter3_ at _inn_ saying 1015
+	dropped _falseletter1_ at _inn_ saying 1015
+	dropped _falseletter4_ at _inn_ saying 1015
+	dropped _falseletter2_ at _inn_ saying 1015
+    clear _S.15_
+
+_S.04_ task:
+	clicked item _treasure_
+	pick one of _S.11_ _S.12_ _S.13_ _S.14_
+
+_traveltime_ task:
+	end quest
+
+_S.06_ task:
+	injured _spellsword_
+	injured _knight_
+	injured _monk_
+	injured _ranger_
+	say 1014
+
+_letter1_ task:
+	place item _letter3a_ at _inn_
+	get item _falseletter1_
+
+_letter2_ task:
+	place item _letter4a_ at _inn_
+	get item _falseletter2_
+
+_letter3_ task:
+	place item _letter5_ at _inn_
+	get item _falseletter3_
+
+_letter4_ task:
+	place item _letter6_ at _inn_
+	get item _falseletter4_
+
+_S.11_ task:
+	create foe _knight_ every 1 minutes 1 times with 100% success
+
+_S.12_ task:
+	create foe _monk_ every 1 minutes 1 times with 100% success
+
+_S.13_ task:
+	create foe _spellsword_ every 1 minutes 1 times with 100% success
+
+_S.14_ task:
+	create foe _ranger_ every 1 minutes 1 times with 100% success
+--increased spawn rate to 100% in S13 and S14. Doesn't seem to make much sense for the enemy to follow you off to another town and spawn there.
+
+_S.15_ task:
+	clicked item _falseletter4_
+	clicked item _falseletter1_
+	clicked item _falseletter2_
+	clicked item _falseletter3_
+	clear _S.03_
+
+_qgclicked_ task:
+	clicked npc _qgiver_
+
+_clearclick_ task:
+	when _qgclicked_ and not _S.02_
+	say 1003
+	clear _clearclick_ _qgclicked_

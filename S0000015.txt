@@ -1,166 +1,262 @@
-Record n�0----------
-Des gens étranges sont venus ici, s'intéressant à un %ra appelé 
-%pcn.
-Je n'aimais pas l'allure de ces malfrats. Grâce à %god, ils sont 
-partis.
+-- Quest: C:\QUESTS\WORKING\S0000015.Qbn.
+-- Main story quest.
+-- QuestId: 15
+Messages: 46
+Quest: S0000015
+DisplayName: Lysandus' Revenge
+-- Message panels
+QRC:
 
+RumorsDuringQuest:  [1005]
+There were some strange men here asking about a %ra named %pcn.
+<--->
+Didn't like the look of those thugs. Thank %god they moved on.
 
-Record n�1----------
-Les étoiles prédisent des rêves qui ne se réaliseront 
-jamais.
-Les oracles de %reg ont vu de dangereux présages.
+RumorsPostfailure:  [1006]
+The stars foretell dreams that will never come true.
+<--->
+There are dangerous portents the oracles of %reg have foreseen.
 
+RumorsPostsuccess:  [1007]
+I hear things are getting kind of rocky in Wayrest.
+<--->
+I heard that they found the body of King Lysandus!
 
-Record n�2----------
-J'ai entendu dire que les choses deviennent difficiles à 
-Wayrest.
-J'ai appris qu'ils avaient trouvé le corps du Roi Lysandus !
+QuestLogEntry:  [1010]
+That looks like Lord Woodborne's private journal.
+<--->
+Lord Woodborne's private journal.
 
-
-Record n�3----------
-On dirait le journal intime de Lord Woodborne.
-Le journal intime de Lord Woodborne.
-
-
-Record n�4----------
+Message:  1011
 Page 7
  
- ...de l'enfance. Je sais que Gothryd ne refuserait pas
- son aide, mais je dois prendre mon temps pour demander.
- Après tout, Elysana est toujours l'héritiere de Wayrest et 
-je
- suis son fiancé. Alors quand Eadwyre mourra (ce qui lui
- arrivera, plutôt tôt que tard), je serai roi.
-    Si ce n'était pas pour cette chienne de reine et ses 
-gosses,
- je pourrais être patient, et je le serais. Les vieux 
-dictons
- disent de ne jamais croire un elfe noir, car vous ne pouvez
- pas lire la vérité dans ses yeux. Si Barenziah s'y prend 
-bien,
- Helseth sera l'héritier et Elysana sera mariée de force à 
-un
- royaume lointain. Morgiah est déjà promise à l'héritier
- de Firsthold, mais ils la gardent à proximité pour répandre
- son fiel sur Elysana, et plus spécialement sur moi.
-    Barenziah ne me fait pas confiance, ça j'en suis sûr.
- Je m'occuperai d'elle comme je l'ai fait pour Lysandus.
- L'idiot aurait dû accepter de me soutenir. Gortwog et ses
- orcs l'ont presque sauvé. Je m'occuperai de ces sous-
- hommes dès que je serai assis sur le trône de Wayrest.
-    Avant tout, il est important de consolider mes bases.
- Je peux (de façon presque certaine) compter sur Gothryd 
-pour
- soutenir mon accession au trône, si Helseth devient 
-héritier.
- J'ai un réseau d'espions aussi efficace que celui 
-d'Eadwyre,
- Gothryd, Akorith-i, ou de l'Empereur. Peut-être que les 
-réseaux
- des Nécromanciens et de l'Underking sont plus développés,
- mais j'en doute. Le problème c'est la force brute. Je n'ai
- pas d'armée prête au combat. Il me faut l'or pour lever...
+ from childhood. I know that Gothryd would not refuse
+ his aid, but I must bide my time to ask. After all,
+ Elysana is still heiress of Wayrest and I am her
+ bethrothed. So it should be that when Eadwyre dies
+ (which he is bound to do, sooner rather than later)
+ I will be king.
+    If it weren't for that bitch queen and her brats,
+ I would and could be patient. Never trust a dark elf
+ the old saying goes, for you cannot read truth in
+ their eyes. If Barenziah has her way, Helseth will
+ be heir and Elysana will be married off to some far-
+ off kingdom. Morgiah is already promised to the
+ heir of Firsthold, but they keep her around to spread
+ the poison against Elysana, and especially, me.
+    Barenziah doesn't trust me, this I can tell.
+ I will deal with her just as I did with Lysandus.
+ The fool should have agreed to support me. Gortwog
+ and his orcs almost saved him. I'll deal with those
+ sub-humans once I sit upon the throne of Wayrest.
+    First it is important to solidify my power base.
+ I can (almost certainly) rely on Gothryd to support
+ my bid for the throne, if Helseth is made heir. I
+ have a spy network equalling Eadwyre, Gothryd,
+ Akorith-i, or the Emperor. Perhaps the Necromancers
+ and the Underking's networks are more extensive, but
+ I doubt it. The problem is raw physical power. I do
+ not have a standing army. I need the gold to raise
+
+Message:  1018
+%qdt:
+ I found a most damning couple of pages
+ in Woodborne Hall. I'm sure Lord Woodborne
+ would be quite livid if they were to fall
+ into the wrong hands.
+
+Message:  1019
+%qdt:
+ Lysandus' ghost appeared to me and told me
+ that only the death or humiliation of his
+ murderer, Lord Woodborne, would lay his soul
+ to rest. Lord Woodborne is a noble of Wayrest
+ and betrothed to Princess Elysana. He has a
+ castle in the wilderness of Wayrest.
+
+Message:  1021
+I hear Lord Woodborne was beheaded for treason.
+<--->
+They caught Lord Woodborne and tried him for treason.
+
+Message:  1022
+I heard a flock of Daedra descended upon Lord Woodborne and carried him off.
+<--->
+Things from beyond the grave rose and assaulted Woodborne Hall!
+--added "and" to fix poor grammar
+<--->
+I hear Lord Woodborne cheated the Mages Guild. They sent demons to kill him.
+--added "to" to fix poor grammar
+
+Message:  1024
+I heard that Lord Woodborne will be marrying Princess Elysana.
+<--->
+Lord Woodborne is in high favor these days at Castle Wayrest.
+
+Message:  1030
+<ce>             This means little to me. It is trash fit only
+<ce>            for being burnt. Gothryd and Woodborne plotting
+<ce>                  to kill Lysandus. Really! Go away.
+
+Message:  1031
+<ce>             This is atrocious! After all the affection we
+<ce>          showered on that fool Woodborne! We nearly married
+<ce>           that villianous swine to Elysana -- nearly handed
+<ce>          the throne of Wayrest to a cad of the first order!
+<ce>           Good %pcf, it was the right thing to do to bring
+<ce>             this to our attention. Rest assured that Lord
+<ce>            Woodborne will be arrested and executed for his
+<ce>           treason, his name barred from the books of honor,
+<ce>              his acquaintances interrogated, his fortune
+<ce>            confiscated. As a gift, please allow me to give
+<ce>             you _reward_ gold pieces as your share of his
+<ce>                        property confiscations.
+
+Message:  1032
+<ce>                Lord Woodborne is the slayer of my dear
+<ce>               Lysandus. There shall be justice, and it
+<ce>              shall come from my hand! You would do best
+<ce>              to stay clear of Woodborne Hall and Wayrest
+<ce>                          for some time %pcn.
+
+Message:  1033
+<ce>               This information is quite valuable %pcf.
+<ce>              Let me gift you with _gold_ gold for giving
+<ce>               it to me. This will be quite handy in the
+<ce>                           coming conflict.
+
+Message:  1034
+<ce>               You were completely correct to bring this
+<ce>               to me. Otherwise it might have gotten out
+<ce>               where it could do Lord Woodborne damage.
+<ce>                        Guards! Kill this %ra!
+
+Message:  1040
+<ce>                      You! You're that %ra %pcn.
+<ce>              You have been a thorn in my side for a long
+<ce>                 time now. A wiser %ra would have let
+<ce>              sleeping kings lie. Especially when I have
+<ce>             gone to such great lengths to kill them. Yes
+<ce>               %pcf, I killed King Lysandus. And now it
+<ce>               will be a pleasure to slay you. En garde!
+
+QuestTimeLapse:  [1045]
+<ce>                  "I am...done in. It is up...to...to
+<ce>                  Gothryd now. May you...rot in hell
+<ce>                   %pcn. I most...certainly shall."
+<ce>                                    
+<ce>                        Lord Woodborne is dead.
 
 
-Record n�5----------
-%qdt :
- J'ai trouvé quelques pages particulièrement
- compromettantes à Woodborne Hall. Je suis
- certain que Lord Woodborne en deviendrait livide
- si elles devaient tomber entre de mauvaises mains.
+-- Symbols used in the QRC file:
+--
+--              %god occurs 2 times.
+--              %pcf occurs 3 times.
+--              %pcn occurs 5 times.
+--              %qdt occurs 2 times.
+--               %ra occurs 5 times.
+--              %reg occurs 2 times.
+--            _gold_ occurs 1 time.
+--          _reward_ occurs 1 time.
+
+QBN:
+Item WoodborneDiary letter anyInfo 1010 used 1011
+Item _reward_ gold range 10000 to 20000
+Item _gold_ gold
+
+Person Barenziah face 8 named Queen_Barenziah atHome
+Person Eadwyre named King_Eadwyre atHome
+Person _medora_ named Medora atHome
+Person _helseth_ named Prince_Helseth atHome
+Person Gothryd face 152 named King_Gothryd atHome
+Person _aubki_ named Queen_Aubk-i atHome
+Person _akorithi_ named Queen_Akorithi atHome
+Person KingOfWorms0 named King_of_Worms atHome
+Person _gortwog_ named Gortwog atHome
+Person _mynisera_ named Mynisera atHome
+Person _nulfaga_ named Nulfaga atHome
+
+Place WoodbourneHall2 permanent WoodbourneHall4
+Place WoodbourneHall1 permanent WoodbourneHall5
 
 
-Record n�6----------
-%qdt :
- Le fantôme de Lysandus m'est apparu et m'a dit
- que seule la mort ou l'humiliation de son meurtrier,
- Lord Woodborne, amènerait la paix à son âme. Lord
- Woodborne est un noble de Wayrest, fiancé à
- la Princesse Elysana. Il possède un château
- dans la province de Wayrest.
+Foe Woodborne is Knight
+Foe _F.01_ is Spellsword
 
+--	Quest start-up:
+	place item WoodborneDiary at WoodbourneHall2 marker 1
+	log 1019 step 2 
+	reveal WoodbourneHall1 in province 23 at 194859 
+	WoodborneDiary used do _S.01_ 
+	place foe Woodborne at WoodbourneHall1 marker 2
 
-Record n�7----------
-J'ai entendu dire que Lord Woodborne avait été décapité pour 
-trahison.
-Ils ont attrapé Lord Woodborne et l'ont jugé pour trahison.
+_S.00_ task:
+	killed 1 Woodborne 
+	say 1045 
 
+_S.01_ task:
+	log 1018 step 3 
 
-Record n�8----------
-J'ai entendu dire qu'une troupe de daedras a fondu sur Lord 
-Woodborne et l'a emporté.
-Des choses de l'au-delà se sont materialisées et ont attaqué 
-Woodborne Hall !
-On dit que Lord Woodborne a trompé la Guilde des Mages. Ils ont 
-envoyé des démons pour le tuer.
+_S.02_ task:
+	injured Woodborne 
+	say 1040 
+	cast Spell_Reflection spell on Woodborne 
+	cast Heal spell on Woodborne 
+	cast Shield spell on Woodborne 
 
+_S.03_ task:
+	toting WoodborneDiary and Eadwyre clicked 
+	toting WoodborneDiary and _helseth_ clicked 
+	toting WoodborneDiary and Barenziah clicked 
+	get item _reward_ 
+	rumor mill 1021 
+	say 1031 
+	make _reward_ permanent 
+	change repute with Eadwyre by +50 
 
-Record n�9----------
-On dit que Lord Woodborne épousera la Princess Elysana.
-Lord Woodborne est très apprécié en ce moment à Castle 
-Wayrest.
+_S.04_ task:
+	toting WoodborneDiary and _nulfaga_ clicked 
+	toting WoodborneDiary and _medora_ clicked 
+	toting WoodborneDiary and _mynisera_ clicked 
+	rumor mill 1022 
+	say 1032 
+	change repute with _nulfaga_ by +25 
+	change repute with _medora_ by +25 
 
+_S.05_ task:
+	toting WoodborneDiary and _akorithi_ clicked 
+	say 1030 
 
-Record n�10----------
-Cela n'a pas grande importance à mes yeux. Ce n'est que du 
-déchet
-juste bon a être brûlé. Gothryd et Woodborne complotant
-pour tuer Lysandus. Vraiment ! Allez-vous en.
+_S.06_ task:
+	toting WoodborneDiary and _aubki_ clicked 
+	toting WoodborneDiary and Gothryd clicked 
+	create foe _F.01_ every 1 minutes 5 times with 100% success 
+	say 1034 
+	change repute with Gothryd by -40 
+	change repute with Eadwyre by -40 
+	legal repute -50 
 
+_S.07_ task:
+	toting WoodborneDiary and _gortwog_ clicked 
+	toting WoodborneDiary and KingOfWorms0 clicked 
+	get item _gold_ 
+	say 1033 
+	make _gold_ permanent 
+	change repute with _gortwog_ by +20 
+	change repute with KingOfWorms0 by +20 
 
-Record n�11----------
-C'est atroce ! Après toute l'affection que nous avons
-montré envers cet idiot de Woodborne ! Nous avons presque
-marie ce porc infect à Elysana, presque donné les rennes
-du trône de Wayrest à un fourbe de la pire espèce !
-Mon bon %pcf, c'était la meilleure des choses à faire,
-que de porter cela à notre attention. Soyez assuré
-que Lord Woodborne sera arrêté et exécuté pour sa
-trahison, son nom sera couvert d'opprobe, ses
-proches seront interrogés, sa fortune confisquée.
-Pour récompense, permettez-moi de vous offrir
-_reward_ pièces d'or comme part de la confiscation
-de ses biens.
+LiftedCurse _S.08_
+	when _S.03_ or _S.04_ or _S.00_ 
+	play video 13 
 
+_S.09_ task:
+	when _S.05_ or _S.07_ or _S.06_ 
+	end quest 
 
-Record n�12----------
-Lord Woodborne est l'assassin de mon cher
-Lysandus. Justice sera faite, et elle viendra de
-ma main ! Vous devriez vous tenir à l'ecart de
-Woodborne Hall et Wayrest pour quelque
-temps %pcn.
+MyniseraSatisfied _S.10_
+GothrydGotTotem _S.11_
+	when _S.08_ and _S.10_ and _S.12_ 
+	start quest 8 8 
+	end quest 
 
-
-Record n�13----------
-Cette information a beaucoup de valeur %pcf.
-Laissez-moi vous offrir _gold_ pièces d'or pour me
-l'avoir donnée. Ce sera très utile lors du conflit
-qui s'annonce.
-
-
-Record n�14----------
-Vous avez eu entièrement raison de m'apporter
-cette lettre. Sinon elle aurait pu se retrouver dans
-la nature et causer du tort à Lord Woodborne.
-Gardes ! Tuez ce %ra !
-
-
-Record n�15----------
-Vous ! Vous êtes ce %ra %pcn.
-Ca fait maintenant longtemps que vous êtes comme
-une épine dans mon pied. Un %ra plus sage aurait
-laissé le roi reposer en paix. En particulier après
-tous les efforts que j'ai accomplis pour le tuer. Oui
-%pcf, j'ai tue le Roi Lysandus. Et maintenant
-ça va être un plaisir de vous massacrer. En garde !
-
-
-Record n�16----------
-"Je suis... fini. C'est co... comme voudra
- Gothryd maintenant. Puissiez-vous... pourrir en enfer
- %pcn. C'est très probablement... ce qui va m'arriver."
- 
-Lord Woodborne est mort.
-
-
-
+KingOfWormsSatisfied _S.12_

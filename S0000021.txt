@@ -1,88 +1,186 @@
-Record n�0----------
-%pcf, je suis si heureux que vous
- ayez répondu à ma lettre. J'espère que mon
- messager a été aimable. Vous avez été un serviteur
- loyal dans le passé. Pas aussi loyal que mes
- mort-vivants, mais bien plus réactif.
- Ce dont j'ai besoin besoin se trouve au plus
- profond de Castle Sentinel, et la récompense est un
- savoir que seule les morts peuvent apporter.
- Acceptez-vous ?
+-- Quest: C:\QUESTS\WORKING\S0000021.Qbn.
+-- Main story quest.
+-- QuestId: 21
+Messages: 13
+Quest: S0000021
+DisplayName: Lich's Soul
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>                        %pcf, I am so glad you
+<ce>                answered my letter. I hope my messenger
+<ce>                   was gentle. You have been a loyal
+<ce>                servant in the past. Not as loyal as my
+<ce>                  living dead, but far more versatile.
+<ce>                 My need involves the lowest depths of
+<ce>                   Castle Sentinel, and the reward is
+<ce>               knowledge that only the dead can provide.
+<ce>                            Are you willing?
 
-Record n�1----------
-Vous devez avoir de forts sentiments pour
-la Reine Akorithi. Quel dommage.
+RefuseQuest:  [1001]
+<ce>                  You must have strong sentiments for
+<ce>                      Queen Akorithi. What a pity.
 
+AcceptQuest:  [1002]
+<ce>                   How amusing. I am looking for the
+<ce>                 answer to a question. It doesn't exist
+<ce>                 among the living, but may exist among
+<ce>                 the dead. I want you to bring me back
+<ce>                 the ghost of Prince Karolis, the great
+<ce>                  grandfather of the late King Camaron
+<ce>                  of Sentinel. Karolis was a sorcerer
+<ce>                   of no mean skill. He is now a lich
+<ce>                   deep in the bowels of the Castle.
+<ce>                 I am giving you a special _scarab_. If
+<ce>                  it is close to him when you destroy
+<ce>                    his physical body, his soul will
+<ce>                  be trapped in the _scarab_. Bring it
+<ce>                   back to me, and I will tell you a
+<ce>                      tale few mortals have heard.
 
-Record n�2----------
-Comme c'est amusant. Je cherche la
-réponse à une question. Elle n'existe pas
-parmi les vivants, mais pourrait exister parmi
-les morts. Je veux que vous me rameniez
-le fantôme du Prince Karolis, l'arrière-grand-père
-de feu le Roi Camaron de Sentinel. Karolis était
-un sorcier de petite envergure. A présent c'est une
-liche dans les entrailles du Château.
-Je vous donne un _scarab_ spécial.
-S'il se trouve près de lui lorsque vous détruirez
-son enveloppe charnelle, son ame sera enfermée
-dans le _scarab_. Ramenez-le moi, et je vous raconterai
-une histoire que peu de mortels ont entendue.
+QuestComplete:  [1004]
+<ce>                     Well done %pcf. I am sure the
+<ce>                prince will be most cooperative. Please
+<ce>                       accept this _magicitem_ as
+<ce>                a token of my appreciation. In addition,
+<ce>               I have decided that it is time for someone
+<ce>               outside of Tiber Septim's line to know the
+<ce>                truth about the Underking. As you know,
+<ce>             Tiber Septim was the first emperor of Tamriel.
+<ce>               Toward the end of his wars of conquest, he
+<ce>              betrayed his Battlemage, Zurin Arctus. When
+<ce>               Zurin died, his soul refused to leave his
+<ce>               body. Something to do with the mysterious
+<ce>               Numidium. Since that time Zurin Arctus has
+<ce>                       lived on as the Underking.
+<ce>                                    
+<ce>                 The Underking and his agents have been
+<ce>                 a thorn in my side for centuries. Just
+<ce>               remember, should the Underking regain his
+<ce>                 mortal body, he would surely throw all
+<ce>                       of Tamriel into conflict.
 
+QuestLogEntry:  [1010]
+%qdt:
+ The King of Worms has promised to tell
+ me dark secrets if I fetch the spirit
+ of a lich. Not just any lich, but the
+ former Prince Karolis of Sentinel that
+ haunts the dungeons of the royal castle.
+ I must destroy his body while carrying
+ a special _scarab_ that will trap Prince
+ Karolis' soul.
 
-Record n�3----------
-Bien joué %pcf. Je suis sûr que le
-prince sera très coopératif. Veuillez
-accepter ce _magicitem_ comme
-marque de mon estime. De plus, j'ai décidé
-qu'il était temps que quelqu'un n'appartenant
-pas à la lignée de Tiber Septim connaisse la
-vérité à propos de l'Underking. Comme vous le savez,
-Tiber Septim fut le premier empereur de Tamriel.
-Vers la fin de ses guerres de conquête, il trahit
-son Guerrier Mage, Zurin Arctus. Quand Zurin
-mourut, son âme refusa de quitter son corps.
-Cela a un rapport avec le mystérieux Numidium.
-Depuis ce moment, Zurin Arctus a continué de
-vivre en tant que l'Underking.
-
-L'Underking et ses sbires sont une plaie pour
-moi depuis des siècles. Rappelez-vous, si jamais
-l'Underking récupérait son corps mortel, il précipiterait
-sûrement Tamriel tout entier dans la guerre.
-
-
-Record n�4----------
-%qdt :
- Le Roi des Vers a promis de me dire de sombres
- secrets si je rapporte l'esprit d'une liche. Pas
- n'importe quelle liche, mais l'ancien Prince Karolis
- de Sentinel qui hante les donjons du château royal.
- Je dois détruire son corps en tenant un _scarab_
- spécial qui enfermera l'âme du Prince Karolis.
-
-
-Record n�5----------
-Epinglé dans la chair en décomposition du
-zombie, vous apercevez le message suivant :
-
-%pcn,
+Message:  1011
+<ce>               Stitched into the zombie's decaying flesh
+<ce>                     you see the following message:
+<ce>                                    
+ %pcn,
  
- Je serais honoré si vous me rendiez visite
- dans ma demeure lorsque vous le souhaiterez.
- J'ai une petite affaire pour laquelle vous
- convenez parfaitement. Comme toujours, mes
- serviteurs testeront votre courage. Vous pouvez
- les traiter comme bon vous semblera. Ils peuvent
- être ressuscités sans fin.
+ It would be an honor to have you visit
+ me in my demense at your convenience.
+ I have a small matter that you are
+ ideally suited for. As always, my
+ servants will test your mettle. Feel
+ free to dispense with them. They can
+ always be raised again.
  
- Le Roi des Vers,
- Maitre du Tertre de Scourg
+<ce>                           The King of Worms,
+<ce>                        Master of Scourg Barrow
+
+Message:  1012
+<ce>             The scarab given to you by the King of Worms.
 
 
-Record n�6----------
-Le scarabée que vous a donné le Roi des Vers.
+-- Symbols used in the QRC file:
+--
+--              %pcf occurs 2 times.
+--              %pcn occurs 1 time.
+--              %qdt occurs 1 time.
+--       _magicitem_ occurs 1 time.
+--          _scarab_ occurs 3 times.
+
+QBN:
+Item _scarab_ scarab used 1012
+Item _magicitem_ magic_item
+
+Person KingOfWorms4 named King_of_Worms atHome
+Person Karolis1 face 169 named Lord_Darkworth
+Person KingOfWorms1 face 1 named King_of_Worms
+
+Place _sentinel_ permanent SentinelCastle
 
 
+Foe _zombie_ is Zombie
+Foe _lich_ is Lich
 
+--	Quest start-up:
+	dialog link for item _magicitem_ 
+	dialog link for item _scarab_ 
+	repute with KingOfWorms4 exceeds 0 do _S.01_ 
+
+_S.00_ task:
+	level 7 completed 
+
+variable _S.01_
+_S.02_ task:
+	clicked npc KingOfWorms4 
+
+_S.03_ task:
+	when _S.02_ and _S.15_ 
+	prompt QuestorOffer yes yes no _no_ 
+
+until _S.03_ performed:
+	clear _S.02_ 
+
+yes task:
+	log 1010 step 0 
+	get item _scarab_ 
+	say AcceptQuest 
+	place foe _lich_ at _sentinel_ marker 0
+
+_no_ task:
+	say RefuseQuest 
+	end quest 
+
+_S.06_ task:
+	when _S.00_ and _S.01_ 
+	send _zombie_ every 1410 minutes with 100% success 
+
+until _S.06_ performed:
+	mute npc KingOfWorms4 
+
+_S.07_ task:
+	injured _zombie_ 
+
+_S.08_ task:
+	killed 1 _lich_ 
+	add Karolis1 face 
+
+variable _killmon_
+_S.10_ task:
+	toting _scarab_ and KingOfWorms4 clicked 
+
+_S.11_ task:
+	when not _S.08_ and _S.10_ 
+	get item _scarab_ 
+
+_givereward_ task:
+	when _S.10_ and _S.08_ 
+	give pc _magicitem_ 
+	start task _S.14_ 
+	drop Karolis1 face 
+	change repute with KingOfWorms4 by +15 
+	place npc KingOfWorms1 at _sentinel_ 
+	end quest 
+
+KingOfWormsGotTotem _S.13_
+KingOfWormsSatisfied _S.14_
+_S.15_ task:
+	killed 1 _zombie_ 
+	say 1011 
+	unset _S.06_ 
+
+variable _S.16_
+variable _delay_

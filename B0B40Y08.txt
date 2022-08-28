@@ -1,60 +1,116 @@
-Record n�0----------
-On m'appelle _qgiver_. J'ai
-un travail à vous proposer si
-vous en cherchez un. Une bande
-d'orques terrorise et pille les
-convois de caravanes de %reg.
-Il faut donc tuer le chef de ces orques.
-En êtes-vous capable ?
+-- Quest: C:\QUESTS\WORKING\B0B40Y08.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: knight
+-- Repute: 40
+-- QuestId: 8
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: B0B40Y08
+DisplayName: Still More Trouble with Orcs
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>                        On m'appelle _qgiver_. J'ai
+<ce>                      un travail à vous proposer si
+<ce>                   vous vous sentez à la hauteur. Une bande
+<ce>                      d'orques terrorise et pille les
+<ce>                      convois de caravanes de %reg.
+<ce>                    Il faut donc tuer le chef de ces orques.
+<ce>                           En êtes-vous capable ?
 
-Record n�1----------
-Mauviette !
+RefuseQuest:  [1001]
+<ce>                                 Mauviette !
 
+AcceptQuest:  [1002]
+<ce>                    Les orques ont installé leur base
+<ce>                       d'opération dans  ___dungeon_.
+<ce>                       Tuez-en un maximum mais soyez
+<ce>                      sûr de tuer leur chef, =monster_.
+<ce>                    Si je ne reçois pas de vos nouvelles
+<ce>                  dans  =2dung_ jours, je vous considérerai
+<ce>                            comme étant mort.
 
-Record n�2----------
-Les orques ont installé leur base 
-d'opération dans  ___dungeon_.
-Tuez-en un maximum mais soyez
-sûr de tuer leur chef, =monster_.
-Si je ne reçois pas de vos nouvelles
-dans  =2dung_ jours, je vous considérerai
-comme étant mort.
+QuestComplete:  [1004]
+<ce>                     La menace que les orques faisaient
+<ce>                       planer sur %reg s'est évaporée.
+<ce>                             Hourra %pcn !
 
+RumorsDuringQuest:  [1005]
+Les orques de __dungeon_ rendent la vie des marchands de %cn très difficile.
 
-Record n�3----------
-La menace que les orques faisaient
-planer sur %reg s'est évaporée.
-Hourra %pcn ! 
+RumorsPostfailure:  [1006]
+Les orques de ___dungeon_ sont partis piller une autre région. Mais pour combien de temps ?
 
-
-Record n�4----------
-Les orques de __dungeon_ rendent la vie des marchands de %cn très 
-difficile.
-
-Record n�5----------
-Les orques de ___dungeon_ sont partis piller une autre région. 
-Mais pour combien de temps ?
-
-Record n�6----------
+RumorsPostsuccess:  [1007]
 ___dungeon_ a été débarrassée des orques grâce à un %ra.
 
-Record n�7----------
+QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ de
- ==qgiver_ dans ___qgiver_
- m'a donné l'occasion de tuer
- =monster_, le _monster_
- d'une puissante bande d'orques dans
- ___dungeon_. Je dispose de  =2dung_
- jours pour éviter que %reg ne soit 
- totalement envahi.
+_qgiver_ de
+==qgiver_ dans ___qgiver_
+m'a donné l'occasion de tuer
+=monster_, le _monster_
+d'une puissante bande d'orques dans
+___dungeon_. Je dispose de  =2dung_
+jours pour éviter que %reg ne soit
+totalement envahi.
 
 
-Record n�8----------
-=monster_ est mort. Ces orques
-ne seront plus jamais une menace
-pour %reg.
+Message:  1011
+<ce>                    =monster_ est mort. Ces orques
+<ce>                  ne seront plus jamais une menace
+<ce>                           pour %reg.
 
 
+-- Symbols used in the QRC file:
+--
+--               %cn occurs 1 time.
+--              %pcn occurs 2 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 15 times.
+--              %reg occurs 7 times.
+--           =2dung_ occurs 2 times.
+--         ==qgiver_ occurs 1 time.
+--         =monster_ occurs 3 times.
+--       ___dungeon_ occurs 5 times.
+--        ___qgiver_ occurs 1 time.
+--         _monster_ occurs 1 time.
+--          _qgiver_ occurs 2 times.
 
+QBN:
+
+Person _qgiver_ group Questor male
+Person _local_ face 207 group Resident2
+
+Place _dungeon_ remote dungeon
+
+Clock _2dung_ 00:00 0 flag 17 range 0 2
+
+Foe _monster_ is Orc_warlord
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	place foe _monster_ at _dungeon_
+
+_2dung_ task:
+	end quest
+
+_S.01_ task:
+	killed 1 _monster_ saying 1011
+
+_S.02_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _S.02_ and _S.01_
+	give pc nothing
+	change repute with _local_ by +4
+	end quest
+
+_clearclick_ task:
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_

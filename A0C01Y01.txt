@@ -1,85 +1,155 @@
-Record n�0----------
-%pcn, j'ai peur pour ma vie.
-Me protégerez-vous ? Des _villains_s
-ont prévu de me tuer cette nuit parce
-que j'ai refusé de vendre mes terres.
-Je peux vous payer _gold_ pièces d'or.
+-- Quest: C:\QUESTS\WORKING\A0C01Y01.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 01
+-- QuestId: 1
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 14
+Quest: A0C01Y01
+DisplayName: The Bodyguard
+-- Message panels
+QRC:
 
-Vous me trouvez complètement désespéré,
-mon cher %ra. J'ai recu un mot
-de voyous %cn disant qu'ils prévoyaient
-de piller ma maison cette nuit. Je suppose
-que vous n'êtes pas disponible pour faire un
-petit réarrangement facial créatif sur ces gars ?
+QuestorOffer:  [1000]
+<ce>                 %pcn, j'ai peur pour ma vie.
+<ce>              Me protégerez-vous ? Des _villains_s
+<ce>             ont prévu de me tuer cette nuit parce
+<ce>             que j'ai refusé de vendre mes terres.
+<ce>            Je peux vous payer _gold_ pièces d'or.
+                                     <--->
+<ce>              Vous me trouvez complètement désespéré,
+<ce>                mon cher %ra. J'ai recu un mot
+<ce>               de voyous %cn disant qu'ils prévoyaient
+<ce>              de piller ma maison cette nuit. Je suppose
+<ce>             que vous n'êtes pas disponible pour faire un
+<ce>           petit réarrangement facial créatif sur ces gars ?
+
+RefuseQuest:  [1001]
+<ce>                   Ne craignez pas pour ma sécurité, %pcn.
+<ce>                    Je trouverai un autre protecteur...
+<ce>                       d'une façon ou d'une autre.
+
+AcceptQuest:  [1002]
+<ce>       Merci et soyez béni ! Ils frapperont à _qgiverhome_
+<ce>            dans les trois heures avant minuit.
+<ce>      Soyez là-bas et attendez qu'ils arrivent avec moi.
+<ce>            Je serai à nouveau en sécurité
+<ce>         qu'une fois qu'ils auront été battus.
+
+QuestComplete:  [1004]
+<ce>               Vous m'avez sauvé la vie, %pcf. Je vous
+<ce>               paierai avec plaisir la somme convenue.
+
+RumorsDuringQuest:  [1005]
+<ce>                 _qgiver_ a des ennuis avec la
+<ce>                Guilde des Voleurs. J'ai entendu dire
+<ce>                   qu'ils allaient %g2 bousculer.
+
+RumorsPostfailure:  [1006]
+<ce>                   J'ai vu _qgiver_ récemment.
+<ce>                %g s'est fait tabasser par des voyous.
+
+RumorsPostsuccess:  [1007]
+<ce>                       N'êtes-vous pas le %ra qui
+<ce>                 a chassé ces voyous qui essayaient
+<ce>                        de tabasser _qgiver_ ?
+
+QuestorPostsuccess:  [1008]
+<ce>                Je n'ai pas oublié ce que vous avez
+<ce>               fait pour moi %pcf. Chasser ces voyous
+<ce>                    a fait de moi votre débiteur.
+
+QuestorPostfailure:  [1009]
+<ce>               J'ai toujours les cicatrices que ces
+<ce>                voyous m'ont faites. Je vous avais engagé
+<ce>              pour me protéger et vous vous êtes dégonflé.
+<ce>                          Hors de ma vue.
+
+QuestLogEntry:  [1010]
+%qdt :
+_qgiver_ de ___qgiver_
+m'a demandé de %g2 protéger. Des
+_villains_s ont prévu de l'attaquer
+entre 21 heures et minuit à _qgiverhome_.
+
+Message:  1011
+<ce>               Ce n'est pas ton problème, étranger.
+<ce>                 Laisse-nous _qgiver_ ou nous
+<ce>                   t'abattrons sur place !
+
+Message:  1013
+<ce>                  Ce doit être le bon endroit. Cela correspond à
+<ce>                  la description que _qgiver_ vous a donnée.
 
 
-Record n�1----------
-Ne craignez pas pour ma sécurité,
-%pcn. Je trouverai un autre
-protecteur... d'une façon ou d'une autre.
+-- Symbols used in the QRC file:
+--
+--               %cn occurs 1 time.
+--                %g occurs 1 time.
+--               %g2 occurs 4 times.
+--              %pcf occurs 2 times.
+--              %pcn occurs 2 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 2 times.
+--        ___qgiver_ occurs 1 time.
+--            _gold_ occurs 2 times.
+--          _qgiver_ occurs 9 times.
+--      _qgiverhome_ occurs 3 times.
+--        _villains_ occurs 2 times.
 
+QBN:
+Item _gold_ gold
 
-Record n�2----------
-Merci et soyez béni ! Ils frapperont à
-_qgiverhome_ dans les trois heures
-avant minuit. Soyez là-bas et attendez
-avec moi jusqu'à ce moment. Une fois
-qu'ils auront été battus, je serai
-à nouveau en sécurité.
+Person _qgiver_ face 1 group Questor
 
+Place _qgiverhome_ local house2
 
-Record n�3----------
-Vous m'avez sauvé la vie, %pcf. Je vous
-paierai avec plaisir la somme convenue.
+Clock _S.00_ 1.03:00
+--removed flags to make time limit exact
 
+Foe _villains_ is 2 Assassin
 
-Record n�4----------
-_qgiver_ a des ennuis avec la
-Guilde des Voleurs. J'ai entendu dire
-qu'ils allaient %g2 bousculer.
+--	Quest start-up:
+	start timer _S.00_
+	log 1010 step 0
+	pc at _qgiverhome_ set _S.05_
+	---removed "saying" as unacceptable argument. moved to S.05
+	create npc at _qgiverhome_
 
+_S.00_ task:
+	end quest
 
-Record n�5----------
-J'ai vu _qgiver_ récemment.
-%g s'est fait tabasser par des voyous.
+_S.01_ task:
+	daily from 21:00 to 23:59
+	--changed 24:00 to 23:59. 24:00 shouldn't exist.
+	place npc _qgiver_ at _qgiverhome_
 
+_S.02_ task:
+	killed 2 _villains_
 
-Record n�6----------
-N'êtes-vous pas le %ra qui
-a chassé ces voyous qui essayaient
-de tabasser _qgiver_ ?
+_questdone_ task:
+	when _S.04_ and _S.02_
+	give pc _gold_
 
+_S.04_ task:
+	clicked npc _qgiver_
 
-Record n�7----------
-Je n'ai pas oublié ce que vous avez
-fait pour moi %pcf. Chasser ces voyous
-a fait de moi votre débiteur.
+_S.05_ task:
+	say 1013
 
+_S.06_ task:
+	injured _villains_ saying 1011
 
-Record n�8----------
-J'ai toujours les cicatrices de quand ces
-voyous m'ont trouvé. Je vous avais engagé
-pour me protéger et vous vous êtes dégonflé.
-Hors de ma vue.
+_clearclick_ task:
+	when not _S.02_ and _S.04_
+	clear _S.04_ _clearclick_
 
+_S.08_ task:
+	when _S.05_ and _S.01_ and not _S.06_
+	create foe _villains_ every 10 minutes 1 times with 25% success
+--added "not S06" to prevent multiple spawns
 
-Record n�9----------
- %qdt :
- _qgiver_ de ___qgiver_
- m'a demandé de %g2 protéger. Des
- _villains_s ont prévu de l'attaquer
- entre 21 heures et minuit à _qgiverhome_.
-
-
-Record n�10----------
-Ce n'est pas ton problème, étranger.
-Laisse-nous _qgiver_ ou nous
-t'abattrons sur place !
-
-
-Record n�11----------
-Ce doit être le bon endroit. Cela correspond à
-la description que _qgiver_ vous a donnée.
-
-
-
+_mmap_ task:
+	when _questdone_ and not _S.05_
+	end quest

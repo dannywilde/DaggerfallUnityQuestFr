@@ -1,0 +1,256 @@
+-- Quest: C:\QUESTS\WORKING\A0C0XY04.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 0X
+-- QuestId: 4
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 36
+Quest: A0C0XY04
+DisplayName: The Impostor
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                         My name is _agent_. I
+<ce>                    represent a someone that needs
+<ce>                   to... acquire something. Whoever
+<ce>                     delivers it will be rewarded
+<ce>                          with _artifact_. I
+<ce>                    don't know what that is, but I
+<ce>                    am told it is an item of power.
+<ce>                           Are you willing?
+
+RefuseQuest:  [1001]
+<ce>                    Oubliez de m'avoir jamais vu.
+<ce>                    J'ai de puissants amis. Si vous me
+<ce>                    posez le moindre problème, ils vous
+<ce>                 pourchasseront comme un voleur crapuleux.
+
+AcceptQuest:  [1002]
+<ce>                       Vous devez obtenir le _ingredient_
+<ce>                           daedrique de ___dungeon_.
+<ce>                    Je ne sais pas où cela se trouve, mais
+<ce>                     je suis sûr que vous pouvez le trouver.
+<ce>                 Lorsque vous l'aurez, rapportez le _ingredient_
+<ce>                      daedrique à _meetingplace_ ici en ville.
+<ce>                         Alors vous rencontrerez _qgiver_,
+<ce>                         et %g vous donnera le _artifact_.
+
+RumorsDuringQuest:  [1005]
+<ce>                   J'ai entendu dire que le roi fera une
+<ce>                déclaration importante la semaine prochaine.
+
+RumorsPostfailure:  [1006]
+<ce>                Un pauvre fou est allé dans ___dungeon_.
+<ce>             J'ai entendu dire que l'endroit est plein de démons.
+
+RumorsPostsuccess:  [1007]
+<ce>                      Restez loin de _qgiver_. J'ai
+<ce>                 entendu dire que c'est un menteur et un tricheur.
+
+QuestorPostsuccess:  [1008]
+<ce>               Désolé au sujet de l'incident avec _qgiver_.
+<ce>                 Je suppose que je dois vous aider ou vous
+<ce>                           dédommager pour cela.
+
+QuestorPostfailure:  [1009]
+<ce>                Cette affaire avec _qgiver_
+<ce>          n'était pas ma faute. Je ne souhaite pas
+<ce>          me brouiller avec vous à ce sujet,
+<ce>        alors laissez-moi simplement tranquille.
+
+QuestLogEntry:  [1010]
+On %qdt,
+J'ai rencontré _agent_
+de ___agent_. %g m'a dit qu'un
+de ses mystérieux clients cherchait
+un _ingredient_ daedrique. Si je peux
+le trouver, j'obtiendrai un _artifact_.
+Le _ingredient_ daedrique est quelque part
+dans ___dungeon_. Quand je l'aurai
+trouvé, je devrai rencontrer _qgiver_
+à _meetingplace_ ici à __meetingplace_.
+
+Message:  1011
+On %qdt,
+Le gardien du _ingredient_ daedrique
+m'a dit que le mystérieux client de
+_agent_ n'a même pas le
+_artifact_. Si je lui rapporte le _ingredient_
+daedrique, la mort sera ma seule récompense.
+Le gardien m'a laissé un objet magique
+qui rendra _qgiver_ inoffensif.
+
+Message:  1012
+<ce>               Je vous combattrai à mort pour protéger le
+<ce>              _ingredient_ daedrique. Vous devriez savoir
+<ce>                  que _qgiver_ n'est pas ce qu'%g
+<ce>              semble. Le _artifact_ est un objet de grand
+<ce>              pouvoir, perdu depuis longtemps, qu'%g n'a
+<ce>              jamais possédé. %g a l'intention de vous tuer
+<ce>           une fois qu'%g aura pris possession du _ingredient_
+<ce>              daedrique. Cessez cette attaque futile et je
+<ce>               vous donnerai un souvenir magique qui peut
+<ce>                 rendre _qgiver_ inoffensif. Si vous
+<ce>              %g2 tuez, je pourrai voir avec la Guilde des
+<ce>             Mages pour qu'elle vous soit favorable pendant
+<ce>             un bon bout de temps. Acceptez-vous mon offre ?
+
+Message:  1013
+<ce>                  Idiot ! Pensais-tu réellement que je
+<ce>                  te donnerais le _artifact_ pour ce
+<ce>                   _ingredient_ daedrique ? La seule
+<ce>                 récompense que j'ai pour toi est la
+<ce>                mort ! Vois-moi tel que je suis réellement
+<ce>                   et tremble de peur. Je suis =monster_.
+<ce>                              Tuez-le !
+
+Message:  1014
+<ce>               Qu'est-ce que... J'ai été trahi ! Vous avez
+<ce>               brisé l'illusion et jeté un sort de silence
+<ce>                      sur moi. Ce maudit _guardian_
+<ce>                    =guardian_ vous a mis au courant,
+<ce>                 n'est-ce pas ? Aux armes ! Aidez-moi !
+<ce>                              Aux armes !
+
+Message:  1015
+<ce>                 Dans votre esprit, vous entendez le
+<ce>                doux murmure d'une voix extraterrestre,
+<ce>                         "Bien joué, %pcn.
+<ce>                          Assassiner _qgiver_,
+<ce>                       ou =monster_ ainsi qu'il est
+<ce>                    connu de son propre peuple, vous
+<ce>                    donne le droit à une récompense. Les
+<ce>                    membres de la Guilde des Mages vous
+<ce>                        font désormais confiance
+<ce>                           comme jamais."
+
+Message:  1020
+<ce>                    Vous avez un esprit vraiment sournois
+<ce>                     J'admire cela. Seulement vous devriez
+<ce>                    savoir que je ne dois pas être sous-
+<ce>                     estimé. Je récupère mon jeton et
+<ce>                     je vous maudis d'être maintenant
+<ce>                     soupçonné par mes plus proches alliés
+
+Message:  1025
+Le Chrysamere est un ancien artéfact de grand pouvoir.
+<--->
+C'est un artéfact magique légendaire
+
+Message:  1030
+Prenez ce jeton alors.
+
+Message:  1035
+Prépare-toi à mourir !
+
+
+-- Symbols used in the QRC file:
+--
+--                %g occurs 13 times.
+--               %g2 occurs 1 time.
+--               %g3 occurs 2 times.
+--              %pcn occurs 1 time.
+--              %qdt occurs 2 times.
+--        =guardian_ occurs 1 time.
+--         =monster_ occurs 3 times.
+--         ___agent_ occurs 1 time.
+--       ___dungeon_ occurs 3 times.
+--   __meetingplace_ occurs 3 times.
+--           _agent_ occurs 3 times.
+--        _artifact_ occurs 7 times.
+--        _guardian_ occurs 1 time.
+--      _ingredient_ occurs 9 times.
+--    _meetingplace_ occurs 2 times.
+--          _qgiver_ occurs 9 times.
+
+QBN:
+Item _artifact_ artifact Chrysamere anyInfo 1025
+Item _ingredient_ lodestone
+Item _token_ pearl
+
+Person _qgiver_ face 1 group Chemist
+Person _agent_ group Questor male
+Person _dummymage_ face 1 faction The_Mages_Guild
+Person _dummyorc_ face 1 named Gortwog
+Person _dummydarkb_ face 49 faction The_Dark_Brotherhood
+
+Place _dungeon_ remote dungeon
+Place _meetingplace_ local apothecary
+
+Clock _extratime_ 00:30 0 flag 1 range 0 1
+Clock _totaltime_ 90.00:00 0 flag 17 range 0 2
+
+Foe _guardian_ is Daedra_seducer
+Foe _monster_ is Orc_shaman
+Foe _orc_ is Orc_warlord
+Foe _daedras_ is Daedroth
+
+--	Quest start-up:
+	start timer _totaltime_
+	reveal _dungeon_
+	log 1010 step 0
+	give item _ingredient_ to _guardian_
+	place foe _guardian_ at _dungeon_
+	place npc _qgiver_ at _meetingplace_
+
+_giveingredient_ task:
+	toting _ingredient_ and _qgiver_ clicked saying 1013
+	give item _ingredient_ to _monster_
+	cast Shield spell on _monster_
+	cast Spell_Reflection spell on _monster_
+
+_hitguardian_ task:
+	injured _guardian_
+	prompt 1012 yes _yes_ no _no_
+--a task yes without underscores is a prima facie danger, though it hasn't caused any problems yet. tasks, items, and so forth should have underscores for style and execution
+
+_yes_ task:
+	log 1011 step 1
+	get item _token_
+	say 1030
+	restrain foe _guardian_
+
+_no_ task:
+	say 1035
+
+--unused variable _clickonqgiver_
+variable _clickonqgiver_
+_givetoken_ task:
+	toting _token_ and _qgiver_ clicked saying 1014
+	cast Silence spell on _monster_
+
+_shamandead_ task:
+	killed 1 _monster_
+	start timer _extratime_
+
+_givereward_ task:
+	when _givetoken_ and _shamandead_
+	change repute with _dummymage_ by +25
+	change repute with _dummyorc_ by -10
+	say 1015
+	--"saying ###" as an argument here is unsupported, I gave it its own line
+
+_extratime_ task:
+	make _ingredient_ permanent
+	end quest
+
+_totaltime_ task:
+	make _ingredient_ permanent
+	end quest
+
+_revealmonsters_ task:
+	when _giveingredient_ or _givetoken_
+	create foe _orc_ every 1 minutes 1 times with 100% success
+	hide npc _qgiver_
+	place foe _monster_ at _meetingplace_
+
+_S.11_ task:
+	killed 1 _guardian_
+
+_betrayguardian_ task:
+	when _yes_ and _S.11_
+	create foe _daedras_ every 1 minutes 3 times with 100% success
+	take _token_ from pc saying 1020
+	change repute with _dummydarkb_ by -75

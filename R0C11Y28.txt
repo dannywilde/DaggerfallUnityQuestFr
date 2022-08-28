@@ -1,380 +1,514 @@
-Record n�0----------
-Il y a un cauchemar qui se promène dans
-les rues de %cn. On l'appelle le Tueur
-de %cn, et pour l'instant nul n'a été capable de
-me dire s'il s'agit d'un homme ou d'une bête.
-Un de mes plus grands sages, _contact_,
-examine le corps des victimes, mais
-%g a commencé à recevoir des lettres de
-menace et %g craint franchement pour sa vie.
-Je veux que quelqu'un enquête sur ses
-découvertes, pour voir si ses craintes sont
-justifiées. M'aiderez-vous en cela,
-%pcf ? Je vous offrirai
-_reward_ pièces d'or pour faire
-disparaitre le Tueur de %cn.
+-- Quest: C:\QUESTS\WORKING\R0C11Y28.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 11
+-- QuestId: 28
+Messages: 51
+Quest: R0C11Y28
+DisplayName: The Mad Slayer
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>               There's a nightmare stalking the streets
+<ce>                    of ___bookstore_. They're calling him the
+<ce>                       ___bookstore_ Slayer, and so far no
+<ce>               one can tell me if he's a man or a beast.
+<ce>                  One of my finest sages, _contact_,
+<ce>               is examing the bodies of the victims, but
+<ce>                %g has begun getting disturbing letters
+<ce>                and frankly fears for %g3 life. I need
+<ce>              someone to investigate %g3 findings to see
+<ce>               if %g3 fears are justified. Will you help
+<ce>                    me in this, %pcf? I will offer
+<ce>              you _reward_ gold pieces in return for the
+<ce>                     retirement of the ___bookstore_ Slayer.
 
-Record n�1----------
-Réponse classique. Alors je n'ai pas
-d'autre choix que de faire appel à un contact
-que j'apprécie moins, et de lui demander son
-aide, une option que j'espérais éviter.
+RefuseQuest:  [1001]
+<ce>                 Not an uncommon response. Then I have
+<ce>                 little choice, but to call on some of
+<ce>                 my less savoury contacts for help --
+<ce>                   an option I was hoping to avoid.
 
+AcceptQuest:  [1002]
+<ce>                      Thank %god for that anyway.
+<ce>                    The people of %reg are becoming
+<ce>               anxious about the lack of progress in the
+<ce>                official investigations. I fear that we
+<ce>                will have a mob situation soon, perhaps
+<ce>                  in =total_ days or less. _contact_
+<ce>                       works out of _bookstore_,
+<ce>                 and I told %g2 I'd be sending someone
+<ce>                  there soon. Watch out for yourself,
+<ce>                     %pcf. Until this situation is
+<ce>                    resolved, remember that the ___bookstore_
+<ce>                          night has a knife.
 
-Record n�2----------
-Loué soit %god.
-Les habitants de %reg deviennent
-anxieux à cause du manque de progrès dans
-l'enquête officielle. Je crains qu'un
-soulèvement ne s'organise prochainement,
-peut-être dans =total_ jours au moins.
- _contact_ travaille à _bookstore_,
-et je %g2 ai dit que j'enverrai quelqu'un
-là-bas bientôt. Faites attention à vous,
-%pcf. Tant que cette situation n'est
-par résolue, rappelez-vous que les nuits
-sont tranchantes à %cn.
+QuestFail:  [1003]
+<ce>                        The ___bookstore_ Slayer is still
+<ce>                at large. I have no time for chatting,
+<ce>                            nor should you.
 
+QuestComplete:  [1004]
+<ce>                     %reg is at peace again, %pcf,
+<ce>          thanks to you. Here is the _reward_ gold I promised
+<ce>             -- gladly will I give it for the end of that
+<ce>              maniac and your discretion in this matter.
+<ce>                    %god truly blessed us when you
+<ce>                             came to %reg.
 
-Record n�3----------
-Le Tueur de %reg court toujours.
-Je n'ai pas le temps de bavarder,
-et vous non plus.
+RumorsDuringQuest:  [1005]
+It isn't safe to walk the streets of ___bookstore_ anymore. Not with the ___bookstore_ Slayer.
+<--->
+I hear the Slayer isn't a man at all, but a daedra come to punish us all.
+<--->
+The last victim of the ___bookstore_ Slayer was found scattered in pieces over ___bookstore_.
+<--->
+Some folks are wondering if the Slayer might be a vampire or a werewolf.
 
+RumorsPostfailure:  [1006]
+The killings stopped without us needing a mob. Guess the Slayer moved on.
+<--->
+_qgiver_'s just lucky the ___bookstore_ Slayer decided to move on. Panic was setting in.
+<--->
+_qgiver_ is still anxious. You'd think the Slayer's absence would relieve %g2.
+<--->
+The ___bookstore_ Slayer disappeared just as suddenly as he came to ___bookstore_.
+<--->
+Some say the Slayer's still here, waiting for the stars to be right again.
 
-Record n�4----------
-%reg est à nouveau en paix, %pcf,
-grâce à vous. Voici les _reward_
-pièces d'or promises, je vous les donne
-avec joie pour la mort de ce maniaque et
-pour votre discrétion durant cette affaire.
-%god nous a vraiment béni en
-vous faisant venir à %reg.
+RumorsPostsuccess:  [1007]
+I'm still afraid to be out in ___bookstore_ alone, even with the Slayer supposedly dead.
+<--->
+Guess the ___bookstore_ Slayer was just some poor lunatic. Nothing romantic to him at all.
+<--->
+The newest rumor is that the ___bookstore_ Slayer wasn't a vampire, but thought he was.
 
+QuestorPostsuccess:  [1008]
+I still remember you, %pcf, and the discretion you showed with the ___bookstore_ Slayer.
 
-Record n�5----------
-On n'est plus en sécurité à se promener dans les rues de %cn. Pas 
-avec le Tueur de %cn.
-Il paraît que le Tueur n'est pas un homme, mais un daedra venu 
-pour nous punir tous.
-La dernière victime du Tueur de %cn a été trouvée éparpillee à 
-travers %cn.
-Des gens se demandent si le Tueur ne serait pas un vampire ou un 
-loup-garou.
+QuestorPostfailure:  [1009]
+<ce>                    You failed me in the ___bookstore_ Slayer
+<ce>                         affair, %pcf. I don't
+<ce>                  see any reason to believe you won't
+<ce>                            fail me again.
 
+QuestLogEntry:  [1010]
+<ce>                        Ah, %pcf, my dear %ra,
+<ce>                I am very glad you've arrived. You have
+<ce>              doubtless been told that I've become a bit
+<ce>               of a hermit ever since I began receiving
+<ce>                those letters threatening my life if I
+<ce>              did not abandoned my investigations. Well,
+<ce>               now I have an old colleague in town with
+<ce>                whose assistance I may be able to solve
+<ce>               these murders. I would like you to bring
+<ce>                       these notes to a _vamp_,
+<ce>                       a =vamp_ you will find at
+<ce>                      _hookerhouse_. If anything
+<ce>               should happen to me, I want someone to be
+<ce>              able to continue on in the investigations.
+<ce>                        That will be _vamp_ and
+<ce>                   you, %pcf. So don't get yourself
+<ce>                           killed out there.
 
-Record n�6----------
-Les meurtres se sont arrêtés sans qu'on ait besoin de manifester. 
-J'imagine que le Tueur est parti.
-_qgiver_ a de la chance que le Tueur de %cn ait décidé de partir. 
-La panique commencait à s'installer.
-_qgiver_ est toujours anxieux. On aurait pu penser que l'absence 
-du Tueur l'aurait soulagé.
-Le Tueur de %cn a disparu aussi soudainement qu'il était arrivé à 
-%cn.
-Il paraît que le Tueur est toujours ici, attendant que les étoiles 
-soient de nouveau favorables.
-
-
-Record n�7----------
-J'ai encore peur de sortir seul à %cn, même si le Tueur est sensé 
-être mort.
-J'imagine que le Tueur de %cn n'était qu'un pauvre lunatique. Rien 
-de romantique là-dedans.
-La dernière rumeur dit que le Tueur de %cn n'était pas un vampire, 
-mais qu'il le croyait.
-
-
-Record n�8----------
-Je me souviens de vous, %pcf, et de la discrétion dont vous avez 
-fait preuve avec le Tueur de %cn.
-
-
-Record n�9----------
-Vous avez échoué dans l'affaire du tueur
-de %cn, %pcf. Je ne vois aucune
-raison de penser que vous
-n'échouerez pas à nouveau.
-
-
-Record n�10----------
-Ah, %pcf, mon cher %ra,
-Je suis content que vous soyez arrivé. Vous
-avez sans doute été informé que j'étais un peu
-devenu hermite depuis que j'avais commencé à
-recevoir ces lettres, dans lesquelles on menace
-de s'en prendre à ma vie si je n'abandonne pas
-mes investigations. Bien, j'ai un ancien collègue
-en ville qui pourrait m'aider à résoudre ces
-meurtres. J'aimerais que vous ameniez ces lettres
-à un _vamp_, un =vamp_ que vous
-trouverez à _hookerhouse_. Si quoi que
-ce soit devait m'arriver, je veux que quelqu'un
-puisse poursuivre les investigations.
-Ce sera _vamp_ ou bien
-vous, %pcf. Alors ne vous faites
-pas tuer, là dehors.
-
-
-Record n�11----------
+Message:  1011
 _contact_,
  
- Cessez vos investigations sur les victimes du Tueur
- de %reg si vous tenez à la vie. Vous
- vous dirigez aveuglement vers un enfer.
+ Terminate your investigations of the %reg Slayer's
+ victims if you value your life. You are moving
+ blindly into an inferno.
  
- Si vous continuez, vous mourrez avant d'avoir
- terminé votre enquête. Considerez ceci comme
- un avertissement sérieux.
+ If you continue, you will die before your
+ studies are finished. Consider this this a
+ serious warning.
  
-- Un Ami qui vous veut du Bien
+<ce>                             A Well-Wisher
 
-
-Record n�12----------
-Cher _contact_,
+Message:  1012
+Dear _contact_,
  
- Même si vous barricadez toutes vos portes et éteignez
- toutes les lumières de _bookstore_, nous
- saurons que vous continuez à effectuer vos
- autopsies interdites. Ne nous obligez pas à vous
- démontrer notre capacité à vous arrêter, car nous
- n'agirons qu'une seule fois.
+ Even if you lock all your doors and extinguish
+ all light from _bookstore_, we
+ will know that you are still indulging in your
+ forbidden autopsies. Do not ask for us to
+ demonstrate our power to stop you, for we will
+ act but once.
  
-- Un Ami qui vous veut du Bien
+<ce>                             A Well-Wisher
 
-
-Record n�13----------
+Message:  1013
 _contact_,
  
- Je serais ravi de vous rencontrer, pour discuter
- de vos passionnantes études mortuaires sur
- les victimes du Tueur. Comme vous le savez, j'ai
- effectué des travaux similaires et je serais heureux
- de partager mes connaissances et mon expérience
- avec un éminent collègue.
+ I would very much like to meet with you
+ about your fascinating mortuary studies of
+ the Slayer victims. As you know, I have
+ done similar investigations and would be
+ happy to share my knowledge and experience
+ with a distinguished colleague.
  
- Faites-moi connaître par courrier la façon dont
- vous préférez que l'on se voie. Je réside actuellement
- à _hookerhouse_,
- mais peut-être préfèreriez-vous me rencontrer à
- _bookstore_ afin que je puisse
- voir les corps en question. Dans tous les cas,
- j'ai hâte de lire votre courrier et vos notes.
+ Let me know by courier how it would be
+ most convenient for us to meet. I am
+ staying at _hookerhouse_,
+ but perhaps you would rather meet at
+ _bookstore_ so I might
+ see the corpses in question. In either
+ case I look forward to receiving your
+ courier and note.
  
-Vôtre, avec admiration,
+<ce>                         Yours in admiration,
  
-_vamp_
+<ce>                                _vamp_
 
-
-Record n�14----------
-Rapport d'autopsie pour %fn:
+Message:  1014
+Autopsy report for %fn:
  
- Gorge arrachée, apparemment
- très violemment (le Tueur est un
- forcené ? Vérifier dans les travaux de
- Lobornus, avec le criminel aliéné
- emprisonné à la Prison d'Agryn)
- Mort instantanée, pas de signe
- de lutte (le tueur connaissait
- la victime ? Il ne paraissait pas menacant ?)
- La carotide est complètement détruite,
- importante perte de sang au moment de
- l'examen (penser à demander à
- _qgiver_ de m'envoyer les gardes
- qui ont trouvé le corps pour les interroger).
+ Throat torn out, apparently
+ with violent force (Slayer a
+ madman? Check into Lobornus'
+ work with criminally insane in Agryn
+ Prison). Death instantaneous,
+ no sign of struggle (Slayer knew
+ victim? Did not appear a threat?)
+ Carotid artery completely severed,
+ loss of blood extensive by time of
+ examination (remember to ask
+ _qgiver_ to send over guards
+ who found body for interview).
  
- Rapport d'autopsie pour %mn:
+ Autopsy report for %mn:
  
- Le sujet montre une pathologie similaire à
- la victime féminine. Gorge violemment arrachée,
- des contusions sur les avant-bras comme s'ils
- avaient été aggrippés par un homme extrêmement
- fort (la démence du Tueur lui donne une force
- surhumaine ? Note pour moi-même: écrire à
- Lobornus pour retrouver les notes d'un cas
- intéressant dont il m'a parlé durant le Conclave
- de l'année dernière). Les contusions indiquent un
- laps de temps entre l'attaque et la mort ? (Pourraient
- ne pas être liées à l'attaque ? Vérifier dans le
- passé de la victime).
+ Subject shows similar pathology to
+ female victim. Throat torn out violently,
+ bruises on upper arms as if gripped by
+ extremely strong man (Slayer's insanity
+ produces superhuman strength? Note to self:
+ write to Lobornus for research notes from
+ interesting case he reported at last year's
+ Conclave). Bruising indicates some time
+ between attack and death? (Could be unrelated
+ to attack? Check on background of victim)
 
+Message:  1015
+<ce>                    So, for all the days _contact_
+<ce>                has spent with those flyblown cadavers
+<ce>                       and all %g comes up with
+<ce>                     is this. %god, with this as a
+<ce>                      start, _contact_ won't get
+<ce>                an intimation of the Slayer's identity
+<ce>                     for weeks yet. Listen, %pcf,
+<ce>                     if you want to help _qgiver_,
+<ce>                   take this flower over to _widow_
+<ce>                        in _widowhouse_ -- %g3
+<ce>                        brother was %mn, one of
+<ce>                  the Slayer's victims. This may seem
+<ce>                 like a trivial sentimentality, but it
+<ce>                 will bring you closer to finding the
+<ce>                        ___bookstore_ Slayer than any of
+<ce>                        _contact_'s scientific
+<ce>                      catalyses. Trust me, %pcf.
 
-Record n�15----------
-Ainsi, après toutes les journées que _contact_
-a passées avec ces cadavres boursouflés, tout
-ce qu'%g a c'est ça ! %god, avec
-cela comme point de départ, _contact_
-n'obtiendra pas l'identification du Tueur avant
-des semaines. Ecoutez, %pcf,
-si vous voulez aider _qgiver_,
-amenez cette fleur à _widow_
-à _widowhouse_, %g3
-frère était %mn, une des victimes
-du Tueur. Cela peut ressembler à
-une sensiblerie facile, mais cela vous
-permettra davantage de trouver le Tueur
-de %cn que tous les indices scientifiques
-de _contact_. Croyez-moi, %pcf.
+Message:  1016
+_vamp_ is the =vamp_ I met over at _hookerhouse_. Nice enough, but spooky.
+<--->
+_vamp_ is the name of the =vamp_ staying over at _hookerhouse_.
 
+Message:  1017
+_vamp_ is one of the %vcn, sent to ___bookstore_ to eliminate the mad Slayer.
+<--->
+_vamp_ is a %vcn vampire here to stop the risk to %g3 security, the Slayer.
 
-Record n�16----------
-_vamp_ est le =vamp_ que j'ai rencontré à _hookerhouse_. Plutôt 
-beau, mais bizarre.
-_vamp_ est le nom du =vamp_ qui vit à _hookerhouse_.
+Message:  1018
+Poor _widow_ stays at _widowhouse_ every since the Slayer got %g3 brother.
+<--->
+The %reg Slayer killed _widow_'s brother, and now %g never leaves _widowhouse_.
 
+Message:  1019
+<ce>               A red poppy? Oh, you must be my brother's
+<ce>                    friend, _rippername_, yes? I do
+<ce>             appreciate the comforting note you sent after
+<ce>             his death. He didn't have very many friends,
+<ce>            and, to tell the truth, he had never mentioned
+<ce>             your name. But I certainly thank you for the
+<ce>              lovely flowers and the invitation to visit
+<ce>                         you at _ripperhouse_.
+<ce>              I've always admired that place, and I would
+<ce>                     like to see the inside of it.
+<ce>                                    
+<ce>                  What, you're not _rippername_? Oh,
+<ce>              I'm so sorry. Please forgive me, I haven't
+<ce>              been myself since my brother... No, I don't
+<ce>             think I have information that might help you
+<ce>              find that murdering devil. You know I would
+<ce>              help you if I could. But you will find the
+<ce>               fiend that killed my brother, won't you?
 
-Record n�17----------
-_vamp_ est l'un des %vcn, envoyé à %cn pour éliminer le Tueur 
-fou.
-_vamp_  est un vampire de %vcn qui est ici pour stopper le 
-Tueur.
-
-
-Record n�18----------
-La pauvre _widow_ vit à _widowhouse_ depuis que le Tueur a eu son 
-frère.
-Le Tueur de %reg a tué le frère de _widow_, et maintenant %g ne 
-quitte plus _widowhouse_.
-
-
-Record n�19----------
-Un coquelicot rouge ? Oh, vous devez être l'ami
-de mon frère, _rippername_, oui ? J'ai
-vraiment apprécié la note de réconfort que vous
-m'avez envoyée après sa mort. Il n'avait pas
-beaucoup d'amis, et pour tout vous dire, il n'avait
-jamais parlé de vous. Mais je vous remercie pour
-les superbes fleurs et l'invitation à venir vous
-voir à _ripperhouse_.
-J'ai toujours trouvé cet endroit très joli, et
-j'aimerais le voir de l'intérieur.
- 
-Quoi, vous n'êtes pas _rippername_ ? Oh,
-je suis vraiment désolée. Veuillez m'excuser, je ne
-suis plus moi-même depuis que mon frère... Non, je
-ne pense pas avoir d'informations vous permettant
-de trouver ce meurtrier. Vous savez que je vous
-aiderais si je le pouvais. Mais vous trouverez le
-monstre qui a tué mon frère, n'est-ce pas ?
-
-
-Record n�20----------
+Message:  1020
 %qdat:
- Je suis sur la piste du Tueur de
- %cn. %rt _qgiver_ veut que le
- Tueur de %cn soit pris dans les =total_
- prochains jours, avant que les meurtres ne poussent
- la population à l'émeute. _qgiver_ a
- un scientifique qui a examiné les corps
- des victimes du Tueur, et qui recoit depuis peu
- des menaces de mort, apparemment de la part
- du Tueur. Ce scientifique s'appelle _contact_,
- et il travaille à _bookstore_.
+ I am on the trail of the Slayer
+ of ___bookstore_. %rt _qgiver_ wants
+ the ___bookstore_ Slayer caught in =total_ days
+ before the murders inflame the populace
+ to riot. _qgiver_ has a scientist
+ who has been examining the bodies of the
+ Slayer's victims and has recently
+ begun getting death threats, apparently
+ from the Slayer. _contact_ is
+ the name of this scientist, and %g
+ works out of _bookstore_.
 
-
-Record n�21----------
+Message:  1021
 %qdat:
- _contact_ m'a envoyé à
- _hookerhouse_ pour rencontrer un ancien
- collègue appelé _vamp_,
- qui pourrait aider dans mes recherches.
+ _contact_ has sent me
+ to _hookerhouse_ to meet with
+ an old colleague named _vamp_,
+ who might be able to help with the research.
 
-
-Record n�22----------
+Message:  1022
 %qdat:
- Je suis arrivé trop tard à _bookstore_.
- Apparemment les menaces de mort envers
- _contact_ étaient bien fondées. Parmi les lettres
- que j'ai trouvées, il y en avait une d'un collègue
- souhaitant rencontrer _contact_, quelqu'un
- appelé _vamp_ et residant à
+ I got to _bookstore_ too late.
+ Apparently _contact_'s death
+ threats were very real. Among the letters
+ I found was one from a colleague interested in
+ meeting with _contact_, someone
+ named _vamp_ staying at
  _hookerhouse_.
 
-
-Record n�23----------
+Message:  1023
 %qdat:
- J'ai rencontré _vamp_ qui ne semble
- pas très impressionné par le
- travail de son collègue sur les victimes
- du Tueur de %reg.
- _vamp_ m'a dit d'apporter un
- coquelicot rouge à quelqu'un appelé
- _widow_ dont le frère a été tué par
- le Tueur. J'ai des doutes, mais je
- ne serai certain qu'après être allé
- à _widowhouse_ où
- _widow_ vit.
+ I met with _vamp_ who seems
+ less than impressed with %g3
+ colleague _contact_'s work
+ on the %reg Slayer victims.
+ _vamp_ told me to bring
+ a red poppy to someone named
+ _widow_ whose brother
+ was killed by the Slayer. I have some
+ suspicions, but I won't know for sure
+ until I go to _widowhouse_
+ where _widow_ lives.
 
-
-Record n�24----------
+Message:  1024
 %qdat:
- L'ancien collègue de _contact_ et le
- meurtrier sont une seule et même personne.
- _vamp_ est un vampire, mais affirme
- ne pas être le Tueur. Si je tue la personne
- qu'%g designe comme le Tueur de %reg, _rippername_
- de _ripperhouse_, _vamp_
- m'a promis une récompense, apparemment
- en plus de celle que j'obtiendrai de
- _qgiver_.
+ The late _contact_'s colleague
+ and murderer are one and the same person.
+ _vamp_ is a vampire, but professes
+ not to be the Slayer. If I kill the person
+ %g says is the %reg Slayer, _rippername_
+ of _ripperhouse_, _vamp_
+ has promised me a reward, apparently
+ in addition to the reward I'd get
+ from _qgiver_.
 
-
-Record n�25----------
+Message:  1025
 %qdat:
- _widow_, la =widow_
- vers qui _vamp_ m'a envoyé, croyait
- que j'étais quelqu'un appelé _rippername_.
- Ce _rippername_ a apparement envoyé
- à _widow_ un bouquet de coquelicots
- rouges et l'a invité à un endroit appelé
- _ripperhouse_. Ca ressemble à un
- piège du Tueur, si je vois juste.
+ _widow_, the =widow_
+ _vamp_ sent me to, believed
+ that I was someone named _rippername_.
+ This _rippername_ apparently sent
+ _widow_ a bouquet of red poppies
+ and invited %g2 to a place called
+ _ripperhouse_. Sounds like a Slayer
+ trap if there ever was one.
+
+Message:  1026
+<ce>                 Which letter brought you to me, %pcn?
+<ce>             You are probably aware that I wrote them all.
+<ce>                      After _contact_ refused to
+<ce>           listen to my polite warnings about investigating
+<ce>            matters beyond mortal understanding, I invited
+<ce>             %g2 here as %g3 friend. I knew %g2, you see,
+<ce>             years ago, before I became a vampire. We met,
+<ce>                      went back to _bookstore_ to
+<ce>              see the bodies, and there I slew %g2. Quite
+<ce>             painlessly. I could tell %g would never have
+<ce>              halted his studies. More than that I cannot
+<ce>               say, except that the Slayer is a vampire
+<ce>               like myself, but mad from the blessing of
+<ce>                      immortality. _rippername_,
+<ce>             that's the Slayer's real name and %g lives at
+<ce>                    _ripperhouse_. If you go there
+<ce>            and slay %g2, I will reward you. If you intend
+<ce>                     to continue with _contact_'s
+<ce>              studies, I will have no choice but to kill
+<ce>                 you as well. That is my simple offer.
+
+Message:  1027
+_contact_ is quite a learned scientist over in _bookstore_, %di of here.
+<--->
+_contact_ is a =contact_ who works out of _bookstore_.
+
+Message:  1028
+_contact_ is dissecting the Slayer's victims and someone doesn't like that.
+<--->
+_contact_'s a scientist at _bookstore_, who has been getting threat letters.
+
+Message:  1050
+<ce>                   By killing _rippername_, you have
+<ce>                 aided both %reg and myself. For this,
+<ce>                  I give you a _reward2_. Perhaps we
+<ce>                     may meet again one day, %pcn.
+<ce>                  You have intrigued me in our brief
+<ce>              acquaintance. May the night keep you safe.
 
 
-Record n�26----------
-Quelle lettre vous a mené jusqu'à moi, %pcn ?
-Vous savez probablement que je les ai toutes écrites.
-Après que _contact_ ait refusé
-d'écouter mes avertissements polis concernant ses
-investigations au-delà de toute compréhension, je l'ai
-invité ici en tant qu'ami. Je %g connaissais, vous savez,
-depuis des années, avant de devenir un vampire. On s'est
-vus, puis nous sommes retournés à _bookstore_ pour
-voir les corps, et enfin je l'ai tué. Quasiment
-sans douleur. Je peux vous dire qu'%g n'aurait jamais
-arrêté ses études. Je ne peux pas vous en dire plus,
-excepté le fait que le Tueur est un vampire
-comme moi, mais aveuglé par la bénédiction de
-l'immortalité. _rippername_,
-voici quel est le vrai nom du Tueur, et %g vit à
-_ripperhouse_. Si vous allez là-bas et
-que vous%g2 tuez, je vous récompenserai. Si vous
-envisagez de poursuivre les études de _contact_,
-je n'aurai pas d'autre choix que de vous tuer
-également. Voilà mon offre, c'est simple.
+-- Symbols used in the QRC file:
+--
+--               ___bookstore_ occurs 141 times.
+--               %di occurs 3 times.
+--               %fn occurs 2 times.
+--                %g occurs 117 times.
+--               %g2 occurs 8 times.
+--               %g3 occurs 9 times.
+--              %god occurs 3 times.
+--               %mn occurs 3 times.
+--              %pcf occurs 11 times.
+--              %pcn occurs 2 times.
+--             %qdat occurs 6 times.
+--               %ra occurs 1 time.
+--              %reg occurs 10 times.
+--               %rt occurs 1 time.
+--              %vcn occurs 3 times.
+--         =contact_ occurs 2 times.
+--           =total_ occurs 2 times.
+--            =vamp_ occurs 4 times.
+--           =widow_ occurs 1 time.
+--       _bookstore_ occurs 13 times.
+--         _contact_ occurs 21 times.
+--     _hookerhouse_ occurs 7 times.
+--          _qgiver_ occurs 8 times.
+--         _reward2_ occurs 1 time.
+--          _reward_ occurs 2 times.
+--     _ripperhouse_ occurs 4 times.
+--      _rippername_ occurs 8 times.
+--            _vamp_ occurs 14 times.
+--           _widow_ occurs 11 times.
+--      _widowhouse_ occurs 107 times.
 
+QBN:
+Item _I.00_ letter used 1011
+Item _I.01_ letter used 1012
+Item letter31 letter used 1013
+Item _I.03_ letter used 1014
+Item _I.04_ dead_body
+Item _reward_ gold
+Item _reward2_ trinket
+Item _I.08_ item class 26 subclass 3
+Item _I.09_ item class 15 subclass 13
 
-Record n�27----------
-_contact_ est un scientifique plutôt chevronné de _bookstore_, au 
-%di d'ici.
-_contact_ est un =contact_ qui travaille à _bookstore_.
+Person _qgiver_ group Questor male
+Person _contact_ face 1 group Librarian anyInfo 1027 rumors 1028
+Person _vamp_ face 1 factiontype Vampire_Clan anyInfo 1016 rumors 1017
+Person _widow_ face 82 group Resident2 anyInfo 1018
+Person _rippername_ face 5 group Group_6.0
 
+Place _bookstore_ local house2
+Place _hookerhouse_ local tavern
+Place _ripperhouse_ local house1
+Place _widowhouse_ local temple
 
-Record n�28----------
-_contact_ dissèque les victimes du Tueur, et quelqu'un n'aime pas 
-ça.
-_contact_ est un scientifique à _bookstore_, qui a reçu des 
-lettres de menace.
+Clock _1stparton_ 00:30 03:00
+Clock _2ndparton_ 00:30 06:00
+Clock _total_ 3.00:00 0 flag 1 range 0 1
 
+Foe _murder_ is Vampire
 
-Record n�29----------
-En tuant _rippername_, vous avez
-aidé à la fois %reg et moi-même. Pour cela,
-je vous donne un _reward2_. Peut-être que
-nous nous rencontrerons à nouveau un jour,
-%pcn. Vous m'avez intrigué lors de
-notre brève rencontre. Que la nuit vous garde.
+--	Quest start-up:
+	place item _I.08_ at _bookstore_ 
+	dialog link for location _ripperhouse_ person _rippername_ 
+	dialog link for person _widow_ 
+	dialog link for person _vamp_ 
+	start timer _total_ 
+	start timer _1stparton_ 
+	log 1020 step 0 
+	place npc _contact_ at _bookstore_ 
+	place npc _vamp_ at _hookerhouse_ 
+	place npc _widow_ at _widowhouse_ 
+	have _I.04_ set _deadbody_
 
+_S.00_ task:
+	killed 1 _murder_ 
 
+_1stparton_ task:
+	start timer _2ndparton_ 
 
+variable _2ndparton_
+_S.03_ task:
+	when _2ndparton_ and not _S.13_ 
+	letter31 used do _S.11_ 
+	place item _I.01_ at _bookstore_ 
+	place item _I.00_ at _bookstore_ 
+	place item letter31 at _bookstore_ 
+	place item _I.04_ at _bookstore_ 
+	hide npc _contact_ 
+
+_vampclicked_ task:
+	clicked npc _vamp_ 
+
+_qgclicked_ task:
+	clicked npc _qgiver_ 
+
+_pcgetsgold_ task:
+	when _S.00_ and _qgclicked_ 
+	give pc _reward_ 
+	unset _qgclicked_ 
+	end quest 
+
+_deadbody_ task:
+	take _I.04_ from pc
+--added deadbody task. otherwise body would clog inventory
+
+_S.07_ task:
+	when _S.17_ and not _S.00_ 
+	place foe _murder_ at _ripperhouse_ 
+
+_S.08_ task:
+	when _vampclicked_ and _S.11_ 
+	add dialog for location _ripperhouse_ 
+	log 1024 step 4 
+	say 1026 
+
+_S.09_ task:
+	toting _I.03_ and _vamp_ clicked 
+	add dialog for person _widow_ 
+	log 1023 step 3 
+	get item _I.09_ 
+	say 1015 
+
+_S.10_ task:
+	clicked npc _contact_ 
+	add dialog for person _vamp_ 
+	log 1021 step 1 
+	get item _I.03_
+	say 1010 
+
+_S.11_ task:
+	add dialog for person _vamp_ 
+	log 1022 step 2 
+
+variable _S.12_
+_S.13_ task:
+	daily from 06:00 to 18:00 
+
+_S.14_ task:
+	when not _S.13_ and not _S.00_ 
+	create foe _murder_ every 15 minutes 1 times with 15% success 
+
+_S.15_ task:
+	toting _I.09_ and _widow_ clicked 
+	add dialog for location _ripperhouse_ 
+	log 1025 step 5 
+	say 1019 
+
+_S.16_ task:
+	when _vampclicked_ and _S.00_ 
+	get item _reward2_ saying 1050 
+	make _reward2_ permanent 
+	unset _vampclicked_ 
+
+_S.17_ task:
+	when _S.15_ or _S.08_ 
+
+_total_ task:
+	end quest 

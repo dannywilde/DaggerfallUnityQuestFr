@@ -1,77 +1,162 @@
-Record n�0----------
-Je m'appelle _questgiver_.
-Nous avons besoin d'un membre
-pour éliminer un diablotin.
-Etes-vous volontaire ?
-Vous serez rémunéré _gold_ pièces d'or.
+-- Quest: C:\QUESTS\WORKING\N0B30Y15.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: mage
+-- Repute: 30
+-- QuestId: 15
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 11
+Quest: N0B30Y15
+DisplayName: Rogue Imp
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                       My name is _questgiver_.
+<ce>                    We need someone to kill a rogue
+<ce>                    imp for us. Are you interested?
+<ce>                     The job does pay _gold_ gold.
+
+RefuseQuest:  [1001]
+<ce>                               Too bad.
+                                     <--->
+<ce>                             What a pity.
+                                     <--->
+<ce>                      I see. Toddle off somewhere
+<ce>                            else then, %pcn.
+
+AcceptQuest:  [1002]
+<ce>                       Fine attitude %pcn. There
+<ce>                    is one thing I did not tell you.
+<ce>                   This imp was a familiar to a very
+<ce>                    high ranking mage. It seems the
+<ce>                  imp fell into an experimental spell
+<ce>                  and has been imbued with all manner
+<ce>                   of spell-like powers. You can find
+<ce>                      the creature at _palace_ of
+<ce>                        __palace_. Apparently it
+<ce>                thinks it is fit to rule. Do be careful
+<ce>                       %pcn. If you are not back
+<ce>               within =traveltime_ days, we shall assume
+<ce>                           that you are dead.
+
+QuestComplete:  [1004]
+<ce>                   Tough little beggar, eh? Well you
+<ce>                    have certainly earned your pay.
+
+RumorsDuringQuest:  [1005]
+Something's going on at _palace_ of __palace_. Something strange.
+<--->
+Everyone in __palace_ is wondering what's going on in _palace_ there.
+
+RumorsPostfailure:  [1006]
+Some kind of creature flew out of _palace_ of __palace_ and off to the south.
+
+RumorsPostsuccess:  [1007]
+Thank %god that %ra mercenary was in __palace_ to slay that imp.
+<--->
+That imp could've caused some damage in __palace_ if that %ra hadn't helped.
+
+QuestorPostsuccess:  [1008]
+I haven't forgotten you, %pcf. You're the %ra who slew that pesky imp.
+
+QuestorPostfailure:  [1009]
+<ce>                    __palace_ was nearly destroyed
+<ce>                  by that imp, and you did nothing to
+<ce>                      help. That, to me, is quite
+<ce>                           despicable, %pcf.
+
+QuestLogEntry:  [1010]
+%qdt:
+ _questgiver_ of the Mages
+ Guild of ___questgiver_ has charged
+ me with the duty of destroying a
+ rogue imp. The beast is lurking
+ in _palace_ of __palace_.
+ I have =traveltime_ days to succeed.
 
 
-Record n�1----------
-Dommage.
+-- Symbols used in the QRC file:
+--
+--              %god occurs 1 time.
+--              %pcf occurs 4 times.
+--              %pcn occurs 4 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 17 times.
+--      =traveltime_ occurs 4 times.
+--    ___questgiver_ occurs 1 time.
+--         __palace_ occurs 8 times.
+--            _gold_ occurs 6 times.
+--          _palace_ occurs 5 times.
+--      _questgiver_ occurs 2 times.
 
-Pitoyable.
+QBN:
+Item _gold_ gold
 
-Je vois. Baladez-vous ailleurs
-dans ce cas, %pcn.
+Person _questgiver_ face 8 group Questor
 
+Place _palace_ remote palace
 
-Record n�2----------
-Bonne attitude %pcn. J'ai oublié de
-vous préciser quelque chose.
-Ce diablotin est le familier d'un
-mage très influent. Il semblerait
-que ce diablotin soit pris dans un sort
-maléfique et qu'il se soit doté de certains
-pouvoirs.Vous pourrez trouver
-la créature au _palace_ de
-__palace_. Visiblement, le diablotin
-croit qu'il peut imposer sa loi.
-Si vous ne revenez pas dans moins de
-=traveltime_ jours, vous serez supposé mort.
+Clock _traveltime_ 00:00 0 flag 17 range 0 2
+Clock _S.02_ 00:04 00:20
+Clock _Gothryd_ 00:04
+--timer Gothryd given underscores
+Clock _S.08_ 00:04
+Clock _S.09_ 00:04
+--flags removed to make timers precise
 
+Foe _imp_ is Imp
 
-Record n�3----------
-C'était facile, non ? Vous avez
-bien mérité votre argent.
+--	Quest start-up:
+	start timer _traveltime_ 
+	log 1010 step 0 
+	pc at _palace_ set _S.01_ 
+	place foe _imp_ at _palace_ 
+	create npc at _palace_ 
 
+_traveltime_ task:
+	end quest 
 
-Record n�4----------
-Il s'est passé quelque chose au _palace_ de __palace_. Quelque 
-chose de bizarre.
-Tous les habitants de __palace_ se demandent ce qui se passe dans 
-le _palace_ là-bas.
+_S.01_ task:
+	start timer _S.02_ 
+	cast Spell_Shield spell on _imp_ 
+	cast Troll's_Blood spell on _imp_ 
+	cast Shield spell on _imp_ 
+	cast Shield spell on _imp_ 
+	cast Invisibility spell on _imp_ 
 
-Record n�5----------
-Une sorte de créature s'est envolée du _palace_ de __palace_ et 
-s'est dirigée vers le Sud.
+_S.02_ task:
+	start timer _Gothryd_ 
+	cast Shield spell on _imp_ 
+	cast Troll's_Blood spell on _imp_ 
+	cast Spell_Shield spell on _imp_ 
+	cast Invisibility spell on _imp_ 
 
-Record n�6----------
-Merci,  %god ! Ce mercenaire %ra est allé dans __palace_ pour tuer 
-le diablotin.
-Ce diablotin aurait pu causer beaucoup plus dommages dans 
-__palace_ si ce %ra n'avait pas aidé.
+_S.03_ task:
+	killed 1 _imp_ 
 
-Record n�7----------
-Je ne vous ai pas oublié, %pcf. Vous êtes le %ra qui s'est occupé 
-de ce foutu diablotin.
+_S.04_ task:
+	clicked npc _questgiver_ 
 
-Record n�8----------
-__palace_ est quasiment détruit
-par le diablotin et vous n'avez rien
-fait pour l'empêcher. En ce qui
-me concerne, je ne vous respecte
-plus, %pcf.
+_clearclick_ task:
+	when _S.04_ and not _S.03_ 
+	clear _S.04_ _clearclick_ 
 
+_S.06_ task:
+	when _S.04_ and _S.03_ 
+	give pc _gold_ 
+	end quest 
 
-Record n�9----------
-%qdt :
- _questgiver_ de la Guilde des Mages
- de ___questgiver_ m'a chargé de
- me débarrasser d'un diablotin.
- La bête se terre dans _palace_
- de __palace_.
- Je dispose de =traveltime_ jours
- pour réussir.
+_Gothryd_ task:
+	start timer _S.08_ 
+	cast Invisibility spell on _imp_ 
+	cast Spell_Shield spell on _imp_ 
+	cast Troll's_Blood spell on _imp_ 
 
+_S.08_ task:
+	cast Spell_Shield spell on _imp_ 
+	cast Troll's_Blood spell on _imp_ 
+	cast Shield spell on _imp_ 
+	cast Invisibility spell on _imp_ 
 
-
+variable _S.09_

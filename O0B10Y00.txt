@@ -1,117 +1,199 @@
-Record n�0----------
-Ecoutez, %pcf, quelqu'un de
-notre "famille" a des problèmes.
-Avez-vous quelques jours de libre
-pour l'aider ?
+-- Quest: C:\QUESTS\WORKING\O0B10Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: thief
+-- Repute: 10
+-- QuestId: 0
+Messages: 21
+Quest: O0B10Y00
+DisplayName: A Stolen Gem
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                       Listen, %pcf, we got one
+<ce>                    of our family who's in trouble.
+<ce>                     You got a couple days to help
+<ce>                        out one of the family?
+
+RefuseQuest:  [1001]
+<ce>                      Alright then. Guess you're
+<ce>                      countin' on not bein' in a
+<ce>                        fix yourself some day.
+
+AcceptQuest:  [1002]
+<ce>                       Good %ra. One of our best
+<ce>                      catburglars in ___contact_
+<ce>                   is holed up in a rat-trap called
+<ce>                       __contact_. On %g3 person
+<ce>                     is a hot stone %g lifted from
+<ce>                   the palace. Now the word is that
+<ce>                    someone saw it on %g2, and the
+<ce>                   guards are casing the place. Out
+<ce>                      of respect for the owner of
+<ce>                      __contact_, they're waiting
+<ce>                    =1stparton_ days before moving
+<ce>                      in. Get over to __contact_
+<ce>                          and give _contact_
+<ce>                 this hunk of _metal_ in exchange for
+<ce>                  the _gems_, and then you bring the
+<ce>                     it back here. You understand?
+<ce>                  Good. Now, hurry, there ain't time.
+
+QuestFail:  [1003]
+<ce>                        Good to see you, %pcf,
+<ce>                     but you ain't supposed to be
+<ce>                     empty-handed. You're supposed
+<ce>                      to have a _gems_, remember?
+
+QuestComplete:  [1004]
+<ce>                      Good job, %pcf. I hear that
+<ce>                         _contact_ showed the
+<ce>               guards the piece of _metal_ they thought
+<ce>                   was a _gems_, and they bought %g2
+<ce>                  a drink as an apology. I tell you,
+<ce>                   ain't no life like the life of a
+<ce>                  scoundrel. Here's your share of the
+<ce>                  _gems_ -- _reward_ gold. You earned
+<ce>                               it, %pcf.
+
+RumorsDuringQuest:  [1005]
+Well, everyone knows that _contact_ stole that jewel. Why don't they get %g2?
+<--->
+There's a lot of poshes at __contact_. Guards aren't wanted in there.
+
+RumorsPostfailure:  [1006]
+The guards finally got _contact_. Guess %g couldn't hold 'em out forever.
+<--->
+Yeah, they found the %t's _gems_ and arrested that =contact_ alright.
+
+RumorsPostsuccess:  [1007]
+They had to let _contact_ go after all. Turns out %g was innocent.
+<--->
+Now how do you mistake _metal_ for a _gems_? They're both rocks, but come on!
+
+QuestorPostsuccess:  [1008]
+What is it, %pcf? Want that _gems_ back? I bet you do!
+
+QuestorPostfailure:  [1009]
+<ce>                      Don't you remember that you
+<ce>                 were s'posed to get that _gems_ from
+<ce>                      _contact_, and give %g2 the
+<ce>                       _metal_ I gave you? %oth!
+<ce>                   You'd think it was hard science.
+
+QuestLogEntry:  [1010]
+<ce>                   %oth, %pcf, you're a life saver.
+<ce>                    Turns out someone saw me with a
+<ce>                _gems_ and they figure it's the stolen
+<ce>                   gem. This hunk of _metal_ will be
+<ce>                  my ticket out of here. Remind me to
+<ce>                  buy you a drink sometime. Now hurry
+<ce>                         back to _questgiver_.
+<ce>                  They're gonna be real suspicious if
+<ce>                 you're not back in =1stparton_ days.
+
+Message:  1015
+%qdt:
+ _questgiver_ of
+ the Thieves Guild in ___questgiver_
+ has sent me to ___contact_
+ to a dive called __contact_.
+ I have a _metal_ I am
+ supposed to give _contact_
+ in exchange for the stolen rock %g
+ was seen with. I have =1stparton_
+ days to get this done.
+
+Message:  1020
+<ce>                      I have it on good authority
+<ce>                       that you have the _gems_
+<ce>                         that _contact_ stole.
+<ce>                       Hand it over and I'll let
+<ce>                           you go unharmed.
 
 
-Record n�1----------
-Très bien. J'espère que
-vous ne comptez pas sur notre
-aide un de ces jours ?
+-- Symbols used in the QRC file:
+--
+--                %g occurs 4 times.
+--               %g2 occurs 6 times.
+--               %g3 occurs 1 time.
+--              %oth occurs 2 times.
+--              %pcf occurs 8 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 1 time.
+--                %t occurs 2 times.
+--       =1stparton_ occurs 6 times.
+--         =contact_ occurs 4 times.
+--    ___questgiver_ occurs 1 time.
+--        __contact_ occurs 14 times.
+--            _gems_ occurs 14 times.
+--           _metal_ occurs 7 times.
+--      _questgiver_ occurs 2 times.
+--          _reward_ occurs 1 time.
+
+QBN:
+Item _reward_ gold
+Item _metal_ element
+Item _gems_ gem
+
+Person _questgiver_ face 72 group Questor
+Person _contact_ face 80 group Innkeeper
 
 
-Record n�2----------
-Bon %ra. Un de nos meilleurs
-cambrioleurs de ___contact_
-est pris au piège à __contact_.
-%g transporte la pierre précieuse
-qu%g a volée au palais, mais
-il semble que quelqu'un l'ait vu
-avec cette pierre, alors les gardes
-veulent fouiller l'endroit.
-Sans aucun égard envers le propriétaire de
-__contact_, ils attendent =1stparton_ jours,
-puis ils fouilleront les lieux.
-Rendez-vous à __contact_
-et donnez à _contact_
-ce morceau de _metal_ en échange du
-_gems_, qu'ensuite vous rapporterez ici.
-C'est compris ? Bien. Maintenant, faites vite,
-y a pas de temps à perdre.
+Clock _1stparton_ 00:00 0 flag 18 range 1 4
 
+Foe _guards_ is Knight
 
-Record n�3----------
-Ca fait du bien de vous voir, %pcf,
-mais vous n'étiez pas supposé avoir
-les mains vides. Vous étiez supposé
-avoir un _gems_, vous vous rappelez ?
+--	Quest start-up:
+	start timer _1stparton_ 
+	log 1015 step 0 
+	get item _metal_ 
 
+_qgclicked_ task:
+	toting _gems_ and _questgiver_ clicked 
+	give pc _reward_ 
+	end quest 
 
-Record n�4----------
-Bon boulot, %pcf. J'ai entendu dire que
-_contact_ a montré aux gardes le
-morceau de _metal_ qu'ils croyaient
-être un _gems_, et ils lui ont payé
-un verre pour s'excuser. Je vous le dis,
-il n'y a pas de vie semblable à celle d'un
-gredin. Voilà votre part du _gems_,
-_reward_ pièces d'or. Vous l'avez
-méritée, %pcf.
+_qgtalk_ task:
+	clicked npc _questgiver_
 
+_clearclick_ task:
+	when _qgtalk_ and not _qgclicked_
+	say 1003
+	clear _clearclick_ _qgtalk_
+--added _qgtalk_ and _clearclick_
 
-Record n�5----------
-Bien, tout le monde sait que _contact_ a volé le joyau. Pourquoi 
-ne l'arrêtent-ils pas ?
-Il y a beaucoup de snobs à __contact_. Les gardes ne sont pas 
-admis là-bas.
+_npcclicked_ task:
+	toting _metal_ and _contact_ clicked 
+	create foe _guards_ every 173 minutes 3 times with 25% success 
+	get item _gems_ 
+	say 1010 
 
-Record n�6----------
-Finalement, les gardes ont arrêté _contact_. C'est sûr qu'%g ne 
-pouvait les retenir éternellement.
-Ouais, ils ont trouvé le _gems_ de %t et arrêté ce =contact_ 
-aussi.
+_1stparton_ task:
+	have _metal_ set _keptmetal_ 
+	have _gems_ set _keptgems_ 
+	end quest 
+--removed unnecessary delay
 
-Record n�7----------
-Ils ont dû laisser partir _contact_ après tout. Il s'est avéré 
-qu'%g était innocent.
-Allons, comment confondre du _metal_ avec un _gems_ ? Ce sont deux 
-pierres, mais quand même !
+_greklith_ task:
+	injured _guards_ 
+	prompt 1020 yes _S.05_ no _S.06_ 
 
-Record n�8----------
-Qu'y a-t-il, %pcf ? Vous voulez ce _gems_ ? Je parie que c'est ça 
-!
+_S.05_ task:
+	take _gems_ from pc 
+	change repute with _questgiver_ by -40 
+	restrain foe _guards_ 
+	end quest 
+--removed unnecessary delay
 
-Record n�9----------
-Ne vous rappelez-vous pas que vous
-étiez supposé obtenir ce _gems_ de
-_contact_, et lui donner le
-_metal_ que je vous avais donné ?
-%oth ! Vous pourrait presque
-croire que c'était difficile.
+variable _S.06_
+_keptmetal_ task:
+	make _metal_ permanent 
 
+_keptgems_ task:
+	make _gems_ permanent 
 
-Record n�10----------
-%oth, %pcf, vous êtes un sauveur.
-Il s'avère que quelqu'un m'a vu avec un
-_gems_ et ils ont deviné que c'était la gemme
-volée. Ce bout de _metal_ sera mon
-ticket de sortie. Rappelez-moi de vous payer
-un verre un jour. Maintenant, retournez vite
-chez _questgiver_.
-Ils risquent d'être très suspicieux si vous n'êtes
-pas rentré avant =1stparton_ jours.
-
-
-Record n�11----------
-%qdt :
- _questgiver_ de
- la Guilde des Voleurs de ___questgiver_
- m'a envoyé vers ___contact_
- dans un bouge appelé __contact_.
- J'ai un _metal_ que je suis
- sensé donner à _contact_
- en échange de la pierre volée qu'on
- a vue sur %g. J'ai =1stparton_ jours
- jours pour mener cette quête à bien.
-
-
-Record n�12----------
-On m'a informé que vous
-aviez le _gems_ que ce
-_contact_ a volée.
-Rendez-le et je ne
-vous ferai aucun mal.
-
-
-
+_S.09_ task:
+	when _npcclicked_ and _1stparton_ 
+	change repute with _questgiver_ by -20 

@@ -1,128 +1,188 @@
-Record n�0----------
-Des rumeurs courent sur la santé fragile de Nulfaga,
-la malheureuse grand-mère de mon mari.
-Son esprit jadis brillant serait désormais totalement
-détruit. Elle s'est murée dans son château
-situé dans les Wrothgarian Mountains,
-et s'adonne à des expériences magiques sans se
-préoccuper des consequences pour sa propre santé.
-J'aimerais avoir de ses nouvelles, mais peu de gens
-possèdent le courage nécessaire pour affronter les
-horreurs dans son château et lui parler.
-Si vous me faites un rapport sur sa santé,
-la récompense sera un _magicitem_.
-Accepterez-vous d'être mon champion dans cette quête ?
+-- Quest: C:\QUESTS\WORKING\S0000005.Qbn.
+-- Main story quest.
+-- QuestId: 5
+Messages: 12
+Quest: S0000005
+DisplayName: Concern for Nulfaga
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                My husband's poor grandmother, Nulfaga,
+<ce>                is rumored to be in very frail health,
+<ce>                her once brilliant mind almost utterly
+<ce>                 destroyed. She has locked herself in
+<ce>                her castle in the Wrothgarian Mountains
+<ce>                and experiments in magical studies with
+<ce>                 no regard for her own safety. I would
+<ce>              know of her condition, but few possess the
+<ce>               bravery to face the horrors of her castle
+<ce>              and speak with her. My reward for a report
+<ce>                    on her health is a magical _magicitem_.
+<ce>                   Will you be my champion in this?
+
+RefuseQuest:  [1001]
+<ce>                  A common enough response. But very
+<ce>                      disappointing nevertheless.
+
+AcceptQuest:  [1002]
+<ce>                    %oth, I am glad to have found a
+<ce>                  champion. The name of her castle is
+<ce>                Shedungent, and it should not take you
+<ce>              longer than =2shedungent_ days to go there
+<ce>              and return. If she is insane, Shedungent
+<ce>               may be a very dangerous place indeed.
+<ce>           Be very careful. May Kynareth and Mara protect you.
+
+QuestFail:  [1003]
+<ce>                  Until you have spoken with Nulfaga,
+<ce>                 I am not interested in conversation.
+
+QuestComplete:  [1004]
+<ce>               I confess I doubted I would ever see you
+<ce>                again. Your news that Nulfaga is still
+<ce>               among the living does my heart much good.
+<ce>                       Here is your _magicitem_.
+
+RumorsDuringQuest:  [1005]
+Why has the Queen developed this sudden affection for crazy old Nulfaga?
+<--->
+Nulfaga is nothing but an insane witch. Why does Queen Aubk-i care if she dies?
+
+RumorsPostfailure:  [1006]
+The Queen has sent yet another mercenary after that %ra failed to find Nulfaga.
+<--->
+Queen Aubk-i couldn't wait for that %ra any longer. She sent another mercenary.
+
+RumorsPostsuccess:  [1007]
+It is nice to see Queen Aubk-i happy at last. She has a very pretty smile.
+<--->
+Queen Aubk-i seems more than happy lately. She seems almost ... relieved.
+
+QuestorPostsuccess:  [1008]
+Thank you once again for taking that dangerous trip to Shedungent to look in on Nulfaga for me.
+
+QuestorPostfailure:  [1009]
+Ah, %pcn. The %ra that refused to visit my husband's grandmother.
+
+QuestLogEntry:  [1010]
+%qdt:
+ Aubk-i, the Queen of Daggerfall has asked
+ me to check on the condition of her
+ grandmother-in-law, Nulfaga. I am to go
+ to Nulfaga's castle, Shedungent of Wrothgaria,
+ and talk to her to see if she is well.
+ I have =2shedungent_ days to report her condition
+ to Aubk-i and get my reward.
+
+Message:  1011
+<ce>               United thoughts and counsels, equal hope
+<ce>              and hazard in the once glorious enterprise
+<ce>              joined with me once, now misery hath joined
+<ce>               in equal ruin! Eternal, eternal, eternal
+<ce>               ruin. I tell the door to my soul to shut
+<ce>                up. Oh, my child, why wouldst thou not
+<ce>              listen, thy ear, thy glorious mortal face,
+<ce>                 thy throat, and the arrow. Oh misery.
+                                     <--->
+<ce>                 Choosing out few words most horrible,
+<ce>               let none them read! Verses, verses frame
+<ce>               which with and other spells like terrible
+<ce>                curses Heaven! Curse Oblivion! My boy!
+<ce>                My boy is dead and let Tamriel tremble
+<ce>                 until he and I findeth peace denied.
+<ce>               Shut up the door to his tomb and my home.
+                                     <--->
+<ce>            Say, what strange motive, Goddess! could compel
+<ce>             an arrow to my beloved Lysandus' bare throat?
+<ce>              Did he die there mourned and blessed or are
+<ce>              my pretty birdies all turned to graywings?
+<ce>             Oh doorway to my heart, shut up lest I sunder
+<ce>            thee. I search the afterworld, the underworld,
+<ce>             and the world-between and no where do I find
+<ce>              the lightness of my son. Oh, madness to thy
+<ce>                       breast I cling suckling!
+                                     <--->
+<ce>                We are only like dead walls or vaulted
+<ce>               graves, that, ruined, yield no echo. Oh,
+<ce>                this gloomy world, in what a shadow or
+<ce>                deep pit of darkness doth, womanish and
+<ce>               fearful, mankind live. How came Lysandus
+<ce>               by his death? In a mist, I know not how.
+<ce>             Oblivion not come yet? Shut up mine door and
+<ce>             keep out its gray skies. I'll move it nearer
+<ce>             by a perspective, or make a glass that shall
+<ce>              set all the world on fire upon an instant.
+<ce>               I cannot sleep; my pillow is stuffed with
+<ce>                        a litter of porcupines.
 
 
-Record n�1----------
-La réponse habituelle.
-Je suis néanmoins très déçue.
+-- Symbols used in the QRC file:
+--
+--              %oth occurs 1 time.
+--              %pcn occurs 2 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 5 times.
+--     =2shedungent_ occurs 2 times.
+--       _magicitem_ occurs 3 times.
+
+QBN:
+Item _magicitem_ magic_item
+
+Person _nulfaga_ named Nulfaga atHome
+Person _aubki_ named Queen_Aubk-i atHome
+
+Place _huntstart_ permanent Shedungent2
+
+Clock _2shedungent_ 150.00:00 0 flag 1 range 0 1
 
 
-Record n�2----------
-%oth, je suis heureuse d'avoir
-trouvé un champion. Le nom de son château est
-Shedungent, et cela ne devrait pas vous prendre
-plus de =2shedungent_ jours pour vous y rendre.
-Si elle est folle, il se peut que Shedungent soit
-un endroit vraiment dangereux. Prenez bien garde.
-Que Kynareth et Mara vous protègent.
+--	Quest start-up:
+	start timer _2shedungent_ 
+	log 1010 step 0 
+	prompt QuestorOffer yes yes no _no_ 
 
+_2shedungent_ task:
+	drop _aubki_ as questor 
+	end quest 
 
-Record n�3----------
-Tant que vous n'aurez pas parlé à Nulfaga,
-je ne suis pas disposée à discuter avec vous.
+_S.01_ task:
+	clicked npc _nulfaga_ 
+	say 1011 
 
+_pcgetsgold_ task:
+	when _S.03_ and _S.01_ 
+	give pc _magicitem_ 
+	start quest 107 107 
+	stop timer _2shedungent_ 
+	repute with _aubki_ exceeds 15 do _S.11_ 
+	change repute with _aubki_ by +10 
+	mute npc _aubki_ 
+	drop _aubki_ as questor 
 
-Record n�4----------
-J'admets que je ne pensais pas vous revoir un jour.
-Mon coeur se réjouit de savoir que Nulfaga fait
-toujours partie des vivants.
-Voici votre _magicitem_.
+_S.03_ task:
+	clicked npc _aubki_ 
 
+variable _2letter_
+variable _S.05_
+variable _S.06_
+variable _S.07_
+yes task:
+	reveal _huntstart_ in province 16 at 50966 
+	say AcceptQuest 
+	add _aubki_ as questor 
 
-Record n�5----------
-Pourquoi la Reine a-t-elle developpé une soudaine affection pour 
-cette vieille folle de Nulfaga ?
-Nulfaga n'est rien d'autre qu'une sorcière démente. Pourquoi la 
-Reine Aubk-i s'inquiète-t-elle qu'elle meure ?
+_no_ task:
+	say RefuseQuest 
+	drop _aubki_ as questor 
+	end quest 
 
+_clearclick_ task:
+	when _S.03_ and not _S.01_ 
+	clear _S.03_ _clearclick_ 
 
-Record n�6----------
-La Reine a encore envoyé un autre mercenaire après que ce %ra ait 
-échoué à trouver Nulfaga.
-La Reine Aubk-i ne pouvait plus attendre ce %ra plus longtemps. 
-Elle a envoyé un autre mercenaire.
-
-
-Record n�7----------
-Ca fait plaisir de voir enfin la Reine Aubk-i heureuse. Elle a un 
-très joli sourire.
-La Reine Aubk-i semble plus qu'heureuse, ces derniers temps. Elle 
-semble presque... soulagée.
-
-
-Record n�8----------
-Ah, %pcn. Le %ra qui a refusé de rendre visite à la grand-mère de 
-mon défunt mari.
-
-
-Record n�9----------
-Encore merci d'avoir fait ce dangereux voyage vers Shedungent pour 
-vous enquérir de la santé de Nulfaga.
-
-Record n�10----------
-%qdt :
- Aubk-i, la Reine de Daggerfall m'a demandé de
- vérifier la santé de sa belle-grand-mère, Nulfaga.
- Je dois me rendre au château de Nulfaga, Shedungent
- en Wrothgaria, et lui parler pour voir comment
- elle se porte.
- J'ai =2shedungent_ jours pour rapporter de ses nouvelles
- à Aubk-i et recevoir ma récompense.
-
-
-Record n�11----------
-Les avis et pensées unis, chansce et risque
-égaux dans la glorieuse entreprise d'austrefois
-s'est joint à moi une fois, maintenant misère
-l'eust rejoint également en ruine ! Eternelle,
-éternelle, éternelle ruine ! Oh, mon enfant,
-pourquoi ne veux-tu point écouter,
-ton oreille, ton glorieuse visage mortel, ta
-gorge, et la flesche. Oh misère.
-
-Choisissant quelques mots parmi les plus
-horribles, ne laisse personne les lire ! Versets,
-structure de versets qui avec d'autre sorts
-terribles ont maudit le Paradis !
-Maudit Oblivion ! Mon fils ! Mon fils est
-mort et laisse Tamriel trembler jusqu'à ce que
-lui et moi ayions restrouvé la paix qui nous
-est resfusée.
-
-Dites, quelle estrange motivation, Déesse !
-pourrait pousser une flesche vers la nue gorge
-de mon bienaimé Lysandus ? Est-il mort là-bas
-pleurant et blessé ou les ailes de mes genstils
-oisillons sont-elles toutes devenues grises ?
-Je fouille l'après-monde, le
-monde souterrain, et le monde intersmediaire
-et nulle part je ne puis trouver la lueur de mon
-mon fils. Oh, folie sur ton poitrail je m'accoche
-et me nourrit.
-
-Nous sommes pasreils à des murs abattus ou des
-tombes voutées qui, en ruine, ne renvoient auquns
-echo. Oh, ce monde morose, dans lequel une ombre
-ou un profond puit d'obscurité faist que, féminine et
-craintive, l'humanité vit. Comment Lysandus est-il
-sorti de sa mort ? Dans un brouillard, je ne sais pas
-comment. Oblivion ne vient pas encore ?
-Je vais la rapprocher de mon point de vue, ou faire
-un verre qui devrait mettre le monde entier en feu
-en un instant. Je ne peux pas dormir; mon oreiller
-est rembourré avec une portée de porcs-epics.
-
-
-
+variable _S.11_
+_S.12_ task:
+	when _S.11_ and _pcgetsgold_ 
+	start quest 13 13 
+	end quest 

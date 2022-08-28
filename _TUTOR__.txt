@@ -1,338 +1,407 @@
-Record n�0----------
-Je vais vous donner un indice %ra.
-Si vous voulez réussir à lancer
-des sorts, intégrez la Guilde des Mages.
-
-Un petit indice : déposez votre argent
-dans la banque de %reg. Demandez
-leur de vous donner une lettre de crédit.
-Elles ne pèsent presque rien et sont
-acceptées partout.
-
-Les magasins spécialisés sont le
-meilleur endroit pour trouver des
-objets particuliers.
-
-Une nouvelle loi vient d'être votée.
-Dorénavant, vous ne pouvez plus dormir
-dans les rues. Les gardes patrouillent
-même en dehors des murailles.
-Vous devez donc réserver une chambre
-dans une auberge.
-
-Tout le monde devrait intégrer un temple.
-L'unique question est : quel Dieu est le meilleur
-pour vous ? A votre place, je me renseignerais
-auprès d'eux
-
-
-Record n�1----------
-Les choses se corsent dans la ville
-de Daggerfall. Si vous êtes un
-aventurier, allez-y.
-
-J'ai entendu dire que la royauté de
-Wayrest faisait bouger les choses.
-N'importe qui avec le courage
-de demander du travail au Roi ou
-à la Reine devrait y aller.
-
-J'ai entendu dire que la ville de Sentinel
-était un bon endroit pour faire fortune
-tout en menant une vie d'aventurier.
-La famille royale engage des volontaires
-pour les travaux dangereux.
-
-
-Record n�2----------
-The Elder Scrolls: Daggerfall a un tutoriel
-qui peut être activé pendant le jeu. Il se lance
-durant le premier donjon puis disparait
-quelque temps après. Voulez vous l'utiliser ?
-
-
-Record n�3----------
-Tutoriel : Leçon 1
-
-La toute première chose que vous devriez faire
-est de bouger votre personnage. Ne vous inquiétez pas
-pour les monstres, il n'y en a pas pour le moment.
-
-Quand ce texte disparaitra, bougez votre souris.
-Elle change de forme vers les bords de l'écran.
-Appuyez sur le bouton gauche et observez. Si
-vous utilisez l'interface, cela changera la direction
-dans laquelle vous regardez.
-
-Astuce : plus le curseur de la souris est proche
-des bords de l'écran, plus vous avancerez vite.
-
-Je reviendrai dans approximativement une minute
-pour vous expliquer le maniement des armes
-et la façon de combattre les monstres.
-
-
-Record n�4----------
-Tutoriel : Leçon 2
-
-Avant de vous aventurer dans Privateer's Hold,
-vous devriez vous armer. Vous pouvez cliquer sur
-l'icône en forme de sac (inventaire) ou appuyer sur F6.
-
-Cliquez sur une arme : votre personnage s'en équipe.
-Maintenant vous pouvez dégainer votre arme. Appuyez
-sur SORTIR pour revenir au jeu.
-
-Astuce : vous pouvez vous équiper de deux armes.
-Si vous appuyez sur H (par défaut) vous basculerez
-d'une arme à l'autre.
-
-Cliquez sur OUI pour poursuivre ou sur NON pour quitter
-ce tutoriel.
-
-
-Record n�5----------
-Tutoriel : Leçon 3
-
-Pour dégainer une arme, cliquez sur l'icone représentant
-des épées croisées, ou appuyez sur A (par défaut).
-Ne vous inquiétez pas si elle n'apparait pas
-immédiatement : cela est dû au geste que fait votre
-personnage pour la préparer.
-
-Pour utiliser votre arme : tenez le bouton droit appuyé
-puis bougez votre souris. Voilà comment vous combattrez
-les monstres.
-
-Astuce : si vous bougez votre souris dans certaines
-directions, cela change votre attaque. Chaque mouvement a
-ses
-propres chances de toucher et de blesser votre adversaire.
-
-Vous avez une minute pour vous entrainer au maniement
-des armes.
-
-Cliquez sur OUI pour poursuivre ou sur NON pour quitter
-ce tutoriel.
-
-
-Record n�6----------
-Tutoriel : Leçon 4
-
-Après le couloir et derrière la porte se trouve un rat.
-Tuez-le !
-
-Quand vous serez devant la porte, placez le X au milieu
-de l'écran sur le rat puis dégainez et appuyez sur le bouton
-droit de la souris pour l'attaquer. Notez que le bouton
-gauche
-agit sur les portes, les objets et même les gens.
-
-Si vous utilisez l'interface, il vous suffit de centrer
-l'écran sur la porte puis d'appuyer sur le bouton
-gauche de la souris pour l'ouvrir.
-
-Astuce : cette porte est un passage secret. Après avoir tué
-le rat, refermez-la. Toutes les portes camouflées ne sont
-pas aussi faciles à remarquer !
-
-Je reviendrai dans quelques instants.
-Cliquez sur OUI pour poursuivre ou sur NON pour quitter
-ce tutoriel.
-
-
-Record n�7----------
-Tutoriel : Leçon 5
-
-Il y a un trésor sur l'autel noir dans la salle du rat.
-Approchez-vous en et cliquez dessus.
-Cela a pour but d'ouvrir votre inventaire pour effectuer
-un échange. Tout ce qui se trouve dans le trésor se
-situe dans la colonne de droite.
-
-Vous avez le choix entre deux modes : EQUIPER
-et ENLEVER. Cliquez sur l'un des deux. Maintenant,
-choisissez n'importe quel objet de la colonne de droite
-et tranferez-le (action ENLEVER) ou équipez-vous en
-(action EQUIPER).
-
-Astuce : vous pouvez obtenir des renseignements sur
-un objet en le sélectionnant puis en cliquant sur INFO.
-
-Je reviendrai d'ici une minute afin de vous expliquer
-comment sauvegarder.
-Cliquez sur OUI pour poursuivre ou sur NON pour quitter
-ce tutoriel.
-
-
-Record n�8----------
-Tutoriel : Leçon 6
-
-Puisque vous ne combattez pas en ce moment, il serait
-astucieux de sauvegarder votre progression. Pour cela,
-pressez la touche ESC puis choisissez SAUVEGARDER.
-Sélectionnez un emplacement puis donnez-lui un nom.
-
-Si vous faites tuer, vous pouvez recharger cette sauvegarde.
-Ainsi, vous n'aurez pas à recréer un personnage.
-
-Astuce : n'hésitez pas à sauvegarder souvent,
-on ne sait jamais ce qui peut arriver.
-
-Je reviendrai dans quelques instants. Profitez-en pour
-explorer ce donjon.
-Cliquez sur OUI pour poursuivre ou sur NON pour quitter
-ce tutoriel.
-
-
-Record n�9----------
-Tutoriel : Leçon 7
-
-Si votre personnage peut lancer des sorts, essayez en
-un sur le prochain monstre que vous croiserez.
-
-Appuyez sur BACKSPACE (par défaut) pour afficher
-les sorts disponibles. Sélectionnez CHOC : c'est
-un sort qui ne fonctionne que si vous pouvez toucher
-votre ennemi. Le principe est le même que pour les
-armes : centrez le X sur votre cible. La plupart des
-sorts partiront dans la direction de la croix.
-
-Astuce : vous pouvez toujours lancer des sorts même si
-le curseur n'est pas un X. Dans ce cas le sort ira dans la
-direction du milieu de l'écran (là où le X aurait dû être).
-
-Je vous attends en dehors du donjon.
-
-
-Record n�10----------
-Tutoriel : Leçon 8
-
-Félicitations ! Vous venez de terminer votre
-premier donjon, Privateer's Hold.
-Je parie que vous vous demandez ce que vous
-allez bien pouvoir faire maintenant ! Pourquoi ne pas
-faire un voyage rapide vers une ville ? Les villes
-rassemblent la majorité des services du jeu.
-
-(A suivre...)
-
-
-Record n�11----------
-Pour voyager, appuyez sur W. La région dans
-laquelle vous êtes (Daggerfall) clignote en rouge.
-Cliquez sur cette région pour faire apparaitre la carte.
-Il y a pas mal d'endroits où aller ! Essayons de trouver la
-ville de Daggerfall. Cliquez sur CHERCHER puis tapez
-le nom de la ville qui vous intéresse (Daggerfall).
-Une fois trouvée, une fenêtre apparaitra. Afin de faire
-le voyage le plus pratique possible, cliquez sur
-PRUDEMMENT et AUBERGES, tous les deux sélectionnés
-par défaut. Sinon vous pourriez arriver de nuit et vous
-auriez alors à escalader les murs pour pénétrer dans la
-ville.
-
-Pour poursuivre ce tutoriel, vous devez vous rendre
-dans une ville importante, telle que Daggerfall.
-Je vous laisse =2dagger_ jours pour vous y rendre.
-Cela devrait être amplement suffisant.
-
-
-Record n�12----------
-Tutoriel : Leçon 9
-
-Ah, les bruits et les odeurs de la ville ! Etes vous
-arrivé de nuit ou avez vous essayé de dormir ?
-Si tel est le cas, les gardes ont pour ordre de
-ne laisser personne dormir en pleine rue ou tenter
-d'escalader les murs. Le seul endroit qu'il vous reste
-pour vous reposer sont les tavernes et il faut y réserver
-une chambre.
-
-La première chose que vous devez faire est de changer
-le mode actuel en DIALOGUE. Cliquez sur l'icône
-représentant une main pour la transformer en une bulle.
-Vous pouvez aussi appuyer sur F4. Maintenant,
-approchez vous d'un des habitants. Ils ne vous parleront
-que si vous ne bougez pas et que vous n'êtes pas armé.
-Cliquez sur une personne et parlez lui.
-
-(A suivre...)
-
-
-Record n�13----------
-Vous devez probablement chercher un magasin. C'est
-un des endroits ou vous pouvez vendre votre surplus de
-matériel. Demandez à un habitant où se trouve le magasin.
-Si cette personne ne sait pas, tentez de le demander à
-quelqu'un d'autre. Il arrive même que certaines personnes
-vous indiquent l'endroit en le marquant sur votre carte.
-
-Appuyez sur M pour voir la carte de la ville. Vous pourrez
-ainsi savoir dans quelle direction aller. De plus, les
-différentes couleurs vous permettront de mieux vous repérer.
-Vous devez trouver une taverne pour y passer la nuit.
-Les tavernes sont représentées en vert.
-
-Astuce : Appuyez sur F3 pour activer le mode INFO.
-Vous pouvez ensuite savoir quel est le rôle ou le nom d'un
-magasin. Il arrive fréquemment que certains magasins
-n'ouvrent qu'à certaines heures.
-Vous pouvez soit ATTENDRE, soit vous  reposer,
-pour faire passer le temps.
-Ne quittez pas la ville, je vous recontacterai demain.
-
-
-Record n�14----------
-Tutoriel : Leçon 10
-
-Aujourd'hui, nous allons parler des Guildes. Une Guilde
-est une organisation qui propose différents services à ses
-membres. Plus votre rang dans une Guilde augmentera,
-plus vous aurez accès à de nouveaux services. Pour
-augmenter de rang, il vous faudra augmenter vos aptitudes
-et remplir différentes missions pour améliorer votre
-réputation
-dans cette Guilde. Vous pouvez intégrer plusieurs Guildes.
-
-Tous les lanceurs de sorts devraient intégrer la Guilde
-des Mages. Tout le monde devrait également intégrer
-un temple. Cependant, choisissez-le avec attention,
-car vous ne pouvez intégrer qu'un seul et unique temple.
-Les guerriers devraient intégrer la Guilde des Guerriers
-ou un Ordre de Chevaliers.
-
-Astuce : voleurs et assassins, remplissez votre rôle.
-Les Guildes intéressées prendront alors contact avec vous.
-
-Je reviendrai demain pour la leçon suivante.
-
-
-Record n�15----------
-Tutoriel : Leçon 11
-
-Aujourd'hui nous allons remplir une quête. Une quête est
-une mission qui vous est donnée par un personnage en ville.
-C'est étonnant le nombre de personnes qui peuvent vous
-assigner des missions de ce genre !
-
-Allez dans une taverne ou parlez à quelqu'un dans la rue.
-Demandez leur un travail. Ils vous indiqueront alors les
-personnes qui pourraient employer vos services.
-Ne vous sentez surtout pas obligé de prendre toutes
-les quêtes que l'on vous propose. En fait, les gens
-préfèrent quelqu'un qui réussit les quêtes plutôt que
-quelqu'un qui les accumule. Réussissez une quête,
-augmentez quelque peu votre réputation auprès de
-votre employeur et de ses amis, c'est un très bon moyen
-pour gagner un peu d'argent et découvrir de nouveaux donjons !
-
-
-
-Record n�16----------
-C'était la dernière leçon du tutoriel.
-Il y aurait encore beaucoup de choses à vous enseigner
-sur Tamriel et sur ce jeu, mais vous avez désormais
-les bases pour pour être capable d'explorer et d'apprendre
-toutes ces choses par vous-même.
-Bonne chance. Et surtout, amusez vous !
+-- Quest: C:\QUESTS\WORKING\_TUTOR__.Qbn.
+-- StartsBy: letter
+-- Questee: anyone
+-- Repute: 0
+-- QuestId: 0
+Messages: 57
+Quest: _TUTOR__
+-- Message panels
+QRC:
+
+RumorsDuringQuest:  [1005]
+<ce>                       Je vais vous donner un conseil %ra.
+<ce>                         Si vous voulez réussir à lancer,
+<ce>                      des sorts, intégrez la Guilde des Mages.
+                                     <--->
+<ce>                  Un petit conseil : déposez votre argent
+<ce>                  dans la banque de %reg. Demandez
+<ce>                 leur de vous donner une lettre de crédit.
+<ce>                  Elles ne pèsent presque rien et sont
+<ce>                          acceptées partout.
+                                     <--->
+<ce>                  Les magasins spécialisés sont le
+<ce>                  meilleur endroit pour trouver des
+<ce>                       objets recherchés.
+                                     <--->
+<ce>                   Une nouvelle loi vient d'être votée.
+<ce>                  Dorénavant, vous ne pouvez plus dormir
+<ce>                 dans les rues. Les gardes patrouillent
+<ce>                    même en dehors des murailles.
+<ce>                   Vous devez donc réserver une chambre
+<ce>                            dans une auberge.
+                                     <--->
+<ce>                 Tout le monde devrait intégrer un temple.
+<ce>          La seule question est : quel Dieu est le meilleur pour vous ?
+<ce>             A votre place, je me renseignerais à la source.
+
+RumorsPostfailure:  [1006]
+<ce>                    Les choses se corsent dans la ville
+<ce>                    de Daggerfall. Vous devriez aller
+<ce>                y faire un tour si vous cherchez l'aventure.
+                                     <--->
+<ce>                    J'ai entendu dire que la royauté de
+<ce>                  Wayrest faisait bouger les choses.
+<ce>                 Une belle opportunité pour quiconque
+<ce>                   ayant du courage pour demander
+<ce>                   du travail au Roi ou à la Reine.
+                                     <--->
+<ce>                     J'ai entendu dire que la ville de Sentinel
+<ce>                   était un bon endroit pour faire fortune
+<ce>                    et l'opportunité d'un peu d'aventure.
+<ce>                   La famille royale engage des volontaires
+<ce>                       pour les travaux dangereux.
+
+QuestLogEntry:  [1010]
+<ce>             The Elder Scrolls: Daggerfall a un tutoriel
+<ce>              qui peut être activé pendant le jeu. Il se lance
+<ce>             durant le premier donjon puis disparait
+<ce>              quelque temps après. Voulez vous l'utiliser ?
+
+Message:  1012
+<ce>                           Tutoriel : Leçon 1
+<ce>
+<ce>           La toute première chose que vous devriez faire
+<ce>           est de déplacer votre personnage. Ne vous inquiétez pas
+<ce>          pour les monstres, il n'y en a pas dans la première pièce.
+<ce>
+<ce>
+<ce>       Utilisez les touches W, A ,S et D pour vous déplacer
+<ce>        des bords de l'écran, plus vous avancerez vite.
+<ce>
+<ce>          Astuce: Ce sont les touches par défaut. Vous pourrez les changer par la suite
+<ce>          Utiliser la touche ECHAP et les bouton de CONTROLS.
+<ce>
+<ce>        Je reviendrai dans approximativement une minute
+<ce>        pour vous expliquer le maniement des armes
+<ce>        et la façon de combattre les monstres.
+<ce>
+
+Message:  1013
+<ce>                           Tutoriel : Leçon 2
+<ce>
+<ce>           Avant de braver les profondeurs de Privateer's Hold,
+<ce>          vous devriez vous armer. Appuyez sur la touche F6
+<ce>          pour afficher la fenêtre d'inventaire.
+<ce>
+<ce>         Cliquez sur une arme : votre personnage s'en équipe.
+<ce>         Maintenant vous pouvez dégainer votre arme.
+<ce>         Appuyez sur SORTIR pour revenir au jeu.
+<ce>
+<ce>         Astuce : vous pouvez vous équiper de deux armes.
+<ce>       appuyez sur la touche H pour passer de l'une à l'autre.
+<ce>
+<ce>   Cliquez sur OUI pour poursuivre ou sur NON pour quitter ce tutoriel.
+
+Message:  1015
+<ce>                           Tutoriel : Leçon 3
+<ce>
+<ce>        Pour dégainer une arme, cliquez sur l'icone représentant
+<ce>        des épées croisées, ou appuyez sur Z (par défaut).
+<ce>        Ne vous inquiétez pas si elle n'apparait pas immédiatement.
+<ce>
+<ce>         Pour utiliser votre arme : tenez le bouton droit appuyé
+<ce>         puis bougez votre souris. Voilà comment vous combattrez
+<ce>                        les monstres.
+<ce>
+<ce>         Astuce : si vous bougez votre souris dans certaines
+<ce>        directions, cela change votre attaque. Chaque mouvement a
+<ce>      propres chances de toucher et de blesser votre adversaire.
+<ce>
+<ce>        Vous avez une minute pour vous entrainer au maniement des armes.
+<ce>
+<ce>           Cliquez sur OUI pour poursuivre ou sur NON pour quitter ce tutoriel.
+
+Message:  1020
+<ce>                           Tutoriel : Leçon 4
+<ce>
+<ce>          Après le couloir et derrière la porte, il y a un rat géant.
+<ce>                           Allez le tuer!
+<ce>
+<ce>           Quand vous serez devant la porte, placer la au
+<ce>           centre de l'écran et cliquer avec la souris pour
+<ce>          l'ouvrir. C'est comme cela que vous pourrez utiliser les objets,
+<ce>          tels que les portes, leviers, roues, trésors ou même les gens.
+<ce>          Vous pouvez parfois trouver des trésors sur les corps au sol
+<ce>            en cliquant dessus comme vous le feriez avec un coffre.
+<ce>
+<ce>         Astuce: Cette porte est un passage secret. Après avoir tué
+<ce>         le rat, sortez et refermez-la en cliquant à nouveau dessus.
+<ce>         Toutes les portes camouflées ne sont pas aussi faciles à remarquer !.
+<ce>
+<ce>       Je reviendrai dans quelques instants.
+<ce>       Cliquez sur OUI pour poursuivre ou sur NON pour quitter ce tutoriel.
+
+Message:  1025
+<ce>                           Tutoriel : Leçon 5
+<ce>
+<ce>         Il y a un trésor sur l'autel noir dans la salle avec le rat.
+<ce>          Approchez-vous en et cliquez dessus.
+<ce>         Cela affiche automatiquement votre inventaire.
+<ce>         L'équipement dans la pile est dans
+<ce>         la colonne de droite de ton inventaire.
+<ce>
+<ce>         Vous avez le choix entre deux modes : EQUIPER et ENLEVER.
+<ce>         Cliquez sur l'un deux. A présent, quand vous cliquez sur un objet
+<ce>         de la colonne de droite, il ira dans votre inventaire (mode ENLEVER)
+<ce>         ou sera directement équipé sur votre personnage (mode EQUIPER).
+<ce>
+<ce>            Astuce : vous pouvez obtenir des renseignements sur
+<ce>            un objet en cliquant sur INFO puis en cliquant dessus.
+<ce>
+<ce>          Je reviendrai d'ici une minute afin de vous expliquer comment sauvegarder.
+<ce>          Cliquez sur OUI pour poursuivre ou sur NON pour quitter ce tutoriel.
+
+Message:  1030
+<ce>                           Tutoriel : Leçon 6
+<ce>
+<ce>         Ce peut être le bon moment de sauvegarder votre partie (en supposant
+<ce>          que vous n'êtes pas au milieu d'un combat). Appuyez sur la touche ECHAP
+<ce>          et cliquez sur SAUVEGARDER.
+<ce>
+<ce>         Si vous êtes tués dans ce donjon, vous pourrez revenir
+<ce>       à cette sauvegarde.
+<ce>
+<ce>        Astuce: Vous pouvez aussi utilise la touche F9 pour
+<ce>        sauvegarder rapidement et F12 pour charger rapidement la partie.
+<ce>
+<ce>         Je reviendrai dans quelques instants. Profitez-en pour
+<ce>         explorer ce donjon. Click YES to continue, NO to
+<ce>         Cliquez sur OUI pour poursuivre ou sur NON pour quitter ce tutoriel.
+
+Message:  1035
+<ce>                           Tutoriel : Leçon 7
+<ce>
+<ce>          Si votre personnage peut lancer des sorts, lancez en
+<ce>              un sur le premier monstre venu.
+<ce>
+<ce>          Appuyez sur la touche RETOUR en ARRIERE  pour afficher la liste des sors.
+<ce>        Sélectionnez CHOC : un sort qui ne fonctionne que si vous
+<ce>        pouvez toucher votre ennemi. Le principe est le même que pour les
+<ce>        armes : centrez le X sur votre cible. La plupart des;
+<ce>        sorts partiront dans la direction de la croix.
+<ce>
+<ce>           Je vais attendre que vous sortiez du donjon
+<ce>                    pour la prochaine leçon du tutoriel.
+
+Message:  1040
+<ce>                           Tutoriel : Leçon 8
+<ce>
+<ce>         Félicitations ! Vous venez de terminer votre
+<ce>             premier donjon, Privateer's Hold.
+<ce>         Je parie que vous vous demandez ce que vous
+<ce>         allez bien pouvoir faire maintenant ! Pourquoi ne pas
+<ce>          faire un voyage rapide vers une ville ? Les villes
+<ce>          rassemblent la majorité des services du jeu.
+<ce>
+<ce>                           (A suivre...)d
+
+Message:  1041
+<ce>         Pour voyager, appuyez sur la touche V. La région dans
+<ce>          laquelle vous êtes (Daggerfall) est surlignée de rouge.
+<ce>         Cliquez sur cette région pour faire apparaitre la carte.
+<ce>        Il y a pas mal d'endroits où aller ! Essayons de trouver la
+<ce>            ville de Daggerfall. Cliquez sur CHERCHER puis tapez
+<ce>            le nom de la ville qui vous intéresse (Daggerfall).
+<ce>           La façon de voyager la pratique est de choisir les options
+<ce>          PRUDEMMENT et AUBERGES, tous les deux sélectionnés
+<ce>          par défaut. Sinon vous pourriez arriver de nuit et vous
+<ce>        auriez alors à escalader les murs pour pénétrer dans la ville.
+<ce>
+<ce>           Pour poursuivre ce tutoriel, vous devez vous rendre
+<ce>           dans une ville importante, telle que Daggerfall.
+<ce>           Je vous laisse =2dagger_ jours pour vous y rendre.
+<ce>             Cela devrait être amplement suffisant.
+
+QuestTimeLapse:  [1045]
+<ce>                           Tutoriel : Leçon 9
+<ce>
+<ce>         Ah, les bruits et les odeurs de la ville ! Etes vous
+<ce>        arrivé de nuit ou avez vous essayé de dormir ?
+<ce>        Si tel est le cas, les gardes ont pour ordre de
+<ce>       ne laisser personne dormir en pleine rue ou tenter
+<ce>       d'escalader les murs. Le seul endroit qu'il vous reste
+<ce>       pour vous reposer sont les tavernes et il faut y réserver
+<ce>                        une chambre.
+<ce>
+<ce>        La première chose que vous devez faire est de changer
+<ce>        le mode actuel en DIALOGUE (F4) (vous pouvez basculer d'un
+<ce>       mode d'interaction à l'autre avec les touches F1 à F4).
+<ce>        Maintenant, approchez vous d'un des habitants. Ils ne vous parleront
+<ce>        que si vous ne bougez pas et que vous n'êtes pas armé.
+<ce>                  Cliquez sur une personne et parlez lui.
+<ce>
+<ce>                           (A suivre...)
+
+Message:  1046
+<ce>        Vous devez probablement chercher un magasin. C'est
+<ce>        un des endroits ou vous pouvez vendre votre surplus de
+<ce>       matériel. Demandez à un habitant où se trouve le magasin.
+<ce>       Si cette personne ne sait pas, tentez de le demander à
+<ce>        quelqu'un d'autre. Il arrive même que certaines personnes
+<ce>        vous indiquent l'endroit en le marquant sur votre carte.
+<ce>
+<ce>        Appuyez sur M pour voir la carte de la ville. Vous pourrez
+<ce>        ainsi savoir dans quelle direction aller. Les magasins ont
+<ce>       une enseigne sur leur devanture. Apprennez les signes pour se
+<ce>    repérer plus facilement. Vous devriez trouver une taverne pour dormir.
+<ce>     Cherchez une pinte de bière (une zone verte sur la carte).
+<ce>
+<ce>       Astuce : Appuyez sur F3 pour activer le mode INFO.
+<ce>      Vous pouvez ensuite savoir quel est le rôle ou le nom d'un
+<ce>      magasin. De nombreux magasins n'ouvrent qu'à certaines heures.
+<ce>      Vous pouvez soit ATTENDRE, soit vous  reposer, pour faire passer le temps.
+<ce>
+<ce>      Ne quittez pas la ville, je vous recontacterai demain.
+
+Message:  1050
+<ce>                          Tutoriel : Leçon 10
+<ce>
+<ce>      La leçon d'aujourd'hui traitera des guildes. Une guilde est une organisation
+<ce>       qui propose différents services à ses membres. Plus votre rang dans une Guilde
+<ce>        augmentera, plus vous aurez accès à de nouveaux services. Pour augmenter
+<ce>       de rang, il vous faudra augmenter les aptitudes qui importent à la guilde
+<ce>       et remplir différentes missions pour améliorer votre réputation dans cette Guilde.
+<ce>            Vous pouvez intégrer plusieurs Guildes.
+<ce>
+<ce>        Tous les lanceurs de sorts devraient intégrer la Guilde des Mages.
+<ce>        Tout le monde devrait également vénérer un dieu en rejoignant son temple
+<ce>        Cependant, choisissez-le avec attention, car vous ne pouvez en rejoindre qu'un seul.
+<ce>        Les guerriers devraient intégrer la Guilde des Guerriers ou un Ordre de Chevaliers.
+<ce>
+<ce>         Astuce : voleurs et assassins, remplissez votre rôle.
+<ce>        Les Guildes intéressées prendront alors contact avec vous.
+<ce>
+<ce>              Je reviendrai demain pour la leçon suivante.
+
+Message:  1055
+<ce>                          Tutoriel : Leçon 11
+<ce>
+<ce>        Aujourd'hui nous allons remplir une quête. Une quête est
+<ce>      une mission qui vous est donnée par un personnage en ville.
+<ce>        C'est étonnant le nombre de personnes qui ont besoin
+<ce>           des services de braves héros ou héroïnes
+<ce>
+<ce>      Allez dans une taverne ou parlez à quelqu'un dans la rue.
+<ce>      Demandez leur un travail. Ils vous indiqueront alors les
+<ce>      Ne vous sentez surtout pas obligé de prendre toutes
+<ce>     les quêtes que l'on vous propose. En fait, les gens
+<ce>      préfèrent quelqu'un qui réussit les quêtes plutôt que
+<ce>       quelqu'un qui les accumule. Réussissez une quête,
+<ce>      augmentez quelque peu votre réputation auprès de
+<ce>      votre employeur et de ses amis, c'est un très bon moyen
+<ce>    de gagner un peu d'argent et découvrir de nouveaux donjons !
+<ce>
+Message:  1056
+<ce>        C'était la dernière leçon du tutoriel.
+<ce>      Il y aurait encore beaucoup de choses à vous enseigner
+<ce>      sur Tamriel et sur ce jeu, mais vous avez désormais
+<ce>      les bases pour pour être capable d'explorer et d'apprendre
+<ce>                    toutes ces choses par vous-même.
+<ce>              Bonne chance. Et surtout, amusez vous !
+
+-- Symbols used in the QRC file:
+--
+--               %ra occurs 1 time.
+--              %reg occurs 1 time.
+--         =2dagger_ occurs 1 time.
+
+QBN:
+
+
+Place pirateerHold permanent PirateerHold2
+Place cityOfDaggerfall permanent DaggerfallCity1
+
+-- "range 0 1" removed from all timers so no days get added
+Clock _S.03_ 00:06 0 flag 1
+Clock _S.04_ 00:08 0 flag 1
+Clock _S.05_ 00:24 0 flag 1
+Clock _S.06_ 00:12 0 flag 1
+Clock _S.07_ 00:06 0 flag 1
+Clock _S.08_ 00:08 0 flag 1
+Clock _S.10_ 14.00:00 0 flag 1
+Clock _day1_ 1.00:00 0 flag 1
+Clock _day2_ 1.00:00 0 flag 1
+Clock _2dagger_ 13.22:40 0 flag 1
+
+
+--	Quest start-up:
+	prompt 1010 yes yes no _no_
+
+variable _exitstarter_
+yes task:
+	pc at pirateerHold set _exitstarter_
+	start timer _S.03_
+	say 1012
+
+_no_ task:
+	start quest 977 977
+	end quest
+
+_S.03_ task:
+	prompt 1013 yes _yes1_ no _no_
+
+_S.04_ task:
+	prompt 1015 yes _yes2_ no _no_
+
+_S.05_ task:
+	prompt 1025 yes _yes4_ no _no_
+
+_S.06_ task:
+	prompt 1020 yes _yes3_ no _no_
+
+_S.07_ task:
+	prompt 1030 yes _ring_ no _no_
+
+_S.08_ task:
+	prompt 1035 yes _S.09_ no _no_
+
+variable _S.09_
+variable _S.10_
+variable _used_
+_day1_ task:
+	prompt 1050 yes _poet_ no _no_
+
+_day2_ task:
+	start quest 977 977
+	say 1055
+	say 1056
+	end quest
+
+_2dagger_ task:
+	start quest 977 977
+	end quest
+
+_S.15_ task:
+	pc at cityOfDaggerfall set _S.25_
+	when yes and not _exitstarter_
+	prompt 1041 yes _yes6_ no _no_
+	say 1040
+
+_yes1_ task:
+	start timer _S.04_
+
+_yes2_ task:
+	start timer _S.06_
+
+_yes3_ task:
+	start timer _S.05_
+
+_yes4_ task:
+	start timer _S.07_
+
+_ring_ task:
+	start timer _S.08_
+
+_yes6_ task:
+	start timer _2dagger_
+
+_note_ task:
+	start timer _day1_
+
+_poet_ task:
+	start timer _day2_
+
+variable _scum_
+_S.25_ task:
+	prompt 1046 yes _note_ no _no_
+	say 1045

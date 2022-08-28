@@ -1,115 +1,183 @@
-Record n�0----------
-Nous avons une urgence, %pcf.
-La Guilde des Mages a découvert une
-faille entre notre dimension, Mundus, et Oblivion.
-Je ne prétend pas savoir ce que cela signifie,
-mais ça n'est pas bon. Toutes les sortes de
-Daedra entrent dans notre monde. La Guilde
-des Mages certifie qu'elle est en mesure de
-refermer le passage, mais c'est à nous de
-nous occuper des quelques daedras qui
-ont réussi à passer. Acceptez-vous cette
-quête dangereuse, non pour l'or mais
-pour la gloire ?
+-- Quest: C:\QUESTS\WORKING\B0B70Y14.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: knight
+-- Repute: 70
+-- QuestId: 14
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: B0B70Y14
+DisplayName: Invasion from Oblivion
+-- Message panels
+QRC:
 
-C'est peut-être la fin, %pct. Pendant
-des siècles les prophètes ont parlé
-du jour où les murs d'éther séparant
-notre dimension, Mundus, et Oblivion, la
-patrie des Daedra, voleraient en éclats.
-La Guilde des Mages va essayer de
-colmater la faille, mais quelques
-créatures infernales ont déjà réussi à
-s'infiltrer. Pouvons-nous compter sur vous,
-%pct ?
- 
+QuestorOffer:  [1000]
+<ce>                     Nous avons une urgence, %pcf.
+<ce>                 La Guilde des Mages a découvert une
+<ce>            faille entre notre dimension, Mundus, et Oblivion.
+<ce>             Je ne prétend pas savoir ce que cela signifie,
+<ce>            mais ça n'est pas bon. Toutes les sortes de
+<ce>            Daedra entrent dans notre monde. La Guilde
+<ce>            des Mages certifie qu'elle est en mesure de
+<ce>             refermer le passage, mais c'est à nous de
+<ce>              nous occuper des quelques daedras qui
+<ce>              ont réussi à passer. Acceptez-vous cette
+<ce>               quête dangereuse, non pour l'or mais
+<ce>                      pour la gloire ?
+                                     <--->
+<ce>                 C'est peut-être la fin, %pct. Pendant
+<ce>                des siècles les prophètes ont parlé
+<ce>                du jour où les murs d'éther séparant
+<ce>               notre dimension, Mundus, et Oblivion, la
+<ce>              patrie des Daedra, voleraient en éclats.
+<ce>                La Guilde des Mages va essayer de
+<ce>                 colmater la faille, mais quelques
+<ce>               créatures infernales ont déjà réussi à
+<ce>             s'infiltrer. Pouvons-nous compter sur vous,
+<ce>                           %pct ?
 
-Record n�1----------
-Notre monde est du
-mauvais côté de la balance,
-comme vous devez vous en
-douter. Je suis désolé de
-savoir que vous êtes
-un ==qgiver_.
+RefuseQuest:  [1001]
+<ce>                        Notre monde est du
+<ce>                     mauvais côté de la balance,
+<ce>                       comme vous devez vous en
+<ce>                       douter. Je suis désolé de
+<ce>                       savoir que vous êtes
+<ce>                          un ==qgiver_.
 
+AcceptQuest:  [1002]
+<ce>                    Rendez-vous vite dans ___dungeon_.
+<ce>                   Nous n'avons aucun moyen de savoir
+<ce>                    combien de Daedras se sont déjà
+<ce>                    infiltrés. La Guilde des Mages vous
+<ce>                  conseille de tuer tous les Daedras que
+<ce>                  vous rencontrerez. Ils vous contacteront
+<ce>                   par télépathie quand ils sauront que
+<ce>                  le dernier envahisseur est parti.
+<ce>                  Depêchez-vous, il ne reste que
+<ce>                  =2dung_ jours avant qu'il ne soit trop tard.
 
-Record n�2----------
-Rendez-vous vite dans ___dungeon_.
-Nous n'avons aucun moyen de savoir
-combien de Daedras se sont déjà
-infiltrés. La Guilde des Mages vous
-conseille de tuer tous les Daedras que
-vous rencontrerez. Ils vous contacteront
-par télépathie quand ils sauront que
-le dernier envahisseur est parti.
-Depêchez-vous, il ne reste que
-=2dung_ jours avant qu'il ne soit trop
-tard.
+QuestComplete:  [1004]
+<ce>                Alors comme ça vous avez tué ces
+<ce>               Daedras ? c'est plutôt gênant à dire, mais
+<ce>               il semblerait que nous ayons été dupés
+<ce>               par une magicienne déloyale. En effet
+<ce>               elle a invoqué un Daedra qu'elle n'a pu
+<ce>               contrôler et a donc fait appel à nous
+<ce>               pour le tuer avant que la Guilde
+<ce>               ne s'en apercoive. Elle a cru
+<ce>             qu'avec cette histoire nous le ferions
+<ce>             gratuitement. D'habitude, notre Ordre
+<ce>             ne paye pas ses membres quand ils
+<ce>              ont accompli des quêtes, mais c'est
+<ce>             une situation un peu particulière. Prenez
+<ce>             ces _gold_ pièces d'or pour votre travail.
 
+RumorsDuringQuest:  [1005]
+Si  les gens de %reg savaient ce que sait la Guilde des Mages sait, il y aurait des émeutes.
 
-Record n�3----------
-Alors comme ça vous avez tué ces
-Daedras ? c'est plutôt gênant à dire, mais
-il semblerait que nous ayons été dupés
-par une magicienne déloyale. En effet,
-elle a invoqué un Daedra qu'elle n'a pu
-contrôler et a donc fait appel à nous
-pour le tuer avant que la Guilde
-ne s'en apercoive. Elle a cru
-qu'avec cette histoire nous le ferions 
-gratuitement. D'habitude, notre Ordre
-ne paye pas ses membres quand ils
-ont accompli des quêtes, mais c'est
-une situation un peu particulière. Prenez
-ces _gold_ pièces d'or pour votre travail.
+RumorsPostfailure:  [1006]
+En dépit des actions de %kno, la fin de Tamriel a été évitée de justesse.
 
+RumorsPostsuccess:  [1007]
+La Guilde des Mages a une dette envers %kno pour ce fiasco dans ___dungeon_, dit-on.
 
-Record n�4----------
-Si  les gens de %reg savaient ce que sait la Guilde des Mages 
-sait, il y aurait des émeutes.
+QuestorPostsuccess:  [1008]
+Bien,  %pcf, comme vous avez presque sauvé le monde, que puis-je faire pour vous ?
 
-Record n�5----------
-En dépit des actions de %kno, la fin de Tamriel a été évitée de 
-justesse.
+QuestorPostfailure:  [1009]
+Tamriel a été presque entièrement détruite, %pcf. Je suis irrité par votre présence.
+<--->
+Je ne pense pas que vous m'en voudrez si je ne vous fait plus confiance après votre précédente débâcle.
 
-Record n�6----------
-La Guilde des Mages a une dette envers %kno pour ce fiasco dans 
-___dungeon_, dit-on.
-
-Record n�7----------
-Bien,  %pcf, comme vous avez presque sauvé le monde, que puis-je 
-faire pour vous ?
-
-Record n�8----------
-Tamriel a été presque entièrement détruite, %pcf. Je suis irrité 
-par votre présence.
-Je ne pense pas que vous m'en voudrez si je ne vous fait plus 
-confiance après votre précédente débâcle.
-
-Record n�9----------
+QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ de
- ==qgiver_ dans ___qgiver_
- dit que des Daedras envahissent
- notre monde depuis une faille
- dimentionnelle. Je dois aller dans
- ___dungeon_ pour les tuer tous.
- La Guilde des Mages
- me contactera télépathiquement
- pour m'informer de la situation.
- Je dispose de =2dung_ jours
- avant qu'il ne soit trop tard.
+_qgiver_ de
+==qgiver_ dans ___qgiver_
+dit que des Daedras envahissent
+notre monde depuis une faille
+dimentionnelle. Je dois aller dans
+___dungeon_ pour les tuer tous.
+La Guilde des Mages
+me contactera télépathiquement
+pour m'informer de la situation.
+Je dispose de =2dung_ jours
+avant qu'il ne soit trop tard.
+
+Message:  1011
+<ce>                      Une voix lointaine résonne
+<ce>                       dans votre tête, et dit...
+<ce>
+<ce>                        "Le dernier Daedra est mort.
+<ce>                        Lui mort, Tamriel est sauvée.
+<ce>                      Mais, qu'est-ce que...? Lâchez-moi !
+<ce>                        Je suis un mage de la Guilde !
+<ce>                         Non, ne touchez pas à...".
 
 
-Record n�10----------
-Une voix lointaine résonne dans votre
- tête, et dit...
- 
- "Le dernier Daedra est mort.
- Lui mort, Tamriel est sauvée.
- Mais, qu'est-ce que...? Lâchez-moi !
- Je suis un mage de la Guilde !
- Non, ne touchez pas à...".
+-- Symbols used in the QRC file:
+--
+--              %kno occurs 2 times.
+--              %pcf occurs 3 times.
+--              %pct occurs 3 times.
+--              %qdt occurs 1 time.
+--              %reg occurs 1 time.
+--           =2dung_ occurs 2 times.
+--         ==qgiver_ occurs 2 times.
+--       ___dungeon_ occurs 3 times.
+--        ___qgiver_ occurs 1 time.
+--            _gold_ occurs 2 times.
+--          _qgiver_ occurs 1 time.
 
+QBN:
+Item _gold_ gold
 
+Person _qgiver_ group Questor male
 
+Place _dungeon_ remote dungeon
+
+Clock _2dung_ 00:00 0 flag 17 range 0 2
+
+Foe _fire_ is Fire_daedra
+Foe _frost_ is Frost_daedra
+Foe _lesser_ is Daedroth
+Foe _lord_ is Daedra_lord
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	pick one of _daedra1_ _daedra2_ _daedra3_ _daedra4_
+
+_2dung_ task:
+	end quest
+
+_S.01_ task:
+	killed 1 _frost_
+	killed 1 _fire_
+	killed 1 _lord_
+	killed 1 _lesser_
+	say 1011
+
+_S.02_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _S.02_ and _S.01_
+	give pc _gold_
+	end quest
+
+_clearclick_ task:
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_
+
+_daedra1_ task:
+	place foe _lord_ at _dungeon_
+
+_daedra2_ task:
+	place foe _lesser_ at _dungeon_
+
+_daedra3_ task:
+	place foe _frost_ at _dungeon_
+
+_daedra4_ task:
+	place foe _fire_ at _dungeon_

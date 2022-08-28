@@ -1,203 +1,373 @@
-Record n�0----------
-I am _qgiver_ of this
-knightly order. I have a most
-dangerous quest %pcf. You
-are one of the few that could
-possibly take it on. A lich is
-raising an army of undead. We
-need someone to go in and put
-a stop to it.
+-- Quest: C:\QUESTS\WORKING\B0B81Y02.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: knight
+-- Repute: 81
+-- QuestId: 2
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 43
+Quest: B0B81Y02
+DisplayName: The Lost Artifact
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>                        Je suis _qgiver_ de cet
+<ce>                   ordre de chevalerie. J'ai la plus
+<ce>                       dangereuse des quête %pcf. Vous
+<ce>                    êtes l'un des rares qui pourraient
+<ce>                    peut-être l'accepter. Une liche a
+<ce>                   levé une armée de morts-vivants. Nous avons
+<ce>                   besoin de quelqu'un pour mettre un
+<ce>                         point d'arrêt à cela.
 
-Record n�1----------
-I understand, %pcn.
-This is too dangerous even for
-you. There are one or two other
-heroes that might be able to
-pull this one off. I'll go ask
-them.
+RefuseQuest:  [1001]
+<ce>                          Je comprends,% pcn.
+<ce>                      C'est trop dangereux même pour vous.
+<ce>                         Il y a un ou deux autres héros
+<ce>                    qui pourraient être en mesure de
+<ce>               réussir cette mission. Je vais leur demander.
 
+AcceptQuest:  [1002]
+<ce>                Vous êtes vraiment courageux. La liche
+<ce>                    a transformé ___dungeon_ en
+<ce>                  son repaire. Allez-y et détruisez
+<ce>                la chose immonde. Dans = 2dung_ jours
+<ce>                  nous enverrons quelqu'un d'autre,
+<ce>                     si vous ne deviez pas revenir.
 
-Record n�2----------
-You are brave indeed. The lich
-has made ___dungeon_ into
-its lair. Go there and destroy
-the foul thing. In =2dung_ days
-we will send out someone else,
-should you not return.
+QuestComplete:  [1004]
+<ce>                        Salut héros,% pcn!
+<ce>                      Bien joué! Votre nom devrait
+<ce>                    être mentionné dans les histoires.
 
+RumorsDuringQuest:  [1005]
+%reg se prépare à l'assaut de la liche.
+<--->
+Tous les %reg prient pour que == qgiver_ puisse tuer cette liche.
 
-Record n�3----------
-Hail to the hero, %pcn!
-Well done! You name shall
-be recorded in the histories.
+RumorsPostfailure:  [1006]
+La liche a temporairement quitté ___dungeon_. Temporairement.
+<--->
+La liche retournera à ___dungeon_. C'est une certitude.
 
+RumorsPostsuccess:  [1007]
+%reg est sauvé, et nous avons == qgiver_ à remercier.
+<--->
+Un chevalier %ra de == qgiver_ a vaincu cette Arch-Liche.
 
-Record n�4----------
-%reg is bracing itself for the Lich's onslaught.
-All %reg is praying that ==qgiver_ can kill that Lich.
+QuestorPostsuccess:  [1008]
+Ce serait impoli de ma part de ne pas aider le sauveteur de %reg, hein?
 
+QuestorPostfailure:  [1009]
+Vous avez de la chance que Lich n'ait pas détruit tous les %reg, %pcf.
+<--->
+%reg était gravement menacé par cette liche. Et tu t'en fichais.
 
-Record n�5----------
-The Lich has temporarily left ___dungeon_. Temporarily.
-The Lich will return to ___dungeon_. That's a certainty.
-
-
-Record n�6----------
-%reg is saved, and we have ==qgiver_ to thank.
-A %ra knight from ==qgiver_ defeated that Arch-Lich.
-
-
-Record n�7----------
-It'd be rude of me not to help the rescuer of %reg, eh?
-
-
-Record n�8----------
-You're lucky that Lich didn't destroy all %reg, %pcf.
-%reg was in serious danger from that Lich. And you didn't 
-care.
-
-
-Record n�9----------
+QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of
- ==qgiver_ in ___qgiver_
- charged me with the duty of
- destroying the lich of
- ___dungeon_. I have =2dung_
- days to finish the task.
+_qgiver_ de
+  ==qgiver_ dans ___qgiver_
+  m'a chargé du devoir de
+  détruisant la liche de
+  ___donjon_. J'ai = 2dung_
+  jours pour terminer la tâche
 
+Message:  1011
+<ce>                       La liche est morte. Sans
+<ce>                       son soutien magique, l'armée
+<ce>                   de morts-vivants retournera
+<ce>                         dans sa tombe.
 
-Record n�10----------
-The lich is dead. Without
-his magical support, the
-army of undead will return
-to the grave.
+Message:  1020
+... ai enfin trouvé un indice!
+Je n'ose même pas nommer l'artefact
+perdu du pouvoir ancien.
+C'est trop tard pour moi.
+Je vais mourir ici dans ___dungeon2_,
+perdu parmi ses passages sombres.
+Premièrement, je vais cacher mon indice.
+Si je ne peux pas...
 
+Message:  1028
+<ce>                     Désolé, %pcn. Tu n'es pas
+<ce>                    revenu dans le temps. Nous
+<ce>                  pensions que tu étais mort. Un autre
+<ce>             un membre de la guilde a entrepris la quête.
 
-Record n�11----------
-...have found a clue at last!
- I dare not even name the lost
- artifact of ancient power that
- it points toward. It is too
- late for me. I will die down
- here in ___dungeon2_,
- lost among it's dark passageways.
- First, I will hide my clue.
- If I cannot...
+Message:  1030
+<ce>              Tu as traîné tout ce temps pour
+<ce>             venir me dire que maintenant tu ne
+<ce>             veux pas continuer? Inconcevable!
+<ce>                     Hors de ma vue!
 
+Message:  1031
+<ce>              Une vérole sur vous pour m'avoir dérangé
+<ce>                          %pcn. %oth, bien sûr
+<ce>              Je connais votre nom et non je ne vais pas
+<ce>               vous dire le mien. Quel serait l'intéret
+<ce>               d'être un sorcier si vous ne pouvez pas
+<ce>           savoir des choses que les gens normaux ignorent.
+<ce>              Je sais aussi pourquoi vous êtes ici. Vous
+<ce>            voulez Chrysamere, sauf vous ne le connaissez
+<ce>                  pas par son nom, n'est-ce pas?
+<ce>                   La seule façon pour l'avoir
+<ce>                c'est de me rendre d'abord service.
 
-Record n�12----------
-Sorry, %pcn. You didn't
-come back for so long that we
-thought you were dead. Another
-guild member took up the quest.
+Message:  1032
+<ce>              Une vérole sur vous pour m'avoir dérangé
+<ce>                          %pcn. %oth, bien sûr
+<ce>              Je connais votre nom et non je ne vais pas
+<ce>               vous dire le mien. Quel serait l'intéret
+<ce>               d'être un sorcier si vous ne pouvez pas
+<ce>           savoir des choses que les gens normaux ignorent.
+<ce>              Je sais aussi pourquoi vous êtes ici. Vous
+<ce>            voulez Chrysamere, sauf vous ne le connaissez
+<ce>                  pas par son nom, n'est-ce pas?
+<ce>                   La seule façon pour l'avoir
+<ce>                c'est de me rendre d'abord service.
 
+Message:  1033
+<ce>              Une vérole sur vous pour m'avoir dérangé
+<ce>                          %pcn. %oth, bien sûr
+<ce>              Je connais votre nom et non je ne vais pas
+<ce>               vous dire le mien. Quel serait l'intéret
+<ce>               d'être un sorcier si vous ne pouvez pas
+<ce>           savoir des choses que les gens normaux ignorent.
+<ce>              Je sais aussi pourquoi vous êtes ici. Vous
+<ce>            voulez Chrysamere, sauf vous ne le connaissez
+<ce>                  pas par son nom, n'est-ce pas?
+<ce>                   La seule façon pour l'avoir
+<ce>                c'est de me rendre d'abord service.
+Message:  1034
+<ce>              Une vérole sur vous pour m'avoir dérangé
+<ce>                          %pcn. %oth, bien sûr
+<ce>              Je connais votre nom et non je ne vais pas
+<ce>               vous dire le mien. Quel serait l'intéret
+<ce>               d'être un sorcier si vous ne pouvez pas
+<ce>           savoir des choses que les gens normaux ignorent.
+<ce>              Je sais aussi pourquoi vous êtes ici. Vous
+<ce>            voulez Chrysamere, sauf vous ne le connaissez
+<ce>                  pas par son nom, n'est-ce pas?
+<ce>                   La seule façon pour l'avoir
+<ce>                c'est de me rendre d'abord service.
 
-Record n�13----------
-You trudged all the way down here
-to speak to me and now you don't
-want to continue? Inconceivable!
-Get out of my sight!
+Message:  1035
+<ce>                   Vous voyez, je ne sais pas vraiment
+<ce>                  où se trouve votre artefact. Mon grand
+<ce>                     grand-père l'a cherché une fois.
+<ce>                   Selon les antécédents familiaux, quand
+<ce>                   il l'a trouvé que la Guilde des Mages
+<ce>                    lui a pris et l'a caché quelque part.
+<ce>                  Son esprit n'a jamais pu reposer en paix.
+<ce>                       Si vous avez cette mèche de
+<ce>                  mes cheveux vous toi quand son esprit
+<ce>                    sera appaisé, il peut vous dire
+<ce>                    où trouver ce que vous cherchez.
+<ce>                        Il hante ___dungeon3_.
 
+Message:  1040
+<ce>                    Vous avez un signe de ma lignée,
+<ce>                  une mèche de cheveux de l'un de mes
+<ce>                  descendants. Sachez que j'ai erré
+<ce>                   dans ces salles pendant longtemps
+<ce>                  des décennies d'attente pour ce signe.
+<ce>                     Accédez au _mageguild_ dans
+<ce>                    __mageguild_. C'est là que vous
+<ce>                  trouverez ce que j'ai perdu une fois.
 
-Record n�14----------
-A pox upon you for disturbing
-me %pcn. %oth, of course
-I know your name, and no I'm not going
-to tell you mine. What's the use
-in bein' a wizard if you can't
-know things normal folks don't.
-I also know why your here. You
-want Chrysamere, except you
-didn't know it by name, did you?
-The only way you're gonna get
-it is if you do me a favor first.
-
-
-Record n�15----------
-A pox upon you for disturbing
-me %pcn. %oth, of course
-I know your name. What's the use in
-bein' a wizard if you can't know
-things normal folks don't. I
-also know why your here. You
-want The Necromancer's Amulet,
-except you didn't know it by
-name, did you? The only way
-you're gonna get it is if you
-do me a favor first.
-
-
-Record n�16----------
-A pox upon you for disturbing
-me %pcn. %oth, of course
-I know your name. What's the use in
-bein' a wizard if you can't know
-things normal folks don't. I
-also know why your here. You
-want The Staff of Magnus, except
-you didn't know it by name, did
-you? The only way you're gonna get
-it is if you do me a favor first.
-
-
-Record n�17----------
-A pox upon you for disturbing
-me %pcn. %oth, of course
-I know your name. What's the use in
-bein' a wizard if you can't know
-things normal folks don't. I
-also know why your here. You
-want The Warlock's Ring, except
-you didn't know it by name, did
-you? The only way you're gonna get
-it is if you do me a favor first.
-
-
-Record n�18----------
-You see, I don't actually know
-where your artifact is. My great
-grandfather once sought for it.
-According to family history, when
-he found it the Mages Guild took
-it from him and hid it somewhere.
-His spirit has never rested easy
-since. If you have this lock of
-my hair with you when his spirit
-is put to rest, he may tell you
-where to find what you seek.
-He haunts ___dungeon3_.
-
-
-Record n�19----------
-You hold a token of my lineage,
-a bit of hair from one of my
-decendants. Know ye that I have
-wandered these halls for long
-decades waiting for this sign.
-Go to the _mageguild_ in
-__mageguild_. There you
-will find what I once lost.
-
-
-Record n�20----------
+Message:  1041
 %qdt:
- I have found _wizard_ in
- ___dungeon2_. I now must
- seek %g3 great grandfather in
- ___dungeon3_,
- who may be able to tell me the location
- of the artifact. _wizard_ has also given
- me a lock of %g3 hair so that I may lay him
- to rest.
+J'ai trouvé _wizard_ dans
+___dungeon2_. Je dois maintenant
+cherchez l'arrière-grand-père %g3 dans
+___dungeon3_,
+qui pourra peut-être me dire l'emplacement
+de l'artefact. _wizard_ m'a également donné
+une mèche de ses cheveux pour qu'il puisse
+reposer en paix.
 
-
-Record n�21----------
+Message:  1042
 %qdt:
- _wizard_'s great grandfather has told me
- that I can find the artifact at _mageguild_
- in __mageguild_.
+'arrière grand-père de _wizard_ m'a dit
+  que je peux trouver l'artefact sur _mageguild_
+  dans __mageguild_.
 
 
+-- Symbols used in the QRC file:
+--
+--               %g3 occurs 5 times.
+--              %oth occurs 4 times.
+--              %pcf occurs 2 times.
+--              %pcn occurs 7 times.
+--              %qdt occurs 3 times.
+--               %ra occurs 2 times.
+--              %reg occurs 8 times.
+--           =2dung_ occurs 2 times.
+--         ==qgiver_ occurs 6 times.
+--      ___dungeon2_ occurs 2 times.
+--      ___dungeon3_ occurs 3 times.
+--       ___dungeon_ occurs 5 times.
+--        ___qgiver_ occurs 1 time.
+--      __mageguild_ occurs 9 times.
+--          _qgiver_ occurs 2 times.
+--          _wizard_ occurs 3 times.
 
+QBN:
+Item _I.01_ artifact Warlocks_Ring
+Item _I.02_ artifact Necromancers_Amulet
+Item _I.03_ artifact Chrysamere
+Item _I.04_ artifact Staff_of_Magnus
+Item _map_ letter used 1020
+Item _I.06_ item class 17 subclass 13
+
+Person _qgiver_ group Questor male
+Person _wizard_ face 1 group Spellcaster
+
+Place _dungeon_ remote dungeon
+Place _dungeon2_ remote dungeon
+Place _mageguild_ remote magery
+Place _dungeon3_ remote dungeon0
+
+Clock _2dung_ 00:00 0 flag 17 range 0 2
+Clock _S.30_ 180.13:20 0 flag 1 range 0 1
+
+Foe _F.00_ is Ancient_lich
+Foe _F.01_ is Lich
+Foe _ghost_ is Wraith
+Foe _battlemage_ is Battle_mage
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	pick one of _ancientlich_ _lich_ _lich_
+	pick one of _artifact1_ _artifact2_ _artifact3_ _artifact4_
+
+variable _2dung_
+_S.01_ task:
+	killed 1 _F.01_ saying 1011
+	killed 1 _F.00_ saying 1011
+	_map_ used do _readmap_
+
+_S.02_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _S.02_ and _S.01_
+	give pc nothing
+	remove log step 0
+
+_clearclick_ task:
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_
+
+variable _S.04_
+variable _S.05_
+_ancientlich_ task:
+	give item _map_ to _F.00_
+	place foe _F.00_ at _dungeon_
+
+_lich_ task:
+	give item _map_ to _F.01_
+	place foe _F.01_ at _dungeon_
+
+_artifact1_ task:
+	place item _I.03_ at _mageguild_
+
+_artifact2_ task:
+	place item _I.02_ at _mageguild_
+
+_artifact3_ task:
+	place item _I.04_ at _mageguild_
+
+_artifact4_ task:
+	place item _I.01_ at _mageguild_
+
+_readmap_ task:
+	start timer _S.30_
+	reveal _dungeon2_ readmap
+	place npc _wizard_ at _dungeon2_
+
+_S.13_ task:
+	clicked npc _wizard_
+
+_S.14_ task:
+	when _artifact1_ and _S.13_
+	prompt 1031 yes yes no _no_
+
+_S.15_ task:
+	when _artifact2_ and _S.13_
+	prompt 1032 yes yes no _no_
+
+_S.16_ task:
+	when _artifact3_ and _S.13_
+	prompt 1033 yes yes no _no_
+
+_potion_ task:
+	when _artifact4_ and _S.13_
+	prompt 1034 yes yes no _no_
+
+_S.18_ task:
+	clicked item _I.02_
+	clicked item _I.03_
+	clicked item _I.01_
+	clicked item _I.04_
+
+_S.19_ task:
+	when _S.13_ and _S.20_
+	clear _S.13_ _S.19_
+
+variable _S.20_
+yes task:
+	pc at _mageguild_ set _S.25_
+	reveal _dungeon3_
+	say 1035
+	log 1041 step 1
+	get item _I.06_
+	place foe _ghost_ at _dungeon3_
+
+_no_ task:
+	say 1030
+
+totemReward2 task:
+	killed 1 _ghost_
+	have _I.06_ set _S.24_
+
+_S.24_ task:
+	log 1042 step 2
+	say 1040
+
+_S.25_ task:
+	create foe _battlemage_ every 5 minutes 5 times with 50% success
+
+_S.26_ task:
+	when _artifact1_ and _S.18_
+	make _I.03_ permanent
+
+_S.27_ task:
+	when _artifact2_ and _S.18_
+	make _I.02_ permanent
+
+_S.28_ task:
+	when _artifact3_ and _S.18_
+	make _I.04_ permanent
+
+_S.29_ task:
+	when _artifact4_ and _S.18_
+	make _I.01_ permanent
+
+_S.30_ task:
+	end quest
+
+_questdone_ task:
+	when _2dung_ and not _readmap_
+	end quest
+
+_S.32_ task:
+	when _clearclick_ and _2dung_
+	say 1028
+
+_S.33_ task:
+	when _S.26_ or _S.27_ or _S.28_ or _S.29_
+	end quest

@@ -1,70 +1,151 @@
-Record n�0----------
-Pourquoi devrais-je vous faire
-confiance, %pcn ? Je crois
-qu'un petit test s'impose.
-Cependant, je ne vous donnerai
-qu'un travail de petite importance
-puisque vous ne faites pas partie
-de cet Ordre. Je possède un bâtiment
-qui est infesté de bêtes en tout genre.
-Tuez-les et peut-être vous recommenderai-je.
+-- Quest: C:\QUESTS\WORKING\B0C00Y13.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: knight
+-- Repute: 0
+-- QuestId: 13
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: B0C00Y13
+DisplayName: The Infested House
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                   Pourquoi devrais-je vous faire
+<ce>                  confiance, %pcn ? Je crois
+<ce>                  qu'un petit test s'impose.
+<ce>                  Cependant, je ne vous donnerai
+<ce>                  qu'un travail de petite importance
+<ce>                  puisque vous ne faites pas partie
+<ce>                  de cet Ordre. Je possède un bâtiment
+<ce>                  qui est infesté de bêtes en tout genre.
+<ce>                  Tuez-les et peut-être vous recommenderai-je.
+
+RefuseQuest:  [1001]
+<ce>                    On n'est jamais mieux servi que
+<ce>                    par soi-même. Cela prouve
+<ce>                    bien votre lâcheté.
 
 
-Record n�1----------
-On n'est jamais mieux servi que
-par soi-même. Cela prouve
-bien votre lâcheté.
+AcceptQuest:  [1002]
+<ce>                Je ne vous donne qu'un
+<ce>                jour pour débarrasser
+<ce>                _house_ des ces créatures.
+<ce>                Après ce délai je le ferai
+<ce>                moi-même et je raconterai
+<ce>                partout quel couard vous faites.
 
+QuestComplete:  [1004]
+<ce>                     C'est pas mal, %pcn.
+<ce>                    Je vous recommenderai dans
+<ce>                    cet Ordre.
 
-Record n�2----------
-Je ne vous donne qu'un
-jour pour débarrasser
- _house_ des ces créatures.
-Après ce délai je le ferai
-moi-même et je raconterai
-partout quel couard vous faites.
- 
-
-Record n�3----------
-C'est pas mal, %pcn.
-Je vous recommenderai dans
-cet Ordre.
-
-
-Record n�4----------
+RumorsDuringQuest:  [1005]
 Il y a des bruit étranges qui proviennent de _house_.
+<--->
 La maison de _qgiver_ est vraiment un zoo.
 
-Record n�5----------
+RumorsPostfailure:  [1006]
 Pauvre _qgiver_, il a dû faire appel à un exterminateur.
+<--->
 Cela va coûter cher à _qgiver_ pour nettoyer sa maison.
 
-Record n�6----------
-_house_ est redevenue normale.
+RumorsPostsuccess:  [1007]
+_house_ est à nouveau en paix.
+<--->
+
 Ces foutus animaux sont enfin partis de _house_ .
 
-Record n�7----------
+QuestorPostsuccess:  [1008]
 Que puis-je faire pour celui qui m'a aidé à nettoyer ma maison ?
 
-
-Record n�8----------
-Vous n'êtes même pas capable de tuer quelques insectes. Ne me 
-faites pas perdre mon temps.
+QuestorPostfailure:  [1009]
+Vous n'êtes même pas capable de tuer quelques insectes. Ne me faites pas perdre mon temps.
+<--->
 Je ne veux pas gâcher ma salive à vous parler.
 
 
-Record n�9----------
+QuestLogEntry:  [1010]
 %qdt:
- J'ai recontré  _qgiver_
- dans ___qgiver_, et il
- m'a engagé pour nettoyer
- _house_ dans __house_.
- Si j'y arrive, il me recommendera
- pour intégrer l'Ordre des Chevaliers.
+J'ai recontré  _qgiver_
+dans ___qgiver_, et il
+m'a engagé pour nettoyer
+_house_ dans __house_.
+Si j'y arrive, il me recommendera
+pour intégrer l'Ordre des Chevaliers.
 
+Message:  1011
+<ce>               Vous avez nettoyé la maison de _qgiver_.
 
-Record n�10----------
-Vous avez nettoyé la maison de _qgiver_.
+Message:  1012
+<ce>  You hear scratching noises coming from the walls.
+<ce>  The creatures will most certainly react poorly
+<ce>  to your intrusion on their territory.
 
+-- Symbols used in the QRC file:
+--
+--               %g2 occurs 2 times.
+--              %pcn occurs 2 times.
+--              %qdt occurs 1 time.
+--        ___qgiver_ occurs 1 time.
+--          __house_ occurs 6 times.
+--          _qgiver_ occurs 7 times.
 
+QBN:
 
+Person _qgiver_ group Questor male
+
+Place _house_ local random
+
+Clock _oneday_ 1.00:00 0 flag 1 range 0 1
+
+Foe _spiders_ is Spider
+Foe _rats_ is Giant_rat
+Foe _scorpions_ is Giant_scorpion
+Foe _bats_ is Giant_bat
+
+--	Quest start-up:
+	start timer _oneday_
+	log 1010 step 0
+	--location action removed. not defined and not needed.
+	pc at _house_ set _S.01_
+
+_oneday_ task:
+	end quest
+
+_S.01_ task:
+	say 1012
+	pick one of _S.04_ _S.05_ _S.06_ _S.07_
+
+_questdone_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _S.03_ and _questdone_
+	give pc nothing
+	end quest
+
+_S.03_ task:
+	killed 6 _bats_
+	killed 7 _rats_
+	killed 3 _scorpions_
+	killed 3 _spiders_
+	say 1011
+
+_S.04_ task:
+	create foe _bats_ every 2 minutes 8 times with 100% success
+
+_S.05_ task:
+	create foe _rats_ every 2 minutes 10 times with 100% success
+
+_S.06_ task:
+	create foe _scorpions_ every 3 minutes 4 times with 100% success
+
+_S.07_ task:
+	create foe _spiders_ every 3 minutes 4 times with 100% success
+--slowed enemy spawn due to feedback
+
+_clearclick_ task:
+	when not _S.03_ and _questdone_
+	clear _questdone_ _clearclick_

@@ -1,234 +1,348 @@
-Record n�0----------
+-- Quest: C:\QUESTS\WORKING\$CUREVAM.Qbn.
+-- StartsBy: letter
+-- Questee: anyone
+-- Questor: hunter
+-- QuestId: 0
+Messages: 53
+Quest: $CUREVAM
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
 Error -- 1000 called
 
-Record n�1----------
+RefuseQuest:  [1001]
 Error -- 1001 called
 
-Record n�2----------
+AcceptQuest:  [1002]
 Error -- 1002 called
 
-Record n�3----------
-Error -- 1003 called
+QuestFail:  [1003]
+<ce>                         Error -- 1003 called
 
+QuestComplete:  [1004]
+<ce>               Tandis que =bloodfather_ meurt, vous ressentez
+<ce>                   of la malédiction du vampirisme se dissipe de votte åme.
+<ce>                      Vous n'êtes désormais plus un vampire.
 
-Record n�4----------
-Tandis que =bloodfather_ meurt, vous ressentez
- que la malédiction du vampirisme se dissipe dans votre
- âme. Vous n'êtes désormais plus un vampire.
-
-
-Record n�5----------
-_hunter_ va bientôt lancer une nouvelle croisade contre les 
+RumorsDuringQuest:  [1005]
+<ce> _hunter_ isva bientôt lancer une nouvelle croisade contre les
 vampires à travers %reg.
-Alors peut-être serons-nous à nouveau capable d'arpenter les rues 
+<ce> Alors peut-être serons-nous à nouveau capable d'arpenter les rues
 sans peur la nuit.
 
+RumorsPostfailure:  [1006]
+<ce>_hunter_ et ses hommes ont tué beaucoup de vampires %regseulement je doute
+<ce>                             qu'ils les aient tous eus.
+                                     <--->
+<ce> _hunter_ n'aurait pas dû autant les harceler. Ses croisades ont juste forcé
+<ce> les vampires à se terrer, et quand %g partira, ils reviendront plus forts que jamais.
 
-Record n�6----------
-_hunter_ et ses hommes ont tué beaucoup de vampires
-à %reg, seulement je doute qu'ils les aient tous eus.
+RumorsPostsuccess:  [1007]
+<ce>_hunter_ et ses hommes ont tué beaucoup de vampires en %reg,seulement je doute
+<ce>                            qu'ils les aient tous eus.
+                                     <--->
+<ce> _hunter_ n'aurait pas dû autant les harceler. Ses croisades ont juste envoyé
+<ce> les vampires se terrer, et quand %g partira, ils reviendront plus forts que jamais.
 
-_hunter_ n'aurait pas dû autant les harceler.
-Ses croisades ont juste forcé les vampires à se terrer, et
-quand %g partira, ils reviendront plus forts que jamais.
-
-
-Record n�7----------
-_hunter_ et ses hommes ont tué beaucoup de vampires
-en %reg, seulement je doute qu'ils les aient tous eus.
-
-_hunter_ n'aurait pas dû autant les harceler.
-Sa croisade a juste envoyé les vampires se terrer, et
-quand %g partira, ils reviendront plus forts que jamais.
-
-
-Record n�8----------
+QuestorPostsuccess:  [1008]
 Error -- 1008 called
 
-Record n�9----------
+QuestorPostfailure:  [1009]
 Error -- 1009 called
 
-Record n�10----------
-_hunter_ traque et détruit les vampires à travers tout 
-Tamriel.
-_hunter_ a dévoué sa vie à chasser les vampires.
+Message:  1011
+_hunter_ traque et détruit les vampires à travers tout Tamriel.
+<--->
+_hunter_ a voué sa vie à chasser les vampires.
 
-Record n�11----------
-Il paraît que le propre père de _hunter_ a été tué par des 
-vampires.
-C'est cela qui l'a conduit à les haïr fanatiquement.
+Message:  1012
+<ce>Il paraît que le propre père de _hunter_a été tué par des vampires.
+<ce>        C'est cela qui l'a conduit à les haïr fanatiquement.
+                                     <--->
+<ce> _hunter_ a tué son propre père après qu'il soit devenu un vampire.
+<ce>          C'est ce que j'appelle un véritable fanatique !
 
-_hunter_ a tué son propre père après qu'il soit devenu
-un vampire. C'est ce que j'appelle un véritable fanatique !
-
-
-Record n�12----------
+Message:  1020
                        %qdt
- 
+
  Cher %pcn de %vam,
- 
- Laissez-moi me présenter. Je suis _hunter_.
- Vous avez peut-être entendu parler de moi, le célèbre
- chasseur de vampires ? Toutefois, ne soyez pas trop hâtif
+
+    Laissez-moi me présenter. Je suis _hunter_.
+  Vous avez peut-être entendu parler de moi, le célèbre
+  chasseur de vampires ? Toutefois, ne soyez pas trop hâtif
  pour me juger. Je ne suis pas votre ennemi, du moins
  pas encore. Parce que j'abhorre au plus haut point le
- vampirisme et comme j'ai devoué ma vie entière à éradiquer
+ vampirisme et comme j'ai voué ma vie entière à éradiquer
  cette sombre peste de Tamriel, je comprends que beaucoup
  sont d'innocentes victimes telles que vous-même. La volonté
  de vivre n'est pas maléfique en soi, et j'essaye toujours
  d'offrir à ma cible une chance de prouver que
  sa sanguinaire besogne repose uniquement sur
  une nécessité, et non pas sur l'amour de tuer.
-    Je suis sûr que votre "famille" ne vous l'a pas précisé, 
-mais
- le vampirisme peut être guéri ! Pour cela, vous devez 
-simplement
- tuer votre "père de sang", le démon ancien qui a créé la 
-lignée
+   Je suis sûr que votre "famille" ne vous l'a pas précisé, mais
+ le vampirisme peut être guéri ! Pour cela, vous devez simplement
+ tuer votre "père de sang", le démon ancien qui a créé la lignée
  de vampires qui mène jusqu'à vous. En faisant cela, vous ne
  vous libérerez pas seulement vous-même, mais vous
  débarrasserez %reg du cancer qui gangrène son coeur.
- 
- (poursuivre)
- 
+
+<ce>                               (poursuivre)
+
     Pour ma part, j'ignore où trouver votre "père de sang",
- mais mes sources m'ont révélé le nom d'un des grands de 
-%vam
- qui, lui, connaîtrait cette information, _vamp1_ de 
-___vamp1_.
- J'attendrai =huntstart_ jours avant de commencer à traquer 
-les
- vampires de la région de %reg, afin de vous laisser
- une chance de vous libérer.
+  mais mes sources m'ont révélé le nom d'un des grands de %vam
+  qui, lui, connaîtrait cette information, _vamp1_ de   ___vamp1_.
+  J'attendrai =huntstart_ jours avant de commencer à traquer les
+  vampires de la région de %reg, afin de vous laisser
+  une chance de vous libérer.
     Considérez bien ma proposition, %pcn. Vous avez
  =huntstart_ jours, ensuite vous et le reste de %vam
- serez traqués comme de la vermine.
- 
- _hunter_
+  serez traqués comme de la vermine.
 
+<ce>                                _hunter_
 
-Record n�13----------
-Voulez-vous montrer à _vamp1_
-la lettre de _hunter_ ?
+Message:  1021
+<ce>                     Voulez-vous montrer à _vamp1_
+<ce>                       la lettre de _hunter_ ?
 
+Message:  1022
+<ce>                Vous avez bien fait de m'apporter ceci, %pcn.
+<ce>                   _hunter_ a été banni de %vam
+<ce>             il y a des années. Avec ce précieux avertissement,
+<ce>             nous allons pouvoir sauver la vie de beaucoup de
+<ce>             notre famille. Ne sous-estimez pas le danger dans
+<ce>             lequel vous êtes, %pcf. _hunter_ est sans pitié
+<ce>             et compétent, et ses espions sont partout. %g serait
+<ce>             une excellente recrue pour %vam - cela reste
+<ce>             encore possible. Quoi qu'il en soit, %g connaît
+<ce>             votre nom, et n'ayez aucun doute qu'%g tentera
+<ce>                  de mettre ses menaces à exécution.
+<ce>                    Puisse la nuit vous préserver.
 
-Record n�14----------
-Vous avez bien fait de m'apporter ceci, %pcn.
-_hunter_ a été banni de %vam
-il y a des années. Avec ce précieux avertissement,
-nous allons pouvoir sauver la vie de beaucoup de
-notre famille. Ne sous-estimez pas le danger dans
-lequel vous êtes, %pcf. _hunter_ est sans pitié
-et compétent, et ses espions sont partout. %g serait
-une excellente recrue pour %vam - cela reste
-encore possible. Quoi qu'il en soit, %g connaît
-votre nom, et n'ayez aucun doute qu'%g tentera
-de mettre ses menaces à exécution.
-Puisse la nuit vous préserver.
+Message:  1023
+<ce>              %pcn, n'est-ce pas ? J'ai entendu beaucoup
+<ce>           de bien à votre sujet, de la part du reste de %vam.
+<ce>            Ainsi, vous désirez retrouver votre père de sang. Une
+<ce>          envie compréhensible, bien que cela soit un privilège
+<ce>         qui ne soit habituellement pas accordé à quelqu'un
+<ce>           d'aussi jeune que vous. Cependant, vous avez déjà
+<ce>            already, I believe I can make an exception.  Let
+<ce>          accompli d'impressionnants progrès au sein de %vam, alors
+<ce>           je pense que je peux faire une exception. Laissez-moi
+<ce>            voir, il doit être soit =elder_ soit =bloodfather_.
+<ce>                Vous pouvez les trouver à ___wrongdung_ et
+<ce>              ___fatherdung_, respectivement. Cependant,
+<ce>           je vous déconseillerais de vous introduire dans
+<ce>           le refuge d'un ancien sans précautions. Il serait plus sûr
+<ce>              de trouvez d'abord _vamp2_ de ___vamp2_.
+<ce>              %g est le Gardien de la Lignée et il sera capable de
+<ce>             vous dire avec certitude lequel des anciens de %vam
+<ce>              est votre père de sang. Apportez-lui ce bracelet,
+<ce>             %g saura alors que c'est moi qui vous envoie.
 
+Message:  1024
+<ce>               Mmm... Vous êtes bien jeune pour que l'on
+<ce>               vous confie une telle information. Cependant,
+<ce>              puisque vous portez l'anneau de _vamp1_,
+<ce>              je vais vous révéler où votre père de sang,
+<ce>              =bloodfather_, demeure. Vous le trouverez
+<ce>                dans son refuge à ___fatherdung_.
+<ce>              Soyez toutefois conscient qu'à cette époque de
+<ce>          l'année, les anciens n'aiment pas être dérangés
+<ce>          par quiconque. Vous vous introduirez dans l'intimité
+<ce>           de =bloodfather_ à vos risques et périls.
 
-Record n�15----------
-%pcn, n'est-ce pas ? J'ai entendu beaucoup
-de bien à votre sujet, de la part du reste de %vam.
-Ainsi, vous désirez retrouver votre père de sang. Une
-envie compréhensible, bien que cela soit un privilège
-qui ne soit habituellement pas accordé à quelqu'un
-d'aussi jeune que vous. Cependant, vous avez déjà
-accompli bien des progrès au sein de %vam, alors
-je pense que je peux faire une exception. Laissez-moi
-voir, il doit être soit =elder_ soit =bloodfather_.
-Vous pouvez les trouver à ___wrongdung_ et
-___fatherdung_, respectivement. Cependant,
-je vous déconseillerais de vous introduire dans
-le refuge d'un ancien avec légèreté. Ce serait mieux
-si vous passiez par _vamp2_ de ___vamp2_.
-%g est le Gardien de la Lignée et il sera capable de
-vous dire avec certitude lequel des anciens de %vam
-est votre père de sang. Apportez-lui ce bracelet,
-%g saura alors que c'est moi qui vous envoie.
+Message:  1025
+<ce>                Traitre à ton sang ! Nous avons découvert ta
+<ce>             traitrise. Tu ne découvriras jamais =bloodfather_,
+<ce>                même si tes jours parmi %vam sont comptés,
+<ce>                  ne t'inquiète pas. _hunter_ n'aura pas
+<ce>                     besoin de te pourchasser.
 
+Message:  1030
+<ce>               Gamin, ne dérange pas mes méditations !
+<ce>                   Dégage, ou ma faim m'obligera à te tuer !
 
-Record n�16----------
-Mmm... Vous êtes bien jeune pour que l'on
-vous confie une telle information. Cependant,
-puisque vous portez l'anneau de _vamp1_,
-je vais vous révéler où votre père de sang,
-=bloodfather_, demeure. Vous le trouverez
-dans son refuge à ___fatherdung_.
-Soyez toutefois conscient qu'à cette époque de
-l'année, les anciens n'aiment pas être dérangés
-par quiconque. Vous vous introduirez dans l'intimité
-de =bloodfather_ à vos risques et périls.
+Message:  1031
+<ce>                       Vous avez tué =elder_,
+<ce>                           Ancien de %vam.
 
+Message:  1032
+<ce>                    %pcn, ton sang m'appelle.
+<ce>                  Pourquoi frappes-tu ton propre père ?
+<ce>                     %vam punit de mort le parricide.
+<ce>                  Ne m'oblige pas à exécuter moi-même
+<ce>                cette sentence. Enfuies-toi, mon enfant !
 
-Record n�17----------
-Traitre à ton sang ! Nous avons découvert ta
-traitrise. Tu ne découvriras jamais =bloodfather_,
-même si tes jours parmi %vam sont comptés,
-ne t'inquiète pas. _hunter_ n'aura pas
-besoin de te pourchasser.
+Message:  1040
+<ce>                   _hunter_ a dit que je te trouverais ici.
+<ce>                         Crève, arpenteur de la nuit !
 
+QuestTimeLapse:  [1045]
+<ce>                   Un objet inhabituel dans votre sac
+<ce>               attire votre regard. Il s'agit d'une lettre,
+<ce>                 elle s'adresse à vous en une longue déclaration
+<ce>                  élégante.  Comment est-elle arrivée là ?
 
-Record n�18----------
-Gamin, ne dérange pas mes méditations !
-Dégage, ou ma faim m'obligera à te tuer !
-
-
-Record n�19----------
-Vous avez tué =elder_,
-Ancien de %vam.
-
-
-Record n�20----------
-%pcn, ton sang m'appelle.
-Pourquoi frappes-tu ton propre père ?
-%vam punit de mort le parricide.
-Ne m'oblige pas à exécuter moi-même
-cette sentence. Enfuies-toi, mon enfant !
-
-
-Record n�21----------
-_hunter_ a dit que je te trouverais ici.
-Crève, arpenteur de la nuit !
-
-
-Record n�22----------
-Un objet inhabituel dans votre sac
-attire votre regard. Il s'agit d'une lettre,
-elle s'adresse à vous en une longue
-déclaration élégante.
-Comment est-elle arrivée là ?
-
-
-Record n�23----------
-%qdt :
+Message:  1050
+%qdt:
  Le chasseur de vampires _hunter_
- m'a envoyé une lettre jurant de me traquer
+  m'a envoyé une lettre jurant de me traquer
  à moins que je ne me guérisse du
  vampirisme en tuant mon père de sang.
  _hunter_ ne sait pas qui est mon père
  de sang, ni où il se trouve, mais %g
  suggère que _vamp1_ de ___vamp1_
- pourrait le savoir. Je dispose de =huntstart_ jours
+pourrait le savoir. Je dispose de =huntstart_ jours
  avant que la chasse aux vampires ne commence.
 
+-moved vamp1 line down, was running outside journal boundaries
 
-Record n�24----------
-%qdt :
+Message:  1051
+%qdt:
  _vamp1_ pense que mon père de sang
  demeure soit à ___wrongdung_ soit
- à ___fatherdung_, mais %g m'a
- conseillé d'apporter son bracelet à
- _vamp2_ de __vamp2_,
- ___vamp2_, qui pourrait m'indiquer
- de façon certaine à quel endroit le trouver.
+ ___fatherdung_, mais %g m'a conseillé
+ d'apporter son bracelet à _vamp2_ de __vamp2_,
+  ___vamp2_, qui pourrait m'indiquer de façon
+ certaine à quel endroit le trouver.
 
-
-Record n�25----------
-%qdt :
- _vamp2_ m'a dit que le nom de
+Message:  1052
+%qdt:
  mon père de sang est =bloodfather_,
  et qu'il demeure à ___fatherdung_.
 
 
+-- Symbols used in the QRC file:
+--
+--                %g occurs 14 times.
+--               %g2 occurs 4 times.
+--               %g3 occurs 11 times.
+--              %pcf occurs 1 time.
+--              %pcn occurs 6 times.
+--              %qdt occurs 7 times.
+--              %reg occurs 112 times.
+--              %vam occurs 22 times.
+--     =bloodfather_ occurs 7 times.
+--           =elder_ occurs 2 times.
+--       =huntstart_ occurs 3 times.
+--    ___fatherdung_ occurs 6 times.
+--         ___vamp1_ occurs 2 times.
+--         ___vamp2_ occurs 2 times.
+--     ___wrongdung_ occurs 2 times.
+--          __vamp2_ occurs 1 time.
+--          _hunter_ occurs 19 times.
+--           _vamp1_ occurs 5 times.
+--           _vamp2_ occurs 3 times.
 
+QBN:
+Item _letter_ letter used 1020
+Item _token_ bracelet
+
+Person _vamp1_ face 40 factiontype Vampire_Clan
+Person _vamp2_ face 4 factiontype Vampire_Clan
+Person _hunter_ face 1 factiontype Knightly_Guard anyInfo 1011 rumors 1012
+
+Place _fatherdung_ remote dungeon8
+Place _wrongdung_ remote dungeon5
+
+Clock _S.10_ 1.00:00 2.22:00
+Clock _S.13_ 7.00:00 27.23:40
+Clock _huntstart_ 00:00 0 flag 1 range 3 5
+
+Foe _bloodfather_ is Ancient_vampire
+Foe _vampire_ is Vampire
+Foe _F.02_ is Knight
+Foe _elder_ is Ancient_vampire
+
+--	Quest start-up:
+	dialog link for person _vamp2_
+	dialog link for location _fatherdung_ person _vamp1_
+	dialog link for person _hunter_
+	_letter_ used do _readletter_
+	have _letter_ set _S.19_
+	give pc _letter_ notify 1045
+	place foe _bloodfather_ at _fatherdung_
+	create npc _vamp1_
+	place foe _elder_ at _wrongdung_
+
+_S.00_ task:
+	killed 1 _bloodfather_
+	give pc nothing
+	cure vampirism
+	change repute with _vamp1_ by -20
+	end quest
+
+_S.01_ task:
+	clicked npc _vamp1_
+	have _letter_ set _S.06_
+
+variable _S.02_
+_readletter_ task:
+	add dialog for person _hunter_
+	add dialog for person _vamp1_
+	log 1050 step 0
+
+_S.04_ task:
+	daily from 06:00 to 18:00
+	clear _S.17_
+
+variable _S.05_
+variable _S.06_
+_S.07_ task:
+	when _S.06_ and _S.01_
+	prompt 1021 yes _S.08_ no _S.09_
+
+_S.08_ task:
+	hide npc _vamp2_
+	hide npc _vamp1_
+	say 1022
+
+_S.09_ task:
+	add dialog for person _vamp2_
+	start timer _S.10_
+	reveal _fatherdung_
+	reveal _wrongdung_
+	log 1051 step 1
+	get item _token_
+	say 1023
+
+_S.10_ task:
+	hide npc _vamp1_
+	hide npc _vamp2_
+	change repute with _vamp1_ by -15
+
+_S.11_ task:
+	injured _bloodfather_ saying 1032
+	injured _elder_ saying 1030
+
+_S.12_ task:
+	killed 1 _elder_ saying 1031
+	change repute with _vamp1_ by -20
+
+_S.13_ task:
+	end quest
+
+_huntstart_ task:
+	create foe _F.02_ every 60 minutes 30 times with 20% success
+	start timer _S.13_
+	hide npc _vamp2_
+	hide npc _vamp1_
+
+_S.15_ task:
+	injured _F.02_ saying 1040
+
+_givetoken_ task:
+	toting _token_ and _vamp2_ clicked
+	log 1052 step 2
+	say 1024
+
+_S.17_ task:
+	when _S.10_ and not _S.04_ and not _givetoken_
+	create foe _vampire_ every 60 minutes 10 times with 25% success
+
+_S.18_ task:
+	injured _vampire_ saying 1025
+
+_S.19_ task:
+	start timer _huntstart_

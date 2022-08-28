@@ -1,111 +1,158 @@
-Record n�0----------
-Aimeriez-vous recevoir un adorable
-_reward_ provenant de mon trésor, %pcf ?
-Mon alchimiste a commandé un très rare
-ingrédient dont il a besoin pour une importante
-expérience, et nous avons besoin que
-quelqu'un aille le récupérer.
-Pensez-vous que vous pourriez vous
-occuper de cela, %pcf ?
+-- Quest: C:\QUESTS\WORKING\R0C10Y20.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: royalty
+-- Repute: 10
+-- QuestId: 20
+Messages: 16
+Quest: R0C10Y20
+DisplayName: A Rare Ingredient
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                  How would you like to have a lovely
+<ce>                    _reward_ from my treasury, %pcf?
+<ce>                  My alchemist has ordered a very rare
+<ce>                  ingredient he needs for an important
+<ce>                   experiment and we need someone to
+<ce>                   pick it up. Do you think you could
+<ce>                           handle that, %pcf?
+
+RefuseQuest:  [1001]
+<ce>                      Well, that's odd. You might
+<ce>                   try not to have such a mercenary's
+<ce>                              heart, %pcf.
+
+AcceptQuest:  [1002]
+<ce>                        Excellent, %pcf, I knew
+<ce>                      you would be game. Take this
+<ce>                       _item1_ down to __contact_
+<ce>                        in ___contact_. There's
+<ce>                           a =contact_ there
+<ce>                       by the name of _contact_.
+<ce>                    Ask %g2 to give you the _item2_
+<ce>                        %g's brought up from the
+<ce>                   south. Make sure you're there and
+<ce>                  back in =1stparton_ days. All righty
+<ce>                        then, %pcf. I'm relying
+<ce>                           on you. Don't make
+<ce>                             me regret it.
+
+QuestFail:  [1003]
+<ce>                          The _item2_, %pcf?
+<ce>                      Remember? And don't dawdle.
+
+QuestComplete:  [1004]
+<ce>                    Good timing, %pcf. My alchemist
+<ce>                   will be so pleased -- it is a most
+<ce>                   excellent _item2_. As I promised,
+<ce>                         here is your _reward_.
+<ce>                           Pretty, isn't it?
+
+RumorsDuringQuest:  [1005]
+_questgiver_'s alchemist once refused a chip of ebonium -- it wasn't "fresh".
+<--->
+_questgiver_'s alchemist always requires very fresh elements. Don't know why.
+
+RumorsPostfailure:  [1006]
+_questgiver_ is having trouble with %g3 alchemist. Very temperamental, I hear.
+<--->
+A whole batch of _questgiver_'s alchemist's potions had to be thrown away.
+
+RumorsPostsuccess:  [1007]
+Really strange smells coming out of _questgiver_'s palace lately, you notice?
+<--->
+I saw this puff of red smoke rise out of _questgiver_'s palace like a bird.
+
+QuestorPostsuccess:  [1008]
+Don't think for a minute I've forgotten you, %pcf. How are you, friend?
+<--->
+My alchemist wanted to thank you personally, %pcf, but he's busy. How are you?
+
+QuestorPostfailure:  [1009]
+<ce>                    If my alchemist were here, he'd
+<ce>                         demand the _item2_ you
+<ce>                  were to retrieve, and then brain you
+<ce>                    with it. But, as it is, consider
+<ce>                      this a warning. Do not fail
+<ce>                       me in the future, should I
+<ce>                          need your services.
+<ce>                              That is all.
+
+QuestLogEntry:  [1010]
+<ce>                      And you must be %pcf, sent
+<ce>                         by _questgiver_, yes?
+<ce>                      Well, here's that _item2_ %g
+<ce>                   wanted. You better hurry back with
+<ce>                  it -- %g3 alchemist has very strong
+<ce>                    feelings about the freshness of
+<ce>                   ingredients. Misplaced, of course.
+<ce>                     _item2_ doesn't spoil. Still,
+<ce>                    you know what they say about one
+<ce>                   man's poison ... Now hurry along.
+
+Message:  1015
+%qdt:
+I will be given a _reward_
+ by _questgiver_ of __questgiver_,
+ ___questgiver_, if I get a
+ fresh _item2_ for %g2 from
+ _contact_ in =1stparton_ days or
+ less. _contact_ is in __contact_
+ in ___contact_.
 
 
-Record n�1----------
-Bon, c'est plutôt bizarre. Vous pourriez
-essayer de ne pas avoir un tel coeur
-de mercenaire, %pcf.
+-- Symbols used in the QRC file:
+--
+--                %g occurs 2 times.
+--               %g2 occurs 2 times.
+--               %g3 occurs 2 times.
+--              %pcf occurs 41 times.
+--              %qdt occurs 1 time.
+--       =1stparton_ occurs 2 times.
+--         =contact_ occurs 5 times.
+--    ___questgiver_ occurs 1 time.
+--        __contact_ occurs 5 times.
+--     __questgiver_ occurs 1 time.
+--         _contact_ occurs 3 times.
+--           _item1_ occurs 1 time.
+--           _item2_ occurs 7 times.
+--      _questgiver_ occurs 8 times.
+--          _reward_ occurs 3 times.
+
+QBN:
+Item _reward_ gem
+Item _item1_ turquoise
+Item _item2_ skin
+
+Person _questgiver_ face 72 group Questor
+Person _contact_ face 80 group Chemist
 
 
-Record n�2----------
-Excellent, %pcf, je savais
-que vous voudriez être de la partie.
-Apportez ce _item1_ à __contact_
-en ___contact_. Il y a
-un =contact_ là-bas
-du nom de _contact_.
-Demandez-lui de vous donner le
-_item2_ qu'%g a ramené du sud.
-Assûrez-vous de faire l'aller-retour
-dans les =1stparton_ jours.
-Très bien alors, %pcf.
-Je compte sur vous.
-Ne me le faites pas regretter.
+Clock _1stparton_ 00:00 0 flag 17 range 1 4
 
 
-Record n�3----------
-Le _item2_, %pcf ?
-Vous vous en souvenez ?
-Et ne vous tournez pas les pouces.
+--	Quest start-up:
+	start timer _1stparton_ 
+	log 1015 step 0 
+	get item _item1_ 
 
+_pcgetsgold_ task:
+	toting _item2_ and _questgiver_ clicked 
+	give pc _reward_ 
+	end quest 
 
-Record n�4----------
-Bon timing, %pcf. Mon alchimiste
-sera tellement satisfait, c'est un des meilleurs
-_item2_. Comme j'avais promis,
-voici votre _reward_.
-Joli, n'est-ce pas ?
+variable _qgclicked_
+variable _npcclicked_
+_1stparton_ task:
+	make _item2_ permanent 
+	make _item1_ permanent 
+	change repute with _questgiver_ by -20 
+	end quest 
 
-
-Record n�5----------
-Une fois, l'alchimiste de _questgiver_ a refusé un morceau 
-d'ebonium : il n'était pas "frais".
-L'alchimiste de _questgiver_ réclame toujours des ingrédients très 
-frais. Je ne sais pas pourquoi.
-
-Record n�6----------
-_questgiver_ a des soucis avec son alchimiste. Très en colère, il 
-paraît.
-Un lot entier des potions de l'alchimiste de _questgiver_ doit 
-être jeté.
-
-Record n�7----------
-De très étranges odeurs émanent du palais de _questgiver_ 
-dernièrement, vous avez remarqué ?
-J'ai vu cette émanation de fumée rouge s'envoler du palais de 
-_questgiver_ comme un oiseau.
-
-Record n�8----------
-Ne pensez pas une minute que je vous ai oublié, %pcf. Comment 
-allez-vous, mon ami ?
-Mon alchimiste voulait vous remercier personnellement, %pcf, mais 
-il est occupé. Comment allez-vous ?
-
-Record n�9----------
-Si mon alchimiste était là, il
-demanderait le _item2_ que
-vous deviez ramener, et alors
-il vous briserait le crâne avec.
-Cependant, dans ces circonstances,
-considérez cela comme un avertissement.
-N'échouez plus dans le futur, si
-j'avais à nouveau besoin de vos services.
-Ce sera tout.
-
-
-Record n�10----------
-Et vous devez être %pcf,
-envoyé par _questgiver_, non ?
-Bon, voici ce _item2_ qu'%g
-voulait. Vous feriez mieux de vous
-depêcher de retourner avec ça,
-son alchimiste est très regardant
-sur la fraicheur des ingrédients.
-Inutile, bien sûr.
-_item2_ n'a rien à se reprocher.
-Néanmoins, vous savez ce qu'ils disent
-au sujet d'un poison humain...
-Maintenant hâtez-vous.
-
-
-Record n�11----------
-%qdt :
- Il me sera donné un
- _reward_ by _questgiver_
- de __questgiver_,
- ___questgiver_, si j'obtiens
- un _item2_ frais pour %g2 de la
- part de _contact_, en =1stparton_ jours ou
- moins. _contact_ est à __contact_
- en ___contact_.
-
-
-
+variable _pchasitem1_
+_pchasitem2_ task:
+	toting _item1_ and _contact_ clicked 
+	get item _item2_ 
+	say 1010 

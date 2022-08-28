@@ -1,125 +1,204 @@
-Record n�0----------
-Mon nom n'a pas d'importance. Tout ce que vous devez savoir,
-c'est que j'ai besoin de quelqu'un qui n'a pas peur
-de verser un peu de sang pour... disons _gold_ pièces d'or.
-Si vous n'êtes pas intéressé, dites-le moi maintenant.
-Acceptez vous ce travail ?
+-- Quest: C:\QUESTS\WORKING\A0C00Y08.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 0
+-- QuestId: 8
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 34
+Quest: A0C00Y08
+DisplayName: The Assassin
+-- Message panels
+QRC:
 
-Chuuut ! Parlez moins fort. Avant que je n'en dise plus,
-seriez-vous le genre de %ra qui tuerait pour de l'or ?
-Disons pour _gold_ pièces d'or ?
+QuestorOffer:  [1000]
+<ce>             Mon nom n'a pas d'importance. Tout ce que vous devez savoir,
+<ce>              c'est que j'ai besoin de quelqu'un qui n'a pas peur
+<ce>            de verser un peu de sang pour... disons _gold_ pièces d'or.
+<ce>           Si vous n'êtes pas intéressé, dites-le moi maintenant.
+<ce>                       Acceptez vous ce travail ?
+                                     <--->
+<ce>             Chuuut ! Parlez moins fort. Avant que je n'en dise plus,
+<ce>              seriez-vous le genre de %ra qui tuerait pour de l'or ?
+<ce>                    Disons pour _gold_ pièces d'or ?
+                                     <--->
+<ce>             Je cherche quelqu'un qui ne s'évanouit pas à
+<ce>       la vue du sang... du sang humain. Pour _gold_ pièces d'or,
+<ce>                seriez-vous capable de tuer un homme ?
 
-Je cherche quelqu'un qui ne s'évanouit pas à
-la vue du sang... du sang humain. Pour _gold_ pièces d'or,
-seriez-vous capable de tuer un homme ?
+RefuseQuest:  [1001]
+<ce>                           Vous ne m'avez jamais vu.
+                                     <--->
+<ce>       Partez ! Je ne veux pas que quelqu'un nous voie discuter ensemble.
+                                     <--->
+<ce>                     Très bien. Qu'il en soit ainsi.
 
+AcceptQuest:  [1002]
+<ce>              Je veux que _darkb_ soit assassiné.
+<ce>           Le problème est que la Confrérie Noire
+<ce>         n'acceptera pas le travail. C'est en rapport
+<ce>                   avec une dette qu'ils ont.
+<ce>           J'ai besoin d'un indépendant. Accomplissez
+<ce>        le travail et soyez de retour d'ici une semaine,
+<ce>             je vous paierai _gold_ pièces d'or.
+<ce>        Demandez _questgiver_, je vous attendrai ici.
 
-Record n�1----------
-Nous ne nous sommes jamais vus.
+QuestComplete:  [1004]
+<ce>            La vengeance est mienne ! A propos, vous feriez
+<ce>           mieux de quitter la ville. J'ai entendu dire que la
+<ce>           Confrérie Noire avait eu vent de cette histoire.
+<ce>                      Voici votre or %pcf.
 
-Partez ! Je ne veux pas que quelqu'un nous voie discuter 
-ensemble.
+RumorsDuringQuest:  [1005]
+<ce>               Il paraît que _questgiver_  déteste _darkb_.
+                                     <--->
+<ce>             _darkb_ a des liens avec la Confrérie Noire.
 
-Très bien. Qu'il en soit ainsi.
+RumorsPostsuccess:  [1007]
+<ce>            Quelqu'un a tué _darkb_, et en public en plus !
+                                     <--->
+<ce>               Avez-vous entendu parler du meurtre ?
+<ce>                 _darkb_ a été tué par un assassin.
+                                     <--->
+<ce>              Je n'ai jamais aimé _darkb_. Cela me réjouit
+<ce>           que quelqu'un ait décidé sa mort. J'ai entendu dire
+<ce>                    que c'était la Confrérie Noire.
 
+QuestorPostsuccess:  [1008]
+<ce>               Parlez moins fort. Vous avez tué _darkb_
+<ce>              pour moi, et je sais ce que je vous dois,
+<ce>              mais je ne veux pas que les gens pensent
+<ce>             que j'ai quoi que ce soit à voir là dedans.
 
-Record n�2----------
-Je veux que _darkb_ soit assassiné.
-Le problème est que la Confrérie Noire
-n'acceptera pas le travail. C'est en rapport
-avec une dette qu'ils ont.
-J'ai besoin d'un indépendant. Accomplissez
-le travail et soyez de retour d'ici une semaine,
-je vous paierai _gold_ pièces d'or.
-Demandez _questgiver_, je vous attendrai ici.
+QuestorPostfailure:  [1009]
+<ce>             Je vous ai confié un travail et vous ne l'avez pas fait.
+<ce>              Tout ce que vous aviez à faire était de tuer _darkb_.
+<ce>               Maintenant c'est trop tard, et la Confrérie Noire
+<ce>                   est à mes trousses. Laissez-moi seul.
 
-
-Record n�3----------
-La vengeance est mienne ! A propos, vous feriez
-mieux de quitter la ville. J'ai entendu dire que la
-Confrérie Noire avait eu vent de cette histoire.
-Voici votre or %pcf.
-
-
-Record n�4----------
-Il paraît que _questgiver_  déteste _darkb_.
-
-_darkb_ a des liens avec la Confrérie Noire.
-
-
-Record n�5----------
-Quelqu'un a tué _darkb_, et en public en plus !
-
-Avez-vous entendu parler du meurtre ? _darkb_
-a été tué par un assassin.
-
-Je n'ai jamais aimé _darkb_. Cela me réjouit
-que quelqu'un ait décidé sa mort. J'ai entendu dire
-que c'était la Confrérie Noire.
-
-
-Record n�6----------
-Parlez moins fort. Vous avez tué _darkb_
-pour moi, et je sais ce que je vous dois,
-mais je ne veux pas que les gens pensent
-que j'ai quoi que ce soit à voir là dedans.
-
-
-Record n�7----------
-Je vous ai confié un travail et vous ne l'avez pas fait.
-Tout ce que vous aviez à faire était de tuer _darkb_.
-Maintenant c'est trop tard, et la Confrérie Noire
-est après moi. Laissez-moi seul.
-
-
-Record n�8----------
+QuestLogEntry:  [1010]
 %qdt:
- J'ai accepté un contrat pour tuer _darkb_.
- J'ai une semaine pour revenir voir _questgiver_
- de ___questgiver_ après avoir exécuté le contrat.
+J'ai accepté un contrat pour tuer _darkb_.
+J'ai une semaine pour revenir voir _questgiver_
+de ___questgiver_ après avoir exécuté le contrat.
+
+Message:  1015
+<ce>               _darkb_ est encore en vie. Tu me prends
+<ce>                   pour un lapin de 6 semaines, %pcf?
+
+Message:  1021
+<ce>                 Au secours ! Au meurtre ! Au secours !
+
+Message:  1022
+<ce>        Mais quel genre d'assassin êtes-vous ? Aux armes ! Aux armes !
+
+Message:  1023
+<ce>                        Je suis touché ! %oth.
+
+Message:  1024
+<ce>       Lâche ! Vous m'attaquez sans la moindre raison ni provocation !
+
+Message:  1030
+<ce>        _questgiver_ ? Je ne sais pas grand chose sur %g2.
+<ce>               C'est quelqu'un de plutôt discret.
+
+Message:  1031
+<ce>         Il semble que _questgiver_ ait de amis assez louche.
+<ce>             Mais ce n'est pas moi qui vous l'ai dit !
+
+Message:  1032
+<ce>        Un citoyen de haut rang ! Demandez autour de vous.
+
+Message:  1033
+<ce>             _darkb_ est généralement à _place_, mais à votre
+<ce>              place je ne me mêlerais pas de ses affaires.
+<ce>                    C'est juste un conseil d'ami.
 
 
-Record n�9----------
-_darkb_ est encore en vie.
-Pour qui me prenez vous %pcf?
+-- Symbols used in the QRC file:
+--
+--               %g2 occurs 4 times.
+--           %g2self occurs 2 times.
+--               %g3 occurs 1 time.
+--              %oth occurs 2 times.
+--              %pcf occurs 4 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 1 time.
+--    ___questgiver_ occurs 2 times.
+--           _darkb_ occurs 15 times.
+--            _gold_ occurs 9 times.
+--           _place_ occurs 1 time.
+--      _questgiver_ occurs 8 times.
 
+QBN:
+Item _gold_ gold
 
-Record n�10----------
-Au secours ! Au meurtre ! Au secours !
+Person _questgiver_ group Questor male anyInfo 1030 rumors 1031
+Person _darkb_ face 1 faction The_Dark_Brotherhood anyInfo 1032 rumors 1033
 
+Place _place_ local random
 
-Record n�11----------
-Mais quel genre d'assassin êtes vous ? Aux armes ! Aux armes !
+Clock _S.00_ 7.00:00 0 flag 1 range 0 1
 
+Foe _bard_ is Bard
+Foe _rogue_ is Rogue
+Foe _archer_ is Archer
+Foe _spellsword_ is Spellsword
 
+--	Quest start-up:
+	start timer _S.00_
+	log 1010 step 0
+	pc at _place_ set _S.11_
+	place npc _darkb_ at _place_
 
-Record n�12----------
-Je suis touché ! %oth.
+_S.00_ task:
+	end quest
 
+_S.01_ task:
+	restrain foe _archer_
+	place foe _archer_ at _place_
 
-Record n�13----------
-Lâche ! Vous m'attaquez sans la moindre raison ni provocation !
+_S.02_ task:
+	restrain foe _bard_
+	place foe _bard_ at _place_
 
+_S.03_ task:
+	restrain foe _rogue_
+	place foe _rogue_ at _place_
 
+_S.04_ task:
+	restrain foe _spellsword_
+	place foe _spellsword_ at _place_
 
-Record n�14----------
-_questgiver_ ? Je ne sais pas grand chose sur %g2.
-C'est quelqu'un de plutôt discret.
+variable _S.05_
+_S.06_ task:
+	injured _rogue_ saying 1023
+	injured _archer_ saying 1021
+	injured _bard_ saying 1022
+	injured _spellsword_ saying 1024
 
+_S.07_ task:
+	killed 1 _archer_
+	killed 1 _bard_
+	killed 1 _rogue_
+	killed 1 _spellsword_
+	change repute with _darkb_ by -20
+	legal repute -75
 
-Record n�15----------
-Il semble que _questgiver_ ait de ténébreux amis.
-Mais ce n'est pas moi qui vous l'ai dit !
+_S.08_ task:
+	clicked npc _questgiver_
 
+_clearclick_ task:
+	when _S.08_ and not _S.07_
+	say 1015
+	clear _S.08_ _clearclick_
+--added an additional clear clearclick here. Otherwise this clearing function would stop working after the first click.
 
-Record n�16----------
-Un citoyen de haut rang ! Demandez autour de vous.
+_S.10_ task:
+	when _S.08_ and _S.07_
+	give pc _gold_
+	end quest
 
-
-Record n�17----------
-_darkb_ est généralement à _place_, mais à votre
-place je ne me mêlerais pas de ses affaires.
-C'est juste un conseil d'ami.
-
-
-
+_S.11_ task:
+	pick one of _S.01_ _S.02_ _S.03_ _S.04_
+	hide npc _darkb_

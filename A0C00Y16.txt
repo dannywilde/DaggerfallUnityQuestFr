@@ -1,188 +1,329 @@
-Record n�0----------
-Mon nom est _questgiver_.
-Pouvez-vous m'aider à trouver
-mon ami ? Je peux seulement vous
-payer _gold_ pièces d'or.
+-- Quest: C:\QUESTS\WORKING\A0C00Y16.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 0
+-- QuestId: 16
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 55
+Quest: A0C00Y16
+DisplayName: Missing Person Case
+-- Message panels
+QRC:
 
-Aidez-moi s'il vous plaît.
-Mon ami _missingperson_
-a disparu. J'ai peur qu'%g puisse
-avoir été blessé. Je vous paierai
-_gold_ pièces d'or si vous %g2 retrouvez.
+QuestorOffer:  [1000]
+<ce>                    Mon nom est _questgiver_.
+<ce>                  Pouvez-vous m'aider à trouver
+<ce>                 mon ami ? Je peux seulement vous
+<ce>                     payer _gold_ pièces d'or.
+                                     <--->
+<ce>              Aidez-moi s'il vous plaît. Mon ami
+<ce>          _missingperson_ a disparu. J'ai peur qu'%g
+<ce>               ai été blessé. Je vous paierai
+<ce>            _gold_ pièces d'or si vous %g2 retrouvez.
 
+RefuseQuest:  [1001]
+<ce>           Bonne journée, %ra. Je chercherai quelqu'un d'autre.
+                                     <--->
+<ce>                   Personne ne veut-il donc m'aider ?
+                                     <--->
+<ce>                  Milles excuses. Je vous ai confondu
+<ce>                   avec un aventurier héroique.
 
-Record n�1----------
-Bonne journée, %ra. Je chercherai quelqu'un d'autre.
+AcceptQuest:  [1002]
+<ce>            Mes prières ont été entendues. _missingperson_
+<ce>           n'a pas été vu depuis quatre jours, et je suis très
+<ce>           inquiet à son sujet. %g a été vu en compagnie de
+<ce>                   _friend1_ et _friend2_. Vous
+<ce>           pourriez commencer par eux. Si vous ne parvenez
+<ce>               pas à retrouver _missingperson_ dans les
+<ce>                deux jours, ce ne sera plus la peine de
+<ce>                       continuer à chercher.
 
-Personne ne veut-il donc m'aider ?
+QuestComplete:  [1004]
+<ce>    Voici les _gold_ pièces d'or que je vous avais promises.
 
-Milles excuses. Je vous ai confondu
-avec un aventurier héroique.
+RumorsDuringQuest:  [1005]
+<ce>                  Il paraît que _questgiver_ cherche
+<ce>                    frénétiquement _missingperson_.
 
+RumorsPostfailure:  [1006]
+<ce>                    Personne n'a vu _missingperson_
+<ce>              depuis des jours maintenant. %g est laissé
+<ce>                 pour mort. Il paraît que _questgiver_
+<ce>                    en fait une grave dépression.
 
-Record n�2----------
-Mes prières ont été entendues. _missingperson_
-n'a pas été vu depuis quatre jours, et je suis très
-inquiet à son sujet. %g a été vu en compagnie de
-_friend1_ et _friend2_. Vous
-pourriez commencer par eux. Si vous ne parvenez
-pas à retrouver _missingperson_ dans les
-deux jours, ce ne sera plus la peine de
-continuer à chercher.
+RumorsPostsuccess:  [1007]
+<ce>              Dites, seriez pas le %ra qu'a aidé
+<ce>            _questgiver_ à trouver _missingperson_ ?
 
+QuestorPostsuccess:  [1008]
+<ce>                  Comment pourrais-je ignorer le %ra qui
+<ce>                  a retrouvé _missingperson_ pour moi ?
 
-Record n�3----------
-Voici les _gold_ pièces d'or que je vous avais promises.
+QuestorPostfailure:  [1009]
+<ce>                Je sais que ce n'est pas votre faute
+<ce>                si vous n'avez pas réussi à retrouver
+<ce>                 _missingperson_ pour moi. Ils ont
+<ce>                  trouvé son corps dans un égout.
+<ce>                      Veuillez me laisser.
+QuestLogEntry:  [1010]
+On %qdt,
+J'ai accepté d'aider _questgiver_
+à retrouver _missingperson_. %g
+est porté disparu depuis quatre jours.
+Mes seuls indices sont qu'%g a été
+vu avec _friend2_ et _friend1_
+récemment. Si je n'ai pas réussi dans
+les deux jours, je ne serai pas payé.
 
+Message:  1021
+<ce>                  Vous cherchez _missingperson_ ?
+<ce>                Bon, %g est caché à __missingperson_,
+<ce>                 mais ne le dites pas à _questgiver_.
+<ce>                    _missingperson_ a juré de ne
+<ce>                  plus jamais parler à _questgiver_.
+<ce>                    Ne me demandez pas pourquoi.
 
-Record n�4----------
-Il paraît que _questgiver_ cherche
-frénétiquement _missingperson_.
+Message:  1022
+<ce>               Si j'ai vu _missingperson_ dernièrement ?
+<ce>             Bien sûr. Les gardes l'ont attrapé en train de
+<ce>                voler dans un temple. _questgiver_ sera
+<ce>                     vert quand %g le découvrira.
 
+Message:  1023
+<ce>                    Est-ce que _questgiver_ vous a
+<ce>                proposé ce marché ? C'est ce que je pensais.
+<ce>                    %oth, %g a eu un méchant combat
+<ce>                    contre _missingperson_ il y a quelques
+<ce>                    jours. _missingperson_ a quitté
+<ce>                 la ville et n'a pas été vu depuis. Non,
+<ce>                   je ne sais pas ou %g est parti.
 
-Record n�5----------
-Personne n'a vu _missingperson_
-depuis des jours maintenant. %g est laissé
-pour mort. Il paraît que _questgiver_
-en fait une grave dépression.
+Message:  1024
+<ce>                       _missingperson_ ? Ouais, je
+<ce>                    sais ce qui lui est arrivé. %g a été
+<ce>                   tué, voilà tout. Mon pote Smiley lui
+<ce>                       a demandé vraiment gentiment
+<ce>                          son or, et %g a refusé.
+<ce>                      Vous devriez vraiment rencontrer
+<ce>                        Smiley et mes autres amis.
+<ce>                         Chope le %ra, Smiley !
 
+Message:  1031
+<ce>                    _missingperson_ ? Nan. L'ai
+<ce>                    pas vu depuis une paire jours.
+<ce>                   Essaie de demander à _friend3_.
+<ce>                      %g pourrait savoir.
 
-Record n�6----------
-Dites, seriez pas le %ra qu'a aidé
-_questgiver_ à trouver _missingperson_ ?
+Message:  1032
+<ce>               %oth. Je n'ai pas vu _missingperson_
+<ce>             depuis avant-hier. Vous pourriez demander
+<ce>                  a _friend4_ ou _friend1_.
+<ce>                L'un d'eux pourrait savoir.
 
+Message:  1033
+<ce>                     _friend1_ vous a dit que je pourrais
+<ce>                       savoir quelque chose à propos de
+<ce>                    _missingperson_ ? J'ai peur que non.
+<ce>                   Tout ce que je sais c'est qu'%g sorti
+<ce>                  boire la nuit dernière. J'espère que rien
+<ce>                        de mal ne lui est arrivé.
 
-Record n�7----------
-Comment pourrais-je ignorer le %ra qui
-a retrouvé _missingperson_ pour moi ?
+Message:  1034
+<ce>              Désolé, je n'ai pas vu _missingperson_
+<ce>               depuis un bail. Je ne sais pas pourquoi
+<ce>                _friend2_ vous aurait envoyé vers
+<ce>                 moi... Avez-vous essayé _friend1_ ?
 
+Message:  1040
+<ce>                     Qu'est-ce que vous faites là ? Je ne
+<ce>                    veux plus jamais revoir _questgiver_.
+<ce>                     Hé ! Laissez-moi partir ! Vous ne
+<ce>                     pouvez pas me trainer comme ça
+<ce>                    à travers les rues jusqu'à %g2.
 
-Record n�8----------
-Je sais que ce n'est pas votre faute
-si vous n'avez pas réussi à retrouver
-_missingperson_ pour moi. Ils ont
-trouvé son corps dans un égout.
-Veuillez simplement me laisser.
+Message:  1050
+<ce>                      _missingperson_ ! Je
+<ce>                  n'espérais pas que vous %g2
+<ce>                       rameniez ici %pcn.
+<ce>                  _missingperson_, où étais-tu ?
+<ce>                 Je m'inquiétais pour toi. %pcf,
+<ce>                je vais m'en occuper maintenant.
 
-
-Record n�9----------
- %qdt :
- J'ai accepté d'aider _questgiver_
- à retrouver _missingperson_. %g
- est porté disparu depuis quatre jours.
- Mes seuls indices sont qu'%g a été
- vu avec _friend2_ et _friend1_
- récemment. Si je n'ai pas réussi dans
- les deux jours, je ne serai pas payé.
-
-
-Record n�10----------
-Vous cherchez _missingperson_ ?
-Bon, %g est caché à __missingperson_,
-mais ne le dites pas à _questgiver_.
-_missingperson_ a juré de ne
-plus jamais parler à _questgiver_.
-Ne me demandez pas pourquoi.
-
-
-Record n�11----------
-Si j'ai vu _missingperson_ dernièrement ?
-Bien sûr. Les gardes l'ont attrapé en train de
-voler dans un temple. _questgiver_ sera
-vert quand %g le découvrira.
-
-
-Record n�12----------
-Est-ce que _questgiver_ vous a
-proposé ce marché ? C'est ce que je pensais.
-%oth, %g a eu un méchant combat
-avec _missingperson_ il y a quelques
-jours. _missingperson_ a quitté
-la ville et n'a pas été vu depuis. Non,
-je ne sais pas ou %g est parti.
-
-
-Record n�13----------
-_missingperson_ ? Ouais, je
-sais ce qui lui est arrivé. %g a été
-tué, voilà tout. Mon pote Smiley lui
-a demandé vraiment gentiment
-son or, et %g a refusé.
-Vous devriez vraiment rencontrer
-Smiley et mes autres amis.
-Chope le %ra, Smiley !
-
-
-Record n�14----------
-_missingperson_ ? Nan. L'ai
-pas vu depuis une paire jours.
-Essaie de demander à _friend3_.
-%g pourrait savoir.
-
-
-Record n�15----------
-%oth. Je n'ai pas vu _missingperson_
-depuis avant-hier. Vous pourriez demander
-a _friend4_ ou _friend1_.
-L'un d'eux pourrait savoir.
-
-
-Record n�16----------
-_friend1_ vous a dit que je pourrais
-savoir quelque chose à propos de
-_missingperson_ ? J'ai peur que non.
-Tout ce que je sais c'est qu'%g sorti
-boire la nuit dernière. J'espère que rien
-de mal ne lui est arrivé.
-
-
-Record n�17----------
-Désolé, je n'ai pas vu _missingperson_
-depuis un bail. Je ne sais pas pourquoi
-_friend2_ vous aurait envoyé vers
-moi... Avez-vous essayé _friend1_ ?
-
-
-Record n�18----------
-Qu'est-ce que vous faites là ? Je ne
-veux plus jamais revoir _questgiver_.
-Hé ! Laissez-moi partir ! Vous ne
-pouvez pas me trainer comme ça
-à travers les rues jusqu'à %g2.
-
-
-Record n�19----------
-_missingperson_ ! Je
-n'espérais pas que vous %g2
-rameniez ici %pcn.
-_missingperson_, où étais-tu ?
-Je m'inquiétais pour toi. %pcf,
-je vais m'en occuper maintenant.
+Message:  1051
+<ce>                   Ainsi, _missingperson_ se cache,
+<ce>                hein ? Je vais aller faire sortir ce scélérat
+<ce>                 de sa planque. Vous avez été d'une grande
+<ce>                           aide %pcn.
 
 
-Record n�20----------
-Ainsi, _missingperson_ se cache,
-hein ? Je vais aller faire sortir ce scélérat
-de sa planque. Vous avez été d'une grande
-aide %pcn.
+Message:  1052
+<ce>                   En prison ! Je dois partir immédiatement.
+<ce>                 Peut-être que je pourrai soudoyer le juge.
+
+Message:  1053
+<ce>                        Ainsi _missingperson_ a
+<ce>                    quitté la ville. %g n'avait pas besoin
+<ce>                     de faire ça. Je lui aurais pardonné.
+
+Message:  1054
+<ce>                     Mort ! Comment c'est possible ?
+<ce>                   J'espère que vous avez fait souffrir
+<ce>                       ce Smiley, %pcn. C'est un
+<ce>                      jour de grande peine pour moi.
 
 
-Record n�21----------
-En prison ! Je dois partir immédiatement.
-Peut-être que je pourrai soudoyer le juge.
+-- Symbols used in the QRC file:
+--
+--                %g occurs 20 times.
+--               %g2 occurs 17 times.
+--               %g3 occurs 1 time.
+--              %oth occurs 2 times.
+--              %pcf occurs 1 time.
+--              %pcn occurs 4 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 5 times.
+--  __missingperson_ occurs 1 time.
+--         _friend1_ occurs 5 times.
+--         _friend2_ occurs 3 times.
+--         _friend3_ occurs 3 times.
+--         _friend4_ occurs 1 time.
+--            _gold_ occurs 7 times.
+--   _missingperson_ occurs 26 times.
+--      _questgiver_ occurs 10 times.
 
+QBN:
+Item _gold_ gold
 
-Record n�22----------
-Ainsi _missingperson_ a
-quitté la ville. %g n'avait pas besoin
-de faire ça. Je lui aurais pardonné.
+Person _questgiver_ group Questor male
+Person _missingperson_ face 1 group Group_6.0
+Person _friend1_ group Local_3.1 male
+Person _friend2_ group Local_3.1 male
+Person _friend3_ group Local_3.1 male
+Person _friend4_ group Local_4.1 male
 
+Place _hidingplace_ local random
 
-Record n�23----------
-Mort ! Comment c'est possible ?
-J'espère que vous avez fait souffrir
-ce Smiley, %pcn. C'est un
-jour de grande peine pour moi.
+Clock _S.16_ 2.00:00
+--removed flags to make exact two days
 
- 
+Foe _F.00_ is 3 Barbarian
 
+--	Quest start-up:
+	dialog link for person _friend4_
+	dialog link for person _missingperson_
+	dialog link for location _hidingplace_ person _friend3_
+	start timer _S.16_
+	log 1010 step 0
+	pick one of _S.00_ _S.02_ _S.03_ _S.01_
+	create npc _friend4_
+	create npc _friend2_
+	create npc _friend3_
+	create npc _friend1_
+
+_S.00_ task:
+	place npc _missingperson_ at _hidingplace_
+
+variable _S.01_
+variable _S.02_
+variable _S.03_
+_S.04_ task:
+	clicked npc _friend1_
+	add dialog for person _friend3_
+
+_S.05_ task:
+	clicked npc _friend2_
+	add dialog for person _friend4_
+
+_S.06_ task:
+	clicked npc _friend3_
+
+_S.07_ task:
+	clicked npc _friend4_
+
+_S.08_ task:
+	when _S.00_ and _S.04_
+	say 1021
+
+_S.09_ task:
+	when _S.02_ and _S.05_
+	say 1022
+
+_S.10_ task:
+	when _S.03_ and _S.06_
+	say 1023
+
+_S.11_ task:
+	when _S.01_ and _S.07_
+	create foe _F.00_ every 1 minutes 1 times with 100% success
+	say 1024
+
+_S.12_ task:
+	when not _S.00_ and _S.04_
+	say 1031
+
+_S.13_ task:
+	when not _S.02_ and _S.05_
+	say 1032
+
+_S.14_ task:
+	when not _S.03_ and _S.06_
+	say 1033
+
+_S.15_ task:
+	when not _S.01_ and _S.07_
+	say 1034
+
+_S.16_ task:
+	end quest
+
+_S.17_ task:
+	killed 1 _F.00_
+	hide npc _friend4_
+
+_S.18_ task:
+	clicked npc _questgiver_
+
+_clearclick_ task:
+	when not _yes_ and _S.18_
+	clear _S.18_ _clearclick_
+
+_yes_ task:
+	when _S.08_ or _S.09_ or _S.10_ or _S.11_ or _S.22_
+
+_givereward_ task:
+	when _yes_ and _S.18_
+	give pc _gold_
+	end quest
+--removed unnecessary delay
+
+_S.22_ task:
+	clicked npc _missingperson_
+	hide npc _missingperson_
+	add _missingperson_ face saying 1040
+
+_S.23_ task:
+	when _S.22_ and _S.18_
+	drop _missingperson_ face
+
+_S.24_ task:
+	when _S.18_ and _S.08_ and not _S.22_
+	say 1051
+
+_S.25_ task:
+	when _S.18_ and _S.09_
+	say 1052
+
+_S.26_ task:
+	when _S.18_ and _S.10_
+	say 1053
+
+_S.27_ task:
+	when _S.18_ and _S.11_
+	say 1054
+
+_S.28_ task:
+	when _S.18_ and _S.22_
+	say 1050
+--removed unnecessary check. quest can remained "unsolved" after unexpectedly finding the quarry and returning to QG.

@@ -1,192 +1,248 @@
-Record n�0----------
-Oui, je connais une autre personne qui s'intéressait
- au pouvoir. Un petit panikosa à Oblivion qui
- rêvait de pouvoir, qui m'a demandé de lui
- procurer la beauté et la grâce qu'il avait toujours
- desirée. Et après que je l'aie rendu magnifique, il
- s'est battu contre moi, s'opposant à ma volonté
- comme si je n'avais rien fait. Peut-être êtes-vous
- pareil. Si je vous rendais fort et magnifique,
- vous respecteriez le cadeau que vous ai fait,
- n'est-ce pas?
+-- Quest: C:\QUESTS\WORKING\80C0XY00.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: Malacath
+-- Repute: 0X
+-- QuestId: 0
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 54
+Quest: 80C0XY00
+DisplayName: Malacath's Quest
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>             Oui, je connais une autre personne qui s'intéressait
+<ce>            au pouvoir. Un petit panikosa à Oblivion qui
+<ce>           rêvait de pouvoir, qui m'a demandé de lui
+<ce>           procurer la beauté et la grâce qu'il avait toujours
+<ce>           desiré. Et après que je l'ai rendu magnifique, il
+<ce>           s'est battu contre moi, s'opposant à ma volonté
+<ce>           comme si je n'avais rien fait. Peut-être êtes-vous
+<ce>           pareil. Si je vous rendais fort et magnifique,
+<ce>           vous respecteriez le cadeau que vous ai fait,
+<ce>           n'est-ce pas?
 
-Record n�1----------
-Stupide %ra, vous n'avez même pas appris
- à mentir? Ne gaspillez pas mon
- temps avec vos envies pathétiques.
+RefuseQuest:  [1001]
+<ce>                Stupide %ra, vous n'avez même pas appris
+<ce>                   à mentir? Ne gaspillez pas mon
+<ce>                  temps avec vos envies pathétiques.
 
+AcceptQuest:  [1002]
+<ce>                    Je vous crois, %pcn. En
+<ce>             échange de la mort de la perfide séductrice
+<ce>          en qui j'ai jadis eu confiance, je vous donnerai
+<ce>             le _artifact_, mon bien le plus précieux
+<ce>          dans votre monde. Il vous rendra vraiment très
+<ce>          puissant. Vous trouverez la créature répugnante
+<ce>               à ___mondung_. Tuez-la et rejoignez mon
+<ce>                 cher et fiable sujet, _qgfriend_
+<ce>              à ___qgfriend_. Je lui dirai de vous y
+<ce>                 rencontrer au palais par commodité.
+<ce>             Je ne pense pas que toute l'affaire prenne
+<ce>          plus de =1stparton_ jours, si elle est accomplie
+<ce>         efficacement comme il se doit. Allez dans le monde
+<ce>                 et accomplissez mes ordres, %pcn.
 
-Record n�2----------
-Je vous crois, %pcn. En
- échange de la mort de la perfide séductrice
- en qui j'ai jadis eu confiance, je vous donnerai
- le _artifact_, mon bien le plus précieux
- dans votre monde. Il vous rendra vraiment très
- puissant. Vous trouverez la créature répugnante
- à ___mondung_. Tuez-la et rejoignez mon
- cher et fiable sujet, _qgfriend_
- à ___qgfriend_. Je lui dirai de vous y
- rencontrer au palais par commodité.
- Je ne pense pas que toute l'affaire prenne
- plus de =1stparton_ jours, si elle est accomplie
- efficacement comme il se doit. Allez dans le monde
- et accomplissez mes ordres, %pcn.
+QuestFail:  [1003]
+<ce>                     Foutez le camp, %ra bavant.
+<ce>                Je cherche un véritable être humain.
 
+QuestComplete:  [1004]
+<ce>                    Ainsi vous êtes %pcn. Malacath
+<ce>                vous a parfaitement décrit. Bon travail avec
+<ce>               la vieille =monster_. Elle ne savait vraiment pas
+<ce>                comment lui fermer la bouche, vous savez ?
+<ce>              Quoi qu'il en soit, voici le _artifact_. Pas une
+<ce>            mauvaise arme. Et qui sait ? Vous pourriez avoir
+<ce>               à l'utiliser contre Malacath lui-même un jour.
+<ce>                            Je plaisante ...
+<ce>                               bien sûr.
 
-Record n�3----------
-Foutez le camp, %ra bavant.
- Je cherche un véritable être humain.
-
-
-Record n�4----------
-Ainsi vous êtes %pcn. Malacath
- vous a parfaitement décrit. Bon travail avec
- la vieille =monster_. Elle ne savait vraiment pas
- comment lui fermer la bouche, vous savez ?
- Quoi qu'il en soit, voici le _artifact_. Pas une
- mauvaise arme. Et qui sait ? Vous pourriez avoir
- à l'utiliser contre Malacath lui-même un jour.
- Je plaisante, bien sûr...
-
-
-Record n�5----------
+RumorsDuringQuest:  [1005]
 _murder_ a été retrouvé mort, dans son palais de ___ruler_.
-La plupart des séductrices daedras ont une mission. Celle de 
-___mondung_ attend simplement.
+<--->
+La plupart des séductrices Daedras ont une mission. Celle de ___mondung_ n'attend que ça.
 
-Record n�6----------
-Je pense encore au rire de cette femme que j'ai entendu venant du 
-ciel.
-Je ne sais pas où, mais beaucoup de gens l'ont vue voler aux 
-alentours il y a quelques nuits.
+RumorsPostfailure:  [1006]
+Je pense encore au rire de cette femme que j'ai entendu venant du ciel.
+<--->
+Je ne sais pas où, mais beaucoup de gens l'ont vue voler aux alentours il y a quelques nuits.
 
-Record n�7----------
-J'ai appris que la séductrice a été assassinée par les agents de 
-son maître pour être tombée amoureuse.
-Ca me rendait nerveux, cette séductrice simplement assise dans ce 
-trou, attendant quelque chose.
+RumorsPostsuccess:  [1007]
+J'ai appris que la séductrice a été assassinée par les agents de son maître pour être tombée amoureuse.
+<--->
+Ca me rendait nerveux, cette séductrice simplement assise dans ce trou, attendant quelque chose.
 
-Record n�8----------
-Error: Quest 80c00y00.q tried to display text
+Message:  1011
+_qgfriend_ est un noble, on dit qu'il a eu une aventure secrète avec une dame sombre.
+<--->
+_qgfriend_ est un noble qui a de nombreuses allégeances secrètes.
 
-Record n�9----------
+Message:  1012
+Malacath est le Prince Daedra du Mensonge, de la Duperie et de l'Hypocrisie.
+<--->
+Malacath profère des mensonges comme un chien mort attire les asticots
 
-
-
-Record n�10----------
-Error: Quest 80c00y00.q tried to display text
-
-Record n�11----------
-
-
-
-Record n�12----------
-_qgfriend_ est un noble, on dit qu'il a eu une aventure secrète 
-avec une dame sombre.
-_qgfriend_ est un noble qui a beaucoup d'allégeances 
-secrètes.
-
-Record n�13----------
-Malacath est le Prince Daedra du Mensonge, de la Duperie et de 
-l'Hypocrisie.
-Malacath profère des mensonges comme un chien mort attire les 
-mouches.
-
-Record n�14----------
-Le _artifact_ est un marteau de guerre d'un grand pouvoir, capable 
-de saper
- la force de ses victimes.
+Message:  1013
+<ce>      Le _artifact_ est un marteau de guerre d'un grand pouvoir, capable
+<ce>                      de saper la force de ses victimes.
 
 
+Message:  1015
+=monster_ is dead.
 
-Record n�15----------
-=monster_ est morte.
-
-Record n�16----------
+Message:  1020
 %qdt:
  J'ai invoqué le Prince Daedra Malacath
- qui m'a offert le _artifact_ en échange de
- la mort de =monster_, une séductrice daedra
- qui fut son amante. La séductrice a trouvé
- refuge en un lieu appelé ___mondung_.
- Si je peux tuer =monster_ et rejoindre le Palais de
- ___qgfriend_ en =1stparton_ jours,
- un =qgfriend_ nomme _qgfriend_ me donnera
- le _artifact_.
+  qui m'a offert le _artifact_ en échange de
+  la mort de =monster_, une séductrice daedra
+  qui fut son amante. La séductrice a trouvé
+  refuge en un lieu appelé ___mondung_.
+  Si je peux tuer =monster_ et rejoindre le Palais de
+  ___qgfriend_ en =1stparton_ jours,
+  un =qgfriend_ nomme _qgfriend_ me donnera
+  le _artifact_.
 
-
-Record n�17----------
+Message:  1030
 =monster_,
- 
-      Malacath veut la mort de _murder_.
- Ses agents ont découvert trop de nos intrigues.
- Il doit être arrêté avant que tous nos plans
- pour %reg ne soient ruinés. Vous le
- trouverez au Palais de ___ruler_.
- Assurez-vous que la piste de son meurtre
- ne puisse pas être remontée jusqu'à nous.
-     Après l'avoir assassiné, attendez
- moi à ___mondung_.  J'apporterai votre
- récompense et votre prochaine lettre de
- mission de la part de Malacath.
- 
- _qgfriend_
+
+    Malacath veut la mort de _murder_.
+Ses agents ont découvert trop de nos intrigues.
+Il doit être arrêté avant que tous nos plans
+pour %reg ne soient ruinés. Vous le
+trouverez au Palais de ___ruler_.
+Assurez-vous que la piste de son meurtre
+ne puisse pas être remontée jusqu'à nous.
+Après l'avoir assassiné, attendez
+moi à ___mondung_.  J'apporterai votre
+récompense et votre prochaine lettre de
+mission de la part de Malacath.
+
+<ce>                               _qgfriend_
+
+Message:  1040
+<ce>                     %oth!  _qgfriend_ était
+<ce>                derrière le meurtre de _murder_ ? Et également
+<ce>                 impliqué dans un complot daedra ? On aurait
+<ce>                  pu ne jamais élucider ce meurtre sans
+<ce>                  votre aide, %pcn. Votre loyauté envers
+<ce>                     le %rt ne sera pas oubliée.
+
+Message:  1041
+<ce>                       Donnez-vous la lettre de _qgfriend_
+<ce>                             à _ruler_ ?
+
+Message:  1050
+<ce>        Le meurtre de _murder_ reste un mystère. _ruler_ mène
+<ce>         l'enquête, mais pour l'instant il n'a pas de pistes.
+                                     <--->
+<ce>Je suis certain que _murder_ a été tué à cause de ses enquêtes
+<ce>                     sur la corruption à %reg.
+
+Message:  1051
+<ce>  _murder_ enquêtait sur un complot pour renverser %rt %rn quand il
+<ce> a été "mystérieusement" tué.  _ruler_ tente de trouver qui est
+<ce>      responsable,  mais %g ne résoudra jamais cette affaire.
+                                     <--->
+<ce>  _murder_  a été retrouvé mort au Palace de ___ruler_, et toutes ses
+<ce>  notes sur ses investigations à propos de haute-trahison ont été volées.
+<ce>  _ruler_ a été   envoyé sur la trace du tueur, mais %g ne sais pas où chercher.
+
+Message:  1052
+<ce>      _ruler_ mène l'enquête sur la mort de _murder_,
+<ce>         mais il n'y a pas de piste pour l'instant.
+                                     <--->
+<ce> _ruler_ enquête sur la mort de _murder_ au Palais de ___ruler_.
+
+Message:  1053
+<ce>_ruler_ essaie de trouver qui est responsable de la mort de _murder_,
+<ce>                mais %g ne résoudra jamais cette affaire.
+                                     <--->
+<ce>_ruler_ a été envoyé sur la trace de l'assassin de _murder_, mais ne sais pas où chercher.
 
 
-Record n�18----------
-%oth !  _qgfriend_ était
- derrière le meurtre de _murder_ ? Et également
- impliqué dans un complot daedra ? On aurait
- pu ne jamais élucider ce meurtre sans
- votre aide, %pcn. Votre loyauté envers
- le %rt ne sera pas oubliée.
+-- Symbols used in the QRC file:
+--
+--                %g occurs 8 times.
+--               %g2 occurs 2 times.
+--               %g3 occurs 19 times.
+--              %oth occurs 1 time.
+--              %pcn occurs 5 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 2 times.
+--              %reg occurs 3 times.
+--               %rn occurs 1 time.
+--               %rt occurs 3 times.
+--       =1stparton_ occurs 2 times.
+--         =monster_ occurs 5 times.
+--        =qgfriend_ occurs 1 time.
+--       ___mondung_ occurs 4 times.
+--      ___qgfriend_ occurs 2 times.
+--         ___ruler_ occurs 5 times.
+--        _artifact_ occurs 6 times.
+--          _murder_ occurs 18 times.
+--        _qgfriend_ occurs 7 times.
+--           _ruler_ occurs 11 times.
 
+QBN:
+Item _artifact_ artifact Volendrung anyInfo 1013
+Item _note_ letter used 1030
 
-Record n�19----------
-Donnez-vous la lettre de _qgfriend_
- à _ruler_ ?
+Person _qgfriend_ group Noble female anyInfo 1011
+Person _murder_ face 1 factiontype Province anyInfo 1050 rumors 1051
+Person _ruler_ group Noble female anyInfo 1052 rumors 1053
 
+Place _mondung_ remote dungeon
 
-Record n�20----------
-Le meurtre de _murder_ reste un mystère. _ruler_ mène
- l'enquête, mais pour l'instant il n'a pas de pistes.
+Clock _1stparton_ 00:00 0 flag 18 range 2 5
 
-Je suis certain que _murder_ a été tué à cause de ses enquêtes 
-sur
- la corruption à %reg.
+Foe _monster_ is Daedra_seducer
 
+--	Quest start-up:
+	dialog link for person _ruler_
+	dialog link for person _murder_
+	start timer _1stparton_
+	reveal _mondung_
+	log 1020 step 0
+	give item _note_ to _monster_
+	_note_ used do _readnote_
+	place foe _monster_ at _mondung_
 
-Record n�21----------
-_murder_ enquêtait sur un complot pour renverser %rt %rn quand il 
-a
- été "mystérieusement" tué.  _ruler_ tente de trouver qui est 
-responsable,
- mais %g ne résoudra jamais cette affaire.
+_1stparton_ task:
+	end quest
 
-_murder_ a été retrouvé mort au Palace de ___ruler_, et toutes ses 
-notes sur ses
- investigations à propos de haute-trahison ont été volées.  
-_ruler_ a été
- envoyé sur la trace du tueur, mais %g ne sais pas où 
-chercher.
+variable _2ndparton_
+_pcgetsgold_ task:
+	when _npcclicked_ and _mondead_
+	give pc _artifact_
+	end quest
+--removed unnecessary delay
 
+_mondead_ task:
+	killed 1 _monster_
+	say 1015
+	create npc _qgfriend_
 
-Record n�22----------
-_ruler_ mène l'enquête sur la mort de _murder_,
- mais il n'y a pas de piste pour l'instant.
+_npcclicked_ task:
+	clicked npc _qgfriend_
 
-_ruler_ enquête sur la mort de _murder_ au Palais de 
-___ruler_.
+--defining clearclick to prevent out-of-place victory condition
+_clearclick_ task:
+	when _npcclicked_ and not _mondead_
+	say 1003
+	clear _npcclicked_ _clearclick_
 
+_readnote_ task:
+	add dialog for person _murder_
 
-Record n�23----------
-_ruler_ essaie de trouver qui est responsable de la mort de 
-_murder_,
- mais %g ne résoudra jamais cette affaire.
+_rulerclicked_ task:
+	toting _note_ and _ruler_ clicked
+	prompt 1041 yes _S.09_ no _school_
 
-_ruler_ a été envoyé sur la trace de l'assassin de _murder_, mais 
-ne sais pas où chercher.
+_S.09_ task:
+	say 1040
+	change repute with _murder_ by +15
 
-
-
+_school_ task:
+	get item _note_

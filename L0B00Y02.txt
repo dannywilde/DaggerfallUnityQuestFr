@@ -1,124 +1,198 @@
-Record n�0----------
-Un autre groupement d'assassin
-a éclos a %reg. Il doit être écrasé avant
-qu'il ne parvienne à se développer. Je veux
-que vous vous y rendiez, que vous occupiez
-de l'assassin, puis de celui ou celle qui
-commandite les meurtres. Avez-vous le temps
-de vous en occupper?
+-- Quest: C:\QUESTS\WORKING\L0B00Y02.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Brotherhood
+-- Repute: 0
+-- QuestId: 2
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 16
+Quest: L0B00Y02
+DisplayName: Disagreeable Competition
+-- Message panels
+QRC:
 
-Depuis la Seconde Ere, la Confrérie Noire
-est la seule et unique guilde d'assassins.
-Nous avons bien entendu l'intention de conserver
-ce monopole. Il se trouve justement qu'un assassin
-indépendant a dans l'idée de nous faire de l'ombre
-depuis quelques temps, mais la chance de
-=assassin_ va bientôt s'arrêter. Je veux que vous
-%g2 appreniez cette petite leçon d'histoire et que
-vous la répétiez à %g3 stupide employeur.
+QuestorOffer:  [1000]
+<ce>                 There is another assassination group
+<ce>                      budding in %reg, which must
+<ce>                 be crushed before it can bloom. I want
+<ce>                 you to move in, account the assassin,
+<ce>                 and then the man or woman who ordered
+<ce>                  the assassination. You do have time
+<ce>                        for this endeavor, yes?
+                                     <--->
+<ce>                 The Dark Brotherhood has been the sole
+<ce>                 assassin's guild in Tamriel since the
+<ce>                   Second Era. We intend to keep that
+<ce>                monopoly. There is a freelance assassin
+<ce>                who has been flaunting us for some time,
+<ce>                         but =assassin_'s luck
+<ce>                  has ended. I want you to teach %g2 a
+<ce>                 permanent lesson, and then repeat the
+<ce>                    lesson for %g3 foolish employer.
 
+RefuseQuest:  [1001]
+<ce>                    No? How strange and troubling.
 
-Record n�1----------
-Non? Etrange et préoccuppant...
+AcceptQuest:  [1002]
+<ce>                   Good. Now then, we know that the
+<ce>                         assassin, =assassin_,
+<ce>                  has pursued %g3 quarry to a dungeon
+<ce>                         called ___mondung_. If
+<ce>                  you have not found any clues to the
+<ce>                  employer's whereabouts, return here.
+<ce>                   I would, of course, prefer for you
+<ce>                         to account =assassin_
+<ce>                   and %g3 employer both, but I'd be
+<ce>                    reasonably satisfied with merely
+<ce>                    the freelancer's death. Take no
+<ce>                     longer than =queston_ days for
+<ce>                           both accountings.
 
+QuestComplete:  [1004]
+<ce>                       Excellent, %pct. We would
+<ce>               have been happy with just the termination
+<ce>                       of =assassin_, but now the
+<ce>                        acquaintances of =boss_
+<ce>                will know that the Dark Brotherhood does
+<ce>                 not take well to amateur competition.
 
-Record n�2----------
-Bien. Nous savons actuellement que
-=assassin_ a poursuivi %g3 victime
-dans le donjon nommé
-___mondung_. Si vous ne
-parvenez pas à trouver des indices pouvant
-vous mener jusqu'aux employeurs, revenez ici.
-Je préfèrerais, bien sûr, que vous régliez
-le sort de =assassin_ 
-ET celui de ses commanditaires, mais je me
-contenterai aisément de la simple mort
-de l'assassin. 
-Je vous accorde un délai de =queston_ jours pour
-ces deux tâches.
+RumorsDuringQuest:  [1005]
+That =assassin_ has been a freelance assassin in %reg for years now.
+<--->
+=assassin_ isn't the best in the business, but %g has a lot of enthusiasm.
 
+RumorsPostfailure:  [1006]
+=assassin_ just proves you can work outside of the Brotherhood.
+<--->
+Apparently the Brotherhood can't stop all the freelancers in Tamriel.
 
-Record n�3----------
-Excellent, %pct. Nous aurions été tout aussi
-satisfait de la seule mort de  =assassin_, mais
-les connaissances de =boss_
-sauront que la Confrérie Noire supporte
-assez mal la compétition d'amateurs...
+RumorsPostsuccess:  [1007]
+=boss_ thought %g could save a few gold pieces by hiring =assassin_ ... idiot.
+<--->
+It just doesn't pay to use assassins other than the Brotherhood, ask =boss_.
 
+QuestorPostsuccess:  [1008]
+And how are you, slayer of the rogue _assassin_?
 
-Record n�4----------
-Ce =assassin_ est un assassin indépendant à %reg depuis plusieurs 
-années.
-=assassin_ n'est pas le meilleur dans son métier, mais %g y met 
-beaucoup d'enthousiasme.
+QuestorPostfailure:  [1009]
+<ce>             You're that worthless thug who can't account
+<ce>                 a bumbling freelancer like =assassin_.
+<ce>                  Why should I waste my breath on you?
 
-Record n�5----------
-=assassin_ vient de prouver qu'on peut travailler en dehors de la 
-Confrérie Noire.
-Apparement, la Confrérie n'a pas pu stopper tout les indépendants 
-dans Tamriel.
-
-Record n�6----------
-=boss_ pensait pouvoir économiser quelques pièces en engageant 
-=assassin_... vraiment stupide.
-Ca ne paie pas d'engager d'autres assassins que ceux de la 
-Confrérie, demandez à =boss_.
-
-Record n�7----------
-Comment allez vous, tueur de la crapule _assassin_?
-
-Record n�8----------
-Tu es le misérable voyou qui n'a pas réussi à
-tuer un indépendant aussi maladroit que =assassin_.
-Pourquoi devrais-je gaspiller ma salive à te parler ?
-
-
-Record n�9----------
+QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ de la Confrérie Noire
- à __qgiver_, ___qgiver_,
- m'a offert d'aller trouver =assassin_,
- un assassin concurent, lequel est
- actuellement en train d'achever un contrat
- à ___mondung_.
- Si je ne trouve aucun indice à propos
- de ses employeurs, je dois lui régler son compte.
- Quoi qu'il en soit, la besogne doit être
- accomplie dans =queston_ jours.
+ _qgiver_ of the Dark
+ Brotherhood in ___qgiver_
+ has me paying a visit on =assassin_,
+ a competing assassin, where %g is completing a contract
+ in ___mondung_. If I can find any
+ clues about =assassin_'s employer,
+ I am to account him or her also.
+ Either way, the whole bloody business needs
+ to be done in =queston_ days.
 
-
-Record n�10----------
-Après avoir tué %n,
-allez à ___stronghold_ dans
-les landes de %reg
-afin de toucher votre récompense.
+Message:  1011
+After slaying %n,
+ go to ___stronghold_ in
+ the wilderness of %reg
+ for your reward.
  
  
- -- =boss_
+ =boss_
 
-
-Record n�11----------
+Message:  1012
 %qdt:
- J'ai trouvé une lettre sur le corps de =assassin_
- -- %g3 employeur est =boss_, et %g3
- citadelle est ___stronghold_.
+ I found a note on =assassin_'s body.
+ %g3 employer is =boss_, and %g3
+ stronghold is ___stronghold_.
+
+Message:  1013
+<ce>                      You have slain =assassin_.
+<ce>                    The Brotherhood will be pleased.
+
+Message:  1014
+<ce>                    =boss_ has joined %g3 employee.
+<ce>                    The Brotherhood will be pleased.
+
+Message:  1015
+<ce>                 We would have preferred it if you had
+<ce>                         accounted =assassin_'s
+<ce>                 boss as well. But it's enough to know
+<ce>                         that =assassin_ can no
+<ce>                    longer be counted as part of the
+<ce>                              competition.
 
 
-Record n�12----------
-Vous avez tué =assassin_.
-La Confrérie sera contente.
+-- Symbols used in the QRC file:
+--
+--                %g occurs 3 times.
+--               %g2 occurs 1 time.
+--               %g3 occurs 10 times.
+--                %n occurs 1 time.
+--              %pct occurs 1 time.
+--              %qdt occurs 2 times.
+--              %reg occurs 9 times.
+--        =assassin_ occurs 15 times.
+--            =boss_ occurs 50 times.
+--         =queston_ occurs 3 times.
+--                 _ occurs 1 time.
+--       ___mondung_ occurs 2 times.
+--        ___qgiver_ occurs 1 time.
+--    ___stronghold_ occurs 3 times.
+--         __qgiver_ occurs 1 time.
+--        _assassin_ occurs 1 time.
+--          _qgiver_ occurs 1 time.
 
+QBN:
+Item _letter_ letter used 1011
 
-Record n�13----------
-=boss_ a rejoint %g3 employé.
-La Confrérie sera contente.
+Person _qgiver_ face 110 group Questor
 
+Place _mondung_ remote dungeon
+Place _stronghold_ remote dungeon2
 
-Record n�14----------
-Nous aurions préféré que vous vous
-occupiez aussi du patron de =assassin_.
-Mais c'est pour moi suffisant de savoir
-que ce =assassin_ ne pourra plus être
-considèré comme un concurrent.
+Clock _queston_ 00:00 0 flag 17 range 0 5
 
+Foe _assassin_ is Assassin
+Foe _boss_ is Knight
 
+--	Quest start-up:
+	start timer _queston_ 
+	reveal _mondung_ 
+	log 1010 step 0 
+	give item _letter_ to _assassin_ 
+	_letter_ used do _S.05_ 
+	place foe _boss_ at _stronghold_ 
+	place foe _assassin_ at _mondung_ 
+
+_queston_ task:
+	end quest 
+
+_qgclicked_ task:
+	clicked npc _qgiver_ 
+
+variable _reward_
+_S.03_ task:
+	killed 1 _assassin_ 
+	say 1013 
+
+_S.04_ task:
+	killed 1 _boss_ 
+	say 1014 
+
+_S.05_ task:
+	reveal _stronghold_ readmap
+	log 1012 step 1 
+
+_S.06_ task:
+	when _S.03_ and not _S.04_ and _qgclicked_ 
+	say 1015 
+
+_S.07_ task:
+	when _S.03_ and _S.04_ and _qgclicked_ 
+	give pc nothing 
+	end quest 
+
+_S.08_ task:
+	when not _S.03_ and not _S.04_ and _qgclicked_ 
+	clear _qgclicked_ _S.08_ 

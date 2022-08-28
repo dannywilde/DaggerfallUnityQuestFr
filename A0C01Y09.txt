@@ -1,144 +1,226 @@
-Record n�0----------
-Excusez-moi ? _questg_ est mon nom.
-Je ne sais pas quoi penser de vous
-mais j'ai besoin d'une faveur.
-Ma soeur, _sister_, a son
-anniversaire le mois prochain et j'aimerais
-vraiment avoir un _item_ pour la fête.
-Ca vous rapportera _gold_ pièces d'or.
-Qu'en dites-vous ?
+-- Quest: C:\QUESTS\WORKING\A0C01Y09.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 01
+-- QuestId: 9
+Messages: 62
+Quest: A0C01Y09
+DisplayName: The Birthday Present
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                   Excusez-moi ? _questg_ est mon nom.
+<ce>                   Je ne sais pas quoi penser de vous
+<ce>             mais j'ai besoin d'une faveur. Ma soeur, _sister_,
+<ce>             a son anniversaire le mois prochain et j'aimerais
+<ce>                vraiment avoir un _item_ pour la fête.
+<ce>           Ca vous rapportera _gold_ pièces d'or. Qu'en dites-vous ?
+
+RefuseQuest:  [1001]
+<ce>                  C'est mieux ainsi, je suppose. Bonne journée.
+                                     <--->
+<ce>                         Désolé d'avoir demandé.
+                                     <--->
+<ce>                 Alors nous ne nous sommes jamais parlés,
+<ce>               je détesterais que vous gâchiez ma surprise.
+                                     <--->
+<ce>              Pourtant c'était de l'argent facile vous savez.
+                                     <--->
+<ce>               Laissez-moi alors, j'ai une fête à préparer.
+
+AcceptQuest:  [1002]
+<ce>                    Excellent ! Vous êtes sympathique. C'est
+<ce>                      de l'argent facile. Allez à _store_
+<ce>                    et trouvez _merchant_, %g a le _item_
+<ce>                   spécial dont j'ai besoin. Souvenez-vous,
+<ce>                     il n'y a qu'un mois avant la fête.
+                                     <--->
+<ce>         Très bien. C'est de l'argent facile. Vous allez
+<ce>             devoir aller à _store_ pour trouver
+<ce>           la chose exacte dont j'ai besoin. Parlez à
+<ce>               _merchant_, %g gère l'endroit.
 
 
-Record n�1----------
-C'est mieux ainsi, je suppose. Bonne journée.
+QuestComplete:  [1004]
+<ce>            Très bien, %pcn. Voici l'or que j'avais promis.
 
-Désolé d'avoir demandé.
+RumorsDuringQuest:  [1005]
+<ce>                J'ai entendu dire que _questg_ n'aimait
+<ce>               vraiment pas sa soeur _sister_. Et qu'elle
+<ce>                      va bientôt se marier.
 
-Alors nous ne nous sommes jamais parlés,
-je détesterais que vous gâchiez ma surprise.
+RumorsPostfailure:  [1006]
+<ce>                Savez-vous que _sister_ a découvert
+<ce>                 qu'on a essayé de l'empoisonner ?
 
-Pourtant c'était de l'argent facile vous savez.
+RumorsPostsuccess:  [1007]
+<ce>                   _sister_ a été trouvée morte ! Et
+<ce>                   juste avant son mariage, en plus.
 
-Laissez-moi alors, j'ai une fête à préparer.
+QuestorPostsuccess:  [1008]
+<ce>                 Ahem. Bon, oui. Je suppose que puisque
+<ce>               vous avez obtenu cet... objet pour les noces
+<ce>                 de ma soeur, j'ai une dette envers vous.
 
-
-Record n�2----------
-Excellent ! Vous êtes sympathique. C'est
-de l'argent facile. Allez à _store_
-et trouvez _merchant_, %g a le _item_
-spécial dont j'ai besoin. Souvenez-vous,
-il n'y a qu'un mois avant la fête.
-
-Très bien. C'est de l'argent facile. Vous allez
-devoir aller à _store_ pour trouver
-la chose exacte dont j'ai besoin. Parlez à
-_merchant_, %g gère l'endroit.
-
-
-
-Record n�3----------
-Très bien, %pcn. Voici l'or que j'avais promis.
+QuestorPostfailure:  [1009]
+<ce>                Traître ! Je vous avais envoyé en simple mission
+<ce>                de transport et vous avez vendu la mèche à
+<ce>               _sister_. Vous n'obtiendrez plus rien de moi.
 
 
-Record n�4----------
-J'ai entendu dire que _questg_ n'aimait
-vraiment pas sa soeur _sister_. Et qu'elle
-va bientôt se marier.
+Message:  1011
+<ce>                    Vous transportez le _item_.
+<ce>                  Voulez-vous le donner à _sister_ ?
+
+Message:  1013
+<ce>                    Vous transportez le _item_.
+<ce>                 Voulez-vous le donner à _questg_?
+
+Message:  1025
+%qdt
+J'ai promis à _questg_
+de  ___questg_ que
+j'irais récupérer un _item_ chez
+_merchant_ à _store_
+en échange de _gold_ pièces d'or.
+Je dois revenir avec le _item_
+avant la célébration de l'anniversaire de
+la soeur de _questg_,
+_sister_, qui se
+déroulera dans un mois.
+
+Message:  1040
+<ce>             Salut. Oui, je suis _merchant_.
+<ce>              Un _item_ ? Oui j'en ai. Je
+<ce>             prendrai vos 20 pièces d'or et vous
+<ce>         pouvez avoir le _item_. Merci d'être passé.
+
+Message:  1041
+<ce>                    Salut. Oui, je suis _merchant_.
+<ce>              Un _item_ ? Oui j'en ai. Je vais prendre
+<ce>              vos 20 pièces d'or et vous pourrez avoir
+<ce>               le _item_. Oh, je suis désolé. Vous ne
+<ce>            semblez pas avoir assez d'or pour le payer.
+
+Message:  1050
+<ce>               Salut ? Pourquoi êtes-vous ici ?
+<ce>              Vous dites, _questg_ veut un _item_
+<ce>            pour fêter mon anniversaire ? Oh, quelle
+<ce>        idée géniale ! Je promets de ne pas éventer la surprise !
+
+Message:  1051
+<ce>                 Salut ? Comment êtes-vous entré ici ? Quoi ?
+<ce>               _questg_ vous a demandé de lui apporter un _item_ ?
+<ce>                Oh mon... Avez-vous la moindre idée de ce qu'il prévoit
+<ce>               de faire avec cela ? Moi oui. _item_ fait partie des ingrédients
+<ce>                 d'une potion que mon cher frère aime concocter.
+<ce>               Une potion qui tue. Vous ne devez pas le lui donner !
+<ce>                   Je vous en prie ! Donnez-moi le _item_.
+<ce>                Vous devez le faire, ou je pourrais être tuée !
 
 
-Record n�5----------
-Savez-vous que _sister_ a découvert
-qu'on a essayé de l'empoisonner ?
+Message:  1060
+<ce>                    Je pense que je vais le prendre. Mais
+<ce>                  cela ne va-t-il pas gâcher la surprise ?
+<ce>                      Vous êtes étrange, %pcn.
+
+Message:  1061
+<ce>                     Merci, mon frère ne peut plus
+<ce>                    s'en servir maintenant. Vous
+<ce>                      avez bien fait. Merci.
 
 
-Record n�6----------
-_sister_ a été trouvée morte ! Et
-juste avant son mariage, en plus.
+-- Symbols used in the QRC file:
+--
+--                %g occurs 7 times.
+--               %g2 occurs 5 times.
+--               %g3 occurs 3 times.
+--              %pcn occurs 4 times.
+--              %qdt occurs 1 time.
+--        ___questg_ occurs 1 time.
+--            _gold_ occurs 3 times.
+--            _item_ occurs 18 times.
+--        _merchant_ occurs 7 times.
+--          _questg_ occurs 7 times.
+--          _sister_ occurs 8 times.
+--           _store_ occurs 3 times.
+
+QBN:
+Item _item_ large_plant
+Item _gold_ gold
+
+Person _questg_ face 4 group Questor
+Person _sister_ face 2 group Resident2
+Person _merchant_ face 1 faction The_Merchants
+
+Place _item0_ local house2
+-added underscores to item0
+Place _store_ local generalstore
+
+Clock _questtime_ 31.00:00 0 flag 1 range 0 1
+Clock _shortdelay_ 01:00 0 flag 1 range 0 1
 
 
-Record n�7----------
-Ahem. Bon, oui. Je suppose que puisque
-vous avez obtenu cet... objet pour les noces
-de ma soeur, j'ai une dette envers vous.
+--	Quest start-up:
+	start timer _questtime_
+	log 1025 step 0
+	pick one of _S.01_ _S.02_ _S.01_ _S.02_
+	create npc _sister_
+	place npc _merchant_ at _store_
 
+_questtime_ task:
+	end quest
 
-Record n�8----------
-Traître ! Je vous avais envoyé en simple mission
-de transport et vous avez vendu la mèche à
-_sister_. Vous n'obtiendrez
-plus rien de moi.
+variable _S.01_
+variable _S.02_
+variable _S.03_
+_S.04_ task:
+	clicked _merchant_ and at least 20 gold otherwise do _S.05_
+	get item _item_
+	say 1040
 
+_S.05_ task:
+	say 1041
 
+_S.06_ task:
+	toting _item_ and _questg_ clicked
+	prompt 1013 yes _S.13_ no _S.11_
 
-Record n�9----------
-Vous transportez le _item_.
-Voulez-vous le donner à _sister_ ?
+_S.07_ task:
+	clicked npc _sister_
 
+_S.08_ task:
+	when _S.07_ and _S.01_
+	say 1050
 
-Record n�10----------
-Vous transportez le _item_.
-Voulez-vous le donner à _questg_?
+_S.09_ task:
+	when _S.07_ and _S.02_
+	say 1051
 
+_S.10_ task:
+	toting _item_ and _sister_ clicked
+	prompt 1011 yes _S.12_ no _S.11_
 
-Record n�11----------
-%qdt :
- J'ai promis à _questg_
- de  ___questg_ que
- j'irais récupérer un _item_ chez
- _merchant_ à _store_
- en échange de _gold_ pièces d'or.
- Je dois revenir avec le _item_
- avant la célébration de l'anniversaire de
- la soeur de _questg_,
- _sister_, qui se
- déroulera dans un mois.
+_S.11_ task:
+	get item _item_
 
+variable _S.12_
+_S.13_ task:
+	give pc _gold_
 
-Record n�12----------
-Salut. Oui, je suis _merchant_.
-Un _item_ ? Oui j'en ai. Je
-prendrai vos  20 pièces d'or et vous
-pouvez avoir le _item_.
-Merci d'être passé.
+_S.14_ task:
+	when _S.01_ and _S.12_
+	say 1060
 
+_S.15_ task:
+	when _S.02_ and _S.12_
+	say 1061
 
-Record n�13----------
-Salut. Oui, je suis _merchant_.
-Un _item_ ? Oui j'en ai. Je vais prendre
-vos 20 pièces d'or et vous pourrez avoir
-le _item_. Oh, je suis désolé. Vous ne
-semblez pas avoir assez d'or pour le payer.
+_shortdelay_ task:
+	end quest
 
-
-Record n�14----------
-Salut ? Pourquoi êtes-vous ici ? Vous dites,
-_questg_ veut un _item_
-pour fêter mon anniversaire ? Oh, quelle
-idée géniale ! Je promets de ne pas éventer la surprise !
-
-
-Record n�15----------
-Salut ? Comment êtes-vous entré ici ? Quoi ?
-_questg_ vous a demandé de lui
-apporter un _item_ ? Oh mon... Avez-vous
-la moindre idée de ce qu'il prévoit de faire avec cela ?
-Moi oui. _item_ fait partie des ingrédients
-d'une potion que mon cher frère aime concocter.
-Une potion qui tue. Vous ne devez pas le lui donner !
-Je vous en prie ! Donnez-moi le _item_.
-Vous devez le faire, ou je pourrais être tuée !
-
-
-Record n�16----------
-Je pense que je vais le prendre. Mais
-cela ne va-t-il pas gâcher la surprise ?
-Vous êtes étrange, %pcn.
-
-
-Record n�17----------
-Merci, mon frère ne peut plus
-s'en servir maintenant. Vous
-avez bien fait. Merci.
-
-
-
+_S.17_ task:
+	when _S.06_ or _S.10_
+	start timer _shortdelay_

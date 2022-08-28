@@ -1,85 +1,142 @@
-Record n�0----------
-Laissez-moi me présenter. Je
-me nomme _qgiver_ de  ==qgiver_.
-Il semblerait qu'une bande d'orques
-ait élu domicile dans les environs.
-La gloire de %reg ira à quiconque
-capable de les chasser. Puis-je
-compter sur vous, %pcf ?
+-- Quest: C:\QUESTS\WORKING\B0B20Y07.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: knight
+-- Repute: 20
+-- QuestId: 7
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: B0B20Y07
+DisplayName: More Trouble with Orcs
+-- Message panels
+QRC:
 
-Les orques se déplacent dans
-%reg et ravagent tout sur leur
-passage. Nous aiderez-vous dans
-notre purification ?
+QuestorOffer:  [1000]
+<ce>                    Laissez-moi me présenter. Je
+<ce>                     me nomme _qgiver_ de  ==qgiver_.
+<ce>                    Il semblerait qu'une bande d'orques
+<ce>                   ait élu domicile dans les environs.
+<ce>                   La gloire de %reg ira à quiconque
+<ce>                    capable de les chasser. Puis-je
+<ce>                       compter sur vous, %pcf ?
+                                     <--->
+<ce>                     Les orques se déplacent dans
+<ce>                      %reg et ravagent tout sur leur
+<ce>                      passage. Nous aiderez-vous dans
+<ce>                          notre purification ?
 
+RefuseQuest:  [1001]
+<ce>                     Vous êtes mon quatrième refus
+<ce>                   aujourd'hui. Apparemment, personne
+<ce>                    ne veut plus s'occuper des orques.
 
-Record n�1----------
-Vous êtes mon quatrième refus
-aujourd'hui. Apparemment, personne
-ne veut plus s'occuper des orques.
+AcceptQuest:  [1002]
+<ce>                     Vous n'avez pas besoin de tuer
+<ce>                     tous les orques. Soyez simplement
+<ce>                     sûr d'en tuer le plus possible et
+<ce>                   surtout de tuer leur chef, =monster_.
+<ce>                      Il s'avère que je sais où les
+<ce>                    trouver : ils se sont réfugiés dans
+<ce>                     ___dungeon_. Si vous n'êtes pas
+<ce>                     de retour dans  =2dung_ jours,
+<ce>                      nous nous occuperons de vos
+<ce>                        funérailles.
 
+QuestComplete:  [1004]
+<ce>                    Excellent spectacle ! Les marchands
+<ce>                   me disent déjà tout leur contentement
+<ce>                  du récent départ de ces maudits orques.
+<ce>                        Vous honorez l'Ordre.
 
-Record n�2----------
-Vous n'avez pas besoin de tuer
-tous les orques. Soyez simplement
-sûr d'en tuer le plus possible et
-surtout de tuer leur chef, =monster_.
-Il s'avère que je sais où les 
-trouver : ils se sont réfugiés dans
-___dungeon_. Si vous n'êtes pas
-de retour dans  =2dung_ jours,
-nous nous occuperons de vos
-funérailles.
+RumorsDuringQuest:  [1005]
+Les orques de ___dungeon_  se contentent de détruire toutes les routes commerciales.
+<--->
+Les orques de ____dungeon_ étaient habituellement bien tranquilles.
+Ce qui est sûr, c'est que maintenant ils ne le sont plus du tout.
 
+RumorsPostfailure:  [1006]
+Les orques sont partis d'eux-mêmes. Mais je parie qu'ils reviendront.
 
-Record n�3----------
-Excellent spectacle ! Les marchands
-me disent déjà tout leur contentement
-du récent départ de ces maudits orques.
-Vous honorez l'Ordre.
+RumorsPostsuccess:  [1007]
+Le %kno a sauvé %reg des orques de ___dungeon_. Le héros était un chevalier %ra..
 
-
-Record n�4----------
-Les orques de ___dungeon_  se contentent de détruire tout ce qui 
-se trouve sur leur route.
-Les orques de ____dungeon_ étaient habituellement bien 
-tranquilles. Ce qui est sûr, c'est que maintenant ils ne le sont 
-plus du tout.
-
-Record n�5----------
-Les orques sont partis d'eux-mêmes. Mais je parie qu'ils 
-reviendront.
-
-Record n�6----------
-Le %kno a sauvé %reg des orques de ___dungeon_. Le héros était un 
-chevalier %ra.
-
-Record n�7----------
+QuestorPostsuccess:  [1008]
 Je serais très heureux de vous aider, ô Destructeur d'Orcs.
 
-Record n�8----------
-Oh, bonjour, %pct. Je serais plus heureux de vous revoir si vous 
+QuestorPostfailure:  [1009]
+Oh, bonjour, %pct. Je serais plus heureux de vous revoir si vous
 aviez réussi votre précédente mission avec les orques.
 
-Record n�9----------
-%qdt :
- _qgiver_ de
- ==qgiver_ à ___qgiver_
- m'a demandé de m'occuper
- d'une bande d'orques qui a annexé
- ___dungeon_.
- En particulier, je dois m'occuper de
- leur chef : _monster_.
- Je dois être de retour dans 
- =2dung_ jours sinon l'Ordre
- considérera que je suis mort.
+QuestLogEntry:  [1010]
+%qdt:
+_qgiver_ de
+==qgiver_ à ___qgiver_
+m'a demandé de m'occuper
+d'une bande d'orques qui a annexé
+___dungeon_.
+En particulier, je dois m'occuper de
+leur chef : _monster_.
+Je dois être de retour dans
+=2dung_ jours sinon l'Ordre
+considérera que je suis mort.
+
+Message:  1011
+<ce>                      Vous avez tué =monster_.
+<ce>                     Sans un chef digne de ce nom,
+<ce>                 ces orques ne seront plus jamais une nuisance.
 
 
-Record n�10----------
-Vous avez tué =monster_.
-Sans un chef digne de ce nom,
-ces orques ne seront plus jamais
-une nuisance.
+-- Symbols used in the QRC file:
+--
+--                %g occurs 3 times.
+--               %g2 occurs 1 time.
+--              %kno occurs 1 time.
+--              %pcf occurs 2 times.
+--              %pct occurs 2 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 2 times.
+--              %reg occurs 3 times.
+--           =2dung_ occurs 2 times.
+--         ==qgiver_ occurs 2 times.
+--         =monster_ occurs 2 times.
+--      ___dungeon_ occurs 5 times.
+--        ___qgiver_ occurs 1 time.
+--         _monster_ occurs 1 time.
+--          _qgiver_ occurs 2 times.
 
+QBN:
 
+Person _qgiver_ group Questor male
+Person _local_ face 1 group Resident2
 
+Place _dungeon_ remote dungeon
+
+Clock _2dung_ 00:00 0 flag 17 range 0 2
+
+Foe _monster_ is Orc_sergeant
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	place foe _monster_ at _dungeon_
+
+_2dung_ task:
+	end quest
+
+_S.01_ task:
+	killed 1 _monster_ saying 1011
+
+_S.02_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _S.02_ and _S.01_
+	give pc nothing
+	change repute with _local_ by +4
+	end quest
+
+_clearclick_ task:
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_
+	--ensures repeated clearclick

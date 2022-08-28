@@ -1,144 +1,290 @@
-Record n�0----------
-Mon nom est _questgiver_.
-J'ai une mission facile. Si vous
-pouviez vous organiser pour livrer
-un objet à l'un de mes amis, je vous en
-serais reconnaissant et vous donnerai
-en échange _gold_ pièces d'or.
-Qu'en dites-vous, %pcf ?
+-- Quest: C:\QUESTS\WORKING\A0C00Y14.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 0
+-- QuestId: 14
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 21
+Quest: A0C00Y14
+DisplayName: The Delivery Boy
+-- Message panels
+QRC:
 
-S'lut, j'suis _questgiver_.
-J'ai besoin que quelqu'un dépose
-un objet pour moi. C'est just' une p'tite
-course en ville, mais j'suis trop occupé
-pour le moment. Il y a _gold_ pièces
-à gagner.
+QuestorOffer:  [1000]
+<ce>                       Mon nom est _questgiver_.
+<ce>                      J'ai une mission facile. Si vous
+<ce>                    pouviez vous organiser pour livrer
+<ce>                    un objet à l'un de mes amis, je vous en
+<ce>                    serais reconnaissant et vous donnerai
+<ce>                     en échange _gold_ pièces d'or.
+<ce>                        Qu'en dites-vous, %pcf ?
+                                     <--->
+<ce>                       S'lut, j'suis _questgiver_.
+<ce>                    J'ai besoin que quelqu'un dépose
+<ce>                 un objet pour moi. C'est just' une p'tite
+<ce>                  course en ville, mais j'suis trop occupé
+<ce>                    pour le moment. Il y a _gold_ pièces
+<ce>                              à gagner.
 
+RefuseQuest:  [1001]
+<ce>                               Dommage.
+                                     <--->
+<ce>                       Vous n'avez pas besoin
+<ce>                      de vous vanter de cela !
+                                     <--->
+<ce>                   Je vais devoir trouver quelqu'un
+<ce>                  acceptant de travailler pour vivre.
 
-Record n�1----------
-Dommage.
+AcceptQuest:  [1002]
+<ce>                  Génial ! Voici le colis. Emmenez-le
+<ce>                    à _pickuplocal_ ici en ville.
+<ce>                    %g vous paiera. %g en a besoin
+<ce>                     là-bas demain à cette heure.
+                                     <--->
+<ce>                   Enfin quelqu'un souhaitant
+<ce>           travailler pour vivre ! Amenez simplement
+<ce>               ceci à _pickuplocal_ ici en ville.
+<ce>            %g vous donnera les _gold_ pièces d'or.
+<ce>           Amenez-le pour demain à cette même heure.
 
-Vous n'avez pas besoin
-de vous vanter de cela !
+QuestComplete:  [1004]
+<ce>                     J'avais bien espéré que _questgiver_
+<ce>                    serait capable de m'amener ceci à temps.
+<ce>                     %g a été tellement occupé ces temps-ci.
+<ce>                Voici les _gold_ pièces d'or qu'%g vous a promises
 
-Je vais devoir trouver quelqu'un
-acceptant de travailler pour vivre.
- 
+RumorsDuringQuest:  [1005]
+<ce>                   Généralement, le temps est pourri
+<ce>                      à cette époque de l'année.
 
-Record n�2----------
-Génial ! Voici le colis. Emmenez-le
-à _pickuplocal_ ici en ville.
-%g vous paiera. %g en a besoin
-là-bas demain à cette heure.
+RumorsPostfailure:  [1006]
+<ce>             J'ai entendu dire que la reine avait une liaison !
 
-Enfin quelqu'un souhaitant
-travailler pour vivre ! Amenez simplement
-ceci à _pickuplocal_ ici en ville.
-%g vous donnera les _gold_ pièces d'or.
-Amenez-le pour demain à cette même heure.
+RumorsPostsuccess:  [1007]
+<ce>                Tous les %ra sont-ils des fouineurs ?
 
+QuestorPostsuccess:  [1008]
+<ce>                 Merci d'avoir livré ce colis
+<ce>                      pour moi %pcf.
 
-Record n�3----------
-J'avais bien espéré que _questgiver_
-serait capable de m'amener ceci à temps.
-%g a été tellement occupé ces temps-ci.
-Voici les _gold_ pièces d'or qu'%g vous a promises.
+QuestorPostfailure:  [1009]
+<ce>                   Voleur ! Vous avez pris mon colis et
+<ce>                     _pickuplocal_ ne l'a jamais eu.
+<ce>                       Je ne vous aiderai jamais.
 
-
-Record n�4----------
-Généralement, le temps est pourri
-à cette époque de l'année.
-
-
-Record n�5----------
-J'ai entendu dire que la reine avait une liaison !
-
-
-Record n�6----------
-Tous les %ra sont-ils des fouineurs ?
-
-
-Record n�7----------
-Merci d'avoir livré ce colis
-pour moi %pcf.
-
-
-Record n�8----------
-Voleur ! Vous avez pris mon colis et
-_pickuplocal_ ne l'a jamais eu.
-Je ne vous aiderai jamais.
-
-
-Record n�9----------
-%qdt :
- _questgiver_ de ___questgiver_
+QuestLogEntry:  [1010]
+%qdt:  _questgiver_ de ___questgiver_
  m'a chargé de livrer un colis
  à _pickuplocal_, de ___pickuplocal_ également.
  Je devrai avoir livré le colis demain à cette heure.
 
+Message:  1011
+<ce>                   Ce livre a une valeur sentimentale.
+<ce>                      _pickuplocal_ n'a pas vu
+<ce>                      d'exemplaire de _book_
+<ce>                        depuis des années.
 
-Record n�10----------
-Ce livre a une valeur sentimentale.
-_pickuplocal_ n'a pas vu
-d'exemplaire de _book_
-depuis des années.
+Message:  1012
+<ce>                       _pickuplocal_ a besoin de
+<ce>                       ce _ingredient_ pour une
+<ce>                   infusion spéciale qu'%g prépare.
 
+Message:  1013
+<ce>                       Ce _jewelry_ est un cadeau
+<ce>                          à _pickuplocal_ qui
+<ce>                     scellera mon accord avec %g2.
 
-Record n�11----------
-_pickuplocal_ a besoin de
-ce _ingredient_ pour une
-infusion spéciale qu'%g prépare.
+Message:  1014
+<ce>                   Ceci est un _mensclothing_ spécial
+<ce>                   que ma mère a fait pour _pickuplocal_
+<ce>                       pour la célébration.
 
+Message:  1015
+<ce>                   _pickuplocal_ a commissionné ce tableau
+<ce>                   _painting_. Il faut qu'il soit là-bas
+<ce>                    pour sa collection demain.
 
-Record n�12----------
-Ce _jewelry_ est un cadeau
-à _pickuplocal_ qui
-scellera mon accord avec %g2.
+Message:  1016
+<ce>                       _pickuplocal_ a besoin de ce
+<ce>                     _potion_ aussi tôt que possible.
 
+Message:  1017
+<ce>                        _pickuplocal_ a été menacé.
+<ce>                       Ce _weapon_ devrait calmer
+<ce>                             ses craintes.
 
-Record n�13----------
-Ceci est un _mensclothing_ spécial
-que ma mère a fait pour _pickuplocal_
-pour la célébration.
+Message:  1018
+<ce>                  J'ai acheté cette délicate _womensclothing_
+<ce>                      pour le mariage de _pickuplocal_.
+<ce>                    Ce serait affreusement embarassant
+<ce>                      si elle n'arrivait pas à temps.
 
+Message:  1019
+<ce>                       Qu'est-ce que vous voulez ? _questgiver_ ?
+<ce>                    Oui, %g a promis d'expédier un colis aujourd'hui.
+<ce>                       Si vous allez %g2 trouver, %g devrait même
+<ce>                           vous payer pour me l'apporter.
 
-Record n�14----------
-_pickuplocal_ a commissionné
-ce tableau _painting_.
-Il faut qu'il soit là-bas pour son
-assemblée demain.
-
-
-Record n�15----------
-_pickuplocal_ a besoin de ce
-_potion_ aussi tôt que possible.
-
-
-Record n�16----------
-_pickuplocal_ a été menacé.
-Ce _weapon_ devrait apaiser
-ses craintes.
-
-
-Record n�17----------
-J'ai acheté cette délicate _womensclothing_
-pour le mariage de _pickuplocal_.
-Ce serait affreusement embarassant
-si elle n'arrivait pas à temps.
-
-
-Record n�18----------
-Qu'est-ce que vous voulez ? _questgiver_ ?
-Oui, %g a promis d'expédier un colis aujourd'hui.
-Si vous allez %g2 trouver, %g devrait même
-vous payer pour me l'apporter.
+Message:  1020
+<ce>                      J'ai surpris _questgiver_ en train
+<ce>                      de vous dire qu'%g vous paierait pour
+<ce>                    livrer le colis. Donnez-le moi sans faire
+<ce>                    d'histoires et je ne vous ferai pas de mal.
 
 
-Record n�19----------
-J'ai surpris _questgiver_ en train
-de vous dire qu'%g vous paierait pour
-livrer le colis. Donnez-le moi sans faire
-d'histoires et je ne vous ferai pas de mal.
+-- Symbols used in the QRC file:
+--
+--                %g occurs 10 times.
+--               %g2 occurs 4 times.
+--               %g3 occurs 6 times.
+--              %pcf occurs 4 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 2 times.
+--   ___pickuplocal_ occurs 1 time.
+--    ___questgiver_ occurs 1 time.
+--            _book_ occurs 3 times.
+--            _gold_ occurs 9 times.
+--      _ingredient_ occurs 1 time.
+--         _jewelry_ occurs 1 time.
+--    _mensclothing_ occurs 1 time.
+--        _painting_ occurs 1 time.
+--     _pickuplocal_ occurs 12 times.
+--          _potion_ occurs 1 time.
+--      _questgiver_ occurs 6 times.
+--          _weapon_ occurs 1 time.
+--  _womensclothing_ occurs 1 time.
 
+QBN:
+Item _book_ book0
+Item _womensclothing_ womens_clothing
+Item _potion_ misc
+Item _mensclothing_ mens_clothing
+Item _painting_ portrait
+Item _weapon_ weapon
+Item _ingredient_ large_plant
+Item _jewelry_ trinket
+Item _gold_ gold range 30 to 75
 
+Person _questgiver_ face 137 group Questor
+Person _pickuplocal_ face 232 group Local_3.0
 
+Clock _oneday_ 1.00:00
+--added precise timers due to short time limit
+
+Foe _thief_ is Burglar
+
+--	Quest start-up:
+	start timer _oneday_
+	log 1010 step 0
+	pick one of _S.01_ _S.10_
+	pick one of _S.14_ _S.15_ _S.15_ _S.15_
+	create npc _pickuplocal_
+
+_oneday_ task:
+	end quest
+
+_S.01_ task:
+	pick one of _S.02_ _snitch0_ _S.04_ _S.05_
+--added underscores to snitch0
+
+_S.02_ task:
+	get item _book_ saying 1011
+
+_snitch0_ task:
+	get item _ingredient_ saying 1012
+
+_S.04_ task:
+	get item _jewelry_ saying 1013
+
+_S.05_ task:
+	get item _mensclothing_ saying 1014
+
+_S.06_ task:
+	get item _painting_ saying 1015
+
+_S.07_ task:
+	get item _potion_ saying 1016
+
+_S.08_ task:
+	get item _weapon_ saying 1017
+
+_S.09_ task:
+	get item _womensclothing_ saying 1018
+
+_S.10_ task:
+	pick one of _S.06_ _S.07_ _S.08_ _S.09_
+
+_S.11_ task:
+	toting _jewelry_ and _pickuplocal_ clicked
+	toting _mensclothing_ and _pickuplocal_ clicked
+	toting _painting_ and _pickuplocal_ clicked
+	toting _potion_ and _pickuplocal_ clicked
+	toting _weapon_ and _pickuplocal_ clicked
+	toting _book_ and _pickuplocal_ clicked
+	toting _ingredient_ and _pickuplocal_ clicked
+	toting _womensclothing_ and _pickuplocal_ clicked
+	give pc _gold_
+	end quest
+--removed unnecessary delay
+
+_S.12_ task:
+	clicked npc _pickuplocal_
+
+_S.13_ task:
+	when _S.12_ and not _S.11_
+	say 1019
+	clear _S.12_ _S.13_
+
+_S.14_ task:
+	create foe _thief_ every 20 minutes 3 times with 25% success
+
+variable _S.15_
+_S.16_ task:
+	injured _thief_
+	prompt 1020 yes _yes_ no _no_
+
+_yes_ task:
+	restrain foe _thief_
+
+variable _no_
+_yes1_ task:
+	when _yes_ and _S.02_
+	take _book_ from pc
+	give item _book_ to _thief_
+--added "take X from pc" for all yes# tasks.
+
+_yes2_ task:
+	when _yes_ and _snitch0_
+	take _ingredient_ from pc
+	give item _ingredient_ to _thief_
+
+_yes3_ task:
+	when _yes_ and _S.04_
+	take _jewelry_ from pc
+	give item _jewelry_ to _thief_
+
+_yes4_ task:
+	when _yes_ and _S.05_
+	take _mensclothing_ from pc
+	give item _mensclothing_ to _thief_
+
+_ring_ task:
+	when _yes_ and _S.06_
+	take _painting_ from pc
+	give item _painting_ to _thief_
+
+_yes6_ task:
+	when _yes_ and _S.07_
+	take _potion_ from pc
+	give item _potion_ to _thief_
+
+_note_ task:
+	when _yes_ and _S.08_
+	take _weapon_ from pc
+	give item _weapon_ to _thief_
+
+_poet_ task:
+	when _yes_ and _S.09_
+	take _womensclothing_ from pc
+	give item _womensclothing_ to _thief_

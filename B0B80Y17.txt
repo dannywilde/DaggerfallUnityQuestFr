@@ -1,74 +1,136 @@
-Record n�0----------
-Je suis _qgiver de ==qgiver_.
-J'ai une quête dangereuse à vous
-proposer, %pcn. Vous êtes l'un
-des seuls à pouvoir accomplir cette
-quête. Une liche met en place une
-armée de morts-vivants.
-Nous avons besoin de quelqu'un pour
-aller mettre un point d'arrêt à tout cela.
+-- Quest: C:\QUESTS\WORKING\B0B80Y17.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: knight
+-- Repute: 80
+-- QuestId: 17
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: B0B80Y17
+DisplayName: The Army of Undead
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>                      Je suis _qgiver de ==qgiver_.
+<ce>                    J'ai une quête dangereuse à vous
+<ce>                     proposer, %pcn. Vous êtes l'un
+<ce>                  des seuls à pouvoir accomplir cette
+<ce>                    quête. Une liche met en place une
+<ce>                       armée de morts-vivants.
+<ce>                   Nous avons besoin de quelqu'un pour
+<ce>                 aller mettre un point d'arrêt à tout cela.
 
-Record n�1----------
-Je comprends, %pcn. Même
-pour vous c'est trop dangereux.
-Je pense qu'il ne reste plus qu'un
-ou deux héros à qui je peux faire
-appel. Je vais le leur demander.
+RefuseQuest:  [1001]
+<ce>                     Je comprends, %pcn. Même
+<ce>                  pour vous c'est trop dangereux.
+<ce>                 Je pense qu'il ne reste plus qu'un
+<ce>                  ou deux héros à qui je peux faire
+<ce>                   appel. Je vais le leur demander.
 
+AcceptQuest:  [1002]
+<ce>                    Vous êtes vraiment courageux.
+<ce>                    La liche s'est réfugiée dans
+<ce>                     ___dungeon_ . Allez-y et
+<ce>                    tuez la créature maléfique.
+<ce>                   Je vous donne  =2dung_ jours,
+<ce>                  passé ce délai je serai obligé
+<ce>                   d'envoyer quelqu'un d'autre.
 
-Record n�2----------
-Vous êtes vraiment courageux.
-La liche s'est réfugiée dans
-___dungeon_ . Allez-y et
-tuez la créature maléfique.
-Je vous donne  =2dung_ jours,
-passé ce délai je serai obligé
-d'envoyer quelqu'un d'autre.
+QuestComplete:  [1004]
+<ce>                        Hourra,  %pcn ! Bien joué !
+<ce>                      Votre nom restera gravé dans
+<ce>                          toutes les mémoires..
 
-
-Record n�3----------
-Hourra,  %pcn ! Bien joué !
-Votre nom restera gravé dans 
-toutes les mémoires.
- 
-
-Record n�4----------
+RumorsDuringQuest:  [1005]
 La Grande Liche de  ___dungeon_ s'est encore réveillée.
 
-Record n�5----------
-La liche de ___dungeon_ s'est promenée du côté de la Baie, l'autre 
-soir.
+RumorsPostfailure:  [1006]
+La liche de ___dungeon_ s'est promenée du côté de la Baie, l'autre soir.
+<--->
 La liche rassemble ses troupes près des frontières de %reg.
 
-Record n�6----------
+RumorsPostsuccess:  [1007]
 %reg a été sauvé grâce à  ==qgiver_.
-Un Chevalier %ra de ==qgiver_ a battu la liche de 
-___dungeon_.
+<--->
+Un Chevalier %ra de ==qgiver_ a battu la liche de ___dungeon_.
 
-Record n�7----------
+QuestorPostsuccess:  [1008]
 Je serais honoré de pouvoir vous aider, %pcn.
 
-Record n�8----------
-Après vous être enfui de  ___dungeon_ , vous avez du cran de 
-revenir ici.
+QuestorPostfailure:  [1009]
+Après vous être enfui de  ___dungeon_ , vous avez du cran de revenir ici.
+<--->
 Je vous ai fait confiance pour la liche ! Je suis déçu !
 
-Record n�9----------
+QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ de
- ==qgiver_ dans ___qgiver_
- m'a demandé de détruire une
- liche qui se cache dans
- ___dungeon_. Je dispose de
- =2dung_ jours pour y arriver.
- 
+_qgiver_ de
+==qgiver_ dans ___qgiver_
+m'a demandé de détruire une
+liche qui se cache dans
+___dungeon_. Je dispose de
+=2dung_ jours pour y arriver.
 
-Record n�10----------
-La liche est morte. Sans son
-soutien magique, l'armée des
-morts-vivants va retourner
-dans sa tombe.
-
+Message:  1011
+<ce>                      La liche est morte. Sans son
+<ce>                      soutien magique, l'armée des
+<ce>                       morts-vivants va retourner
+<ce>                           dans sa tombe.
 
 
+-- Symbols used in the QRC file:
+--
+--              %god occurs 1 time.
+--              %pcn occurs 3 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 1 time.
+--              %reg occurs 1 time.
+--           =2dung_ occurs 2 times.
+--         ==qgiver_ occurs 4 times.
+--       ___dungeon_ occurs 6 times.
+--        ___qgiver_ occurs 3 times.
+
+QBN:
+
+Person _qgiver_ group Questor male
+Person _local_ face 1 group Resident2
+
+Place _dungeon_ remote dungeon
+
+Clock _2dung_ 00:00 0 flag 17 range 0 2
+
+Foe _F.00_ is Ancient_lich
+Foe _F.01_ is Lich
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	pick one of _old_ _S.04_ _S.04_
+
+_2dung_ task:
+	end quest
+
+_S.01_ task:
+	killed 1 _F.00_ saying 1011
+	killed 1 _F.01_ saying 1011
+
+_S.02_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _S.02_ and _S.01_
+	give pc nothing
+	change repute with _local_ by +4
+	end quest
+
+_clearclick_ task:
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_
+
+_S.04_ task:
+	place foe _F.01_ at _dungeon_
+
+_old_ task:
+	place foe _F.00_ at _dungeon_

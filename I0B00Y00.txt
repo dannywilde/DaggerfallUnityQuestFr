@@ -1,93 +1,145 @@
-Record n�0----------
-Notre guérisseur a besoin d'une espèce
- de plante particulière appelée _item_, pour
- ses potions de guérison. Je n'ai pas grand
- chose à vous offrir, mais je peux vous
- donner le symbole sacré du Temple de
- Stendarr, si vous pouvez nous rapporter
- du _item_ pour notre mission sacrée.
+-- Quest: C:\QUESTS\WORKING\I0B00Y00.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Stendarr
+-- Repute: 0
+-- QuestId: 0
+Messages: 31
+Quest: I0B00Y00
+DisplayName: A Special Plant
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>                    Our healer needs some sort of a
+<ce>                   special plant, called _item_, for
+<ce>                     his healing potions. I cannot
+<ce>                     offer you much, but I can give
+<ce>                   you the holy symbol of the Temple
+<ce>                     of Stendarr if you'd bring us
+<ce>                    some _item_ for our sacred duty.
 
-Record n�1----------
-Malheureusement, c'est une réponse
- courante. Nous ne pouvons offrir
- des monceaux d'or et de joyaux pour
- attirer les aventuriers. Cependant,
- vous me décevez énormément,
- %pcf. J'attendais une réponse
- plus noble.
+RefuseQuest:  [1001]
+<ce>                    Unfortunately, such is a common
+<ce>                    response. We cannot offer great
+<ce>                      piles of gold and jewelry to
+<ce>                     entice questers. Nevertheless,
+<ce>                     I am particularly disappointed
+<ce>                        in you, %pcf. I expected
+<ce>                           a nobler response.
 
+AcceptQuest:  [1002]
+<ce>                  You have a kind heart indeed, %pcf.
+<ce>                  The _item_ we need is at a place in
+<ce>                     ___chemist_ called __chemist_.
+<ce>                           A =chemist_ named
+<ce>                         _chemist_ will give it
+<ce>                   to us for free if you are there in
+<ce>                    =1stparton_ days or less. Please
+<ce>                    do hurry, %pcf. We have a great
+<ce>                    many injured innocents to heal.
 
-Record n�2----------
-Vous avez vraiment un coeur généreux, %pcf.
- Le _item_ dont nous avons besoin est en un
- lieu de ___chemist_ appelé __chemist_.
- Un =chemist_ appele
- _chemist_ vous le donnera gratuitement
- pour nous si vous êtes là-bas dans
- =1stparton_ jours ou moins. S'il vous plaît
- depêchez-vous, %pcf. Nous avons de
- nombreux malades innocents à soigner.
+QuestFail:  [1003]
+<ce>                    I am always happy to talk with
+<ce>                         thee, %pcf, but please
+<ce>                       do not delay in getting us
+<ce>                              that _item_.
 
+QuestComplete:  [1004]
+<ce>                    Is that _item_ you have, %pcf?
+<ce>                   Oh, thank Stendarr. Please accept
+<ce>                      our humble offering of this
+<ce>                          symbol of our order.
 
-Record n�3----------
-Je suis toujours ravi de parler avec
- vous, %pcf, mais s'il vous plaît
- ne tardez pas à nous rapporter
- ce _item_.
+RumorsDuringQuest:  [1005]
+The Temple of Stendarr is the only purely philanthropic order I can think of.
+<--->
+Mother waits for the healer at the Temple of Stendarr. Her condition is bad.
 
+RumorsPostfailure:  [1006]
+My sister died waiting for that damned healer at the Temple of Stendarr.
+<--->
+I hear the Temple's healer couldn't get the herbs he needed in time.
 
-Record n�4----------
-Est-ce du _item_ que vous avez là, %pcf ?
- Oh, merci Stendarr. Veuillez accepter
-comme humble offrande, ce symbole
- de notre ordre.
+RumorsPostsuccess:  [1007]
+They had a few scary moments at the Temple. More injured people than usual.
+<--->
+The god Stendarr was watching over His Temple, that's for certain.
 
+QuestorPostsuccess:  [1008]
+It would be unkind not to speak with one who brought us the _item_, %pcf.
 
-Record n�5----------
-Le Temple de Stendarr est le seul ordre purement philanthropique 
-que je connaisse.
-Mère attends le guérisseur au Temple de Stendarr. Elle va 
-mal.
+QuestorPostfailure:  [1009]
+I will control my temper, but didst thou forget the _item_, %pcf?
+<--->
+Perhaps you'd like to speak to those who died because you did not get the _item_.
 
-Record n�6----------
-Ma soeur est morte à force d'attendre ce maudit guérisseur au 
-Temple de Stendarr.
-Il paraît que le guérisseur du Temple n'a pas pu se procurer à 
-temps les herbes dont il avait besoin.
+QuestLogEntry:  [1010]
+<ce>                     Here's the _item_, %pcf. Now
+<ce>                    hurry back to the Temple. There are
+<ce>                    many there waiting to be healed.
 
-Record n�7----------
-Ils ont eu quelques moments de panique au Temple. Davantage de 
-blessés que d'habitude.
-Le dieu Stendarr veillait sur Son Temple, c'est certain.
-
-Record n�8----------
-Ce serait méchant de ne pas parler à celui qui nous a rapporté le 
-_item_, %pcf.
-
-Record n�9----------
-Je ne vais pas me mettre en colère, mais avez-vous oublié le 
-_item_, %pcf ?
-Peut-être souhaiteriez-vous parler à ceux qui sont morts parce que 
-vous n'avez pas rapporté le _item_.
-
-Record n�10----------
-Voici le _item_, %pcf. A présent,
- depêchez-vous de retourner au Temple.
- De nombreuses personnes là-bas attendent d'être soignées.
-
-
-Record n�11----------
+Message:  1030
 %qdt:
- Le Temple de Stendarr à
- ___questgiver_ m'à proposé le
- symbole de leur ordre si je parviens
- à trouver du _item_ et à leur rapporter
- en =1stparton_ jours.
- Quelqu'un appelé _chemist_ a
- ___chemist_ en un lieu nommé
- __chemist_ est d'accord pour m'en donner
- si je réussis à me rendre là-bas à temps.
+ The Temple of Stendarr in
+ ___questgiver_ has offered me
+ the symbol of their order if I would
+ find some _item_ and deliver it to them
+ in =1stparton_ days.
+ Someone named _chemist_ in
+ ___chemist_ in a place called
+ __chemist_ is willing to give some
+ if I am able to get there in time.
 
 
+-- Symbols used in the QRC file:
+--
+--              %pcf occurs 9 times.
+--              %qdt occurs 1 time.
+--       =1stparton_ occurs 2 times.
+--         =chemist_ occurs 3 times.
+--    ___questgiver_ occurs 1 time.
+--        __chemist_ occurs 5 times.
+--            _item_ occurs 28 times.
 
+QBN:
+Item _reward_ common_symbol
+Item _item_ large_plant
+
+Person _questgiver_ face 112 group Questor
+Person _chemist_ group Chemist female
+
+
+Clock _1stparton_ 00:00 0 flag 17 range 1 4
+
+
+--	Quest start-up:
+	start timer _1stparton_ 
+	log 1030 step 0 
+
+_1stparton_ task:
+	end quest 
+
+variable _pcgetsgold_
+_npcclicked_ task:
+	clicked npc _chemist_ say 1010 
+	get item _item_ 
+
+_qgclicked_ task:
+	toting _item_ and _questgiver_ clicked 
+	give pc _reward_ 
+	end quest 
+
+_qgclick2_ task:
+	clicked npc _questgiver_
+
+_clearclick_ task:
+	when _qgclick2_ and not _qgclicked_
+	say 1003
+	clear _clearclick_ _qgclick2_
+
+variable _queston_
+variable _S.05_
+_S.06_ task:
+	when _npcclicked_ and _1stparton_ 
+	make _item_ permanent 

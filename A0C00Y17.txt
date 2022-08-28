@@ -1,148 +1,268 @@
-Record n�0----------
-Je suis _questgiver_.
-J'ai besoin d'une escorte. Accepteriez-
-vous de me protéger dans mon voyage
-vers __destination_ ?
-C'est à moins de =traveltime_ jours d'ici.
+-- Quest: C:\QUESTS\WORKING\A0C00Y17.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 0
+-- QuestId: 17
+Messages: 51
+Quest: A0C00Y17
+DisplayName: The Escort
+-- Message panels
+QRC:
 
-Mon nom est _questgiver_.
-Je dois quitter ___questgiver_
-bientôt. Je voudrais vous engager
-pour me protéger durant mon voyage
-vers __destination_.
-Je peux vous payer _gold_ pièces d'or.
+QuestorOffer:  [1000]
+<ce>                          Je suis _questgiver_.
+<ce>              J'ai besoin d'une escorte. Accepteriez-
+<ce>                vous de me protéger dans mon voyage
+<ce>                   vers __destination_ ?
+<ce>              C'est à moins de =traveltime_ jours d'ici.
+                                     <--->
+<ce>                      Mon nom est _questgiver_.
+<ce>                 Je dois quitter ___questgiver_
+<ce>                bientôt. Je voudrais vous engager
+<ce>                pour me protéger durant mon voyage
+<ce>                       vers __destination_.
+<ce>              Je peux vous payer _gold_ pièces d'or.
+                                     <--->
+<ce>            Vous devez m'aider ! Mon nom est _questgiver_.
+<ce>                 J'ai besoin d'être à __destination_
+<ce>        dans les =traveltime_ jours et j'ai besoin d'une escorte.
 
-Vous devez m'aider ! Mon nom est _questgiver_.
-J'ai besoin d'être à __destination_
-dans les =traveltime_ jours et j'ai besoin d'une escorte.
+RefuseQuest:  [1001]
+<ce>                   Je suppose que je devrai trouver quelqu'un
+<ce>                   d'autre pour me protéger durant mon voyage.
+                                     <--->
+<ce>                          Rustre sans-coeur !
 
+AcceptQuest:  [1002]
+<ce>                       Soyez béni %pcn.
+<ce>                 Je voyage léger, je suis donc prêt à partir.
+<ce>              Je sais que vous ne travaillez pas pour rien.
+<ce>                     Amenez-moi à _destination_ à
+<ce>                 __destination_ et je vous paierai
+<ce>        _gold_ pièces d'or quand nous serons là-bas.
 
-Record n�1----------
-Je suppose que je devrai trouver quelqu'un
-d'autre pour me protéger durant mon voyage.
+QuestComplete:  [1004]
+<ce>                       Ah ! _destination_ ! Vous
+<ce>                    avez rempli votre part du marché.
+<ce>                  Voici l'or que je vous avais promis.
 
-Rustre sans-coeur !
+RumorsDuringQuest:  [1005]
+<ce>                   Il paraît que les gardes recherchent
+<ce>                 _questgiver_. %g a dû fuir la ville.
+                                     <--->
+<ce>                 Vous savez quoi ? La Guilde des Voleurs
+<ce>                    en a après _questgiver_. Ou alors
+<ce>                    c'était la Confrérie Noire ?
+<ce>                      Je ne m'en souviens plus.
+                                     <--->
+<ce>                   Il paraît que _questgiver_ a été
+<ce>                  obligé de se marier. %g a dû aller
+<ce>                     à __destination_ avant que
+<ce>                 la grossesse ne devienne visible.
 
+RumorsPostfailure:  [1006]
+<ce>                    Ils ont attrapé _questgiver_. %g
+<ce>                    sera jugé la semaine prochaine.
 
-Record n�2----------
-Soyez béni %pcn.
-Je voyage léger, je suis donc prêt à partir.
-Je sais que vous ne travaillez pas pour rien.
-Amenez-moi à _destination_ à
-__destination_ et je vous paierai
-_gold_ pièces d'or quand nous serons là-bas.
+RumorsPostsuccess:  [1007]
+<ce>                   Vous êtes au courant ? Un %ra a fait passer
+<ce>                   _questgiver_ hors de la ville juste à
+<ce>                 temps. Autrement ils l'auraient décapité,
+<ce>                             c'est sûr.
 
+QuestorPostsuccess:  [1008]
+<ce>                Merci de m'avoir fait sortir de cette ville,
+<ce>                    %pcf. Je vous ai recommandé
+<ce>                   à plusieurs de mes amis.
 
-Record n�3----------
-Ah ! _destination_ ! Vous
-avez rempli votre part du marché.
-Voici l'or que je vous avais promis.
+QuestorPostfailure:  [1009]
+<ce>                   Vous ! Parce que vous ne m'avez pas
+<ce>                  aidé à quitter la ville, la Guilde des
+<ce>                   Voleurs a saisi ma boutique ! Sortez.
 
+QuestLogEntry:  [1010]
+%qdt:
+J'ai rencontré _questgiver_
+à ___questgiver_. %g
+me paiera pour l'escorter à
+_destination_ en __destination_.
+En particulier, %g a besoin d'être à
+_destination_ dans les =traveltime_ jours.
 
-Record n�4----------
-Il paraît que les gardes recherchent
-_questgiver_. %g a dû fuir la ville.
+Message:  1019
+<ce>                       _questgiver_ dit, "Ha !
+<ce>                    J'ai engagé ce %ra pour me
+<ce>                      protéger de cela. %pcn,
+<ce>                     allez-vous m'abandonner ?"
 
-Vous savez quoi ? La Guilde des Voleurs
-en a après _questgiver_. Ou alors
-c'était la Confrérie Noire ?
-Je ne m'en souviens plus.
+Message:  1020
+<ce>                   Halte ! J'ai un mandat pour arrêter
+<ce>                     _questgiver_ au nom de %reg.
+<ce>                     Ce n'est pas vous que nous voulons,
+<ce>                    mais simplement _questgiver_.
+<ce>                       Livrez _questgiver_
+<ce>                  et vous pourrez partir librement.
 
-Il paraît que _questgiver_ a été
-obligé de se marier. %g a dû aller
-à __destination_ avant que
-la grossesse ne devienne visible.
+Message:  1021
+<ce>                  Il n'est pas nécessaire de nous battre.
+<ce>                   Notre différent concerne _questgiver_.
+<ce>                   La Guilde des Mages n'accepte pas
+<ce>                  la moindre trahison. Livrez nous _questgiver_
+<ce>                 et vous pourrez reprendre votre route.
 
+Message:  1022
+<ce>                     Hors de notre route %ra. Nous voulons
+<ce>                      _questgiver_ et vous ne pouvez pas nous
+<ce>                    arrêter. Livrez nous _questgiver_ simplement.
+<ce>                      Hé, _questgiver_. Tu ne pensais
+<ce>                   pas que tu pourrais tromper la Guilde
+<ce>                des Voleurs et continuer à vivre, n'est-ce pas ?
 
-Record n�5----------
-Ils ont attrapé _questgiver_. %g
-sera jugé la semaine prochaine.
+Message:  1023
+<ce>                        Restez en dehors de cela, %ra.
+<ce>                       _questgiver_ est recherché
+<ce>                       par la Confrérie Noire. Vous
+<ce>                      n'êtes pas assez fou pour essayer
+<ce>                      de protéger _questgiver_, n'est-ce pas ?
 
+Message:  1030
+<ce>                        _questgiver_ a été
+<ce>                       assassiné juste sous vos yeux.
 
-Record n�6----------
-Vous êtes au courant ? Un %ra a fait passer
-_questgiver_ hors de la ville juste à
-temps. Autrement ils l'auraient décapité, c'est sûr.
+Message:  1040
+<ce>                Comme vous voulez. Tuez-les tous les deux !
 
-
-Record n�7----------
-Merci de m'avoir fait sortir de cette ville,
-%pcf. Je vous ai recommandé
-à plusieurs de mes amis.
-
-
-Record n�8----------
-Vous ! Parce que vous ne m'avez pas
-aidé à quitter la ville, la Guilde des
-Voleurs a saisi ma boutique ! Sortez.
-
-
-Record n�9----------
-%qdt :
- J'ai rencontré _questgiver_
- à ___questgiver_. %g
- me paiera pour l'escorter à
- _destination_ en __destination_.
- En particulier, %g a besoin d'être à
- _destination_ dans les =traveltime_ jours.
-
-
-Record n�10----------
-_questgiver_ dit, "Ha !
-J'ai engagé ce %ra pour me
-protéger de cela. %pcn,
-allez-vous m'abandonner ?"
-
-
-Record n�11----------
-Halte ! J'ai un mandat pour arrêter
-_questgiver_ au nom de
-%reg. Ce n'est pas vous que nous voulons,
-mais simplement %g2. Livrez-%g2 et vous pourrez
-partir librement.
-
-
-Record n�12----------
-Il n'est pas nécessaire de nous battre.
-Notre différent concerne _questgiver_.
-La Guilde des Mages n'accepte pas
-la moindre trahison. Livrez-%g2 nous
-et vous pourrez reprendre votre route.
-
-
-Record n�13----------
-Hors de la route %ra. Nous voulons
-_questgiver_ et vous ne pouvez
-pas nous arrêter. Livrez-%g2 nous simplement.
-Hé, _questgiver_. Tu ne pensais
-pas que tu pourrais tromper la Guilde
-des Voleurs et continuer à vivre, n'est-ce pas ?
-
-
-Record n�14----------
-Restez en dehors de cela, %ra.
-_questgiver_ est recherché
-par la Confrérie Noire. Vous
-n'êtes pas assez fou pour essayer
-de %g2 protéger, n'est-ce pas ?
-
-
-Record n�15----------
-_questgiver_ est
-assassiné juste sous vos yeux.
-
-
-Record n�16----------
-Comme vous voulez.
-Tuez-les tous les deux !
-
-
-Record n�17----------
-Etes-vous perdu, %pcn ?
-On dirait que je vais devoir
-trouver mon chemin tout seul
-vers __destination_.
-Je ne vous remercie pas, misérable vaurien.
+Message:  1050
+<ce>                         Etes-vous perdu, %pcn ?
+<ce>                     On dirait que je vais devoir
+<ce>                    trouver mon chemin tout seul
+<ce>                        vers __destination_.
+<ce>                 Je ne vous remercie pas, misérable vaurien.
 
 
+-- Symbols used in the QRC file:
+--
+--                %g occurs 6 times.
+--               %g2 occurs 12 times.
+--              %pcf occurs 1 time.
+--              %pcn occurs 3 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 4 times.
+--              %reg occurs 1 time.
+--      =traveltime_ occurs 5 times.
+--    ___questgiver_ occurs 2 times.
+--    __destination_ occurs 20 times.
+--            _gold_ occurs 6 times.
+--      _questgiver_ occurs 16 times.
 
+QBN:
+Item _gold_ gold
+
+Person _questgiver_ group Questor male
+Person _mage_ faction The_Mages_Guild female
+Person _thief_ faction The_Thieves_Guild female
+Person _darkb_ faction The_Dark_Brotherhood female
+
+Place _destination_ remote random
+
+Clock _traveltime_ 00:00 0 flag 1 range 0 2
+Clock _extratime_ 03:00 0 flag 1 range 0 1
+
+Foe _mages_ is 2 Mage
+Foe _F.01_ is 2 Thief
+Foe _guards_ is 2 Warrior
+Foe _F.03_ is 2 Assassin
+
+--	Quest start-up:
+	start timer _traveltime_
+	log 1010 step 0
+	pick one of _S.01_ _S.02_ _S.14_ _S.03_
+	hide npc _questgiver_
+	add _questgiver_ face
+	create npc at _destination_
+
+variable _traveltime_
+_S.01_ task:
+	create foe _guards_ every 5 minutes 5 times with 20% success
+
+_S.02_ task:
+	create foe _mages_ every 5 minutes 3 times with 25% success
+
+_S.03_ task:
+	create foe _F.01_ every 5 minutes 3 times with 25% success
+
+variable _S.04_
+_S.05_ task:
+	injured _mages_ saying 1021
+	injured _guards_ saying 1020
+	injured _F.03_ saying 1023
+	injured _F.01_ saying 1022
+	prompt 1019 yes _yes_ no _no_
+--added underscores to yes
+
+_S.06_ task:
+	give pc _gold_
+	drop _questgiver_ face
+	place npc _questgiver_ at _destination_
+	end quest
+
+_extratime_ task:
+	end quest
+
+_yes_ task:
+	start timer _extratime_
+	say 1030
+	drop _questgiver_ face
+
+until _yes_ performed:
+	pc at _destination_ set _S.06_
+
+_no_ task:
+	say 1040
+
+variable _S.10_
+_S.11_ task:
+	when _yes_ and _S.01_
+	legal repute +10
+	restrain foe _guards_
+
+_S.12_ task:
+	when _yes_ and _S.02_
+	change repute with _mage_ by +10
+	restrain foe _mages_
+
+_S.13_ task:
+	when _yes_ and _S.03_
+	change repute with _thief_ by +10
+	restrain foe _F.01_
+
+_S.14_ task:
+	create foe _F.03_ every 5 minutes 3 times with 25% success
+
+_S.15_ task:
+	when _yes_ and _S.14_
+	change repute with _darkb_ by +10
+	restrain foe _F.03_
+
+_S.16_ task:
+	when _no_ and _S.03_
+	change repute with _thief_ by -20
+
+_S.17_ task:
+	when _no_ and _S.01_
+	legal repute -20
+
+_S.18_ task:
+	when _no_ and _S.02_
+	change repute with _mage_ by -20
+
+_S.19_ task:
+	when _no_ and _S.14_
+	change repute with _darkb_ by -20
+
+_S.20_ task:
+	when _traveltime_ and not _S.06_
+	say 1050
+	drop _questgiver_ face
+	end quest

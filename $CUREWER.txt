@@ -1,356 +1,451 @@
-Record n�0----------
+-- Quest: C:\QUESTS\WORKING\$CUREWER.Qbn.
+-- StartsBy: letter
+-- Questee: anyone
+-- Questor: hunter
+-- QuestId: 0
+Messages: 62
+Quest: $CUREWER
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
 Error -- 1000 called
 
-Record n�1----------
+RefuseQuest:  [1001]
 Error -- 1001 called
 
-Record n�2----------
+AcceptQuest:  [1002]
 Error -- 1002 called
 
-Record n�3----------
-Error -- 1003 called
+QuestFail:  [1003]
+<ce>                         Error -- 1003 called
 
+QuestComplete:  [1004]
+<ce>                       Alors que _child_ boit votre sang,
+ <ce>                       votre esprit redevient limpide pour la première
+ <ce>                       fois depuis que vous êtes infecté
+ <ce>                       par la lycanthropie.  Mais _child_
+ <ce>                       pousse un cris d'agonie alors qu'%g se
+ <ce>                       transforme juste sous vos yeux.
 
-Record n�4----------
-Alors que _child_ boit votre sang,
- votre esprit redevient limpide pour la première
- fois depuis que vous êtes infecté
- par la lycanthropie.  Mais _child_
- pousse un cris d'agonie alors qu'%g se
- transforme juste sous vos yeux.
+RumorsDuringQuest:  [1005]
+<ce> _hunter_ vient à %reg pour nettoyer l'infection de lycanthropie.
+<ce> Alors peut-être pourrons-nous à nouveau nous promener la nuit dans les rues sans crainte.
 
+RumorsPostfailure:  [1006]
+<ce> _hunter_ et ses hommes ont tué de nombreuses bêtes à %reg,
+<ce> mais que je sois pendu s'ils les ont tous eus.
+<--->
+<ce> _hunter_ aurait vraiment dû les laisser tranquilles.  Ses
+<ce> croisades n'ont fait que mettre les lycans encore plus en colère.
 
-Record n�5----------
-_hunter_ vient à %reg pour nettoyer l'infection de 
-lycanthropie.
- Alors peut-être pourrons-nous à nouveau nous promener la nuit 
-dans les rues sans crainte.
+RumorsPostsuccess:  [1007]
+<ce> _hunter_ et ses hommes ont tué de nombreuses bêtes à %reg,
+<ce> mais ils ne les ont pas tous eus, j'en mettrai ma main au feu.
+<--->
+<ce> _hunter_ n'aurait pas dû les pourchasser.  Ses
+<ce> croisades n'ont fait que rendre les lycans agressifs.
 
-
-Record n�6----------
-_hunter_ et ses hommes ont tué beaucoup de bêtes à %reg, 
-mais
- que je sois pendu s'ils les ont tous eus.
-
-_hunter_ aurait vraiment dû les laisser tranquilles.  Ses 
-croisades
- n'ont fait que mettre les lycans encore plus en colère.
-
-
-Record n�7----------
-_hunter_ et ses hommes ont tué beaucoup de bêtes à %reg, 
-mais
- que je sois pendu s'ils les ont tous eus.
-
-_hunter_ aurait vraiment dû les laisser tranquilles.  Ses 
-croisades
- n'ont fait que mettre les lycans encore plus en colère.
-
-
-Record n�8----------
+QuestorPostsuccess:  [1008]
 Error -- 1008 called
 
-Record n�9----------
+QuestorPostfailure:  [1009]
 Error -- 1009 called
 
-Record n�10----------
-_hunter_ traque et anéantit les lycans à travers tout 
-Tamriel.
+Message:  1011
+_hunter_ traque et anéantit les lycans à travers tout Tamriel.
+<--->
 _hunter_ a consacré sa vie à pourchasser les lycans.
 
-Record n�11----------
-Il paraît que la propre mère de _hunter_ a été tuée par un loup-
-garou.
- C'est ce qui a provoqué sa haine fanatique envers eux.
+Message:  1012
+<ce>Il paraît que la propre mère de _hunter_ a été tuée par un loup-garou.
+<ce>       C'est ce qui a provoqué sa haine fanatique envers eux.
+                                     <--->
+<ce>_hunter_ a tué sa propre mère après qu'elle soit devenue un loup-garou.
+<ce>                Voilà ce que j'appelle un vrai fanatique!
 
-_hunter_ a tué sa propre mère après qu'elle soit devenue un loup-
-garou.
- Voilà ce que j'appelle un vrai fanatique!
+Message:  1013
+_father_ ... le nom me parait familier, mais je ne peux dire si je le connais.
+<--->
+Je pense que _father_ est mort il y a plusieurs années.  Ou peut-être est-il parti ailleurs?  Je n'en suis pas sûr.
+<--->
+<ce>  _father_ était le dernier d'une noble maison autrefois puissante à ___local_.
+<ce>              Il est mort voici plusieurs années, je suis désolé.
+                                     <--->
+<ce>Je pense que c'est lui qui est mort il y a deux ou trois ans, laissant son seul enfant orphelin. Mais _local_ à __local_ en saurait davantage là-dessus.
+                                     <--->
+<ce>_father_ n'habite plus à ___local_ depuis des années. J'ignore ce qui lui est arrivé.
+<ce>     Mais _local_ était l'un de ses amis, et pourrait en savoir davantage.
+                                     <--->
+<ce>_father_ est parti pour ___father_ il y a bien longtemps.  Ou alors est-ce lui
+<ce>                      qui est mort de façon si tragique?
 
+Message:  1014
+<ce>_father_ est mort il y a plusieurs années.  Son seul enfant fut adopté par une famille
+<ce>  de __childhouse_, je crois.  Renseignez-vous dans les environs à propos de _child_.
+                                     <--->
+<ce>Etiez-vous un ami?  Je suis au regret de vous informer qu'il est mort il y a un an environ.
+<ce>     Son seul enfant _child_ fut pris en charge par une famille de __childhouse_.
 
-Record n�12----------
-_father_ ... le nom me parait familier, mais je ne peux dire si je 
-le connais.
-Je pense que _father_ est mort il y a plusieurs années.  Ou peut-
-être est-il parti ailleurs?  Je n'en suis pas sûr.
-_father_ était le dernier d'une noble maison autrefois puissante à 
-___local_.
- Il est mort voici plusieurs années, je le crains.
-
-Je pense que c'est lui qui est mort il y a deux ou trois ans, 
-laissant son seul enfant orphelin.  Mais _local_ à __local_ en 
-saurait davantage là-dessus.
-
-_father_ n'habite plus à ___local_ depuis des années.  J'ignore ce 
-qui lui est arrivé.
- Mais _local_ était l'un de ses amis, et pourrait en savoir 
-davantage.
-
-_father_ est parti pour ___father_ il y a bien longtemps.  Ou 
-alors est-ce lui
- qui est mort de façon si tragique?
-
-
-Record n�13----------
-_father_ est mort il y a plusieurs années.  Son seul enfant fut 
-adopté par une famille
- de __childhouse_, je crois.  Renseignez-vous dans les environs à 
-propos de _child_.
-
-Etiez-vous un ami?  Je suis au regret de vous informer qu'il est 
-mort il y a un an environ.
- Son seul enfant _child_ fut pris en charge par une famille de 
-__childhouse_.
-
-
-Record n�14----------
+Message:  1020
                        %qdt
- 
+
  Cher %pcn,
- 
-    Ou devrais-je vous appeler "=wereboar_," tel que vous
- connaissent les gens de %reg, qui barricadent leurs
- portes chaque nuit par crainte de vous ? Oui, je sais
- qui et ce que vous êtes, et les jours où vous terrorisez
- la Baie d'Iliac vous sont comptés. Je vous propose un choix
- simple : renoncez à la lycanthropie, ou soyez pourchassé
- comme la bête sauvage que vous êtes.
-    On ne pourra pas dire que _hunter_ manque
- de compassion. Je vous offre une dernière chance de
- vous épargner. Allez voir _priest_ de
- __priest_ à ___priest_ si vous voulez
- vivre. %g a étudié la lycanthropie, et si
- quelqu'un peut vous aider, %g peut le faire.
-    J'attendrai =huntstart_ jours avant d'envoyer mes 
-chassseurs
- après vous. Utilisez votre temps avec sagesse.
- 
- _hunter_
 
+ Ou devrais-je vous appeler "=wereboar_," tel que vous
+connaissent les gens de %reg, qui barricadent leurs
+portes chaque nuit pour se protéger de vous ? Oui, je sais
+qui et ce que vous êtes, et le nombre de jours où vous terroriserez
+encore la Baie d'Iliac vous sont comptés. Je vous propose un choix
+simple : renoncez à la lycanthropie, ou soyez pourchassé
+comme la bête sauvage que vous êtes.
+ On ne pourra pas dire que _hunter_ manque
+de compassion. Je vous offre une dernière chance de
+vous épargner. Allez voir _priest_ de
+__priest_ à ___priest_ si vous voulez
+vivre. %g a étudié la lycanthropie, et si
+quelqu'un peut vous aider, %g peut le faire.
+ J'attendrai =huntstart_ jours avant d'envoyer mes
+chassseurs à vos trousses.
+Utilisez votre temps avec sagesse.
 
-Record n�15----------
-Vous devez être %pcn.  _hunter_ a dit que vous
- viendriez peut-être me voir, bien qu'il doutait que vous
- teniez compte de son avertissement. C'est triste, mais la
- plupart ne le font pas, déjà trop aliénés par la Bête en 
-eux
- pour préserver leur vie. Oui, la malédiction de 
-lycanthropie
- peut être levée, bien que j'hésite à en parler,
- car le remède peut être pire que le mal. Nous devons
- parler plus bas. Vous l'ignorez peut-être, mais la
- lycanthropie est une affliction héréditaire, transmise dans
- certaines familles, bien que pouvant rester endormie
- durant des générations avant de refaire surface. Voilà
- pourquoi les grandes croisades contre les lycans, menées 
-par
- certains tels que _hunter_, sont en définitive futiles,
- à moins que les familles portant cette lignée soient
- exterminées également. A présent vous comprenez pourquoi
- je suis réticent à l'idée de partager ce savoir. Comme vous 
-le
- savez, la morsure d'une créature lycanthrope peut 
-transmettre
- l'infection à une nouvelle victime. Cependant, si vous 
-pouvez
- transmettre l'infection à un lycan en sommeil, votre 
-malédiction
- sera atténuée selon l'intensité de son développement
- dans la victime. Mes études ont récemment mis a jour
- une famille qui, j'en suis certain, porte la maladie.
- Si vous souhaitez toujours poursuivre dans cette sombre 
-voie,
- je peux vous indiquer où trouver le dernier survivant de 
-cette
- ancienne lignée maudite.
+<ce>                                _hunter_
 
+Message:  1021
+<ce>        Vous devez être %pcn.  _hunter_ a dit que vous
+<ce>        viendriez peut-être me voir, bien qu'il doutait que vous
+<ce>        teniez compte de son avertissement. C'est triste, mais la
+<ce>        plupart ne le font pas, déjà trop aliénés par la Bête en eux
+<ce>        pour préserver leur vie. Oui, la malédiction de lycanthropie
+<ce>        peut être levée, bien que j'hésite à en parler,
+<ce>        car le remède peut être pire que le mal. Nous devons
+<ce>        parler plus bas. Vous l'ignorez peut-être, mais la
+<ce>        lycanthropie est une affliction héréditaire, transmise dans
+<ce>        certaines familles, bien que pouvant rester endormie
+<ce>        durant des générations avant de refaire surface. Voilà
+<ce>        pourquoi les grandes croisades contre les lycans, menées par
+<ce>        certains tels que _hunter_, sont en définitive futiles,
+<ce>        à moins que les familles portant cette lignée soient
+<ce>        exterminées également. A présent vous comprenez pourquoi
+<ce>        je suis réticent à l'idée de partager ce savoir. Comme vous le
+<ce>        savez, la morsure d'une créature lycanthrope peut transmettre
+<ce>        l'infection à une nouvelle victime. Cependant, si vous pouvez
+<ce>        transmettre l'infection à un lycan en sommeil, votre malédiction
+<ce>        sera atténuée selon l'intensité de son développement
+<ce>        dans la victime. Mes études ont récemment mis a jour
+<ce>        une famille qui, j'en suis certain, porte la maladie.
+<ce>        Si vous souhaitez toujours poursuivre dans cette sombre voie,
+<ce>        je peux vous indiquer où trouver le dernier survivant de cette
+<ce>        ancienne lignée maudite.
 
-Record n�16----------
-Très bien. Je ne peux pas vous blâmer de vouloir vivre.
- Je me réconforte en pensant que _father_
- est le dernier d'une famille condamnée, qu'il serait 
-préférable
- d'éteindre avant que la malédiction ne se renouvelle.
-  Oui, c'est bien lui. A ce que je sais, il vit toujours à
- ___local_, la demeure familiale depuis des générations.
- Mais avant tout, vous aurez besoin de rencontrer
- _alchemist_ à ___alchemist_.
- %g m'a aidé dans des affaires similaires auparavant. Le
- moyen le plus sûr de transmettre l'infection est que la 
-victime
- boive le sang du lycan. _alchemist_ ne posera
- aucune question et ne vous racontera pas d'histoires à 
-propos
- de votre étrange requête. Que %god guide vos pas.
+Message:  1022
+<ce>       Très bien. Je ne peux pas vous blâmer de vouloir vivre.
+<ce>       Je me réconforte en pensant que _father_ est le
+<ce>       dernier d'une famille condamnée, qu'il serait préférable
+<ce>       d'éteindre avant que la malédiction ne se renouvelle.
+<ce>       Oui, c'est bien lui. A ce que je sais, il vit toujours à
+<ce>       ___local_, la demeure familiale depuis des générations.
+<ce>       Mais avant tout, vous aurez besoin de rencontrer
+<ce>       _alchemist_ à ___alchemist_.
+<ce>       %g m'a aidé dans des affaires similaires auparavant. Le
+<ce>       moyen le plus sûr de transmettre l'infection est que la victime
+<ce>        boive le sang du lycan. _alchemist_ ne posera
+<ce>       aucune question et ne vous racontera pas d'histoires à propos
+<ce>        de votre étrange requête. Que %god guide vos pas.
 
+Message:  1023
+<ce>     Je comprends. En fait, je suis presque soulagé que
+<ce>     vous rejetiez cette route vers le salut. Cela montre que
+<ce>     la Bête ne vous domine par encore entièrement.
+<ce>     Je ne voudrais pas vous donner de faux espoir, mais si
+<ce>     vous désirez toujours essayer de vous soigner... Eh bien,ce
+<ce>      n'est rien de plus qu'une légende, mais il y aurait une bande
+<ce>      de sorcières quelque part qui peut guérir la lycanthropie.
+<ce>     La meilleure piste que je peux donner est un texte ancien,
+<ce>     "Une Histoire des Sectes Daedras". Malheureusement,
+<ce>     le seul exemplaire existant a disparu lors du pillage de
+<ce>     ___hintdung_ il y a plus d'un siècle. Peut-être est-il
+<ce>     encore caché là-bas, quelque part dans les ruines.
+<ce>     Au moins, la recherche pourra vous aider à maintenir
+<ce>     la Bête à distance, au moins pour un temps.
+<ce>     Que %god guide vos pas.
 
-Record n�17----------
-Je comprends. En fait, je suis presque soulagé que
- vous rejetiez cette route vers le salut. Cela montre que
- la Bête ne vous domine par encore entièrement.
- Je ne voudrais pas vous donner de faux espoir, mais si
- vous désirez toujours essayer de vous soigner... Eh bien, 
-ce
- n'est rien de plus qu'une légende, mais il y aurait une 
-bande
- de sorcières quelque part qui peut guérir la lycanthropie.
- La meilleure piste que je peux donner est un texte ancien,
- "Une Histoire des Sectes Daedras". Malheureusement,
- le seul exemplaire existant a disparu lors du pillage de
- ___hintdung_ il y a plus d'un siècle. Peut-être est-il
- encore caché là-bas, quelque part dans les ruines.
- Au moins, la recherche pourra vous aider à maintenir
- la Bête aux abois, au moins pour un temps.
- Que %god guide vos pas.
+Message:  1024
+<ce>             Ainsi, un autre visiteur de la part de _priest_.
+<ce>             Ouais, je sais ce que vous voulez, mais c'est pas gratuit.
+<ce>             1000 pièces d'or, pas moins. A prendre ou à laisser.
+<ce>             Très bien, restez immobile quelques instants. Voilà
+<ce>             c'est fait, ce n'était pas douloureux, pas vrai?
+<ce>             Maintenant partez d'ici avant qu'un de mes
+<ce>             respectables clients ne vous aperçoive.
 
+Message:  1025
+<ce>             Ainsi, un autre visiteur de la part de _priest_.
+<ce>             Ouais, je sais ce que vous voulez, mais c'est pas gratuit.
+<ce>             1000 pièces d'or, pas moins. A prendre ou à laisser.
+<ce>             Désolé mon vieux, vous n'avez pas assez d'argent.
+<ce>             Dégagez avant que j'appelle les gardes.
 
-Record n�18----------
-Ainsi, un autre visiteur de la part de _priest_.
- Ouais, je sais ce que vous voulez, mais c'est pas gratuit.
- 1000 pièces d'or, pas moins. A prendre ou à laisser.
- Très bien, restez immobile quelques instants. Voilà
- c'est fait, ce n'était pas douloureux, pas vrai?
- Maintenant partez d'ici avant qu'un de mes
- respectables clients ne vous aperçoive.
+Message:  1026
+<ce>            Vous recherchez _father_?  J'ai bien peur
+<ce>            qu'il ne soit mort depuis trois ans. Il s'est suicidé en
+<ce>            réalité, bien que très peu de gens soient au courant.
+<ce>            Je ne suis pas certain de ce qui s'est passé, mais
+<ce>            il est devenu très lunatique et a commencé à disparaitre
+<ce>            parfois durant des jours. Il a laissé un message
+<ce>            comme quoi il ne pouvait pas vivre avec lui-même et
+<ce>            qu'il ne voulait pas que _child_ découvre la vérité
+<ce>            à son sujet. Je n'ai jamais compris de quoi il
+<ce>            s'agissait. Oui, _child_ était son seul enfant.
+<ce>            %g fut emmené par une famille
+<ce>            de __childhouse_ après la mort de son père.
+<ce>            C'est tout ce que je sais, je le crains.
 
+Message:  1027
+<ce>            Bonjour. Etes-vous docteur ? Je ne me sens pas
+<ce>            très bien aujourd'hui. Le remède que vous avez là
+<ce>                     pourrait-il me convenir ?
 
-Record n�19----------
-Ainsi, un autre visiteur de la part de _priest_.
- Ouais, je sais ce que vous voulez, mais c'est pas gratuit.
- 1000 pièces d'or, pas moins. A prendre ou à laisser.
- Désolé mon vieux, vous n'avez pas assez d'argent.
- Dégagez avant que j'appelle les gardes.
+Message:  1028
+<ce>                   Donnez-vous le sang à _child_?
 
+Message:  1030
+<ce>                   Voulez-vous rechercher une victime
+<ce>                   pour guérir votre lycanthropie ?
 
-Record n�20----------
-Vous recherchez _father_?  J'ai bien peur
- qu'il ne soit mort depuis trois ans. Il s'est suicidé en
- réalité, bien que très peu de gens soient au courant.
- Je ne suis pas certain de ce qui s'est passé, mais
- il est devenu très lunatique et a commencé à disparaitre
- parfois durant des jours. Il a laissé un message
- comme quoi il ne pouvait pas vivre avec lui-même et
- qu'il ne voulait pas que _child_ découvre la vérité
- à son sujet. Je n'ai jamais compris de quoi il
- s'agissait. Oui, _child_ était son seul enfant.
- %g fut emmené par une famille
- de __childhouse_ après la mort de son père.
- C'est tout ce que je sais, je le crains.
+Message:  1040
+<ce>                   _hunter_ m'a dit que je vous trouverais ici.
+<ce>                            Mourez, =wereboar_!
 
+QuestTimeLapse:  [1045]
+<ce>                   Un objet inhabituel dans votre sac
+<ce>                    attire votre attention. C'est une lettre,
+<ce>                  qui vous est adressée, son écriture est élégante
+<ce>                   et raffinée. Comment est-elle arrivée là ?
 
-Record n�21----------
-Bonjour. Etes-vous docteur ? Je ne me sens pas
- très bien aujourd'hui. Le remède que vous avez là
- pourrait-il me convenir ?
-
-
-Record n�22----------
-Donnez-vous le sang à _child_?
-
-
-Record n�23----------
-Voulez-vous rechercher une victime
- pour guérir votre lycanthropie ?
-
-
-Record n�24----------
-_hunter_ m'a dit que je vous trouverais ici.
- Mourez, =wereboar_!
-
-
-Record n�25----------
-Un objet inhabituel dans votre sac
- attire votre attention. C'est une lettre,
- qui vous est adressée dans un style aisé et
- élégant. Comment est-elle arrivée là ?
-
-
-Record n�26----------
+Message:  1050
 %qdt:
- Le chasseur de lycans _hunter_
- m'a envoyé une lettre, jurant de me
- pourchasser à moins que je ne me soigne
- de la lycanthropie. %g m'a conseillé d'aller voir
- un _priest_ de __priest_,
- ___priest_. J'ai =huntstart_ jours
- avant que la chasse ne commence.
+Le chasseur de lycans _hunter_
+m'a envoyé une lettre, jurant de me
+pourchasser à moins que je ne soigne
+ma lycanthropie. %g m'a conseillé d'aller voir
+un _priest_ de __priest_,
+___priest_. J'ai =huntstart_ jours
+avant que la chasse ne commence.
 
-
-Record n�27----------
+Message:  1051
 %qdt:
- _priest_ m'a dit que le seul moyen de
- me guérir est de trouver _father_ de
- ___local_, le dernier représentant d'une famille de
- lycans en sommeil, et de l'obliger à boire mon sang de
- façon à transférer complètement ma maladie vers lui.
- Un alchimiste appelé _alchemist_ à
- ___alchemist_ peut préparer une fiole de
- mon sang à cet effet.
+_priest_ m'a dit que le seul moyen de
+me guérir est de trouver _father_ de
+___local_, le dernier représentant d'une famille de
+lycans en sommeil, et de l'obliger à boire mon sang de
+façon à transférer complètement ma maladie vers lui.
+Un alchimiste appelé _alchemist_ à
+___alchemist_ peut préparer une fiole de
+mon sang à cet effet.
 
-
-Record n�28----------
+Message:  1052
 %qdt:
- J'ai decliné l'offre de _priest_ de guérir
- ma lycanthropie en l'infligeant à quelqu'un
- d'autre. Son seul conseil supplémentaire
- a été de rechercher un livre qui pourrait me mener
- à un Cercle de sorcières qui devraient avoir le
- remède. Le dernier emplacement connu du livre
- était ___hintdung_, donc je devrais aussi bien
- commencer par là.
+J'ai decliné l'offre de _priest_ de guérir
+ma lycanthropie en l'infligeant à quelqu'un
+d'autre. Son seul conseil supplémentaire
+a été de rechercher un livre qui pourrait me mener
+à un Cercle de sorcières qui devraient avoir le
+remède. Le dernier emplacement connu du livre
+était ___hintdung_, donc je devrais aussi bien
+commencer par là.
 
-
-Record n�29----------
+Message:  1053
 %qdt:
- J'ai trouvé une page du livre, disant que
- davantage d'informations sur les sorcières
- du "Glenmoril Coven" pourraient se trouver
- à la librairie de ___mapdung_.
+J'ai trouvé une page du livre, disant que
+davantage d'informations sur les sorcières
+du "Glenmoril Coven" pourraient se trouver
+à la librairie de ___mapdung_.
 
-
-Record n�30----------
+Message:  1054
 %qdt:
- Il semble que _father_ soir déjà mort.
- Cependant, tout espoir n'est pas perdu,
- car j'ai appris qu'il avait un enfant,
- _child_, qui vit désormais
- à __childhouse_.
+Il semble que _father_ soir déjà mort.
+Cependant, tout espoir n'est pas perdu,
+car j'ai appris qu'il avait un enfant,
+_child_, qui vit désormais
+à __childhouse_.
 
+Message:  1060
+<ce>                     Une carte indiquant l'emplacement du
+<ce>                 Glenmoril Coven dans les Ilessan Hills.
 
-Record n�31----------
-Une carte indiquant l'emplacement du
- "Glenmoril Coven" dans les Ilessan Hills.
-
-
-Record n�32----------
+Message:  1061
 On dirait une page arrachée d'un livre :
- 
- "...réputé avoir le pouvoir de ressusciter les morts,
- bien que jusqu'à présent le Conclave n'a mis à jour
- aucune preuve de cela, au-delà des légendes
- habituelles et des anecdotes.
- 
-   A l'inverse, l'existence du Glenmoril Coven est 
-profondément
- ancré dans l'histoire.  En fait, ce cercle est tellement 
-ancien
- que ses origines ont été oubliées. Le Cercle des Sept, 
-comme
- on l'appelle souvent (le Glenmoril Coven considère treize 
-comme
- une corruption moderne des sept Inities originaux, plus six
- Acolytes, un pour chaque Initié du Cercle, sauf pour la
- Maitresse, que l'on considère comme étant au-dessus de 
-telles
- occupations d'apprentissage). Comme d'habitude, la légende
- se mélange avec le fait que dans la croyance populaire,
- le Glenmoril Coven possède le remède contre la 
-lycanthropie.
- La documentation complète de ces légendes peut être trouvée
- à la librairie de ___mapdung_.
- 
-   La région de la Baie d'Illiac est également la demeure
- d'un autre de..."
+
+"...réputé avoir le pouvoir de ressusciter les morts,
+bien que jusqu'à présent le Conclave n'a mis à jour
+aucune preuve de cela, au-delà des légendes
+habituelles et des anecdotes.
+
+A l'inverse, l'existence du Glenmoril Coven est profondément
+ancré dans l'histoire.  En fait, ce cercle est tellement ancien
+que ses origines ont été oubliées. Le Cercle des Sept, comme
+on l'appelle souvent (le Glenmoril Coven considère treize comme
+une corruption moderne des sept Inities originaux, plus six
+Acolytes, un pour chaque Initié du Cercle, sauf pour la
+Maitresse, que l'on considère comme étant au-dessus de telles
+occupations d'apprentissage). Comme d'habitude, la légende
+se mélange avec le fait que dans la croyance populaire,
+le Glenmoril Coven possède le remède contre la lycanthropie.
+La documentation complète de ces légendes peut être trouvée
+à la librairie de ___mapdung_.
+
+La région de la Baie d'Illiac est également la demeure d'un autre de..."
 
 
+-- Symbols used in the QRC file:
+--
+--                %g occurs 7 times.
+--               %g2 occurs 2 times.
+--               %g3 occurs 17 times.
+--              %god occurs 4 times.
+--              %pcn occurs 3 times.
+--              %qdt occurs 9 times.
+--              %reg occurs 8 times.
+--       =huntstart_ occurs 2 times.
+--        =wereboar_ occurs 2 times.
+--     ___alchemist_ occurs 2 times.
+--        ___father_ occurs 1 time.
+--      ___hintdung_ occurs 2 times.
+--         ___local_ occurs 6 times.
+--       ___mapdung_ occurs 5 times.
+--        ___priest_ occurs 2 times.
+--     __childhouse_ occurs 11 times.
+--          __local_ occurs 205 times.
+--         __priest_ occurs 2 times.
+--       _alchemist_ occurs 3 times.
+--           _child_ occurs 11 times.
+--          _father_ occurs 10 times.
+--          _hunter_ occurs 15 times.
+--           _local_ occurs 207 times.
+--          _priest_ occurs 6 times.
 
+QBN:
+Item _letter_ letter used 1020
+Item _blood_ werewolf_blood
+Item _map_ letter used 1060
+Item map2 letter used 1061
+
+Person _priest_ face 40 group Cleric
+Person _child_ face 1 faction Children
+Person _hunter_ face 1 factiontype Temple anyInfo 1011 rumors 1012
+Person _alchemist_ group Chemist female
+Person _father_ face 5 group Noble male anyInfo 1013 rumors 1014
+Person _local_ group Resident1 female
+
+Place _mapdung_ remote dungeon4
+Place glenmorilCoven permanent GlenmorilCoven
+Place _childhouse_ remote house2
+Place _hintdung_ remote dungeon11
+
+Clock _S.05_ 7.00:00 27.23:40
+Clock _huntstart_ 60.00:00 0
+
+Foe _F.00_ is Knight
+Foe _wereboar_ is Wereboar
+
+--	Quest start-up:
+	place item _map_ at _mapdung_
+	place item map2 at _hintdung_
+	dialog link for location glenmorilCoven person _hunter_
+	dialog link for location _mapdung_ person _priest_
+	dialog link for person _local_
+	dialog link for location _hintdung_ person _alchemist_
+	dialog link for person _father_
+	dialog link for person _child_
+	_letter_ used do _readletter_
+	_map_ used do _S.10_
+	map2 used do _S.16_
+	have _letter_ set _S.09_
+	give pc _letter_ notify 1045
+	create npc at _childhouse_
+	place npc _child_ at _childhouse_
+
+_S.00_ task:
+	clicked npc _priest_
+	prompt 1030 yes _S.03_ no _S.04_
+	say 1021
+
+_readletter_ task:
+	add dialog for person _hunter_
+	add dialog for person _priest_
+	log 1050 step 0
+
+variable _S.02_
+_S.03_ task:
+	add dialog for person _father_
+	add dialog for person _alchemist_
+	log 1051 step 1
+	say 1022
+
+_S.04_ task:
+	reveal _hintdung_
+	log 1052 step 1
+	say 1023
+
+_S.05_ task:
+	make _map_ permanent
+	end quest
+
+_huntstart_ task:
+	start timer _S.05_
+
+_S.07_ task:
+	injured _F.00_ saying 1040
+
+_S.08_ task:
+	toting _blood_ and _child_ clicked
+	prompt 1028 yes _S.14_ no _S.15_
+	say 1027
+
+_S.09_ task:
+	start timer _huntstart_
+
+_S.10_ task:
+	reveal glenmorilCoven in province 60 at 81312
+
+_npc_ task:
+	clicked _alchemist_ and at least 1000 gold otherwise do _S.12_
+	get item _blood_
+	say 1024
+
+_S.12_ task:
+	say 1025
+	clear _S.12_ _npc_
+
+_S.13_ task:
+	clicked npc _local_
+	add dialog for person _child_
+	log 1054 step 2
+	say 1026
+
+_S.14_ task:
+	give pc nothing
+	hide npc _child_
+	cure lycanthropy
+	legal repute -10
+	place foe _wereboar_ at _childhouse_
+
+_S.15_ task:
+	get item _blood_
+
+_S.16_ task:
+	reveal _mapdung_
+	log 1053 step 2
+
+_S.17_ task:
+	killed 1 _wereboar_
+	legal repute -20
+
+_S.18_ task:
+	when _huntstart_
+	create foe _F.00_ every 79 minutes 30 times with 20% success
+
+_S.19_ task:
+	when _S.14_
+	clear _S.18_

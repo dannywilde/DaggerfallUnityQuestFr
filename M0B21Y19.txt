@@ -1,64 +1,65 @@
-Record n�0----------
-How are you, %pcf?  If you need
- work, I've got somethin' for you.
- Standard protection job.  Interested?
+-- Quest: C:\QUESTS\WORKING\M0B21Y19.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: fighter
+-- Repute: 21
+-- QuestId: 19
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 72
+Quest: M0B21Y19
+DisplayName: Standard Protection
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>                    How are you, %pcf?  If you need
+<ce>                   work, I've got somethin' for you.
+<ce>                 Standard protection job.  Interested?
 
-Record n�1----------
-Sure, you're lookin' for more high class
- work these days, right?
+RefuseQuest:  [1001]
+<ce>               Sure, you're lookin' for more high class
+<ce>                        work these days, right?
 
+AcceptQuest:  [1002]
+<ce>                   All right.  The client's name is
+<ce>                    _victim_, over at _victimhouse_
+<ce>                just up the street from here.  %g wants
+<ce>                   you over there right away.  Seemed
+<ce>                   very agitated, you know the type.
+<ce>                     %g'll give you all the details
+<ce>                          when you get there.
 
-Record n�2----------
-All right.  The client's name is
- _victim_, over at _victimhouse_
- just up the street from here.  %g wants
- you over there right away.  Seemed
- very agitated, you know the type.
- %g'll give you all the details
- when you get there.
+QuestFail:  [1003]
+<ce>                That's all I know.  Better get movin'.
 
+QuestComplete:  [1004]
+<ce>                 I don't know how I can thank you for
+<ce>                  saving my life, as well as avenging
+<ce>                 my father's death.  Please accept this
+<ce>                _reward_.  It belonged to my father, and
+<ce>                      I would like you to have it.
 
-Record n�3----------
-That's all I know.  Better get movin'.
+QuestorPostsuccess:  [1008]
+<ce>     Too bad about _victim_, eh?  Apparently he was in more danger
+<ce>                           than he realized.
 
+QuestorPostfailure:  [1009]
+<ce>     I know it wasn't your fault, but that business with _victim_
+<ce>        still makes me feel bad.  I shoulda taken the poor chap
+<ce>                        more seriously, I guess.
 
-Record n�4----------
-I don't know how I can thank you for
- saving my life, as well as avenging
- my father's death.  Please accept this
- _reward_.  It belonged to my father, and
- I would like you to have it.
+Message:  1015
+<ce>   _darkb_ lives in ___darkb_, I think.  %g's always hanging around
+<ce>    with sinister types, though, so don't go looking for %g2 unless
+<ce>                      you're looking for trouble.
+                                     <--->
+<ce>              _darkb_ hangs around in ___darkb_, mainly.
 
+Message:  1016
+<ce>     _darkb_ is one of the leaders of the local Dark Brotherhood.
+<ce>             %g3 headquarters is in __darkb_ in ___darkb_.
 
-Record n�5----------
-Too bad about _victim_, eh?  Apparently he was in more 
-danger
- than he realized.
-
-
-Record n�6----------
-I know it wasn't your fault, but that business with _victim_
- still makes me feel bad.  I shoulda taken the poor chap
- more seriously, I guess.
-
-
-Record n�7----------
-_darkb_ lives in ___darkb_, I think.  %g's always hanging 
-around
- with sinister types, though, so don't go looking for %g2 
-unless
- you're looking for trouble.
-
-_darkb_ hangs around in ___darkb_, mainly.
-
-
-Record n�8----------
-_darkb_ is one of the leaders of the local Dark Brotherhood.
- %g3 headquarters is in __darkb_ in ___darkb_.
-
-
-Record n�9----------
+Message:  1020
 %qdt:
  The Fighters Guild of ___questgiver_
  has sent me to _victimhouse_
@@ -67,15 +68,13 @@ Record n�9----------
  _victim_ will give me the full
  details himself.
 
-
-Record n�10----------
+Message:  1021
 %qdt:
  I was too late.  I surprised the
  assassins at _victimhouse_, but
  _victim_ was already dead.
 
-
-Record n�11----------
+Message:  1022
 %qdt:
  I received a note from _daughter_,
  who says she is _victim_'s daughter.
@@ -83,8 +82,7 @@ Record n�11----------
  _daughterhouse_ in __daughterhouse_
  if I get the chance.
 
-
-Record n�12----------
+Message:  1023
 %qdt:
  I went to meet _daughter_, but
  it turned out to be an ambush.
@@ -92,16 +90,14 @@ Record n�12----------
  on my way to _safehouse_ in
  __safehouse_ with _daughter_.
 
-
-Record n�13----------
+Message:  1030
 This is what happens
  to people who don't
  listen to my warnings.
  
- _darkb_
+<ce>                                _darkb_
 
-
-Record n�14----------
+Message:  1031
 Dear %pcn:
  
    My name is _daughter_, daughter
@@ -111,71 +107,204 @@ Dear %pcn:
  I would be grateful if you could come
  see me, if you have time.
  
- _daughter_
- _daughterhouse_,
- __daughterhouse_
+<ce>                               _daughter_
+<ce>                            _daughterhouse_,
+<ce>                            __daughterhouse_
+
+Message:  1035
+<ce>               Back off, mate, or we'll do you the same
+<ce>                    way we did _victim_ over there.
+
+Message:  1036
+<ce>                     You should spend as much time
+<ce>                     sharpening your wits as you do
+<ce>                         sharpening your blade,
+<ce>                       %pcn.  Nothing is simpler
+<ce>                       than laying an ambush for
+<ce>                       you Fighters Guild thugs.
+
+Message:  1040
+<ce>       Did you hear about _victim_?  Cut down in broad daylight
+<ce>                            in his own home.
+                                     <--->
+<ce>         Everyone knows the Dark Brotherhood killed _victim_,
+<ce>             but no one is willing to do anything about it.
+
+Message:  1041
+<ce>           The Dark Brotherhood is furious over some %ra who
+<ce>                    killed one of their higher-ups.
+                                     <--->
+<ce>         The Dark Brotherhood has vowed to track down whoever
+<ce>              broke into their headquarters in ___darkb_.
+<ce>                 I'm sure glad it's not me their after.
+
+Message:  1050
+<ce>               Yes...?  Wait, you're that Fighters Guild
+<ce>                  musclehead poor old _victim_ thought
+<ce>                     could protect him, aren't you?
+<ce>                       Who let this %ra in here?!
+
+Message:  1051
+<ce>                            %pcn, look out!
+<ce>                              It's a trap!
+
+Message:  1052
+<ce>                    Thank you from rescuing me from
+<ce>                     those assassins.  If you could
+<ce>                        get me to _safehouse_ in
+<ce>                      __safehouse_, I can make my
+<ce>                 escape from %reg on my own from there.
+
+Message:  1070
+<ce>                    A dusty courier flags you down.
+<ce>                      "%pcn?  Thank %god, at last.
+<ce>                        This letter is for you."
+
+Message:  1071
+<ce>                       Thank you for your help,
+<ce>                    but I'll go on my own from here.
 
 
-Record n�15----------
-Back off, mate, or we'll do you the same
- way we did _victim_ over there.
+-- Symbols used in the QRC file:
+--
+--                %g occurs 3 times.
+--               %g2 occurs 5 times.
+--               %g3 occurs 1 time.
+--              %god occurs 1 time.
+--              %pcf occurs 1 time.
+--              %pcn occurs 4 times.
+--              %qdt occurs 4 times.
+--               %ra occurs 5 times.
+--              %reg occurs 2 times.
+--                 _ occurs 1 time.
+--         ___darkb_ occurs 7 times.
+--    ___questgiver_ occurs 1 time.
+--          __darkb_ occurs 3 times.
+--  __daughterhouse_ occurs 2 times.
+--      __safehouse_ occurs 2 times.
+--           _darkb_ occurs 4 times.
+--        _daughter_ occurs 6 times.
+--   _daughterhouse_ occurs 2 times.
+--          _reward_ occurs 1 time.
+--       _safehouse_ occurs 2 times.
+--          _victim_ occurs 15 times.
+--     _victimhouse_ occurs 3 times.
 
+QBN:
+Item _note_ letter used 1030
+Item _reward_ magic_item
+Item _I.02_ dead_body
+Item _letter_ letter used 1031
 
-Record n�16----------
-You should spend as much time
- sharpening your wits as you do
- sharpening your blade,
- %pcn.  Nothing is simpler
- than laying an ambush for
- you Fighters Guild thugs.
+Person _victim_ face 5 group Group_5.2
+Person _questgiver_ group Questor male
+Person _daughter_ face 3 faction People_of_Sentinel female
+Person _darkb_ faction The_Dark_Brotherhood anyInfo 1015 rumors 1016
 
+Place _victimhouse_ local house4
+Place _daughterhouse_ remote house4
+Place _safehouse_ remote house3
+Place aide remote dungeon
 
-Record n�17----------
-Did you hear about _victim_?  Cut down in broad daylight
- in his own home.
+Clock _qtime_ 00:00 0 flag 1 range 2 5
+Clock _S.03_ 10.00:00 20.20:00
+Clock _S.04_ 00:00 0 flag 1 range 0 5
 
-Everyone knows the Dark Brotherhood killed _victim_,
- but no one is willing to do anything about it.
+Foe _enemy_ is Assassin
+Foe _F.01_ is Nightblade
+Foe _F.02_ is 4 Assassin
 
+--	Quest start-up:
+	dialog link for location _daughterhouse_ person _daughter_ 
+	dialog link for person _darkb_ 
+	start timer _qtime_ 
+	log 1020 step 0 
+	pc at _victimhouse_ set _S.05_ 
+	_note_ used do _readnote_
+	have _I.02_ set _deadbody_
 
-Record n�18----------
-The Dark Brotherhood is furious over some %ra who
- killed one of their higher-ups.
+variable _qtime_
+_readnote_ task:
+	add dialog for person _darkb_ 
 
-The Dark Brotherhood has vowed to track down whoever
- broke into their headquarters in ___darkb_.
- I'm sure glad it's not me their after.
+_S.02_ task:
+	injured _enemy_ 
+	say 1035 
 
+_S.03_ task:
+	_letter_ used do _readletter_ 
+	start timer _S.04_ 
+	give pc _letter_ notify 1070 
+	place npc _daughter_ at _daughterhouse_ 
 
-Record n�19----------
-Yes...?  Wait, you're that Fighters Guild
- musclehead poor old _victim_ thought
- could protect him, aren't you?
- Who let this %ra in here?!
+_S.04_ task:
+	end quest 
 
+_S.05_ task:
+	start task _insidespawn_
+--more repairs to prevent duplicate effects. now only one time per quest
 
-Record n�20----------
-%pcn, look out!
- It's a trap!
+_insidespawn_ task:
+	create foe _enemy_ every 0 minutes 4 times with 100% success 
+	place item _I.02_ at _victimhouse_ 
+	place item _note_ at _victimhouse_ 
+	--sped up spawn rate. very slow for an ambush 
+	log 1021 step 1 
+	rumor mill 1040 
+	hide npc _victim_ 
+--user reports repeated spawns upon entering house, should not be so
 
+_deadbody_ task:
+	take _I.02_ from pc
+--added deadbody task. otherwise body would clog inventory
 
-Record n�21----------
-Thank you from rescuing me from
- those assassins.  If you could
- get me to _safehouse_ in
- __safehouse_, I can make my
- escape from %reg on my own from there.
+_S.06_ task:
+	clicked npc _darkb_ 
+	create foe _enemy_ every 3 minutes 5 times with 100% success 
+	create foe _F.01_ every 0 minutes 1 times with 100% success 
+	--reduced spawn time to instant
+	hide npc _darkb_ 
+	say 1050 
 
+_S.07_ task:
+	killed 1 _F.01_ 
+	start timer _S.03_ 
+	rumor mill 1041 
+	change repute with _daughter_ by +10 
+	change repute with _darkb_ by -15 
 
-Record n�22----------
-A dusty courier flags you down.
- "%pcn?  Thank %god, at last.
- This letter is for you."
+_S.08_ task:
+	clicked npc _daughter_ 
+	pc at _daughterhouse_ set _S.12_ 
+	create foe _F.02_ every 0 minutes 1 times with 100% success 
+	--reduced spawn time to instant
+	say 1051 
+	add _daughter_ face 
+	hide npc _daughter_
+	--using hide NPC rather than transfer
 
+_readletter_ task:
+	log 1022 step 2 
 
-Record n�23----------
-Thank you for your help,
- but I'll go on my own from here.
+_S.10_ task:
+	when _qtime_ and not _S.07_ 
+	end quest 
 
+_S.11_ task:
+	injured _F.02_ 
+	say 1036 
 
+variable _S.12_
+_S.13_ task:
+	pc at _safehouse_ set _S.14_ 
+	when _S.08_ and not _S.12_ 
+	log 1023 step 3 
+	say 1052
 
+_S.14_ task:
+	give pc _reward_ 
+	end quest 
+
+_S.15_ task:
+	when _S.04_ and not _S.14_ 
+	say 1071 

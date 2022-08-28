@@ -1,140 +1,229 @@
-Record n�0----------
-Mon nom est _qgiver_.
-Mon maître m'a demandé de trouver un
-aventurier courageux pour une mission
-dangereuse. Je ne peux vous en dire plus,
-si ce n'est que ça vaudra _gold_ pièces d'or
-à quiconque y arrivera. Etes-vous intéressé ?
+-- Quest: C:\QUESTS\WORKING\A0C01Y06.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 01
+-- QuestId: 6
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 36
+Quest: A0C01Y06
+DisplayName: An Unexpected Journey Part II
+-- Message panels
+QRC:
 
-Appellez-moi _qgiver_. Je connais
-quelqu'un qui peut avoir du travail intéressant.
-Il y a _gold_ pièces d'or pour quiconque
-pouvant faire le boulot.
+QuestorOffer:  [1000]
+<ce>                        Mon nom est _qgiver_.
+<ce>               Mon maître m'a demandé de trouver un
+<ce>               aventurier courageux pour une mission
+<ce>               dangereuse. Je ne peux vous en dire plus,
+<ce>             si ce n'est que ça rapportera _gold_ pièces d'or
+<ce>              à quiconque l'achèvera. Etes-vous intéressé ?
+                                     <--->
+<ce>                Appellez-moi _qgiver_. Je connais
+<ce>         quelqu'un qui peut avoir du travail intéressant.
+<ce>            Il y a _gold_ pièces d'or pour quiconque
+<ce>                  pouvant faire le boulot.
 
+RefuseQuest:  [1001]
+<ce>                  Je vais chercher ailleurs un héros capable
+<ce>                    d'accomplir la quête de mon maître.
 
-Record n�1----------
-Je vais chercher ailleurs un héros capable
-d'accomplir la quête de mon maître.
+AcceptQuest:  [1002]
+<ce>                   Allez à _meetingplace_. La-bas
+<ce>                  vous trouverez mon maître, _master_.
+                                     <--->
+<ce>                  Demandez _master_ à _meetingplace_
+<ce>                  et %g aura un travail pour vous.
 
+QuestComplete:  [1004]
+<ce>                =mmaster_ est mort. Vos ennemis
+<ce>                y penseront à deux fois avant de tenter
+<ce>                      à nouveau une telle trahison.
 
-Record n�2----------
-Allez à _meetingplace_. La-bas
-vous trouverez mon maître, _master_.
+RumorsDuringQuest:  [1005]
+<ce>              Il paraît qu'un orque a été aperçu en ville
+<ce>              aujourd'hui. J'espère qu'ils l'attraperont.
 
-Demandez _master_ à _meetingplace_
-et %g aura un travail pour vous.
+RumorsPostfailure:  [1006]
+<ce>                 Vous connaissez celle du %ra
+<ce>                qui a été téléporté tout au fond d'un
+<ce>           donjon ? Elle est vraiment marrante ! Oh, pardon.
 
+RumorsPostsuccess:  [1007]
+<ce>                  Hé ! Vous êtes ce %ra qui a tué
+<ce>             le sorcier guérisseur orque ! Bon boulot !
 
-Record n�3----------
-=mmaster_ est mort. Vos ennemis
-y penseront à deux fois avant de tenter
-à nouveau une telle trahison.
+QuestorPostsuccess:  [1008]
+<ce>              Ok, Ok. Je suppose que je vous dois un service
+<ce>           pour cet incident avec l'orque chaman. Il avait été
+<ce>                ensorcelé pour ressembler à un gars sympa.
 
+QuestorPostfailure:  [1009]
+<ce>                 Ne vous approchez pas ! Je n'avais pas
+<ce>             l'intention de blesser quelqu'un. Cet orque avait
+<ce>              été ensorcelé pour ressembler à un gars sympa.
+<ce>                Ce n'est pas ma faute s'il vous a téléporté
+<ce>                       à l'intérieur d'un donjon.
 
-Record n�4----------
-Il paraît qu'un orque a été aperçu en ville
-aujourd'hui. J'espère qu'ils l'attraperont.
+QuestLogEntry:  [1010]
+%qdt:
+J'ai rencontré _qgiver_ a
+___qgiver_, qui m'a dit que
+son maître _master_
+paierait _gold_ pièces d'or pour une
+tâche inconnue mais de façon certaine
+dangereuse. Il demeure à _meetingplace_
+en __meetingplace_.
 
+Message:  1011
+%qdt:
+Le traitre =mmaster_, déguisé en
+_master_, m'a envoyé
+par magie à ___dungeon_.
+Si jamais je sors, %g regrettera
+notre prochaine rencontre.
 
-Record n�5----------
-Vous connaissez celle du %ra
-qui a été téléporté tout au fond d'un
-donjon ? Elle est vraiment marrante ! Oh, pardon.
+Message:  1012
+<ce>               Apprenez qui je suis vraiment.
+<ce>               Je suis votre plus mortel ennemi
+<ce>                 =mmaster_ ! Et je vous ai
+<ce>             réservé un destin tout particulier.
 
+Message:  1013
+<ce>                   N'me faites pas de mal, %pcn !
+<ce>              Je savais pas ce que _master_ avait prévu.
+<ce>               J'ai pas de problème avec vous, j'vous jure.
+<ce>                 %g n'm'avait rien dit, je l'jure,
+<ce>                %g m'a simplement payé pour vous envoyer à %g2.
+<ce>                C'est %g2 que vous voulez, pas moi, hein ?
+<ce>                 J'ai entendu dire qu'%g était parti à
+<ce>                    __hidingplace_. Cherchez là-bas.
 
-Record n�6----------
-Hé ! Vous êtes ce %ra qui a tué
-le sorcier guérisseur orque ! Bon boulot !
+Message:  1014
+<ce>                   Je ne sais pas comment tu t'es échappé
+<ce>                     de ___dungeon_, %pcf. Cependant
+<ce>                     tu ne t'en porteras pas mieux.
+<ce>                        Prépare-toi à mourir !
 
+Message:  1020
+<ce>                        _master_ ? Non, je ne
+<ce>                  pense pas qu'%g soit dans le secteur.
+                                     <--->
+<ce>                    _master_ est nouveau en ville.
+<ce>                  Je ne sais pas trop d'où %g vient.
 
-Record n�7----------
-Ok, Ok. Je suppose que je vous dois un service
-pour cet incident avec l'orque chaman. Il avait été
-ensorcelé pour ressembler à un gars sympa.
+Message:  1021
+<ce>                  _master_ a posé des questions
+<ce>                 dans le coin au sujet d'un %ra.
+                                     <--->
+<ce>                  _master_ demeure ici en ville.
+<ce>              Il paraît qu'%g pose pas mal de questions
+<ce>             au sujet d'un %ra. Vous êtes un %ra, pas vrai ?
+<ce>                   Peut-être qu'%g vous cherche ?
 
+Message:  1030
+%qdt:
+J'ai appris que =mmaster_ se
+cache maintenant à __hidingplace_.
 
-Record n�8----------
-Ne vous approchez pas ! Je n'avais pas
-l'intention de blesser quelqu'un. Cet orque avait
-été ensorcelé pour ressembler à un gars sympa.
-Ce n'est pas ma faute s'il vous a téléporté
-à l'intérieur d'un donjon.
-
-
-Record n�9----------
-%qdt :
- J'ai rencontré _qgiver_ a
- ___qgiver_, qui m'a dit que
- son maître _master_
- paierait _gold_ pièces d'or pour une
- tâche inconnue mais de façon certaine
- dangereuse. Il demeure à _meetingplace_
- en __meetingplace_.
-
-
-Record n�10----------
-%qdt :
- Le traitre =mmaster_, déguisé en
- _master_, m'a envoyé
- par magie à ___dungeon_.
- Si jamais je sors, %g regrettera
- notre prochaine rencontre.
-
-
-Record n�11----------
-Apprenez qui je suis vraiment.
-Je suis votre plus mortel ennemi
-=mmaster_ ! Et je vous ai
-réservé un destin tout particulier.
-
-
-Record n�12----------
-N'me faites pas de mal, %pcn !
-Je savais pas ce que _master_
-avait prévu. J'ai pas de problème
-avec vous, j'vous jure. %g n'm'avait
-rien dit, je l'jure, %g m'a simplement
-payé pour vous envoyer à %g2. C'est
-%g2 que vous voulez, pas moi, hein ?
-J'ai entendu dire qu'%g était parti à
-__hidingplace_.
-Cherchez là-bas.
-
-
-Record n�13----------
-Je ne sais pas comment tu t'es échappé
-de ___dungeon_, %pcf. Cependant
-tu ne t'en porteras pas mieux.
-Prépare-toi à mourir !
-
-
-Record n�14----------
-_master_ ? Non, je ne
-pense pas qu'%g soit dans le secteur.
-
-_master_ est nouveau en ville.
-Je ne sais pas trop d'où %g vient.
-
-
-Record n�15----------
-_master_ a posé des questions
-dans le coin au sujet d'un %ra.
-
-_master_ demeure ici en ville.
-Il paraît qu'%g pose pas mal de questions
-au sujet d'un %ra. Vous êtes un
-%ra, pas vrai ? Peut-être qu'%g
-vous cherche ?
-
-
-Record n�16----------
-%qdt :
- J'ai appris que =mmaster_ se
- cache maintenant à __hidingplace_.
+Message:  1035
+Les chants de l'orque chaman s'élèvent
 
 
-Record n�17----------
-Les chants de l'orque chaman s'élèvent 
+-- Symbols used in the QRC file:
+--
+--                %g occurs 14 times.
+--               %g2 occurs 8 times.
+--               %g3 occurs 1 time.
+--              %pcf occurs 1 time.
+--              %pcn occurs 1 time.
+--              %qdt occurs 3 times.
+--               %ra occurs 6 times.
+--         =mmaster_ occurs 4 times.
+--       ___dungeon_ occurs 2 times.
+--        ___qgiver_ occurs 1 time.
+--    __hidingplace_ occurs 3 times.
+--   __meetingplace_ occurs 3 times.
+--            _gold_ occurs 3 times.
+--          _master_ occurs 10 times.
+--    _meetingplace_ occurs 3 times.
+--          _qgiver_ occurs 3 times.
 
+QBN:
+Item _gold_ gold
 
+Person _qgiver_ group Questor male
+Person _master_ face 1 group Group_6.0 anyInfo 1020 rumors 1021
 
+Place _dungeon_ remote dungeon
+Place _meetingplace_ local tavern
+Place _hidingplace_ remote house1
+
+Clock _escapetime_ 00:00 0 flag 1 range 0 5
+Clock _shortdelay_ 00:01
+--flags extend the timer greatly
+Clock _S.13_ 1.00:00 0 flag 1 range 0 1
+
+Foe _mmaster_ is Orc_shaman
+
+--	Quest start-up:
+	dialog link for location _hidingplace_
+	start timer _escapetime_
+	log 1010 step 0
+	place npc _master_ at _meetingplace_
+
+_escapetime_ task:
+	end quest
+
+variable _shortdelay_
+_clickonenemy_ task:
+	clicked npc _master_ say 1012
+	start timer _shortdelay_
+	hide npc _master_
+	cast Shield spell on _mmaster_
+	cast Spell_Reflection spell on _mmaster_
+	cast Free_Action spell on _mmaster_
+	place foe _mmaster_ at _meetingplace_
+
+_traitordead_ task:
+	killed 1 _mmaster_
+	give pc nothing
+	start timer _S.13_
+
+_teleportpc_ task:
+	pc at _hidingplace_ set _S.12_
+	when not _traitordead_ and _shortdelay_
+	reveal _dungeon_
+	log 1011 step 1
+	say 1035
+	place foe _mmaster_ at _hidingplace_
+	place npc _master_ at _hidingplace_
+	teleport pc to _dungeon_
+
+_hittraitor_ task:
+	injured _mmaster_
+
+variable _revenge_
+_foundme_ task:
+	when _S.12_ and _hittraitor_ and _teleportpc_
+	say 1014
+
+variable _questdone_
+_clickqgiver_ task:
+	clicked npc _qgiver_
+
+_findtraitor_ task:
+	when _clickqgiver_ and _teleportpc_
+	log 1030 step 2
+	say 1013
+
+_clearclick_ task:
+	when _clickqgiver_ and not _teleportpc_
+	clear _clickqgiver_ _clearclick_
+	clear _clickqgiver_
+
+_S.12_ task:
+	hide npc _master_
+
+_S.13_ task:
+	end quest

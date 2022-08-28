@@ -1,76 +1,128 @@
-Record n�0----------
-Je me nomme _qgiver_. Vous
-ne faites pas partie de cet Ordre
-de Chevalerie. Nous ne sommes
-donc pas encore sûrs de pouvoir
-vous  faire confiance. Si vous
-décidiez de tuer le chef d'une bande
-d'orcs qui empoisonnent la vie
-des habitants, cela pourrait nous faire
-changer d'avis... Avez-vous assez de
-cran pour le faire ?
+-- Quest: C:\QUESTS\WORKING\B0C00Y10.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: knight
+-- Repute: 0
+-- QuestId: 10
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 12
+Quest: B0C00Y10
+DisplayName: Trouble with Orcs
+-- Message panels
+QRC:
 
+QuestorOffer:  [1000]
+<ce>                        Je me nomme _qgiver_. Vous
+<ce>                      ne faites pas partie de cet Ordre
+<ce>                      de Chevalerie. Nous ne sommes
+<ce>                      donc pas encore sûrs de pouvoir
+<ce>                      vous  faire confiance. Si vous
+<ce>                      décidiez de tuer le chef d'une bande
+<ce>                      d'orcs qui empoisonnent la vie
+<ce>                      des habitants, cela pourrait nous faire
+<ce>                      changer d'avis... Avez-vous assez de
+<ce>                           cran pour le faire ?
 
-Record n�1----------
-Pourquoi ne suis-je pas surpris ?
-Revenez quand vous serez décidé
-à gagner notre respect.
- 
+RefuseQuest:  [1001]
+<ce>                       Pourquoi ne suis-je pas surpris ?
+<ce>                       Revenez quand vous serez décidé
+<ce>                         à gagner notre respect..
 
-Record n�2----------
-Tuez autant d'orcs que vous le
-pouvez mais soyez certain de
-tuer leur chef, =monster_.
-La bande en question se cache
-dans ___dungeon_. Si vous n'êtes
-pas de retour dans =2dung_ jours,
-nous saurons que vous êtes le lâche
-dont tout le monde parle.
+AcceptQuest:  [1002]
+<ce>                    Tuez autant d'orcs que vous le
+<ce>                    pouvez mais soyez certain de
+<ce>                    tuer leur chef, =monster_.
+<ce>                    La bande en question se cache
+<ce>                    dans ___dungeon_. Si vous n'êtes
+<ce>                    pas de retour dans =2dung_ jours,
+<ce>                    nous saurons que vous êtes le lâche
+<ce>                       dont tout le monde parle.
 
+QuestComplete:  [1004]
+<ce>                    Hmmm. Peut-être devrions-nous
+<ce>                   reconsidèrer votre candidature.
+<ce>                   Ce n'est pas mal du tout, %pcn.
 
-Record n�3----------
-Hmmm. Peut-être devrions-nous
-reconsidèrer votre candidature.
-Ce n'est pas mal du tout, %pcn.
- 
+RumorsDuringQuest:  [1005]
+Cette tribu d'orques a évité les Chevaliers jusqu'à maintenant.
+<--->
+Cette tribu d'orques serait perdue sans le commandement de leur chef.
 
-Record n�4----------
-Cette tribu d'orques a évité les Chevaliers jusqu'à 
-maintenant.
-Cette tribu d'orques serait perdue sans le commandement de leur 
-chef.
-
-Record n�5----------
+RumorsPostfailure:  [1006]
 Les orques reviendront. Leur chef est toujours en vie.
 
-Record n�6----------
-Un %ra est sorti de nulle part, a massacré le chef des orques, 
-puis il est parti.
+RumorsPostsuccess:  [1007]
+Un %ra est sorti de nulle part, a massacré le chef des orques, puis il est parti.
 
-Record n�7----------
+QuestorPostsuccess:  [1008]
 Que puis-je faire pour vous, tueur d'orques ?
 
-Record n�8----------
+QuestorPostfailure:  [1009]
 Vous ne méritez pas d'être écouté, amateur d'orques.
+<--->
 Pourquoi devrais-je parler à quelqu'un aimant les orques ?
 
-Record n�9----------
-%qdt :
- _qgiver_ de l'Ordre des 
- Chevaliers à ___qgiver_
- m'a demandé de m'occuper
- d'une bande d'orques qui ont
- élu domicile dans ___dungeon_.
- Je dois tuer leur chef, =monster_.
- Je dois être de retour dans  =2dung_ jours
- sinon l'Ordre pensera que je suis mort.
+QuestLogEntry:  [1010]
+%qdt:
+_qgiver_ de l'Ordre des
+Chevaliers à ___qgiver_
+m'a demandé de m'occuper
+d'une bande d'orques qui ont
+élu domicile dans ___dungeon_.
+Je dois tuer leur chef, =monster_.
+Je dois être de retour dans  =2dung_ jours
+sinon l'Ordre pensera que je suis mort.
+
+Message:  1011
+<ce>                          =monster_ est mort.
+<ce>                     Sans un chef digne de ce nom,
+<ce>                  ces orques ne seront plus jamais une nuisance.
 
 
-Record n�10----------
-=monster_ est mort.
-Sans un chef digne de ce nom,
-ces orques ne seront plus jamais
-une nuisance.
+-- Symbols used in the QRC file:
+--
+--                %g occurs 1 time.
+--               %g2 occurs 1 time.
+--              %pcn occurs 2 times.
+--              %qdt occurs 1 time.
+--               %ra occurs 1 time.
+--           =2dung_ occurs 2 times.
+--         =monster_ occurs 3 times.
+--       ___dungeon_ occurs 2 times.
+--        ___qgiver_ occurs 3 times.
 
+QBN:
 
+Person _qgiver_ group Questor male
+Person _local_ face 1 group Resident2
 
+Place _dungeon_ remote dungeon1
+
+Clock _2dung_ 00:00 0 flag 17 range 0 2
+
+Foe _monster_ is Orc_sergeant
+
+--	Quest start-up:
+	start timer _2dung_
+	reveal _dungeon_
+	log 1010 step 0
+	place foe _monster_ at _dungeon_
+
+_2dung_ task:
+	end quest
+
+_S.01_ task:
+	killed 1 _monster_ saying 1011
+
+_S.02_ task:
+	clicked npc _qgiver_
+
+_success_ task:
+	when _S.02_ and _S.01_
+	give pc nothing
+	change repute with _local_ by +4
+	end quest
+
+_clearclick_ task:
+	when _S.02_ and not _S.01_
+	clear _S.02_ _clearclick_

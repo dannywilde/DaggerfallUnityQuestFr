@@ -1,152 +1,299 @@
-Record n�0----------
-J'ai entendu parler de vous, %pcn.
-Je suis _questgiver_. Puis-je
-vous demander une faveur ? Passez-
-vous bientôt par ___pickuprégion_ ?
-Si c'est le cas, j'aurais besoin de livrer
-un colis à quelqu'un là-bas. Je vous
-paierais volontiers _gold_ pièces d'or.
+-- Quest: C:\QUESTS\WORKING\A0C00Y15.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 0
+-- QuestId: 15
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 21
+Quest: A0C00Y15
+DisplayName: The Courier
+-- Message panels
+QRC:
 
-Votre réputation vous précède,
-%pcn. J'ai besoin d'un
-coursier. Iriez-vous par chance
-du côté de ___pickuprégion_
-prochainement ? Pourrais-je vous confier
-un colis à livrer pour moi là-bas ?
-Je vous paierais _gold_ pièces d'or
-pour votre dérangement.
+QuestorOffer:  [1000]
+<ce>                    J'ai entendu parler de vous, %pcn.
+<ce>                       Je suis _questgiver_. Puis-je
+<ce>                 vous demander une faveur ? Passez-
+<ce>                    vous bientôt par ___pickupregion_ ?
+<ce>                   Si c'est le cas, j'aurais besoin de livrer
+<ce>                  un colis à quelqu'un là-bas. Je vous
+<ce>                  paierais volontiers _gold_ pièces d'or.
+                                     <--->
+<ce>                     Votre réputation vous précède,
+<ce>                       %pcn. J'ai besoin d'un
+<ce>                   coursier. Iriez-vous par chance
+<ce>                   du côté de ___pickupregion_
+<ce>                 prochainement ? Pourrais-je vous confier
+<ce>                  un colis à livrer pour moi là-bas ?
+<ce>                  Je vous paierais _gold_ pièces d'or
+<ce>                      pour le dérangement.
 
+RefuseQuest:  [1001]
+<ce>                            Vraiment dommage.
+                                     <--->
+<ce>                  Je vais devoir trouver quelqu'un
+<ce>                  souhaitant travailler pour vivre.
+                                     <--->
+<ce>                     Vous devez être un %pcn différent
+<ce>              de celui dont j'ai tellement entendu parler.
 
-Record n�1----------
-Vraiment dommage.
-
-Je vais devoir trouver quelqu'un
-souhaitant travailler pour vivre.
-
-Vous devez être un %pcn différent
-de celui dont j'ai tellement entendu parler.
-
-
-Record n�2----------
-Super ! Laissez ce colis en ___pickuprégion_
-et demandez après _pickuprégion_.
-%g vous paiera. Il faut que le colis soit
-là-bas dans =traveltime_ jours.
-Voici le colis.
-
-Quelle chance ! Mon ami est _pickuprégion_
-en ___pickuprégion_. Demandez simplement
-dans les environs, tout le monde %g3 connaît.
-%g vous paiera immédiatement. Si vous
-mettez plus de =traveltime_ jours, vous
-pouvez aussi bien le jeter. Le voici.
-
-
-Record n�3----------
-J'espérais bien que _questgiver_
-serait capable de me faire parvenir
-ceci à temps.
-%g a été tellement occupé ces temps-ci.
-Voici les _gold_ pièces d'or qui vous ont
-été promises.
-
-
-Record n�4----------
-Les orques créent de nouveau l'agitation.
+AcceptQuest:  [1002]
+<ce>                Super ! Laissez ce colis en ___pickupregion_
+<ce>                    et demandez après _pickupregion_.
+<ce>                %g vous paiera. Il faut que le colis soit
+<ce>                   là-bas dans =traveltime_ jours.
+<ce>                         Voici le colis.
+                                     <--->
+<ce>                  Quelle chance ! Mon ami est _pickupregion_
+<ce>                   en ___pickupregion_. Demandez simplement
+<ce>                dans les environs, tout le monde %g3 connaît.
+<ce>                   %g vous paiera immédiatement. Si vous
+<ce>                  mettez plus de =traveltime_ jours, vous
+<ce>                   pouvez aussi bien le jeter. Le voici.
 
 
-Record n�5----------
-Ils disent que l'esprit du défunt
-Roi Lysandus a été aperçu à Daggerfall.
+QuestComplete:  [1004]
+<ce>                      J'espérais bien que _questgiver_
+<ce>                serait capable de me faire parvenir ceci à temps.
+<ce>                  %g a été tellement occupé ces temps-ci.
+<ce>            Voici les _gold_ pièces d'or qui vous ont été promises.
+
+RumorsDuringQuest:  [1005]
+<ce>               Les orques sont à nouveau en train de semer la discorde.
+
+RumorsPostfailure:  [1006]
+<ce>               Ils disent que l'esprit du défunt
+<ce>             Roi Lysandus a été aperçu à Daggerfall.
+
+RumorsPostsuccess:  [1007]
+<ce>                Une tempête en mer a fait sombrer un
+<ce>               navire juste sur les rivages de Daggerfall.
+<ce>                 J'ai entendu dire qu'il transportait un
+<ce>                     émissaire de l'Empereur.
+
+QuestorPostsuccess:  [1008]
+<ce>              Mes modestes remerciements pour la
+<ce>            livraison du colis en ___pickupregion_.
+
+QuestorPostfailure:  [1009]
+<ce>                 Canaille ! Qu'avez-vous fait avec mon
+<ce>              colis ? Vous l'avez vendu ? Il n'est jamais
+<ce>             arrivé en ___pickupregion_. Partez immédiatement.
+
+QuestLogEntry:  [1010]
+%qdt:
+_questgiver_ de ___questgiver_
+m'a chargé de livrer un
+colis à _pickupregion_,
+en ___pickupregion_. Je dois le
+déposer là-bas dans les =traveltime_ prochains jours.
+
+Message:  1011
+<ce>                   Ce livre a une valeur sentimentale.
+<ce>                     _pickupregion_ n'a pas vu un
+<ce>                         exemplaire de _book_
+<ce>                         depuis des années.
+
+Message:  1012
+<ce>                      _pickupregion_ a besoin de
+<ce>                    ce _ingredient_ pour une liqueur
+<ce>                        spéciale qu'%g prépare.
+
+Message:  1013
+<ce>                      Ce _jewelry_ est un cadeau
+<ce>                     pour _pickupregion_ afin de
+<ce>                    sceller mon accord avec %g2.
+
+Message:  1014
+<ce>                   Ceci est un _mensclothing_ spécial
+<ce>                     que ma mère a confectionné pour
+<ce>                   _pickupregion_, pour la cérémonie.
+
+Message:  1015
+<ce>                    _pickupregion_ a réservé
+<ce>                       ce tableau de _painting_.
+<ce>               Il faut qu'il soit là-bas pour son assemblée.
+
+Message:  1016
+<ce>                      _pickupregion_ a besoin de
+<ce>                   ce _potion_ aussi tôt que possible.
+
+Message:  1017
+<ce>                       _pickupregion_ a été
+<ce>                      menacé. Ce _weapon_ devrait
+<ce>                    aider à atténuer ses craintes.
+
+Message:  1018
+<ce>               J'ai acheté ce délicat _womensclothing_
+<ce>                 pour le mariage de _pickupregion_.
+<ce>                 Ce serait affreusement embarassant
+<ce>                   s'il n'arrivait pas à temps.
+
+Message:  1019
+<ce>                    Que voulez-vous ? _questgiver_ ?
+<ce>                    Oui, %g a promis de m'envoyer un
+<ce>                    colis. Si je ne l'ai pas bientôt,
+<ce>                         ce sera trop tard.
+
+Message:  1020
+<ce>                   Je sais que vous avez un colis de
+<ce>                      _questgiver_. Donnez-le moi
+<ce>                      et personne ne sera blessé.
 
 
-Record n�6----------
-Une tempête en mer a fait sombrer un
-navire juste sur les rivages de Daggerfall.
-J'ai entendu dire qu'il transportait un
-émissaire de l'Empereur.
+-- Symbols used in the QRC file:
+--
+--                %g occurs 6 times.
+--               %g2 occurs 2 times.
+--               %g3 occurs 13 times.
+--              %pcn occurs 3 times.
+--              %qdt occurs 1 time.
+--      =traveltime_ occurs 3 times.
+--  ___pickupregion_ occurs 8 times.
+--    ___questgiver_ occurs 1 time.
+--            _book_ occurs 3 times.
+--            _gold_ occurs 5 times.
+--      _ingredient_ occurs 1 time.
+--         _jewelry_ occurs 1 time.
+--    _mensclothing_ occurs 1 time.
+--        _painting_ occurs 1 time.
+--    _pickupregion_ occurs 11 times.
+--          _potion_ occurs 1 time.
+--      _questgiver_ occurs 5 times.
+--          _weapon_ occurs 1 time.
+--  _womensclothing_ occurs 1 time.
 
+QBN:
+Item _book_ book0
+Item _womensclothing_ womens_clothing
+Item _potion_ misc
+Item _mensclothing_ mens_clothing
+Item _painting_ portrait
+Item _weapon_ weapon
+Item _ingredient_ large_plant
+Item _jewelry_ trinket
+Item _gold_ gold
 
-Record n�7----------
-Mes modestes remerciements pour la
-livraison du colis en ___pickuprégion_.
+Person _questgiver_ face 137 group Questor
+Person _pickupregion_ face 232 group Local_3.0
 
+Clock _traveltime_ 00:00 0 flag 1 range 1 4
+--precise timer needed due to short time limit
 
-Record n�8----------
-Canaille ! Qu'avez-vous fait avec mon
-colis ? Vous l'avez vendu ? Il n'est jamais
-arrivé en ___pickuprégion_. Partez immédiatement.
+Foe _thief_ is Burglar
 
+--	Quest start-up:
+	start timer _traveltime_
+	log 1010 step 0
+	pick one of _S.01_ _S.10_
+	pick one of _S.14_ _S.15_ _S.15_ _S.15_
+	create npc _pickupregion_
 
-Record n�9----------
-%qdt :
- _questgiver_ de ___questgiver_
- m'a chargé de livrer un
- colis à _pickuprégion_,
- en ___pickuprégion_. Je dois le
- déposer là-bas dans les =traveltime_ prochains jours.
+_traveltime_ task:
+	end quest
 
+_S.01_ task:
+	pick one of _S.02_ _snitch0_ _S.04_ _S.05_
+--added underscores to snitch0
 
-Record n�10----------
-Ce livre a une valeur sentimentale.
-_pickuprégion_ n'a pas vu un
-exemplaire de _book_
-depuis des années.
+_S.02_ task:
+	get item _book_ saying 1011
 
+_snitch0_ task:
+	get item _ingredient_ saying 1012
 
-Record n�11----------
-_pickuprégion_ a besoin de
-ce _ingredient_ pour une liqueur
-spéciale qu'%g prépare.
+_S.04_ task:
+	get item _jewelry_ saying 1013
 
+_S.05_ task:
+	get item _mensclothing_ saying 1014
 
-Record n�12----------
-Ce _jewelry_ est un cadeau
-pour _pickuprégion_ afin de
-sceller mon accord avec %g2.
+_S.06_ task:
+	get item _painting_ saying 1015
 
+_S.07_ task:
+	get item _potion_ saying 1016
 
-Record n�13----------
-Ceci est un _mensclothing_ spécial
-que ma mère a confectionné pour
-_pickuprégion_, pour la cérémonie.
+_S.08_ task:
+	get item _weapon_ saying 1017
 
+_S.09_ task:
+	get item _womensclothing_ saying 1018
 
-Record n�14----------
-_pickuprégion_ a commissionné
-ce tableau de _painting_.
-Il faut qu'il soit là-bas pour son assemblée.
+_S.10_ task:
+	pick one of _S.06_ _S.07_ _S.08_ _S.09_
 
+_S.11_ task:
+	toting _jewelry_ and _pickupregion_ clicked
+	toting _mensclothing_ and _pickupregion_ clicked
+	toting _painting_ and _pickupregion_ clicked
+	toting _potion_ and _pickupregion_ clicked
+	toting _weapon_ and _pickupregion_ clicked
+	toting _book_ and _pickupregion_ clicked
+	toting _ingredient_ and _pickupregion_ clicked
+	toting _womensclothing_ and _pickupregion_ clicked
+	give pc _gold_
+	end quest
+--removed unnecessary delay
 
-Record n�15----------
-_pickuprégion_ a besoin de
-ce _potion_ aussi tôt que possible.
+_S.12_ task:
+	clicked npc _pickupregion_
 
+_S.13_ task:
+	when _S.12_ and not _S.11_
+	say 1019
+	clear _S.12_ _S.13_
 
-Record n�16----------
-_pickuprégion_ a été
-menacé. Ce _weapon_ devrait
-aider à atténuer ses craintes.
+_S.14_ task:
+	create foe _thief_ every 200 minutes 3 times with 10% success
 
+variable _S.15_
+_S.16_ task:
+	injured _thief_
+	prompt 1020 yes _yes_ no _no_
 
-Record n�17----------
-J'ai acheté ce délicat _womensclothing_
-pour le mariage de _pickuprégion_.
-Ce serait affreusement embarassant
-s'il n'arrivait pas à temps.
+_yes_ task:
+	restrain foe _thief_
 
+variable _no_
+_yes1_ task:
+	when _yes_ and _S.02_
+	take _book_ from pc
+	give item _book_ to _thief_
+--added "take X from pc" for all yes# tasks.
 
-Record n�18----------
-Que voulez-vous ? _questgiver_ ?
-Oui, %g a promis de m'envoyer un
-colis. Si je ne l'ai pas bientôt,
-ce sera trop tard.
+_yes2_ task:
+	when _yes_ and _snitch0_
+	take _ingredient_ from pc
+	give item _ingredient_ to _thief_
 
+_yes3_ task:
+	when _yes_ and _S.04_
+	take _jewelry_ from pc
+	give item _jewelry_ to _thief_
 
-Record n�19----------
-Je sais que vous avez un colis de
-_questgiver_. Donnez-le moi
-et personne ne sera blessé.
+_yes4_ task:
+	when _yes_ and _S.05_
+	take _mensclothing_ from pc
+	give item _mensclothing_ to _thief_
 
+_ring_ task:
+	when _yes_ and _S.06_
+	take _painting_ from pc
+	give item _painting_ to _thief_
 
+_yes6_ task:
+	when _yes_ and _S.07_
+	take _potion_ from pc
+	give item _potion_ to _thief_
 
+_note_ task:
+	when _yes_ and _S.08_
+	take _weapon_ from pc
+	give item _weapon_ to _thief_
+
+_poet_ task:
+	when _yes_ and _S.09_
+	take _womensclothing_ from pc
+	give item _womensclothing_ to _thief_

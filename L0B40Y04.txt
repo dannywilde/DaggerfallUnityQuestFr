@@ -1,98 +1,162 @@
-Record n�0----------
-Cette petite excursion n'est pas faite
-pour n'importe qui, mais je sens que
-vous apprécierez de tenter l'expérience.
-Nous avons un client qui desire demander
-des comptes à un membre de la famille
-royale de __mondung_. Quand j'ai
-appris cela, j'ai pensé à vous. Interessé ?
+-- Quest: C:\QUESTS\WORKING\L0B40Y04.Qbn.
+-- StartsBy: NPC
+-- Questee: member
+-- Questor: Brotherhood
+-- Repute: 40
+-- QuestId: 4
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 22
+Quest: L0B40Y04
+DisplayName: Concerns of a Noble
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                 This little excursion is not for just
+<ce>                  anyone, but I feel you'd enjoy the
+<ce>                 challenge of the experience. We have
+<ce>                a client who wants to call accounts on
+<ce>                    a member of the royal family of
+<ce>                       ___mondung_. When I heard
+<ce>                  that, I thought of you. Interested?
+
+RefuseQuest:  [1001]
+<ce>                    Oh, well. Probably wise, but it
+<ce>                      does smack a little of ...
+<ce>                        dare I say, cowardice?
+
+AcceptQuest:  [1002]
+<ce>                 I just knew you could not resist this
+<ce>                    one. Fair warning, your target,
+<ce>                  _knight_ is no pampered princeling.
+<ce>                  The client is also one of the royal
+<ce>                family, worried that _knight_ is going
+<ce>                 to worm a way to the throne. And from
+<ce>                 what I've heard, %g has the power to
+<ce>                  do just that. Our client wants %g2
+<ce>               extinct in =1stparton_ days. We will give
+<ce>                     you that time to account and
+<ce>                      return to make your report.
+<ce>                   May Mephala walk with you, %pcf.
+
+QuestFail:  [1003]
+<ce>                   I don't know who you think you've
+<ce>                    killed, but it wasn't _knight_.
+<ce>                 Get your butt over to the palace and
+<ce>                    do what we were contracted for.
+
+QuestComplete:  [1004]
+<ce>                    Beautiful, %pcf, truly. Brings
+<ce>                 tears to these weary eyes. As lovely
+<ce>                  an accounting as I've ever seen. I
+<ce>                  feel like writing a poem. Why don't
+<ce>                you take your _reward_ gold pieces and
+<ce>                   get the hell out of here so I can
+<ce>                  write a ballad about it? Seriously,
+<ce>                         I'm very proud, %pcf.
+
+RumorsDuringQuest:  [1005]
+I know what I'm talking about. _knight_ is going to be our next ruler.
+<--->
+Someday _knight_ is going to be our ruler. Then we'll know real tyranny.
+
+RumorsPostfailure:  [1006]
+_knight_ left the court for a while, but %g'll be back. That's for certain.
+<--->
+And the royal opera continues. I wonder what made _knight_ leave court.
+
+RumorsPostsuccess:  [1007]
+They ought to declare it a %reg holiday. _knight_ death day! Hooray!
+<--->
+I can't help but be suspicious about _knight_'s sudden death. Too convenient.
+
+QuestorPostsuccess:  [1008]
+I'm still thinking about that knight's accounting. It was truly sublime, %pcf.
+
+QuestorPostfailure:  [1009]
+<ce>                 I know it was a difficult assignment.
+<ce>                Nigh impossible. But still, you failed,
+<ce>                 and I have no tolerance for failure.
+
+Message:  1020
+%qdt:
+ My latest contract for the Dark Brotherhood
+ in ___questgiver_ is a noble at _mondung_,
+ in ___mondung_, by the name of
+ _knight_. The deed must be
+ done in =1stparton_ days.
+
+Message:  1021
+<ce>                     "I could...have been your...
+<ce>                    next...ruler," moans _knight_.
+<ce>                   The contract has been fulfilled.
 
 
-Record n�1----------
-Oh, bien. C'est probablement sage
-mais ça laisse un petit goût de...
-comment dirais-je... couardise ?
+-- Symbols used in the QRC file:
+--
+--                %g occurs 2 times.
+--               %g2 occurs 1 time.
+--              %pcf occurs 23 times.
+--              %qdt occurs 1 time.
+--              %reg occurs 1 time.
+--       =1stparton_ occurs 3 times.
+--          _knight_ occurs 14 times.
+--    ___questgiver_ occurs 1 time.
+--        __mondung_ occurs 9 times.
+--          _reward_ occurs 1 time.
 
+QBN:
+Item _reward_ gold
 
-Record n�2----------
-Je savais que vous ne pourriez pas
-résister à cela. Juste un conseil, votre
-cible, =knight_ n'est pas un petit prince
-qui s'est fait dorloter. Le client est également
-un membre de la famille royale, contrarié
-que =knight_ se fraye un chemin vers le trône.
-Et d'après ce que j'ai entendu, %g a le pouvoir
-d'y arriver. Notre client veut sa mort dans les
-=1stparton_ jours. Nous vous laissons ce temps
-pour agir et revenir faire votre rapport.
-Puisse Mephala marcher à vos côtes, %pcf.
+Person _questgiver_ face 112 group Questor
+Person _knight_ face 5 faction The_Host_of_the_Horn
 
+Place _mondung_ remote palace
 
-Record n�3----------
-J'ignore qui vous pensez
-avoir tué, mais ce n'est pas =knight_.
-Ramenez votre cul au palais et faites
-ce à quoi nous nous sommes engagés.
+Clock _1stparton_ 00:00 0 flag 18 range 0 2
 
+Foe _F.00_ is Spellsword
+Foe _F.01_ is Knight
+Foe _F.02_ is Warrior
+Foe _F.03_ is Nightblade
 
-Record n�4----------
-Magnifique, %pcf, vraiment. Cela fait
-monter les larmes à mes yeux fatigués.
-Une affaire déliceusement menée comme je
-n'en avais jamais vue. Cela me donne envie
-d'écrire un poème. Pourquoi ne prendriez-vous
-pas vos _reward_ pièces d'or et ne dégageriez-vous
-pas d'ici afin que je puisse tranquillement
-en écrire une ballade ?
-Sérieusement, je suis très fier, %pcf.
+--	Quest start-up:
+	start timer _1stparton_ 
+	log 1020 step 0 
+	pick one of _S.06_ _S.07_ _S.08_ _onehour_ 
 
+_pcgetsgold_ task:
+	when _qgclicked_ and _S.02_ 
+	give pc _reward_ 
+	end quest 
 
-Record n�5----------
-Je sais de quoi je parle. =knight_ va être notre prochain 
-souverain.
-Un jour, =knight_ va être notre prochain souverain. Alors nous 
-connaîtrons la réelle tyrannie.
+_qgclicked_ task:
+	clicked npc _questgiver_ 
 
+_S.02_ task:
+	killed 1 _F.01_ saying 1021 
+	killed 1 _F.02_ saying 1021 
+	killed 1 _F.03_ saying 1021 
+	killed 1 _F.00_ saying 1021 
 
-Record n�6----------
-=knight_ a quitté la cour pour un certain temps, mais %g 
-reviendra. C'est certain.
-Et la comédie royale continue. Je me demande bien ce qui a poussé 
-=knight_ à quitter la cour.
+variable _queston_
+_1stparton_ task:
+	end quest 
 
+variable _2ndparton_
+_S.06_ task:
+	place foe _F.00_ at _mondung_ 
 
-Record n�7----------
-Ils devraient décréter ce jour comme ferié à %reg. Le Jour de la 
-Mort de =knight_ ! Hourra !
-Je ne peux m'empêcher d'être suspicieux à propos de la mort 
-soudaine de =knight_. Trop opportune.
+_S.07_ task:
+	place foe _F.01_ at _mondung_ 
 
+_S.08_ task:
+	place foe _F.02_ at _mondung_ 
 
-Record n�8----------
-Je continue de penser à cette affaire de chevalier. Ce fut 
-vraiment sublime, %pcf.
+_onehour_ task:
+	place foe _F.03_ at _mondung_ 
 
-
-Record n�9----------
-Je savais que c'était une mission difficile.
-Presque impossible. Mais toujours est-il que vous
-avez échoué, et je ne tolère pas l'échec.
-
-
-Record n�10----------
-%qdt :
- Mon dernier contrat en date pour la Confrérie
- Noire à ___questgiver_ est
- un noble de _mondung_,
- à __mondung_, du nom de
- =knight_. La chose doit
- être faite dans les =1stparton_ jours.
-
-
-Record n�11----------
-"J'aurais... pu être votre...
-prochain... souverain," gémit
-=knight_. Le contrat a été rempli.
-
-
-
+_clearclick_ task:
+	when _qgclicked_ and not _S.02_ 
+	say 1003
+	clear _qgclicked_ _clearclick_ 

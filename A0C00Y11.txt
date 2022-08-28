@@ -1,173 +1,244 @@
-Record n�0----------
-Excusez-moi, êtes-vous médecin ou avez-vous
-des dons de guérisseur ? J'ai vraiment besoin
-de quelqu'un capable de soigner mon cousin.
+-- Quest: C:\QUESTS\WORKING\A0C00Y11.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 0
+-- QuestId: 11
+-- Edited for Daggerfall Unity by Jay_H
+Messages: 42
+Quest: A0C00Y11
+DisplayName: The Cure
+-- Message panels
+QRC:
 
-Mon cousin va mourir ! Pouvez-vous m'aider ?
+QuestorOffer:  [1000]
+<ce>              Excusez-moi, êtes-vous médecin ou avez-vous
+<ce>              des dons de guérisseur ? J'ai vraiment besoin
+<ce>               de quelqu'un capable de soigner mon cousin.
+                                     <--->
+<ce>               Mon cousin va mourir ! Pouvez-vous m'aider ?
 
+RefuseQuest:  [1001]
+<ce>                 Dommage, je croyais avoir trouvé de l'aide.
+                                     <--->
+<ce>                   C'est bien ma chance ! Merci quand même.
+                                     <--->
+<ce>                    Excusez-moi pour le dérangement alors.
 
-Record n�1----------
-Dommage, je croyais avoir trouvé de l'aide.
+AcceptQuest:  [1002]
+<ce>                        Merci, merci, merci !
+<ce>                         Mon nom est _giver_.
+<ce>          J'ai récemment recu une lettre m'informant que mon
+<ce>                  cousin, _cousin_ de ___cousin_,
+<ce>     était gravement malade et qu'il allait sûrement mourir d'ici
+<ce>         =questtime_ jours ! Quoi que vous puissiez faire
+<ce>          pour %g2 soigner, je vous en serai extrêmement
+<ce>           reconnaissant. Voici _gold1_ pièces d'or. Je vous en
+<ce>           donnerai _gold2_ de plus si vous trouvez un remède.
 
-C'est bien ma chance ! Merci quand même.
+QuestComplete:  [1004]
+<ce>                  Oh, vous m'apportez le talisman guérisseur !
+<ce>                           Merci à vous %pcn.
+<ce>                Voici le reste de l'or que mon cousin vous avait
+<ce>                  promis. Je ne vous remercierai jamais assez.
+<ce>                     Que la suite de vos voyages vous soit
+<ce>                          agréable. Au revoir.
 
-Excusez-moi pour le dérangement alors.
-
-
-Record n�2----------
-Merci, merci, merci !
-Mon nom est _giver_.
-J'ai récemment recu une lettre m'informant que mon
-cousin, _cousin_ de ___cousin_,
-était gravement malade et qu'il allait sûrement mourir dans
-=questtime_ jours ! Quoi que vous puissiez faire
-pour %g2 soigner, je vous en serai extrêmement
-reconnaissant. Voici _gold1_ pièces d'or. Je vous en
-donnerai _gold2_ de plus si vous trouvez un remède.
-
-
-Record n�3----------
-Oh, vous m'apportez le talisman guérisseur !
-Merci à vous %pcn.
-Voici le reste de l'or que mon cousin vous avait
-promis. Je ne vous remercierai jamais assez.
-Que la suite de vos voyages vous soit
-agréable. Au revoir.
-
-
-Record n�4----------
-C'est dommage pour le parent de _giver_.
-On dit que sa maladie est mortelle.
-
-
-Record n�5----------
-_cousin_ de ___cousin_
-est mort à cause du Fléau des Sorciers. Il paraît
-que la peste pourrait désormais venir jusqu'ici.
-
-_giver_ est anéanti de chagrin.
-Son cousin ___cousin_
-est mort récemment.
-
-
-Record n�6----------
-Le saviez-vous ? Il y a eu une guérison
-miracle à ___cousin_ !
-
-_giver_ a fait don d'une grosse
-somme d'argent au temple.
-Il paraît que son cousin fut soigné miraculeusement.
-
-C'est vous le célèbre %ra qui a guéri
-cette pauvre personne à ___cousin_?
+RumorsDuringQuest:  [1005]
+<ce>                   C'est dommage pour le cousin de _giver_.
+<ce>                     On dit que sa maladie est mortelle.
 
 
-Record n�7----------
-Les dieux vous bénissent %pcf. Je n'oublierai jamais
-ce que vous avez fait pour _cousin_ et moi.
-%g a bien récupèré du  Fléau des Sorciers.
+RumorsPostfailure:  [1006]
+<ce>                        _cousin_ de ___cousin_
+<ce>              est mort à cause du Fléau des Sorciers. Il paraît
+<ce>               que la peste pourrait désormais venir jusqu'ici.
+                                     <--->
+<ce>                     _giver_ est anéanti de chagrin.
+<ce>                        Son cousin ___cousin_
+<ce>                         est mort récemment.
 
+RumorsPostsuccess:  [1007]
+<ce>                Le saviez-vous ? Il y a eu une guérison
+<ce>                          miracle à ___cousin_ !
+                                     <--->
+<ce>                     _giver_ a fait don d'une grosse
+<ce>                       somme d'argent au temple.
+<ce>          Il paraît que son cousin fut soigné miraculeusement.
+                                     <--->
+<ce>                 C'est vous le célèbre %ra qui a guéri
+<ce>                   cette pauvre personne à ___cousin_?
 
-Record n�8----------
-%pcn ! Vous polluez l'air de votre souffle.
-Mon cousin est mort par votre
-faute. Dehors ! Dehors ! Dehors !
+QuestorPostsuccess:  [1008]
+<ce>             Les dieux vous bénissent %pcf. Je n'oublierai jamais
+<ce>                 ce que vous avez fait pour _cousin_ et moi.
+<ce>                %g a bien récupèré du  Fléau des Sorciers.
 
+QuestorPostfailure:  [1009]
+<ce>                %pcn ! Vous polluez l'air de votre souffle.
+<ce>                      Mon cousin est mort par votre
+<ce>                    faute. Dehors ! Dehors ! Dehors !
 
-Record n�9----------
+QuestLogEntry:  [1010]
 %qdt:
- _giver_ de ___giver_ m'a payé
- pour guérir son cousin,
- _cousin_ de ___cousin_.
- %g risque de mourir d'ici =questtime_ jours.
- Je recevrai  _gold2_ pièces d'or supplémentaires
- quand j'aurai trouvé un remède.
+_giver_ de ___giver_ m'a payé
+pour guérir son cousin,
+_cousin_ de ___cousin_.
+%g risque de mourir d'ici =questtime_ jours.
+Je recevrai  _gold2_ pièces d'or supplémentaires
+quand j'aurai trouvé un remède.
 
-
-Record n�10----------
+Message:  1011
 %qdt:
- J'ai vu _cousin_. Son état est
- pire que ce que m'avait dit _giver_.
- _cousin_ dit que _healer_ à
- ___healer_ pourrait avoir un remède.
+J'ai vu _cousin_. Son état est
+pire que ce que m'avait dit _giver_.
+_cousin_ dit que _healer_ à
+___healer_ pourrait avoir un remède.
 
+Message:  1012
+<ce>           J'ai entendu parler de sa maladie. Aucun guérisseur
+<ce>                   local ne connaît de remède.
+                                     <--->
+<ce>               J'en ai entendu parler. Des rumeurs à propos
+<ce>            d'une maladie mystérieuse et fatale . Très triste.
+                                     <--->
+<ce>              Oui j'en ai entendu parler. Ca ressemble au Fléau
+<ce>                        des Magiciens, d'après moi.
+                                     <--->
+<ce>               Nul ne sait quelle est sa maladie.
+<ce>       Ils disent qu'il ne lui reste plus que quelques jours.
+                                     <--->
+<ce>             Un cas bien malheureux. Nul de sait ce qui
+<ce>           ne va pas. Vous devriez essayer un guérisseur
+<ce>             nomme _healer_, qui est réputé pour avoir
+<ce>              un grand savoir des maladies obscures.
+                                     <--->
+<ce>            Oh, oui ! La personne avec la fièvre mortelle.
 
-Record n�11----------
-J'ai entendu parler de sa maladie. Aucun guérisseur
-local ne connaît de remède.
+Message:  1013
+<ce>                Bonjour à vous. Oui, j'ai entendu parler de
+<ce>                   _cousin_ de ___cousin_ et de son
+<ce>           problème. Il s'agit du Fléau des Sorciers. Je le sais.
+<ce>            Mais j'ai un talisman spécial qui pourra le guérir.
+<ce>           Attention, il ne peut être utilisé qu'une seule fois.
+<ce>              Je vous le vends pour 20 pièces d'or. Le voici.
+<ce>                     Merci beaucoup, et au revoir.
 
-J'en ai entendu parler. Des rumeurs sur une
-mystérieuse et fatale maladie. Très triste.
+Message:  1015
+<ce>                Bonjour à vous. Oui, j'ai entendu parler de
+<ce>                    _cousin_ de ___cousin_ et de son
+<ce>          problème. Il s'agit du Fléau des Magiciens. Je le sais.
+<ce>            Mais j'ai un talisman spécial qui pourra le guérir.
+<ce>           Attention, il ne peut être utilisé qu'une seule fois.
+<ce>           Je vous le vendrais bien pour 20 pièces d'or mais il
+<ce>           semble que vous n'ayez pas assez d'or pour le payer.
 
-Oui j'en ai entendu parler. Ca ressemble au Fléau
-des Sorciers, d'après moi.
-
-Nul ne sait quelle est sa maladie.
-Ils disent qu'il ne lui reste plus que quelques jours.
-
-Un cas bien malheureux. Nul de sait ce qui
-ne va pas. Vous devriez essayer un guérisseur
-nomme _healer_, qui est réputé pour avoir
-un grand savoir des maladies obscures.
-
-Oh, oui ! La personne avec la fièvre mortelle.
-
-
-Record n�12----------
-Bonjour à vous. Oui, j'ai entendu parler de
-_cousin_ de ___cousin_ et de son
-problème. Il s'agit du Fléau des Sorciers. Je le sais.
-Mais j'ai un talisman spécial qui pourra le guérir.
-Attention, il ne peut être utilisé qu'une seule fois.
-Je vous le vends pour 20 pièces d'or. Le voici.
-Merci beaucoup, et au revoir.
-
-
-Record n�13----------
-Bonjour à vous. Oui, j'ai entendu parler de
-_cousin_ de ___cousin_ et de son
-problème. Il s'agit du Fléau des Sorciers. Je le sais.
-Mais j'ai un talisman spécial qui pourra le guérir.
-Attention, il ne peut être utilisé qu'une seule fois.
-Je vous le vendrais bien pour 20 pièces d'or mais il
-semble que vous n'ayez pas assez d'or pour le payer.
-
-
-Record n�14----------
+Message:  1017
 %qdt:
- J'ai acheté un Talisman à _healer_ de
- ___healer_. Il paraît qu'il guérit le
- Fléau des Sorciers qui afflige _cousin_.
+J'ai acheté un Talisman à _healer_ de
+___healer_. Il paraît qu'il guérit le
+Fléau des Magiciens qui afflige _cousin_.
+
+Message:  1019
+<ce>          Vous utilisez le Talisman, et il disparait magiquement.
+
+Message:  1030
+<ce>          Je me sens si faible, je ne sais pas ce qui ne va pas.
+<ce>              Mon cousin, _giver_, vous a envoyé pour m'aider ?
+<ce>              Oh merci ! Merci ! J'ai entendu parler d'un
+<ce>                 guérisseur nomme _healer_ à ___healer_,
+<ce>                 qui pourrait m'aider. S'il vous plaît,
+<ce>                 allez le trouver et rapportez-moi
+<ce>                le remède avant qu'il ne soit trop tard.
+
+Message:  1040
+<ce>                  Ils disent que _healer_ est spécialiste
+<ce>                      en maladies obscures.
+                                     <--->
+<ce>             _healer_ vit à  ___healer_, je crois.
+
+Message:  1041
+<ce>            _healer_ est le meilleur guérisseur qui soit, à ce qu'on
+<ce>                   dit.  Vous le trouverez à  ___healer_.
+                                     <--->
+<ce>                J'ai entendu parler de _healer_ de ___healer_.
+<ce>         %g a la réputation de soigner les cas les plus difficiles.
 
 
-Record n�15----------
-Vous utilisez le Talisman, et il disparait magiquement.
+-- Symbols used in the QRC file:
+--
+--                %g occurs 5 times.
+--               %g2 occurs 15 times.
+--               %g3 occurs 7 times.
+--              %pcf occurs 1 time.
+--              %pcn occurs 2 times.
+--              %qdt occurs 3 times.
+--               %ra occurs 1 time.
+--       =questtime_ occurs 2 times.
+--        ___cousin_ occurs 12 times.
+--         ___giver_ occurs 1 time.
+--        ___healer_ occurs 8 times.
+--          _cousin_ occurs 10 times.
+--           _giver_ occurs 7 times.
+--           _gold1_ occurs 1 time.
+--           _gold2_ occurs 5 times.
+--          _healer_ occurs 8 times.
 
+QBN:
+Item _gold1_ gold range 5 to 25
+Item _gold2_ gold range 10 to 50
+Item talisman talisman
 
-Record n�16----------
-Je me sens si faible, je ne sais pas ce qui ne va pas.
-Mon cousin, _giver_, vous a envoyé pour m'aider ?
-Oh merci ! Merci ! J'ai entendu parler d'un
-guérisseur nomme _healer_
-à ___healer_, qui pourrait m'aider.
-S'il vous plaît, allez le trouver et rapportez-moi
-le remède avant qu'il ne soit trop tard.
+Person _giver_ group Questor male
+Person _cousin_ group Resident4 female anyInfo 1012 rumors 1012
+Person _healer_ face 64 group Chemist anyInfo 1040 rumors 1041
 
+Clock _questtime_ 00:00 0 flag 1 range 3 5
 
-Record n�17----------
-Ils disent que _healer_ est spécialiste
-des plus obscures maladies.
+--	Quest start-up:
+	dialog link for person _healer_ item talisman
+	start timer _questtime_
+	log 1010 step 0
+	get item _gold1_
+	pick one of _S.04_ _S.05_
+	make _gold1_ permanent
+	talisman used do _S.06_
+	create npc _healer_
+	create npc _cousin_
 
-_healer_ vit à  ___healer_, je crois.
+_questtime_ task:
+	end quest
 
+_S.01_ task:
+	clicked npc _cousin_ say 1030
+	log 1011 step 1
 
-Record n�18----------
-_healer_ est le meilleur guérisseur qui soit, à ce qu'on 
-dit.
-Vous le trouverez à  ___healer_.
+_S.02_ task:
+	when _S.01_ and _S.04_
+	make pc ill with Wizard_Fever
 
-J'ai entendu parler de _healer_ de ___healer_.
-%g a la réputation de soigner les cas les plus difficiles.
+variable _S.03_
+variable _S.04_
+variable _S.05_
+_S.06_ task:
+	take talisman from pc saying 1019
+	cure Wizard_Fever
 
+_S.07_ task:
+	toting talisman and _cousin_ clicked
+	give pc _gold2_
+	end quest
+--removed unnecessary delay
 
+_S.08_ task:
+	clicked npc _healer_
 
+_S.09_ task:
+	clicked _healer_ and at least 20 gold otherwise do _S.10_
+	log 1017 step 2
+	get item talisman
+	say 1013
+
+_S.10_ task:
+	say 1015
+	clear _S.08_ _S.09_ _S.10_

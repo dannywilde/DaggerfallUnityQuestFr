@@ -1,134 +1,216 @@
-Record n�0----------
-Je suis fiancé à _betrothed_.
-Mon grand malheur est que _ruler_
-a d'autres projets pour _betrothed_.
-Ma seule chance est d'aller avec %g2 au temple
-et d'achever la cérémonie de mariage avant
-que _ruler_ ne nous attrape. Me
-protégerez-vous pendant que j'emménerai ma promise
-au temple ? Je vous paierai _gold_ pièces d'or.
+-- Quest: C:\QUESTS\WORKING\A0C10Y05.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 10
+-- QuestId: 5
+-- Edited for Daggerfall Unity by Jay_H
+Quest: A0C10Y05
+DisplayName: The Matchmaker
+-- Message panels
+QRC:
 
-A __betrothedhome_, ma fiancée _betrothed_
-m'attend, tourmentée par la tyrannie du cruel
-_ruler_. Je ne pourrai dormir tant que
-_betrothed_ sera enfermée ainsi,
-seulement je crains les agents de _ruler_,
-qui travaillent à nous garder séparés. Irez-vous
-avec moi à __betrothedhome_ et me protégerez-vous ?
+QuestorOffer:  [1000]
+<ce>                   Je suis fiancé à _betrothed_.
+<ce>                  Mon grand malheur est que _ruler_
+<ce>                  a d'autres projets pour _betrothed_.
+<ce>               Ma seule chance est d'aller avec %g2 au temple
+<ce>               et d'achever la cérémonie de mariage avant
+<ce>                   que _ruler_ ne nous attrape. Me
+<ce>             protégerez-vous pendant que j'emmenerai ma promise
+<ce>              au temple ? Je vous paierai _gold_ pièces d'or.
+                                     <--->
+<ce>               A __betrothedhome_, ma fiancée _betrothed_
+<ce>              m'attend, tourmentée par la tyrannie du cruel
+<ce>              _ruler_. Je ne pourrai dormir tant que
+<ce>              _betrothed_ sera enfermée ainsi,
+<ce>              seulement je crains les agents de _ruler_,
+<ce>               qui travaillent à nous garder séparés. Irez-vous
+<ce>              avec moi à __betrothedhome_ et me protégerez-vous ?
 
+RefuseQuest:  [1001]
+<ce>                Hélas, je vais devoir trouver un autre gardien
+<ce>                  pour protéger ma _betrothed_ bien aimée
+<ce>                             de _ruler_
 
-Record n�1----------
-Hélas, je vais devoir trouver un autre gardien
-pour protéger ma _betrothed_ bien aimée
-de _ruler_
+AcceptQuest:  [1002]
+<ce>                      Ma gratitude sera infinie %pcn.
+<ce>                     Vite, allons chercher _betrothed_.
+<ce>                  Nous pouvons la trouver à _betrothedhome_
+<ce>                         à __betrothedhome_.
 
+QuestComplete:  [1004]
+<ce>                  %pcf, nous vous sommes redevables.
+<ce>                Maintenant que la cérémonie est en cours,
+<ce>                  _ruler_ ne peut plus l'empêcher.
+<ce>          Voici les _gold_ pièces d'or que je vous avais promises.
 
-Record n�2----------
-Ma gratitude sera infinie %pcn.
-Vite, allons chercher _betrothed_.
-Nous pouvons la trouver à _betrothedhome_
-à __betrothedhome_.
+RumorsDuringQuest:  [1005]
+<ce>                    _ruler_ doit essayer de construire
+<ce>              un harem. J'ai entendu dire qu'%g venait juste
+<ce>            d'envoyer ses gardes pour aller enlever _betrothed_.
 
+RumorsPostfailure:  [1006]
+<ce>                    IIl paraît que _betrothed_ a rejoint le harem
+<ce>               de _ruler_. Il n'y a pas beaucoup de différences entre
+<ce>                   ceci et un kidnapping, si vous voulez mon avis.
 
-Record n�3----------
-%pcf, nous vous sommes redevables.
-Maintenant que la cérémonie est en cours,
-_ruler_ ne peut plus l'empêcher.
-Voici les _gold_ pièces d'or que je vous avais promises.
+RumorsPostsuccess:  [1007]
+<ce>               _qgiver_ et _betrothed_ viennent juste de se marier.
+<ce>                    N'est-ce pas une merveilleuse nouvelle ?
 
+QuestorPostsuccess:  [1008]
+<ce>                 _betrothed_ et moi vous remercions.
+<ce>               Sans votre aide, %g aurait été forcée d'épouser
+<ce>                              _ruler_.
 
-Record n�4----------
-_ruler_ doit essayer de construire
-un harem. J'ai entendu dire qu'%g venait juste
-d'envoyer ses gardes pour aller
-enlever _betrothed_.
+QuestorPostfailure:  [1009]
+<ce>                 J'ai perdu ma _betrothed_ pour toujours !
+<ce>                   %g a été forcée d'épouser _ruler_.
+<ce>               Et vous voudriez que je vous aide ? Sortez !
 
+QuestLogEntry:  [1010]
+%qdt:
+_qgiver_ de ___qgiver_
+m'a demandé de l'escorter à __betrothedhome_
+pour trouver _betrothed_.
+_qgiver_ est fiancé à _betrothed_,
+mais _ruler_ veut tuer
+_qgiver_ pour empêcher le
+mariage. Ils doivent se marier à _temple_
+en __temple_.
 
-Record n�5----------
-Il paraît que _betrothed_ a
-rejoint le harem de _ruler_.
-Il n'y a pas beaucoup de différences entre
-ceci et un kidnapping, si vous voulez mon avis.
+Message:  1011
+<ce>                     Ah ma bien-aimée _betrothed_ !
+<ce>                   %pcn a accepté de nous protéger de
+<ce>                        _ruler_. Vite, %pcn,
+<ce>                      amenez-nous au _temple_
+<ce>                          à __temple_.
 
+Message:  1012
+<ce>                       Nous sommes aux ordres de
+<ce>                       _ruler_ pour empêcher ce
+<ce>                       mariage. Si _betrothed_
+<ce>                  vient avec nous maintenant, personne
+<ce>                         ne sera blessé.
 
-Record n�6----------
-_qgiver_ et _betrothed_ viennent
-juste de se marier. N'est-ce pas une
-merveilleuse nouvelle ?
+Message:  1013
+<ce>                          Ainsi, _qgiver_, vous
+<ce>                       avez engagé un chétif avorton
+<ce>                       pour vous protéger. _ruler_
+<ce>                     ne sera pas heureux que vous lui
+<ce>                     résistiez. Restez de côté et laissez-nous
+<ce>                         emmener _betrothed_, sinon
+<ce>                 cela ne pourra que mal tourner pour vous.
 
+Message:  1014
+<ce>                    _qgiver_ chuchote fébrilement,
+<ce>                       "Oui ! C'est l'endroit
+<ce>                     où les brutes de _ruler_
+<ce>                   détiennent mon aimée. Nous devons
+<ce>                         nous dépêcher !"
 
-Record n�7----------
-_betrothed_ et moi vous remercions.
-Sans votre aide, %g aurait été forcée d'épouser
-_ruler_.
+Message:  1015
+<ce>                             "%oth," s'écrie
+<ce>                            _qgiver_, "Voici le
+<ce>                        _temple_ ! Maintenant
+<ce>                       nous avons juste besoin de
+<ce>                        _priest_ pour nous marier et
+<ce>                      _betrothed_ sera hors d'atteinte
+<ce>                          de _ruler_ pour de bon !"
 
-
-Record n�8----------
-J'ai perdu ma _betrothed_ pour toujours !
-%g a été forcée d'épouser _ruler_.
-Et vous voudriez que je vous aide ? Sortez !
-
-
-Record n�9----------
-%qdt :
- _qgiver_ de ___qgiver_
- m'a demandé de l'escorter à __betrothedhome_
- pour trouver _betrothed_.
- _qgiver_ est fiancé à _betrothed_,
- mais _ruler_ veut tuer
- _qgiver_ pour empêcher le
- mariage. Ils doivent se marier à _temple_
- en __temple_.
-
-
-Record n�10----------
-Ah ma bien-aimée _betrothed_ !
-%pcn a accepté de nous protéger de
-_ruler_. Vite, %pcn,
-amenez-nous au _temple_
-à __temple_.
-
-
-Record n�11----------
-Nous sommes aux ordres de
-_ruler_ pour empêcher ce
-mariage. Si _betrothed_
-vient avec nous maintenant, personne
-ne sera blessé.
-
-
-Record n�12----------
-Ainsi, _qgiver_, vous
-avez engagé un chétif avorton
-pour vous protéger. _ruler_
-ne sera pas heureux que vous lui
-resistiez. Restez de côté et laissez-nous
-emmener _betrothed_,
-sinon cela ne pourra que mal tourner pour vous.
-
-
-Record n�13----------
-_qgiver_ chuchote 
-fébrilement, "Oui ! C'est l'endroit
-où les brutes de _ruler_
-détiennent mon aimée. Nous devons
-nous dépêcher !"
-
-
-Record n�14----------
-"%oth," s'écrie _qgiver_,
-"Voici le _temple_ ! Maintenant
-nous avons juste besoin de _priest_
-pour nous marier et _betrothed_
-sera hors d'atteinte de _ruler_
-pour de bon !"
-
-
-Record n�15----------
-_qgiver_ secoue la tête de
-dégoût. "Je vais devoir essayer de sauver
-_betrothed_ moi-même, je vois.
-Vous me laissez tomber, %pcf."
+Message:  1020
+<ce>                 _qgiver_ secoue la tête de dégoût.
+<ce>                 "Je vais devoir essayer de sauver
+<ce>                   _betrothed_ moi-même, je vois.
+<ce>                   Vous me laissez tomber, %pcf."
 
 
+-- Symbols used in the QRC file:
+--
+--                %g occurs 3 times.
+--               %g2 occurs 4 times.
+--               %g3 occurs 3 times.
+--              %pcf occurs 4 times.
+--              %pcn occurs 3 times.
+--              %qdt occurs 1 time.
+--        ___qgiver_ occurs 1 time.
+--  __betrothedhome_ occurs 5 times.
+--         __temple_ occurs 4 times.
+--       _betrothed_ occurs 19 times.
+--   _betrothedhome_ occurs 1 time.
+--            _gold_ occurs 4 times.
+--          _priest_ occurs 1 time.
+--          _qgiver_ occurs 8 times.
+--           _ruler_ occurs 18 times.
+--          _temple_ occurs 3 times.
 
+QBN:
+Item _gold_ gold
+
+Person _betrothed_ face 1 group Group_7.0
+Person _qgiver_ group Questor male
+Person _priest_ face 201 factiontype Temple
+Person _ruler_ factiontype Province female
+
+Place _betrothedhome_ remote house2
+Place _temple_ remote temple
+
+Clock _traveltime_ 00:00 0 flag 1 range 0 5
+
+Foe _F.00_ is 3 Burglar
+Foe _F.01_ is 2 Warrior
+
+--	Quest start-up:
+	start timer _traveltime_
+	--this odd location marker has no use
+	log 1010 step 0
+	pc at _temple_ set _S.03_ saying 1015
+	pc at _betrothedhome_ set _S.02_ saying 1014
+	hide npc _qgiver_
+	add _qgiver_ face
+	place npc _betrothed_ at _betrothedhome_
+	place npc _priest_ at _temple_
+
+_traveltime_ task:
+	restore _qgiver_
+	say 1020
+	drop _betrothed_ face
+	drop _qgiver_ face
+	end quest
+
+_S.01_ task:
+	clicked npc _betrothed_ say 1011
+	hide npc _betrothed_
+	add _betrothed_ face
+
+_S.02_ task:
+	create foe _F.00_ every 1 minutes 1 times with 15% success
+
+_S.03_ task:
+	create foe _F.01_ every 2 minutes 1 times with 50% success
+
+_dummy_ task:
+	injured _F.01_ saying 1012
+	injured _F.00_ saying 1013
+
+_S.05_ task:
+	clicked npc _priest_
+
+_success_ task:
+    when _S.01_ and _S.05_
+	give pc _gold_
+	drop _qgiver_ face
+	drop _betrothed_ face
+	change repute with _ruler_ by -20
+	place npc _qgiver_ at _temple_
+	place npc _betrothed_ at _temple_
+
+_clearclick_ task:
+	when not _S.01_ and _S.05_
+	clear _S.05_ _clearclick_
+
+_questdone_ task:
+	when _success_ and not _S.03_
+	restore _qgiver_
+	end quest

@@ -1,0 +1,257 @@
+-- Quest: C:\QUESTS\WORKING\A0C41Y18.Qbn.
+-- StartsBy: NPC
+-- Questee: anyone
+-- Questor: peasant
+-- Repute: 41
+-- QuestId: 18
+Quest: A0C41Y18
+DisplayName: The Mummy's Finger
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>               J'ai besoin de quelqu'un pour livrer quelque
+<ce>                 chose pour moi, et je suis disposé à
+<ce>             payer très généreusement. _gold1_ pièces d'or
+<ce>           maintenant, et _gold2_ de plus lorsque le boulot
+<ce>            aura été fait. Viendrez-vous à mon aide ?
+
+RefuseQuest:  [1001]
+<ce>                   %oth, je ne me débarrasserai jamais de
+<ce>              cette chose ! Pourquoi personne ne veut-il m'aider ?
+
+AcceptQuest:  [1002]
+<ce>                Grâce à %god ! Vous ne savez pas combien
+<ce>           cela représente pour moi. Voici votre or. Maintenant,
+<ce>                apportez ça à _dummy_ en ___dummy_,
+<ce>           %g vous paiera le reste. Je dois vraiment y aller
+<ce>                  maintenant. Merci beaucoup !
+
+QuestComplete:   [1004]
+<ce>                  _giver_ tend une lettre enroulée autour
+<ce>                d'un petit objet et se sauve au loin.
+
+RumorsDuringQuest:  [1005]
+<ce>                  Les pirates ont été particulièrement
+<ce>                          actifs cette année.
+
+RumorsPostfailure:  [1006]
+<ce>                 Avez-vous entendu parler de cette histoire
+<ce>                 de malédiction du doigt de la momie ?
+<ce>                 Oh. Désolé. Je n'avais pas réalisé...
+
+RumorsPostsuccess:  [1007]
+<ce>                   Un brave %ra est allé à
+<ce>                   ___dungeon_. Pauvre fou.
+
+QuestorPostsuccess:  [1008]
+<ce>          Les sots reviendront de bonne heure cette année.
+
+QuestorPostfailure:  [1009]
+<ce>                  Vous pensez que je suis gros ? Tout le monde
+<ce>                  dit que je le suis, mais je ne le pense pas.
+
+QuestLogEntry:  [1010]
+%qdt:
+J'ai été engagé pour faire une livraison
+à un _dummy_ de ___dummy_.
+Mon mystérieux employeur m'a payé _gold1_
+pièces d'or et promis _gold2_ de plus quand
+j'aurai achevé ma mission. Aucune limite de temps
+n'a été spécifiée, mais mon employeur semblait
+très impatient que je me mette en route.
+
+Message:  1011
+%qdt:
+J'ai été dupé. La supposée livraison
+à _dummy_ était en réalité
+un doigt de momie maudit.
+
+Message:  1012
+%qdt:
+J'ai appris que la momie dont la malédiction
+m'a frappé est ensevelie à ___dungeon_.
+Je dois détruire sa forme réelle sinon son esprit
+continuera à me hanter pendant 1001 nuits.
+
+Message:  1013
+<ce> Un paquet ? De _giver_? Non, %g1
+<ce> me l'aurait dit à l'avance. Vous devez
+<ce> vous tromper. Pourquoi ne lisez-vous pas
+<ce> son contenu pour voir à qui il est adressé
+
+Message:  1015
+<ce>    Je ne sais rien de cela. Essayez de demander dans un temple.
+                                     <--->
+<ce>           _sage_ connaît ce genre de choses. Allez lui demander.
+                                     <--->
+<ce>         Avez-vous essayé de demander à __sage_ en ___sage_ ?
+                                     <--->
+<ce>    Il paraît que quelqu'un en ___sage_ en saurait beaucoup sur ce genre de choses.
+                                     <--->
+<ce>   Ils disent que _sage_ est l'expert reconnu pour ce genre de choses.
+                                     <--->
+<ce>                  Peut-être que ce sage à __sage_ sait.
+
+Message:  1016
+<ce>                 Celui qui a volé mon _finger_ doit mourir !
+                                     <--->
+<ce>                    Je viens pour mon _finger_.
+                                     <--->
+<ce>                Accepte ton destin. Pose ton arme.
+                                     <--->
+<ce>                      Mon _finger_, mon _finger_.
+                                     <--->
+<ce>          Vous avez mon _finger_. Sans cela, je ne peux reposer en paix.
+                                     <--->
+<ce>          Vous pouvez me détruire cette nuit, mais je reviendrai.
+                                     <--->
+<ce>        Je me lèverai à nouveau pour venir chercher mon _finger_.
+
+Message:  1020
+<ce>         Tous ceux qui violent ma tombe doivent être détruits !
+
+Message:  1025
+<ce>                 Laissez-moi voir ce _finger_. Ah...
+<ce>              Oui, ça apporte la malédiction de =realmummy_.
+<ce>               Chaque nuit, pendant 1001 nuits, aux coups
+<ce>                de minuit l'esprit de =realmummy_ rendra
+<ce>                visite à celui qui possède ce _finger_.
+<ce>              La seule façon de briser la malédiction est
+<ce>                  de détruire le =realmummy_ dans
+<ce>                      sa tombe à ___dungeon_.
+
+
+Message:  1026
+<ce>                Ce que vous décrivez ressemble à une banale
+<ce>                malédiction de momie, mais sans le _finger_
+<ce>               lui-même, je ne peux pas vous en dire plus.
+<ce>            Apportez-le moi, et je serai peut-être capable de
+<ce>               determiner de quel lieu il provient.
+
+Message:  1030
+<ce>              Avec la mort de =realmummy_, vous savez que
+<ce>         vous vous êtes libéré de sa malédiction pour toujours.
+
+Message:  1040
+Cher Etranger,
+
+J'espère que vous me pardonnerez pour ce que j'ai
+fait, seulement je n'avais pas le choix. La momie m'a
+hanté chaque nuit depuis que j'ai trouvé ce doigt
+maudit. J'ai essayé de le jeter au loin, mais ça n'a rien
+changé. Un sage érudit m'a appris que le seul moyen
+de me libérer de cette odieuse malédiction était de trouver
+la tombe de la momie ou bien de donner le doigt à quelqu'un
+d'autre. Je ne suis pas un guerrier, et qui prendrait en
+toute connaissance ce fardeau à ma place ?
+Vous avez l'air suffisamment brave pour endurer
+la malédiction et peut-être la résoudre. Veuillez
+comprendre, je ne vous veux aucun mal, mais sinon
+j'aurais fini par être tué ou bien devenir fou !
+
+Message:  1050
+<ce>                 _sage_ est un illustre sage de ___sage_.
+                                     <--->
+<ce>                   Vous trouverez _sage_ à __sage_
+<ce>                           en ___sage_.
+
+
+-- Symbols used in the QRC file:
+--
+--                %g occurs 1 time.
+--               %g2 occurs 6 times.
+--              %god occurs 1 time.
+--              %oth occurs 1 time.
+--              %qdt occurs 3 times.
+--               %ra occurs 1 time.
+--       =realmummy_ occurs 4 times.
+--         ___dummy_ occurs 2 times.
+--       ___dungeon_ occurs 5 times.
+--          ___sage_ occurs 17 times.
+--           _dummy_ occurs 3 times.
+--          _finger_ occurs 15 times.
+--           _giver_ occurs 1 time.
+--           _gold1_ occurs 2 times.
+--           _gold2_ occurs 8 times.
+--            _sage_ occurs 5 times.
+
+QBN:
+Item _finger_ finger anyInfo 1015
+Item _letter_ letter used 1040
+Item _gold1_ gold
+Item _gold2_ gold
+--changed msg 1030 %g2 to %g3
+
+Person _sage_ group Cleric female anyInfo 1050 rumors 1050
+Person _giver_ group Questor male
+Person _dummy_ group Innkeeper female
+
+Place _dungeon_ remote dungeon0
+
+Clock _S.10_ 1001.00:00 0 flag 1 range 0 1
+
+Foe _F.00_ is Mummy
+Foe _realmummy_ is Mummy
+
+--	Quest start-up:
+	dialog link for person _sage_ item _finger_
+	start timer _S.10_
+	log 1010 step 0
+	get item _letter_
+	get item _finger_
+	get item _gold1_
+	start task _S.03_
+	give pc nothing
+--changed "say 1045" to "give pc nothing." This ensures faction increase for completing this quest.
+	_letter_ used do _readletter_
+	place foe _realmummy_ at _dungeon_
+	destroy _giver_
+
+variable _S.00_
+_S.01_ task:
+	daily from 00:00 to 01:00
+	create foe _F.00_ every 35 minutes 1001 times with 100% success
+
+_S.02_ task:
+	injured _F.00_ saying 1016
+	unset _S.02_
+
+_dummytalk_ task:
+	clicked npc _dummy_
+	say 1013
+
+variable _S.03_
+_S.04_ task:
+	clicked npc _sage_
+	have _finger_ set _S.07_
+
+_S.05_ task:
+	killed 1 _realmummy_
+	say 1030
+	make _gold1_ permanent
+	end quest
+
+_S.06_ task:
+	when _S.04_ and _S.07_
+	reveal _dungeon_
+	log 1012 step 2
+	say 1025
+	unset _S.06_ _S.08_ _S.04_ _S.07_
+
+variable _S.07_
+_S.08_ task:
+	when _S.04_ and not _S.07_
+	say 1026
+
+_S.09_ task:
+	injured _realmummy_
+	say 1020
+
+_S.10_ task:
+	make _gold1_ permanent
+	end quest
+
+_readletter_ task:
+	add dialog for item _finger_
+	log 1011 step 1
