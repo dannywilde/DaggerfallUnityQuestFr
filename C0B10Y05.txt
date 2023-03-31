@@ -12,79 +12,78 @@ DisplayName: The Cursed Weapon
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                            %pcn, we have a
-<ce>                  very dangerous mission for you. The
-<ce>                  temple has come into the possession
-<ce>                    of an evil, magical weapon long
-<ce>                   sought by the orcs. The temple has
-<ce>                   already been attacked twice by the
-<ce>                   creatures. It needs to be taken to
-<ce>                   a safehaven. Will you to this for
-<ce>                  us? The temple will pay _gold_ gold.
+<ce>                           %pcn, nous avons une très
+<ce>                          dangereuse mission pour vous. Le
+<ce>                          temple est entré en possession
+<ce>                          d'une démoniaque arme magique
+<ce>                          longtemps convoitée par les orcs. Le temple
+<ce>                          a déjà été attaqué deux fois par ces
+<ce>                          créatures. Il doit être mis en lieu
+<ce>                          sûr. Le ferez-vous pour nous ?
+<ce>                          Le temple paiera _gold_ pièces d'or.
 
 RefuseQuest:  [1001]
-<ce>                        I am saddened that your
-<ce>                        loyalty to the temple is
-<ce>                        so low. But in light of
-<ce>                       the danger, I forgive you.
+<ce>                        Je suis triste de constater que votre
+<ce>                        loyauté envers la guilde soit si faible.
+<ce>                        Mais en raison du danger, je vous pardonne.
 
 AcceptQuest:  [1002]
-<ce>                         Take this _evilitem_.
-<ce>                            In ___dungeon_,
-<ce>                       you will find _custodian_,
-<ce>                   a servant of this temple for many
-<ce>                   years. %g will safeguard the item
-<ce>                  and keep it out of the hands of the
-<ce>                  orcs. We have bound it in spells to
-<ce>                   protect you from its evil effects.
-<ce>                  However, these spells will wear off
-<ce>                         in =traveltime_ days.
+<ce>                         Prenez ce _evilitem_.
+<ce>                         Dans ___dungeon_,
+<ce>                         vous trouverez _custodian_,
+<ce>                         un serviteur de longue date
+<ce>                         du temple. Il en prendera soin
+<ce>                         et le gardera loin des mains des orcs.
+<ce>                         Nous avons lancé des sorts pour
+<ce>                         vous protéger de ses effets démoniaques.
+<ce>                         Malheureusement, ces sorts disparaitront
+<ce>                         dans =traveltime_ jours.
 
 QuestComplete:  [1004]
-<ce>                         Ah, this is the evil
-<ce>                        _evilitem_ that _qgiver_
-<ce>                       spoke of. I shall keep it
-<ce>                       here, where there are many
-<ce>                       defenses to keep it safe.
-<ce>                          _qgiver_ said that I
-<ce>                       should pay you _gold_ gold
-<ce>                       pieces for safe delivery.
+<ce>                         Ah, voici le démoniaque
+<ce>                         _evilitem_ dont _qgiver_
+<ce>                         m'a parlé. Je vais le garder ici,
+<ce>                         où il y a de nombreuses protections
+<ce>                         pour qu'il reste en sûreté.
+<ce>                         _qgiver_ a dit que je
+<ce>                         devrais vous payer _gold_ pièces
+<ce>                         d'or pour la livraison.
 
 RumorsDuringQuest:  [1005]
-The orcs have been attacking __qgiver_ caravans.
+Les orcs attaquent les caravanes de __qgiver_.
 
 RumorsPostfailure:  [1006]
-The orcs finally got that _evilitem_.
+Les orcs ont finalement obtenu le _evilitem_.
 
 RumorsPostsuccess:  [1007]
-The _evilitem_ is safe from the hands of the orcs.
+Le _evilitem_ est tenu loin des mains des orcs.
 
 QuestorPostsuccess:  [1008]
-I heard that you got rid of the _evilitem_. Now, what can I help you with?
+J'ai entendu dire que vous nous aviez débarrassé du _evilitem_. Maintenant, que puis-je faire pour vous ?
 
 QuestorPostfailure:  [1009]
-I trusted you with the _evilitem_ and look what happened.
+Je vous ai fait confiance pour le _evilitem_, et voyez ce qui s'est passé.
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of __qgiver_,
- in ___qgiver_, gave me an
- evil _evilitem_ to
- deliver to the ___dungeon_
- so that the orcs could not
- get it. I have =traveltime_ days
- to make the delivery.
+ _qgiver_ de __qgiver_,
+ de ___qgiver_, m'a donné
+ le démoniaque _evilitem_ pour que
+ le livre à  ___dungeon_
+ afin que les orcs ne puissent pas
+ s'en emparer. J'ai =traveltime_ jours pour
+ effectuer la livraison.
 
 Message:  1011
-<ce>                       You must be the bearer of
-<ce>                       Manshrieker, the holy orc
-<ce>                        weapon of war. Kill the
-<ce>                        human! We must have that
-<ce>                              _evilitem_.
+<ce>                      Vous devez être le porteur
+<ce>                      de Manshrieker, la sainte arme
+<ce>                      de guerre orc. Tuez cet humanoide !
+<ce>                      Nous devons avoir ce
+<ce>                      _evilitem_.
 
 Message:  1012
-<ce>            The evil _evilitem_, sparks and disintegrates.
-<ce>                      You suddenly feel very sick.
+<ce>            Le maléfique _evilitem_ étincelle et se désintègre.
+<ce>              Vous vous sentez soudainement très mal.
 
 
 -- Symbols used in the QRC file:
@@ -117,38 +116,38 @@ Foe _orc3_ is 2 Orc_sergeant
 Foe _orc4_ is 3 Orc
 
 --	Quest start-up:
-	start timer _traveltime_ 
-	reveal _dungeon_ 
-	log 1010 step 0 
-	get item _evilitem_ 
-	place npc _custodian_ at _dungeon_ 
+	start timer _traveltime_
+	reveal _dungeon_
+	log 1010 step 0
+	get item _evilitem_
+	place npc _custodian_ at _dungeon_
 
 _traveltime_ task:
-	end quest 
+	end quest
 
 _S.01_ task:
-	toting _evilitem_ and _custodian_ clicked 
-	give pc _gold_ 
-	end quest 
+	toting _evilitem_ and _custodian_ clicked
+	give pc _gold_
+	end quest
 
 until _S.01_ performed:
-	create foe _orc2_ every 21 minutes 20 times with 5% success 
-	create foe _orc4_ every 41 minutes 20 times with 5% success 
-	create foe _orc1_ every 21 minutes 20 times with 5% success 
-	create foe _orc3_ every 31 minutes 20 times with 5% success 
+	create foe _orc2_ every 21 minutes 20 times with 5% success
+	create foe _orc4_ every 41 minutes 20 times with 5% success
+	create foe _orc1_ every 21 minutes 20 times with 5% success
+	create foe _orc3_ every 31 minutes 20 times with 5% success
 
 variable _gem1_
 variable _bear_
 variable _gem3_
 variable _gem4_
 _S.06_ task:
-	injured _orc2_ saying 1011 
-	injured _orc4_ saying 1011 
-	injured _orc3_ saying 1011 
-	injured _orc1_ saying 1011 
+	injured _orc2_ saying 1011
+	injured _orc4_ saying 1011
+	injured _orc3_ saying 1011
+	injured _orc1_ saying 1011
 
 _S.07_ task:
-	when _traveltime_ and not _S.01_ 
+	when _traveltime_ and not _S.01_
 	make pc ill with Witches'_Pox
-	say 1012 
+	say 1012
 	--moved saying 1012 to its own line

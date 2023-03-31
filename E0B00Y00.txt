@@ -11,100 +11,99 @@ DisplayName: The Desecrated Temple
 QRC:
 
 QuestorOffer:  [1000]
-<ce>             As a matter of fact, we could doubtlessly use
-<ce>             someone like you. There's a desecrated temple
-<ce>                     nearby called ___mondung_. You
-<ce>              may have heard of it. For some time, it has
-<ce>              been a home to evil, but we have ignored its
-<ce>               influence. It is a counterbalance to other
-<ce>              forces, after all. Now the balance has been
-<ce>                upset. I need someone to right it. Sound
-<ce>                  like something you could help with?
+<ce>             En fait, nous pourrions tout a fait utiliser
+<ce>             quelqu'un comme vous. Il y a un temple abandonné
+<ce>             non loin d'ici, appelé ___mondung_. Vous en
+<ce>             avez peut-être entendu parler. Durant un certain temps,
+<ce>             il a abrité des forces maléfiques, mais nous avons ignoré
+<ce>             son influence. C'est un contrepoids aux autres
+<ce>             forces, après tout. A présent, l'équilibre est perturbé.
+<ce>             J'ai besoin de quelqu'un pour le rétablir. Pensez-vous
+<ce>             pouvoir nous aider?
                                      <--->
-<ce>                    The Balance in ___mondung_ has
-<ce>             been unbound by a new intrusion that threatens
-<ce>                our efforts at bringing harmony to %reg.
-<ce>              We need a champion, someone like you, to set
-<ce>                 ___mondung_ to right. Will you do it?
+<ce>                    L'Equilibre à ___mondung_ a
+<ce>                    été brisé par une intrusion récente, menacant
+<ce>                    nos efforts pour amener l'harmonie à %reg.
+<ce>                    Il nous faut un champion, quelqu'un comme vous, pour
+<ce>                    ramener l'ordre à ___mondung_. Le ferez-vous?
 
 RefuseQuest:  [1001]
-<ce>                Disappointing. Well, we'll find someone
-<ce>                           else doubtlessly.
+<ce>                Décevant. Et bien, nous trouverons
+<ce>               quelqu'un d'autre, sans aucun doute.
 
 AcceptQuest:  [1002]
-<ce>                       Excellent, %pcf. What we
-<ce>             need is to have a certain powerful lycanthrope
-<ce>              who has established its lair in that unholy
-<ce>                        ___mondung_ slain. It is
-<ce>               threatening the expansion of our order in
-<ce>               that area. If you are not back here after
-<ce>               =1stparton_ days have passed, we will move
-<ce>             against it ourselves, and your reward will be
-<ce>              forfeit. Obviously, you had best be on your
-<ce>                 way. Fare thee well and best of luck.
+<ce>                     Excellent, %pcf. Ce qu'il nous faut,
+<ce>                      c'est qu'un certain puissant lycan soit abattu.
+<ce>                      Il a établi son repère dans cet endroit impie,
+<ce>                     ___mondung_. Il menace
+<ce>                     l'expansion de notre ordre dans
+<ce>                     cette région. Si vous n'êtes pas revenu avant
+<ce>                     que =1stparton_ jours se soient écoulés, nous irons
+<ce>                     nous en charger nous-mêmes, et votre récompense sera
+<ce>                     annulée. De toute évidence, vous devriez partir
+<ce>                     rapidement. Portez-vous bien et bonne chance.
                                      <--->
-<ce>                     %oth, that's good, %pcf. Now,
-<ce>           there are but =1stparton_ days we can give you to
-<ce>                  restore equilibrium in ___mondung_,
-<ce>            and the fastest, most appropriate way we know of
-<ce>            is for you to slay the lycanthrope who has made
-<ce>                 its foul nest in ___mondung_'s bowels.
-<ce>                 Pray hurry, %pcf. If you are not here
-<ce>              when =1stparton_ suns have set, your reward
-<ce>                            with be forfeit.
+<ce>                     %oth, c'est bien, %pcf. Maintenant,
+<ce>                     nous ne pouvons vous accorder que =1stparton_ jours
+<ce>                     pour restaurer l'équilibre à ___mondung_.
+<ce>                     Et le moyen le plus rapide, le plus approprié que nous
+<ce>                     connaissions est de tuer le lycan qui a établi son
+<ce>                     nid fétide dans les entrailles de ___mondung_.
+<ce>                     Faites vite, %pcf. Si vous n'êtes pas ici avant que
+<ce>                     =1stparton_ soleils se soient levés, votre récompense
+<ce>                     sera annulée.
 
 
 QuestFail:  [1003]
-<ce>                    You had best move along, %pcf.
-<ce>                 You do not have very much more time to
-<ce>                kill that werebeast. =1stparton_ days
-<ce>                             to be precise.
+<ce>                    Vous feriez mieux de vous remuer, %pcf.
+<ce>                    Vous n'avez plus beaucoup de temps pour
+<ce>                    tuer ce loup-garou. _1stparton_ minutes
+<ce>                    pour être précis.
 
 QuestComplete:  [1004]
-<ce>              You have done a great service to the Temple
-<ce>                     of Arkay, %pcf. One that will
-<ce>               not be forgotten. Enjoy your _reward_ gold
-<ce>                      -- you certainly deserve it.
+<ce>              Vous avez rendu un grand service au Temple
+<ce>              d'Arkay, %pcf. Un de ceux qu'on n'oubliera
+<ce>              pas. Appréciez vos _reward_ pièces d'or
+<ce>              -- vous les méritez, sans aucun doute.
 
 RumorsDuringQuest:  [1005]
-I've heard there's some kind of werewolf on the loose around here.
+J'ai entendu dire qu'il y a une espèce de loup-garou rodant aux alentours.
 <--->
-I hear the wereboar's found a lair in someplace called ___mondung_.
+Il paraît que le cochon-garou a trouvé un repère en un lieu appelé ___mondung_.
 <--->
-Didja hear that howling last night? Wolf howling?
+T'as entendu ce hurlement c'te nuit ? Hurlement de loup ?
 
 RumorsPostfailure:  [1006]
-Lupines are real nomads, I guess. I hear our loup moved down south.
+Les loups sont de vrais nomades, j'imagine. J'ai entendu dire que notre loup était descendu vers le sud.
 <--->
-My cousin tells me that our wereboar was spotted down south aways.
+Mon cousin m'a dit que notre cochon-garou avait été repéré dans le sud.
 
 RumorsPostsuccess:  [1007]
-I hear they found out that werewolf was a priest during the day!
+On a découvert que ce loup-garou était un prêtre durant la journée!
 <--->
-A lot of people feel safer knowing that wereboar is dead.
+Beaucoup de gens se sentent davantage en sécurité depuis qu'ils savent que ce cochon-garou est mort.
 <--->
-You heard about that werecreature some %ra hunted down?
+Vous avez entendu parler de cette créature-garou pourchassée par un %ra?
 
 QuestorPostsuccess:  [1008]
-How may I assist thee who restored the balance within ___mondung_?
+Comment puis-je vous aider, vous qui avez restauré l'équilibre dans ___mondung_?
 
 QuestorPostfailure:  [1009]
-You failed to slay that lupine, %pcf. I am sorely aggrieved.
+Vous avez échoué à tuer ce loup, %pcf. Je suis terriblement affligé.
 
 QuestLogEntry:  [1010]
 %qdt:
- _questgiver_ of
- the Temple of Arkay offered to
- pay me _reward_ gold pieces to slay
- a werecreature lurking in
- ___mondung_, a former
- temple of theirs. I have =1stparton_
- days to do it and be back to
- ___questgiver_.
+ _questgiver_ du Temple d'Arkay a offert
+ de me payer _reward_ pièces d'or pour tuer
+ une créature-garou rodant dans
+ ___mondung_, un de leurs
+ anciens temples. J'ai =1stparton_ jours
+ pour faire cela et retourner
+ voir ___questgiver_.
 
 Message:  1020
-<ce>                    You have slain the lycanthrope
-<ce>                            of ___mondung_.
+<ce>                    Vous avez tué le lycan
+<ce>                            de ___mondung_.
 
 
 -- Symbols used in the QRC file:
@@ -132,33 +131,33 @@ Foe _wolf_ is Werewolf
 Foe boar is Wereboar
 
 --	Quest start-up:
-	start timer _1stparton_ 
-	reveal _mondung_ 
-	log 1010 step 0 
-	pick one of _wereboar_ _werewolf_ 
+	start timer _1stparton_
+	reveal _mondung_
+	log 1010 step 0
+	pick one of _wereboar_ _werewolf_
 
 _pcgetsgold_ task:
-	when _qgclicked_ and _mondead_ 
-	give pc _reward_ 
-	end quest 
+	when _qgclicked_ and _mondead_
+	give pc _reward_
+	end quest
 
 _mondead_ task:
-	killed 1 _wolf_ saying 1020 
-	killed 1 boar saying 1020 
+	killed 1 _wolf_ saying 1020
+	killed 1 boar saying 1020
 
 _qgclicked_ task:
-	clicked npc _questgiver_ 
+	clicked npc _questgiver_
 
 _1stparton_ task:
-	end quest 
+	end quest
 
 _clearclick_ task:
 	when _qgclicked_ and not _mondead_
-	say 1003 
-	clear _qgclicked_ _clearclick_ 
+	say 1003
+	clear _qgclicked_ _clearclick_
 
 _werewolf_ task:
-	place foe _wolf_ at _mondung_ 
+	place foe _wolf_ at _mondung_
 
 _wereboar_ task:
-	place foe boar at _mondung_ 
+	place foe boar at _mondung_

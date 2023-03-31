@@ -11,91 +11,91 @@ DisplayName: The Missing Scholar
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                       %pct, one of our clerics,
-<ce>                            a =cleric_ named
-<ce>                     _cleric_ has disappeared while
-<ce>                     on an archaeological dig. Will
-<ce>                         you help us find %g2?
+<ce>                      %pct, un de nos clercs,
+<ce>                      un =cleric_ nommé
+<ce>                      _cleric_ a disparu sur
+<ce>                      un site de fouilles archéologiques. Nous
+<ce>                      aiderez-vous à retrouver cette personne ?
                                      <--->
-<ce>                    I fear that one of our noblest
-<ce>                           scholars, _cleric_
-<ce>                  has disappeared while investigating
-<ce>                     an old ruined temple. Will you
-<ce>                           help us find %g2?
+<ce>                    J'ai peur qu'un de nos meilleurs
+<ce>                    chercheurs, _cleric_
+<ce>                    ait disparu en examinant les ruines
+<ce>                    d'un vieux temple. Nous aiderez-vous
+<ce>                    à retrouver cette personne ?
 
 RefuseQuest:  [1001]
-<ce>                        That's a rather callous
-<ce>                       point of view to be quite
-<ce>                              frank, %pcf.
+<ce>                        C'est un point de vue plutôt
+<ce>                        dur, %pcf, pour être
+<ce>                        tout à fait franc.
 
 AcceptQuest:  [1002]
-<ce>                     That's good, good. Now then,
-<ce>                            _cleric_ went to
-<ce>                          ___mondung_ close to
-<ce>                      a fortnight ago to conduct a
-<ce>                     dig. It's possible that all is
-<ce>                      well, but ... I'll give you
-<ce>                    =queston_ days to go there, find
-<ce>                           _cleric_ and come
-<ce>                       back. %god walk with you,
-<ce>                            %pct. Fare well.
+<ce>                     C'est bien, vraiment. Maintenant donc,
+<ce>                     _cleric_ s'est rendu à
+<ce>                     ___mondung_ voilà près
+<ce>                     d'une quinzaine de jours pour diriger
+<ce>                     une fouille. Il est possible que tout
+<ce>                     aille bien, mais... Je vous donne
+<ce>                     =queston_ jours pour vous rendre là-bas,
+<ce>                     trouver _cleric_ et revenir.
+<ce>                     Que %god marche à vos côtés,
+<ce>                     %pct. Débrouillez-vous du mieux que
+<ce>                     vous pourrez.
 
 QuestComplete:  [1004]
-<ce>                           Ah, %pct and good
-<ce>                          _cleric_, it is good
-<ce>                     to have you back in __qgiver_
-<ce>                        again. I had feared the
-<ce>                          worst, to be honest.
+<ce>                          Ah, %pct et ce cher
+<ce>                          _cleric_, c'est bon de vous
+<ce>                          revoir à __qgiver_ de
+<ce>                          nouveau. J'avais craint
+<ce>                          le pire, pour être honnête.
 
 RumorsDuringQuest:  [1005]
-_cleric_ was a fool to go unarmed into ___mondung_.
+_cleric_ a été idiot d'aller à  ___mondung_ désarmé.
 <--->
-___mondung_ is no place for a scholarly =cleric_ like _cleric_.
+___mondung_ n'est pas un endroit pour un érudit =cleric_ comme _cleric_.
 
 RumorsPostfailure:  [1006]
-Everyone's given up hope of ever seeing _cleric_ again.
+Tout le monde a perdu espoir de revoir un jour _cleric_.
 <--->
-__qgiver_ is grieving over the disappearance of _cleric_.
+__qgiver_ fait le deuil de la disparition de _cleric_.
 
 RumorsPostsuccess:  [1007]
-Thanks to that %ra, _cleric_ has started work on a history of ___mondung_.
+Grâce à ce %ra, _cleric_ vient de commencer à travailler sur l'histoire de ___mondung_.
 <--->
-Rescuing _cleric_ increased __qgiver_'s estimation of you.
+Sauver _cleric_ a augmenté l'estime de __qgiver_ envers vous.
 
 QuestorPostsuccess:  [1008]
-For what you did for _cleric_, of course I'll help you, %pcf.
+Vu ce que vous avez fait pour _cleric_, bien sûr que je vous aiderai, %pcf.
 
 QuestorPostfailure:  [1009]
-I still remember _cleric_, %pcf. Leave me.
+Je me souviens encore de _cleric_, %pcf. Laissez-moi.
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of __qgiver_
- has sent me to ___mondung_
- to rescue a cleric named _cleric_
- who disappeared down there. I
- have =queston_ days to find
- the =cleric_ and
- return to ___qgiver_
- and __qgiver_.
+_qgiver_ de __qgiver_
+m'a envoyé à ___mondung_
+pour sauver _cleric_
+qui a disparu là-bas. J'ai
+=queston_ jours pour le trouver
+et le ramener à ___qgiver_
+et __qgiver_.
 
 Message:  1011
-<ce>                      Goodness, you gave me quite
-<ce>                          a start, young %ra.
-<ce>                    Have I really been down here for
-<ce>                      so long? How time does fly.
-<ce>                     Well, if you would be so kind
-<ce>                  as to escort me back to the temple,
-<ce>                            my good %pcf ...
+<ce>                     Bonté divine, vous me redonnez
+<ce>                     courage, jeune %ra.
+<ce>                     Suis-je vraiment resté ici aussi
+<ce>                     longtemps ? Comme le temps peut filer...
+<ce>                     Et bien, si vous voulez bien
+<ce>                     me servir d'escorte jusqu'au temple,
+<ce>                     mon bon %pcf...
                                      <--->
-<ce>                         Thank %god you came.
-<ce>                      I've been searching for the
-<ce>                      way out for close to a week.
-<ce>                  I'll follow you back to the temple.
+<ce>                         %god merci, vous êtes venu.
+<ce>                         J'ai cherché la sortie pendant
+<ce>                         près d'une semaine.
+<ce>                         Je vous suis jusqu'au temple.
 
 Message:  1012
-<ce>                    "Ah, I know the way from here,"
-<ce>                         _cleric_ totters off.
+<ce>                    "Ah, je connais le chemin à partir d'ici,"
+<ce>                   _cleric_ chancelle 
 
 
 -- Symbols used in the QRC file:
@@ -124,32 +124,32 @@ Clock _queston_ 00:00 0 flag 17 range 0 2
 
 
 --	Quest start-up:
-	start timer _queston_ 
-	reveal _mondung_ 
-	log 1010 step 0 
-	place npc _cleric_ at _mondung_ 
+	start timer _queston_
+	reveal _mondung_
+	log 1010 step 0
+	place npc _cleric_ at _mondung_
 
 _queston_ task:
-	end quest 
+	end quest
 
 _S.01_ task:
-	clicked npc _cleric_ 
-	hide npc _cleric_ 
-	say 1011 
-	add _cleric_ face 
+	clicked npc _cleric_
+	hide npc _cleric_
+	say 1011
+	add _cleric_ face
 
 _reward_ task:
-	when _qgclicked_ and _S.01_ 
-	give pc nothing 
-	end quest 
+	when _qgclicked_ and _S.01_
+	give pc nothing
+	end quest
 
 _qgclicked_ task:
-	clicked npc _qgiver_ 
+	clicked npc _qgiver_
 
 _S.04_ task:
-	when _qgclicked_ and not _S.01_ 
-	clear _qgclicked_ _S.04_ 
+	when _qgclicked_ and not _S.01_
+	clear _qgclicked_ _S.04_
 
 _cick_ task:
-	when _S.01_ and _queston_ 
-	say 1012 
+	when _S.01_ and _queston_
+	say 1012

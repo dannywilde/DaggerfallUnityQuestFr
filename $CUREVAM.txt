@@ -21,8 +21,8 @@ QuestFail:  [1003]
 <ce>                         Error -- 1003 called
 
 QuestComplete:  [1004]
-<ce>               Tandis que =bloodfather_ meurt, vous ressentez
-<ce>                   of la malédiction du vampirisme se dissipe de votte åme.
+<ce>               Tandis que =bloodfather_ meurt, vous percevez que
+<ce>                   la malédiction du vampirisme se dissipe de votre åme.
 <ce>                      Vous n'êtes désormais plus un vampire.
 
 RumorsDuringQuest:  [1005]
@@ -32,14 +32,14 @@ vampires à travers %reg.
 sans peur la nuit.
 
 RumorsPostfailure:  [1006]
-<ce>_hunter_ et ses hommes ont tué beaucoup de vampires %regseulement je doute
+<ce>_hunter_ et ses hommes ont tué beaucoup de vampires %reg seulement je doute
 <ce>                             qu'ils les aient tous eus.
                                      <--->
 <ce> _hunter_ n'aurait pas dû autant les harceler. Ses croisades ont juste forcé
 <ce> les vampires à se terrer, et quand %g partira, ils reviendront plus forts que jamais.
 
 RumorsPostsuccess:  [1007]
-<ce>_hunter_ et ses hommes ont tué beaucoup de vampires en %reg,seulement je doute
+<ce>_hunter_ et ses hommes ont tué beaucoup de vampires en %reg, seulement je doute
 <ce>                            qu'ils les aient tous eus.
                                      <--->
 <ce> _hunter_ n'aurait pas dû autant les harceler. Ses croisades ont juste envoyé
@@ -57,7 +57,7 @@ _hunter_ traque et détruit les vampires à travers tout Tamriel.
 _hunter_ a voué sa vie à chasser les vampires.
 
 Message:  1012
-<ce>Il paraît que le propre père de _hunter_a été tué par des vampires.
+<ce>Il paraît que le propre père de _hunter_ a été tué par des vampires.
 <ce>        C'est cela qui l'a conduit à les haïr fanatiquement.
                                      <--->
 <ce> _hunter_ a tué son propre père après qu'il soit devenu un vampire.
@@ -82,8 +82,8 @@ Message:  1020
  une nécessité, et non pas sur l'amour de tuer.
    Je suis sûr que votre "famille" ne vous l'a pas précisé, mais
  le vampirisme peut être guéri ! Pour cela, vous devez simplement
- tuer votre "père de sang", le démon ancien qui a créé la lignée
- de vampires qui mène jusqu'à vous. En faisant cela, vous ne
+ tuer votre "père de sang", le démon ancien qui a créé votre lignée
+ de vampires. En faisant cela, vous ne
  vous libérerez pas seulement vous-même, mais vous
  débarrasserez %reg du cancer qui gangrène son coeur.
 
@@ -110,8 +110,8 @@ Message:  1022
 <ce>                   _hunter_ a été banni de %vam
 <ce>             il y a des années. Avec ce précieux avertissement,
 <ce>             nous allons pouvoir sauver la vie de beaucoup de
-<ce>             notre famille. Ne sous-estimez pas le danger dans
-<ce>             lequel vous êtes, %pcf. _hunter_ est sans pitié
+<ce>             membres de notre famille. Ne sous-estimez pas le danger
+<ce>             dans lequel vous êtes empêtré, %pcf. _hunter_ est sans pitié
 <ce>             et compétent, et ses espions sont partout. %g serait
 <ce>             une excellente recrue pour %vam - cela reste
 <ce>             encore possible. Quoi qu'il en soit, %g connaît
@@ -126,7 +126,6 @@ Message:  1023
 <ce>          envie compréhensible, bien que cela soit un privilège
 <ce>         qui ne soit habituellement pas accordé à quelqu'un
 <ce>           d'aussi jeune que vous. Cependant, vous avez déjà
-<ce>            already, I believe I can make an exception.  Let
 <ce>          accompli d'impressionnants progrès au sein de %vam, alors
 <ce>           je pense que je peux faire une exception. Laissez-moi
 <ce>            voir, il doit être soit =elder_ soit =bloodfather_.
@@ -143,7 +142,7 @@ Message:  1023
 Message:  1024
 <ce>               Mmm... Vous êtes bien jeune pour que l'on
 <ce>               vous confie une telle information. Cependant,
-<ce>              puisque vous portez l'anneau de _vamp1_,
+<ce>              puisque vous portez le bracelet de _vamp1_,
 <ce>              je vais vous révéler où votre père de sang,
 <ce>              =bloodfather_, demeure. Vous le trouverez
 <ce>                dans son refuge à ___fatherdung_.
@@ -210,7 +209,7 @@ Message:  1051
 Message:  1052
 %qdt:
  mon père de sang est =bloodfather_,
- et qu'il demeure à ___fatherdung_.
+ et il demeure à ___fatherdung_.
 
 
 -- Symbols used in the QRC file:

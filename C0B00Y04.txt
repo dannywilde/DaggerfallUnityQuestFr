@@ -12,97 +12,94 @@ DisplayName: The Insane Priest
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                        __qgiver_ often delves
-<ce>                 into mysteries of cosmic proportions,
-<ce>                  and occasionally we misjudge one of
-<ce>                 our priests' suppleness of sanity in
-<ce>                 the face of eternity. In other words,
-<ce>                  one of our priests has gone off his
-<ce>                    nut. Will you help us bring the
-<ce>                       lunatic back to __qgiver_?
+<ce>                        __qgiver_ plonge souvent dans
+<ce>                       les mystères de l'univers,
+<ce>                       et occasionnellement nous évaluons mal
+<ce>                       la souplesse de santé mentale d'un de nos
+<ce>                       prêtres aux yeux de l'éternité. En d'autres
+<ce>                       termes, un de nos prêtres a pété une durite.
+<ce>                       Nous aiderez-vous à ramener
+<ce>                       ce dément à __qgiver_?
                                      <--->
-<ce>                         Old =priest_ is on a
-<ce>                    rampage again. Could be that %g
-<ce>                        got into __qgiver_ wine
-<ce>                   cellars again. Regardless, are you
-<ce>                    available to help bring the old
-<ce>                            loony back home?
+<ce>                        Le vieux =priest_ s'est encore déchainé.
+<ce>                        Peut-être cet énergumène a-t-il encore
+<ce>                        tapé dans les caves à vin de __qgiver_.
+<ce>                        Mais peu importe, êtes-vous disponible
+<ce>                        pour nous aider à ramener ce vieux
+<ce>                        toqué à la maison ?
 
 RefuseQuest:  [1001]
-<ce>                        %oth, I hope that when
-<ce>                     you lose your mind, someone is
-<ce>                      kind enough to come to your
-<ce>                             rescue, %pct.
+<ce>                       %oth, j'espère que lorsque vous perdrez
+<ce>                       la raison, quelqu'un sera suffisament
+<ce>                       serviable pour venir à votre secours, %pct.
 
 AcceptQuest:  [1002]
-<ce>                     Good of you, %pct. Now then,
-<ce>                       =priest_ has run off to a
-<ce>                     place called ___mondung_. Try
-<ce>                 not to hurt the poor maniac too much.
-<ce>                         =priest_ doesn't know
-<ce>                  what %g's doing right now. Just give
-<ce>                   %g2 a little knock on the head and
-<ce>                bring %g2 back here. I'll wait =queston_
-<ce>                       days for you. Be careful.
+<ce>                    Bien vous en prend, %pct. Maintenant,
+<ce>                    =priest_ s'est terré dans un endroit
+<ce>                    appelé ___mondung_. Essayez
+<ce>                    de ne pas trop brusquer ce pauvre fou.
+<ce>                    =priest_ ne sait pas ce qu'il fait.
+<ce>                    Donnez-lui juste un petit coup sur la tête
+<ce>                    et ramenez-le ici.
+<ce>                    Je vous attendrai =queston_
+<ce>                    jours. Soyez prudent.
 
 QuestComplete:  [1004]
-<ce>                     Good to see you again, %pct.
-<ce>                      Don't worry about =priest_.
-<ce>                      We'll take good care of %g2.
+<ce>                     Heureux de vous revoir, %pct.
+<ce>                     Ne vous inquiétez pas pour =priest_.
+<ce>                     Nous en prendrons grand soin.
 
 RumorsDuringQuest:  [1005]
-That lunatic =priest_ is holed up in ___mondung_. Only an idiot would go there.
+Ce fou de =priest_ est terré dans ___mondung_. Seul un abruti irait là-bas.
 <--->
-___mondung_ is a dangerous place for sane people. _priest_ won't last long.
+___mondung_ est un endroit dangereux pour les sains d'esprit. =priest_ ne fera pas long feu.
 
 RumorsPostfailure:  [1006]
-Apparently, =priest_ is never coming back home.
+Apparemment, =priest_ n'est jamais revenu chez %g2.
 <--->
-=priest_ is still out of %g3 mind, wandering about ___mondung_.
+=priest_ est toujours aliéné, errant dans ___mondung_.
 
 RumorsPostsuccess:  [1007]
-A %ra rescued that crazy =priest_. Whether %g3 sanity was saved is a question.
+Un %ra a sauvé ce pauvre =priest_. Quant à savoir ce qu'il en est de sa raison... là est la question.
 <--->
-=priest_ is either very holy, very drunk, or very mad. Or possibly all three.
+=priest_ est soit très saint, très saoul, ou bien très fou. Ou peut-être les trois à la fois.
 
 QuestorPostsuccess:  [1008]
-You were kindhearted to rescue =priest_, I recall. What can I do for you?
+Vous avez été généreux en portant secours à =priest_, si mes souvenirs sont bons. Que puis-je faire pour vous ?
 
 QuestorPostfailure:  [1009]
-I have nothing to say to you. You see, I remember =priest_.
+Je n'ai rien à vous dire. Vous voyez, je me souviens de =priest_.
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of
+ _qgiver_ de
  __qgiver_, ___qgiver_
- has sent me to find a priest by
- the name of =priest_,
- who went berserk and ran away to
- a place called ___mondung_.
- I have =queston_ days to go there,
- find the nut, and get back to
+ m'a envoyé trouver un prêtre
+ du nom de =priest_,
+ qui a perdu la raison et s'est enfui dans
+ un endroit appelé ___mondung_.
+ J'ai =queston_ jours pour me rendre là-bas,
+ trouver ce dingue, et le ramener à
  _qgiver_.
 
 Message:  1011
-<ce>                       "%oth, that was my head!"
-<ce>                          =priest_ falls down
-<ce>                    unconscious and you pick %g2 up.
+<ce>                       "%oth, c'était ma tête !"
+<ce>                       =priest_ sombre dans
+<ce>                       l'inconscience et vous %g2 soulevez.
                                      <--->
-<ce>                        =priest_ rolls %g3 eyes
-<ce>                      in pain and madness. With a
-<ce>                        low groan, %g falls into
-<ce>                               your arms.
+<ce>                        =priest_ roule ses yeux de douleur et de démence.
+<ce>                        Avec un faible gémissement, %g tombe dans vos bras
 
 Message:  1012
-<ce>                      You hear a light, maniacal
-<ce>                          giggle, and =priest_
-<ce>                    disappears, as if into thin air.
+<ce>                      Vous entendez un petit rire
+<ce>                      dément et =priest
+<ce>                      disparait, comme volatilisé.
                                      <--->
-<ce>                     "I have a kingdom to rule, I
-<ce>                    can't spend all my time picking
-<ce>                          damn lint!" =priest_
-<ce>                    slips your grasp with surprising
-<ce>                           agility and flees.
+<ce>                     "J'ai un royaume à diriger, je ne
+<ce>                     peux pas passer tout mon temps
+<ce>                     à chercher ces maudites peluches !" =priest_
+<ce>                     échappe à votre poigne avec une
+<ce>                     surprenante agilité et s'enfuit.
 
 
 -- Symbols used in the QRC file:
@@ -131,34 +128,34 @@ Clock _queston_ 00:00 0 flag 17 range 0 2
 Foe _priest_ is Monk
 
 --	Quest start-up:
-	start timer _queston_ 
-	reveal _mondung_ 
-	log 1010 step 0 
-	place foe _priest_ at _mondung_ 
+	start timer _queston_
+	reveal _mondung_
+	log 1010 step 0
+	place foe _priest_ at _mondung_
 
 variable _reward_
 _bonk_ task:
-	injured _priest_ 
-	say 1011 
-	add foe _priest_ face 
+	injured _priest_
+	say 1011
+	add foe _priest_ face
 	remove foe _priest_
 	--changed "place foe in fake dungeon" to remove foe action.
 
 _queston_ task:
-	end quest 
+	end quest
 
 _cick_ task:
-	when _bonk_ and _queston_ 
-	say 1012 
+	when _bonk_ and _queston_
+	say 1012
 
 _S.04_ task:
-	clicked npc _qgiver_ 
+	clicked npc _qgiver_
 
 _success_ task:
-	when _S.04_ and _bonk_ 
-	give pc nothing 
-	end quest 
+	when _S.04_ and _bonk_
+	give pc nothing
+	end quest
 
 _nope_ task:
-	when _S.04_ and not _bonk_ 
-	clear _S.04_ _nope_ 
+	when _S.04_ and not _bonk_
+	clear _S.04_ _nope_

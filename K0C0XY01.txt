@@ -12,135 +12,135 @@ DisplayName: The Harpies' Nest
 QRC:
 
 QuestorOffer:  [1000]
-<ce>          I have a not uncommon situation on my hands. A nest
-<ce>           of harpies has moved into an old property of mine,
-<ce>          and while I personally couldn't care less, our wise
-<ce>            and benevolent %rt has decreed that the owner of
-<ce>          any structure infested by harpies is responsible for
-<ce>           extermination. There is apparently a fine involved
-<ce>           for noncompliance. Frankly, I don't have the time
-<ce>           for this; but if you wouldn't mind bloodying your
-<ce>              sword a bit, I could use your help. The last
-<ce>              mercenary I hired didn't make it, so I would
-<ce>             understand if you're hesitant. I'd be happy to
-<ce>          pay you, say, _reward_ gold pieces for your trouble.
+<ce>          J'ai une situation pas commune entre les mains. Un nid
+<ce>          de harpies a emménagé dans une de mes anciennes propriétés,
+<ce>          et même si je m'en fiche personnellement, notre sage
+<ce>          et le bienveillant %rt a décrété que le propriétaire de
+<ce>          toute structure infestée de harpies est responsable de
+<ce>          leur extermination. Il y a apparemment une amende
+<ce>          pour non-conformité. Franchement, je n'ai pas de temps
+<ce>         pour cela; mais si cela ne vous dérange pas de souiller de sang
+<ce>         votre épée, je pourrais faire appel à vos services. Le dernier
+<ce>        le mercenaire que j'ai engagé n'a pas réussi à en venir à bout.
+<ce>        Comprenez, si vous hésitez, je serais content de vous payer...
+<ce>          Disons, des pièces d'or pour votre peine.
 
 RefuseQuest:  [1001]
-<ce>                    %oth. Well, I can't blame you.
-<ce>            Never could abide the stench of harpies myself.
+<ce>                    %oth. Je ne peux pas vous en vouloir.
+<ce>            Je n'ai jamais pu supporter la puanteur des harpies.
 
 AcceptQuest:  [1002]
-<ce>            Would you? Marvelous. Now, the catch is that I
-<ce>             must have proof that a serious effort has been
-<ce>              made to clear out ___mondung_ in =2mondung_
-<ce>              days. Obviously that does not leave a lot of
-<ce>                   time. I had hoped that _contact_,
-<ce>          the mercenary I had hired earlier from the Fighters
-<ce>            Guild would have been more capable. And, listen,
-<ce>                   %pcf, you don't have to clear out
-<ce>                all ___mondung_. Just kill four or five
-<ce>             of the critters and get back here. I know! The
-<ce>               clan leaders wear specially dyed gryphon's
-<ce>                   feathers. Bring back one of those
-<ce>               and I'll have the proof I need. Just make
-<ce>             certain you don't fail to return in =2mondung_
-<ce>                              days, %pcf.
+<ce>          Voudriez-vous? Merveilleux. Maintenant, le hic, c'est que je
+<ce>           doit avoir la preuve qu'un effort sérieux a été
+<ce>          fait pour effacer ___mondung_ in = 2mondung_
+<ce>          jours. Évidemment, cela ne laisse pas beaucoup de
+<ce>          heure. J'avais espéré que _contact_,
+<ce>          le mercenaire que j'avais engagé plus tôt auprès des combattants
+<ce>          Guild aurait été plus capable. Et, écoute,
+<ce>          % pcf, vous n'avez pas à effacer
+<ce>          tous ___mondung_. Tuez juste quatre ou cinq
+<ce>          des bestioles et revenez ici. Je sais! Le
+<ce>          les chefs de clan portent des griffons teints spécialement
+<ce>          plumes. Rapportez-en un
+<ce>          et j'aurai la preuve dont j'ai besoin. Juste faire
+<ce>          certain que vous ne manquez pas de revenir en = 2mondung_
+<ce>          jours,% pcf.
 
 QuestFail:  [1003]
-<ce>                 %oth. That wasn't much of an effort.
+<ce>                 %oth. Cela de demandait pas beaucoup d'efforts.
 
 QuestComplete:  [1004]
-<ce>                Well done, %pcf. Now I can prove to the
-<ce>             %rt that I've done my civic duty, or at least
-<ce>           attempted to do it. You have earned your _reward_
+<ce>                Bien joué, %pcf. A présent je peux prouver à
+<ce>             %rt que j'ai traité me dossier, ou que j'ai essayé
+<ce>            de le traiter. You have earned your _reward_
 <ce>                        gold indeed. Thank you.
 
 RumorsDuringQuest:  [1005]
-The %rt demands physical proof of harpy extermination from some mercenaries.
+Le %rt exige une preuve physique d'extermination de harpie de la part de certains mercenaires.
 <--->
-_qgiver_ has really let ___mondung_ go to seed. It's hardly a storehouse now.
+_qgiver_ a vraiment laissé ___mondung_ à l'abandon. Ce n'est plus un entrepôt maintenant.
 <--->
-_qgiver_ ought to have ___mondung_ destroyed if it isn't going to be used.
+qgiver_ devrait détruire ___mondung_ s'il n'est pas utilisé.
 
 RumorsPostfailure:  [1006]
-The %rt slapped _qgiver_ with so many fines, I wonder if %g'll recover.
+Le %rt a couvert _qgiver_ de tant d'amendes, je me demande si %g va s'en sortir.
 <--->
-_qgiver_ has had some real bad luck with harpy exterminators from what I see.
+_qgiver_ a été vraiment malchanceux avec les exterminateurs de harpie d'après ce que je vois.
 
 RumorsPostsuccess:  [1007]
-The %rt seems happy with _qgiver_'s efforts to get ___mondung_ cleaned out.
+Le %rt semble satisfait des efforts de _qgiver_ pour nettoyer ___mondung_.
 <--->
-_qgiver_ has made %g3 first effort to get that filthy ___mondung_ cleaned up.
+_qgiver_ a fait un premier effort de %g3 pour nettoyer ce sale ___mondung_.
+
 
 QuestorPostsuccess:  [1008]
-You helped me with those harpies, %pcf. What can I help you with?
+Vous m'avez aidé avec ces harpies, %pcf. Que puis-je faire pour vous en retour ?
 
 QuestorPostfailure:  [1009]
-I have nothing to say to a %ra who can't pick up a few feathers.
+Je n'ai rien à dire à un %ra qui ne peut pas ramasser quelques plumes.
 
 Message:  1030
-A large, white feather, dyed a repulsive shade of red.
+Une grande plume blanche, teintée d'une nuance répugnante de rouge.
 
 Message:  1031
-A gray feather, dyed a sickly shade of green.
+Une plume grise, teintée d'un vert maladif.
 
 Message:  1032
-A large, white feather, dyed pure black.
+Une grande plume blanche, teinte en noir pur.
 
 Message:  1033
-A gray feather, dyed dull blue.
+Une plume grise, teinte en bleu terne.
 
 Message:  1011
-<ce>                      Thank you, %pcf. I know my
-<ce>                          way home from here.
+<ce>                      Merci, %pcf. A partir d'ici
+<ce>                     je connais le chemin du retour.
 
 Message:  1012
 __qgiver_, ___qgiver_
- Dear %pcn,
- 
-      I am sorry to annoy you while I'm sure you're
- busy, but I received a caller from the Fighters Guild
- on the subject of _contact_, that
- mercenary I first hired to clean out ___mondung_.
-      Without boring you with the details of the
- interview, let me tell you that I promised the
- Guildmaster I'd ask you to look for _contact_
- while you're in ___mondung_. _contact_
- looks is a =contact_, so %g should
- stick out at ___mondung_.
-      Well, I've fulfilled my promise to the Guildmaster.
- Personally, I don't care if you throw this letter away
- and let _contact_ rot in ___mondung_.
- 
-      I am eagerly awaiting your return.
- 
-<ce>                              Yours truly,
+ Cher %pcn,
+
+ Je suis désolé de vous ennuyer alors que je suis sûr que vous êtes
+   occupé, mais j'ai reçu un message de la Guilde des Guerriers
+   à propos de _contact_, que le mercenaire que j'ai engagé pour
+    nettoyer ___mondung_. Sans vous ennuyer avec les détails de la
+   interview, laissez-moi vous dire que j'ai promis le
+   Guildmaster, je vous demanderais de chercher _contact_
+   pendant que vous êtes à ___mondung_. _contact_
+   looks est un = contact_, donc %g devrait
+   coller à ___mondung_.
+        Eh bien, j'ai tenu ma promesse au maître de guilde.
+   Personnellement, je m'en fiche si vous jettez cette lettre
+   et laissez _contact_ pourrir dans ___mondung_.
+
+      J'attendrai votre retour avec impatience.
+
+<ce>                              Sincèrement votre,
 <ce>                                _qgiver_
 
 Message:  1013
-<ce>                         You're from _qgiver_?
-<ce>                        Thank %god you arrived,
-<ce>                          %pcf. Hope you don't
-<ce>                          mind if I join you.
-<ce>                         Take this _jewelry_ as
-<ce>                        a sign of my gratitude.
+<ce>                         Vous venez de la part de _qgiver_?
+<ce>                        Merci% mon Dieu que vous soyez arrivé,
+<ce>                        %pcf. J'espère que cela ne vous
+<ce>                        dérangera pas si je me joins à vous.
+<ce>                        Prenez ce _jewelry_ en
+<ce>                        signe de ma gratitude.
 
 Message:  1014
-<ce>            A young courier appears at your side, hands you
-<ce>                a letter, and disappears without a word.
+<ce>            Un jeune messager apparaît à vos côtés, vous tend
+<ce>                une lettre, et disparaît sans un mot .
 
 Message:  1020
 %qdt:
- _qgiver_, a
- merchant in ___qgiver_ has hired me
- to clear out %g3 desolate property,
- ___mondung_, which is infested by
- harpies. Apparently, the place does not
- have to be cleared out, but some sort of
- effort needs to be made or at least the
- appearance of an effort. I must return
- with a clan feather from one of the leaders in
- =2mondung_ days for a reward of _reward_ gold pieces.
+ _qgiver_, un
+ marchand de ___qgiver_ m'a embauché
+ pour nettoyer sa propriété abandonnée,
+  ___mondung_, qui est infesté par des
+  harpies. Apparemment, l'endroit ne
+  doit pas être entièrement nettoyé, mais un
+  effort doit-être fait ou du moins une impression
+  qu'il ai été fait. Je dois revenir
+  avec une plume de clan de l'un des chefs d'ici
+  =2mondung_ jours pour une récompense de _reward_ pièces d'or.
 
 Message:  1050
 1 harpie dead
@@ -206,62 +206,62 @@ Foe _F.00_ is Harpy
 Foe _F.01_ is Harpy
 
 --	Quest start-up:
-	start timer _2mondung_ 
-	start timer _S.05_ 
-	reveal _mondung_ 
-	log 1020 step 0 
-	give item _clanfeather1_ to _F.01_ 
-	pc at _mondung_ set _S.08_ 
-	_letter26_ used do _S.15_ 
+	start timer _2mondung_
+	start timer _S.05_
+	reveal _mondung_
+	log 1020 step 0
+	give item _clanfeather1_ to _F.01_
+	pc at _mondung_ set _S.08_
+	_letter26_ used do _S.15_
 	place foe _F.01_ at _mondung_
 	have _clanfeather1_ set _S.14_
 
 _2mondung_ task:
-	end quest 
+	end quest
 
 variable _pcgetsgold_
 _S.02_ task:
-	toting _clanfeather1_ and _qgiver_ clicked 
-	give pc _reward_ 
-	end quest 
+	toting _clanfeather1_ and _qgiver_ clicked
+	give pc _reward_
+	end quest
 
 _S.03_ task:
-	clicked npc _contact_ 
-	start timer _S.06_ 
-	get item _jewelry_ 
-	hide npc _contact_ 
-	say 1013 
-	make _jewelry_ permanent 
-	add _contact_ face 
-	change repute with _contact_ by +10 
+	clicked npc _contact_
+	start timer _S.06_
+	get item _jewelry_
+	hide npc _contact_
+	say 1013
+	make _jewelry_ permanent
+	add _contact_ face
+	change repute with _contact_ by +10
 
 _S.04_ task:
-	clicked npc _qgiver_ 
+	clicked npc _qgiver_
 
 _S.05_ task:
-	give pc _letter26_ notify 1014 
+	give pc _letter26_ notify 1014
 
 _S.06_ task:
-	say 1011 
-	drop _contact_ face 
+	say 1011
+	drop _contact_ face
 
 variable _S.07_
 _S.08_ task:
-	create foe _F.00_ every 21 minutes 15 times with 25% success 
+	create foe _F.00_ every 21 minutes 15 times with 25% success
 
 _clearclick_ task:
-	when _S.04_ and not _S.02_ 
+	when _S.04_ and not _S.02_
 	clear _S.04_ _clearclick_
 	say 1003
-	say 1040 
+	say 1040
 
 variable _S.10_
 variable _S.11_
 variable _S.12_
 variable _S.13_
 _S.14_ task:
-	say 1099 
+	say 1099
 --changed "clicked item clanfeather1 say 1099" to "have item do this" since feather is on enemy body
 
 _S.15_ task:
-	place npc _contact_ at _mondung_ 
+	place npc _contact_ at _mondung_

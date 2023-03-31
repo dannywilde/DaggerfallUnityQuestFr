@@ -11,83 +11,83 @@ DisplayName: Avenge the Dragons
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                  If you are, by chance, looking for
-<ce>               work, an easy _reward_ gold pieces, I just
-<ce>                    might have a job for you. It'll
-<ce>                   involve some combat, but you look
-<ce>                      like you wouldn't mind that.
-<ce>                   Does it sound like a possibility?
+<ce>                 Si vous êtes, par hasard, à la recherche de
+<ce>                 travail, _reward_ pièces d'or facilement gagnées,
+<ce>                 je pourrais justement avoir un boulot pour vous.
+<ce>                 Cela impliquera des combats, mais vous avez l'air
+<ce>                 de quelqu'un qui ne s'en soucie guère.
+<ce>                 Cela vous semble-t-il envisageable?
 
 RefuseQuest:  [1001]
-<ce>                  I see. Well, that is disappointing.
+<ce>                  Je vois. He bien, voilà qui est décevant.
 
 AcceptQuest:  [1002]
-<ce>                  Very good. You know that Akatosh is
-<ce>                   the God of Time, but He is also a
-<ce>                   Dragon God, and we hold dragons as
-<ce>                  our holy symbol. One of the members
-<ce>                  of our fighting order, the Order of
-<ce>                 the Hour, has apparently gone berserk
-<ce>                   and taken to attacking our dragons
-<ce>                 right in our sacred grove. Of course,
-<ce>                   the murderer must be stopped. You
-<ce>                     will find the dragonslayer in
-<ce>                      a place called ___mondung_.
-<ce>                    If you are not successful within
-<ce>                =1stparton_ days, we will send the Order
-<ce>                     of the Hour in and your reward
-<ce>                     will be forfeited. May Akatosh
-<ce>                        bless you in your quest.
+<ce>                 Très bien. Vous savez que Akatosh est
+<ce>                 le Dieu du Temps, mais il est également un
+<ce>                 Dieu Dragon, et nous considérons les dragons
+<ce>                 comme notre symbole sacré. Un des membres
+<ce>                 de notre ordre guerrier, l'Ordre de l'Heure,
+<ce>                 est apparemment devenu fou-furieux
+<ce>                 et a entrepris d'attaquer nos dragons
+<ce>                 en plein dans notre jardin sacré. Bien sûr,
+<ce>                 le meurtrier doit être stoppé. Vous
+<ce>                 trouverez le tueur de dragons en un lieu
+<ce>                 appelé ___mondung_.
+<ce>                 Si vous ne réussissez pas dans les
+<ce>                 =1stparton_ prochains jours, nous enverrons l'Ordre
+<ce>                 de l'Heure et votre récompense sera
+<ce>                 confisquée. Puisse Akatosh
+<ce>                 vous bénir dans votre quête.
 
 QuestFail:  [1003]
-<ce>                    You had best move along, %pcf.
-<ce>                 You do not have very much more time to
-<ce>                        kill that Dragonslayer.
+<ce>                   Vous devriez vous remuer, %pcf.
+<ce>                    Il ne vous reste plus beaucoup de temps
+<ce>                   pour liquider le tueur de dragons.
 
 QuestComplete:  [1004]
-<ce>                   I am glad to see you back, %pcf.
-<ce>                   And your mission was a success. As
-<ce>                 promised, here are your _reward_ gold.
-<ce>                      Thank you for your service.
+<ce>                  Je suis content de vous revoir, %pcf.
+<ce>                 Et votre mission a été un succès. Comme
+<ce>                 promis, voici vos _reward_ pièces d'or.
+<ce>                 Merci pour le service.
 
 RumorsDuringQuest:  [1005]
-The Akatosh Chantry's pretty angry that one of their own is a dragonslayer.
+Le Grand-Prêtre d'Akatosh est très mecontent qu'un des leurs soit un tueur de dragons.
 <--->
-I say that sneak has every right to kill dragons. Nasty violent creatures.
+Je dis que ce fourbe a tous les droits de tuer des dragons, ces vilaines créatures violentes.
 
 RumorsPostfailure:  [1006]
-It's a good thing that the dragonslayer got away.
+C'est une bonne chose que le tueur de dragons se soit enfui.
 <--->
-Now more dragons will be killed.
+Maintenant, davantage de dragons seront tués.
 <--->
-I hear the Order of the Hour is chasing the dragonslayer across %reg.
+J'ai entendu dire que l'Ordre de l'Heure pourchasse le tueur de dragons dans tout %reg.
 
 RumorsPostsuccess:  [1007]
-I wonder if the Akatosh Chantry is going to try and stop every dragonslayer.
+Je me demande si le Grand-Prêtre d'Akatosh va essayer d'arrêter tous les tueurs de dragons.
 <--->
-Ah, it's getting so you can't even slay a dragon anymore without trouble.
+Ah, de nos jours on ne peut même plus tuer un dragon sans avoir des problèmes.
 
 QuestorPostsuccess:  [1008]
-What can I do for the great protector of the dragons, %pcf?
+Que puis-je faire pour le grand protecteur des dragons, %pcf?
 
 QuestorPostfailure:  [1009]
-I trusted you to slay that dragonslayer, %pcf. Never shall I do that again.
+J'étais persuadé que vous tueriez ce tueur de dragons, %pcf. Je ne ferai plus jamais cette erreur.
 
 Message:  1020
-<ce>                   "The Akatosh Chanty...wins. All I
-<ce>                     ever...wanted to...do was free
-<ce>                            the...dragons."
-<ce>                       The dragonslayer is dead.
+<ce>                   "Le Grand-Prêtre d'Akatosh... gagne. Tout ce
+<ce>                    que je... voulais faire... c'est libérer
+<ce>                    les... dragons."
+<ce>                    Le tueur de dragons est mort.
 
 Message:  1030
 %qdt:
- The Akatosh Chantry has asked me
- to hunt down someone who has been
- attacking the dragons in their sacred grove.
- I need to go to ___mondung_,
- kill the dragonslayer, and be
- back at the Chantry in ___questgiver_
- in =1stparton_ days.
+Le Grand-Prêtre d'Akatosh m'a demandé
+de pourchasser quelqu'un qui a attaqué
+les dragons dans leur jardin sacré.
+Je dois aller à ___mondung_,
+liquider le tueur de dragons, et retourner
+voir le Grand-Prêtre à ___questgiver_
+en =1stparton_ jours.
 
 
 -corrected %qdat to %qdt
@@ -118,41 +118,41 @@ Foe _knight_ is Knight
 Foe _ranger_ is Ranger
 
 --	Quest start-up:
-	start timer _1stparton_ 
-	reveal _mondung_ 
-	log 1030 step 0 
-	pick one of _S.05_ _S.06_ _S.07_ _S.08_ 
+	start timer _1stparton_
+	reveal _mondung_
+	log 1030 step 0
+	pick one of _S.05_ _S.06_ _S.07_ _S.08_
 
 _pcgetsgold_ task:
-	when _qgclicked_ and _mondead_ 
-	give pc _reward_ 
-	end quest 
+	when _qgclicked_ and _mondead_
+	give pc _reward_
+	end quest
 
 _mondead_ task:
-	killed 1 _spellsword_ saying 1020 
-	killed 1 _ranger_ saying 1020 
-	killed 1 _knight_ saying 1020 
-	killed 1 _archer_ saying 1020 
+	killed 1 _spellsword_ saying 1020
+	killed 1 _ranger_ saying 1020
+	killed 1 _knight_ saying 1020
+	killed 1 _archer_ saying 1020
 
 _qgclicked_ task:
-	clicked npc _questgiver_ 
+	clicked npc _questgiver_
 
 _1stparton_ task:
-	end quest 
+	end quest
 
 _clearclick_ task:
-	when _qgclicked_ and not _mondead_ 
+	when _qgclicked_ and not _mondead_
 	say 1003
-	clear _qgclicked_ _clearclick_ 
+	clear _qgclicked_ _clearclick_
 
 _S.05_ task:
-	place foe _spellsword_ at _mondung_ 
+	place foe _spellsword_ at _mondung_
 
 _S.06_ task:
-	place foe _ranger_ at _mondung_ 
+	place foe _ranger_ at _mondung_
 
 _S.07_ task:
-	place foe _knight_ at _mondung_ 
+	place foe _knight_ at _mondung_
 
 _S.08_ task:
-	place foe _archer_ at _mondung_ 
+	place foe _archer_ at _mondung_

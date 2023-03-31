@@ -12,114 +12,112 @@ DisplayName: Hunt for Undead
 QRC:
 
 QuestorOffer:  [1000]
-<ce>               %pct, I have a dangerous mission for you.
-<ce>              I will tell you up front it involves slaying
-<ce>                   a rather powerful undead creature.
-<ce>                   Are you still willing to undertake
-<ce>                      this task for __questgiver_?
+<ce>               %pct, J'ai une mission dangereuse à vous proposer.
+<ce>              Je doit vous dire que cela implique un meurtre
+<ce>                   une créature morte-vivante assez puissante.
+<ce>                   Etes-vous toujours prêt à entreprendre
+<ce>                      cette tâche pour __questgiver_?
 
 RefuseQuest:  [1001]
-<ce>                  Well, I certainly cannot blame you.
-<ce>                      I myself would not dare it.
+<ce>                  Eh bien, je ne vais certainement pas vous en vouloir.
+<ce>                      J'en serait bien incapable moi-même
 
 AcceptQuest:  [1002]
-<ce>                 Your courage honors our order, %pcf.
-<ce>                   We wish to begin cleansing a place
-<ce>                    called ___mondung_.  Long ago it
-<ce>                    was one of our temples, but its
-<ce>                  desecrated corridors are now haunted
-<ce>                  by some undead apparition.  You must
-<ce>                 slay this unquiet spirit and sprinkle
-<ce>                 its body with this specially prepared
-<ce>                 holy water.  If you have not returned
-<ce>                in =qtime_ days I will burn incense for
-<ce>                your departed soul and send someone else
-<ce>                 to avenge you.  May %god go with you.
+<ce>                 Votre courage honore notre ordre, %pcf.
+<ce>                  Nous souhaitons commencer à nettoyer un lieu
+<ce>                   appelé ___mondung_ qui il y a bien longtemps
+<ce>                   était un de nos temples, mais ces
+<ce>                  couloirs profanés sont à présent hantés
+<ce>                  par des morts vivants. Vous devez tuer cet
+<ce>                 esprit tourmenté et asperger son corps
+<ce>                 ave cette eau bénité spécialement préparée
+<ce>                 pour l'occasion.  Si vous n'êtes pas revenu
+<ce>                d'ici =qtime_ jours, je brûlerai de l'encens pour
+<ce>                l'appaisement de votre défente âme et j'enverrai quelqu'un
+<ce>                d'autre vous venger.  Que %god vous accompagne.
 
 QuestFail:  [1003]
-<ce>                   %pct, if you did not wish to help
-<ce>                    cleanse ___mondung_, you should
-<ce>                        have told me so before.
+<ce>                   %pct, Si vous ne souhaitez pas aider
+<ce>                    à nettoyer ___mondung_, vous auriez
+<ce>                     du me le dire tout de suite.
 
 QuestComplete:  [1004]
-<ce>                Praise %god, you have returned safely!
-<ce>                    Our seers already reported that
-<ce>                    the evil within ___mondung_ had
-<ce>                   been cleansed.  You have done well
-<ce>                    in the service of __questgiver_.
+<ce>                Grâce à %god, vous êtes vivant!
+<ce>                    Nos voyant nous ont déjà rapporté que
+<ce>                    le mal à l'intérieur de ___mondung_ a
+<ce>                   été bannis.  Vous avez bien rempli votre
+<ce>                   part du marché avec __questgiver_.
 
 RumorsDuringQuest:  [1005]
-__questgiver_ is planning to restore ___mondung_ to its former glory.
+__questgiver_ envisage de redonner à  ___mondung_ son ancienne gloire.
 
 RumorsPostfailure:  [1006]
-<ce>It looks like the evil within ___mondung_ is too strong for __questgiver_
-<ce>                             to drive out.
+<ce>On dirait que le mal qui sévit à  ___mondung_ est trop fort être chassé
+<ce>                            par __questgiver_
 
 RumorsPostsuccess:  [1007]
-<ce> __questgiver_ sent one of their order to begin cleansing ___mondung_.
+<ce> __questgiver_ a envoyé un de leurs disciples pour nettoyer ___mondung_.
 
 QuestorPostsuccess:  [1008]
-<ce>       Greetings, %pcf.  Your foray into ___mondung_ was a great
-<ce>                              help to us.
+<ce>       Salutations, %pcf.  Votre incursion dans ___mondung_
+<ce>             à été d'une grande aide pour nous
 
 QuestorPostfailure:  [1009]
-<ce>        What can I do for you?  You failed me when I asked you
-<ce>             for help with the evil spirit of ___mondung_.
+<ce>        Que puis-je faire pour vous? vous avez échoué quand je vous ai demandé
+<ce>            de l'aide avec l'esprit maléfique de ___mondung_.
 
 Message:  1020
 %qdt:
- _questgiver_ of __questgiver_
- in ___questgiver_ has sent me
- to slay an undead creature haunting
- ___mondung_.  %g gave me a vial
- of specially prepared holy water
- which I must sprinkle on the monster's
- body in order to prevent its spirit
- from returning.  I have =qtime_ days
- to return to _questgiver_ or %g
- will have to send someone else.
+ _questgiver_ de __questgiver_
+ à ___questgiver_ m'a envoyé
+pour tuer une créature morte-vivante qui hante
+ ___mondung_.  % g m'a donné un flacon
+d'eau bénite spécialement préparée
+que je dois asperger sur le corps du monstre
+ pour apaiser son esprit.
+J'ai =qtime_ jours pour revenir
+voir _questgiver_ ou quelqu'un d'autre
+sera envoyé pour remplir la mission.
 
 Message:  1021
 %qdt:
- _questgiver_ of __questgiver_
- in ___questgiver_ has sent me
- to slay an undead creature haunting
- ___mondung_.  First, however, I
- must visit _priest_ in __priest_
- of ___priest_, who will place the
- final blessing on a vial of specially
- prepared holy water.  I need to sprinkle
- it on the monster's body in order to
- prevent its spirit from returning to
- ___mondung_.  I have =qtime_ days
- to return to _questgiver_ or %g
- will have to send someone else.
+ _questgiver_ de __questgiver_
+ à ___questgiver_ m'a envoyé
+pour tuer une créature morte-vivante qui hante
+ ___mondung_.  En premier lieu, je doit
+ rendre visite à _priest_ dans __priest_
+ de ___priest_, qui pourra bénir la fiole
+ d'eau bénite spécialement préparée
+ Je devrait en asperger le coprs du monstre
+ pour apaiser son esprit et l'empêcher de
+ revenir hanter  ___mondung_.
+ J'ai =qtime_ jours pour revenir
+ voir _questgiver_ ou quelqu'un d'autre
+ sera envoyé pour remplir la mission.
 
 Message:  1050
-<ce>                Ah, wait, I am so forgetful these days!
-<ce>                 You first need to take the holy water
-<ce>                      to _priest_, of __priest_ in
-<ce>                  ___priest_.  %g will place the final
-<ce>                            blessing on it.
+<ce>                Ah, attendez, Je suis vraiment étourdi ces derniers temps!
+<ce>                 Vous devez d'abord apporter l'eau bénite à
+<ce>                       _priest_, de __priest_ à
+<ce>                  ___priest_ afin de bénir cette fiole.
 
 Message:  1051
-<ce>                   _priest_ takes the vial from you
-<ce>                  without a word.  %g gravely blesses
-<ce>                    it, then you.  %g hands it back
-<ce>                    and returns to %g3 meditations.
+<ce>                   _priest_ prend votre fiole sans un mot,
+<ce>                   la bénie gravement, puis vous la
+<ce>                    rend et retourne à ses méditations.
 
 Message:  1060
-<ce>                      "I am =monster1_!  You may
-<ce>                       slay my material form, but
-<ce>                       I will always return to my
-<ce>                       home here in ___mondung_!"
+<ce>                      "Je suis =monster1_!  VOus pouvez
+<ce>                       Tuer ma forme matériel mais
+<ce>                       Je reviendrai toujours à ma
+<ce>                       maison, ici à ___mondung_!"
 
 Message:  1061
-<ce>                    As you sprinkle the holy water
-<ce>                      over =monster1_'s remains, a
-<ce>                     despairing wail echoes through
-<ce>                     the dark halls of ___mondung_,
-<ce>                    slowly fading into the distance.
+<ce>                    Pendant que vous asperger de l'eau bénite
+<ce>                      sur les restes de =monster1_, un
+<ce>                     gémissement désespéré résonne à travers
+<ce>                     les salles sombres de ___mondung_,
+<ce>                    ils disparaissent lentement au loin.
 
 
 -- Symbols used in the QRC file:
@@ -155,61 +153,61 @@ Foe _monster2_ is Mummy
 Foe _monster3_ is Ghost
 
 --	Quest start-up:
-	start timer _qtime_ 
-	reveal _mondung_ 
-	get item _I.00_ 
-	pick one of _S.05_ _S.05_ _S.04_ 
-	pick one of _S.00_ _S.01_ _S.02_ 
+	start timer _qtime_
+	reveal _mondung_
+	get item _I.00_
+	pick one of _S.05_ _S.05_ _S.04_
+	pick one of _S.00_ _S.01_ _S.02_
 
 _S.00_ task:
-	place foe _monster1_ at _mondung_ 
+	place foe _monster1_ at _mondung_
 
 _S.01_ task:
-	place foe _monster2_ at _mondung_ 
+	place foe _monster2_ at _mondung_
 
 _S.02_ task:
-	place foe _monster3_ at _mondung_ 
+	place foe _monster3_ at _mondung_
 
 _qtime_ task:
-	end quest 
+	end quest
 
 _S.04_ task:
-	log 1021 step 0 
-	say 1050 
+	log 1021 step 0
+	say 1050
 
 _S.05_ task:
-	log 1020 step 0 
+	log 1020 step 0
 
 _mondead_ task:
-	killed 1 _monster1_ 
-	killed 1 _monster2_ 
-	killed 1 _monster3_ 
-	say 1060 
-	have _I.00_ set _S.09_ 
+	killed 1 _monster1_
+	killed 1 _monster2_
+	killed 1 _monster3_
+	say 1060
+	have _I.00_ set _S.09_
 
 _S.07_ task:
-	when _mondead_ and _S.09_ and not _S.10_ 
-	take _I.00_ from pc 
-	say 1061 
+	when _mondead_ and _S.09_ and not _S.10_
+	take _I.00_ from pc
+	say 1061
 
 _S.08_ task:
-	toting _I.00_ and _priest_ clicked 
-	get item _I.00_ 
-	say 1051 
+	toting _I.00_ and _priest_ clicked
+	get item _I.00_
+	say 1051
 
 variable _S.09_
 _S.10_ task:
-	when _S.09_ and not _S.08_ and _S.04_ 
+	when _S.09_ and not _S.08_ and _S.04_
 
 _clickqgiver_ task:
-	clicked npc _questgiver_ 
+	clicked npc _questgiver_
 
 _success_ task:
-	when _clickqgiver_ and _S.07_ 
-	give pc nothing 
-	end quest 
+	when _clickqgiver_ and _S.07_
+	give pc nothing
+	end quest
 
 _clearclick_ task:
-	when not _S.07_ and _clickqgiver_ 
+	when not _S.07_ and _clickqgiver_
 	say 1003
-	clear _clickqgiver_ _clearclick_ 
+	clear _clickqgiver_ _clearclick_

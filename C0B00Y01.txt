@@ -11,176 +11,180 @@ DisplayName: The Heretic
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                        %god be with you, %pct.
-<ce>                   You may have heard of _prophet_.
-<ce>                 If you have not yet, you will. We are
-<ce>                  investigating %g3 claims that %g is
-<ce>                    a prophet. We are not, I think,
-<ce>                   censorious by nature, but we must
-<ce>                     ever be alert to the presence
-<ce>                  of heretical influences. Would you
-<ce>                    be available to assist in this
-<ce>                       important investigation?
+<ce>                  Que %god soit avec vous, %pct.
+<ce>                 Vous avez dû entendre parler de _prophet_.
+<ce>                 Si ce n'est pas le cas, vous en saurez
+<ce>                 bientôt plus à son sujet. Nous enquêtons
+<ce>                 sur ses dires de soit-disant prophète.
+<ce>                 Nous ne sommes pas, je pense,
+<ce>                 particulièrement critiques par nature, mais
+<ce>                 nous devons toujours prendre garde à la
+<ce>                 présence d'influences hérétiques.
+<ce>                 Seriez-vous disponible pour nous aider
+<ce>                 dans cette importante enquête ?
                                      <--->
-<ce>                  It falls upon us to investigate the
-<ce>                       claims of _prophet_ that
-<ce>                  %g has seen the face and heard the
-<ce>                      words of %god. Perhaps you
-<ce>                      have time to assist in this
-<ce>                               inquiry?
+<ce>                  Il nous revient d'enquêter sur les
+<ce>                  affirmations de _prophet_
+<ce>                  qui aurait vu le visage et entendu les
+<ce>                  paroles de %god.
+<ce>                  Peut-être avez-vous du temps pour
+<ce>                  nous aider dans cette enquête ?
 
 RefuseQuest:  [1001]
-<ce>                         That's a pity, %pct.
-<ce>                   I hope you will find time in your
-<ce>                     busy schedule for the temple
-<ce>                          in the near future.
+<ce>                     C'est bien dommage, %pct.
+<ce>                     J'espère que vous trouverez rapidement
+<ce>                     dans votre agenda surchargé du
+<ce>                     temps à accorder au temple.
 
 AcceptQuest:  [1002]
-<ce>                 Good. We have already sent one of the
-<ce>                        Temple, _priest_ to the
-<ce>                    desacrilized ___mondung_, where
-<ce>                    _prophet_ asserts that %g first
-<ce>                        witnessed the miracle.
-<ce>                     If _priest_ needs assistance,
-<ce>                I will send for you. In the meanwhile,
-<ce>                 I want you to find some more secular
-<ce>                       information on _prophet_,
-<ce>                   by asking around in %g3 hometown,
-<ce>                          __tavern_. A loyal
-<ce>                       cleric of ours, _contact_
-<ce>                      will meet you in _tavern_.
-<ce>                  I want to see evidence of the true
-<ce>                          nature of _prophet_
-<ce>                   in no more than =queston_ days. I
-<ce>                  would leave immediately. May Great
-<ce>                   %god bless your enterprise, %pct.
+<ce>                Bien. Nous avons déjà envoyé un membre
+<ce>                du Temple, _priest_, au
+<ce>                lieu-dit ___mondung_, où
+<ce>                _prophet_ prétend avoir été pour la
+<ce>                première fois témoin du miracle.
+<ce>                Si _priest_ a besoin d'aide,
+<ce>                je vous enverrai chercher. En attendant,
+<ce>                je veux que vous trouviez des informations
+<ce>                plus conventionnelles sur _prophet_,
+<ce>                en interrogeant les gens de son village
+<ce>                natal, __tavern_. Un de nos clercs,
+<ce>                _contact_ vous rencontrera à
+<ce>                _tavern_.
+<ce>                Je veux voir des preuves de la vraie nature de
+<ce>                _prophet_ dans moins de =queston_ jours.
+<ce>                Vous devriez partir sur le champ. Puisse
+<ce>                %god bénir votre entreprise, %pct.
 
 QuestComplete:  [1004]
-<ce>                     Well done, %pct. I tremble to
-<ce>                    think what _prophet_ might have
-<ce>                   done to our temple had %g spread
-<ce>                        %g3 profane word. %god
-<ce>                    bless you and keep you, goodly
-<ce>                       %ra. Here, a small token
-<ce>                    of the esteem of your brethren.
+<ce>                     Bien joué, %pct. Je frémis en pensant
+<ce>                     au mal que _prophet_ aurait pu
+<ce>                     faire au temple en proférant ses paroles
+<ce>                     profanes. %god vous bénisse
+<ce>                     et vous garde, valeureux
+<ce>                     %ra. Voilà un petit symbole
+<ce>                     de l'estime de vos frères.
 
 RumorsDuringQuest:  [1005]
-Say what you want about _prophet_'s religion, but %g's a persuasive writer.
+Dites ce que vous voulez de la foi de _prophet_, mais c'est un écrivain persuasif.
 <--->
-__qgiver_ is real nervous about having a revolutionary like _prophet_ around.
+__qgiver_ est vraiment nerveux à l'idée d'avoir un révolutionnaire tel que _prophet_ dans les environs.
 <--->
-I read about _prophet_'s miracle in %g3 tract. I must say, it's persuasive.
+J'ai lu dans les tracts de _prophet_ des choses concernant ses miracles. Je dois dire que c'est persuasif.
 
 RumorsPostfailure:  [1006]
-_prophet_'s gone on to preach %g3 evangelium to the heathen folk of Tamriel.
+_prophet_ est parti prêcher ses évangiles aux peuples sauvages de Tamriel.
 <--->
-_prophet_'s left the Bay, but %g3 work is not yet complete.
+_prophet_ a quitté la Baie, mais ses travaux ne sont pas encore terminés.
 <--->
-_prophet_ may be the greatest leader to come out of __tavern_.
+Ce _prophet_ était un charlatan qui a trouvé quelques idiots à __tavern_.
 <--->
-_prophet_ spends %g3 time in %g3 room in _prophouse_, writing.
+_prophet_ passe son temps à écrire dans sa chambre de _prophouse_.
 <--->
-_prophet_ hasn't ever gotten on well with __qgiver_.
+_prophet_ ne s'est jamais bien entendu avec __qgiver_.
 
 RumorsPostsuccess:  [1007]
-That _prophet_ was a charlatan who found some fools in __tavern_.
+Ce _prophet_ était un charlatan qui a trouvé des imbéciles dans  __tavern_.
 
 QuestorPostsuccess:  [1008]
-For what thou hast done for the faith, I'd be happy to help thee.
+Après ce que vous avez fait pour notre foi, je serais heureux de vous aider.
 
 QuestorPostfailure:  [1009]
-I have nothing to say to thee, heretic of _prophet_.
+Je n'ai rien à vous dire, hérétique de _prophet_.
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of ___qgiver_
- has sent me to investigate the life of
- _prophet_, who claims to
- be a prophet. I am to ask about %g2
- in %g3 hometown, __tavern_.
- _contact_ is waiting for
- me there to give me %g3 further
- instructions. I am to meet %g2
- at _tavern_.
+ _qgiver_ de ___qgiver_
+ m'a envoyé enquêter sur la vie de
+ _prophet_ qui prétend être
+ un prophète. Je dois demander des
+ renseignements à son sujet dans sa ville natale,
+ __tavern_. _contact_ m'attend
+ là-bas pour me donner d'autres instructions.
+ Je dois rencontrer cette personne à _tavern_.
 
 Message:  1011
-    I scarcely remember my voyage to the place
- called ___mondung_: I expect I was
- still partly dreaming. Deep within the stinking
- recesses of the profaned temple, I was met with
- a great fire and from the flames I heard the
- same voice speak: "Welcome."
-      "Who art thou?" I addressed the flame.
-      "I am what __qgiver_ doth
- proclaim to worship, but with every act and
- thought defile my divinity. To thee I called
- so that a new __qgiver_ might be
- created, one led by truth and true insight,
- and understanding of my Being. The heathen
- need insight, and you shall be it."
-      The God told me more that day, but while
- the wicked __qgiver_ continues
- their policy of quashing any who dare to
- challenge their corrupted, contemptible
- theology, I must keep my tracts short. More
- will follow shortly hereafter.
+Je me rapelle à peine mon voyage vers
+le lieu appelé ___mondung_ : je suppose que
+je rêvais encore un peu. Au plus profond de la
+puanteur des recoins du temple impie j'ai trouvé
+un grand feu, et des flammes j'ai entendu la
+même voix me dire: "Bienvenue."
+  "Qui êtes-vous ?" ai-je demande aux flammes.
+  "Je suis ce que __qgiver_
+dit adorer, mais avec chacun de ses actes et
+chacune de ses pensées, il souille ma divinité.
+A vous je fais appel afin qu'un nouveau
+__qgiver_ puisse être créé, un ordre
+qui serait guidé par la vérité et la véritable
+intelligence et qui comprendrait mon Essence.
+Les païens ont besoin d'être guidés,
+vous pourriez être ce guide."
+  Le Dieu m'en a dit davantage ce jour-là, mais
+tant que le pervers __qgiver_ poursuit
+sa politique d'extermination contre tous ceux qui
+défient sa corrompue et méprisable théologie,
+mes tracts doivent rester les plus courts possibles.
+D'autres suivront d'ici peu.
 
 Message:  1012
                           __qgiver_
                            ___qgiver_
- 
+
  %pct %pcn,
- 
-      _priest_ has failed to
- meet with the man to whom %g was to report
- %g3 findings in ___mondung_.
- We must assume the worst.
-      You are hereby ordered to find either
- _priest_ %g2-self or %g3 body
- in ___mondung_ and report back
- to me. All other assignments and investigations
- take lower priority.
- 
+
+ _priest_ a manqué
+le rendez-vous avec la personne à qui il devait
+transmettre son rapport sur ses découvertes à
+___mondung_. Nous craignons le pire.
+ Par la présente, je vous ordonne de retrouver
+_priest_ en personne ou bien son corps
+dans ___mondung_, puis de revenir
+me faire votre rapport.
+Toutes les autres tâches et enquêtes
+deviennent secondaires.
+
 <ce>                               _qgiver_
 
 Message:  1013
-<ce>                 Ah hello, %pcf. Welcome to __tavern_.
-<ce>              The whole town's in a buzz about that young
-<ce>                     _prophet_. But %g isn't even
-<ce>                   here -- %g's in __prophouse_ at a
-<ce>                  tavern called _prophouse_, working
-<ce>               on a new tract about what this mysterious
-<ce>                     spirit of ___mondung_ had to
-<ce>                 say about the moral disintegration of
-<ce>                      __qgiver_. Here's a copy of
-<ce>                the original tractate, so you know what
-<ce>                      this _prophet_'s all about.
-<ce>              Dangerous character from what I've seen so
-<ce>                 far. I'm communicating with _lover_,
-<ce>                   a =lover_ in ___lover_ with whom
-<ce>                      _prophet_ had some kind of
-<ce>                relationship. It wouldn't be a bad idea
-<ce>                      for you to go to ___lover_
-<ce>                   and see if you can't persuade %g2
-<ce>                to talk to us. Hope all this is helpful
-<ce>                          information, %pcf.
+<ce>                 Ah salut, %pcf. Bienvenue à __tavern_.
+<ce>                 Toute la ville est en ébullition à cause de ce
+<ce>                 jeune _prophet_. Mais il n'est même pas
+<ce>                 là, il est à __prophouse_
+<ce>                 dans une taverne appelée _prophouse_,
+<ce>                 travaillant sur un nouveau tract à propos
+<ce>                 de ce que ce mystérieux esprit de
+<ce>                 ___mondung_ lui a dit au sujet
+<ce>                 de la dépravation morale de
+<ce>                 __qgiver_. Voici une copie du
+<ce>                 tract original, afin que vous sachiez
+<ce>                 tout au sujet de ce _prophet_. L'un
+<ce>                 des plus dangereux personnages que j'aie
+<ce>                 jamais vus. Je suis en contact avec _lover_,
+<ce>                 un =lover_ à ___lover_, avec qui
+<ce>                 _prophet_ a eu une sorte de... relation.
+<ce>                 Ce ne serait pas une mauvaise idée
+<ce>                 de vous rendre à ___lover_ et
+<ce>                 d'essayer de persuader cette personne
+<ce>                 de nous parler. J'espère que toutes
+<ce>                 ces informations vous seront
+<ce>                 utiles, %pcf.
 
 Message:  1014
                    _tavern_
                     __tavern_
- 
- 
- Dear %pcn,
- 
- 
-      There's been a horrible accident
- here at _tavern_, involving
- _contact_. Please come here
- when you can.
- 
- 
- Yours sincerely,
- 
+
+
+                    Cher %pcn,
+
+
+                         Il y a eu un terrible accident
+                    ici à _tavern_, concernant
+                    _contact_. S'il vous plaît, venez-ici
+                    dès que vous le pourrez.
+
+
+ Sincèrement,
+
  _replace_
 
 Message:  1015
@@ -188,230 +192,235 @@ Message:  1015
 <ce>                       letter and scurries off.
 
 Message:  1016
-<ce>                     %oth, %pcf, it was dreadful.
-<ce>                    The tavernkeep found _contact_
-<ce>                     in one of the rooms, %g3 body
-<ce>                    defiled in the most horrifying
-<ce>                     way, a grim parody of the old
-<ce>                       __qgiver_ mortuary rites.
-<ce>                         It was _prophet_, no
-<ce>                    doubt. This relic was found in
-<ce>                       _contact_'s chest cavity.
-<ce>                            See if _lover_
-<ce>                        in ___lover_ recognizes
-<ce>                                  it.
+<ce>                     %oth, %pcf, c'était horrible.
+<ce>                     Le tavernier a trouvé _contact_
+<ce>                     dans l'une des chambres, son corps
+<ce>                     contorsionné de la plus horrible des
+<ce>                     manières, une sinistre parodie des vieux
+<ce>                     rites mortaires de __qgiver_.
+<ce>                     C'est un coup de _prophet_, pas de doutes.
+<ce>                     Cette relique a été trouvée dans la
+<ce>                     poitrine de _contact_.
+<ce>                     Voyez si _lover_
+<ce>                     à ___lover_ reconnaît cet objet.
 
 Message:  1017
-_lover_ -- ah, poor =lover_. Well, %g keeps mostly to %g2self.
+_lover_ -- ah, pauvre =lover_. He bien, %g s'en veut surtout.
 <--->
-_lover_ is a =lover_ in __lover_. They say %g mourns for %g3 lost love.
+_lover_ est un =lover_ à __lover_. Il paraît qu'%g porte le deuil
+de son amour disparu.
 <--->
-No matter what anyone tells you, _lover_'s lover is not dead. Mad, not dead.
+Peu importe ce qu'on vous dit, l'amant de _lover_ n'est pas mort. Fou, mais pas mort.
 <--->
-_lover_ is one of the tragedies in ___lover_. They say %g3 lover went mad.
+_lover_ est l'une des tragédies de ___lover_. Il paraît que son Amour est devenu fou.
 
 Message:  1018
-<ce>                 Whatever they say, I never knew that
-<ce>                       _prophet_. Tell _contact_
-<ce>                       %g has the wrong =lover_.
+<ce>                 Quoiqu'on vous dise, Je n'ai jamais connu ce
+<ce>                _prophet_. Dites à _contact_
+<ce>                qu'%g ne s'intéresse pas au bon =lover_.
 
 Message:  1019
-<ce>                      _prophet_ would kill me if
-<ce>                   %g knew I was talking to you. But
-<ce>                  I know that you couldn't be working
-<ce>                   for %g2. Here's a letter %g wrote
-<ce>                   to me about a month ago. I think
-<ce>                        it explains everything.
+<ce>                      _prophet_ me tuerait s'il
+<ce>                     apprenait que je vous ai parlé. Mais
+<ce>                     je sais que vous ne pourriez pas être à
+<ce>                     sa solde. Voici une lettre qu'%g m'a écrite
+<ce>                     il y a environ un mois. Je pense
+<ce>                     que ça explique tout.
 
 Message:  1020
-<ce>                      _relartifact_! %oth, that's
-<ce>                      poor _prophet_'s property.
-<ce>                     %oth, I knew %g was unstable,
-<ce>                but I never thought %g'd really do it.
-<ce>                      %oth, poor _contact_. If I
-<ce>                  had helped %g2, %g'd still be alive
-<ce>                  today. This won't make up for what
-<ce>                 I've done by failing to act, but you
-<ce>                will know what to do with this letter.
-<ce>                         May %god forgive me.
+<ce>                      _relartifact_ ! %oth, cela
+<ce>                     appartient au pauvre _prophet_.
+<ce>                     %oth, je savais qu'%g était instable,
+<ce>                     mais je n'aurais jamais cru qu'%g en arriverait là.
+<ce>                     %oth, pauvre _contact_. Si je l'avais aidé,
+<ce>                     %g serait toujours en vie aujourd'hui.
+<ce>                     Cela ne rachètera pas ce que
+<ce>                     j'ai fait en n'agissant pas, mais vous
+<ce>                     saurez ce que vous devez faire après
+<ce>                     avoir lu cette lettre.
+<ce>                     Puisse %god me pardonner.
 
 Message:  1021
-_lover_, My Love,
- 
- 
-      First, forgive the silence of your
- love. It was not another attack of brain
- fever. For some months now, I have been
- in spiritual turmoil, unfit to for any
- company, even for the comfort of your
- dulcet fellowship. My days of pain are
- over, but for this -- I can never see you
- again. My life has a higher purpose than
- the fulfillment of a ridiculous love affair
- now.
-      No longer can I suffer the evil of
- __qgiver_, the evil they did
- to me, and the evil they are doing to all
- of Tamriel. The days the prophet Marukh
- spoke of are on us again. I must rally the
- people by any and all lies, innuendo, bigotry,
- and threats to rise against the spiritual
- tyranny of __qgiver_.
-     Forgive me, my former love. And if you
- can, forget me. And if you can do neither,
- do not see me. If you do, I will slay you
- and stick candles in your eyes and twine
- your organs with beads for the greater
- glory of the gods of the universe. Filthy
- =lover_, torment me no longer.
- 
+_lover_, Mon Amour,
+
+
+      D'abord, pardonnez mon silence.
+ Il n'était pas dû à une autre migraine.
+ Depuis quelques mois maintenant, je suis
+ plongé dans un trouble spirituel, ne pouvant
+ souffrir aucune compagnie, même l'agréable
+ réconfort de votre présence. Mes jours de
+ peine sont terminés, mais pour cela...
+ Je ne pourrai plus jamais vous revoir.
+ Ma vie a maintenant un plus grand but que
+ l'accomplissement d'une ridicule affaire de
+ coeur.
+      Je ne peux plus supporter la perversion
+ de __qgiver_, le mal qu'il m'a fait,
+ et le mal qu'il fait à toute la population de
+ Tamriel. Les jours dont le prophète Marukh
+ nous a parlé reviendront bientôt. Je dois rallier
+ le peuple par tout les moyens, que ce soit
+ par mensonge, insinuation, bigoterie
+ ou traitrise, pour les monter contre la tyrannie
+ spirituelle de __qgiver_.
+     Pardonnez-moi, mon ancien Amour. Et si vous
+ le pouvez, oubliez-moi. Si vous ne pouvez faire
+ ni l'un ni l'autre, ne cherchez pas à me revoir. Si
+ vous persistez, je vous tuerai et j'enfoncerai des
+ bougies dans vos orbites et ficèlerai vos
+ organes avec des perles pour la plus grande gloire
+ des dieux de l'univers. Sale
+ =lover_, ne me tourmente pas plus longtemps !
+
 <ce>                               _prophet_
 
 Message:  1022
-It used to be used in __qgiver_ burial rituals.
+On l'utilisait dans les rites funéraires de __qgiver_.
 
 Message:  1023
-_replace_ is that =replace_. Affiliated with __qgiver_ somehow.
+_replace_ est ce =replace_. De mèche avec avec __qgiver_ d'une manière ou d'une autre.
 <--->
-_replace_ was an old friend of _contact_ before the ... accident.
+_replace_ était un vieil ami de _contact_ avant ... l'accident.
 
 Message:  1024
-<ce>                        Oh! That's _prophet_'s
-<ce>                       _relartifact_! %oth, poor
-<ce>                       _contact_. Why don't you
-<ce>                    bring that letter I gave you to
-<ce>                         someone at __qgiver_?
-<ce>                  Surely, that is enough to discredit
-<ce>                         _prophet_, isn't it?
+<ce>                       Oh ! Il s'agit du _relartifact_
+<ce>                     de _prophet_ ! %oth, pauvre
+<ce>                     _contact_. Pourquoi ne pas
+<ce>                     apporter cette lettre que je vous
+<ce>                     ai donnée à quelqu'un de
+<ce>                     __qgiver_?
+<ce>                     Assurement, cela suffira a discréditer
+<ce>                     _prophet_, n'est-ce pas ?
 
 Message:  1025
-<ce>                       %pcf, I thought that you
-<ce>                   were supposed to be investigating
-<ce>                      the situation in __tavern_.
-<ce>                     Well, as long as you're here,
-<ce>                    I have something different for
-<ce>                    you to do. I've found some torn
-<ce>                   up letters, scraps really, about
-<ce>                          a =lover_ somewhere
-<ce>                          in ___lover_ by the
-<ce>                        name of _lover_. See if
-<ce>                   you can't find something on %g2.
-<ce>                    I don't know if %g'll talk, but
-<ce>                           it's worth a try.
+<ce>                      %pcf, je pensais que vous
+<ce>                      deviez enquêter sur la
+<ce>                      situation à __tavern_.
+<ce>                      Mais bon, puisque vous êtes ici,
+<ce>                      j'ai quelque chose de différent
+<ce>                      à vous proposer. J'ai trouvé des
+<ce>                      lettres déchirées, complètement en
+<ce>                      morceaux, concernant un =lover_
+<ce>                      quelque part à ___lover_, du
+<ce>                      nom de _lover_. Voyez si vous
+<ce>                      pouvez trouver quelque chose sur %g2.
+<ce>                      J'ignore si %g acceptera de parler, mais
+<ce>                      cela vaut le coup d'essayer.
 
 Message:  1026
-<ce>                     You pick up a scrap of flesh,
-<ce>               carefully, even ritually ritualistically
-<ce>                      stripped from a =priest_'s
-<ce>                    hand. This was once a finger of
-<ce>                               _priest_.
+<ce>                     Vous prélevez un morceau de chair avec
+<ce>                     précaution, enveloppé de façon très rituelle
+<ce>                     dans la main d'un =priest_.
+<ce>                     Ce fut autrefois un doigt de  _priest_.
 
 Message:  1027
-Truly nauseating.
+Vraiment dégoûtant.
 <--->
-A hacked off finger.
+Un doigt coupé.
 <--->
-A chunk of somebody's hand.
+Un morceau de la main de quelqu'un.
 <--->
-Extremely tasteless.
+Extremêment insipide.
 <--->
-Not bad with a little salt and honey.
+Pas si mauvais avec un peu de sel et de miel...
 <--->
-It looks like an old __qgiver_ ceremony. They used to do that to corpses.
+Cela ressemble à une vieille cérémonie de __qgiver_. On faisait cela aux cadavres.
 <--->
-When in __qgiver_, _prophet_ used to disect cadavers just that precisely.
+A __qgiver_, _prophet_ avait l'habitude de disséquer des cadavres de manière très précise.
 <--->
-__qgiver_ abandoned that kind of funereal disection, but _prophet_ espouses it.
+__qgiver_ a abandonné ce genre de dissection funéraire, mais _prophet_ les affectionne.
 
 Message:  1028
-<ce>                        It was nice of _priest_
-<ce>                  to give me a hand, don't you think?
+<ce>                     C'était sympa de la part de _priest_
+<ce>                     de me donner un coup de main, ne
+<ce>                     trouvez-vous pas?
                                      <--->
-<ce>                   %oth, what was I supposed to do?
-<ce>                        _priest_ threatened to
-<ce>                         finger me, after all.
+<ce>                  %oth, qu'étais-je supposé faire ?
+<ce>                  _priest_ menacait de
+<ce>                  s'en prendre à moi, après tout.
                                      <--->
-<ce>                  What an amusing plaything you have,
-<ce>                       %pcf. See how it points.
+<ce>                 Quel amusant joujou vous avez,
+<ce>                 %pcf. Voyez comme il pointe.
 
 Message:  1029
-<ce>                    How they come to persecute me.
-<ce>                  Abandon your unholy abuse, hound of
-<ce>                         __qgiver_. I am under
-<ce>                   protection of my god ... and the
-<ce>                              %t of %reg.
+<ce>                   Comment osez vous me persécuter de la sorte !
+<ce>                  Cessez vos outrages sacrilèges, chien de
+<ce>                  __qgiver_. Je suis sous
+<ce>                  la protection de mon dieu... et le
+<ce>                  %t de %reg.
 
 Message:  1030
-<ce>                       _lover_! False creature,
-<ce>                      deceiver! How %g will pay!
-<ce>                            =fighter_, deal
-<ce>                            with this %ra!
+<ce>                       _lover_! Horrible créature
+<ce>                       menteuse ! %g va payer !
+<ce>                       =fighter_, occupez-vous
+<ce>                       de ce %ra !
 
 Message:  1031
-<ce>                       Thank %god, I was afraid
-<ce>                      I had lost that. Thank you,
-<ce>                               good %ra.
+<ce>                      Merci %god, j'ai eu peur
+<ce>                     d'avoir perdu ceci. Merci,
+<ce>                     mon bon %ra.
 
 Message:  1032
 %qdt:
- _contact_ tells
- me that _prophet_ is in
- _prophouse_ in __prophouse_,
- but it might be a good idea to go
- visit a =lover_ named
- _lover_ in ___lover_.
- _contact_ doesn't know the
- relationship between the two,
- but it's worth investigating.
+ _contact_ m'a
+ dit que _prophet_ est à
+ _prophouse_ de la ville de __prophouse_,
+ mais ce serait une bonne idée d'aller
+ rendre visite à un =lover_ appelé
+ _lover_, à ___lover_.
+ _contact_ ignore quelle
+ sorte de relations ils entretenaient,
+ mais ça vaudrait le coup d'enquêter.
 
 Message:  1033
 %qdt:
- _priest_ told
- me that the name _lover_
- and the town ___lover_
- were found on several scraps of
- paper in ___mondung_,
- bearing investigation.
+ _priest_ m'a appris
+ que le nom de _lover_
+ et la ville de ___lover_
+ ont été trouvés sur plusieurs
+ morceaux de papiers
+ dans ___mondung_,
+ ce qui me pousse à enquêter.
 
 Message:  1034
 %qdt:
- _replace_ told
- me about the ritualistic murder of
- _contact_ and gave me
- some _relartifact_ found on
- the body. _replace_
- suggested that I go to ___lover_,
- show it to _lover_,
- and see if it convinces %g2
- to speak to me.
+ _replace_ m'a donné des
+ informations sur le meurtre rituel de
+ _contact_ et m'a confié
+ un _relartifact_ trouvé
+ sur le corps. _replace_
+ m'a suggéré d'aller à ___lover_,
+ de montrer cet objet à _lover_,
+ et de voir si cela peut convaincre
+ cette personne de me parler.
 
 Message:  1035
 %qdt:
- I just read a letter
- that _prophet_ sent _lover_
- a month ago and %g gave me. The
- letter should thoroughly
- discredit _prophet_
- to any and all of %g3 potential
- converts. The =prophet_
- was mad as a monkey.
+ Je viens de lire une lettre
+ que _prophet_ a envoyée à _lover_
+ il y a un mois, et qu'%g vient de me donner.
+ Cette lettre devrait complètement
+ discréditer _prophet_
+ aux yeux de tous ses convertis
+ potentiels. Ce =prophet_
+ est aussi dérangé qu'un singe.
 
 Message:  1036
 %qdt:
- I received a letter
- from _qgiver_ telling
- me to get to ___mondung_
- and see what happened to the priest,
- _priest_. I am to either
- find the =priest_ or
- evidence of %g3 death.
+ J'ai reçu une lettre de
+ _qgiver_ me disant de me
+ rendre à __mondung_ et de
+ découvrir ce qui est arrivé au prêtre,
+ _priest_. Je dois trouver
+ ce =priest_ ou sinon
+ une preuve de sa mort.
 
 Message:  1037
 %qdt:
- I found a finger which I presume was once attached
- to _priest_. It was curiously,
- even ceremoniously severed.
- 
+ J'ai trouvé un doigt qui devait, je présume, appartenir
+ à _priest_. Il était curieusement coupé,
+ de façon très cérémonieuse.
 
 
 -- Symbols used in the QRC file:
@@ -485,123 +494,123 @@ Clock _S.16_ 05:00 11:40
 Foe _fighter_ is Warrior
 
 --	Quest start-up:
-	dialog link for location _prophouse_ person _replace_ item _relartifact_ 
-	dialog link for person _priest_ 
-	dialog link for person _lover_ 
-	dialog link for person _replace_ 
-	dialog link for item _finger_ 
-	start timer _S.04_ 
-	start timer _S.14_ 
-	start timer _queston_ 
-	reveal _mondung_ 
-	log 1010 step 0 
-	_letter9_ used do _readletter_ 
-	create npc _lover_ 
-	place npc _contact_ at _tavern_ 
-	place npc _prophet_ at _prophouse_ 
-	place npc _priest_ at _mondung_ 
+	dialog link for location _prophouse_ person _replace_ item _relartifact_
+	dialog link for person _priest_
+	dialog link for person _lover_
+	dialog link for person _replace_
+	dialog link for item _finger_
+	start timer _S.04_
+	start timer _S.14_
+	start timer _queston_
+	reveal _mondung_
+	log 1010 step 0
+	_letter9_ used do _readletter_
+	create npc _lover_
+	place npc _contact_ at _tavern_
+	place npc _prophet_ at _prophouse_
+	place npc _priest_ at _mondung_
 
 _queston_ task:
-	end quest 
+	end quest
 
 _pcgetsgold_ task:
-	toting _letter9_ and _qgiver_ clicked 
-	toting _finger_ and _qgiver_ clicked 
-	give pc _reward_ 
-	end quest 
+	toting _letter9_ and _qgiver_ clicked
+	toting _finger_ and _qgiver_ clicked
+	give pc _reward_
+	end quest
 
 variable _S.02_
 _S.03_ task:
-	clicked npc _contact_ 
-	add dialog for location _prophouse_ person _lover_ 
-	log 1032 step 1 
-	get item _letter7_ 
-	say 1013 
-	clear _S.06_ 
+	clicked npc _contact_
+	add dialog for location _prophouse_ person _lover_
+	log 1032 step 1
+	get item _letter7_
+	say 1013
+	clear _S.06_
 
 _S.04_ task:
-	start timer _S.06_ 
-	hide npc _contact_ 
-	place npc _replace_ at _tavern_ 
+	start timer _S.06_
+	hide npc _contact_
+	place npc _replace_ at _tavern_
 
 variable _S.05_
 _S.06_ task:
-	give pc _letter8_ notify 1015 
+	give pc _letter8_ notify 1015
 
 _S.07_ task:
-	clicked npc _replace_ 
-	add dialog for person _lover_ item _relartifact_ 
-	log 1034 step 3 
-	get item _relartifact_ 
-	say 1016 
+	clicked npc _replace_
+	add dialog for person _lover_ item _relartifact_
+	log 1034 step 3
+	get item _relartifact_
+	say 1016
 
 _S.08_ task:
-	clicked npc _lover_ 
-	repute with _lover_ exceeds 5 do _S.09_ 
+	clicked npc _lover_
+	repute with _lover_ exceeds 5 do _S.09_
 
 _S.09_ task:
-	get item _letter9_ 
-	say 1019 
+	get item _letter9_
+	say 1019
 
 _S.10_ task:
-	toting _relartifact_ and _lover_ clicked 
+	toting _relartifact_ and _lover_ clicked
 
 _S.11_ task:
-	when _S.10_ and not _S.09_ 
-	get item _letter9_ 
-	say 1020 
-	clear _S.08_ 
+	when _S.10_ and not _S.09_
+	get item _letter9_
+	say 1020
+	clear _S.08_
 
 _S.12_ task:
-	when _S.10_ and _S.09_ 
-	say 1024 
+	when _S.10_ and _S.09_
+	say 1024
 
 _S.13_ task:
-	when _S.08_ and not _S.09_ 
-	say 1018 
+	when _S.08_ and not _S.09_
+	say 1018
 
 _S.14_ task:
-	place item _finger_ at _mondung_ 
-	start timer _S.16_ 
-	hide npc _priest_ 
+	place item _finger_ at _mondung_
+	start timer _S.16_
+	hide npc _priest_
 
 _S.15_ task:
-	clicked npc _priest_ 
-	add dialog for person _lover_ 
-	log 1033 step 2 
-	say 1025 
+	clicked npc _priest_
+	add dialog for person _lover_
+	log 1033 step 2
+	say 1025
 
 _S.16_ task:
 	have _letter_ set _S.16a_
-	give pc _letter_ notify 1015 
+	give pc _letter_ notify 1015
 
 _S.16a_ task:
-	log 1036 step 5 
+	log 1036 step 5
 --this log was getting written too soon
 
 _S.17_ task:
-	clicked item _finger_ 
-	add dialog for item _finger_ 
-	log 1037 step 6 
-	say 1026 
+	clicked item _finger_
+	add dialog for item _finger_
+	log 1037 step 6
+	say 1026
 
 _S.18_ task:
-	clicked npc _prophet_ 
-	say 1029 
+	clicked npc _prophet_
+	say 1029
 
 _S.19_ task:
-	toting _finger_ and _prophet_ clicked 
-	say 1028 
+	toting _finger_ and _prophet_ clicked
+	say 1028
 
 _S.20_ task:
-	toting _letter9_ and _prophet_ clicked 
-	hide npc _prophet_ 
-	say 1030 
-	place foe _fighter_ at _prophouse_ 
+	toting _letter9_ and _prophet_ clicked
+	hide npc _prophet_
+	say 1030
+	place foe _fighter_ at _prophouse_
 
 _S.21_ task:
-	toting _relartifact_ and _prophet_ clicked 
-	say 1031 
+	toting _relartifact_ and _prophet_ clicked
+	say 1031
 
 _readletter_ task:
-	log 1035 step 4 
+	log 1035 step 4

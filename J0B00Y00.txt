@@ -11,72 +11,71 @@ DisplayName: The Bounty
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                If you are available for employment, I
-<ce>                 may a job for you. It's a messy little
-<ce>                  affair, involving punishing a thief.
-<ce>               It will mean a _reward_ gold piece reward.
-<ce>                 Sounds like something you'd be at all
-<ce>                             interested in?
+<ce>                Si vous êtes disponible pour une mission, il
+<ce>                se pourrait que j'aie un travail pour vous. C'est une
+<ce>                affaire un peu compromettante, qui implique de punir
+<ce>                un voleur. Il y aura _reward_ pièces d'or en récompense.
+<ce>                Vous pensez que cela pourrait vous intéresser ?
 
 RefuseQuest:  [1001]
-<ce>                Disappointing. Well, we'll find someone
-<ce>                           else doubtlessly.
+<ce>               Décevant. Bien, nous trouverons
+<ce>               quelqu'un d'autre, sans aucun doute.
 
 AcceptQuest:  [1002]
-<ce>                We seldom take a vigilante stand in our
-<ce>                   affairs, but in this case, we feel
-<ce>                 justified. This thief, you see, stole
-<ce>                 directly from one of our caravans and
-<ce>                is ransoming us for use of the highway.
-<ce>               Such nerve. You will find the little thug
-<ce>                    in a hideout called ___mondung_.
-<ce>                      Be back in =1stparton_ days.
+<ce>                Il est rare que nous nous fassions justice dans
+<ce>                nos affaires, mais dans le cas présent, nous
+<ce>                pensons que c'est justifié. Ce voleur, voyez-vous, a
+<ce>                volé directement dans l'une de nos caravanes et
+<ce>                nous rançonne pour l'utilisation de la grand route.
+<ce>                Très énervant. Vous trouverez le petit escroc
+<ce>                dans une cachette appelée ___mondung_.
+<ce>                Soyez de retour dans =1stparton_ jours.
 
 QuestFail:  [1003]
-<ce>                    You had best move along, %pcf.
-<ce>                     You only have =1stparton_ days
-<ce>                          to kill that crook.
+<ce>                   Vous feriez mieux de vous remuer, %pcf.
+<ce>                   Vous n'avez que =1stparton_ jours
+<ce>                   pour tuer cet escroc.
 
 QuestComplete:  [1004]
-<ce>                         Very good job, %pcf.
-<ce>                     That ought to discourage other
-<ce>                    highwaymen. Here's your _reward_
-<ce>                            gold. Thank you.
+<ce>                        Très bon travail, %pcf.
+<ce>                        Cela devrait décourager d'autres
+<ce>                        bandits. Voici vos _reward_
+<ce>                        pièces d'or. Merci.
 
 RumorsDuringQuest:  [1005]
-That footpad is single-handedly ruining the economy.
+A lui tout seul, ce bandit est en train de ruiner l'économie.
 <--->
-<ce>         They think that highwayman is a thief, but the crook
-<ce>                    is highly trained with a blade.
+<ce>         Ils pensent que ce bandit de grands chemins est un voleur,
+<ce>          mais le malfaiteur est très habile avec une épée.
 
 RumorsPostfailure:  [1006]
-That robber moved to a different hideout, but the roads still aren't safe.
+Ce bandit est parti vers une autre cachette, mais les routes ne sont toujours pas sûres.
 <--->
-I don't know why they can't arrest that highwayman. It ought to be easy.
+Je ne comprends pas pourquoi ils ne parviennent pas a arrêter ce bandit de grands chemins. Ca devrait être facile.
 
 RumorsPostsuccess:  [1007]
-The merchants are pretty happy that they finally got that thief.
+Les marchants sont plutôt contents d'avoir finalement attrapé ce voleur.
 <--->
-I don't care that they got that nightblade. The roads still aren't safe.
+Je me fiche qu'ils aient attrapé ce criminel. Les routes ne sont pas plus sûres pour autant.
 
 QuestorPostsuccess:  [1008]
-Of course I'll chat with you, %pcf. I remember those highwaymen you killed.
+Bien sûr que je vais discuter avec vous, %pcf. Je me rappelle ces bandits que vous avez tués.
 
 QuestorPostfailure:  [1009]
-The Resolution continues to lose gold to those highwaymen. Not very amusing.
+La Résolution continue de se faire dérober son or par ces bandits de grands chemins. Pas très amusant.
 
 Message:  1020
-<ce>                   You must be from the Resolution.
-<ce>                     Prepare to die, bounty hunter!
+<ce>                   Vous devez être envoyé par la Résolution.
+<ce>                   Préparez-vous à mourir, chasseur de prime !
 
 Message:  1030
 %qdt:
- The Resolution of Zenithar
- has sent me to kill a thief who has been ransacking
- their caravans. ___mondung_ is
- the crook's hideout. I need to
- kill the thief and be back at
- ___questgiver_ in =1stparton_ days.
+La Résolution de Zenithar
+m'a envoyé tuer un voleur qui a rançonné
+leurs caravanes. ___mondung_ est
+le repaire de cet escroc. Je dois
+tuer le voleur et être de retour
+à ___questgiver_ dans =1stparton_ jours.
 
 
 -- Symbols used in the QRC file:
@@ -103,47 +102,47 @@ Foe _monster3_ is Thief
 Foe _monster4_ is Spellsword
 
 --	Quest start-up:
-	start timer _1stparton_ 
-	reveal _mondung_ 
-	log 1030 step 0 
-	pick one of _S.05_ _S.06_ _S.07_ _S.08_ 
+	start timer _1stparton_
+	reveal _mondung_
+	log 1030 step 0
+	pick one of _S.05_ _S.06_ _S.07_ _S.08_
 
 _pcgetsgold_ task:
-	when _qgclicked_ and _mondead_ 
-	give pc _reward_ 
-	end quest 
+	when _qgclicked_ and _mondead_
+	give pc _reward_
+	end quest
 
 _mondead_ task:
-	killed 1 _monster4_ 
-	killed 1 _monster2_ 
-	killed 1 _monster1_ 
-	killed 1 _monster3_ 
+	killed 1 _monster4_
+	killed 1 _monster2_
+	killed 1 _monster1_
+	killed 1 _monster3_
 
 _qgclicked_ task:
-	clicked npc _questgiver_ 
+	clicked npc _questgiver_
 
 _1stparton_ task:
-	end quest 
+	end quest
 
 _clearclick_ task:
 	when _qgclicked_ and not _mondead_
-	say 1003 
-	clear _qgclicked_ _clearclick_ 
+	say 1003
+	clear _qgclicked_ _clearclick_
 
 _S.05_ task:
-	place foe _monster1_ at _mondung_ 
+	place foe _monster1_ at _mondung_
 
 _S.06_ task:
-	place foe _monster2_ at _mondung_ 
+	place foe _monster2_ at _mondung_
 
 _S.07_ task:
-	place foe _monster3_ at _mondung_ 
+	place foe _monster3_ at _mondung_
 
 _S.08_ task:
-	place foe _monster4_ at _mondung_ 
+	place foe _monster4_ at _mondung_
 
 _S.09_ task:
-	injured _monster4_ saying 1020 
-	injured _monster3_ saying 1020 
-	injured _monster2_ saying 1020 
-	injured _monster1_ saying 1020 
+	injured _monster4_ saying 1020
+	injured _monster3_ saying 1020
+	injured _monster2_ saying 1020
+	injured _monster1_ saying 1020

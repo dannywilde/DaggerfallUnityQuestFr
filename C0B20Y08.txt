@@ -11,73 +11,72 @@ DisplayName: The Rite of Atonement
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                 They tell me that you quite loyal to
-<ce>                 the temple. I need you perform a vital
-<ce>                   task for us. %god has become angry
-<ce>                 with us. You need not concern yourself
-<ce>                  with why. Our only hope is to hold a
-<ce>                rite of atonement. We need _ingredient_
-<ce>                  for the ceremony. My sources tell me
-<ce>                 that some can be found in ___dungeon_.
-<ce>                        Will you bring it to us?
+<ce>                 On m'a dit que vous étiez relativement loyal
+<ce>                 au temple. J'ai besoin que vous remplissiez une
+<ce>                 tâche vitale pour nous. %god est mécontent
+<ce>                 de nous. Ne vous souciez pas de savoir
+<ce>                 pourquoi. Notre seul espoir est d'accomplir
+<ce>                 un rite d'expiation. Nous avons besoin de _ingredient_
+<ce>                 pour la cérémonie. Mes sources m'ont appris
+<ce>                 qu'on peut en trouver dans ___dungeon_.
+<ce>                 Nous en rapporterez-vous ?
 
 RefuseQuest:  [1001]
-<ce>                      Your loyalty to the temple
-<ce>                        is not what I thought it
-<ce>                               was, %pcn.
+<ce>                      Votre loyauté au temple
+<ce>                      n'est pas ce que je pensais,
+<ce>                      %pcn.
 
 AcceptQuest:  [1002]
-<ce>                       The ceremony must be held
-<ce>                     within =traveltime_ days. The
-<ce>                         temple will reward you
-<ce>                       with _gold_ gold for this.
-<ce>                      Only untainted _ingredient_
-<ce>                        will do. %god's blessing
-<ce>                        is upon you so that you
-<ce>                         will know it when you
-<ce>                                find it.
+<ce>                       La cérémonie doit se tenir dans
+<ce>                       moins de =traveltime_ jours. Le
+<ce>                       temple vous récompensera
+<ce>                       avec _gold_ pièces d'or pour cela.
+<ce>                       Seul du pur _ingredient_
+<ce>                       fera l'affaire. La bénédiction de
+<ce>                       %god est sur vous, il vous
+<ce>                       indiquera lorsque vous aurez
+<ce>                       trouvé ce que vous cherchez.
 
 QuestComplete:  [1004]
-<ce>                      You have it? _ingredient_!
-<ce>                         %god will be pacified.
-<ce>                      You have done well. Here is
-<ce>                              your reward.
+<ce>                      L'avez-vous ? _ingredient_ !
+<ce>                      %god va se calmer.
+<ce>                      Vous avez réussi. Voilà
+<ce>                      votre récompense.
 
 RumorsDuringQuest:  [1005]
-Things have been rather ... tense around __qgiver_ lately.
+Les choses sont plutôt... tendues autour de __qgiver_ dernièrement.
 <--->
-There was supposedly an unauthorized orgy in __qgiver_.
+Il y a eu apparemment une orgie non-autorisée à __qgiver_.
 <--->
-Someone spoke %god's name backwards in a ceremony at __qgiver_.
+Quelqu'un a prononcé le nom de %god à l'envers à une cérémonie de __qgiver_.
 
 RumorsPostfailure:  [1006]
-__qgiver_ is still out of favor with their god.
+__qgiver_ n'est toujours pas dans les faveurs de son dieu.
 
 RumorsPostsuccess:  [1007]
-__qgiver_ is back in favor with their god.
+__qgiver_ est de nouveau dans les faveurs de son dieu.
 
 QuestorPostsuccess:  [1008]
-You have pacified %god, %pct. Of course, how can I help you?
+Vous avez apaisé %god, %pct. Bien sûr, que puis-je faire pour vous ?
 
 QuestorPostfailure:  [1009]
-While %god hates __qgiver_, I shall hate thee, %pct.
+Tel que %god hait __qgiver_, je devrais vous hair, %pct.
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of __qgiver_,
- in ___qgiver_, told me that %g3 god was
- angered. %g needs untainted
- _ingredient_ from ___dungeon_
- for a rite of atonement. It
- must be in _qgiver_'s
- hands at __qgiver_
- within =traveltime_ days.
+_qgiver_ de __qgiver_,
+à ___qgiver_, m'a dit que son Dieu
+était en colère. Je dois trouver l'ingrédient
+_ingredient_ immaculé dans ___dungeon_
+pour un rite d'apaisement. Je dois remettre
+l'ingrédient dans les mains de _qgiver_
+en moins de =traveltime_ jours.
 
 Message:  1011
-<ce>                      This is it! I can feel the
-<ce>                      purity of the _ingredient_.
-<ce>                         Now to get it back to
-<ce>                               _qgiver_.
+<ce>                     C'est cela ! Je peux sentir la
+<ce>                     pureté de ce _ingredient_.
+<ce>                     Maintenant, je le ramène à
+<ce>                     _qgiver_.
 
 
 -- Symbols used in the QRC file:
@@ -107,18 +106,18 @@ Clock _traveltime_ 00:00 0 flag 17 range 0 2
 
 
 --	Quest start-up:
-	place item _ingredient_ at _dungeon_ 
-	start timer _traveltime_ 
-	reveal _dungeon_ 
-	log 1010 step 0 
+	place item _ingredient_ at _dungeon_
+	start timer _traveltime_
+	reveal _dungeon_
+	log 1010 step 0
 
 _traveltime_ task:
-	end quest 
+	end quest
 
 _questdone_ task:
-	toting _ingredient_ and _qgiver_ clicked 
-	give pc _gold_ 
-	end quest 
+	toting _ingredient_ and _qgiver_ clicked
+	give pc _gold_
+	end quest
 
 _S.02_ task:
-	clicked item _ingredient_ say 1011 
+	clicked item _ingredient_ say 1011

@@ -11,111 +11,110 @@ DisplayName: The Relic
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                     %pct, __questgiver_ needs you
-<ce>                  for a dangerous mission to retrieve
-<ce>                    one of the lost _item_s of %god.
-<ce>                    You will have to defy the power
-<ce>                    of =lich_, its creator who then
-<ce>                   betrayed the temple and sank into
-<ce>                   evil.  He is now a lich, and still
-<ce>                  guards the _item_.  Are you willing?
+<ce>                    % pct, __questgiver_ a besoin de vous
+<ce>                    pour une mission dangereuse, récupérer
+<ce>                    l'un des _item_s perdus de% god.
+<ce>                    Vous devrez défier le pouvoir
+<ce>                    de = lich_, son créateur qui a
+<ce>                    trahi le temple et sombré du côté obscure.
+<ce>                    c'est une liche à présent, et possède
+<ce>                    toujours le _item_. Êtes-vous prêt à en découdre?
 
 RefuseQuest:  [1001]
-<ce>                  I understand.  A lich is a fearsome
-<ce>                   opponent for one of your youth and
-<ce>                     inexperience.  Perhaps as you
-<ce>                      mature you will take up this
-<ce>                       again.  %god go with you.
+<ce>                  Je comprends. Une liche est un redoutable
+<ce>                  adversaire pour quelqu'un tel que vous, jeune et
+<ce>                  inexpérimenté. Lorsque  vous serez plus expérimenté,
+<ce>                  vous reviendrez peut-être nous aider à rédoudre
+<ce>                  cette mission. %god soit avec vous.
 
 AcceptQuest:  [1002]
-<ce>                  I admire your courage, but tremble
-<ce>                  to think of the danger you are about
-<ce>                   to face.  =lich_ guards his _item_
-<ce>                   of %god in ___mondung_.  Remember,
-<ce>                   there is no need to slay the lich,
-<ce>                  just retrieve the _item_ and return
-<ce>                       it to __questgiver_ here.
-<ce>                     If we have no word from you in
-<ce>                    =qtime_ days, we will chant the
-<ce>                     Song of the Departed for you.
-<ce>                    %god's blessings upon you, %pcn.
+<ce>                 J'admire votre courage, mais tremble
+<ce>                 à l'idée du danger que vous courez
+<ce>                 à faire face à. =lich_ garde son _item_
+<ce>                 de %god dans ___mondung_. Rappellez-vous,
+<ce>                 il n'est pas nécessaire de tuer la liche,
+<ce>                 récupérez simplement l'objet et rapportez
+<ce>                 le à __questgiver_ ici.
+<ce>                 Si nous n'avons aucune nouvelle de vous
+<ce>                 d'ici =qtime_ jours, nous chanterons la
+<ce>                 Chanson des défunts pour vous.
+<ce>                 Que %god vous bénisse, %pcn.
 
 QuestFail:  [1003]
-<ce>                I understand your reluctance to depart,
-<ce>                    %pcf, but waiting will not make
-<ce>                          the danger any less.
+<ce>                Je comprends votre réticence à partir,
+<ce>                %pcf, mais attendre ne diminue pas le danger.
 
 QuestComplete:  [1004]
-<ce>                   Praise to great %god!  I had not
-<ce>                    allowed myself to hope that you
-<ce>                        would actually succeed.
-<ce>                     %god's favor will surely shine
-<ce>                     upon you for this deed.  As a
-<ce>                      small token of the Temple's
-<ce>                     gratitude, please accept this
-<ce>                          enchanted _reward_.
+<ce>                  Gloire au grand %god! Je ne m'étais
+<ce>                  pas permis d'espérer que tu
+<ce>                  réussirait réellement.
+<ce>                  la faveur de %god brillera sûrement
+<ce>                  sur vous pour cet acte. Comme une
+<ce>                  preuve de la gratitude du Temple,
+<ce>                  veuillez accepter ce
+<ce>                   _recompense_ enchanté.
 
 RumorsDuringQuest:  [1005]
-<ce>        __questgiver_ hopes to recover their long-lost _item_,
-<ce>        but who will they find willing to face the lich =lich_?
+<ce>        __questgiver_ espère récupérer son _item_ perdu depuis longtemps,
+<ce>        mais qui trouveront-ils prêts à affronter la =liche_ ?
 
 RumorsPostfailure:  [1006]
-<ce>            I hear that __questgiver_ now believes that the
-<ce>               _item_ was never in ___mondung_ after all.
+<ce>           J'entends que __questgiver_ croit maintenant que le
+<ce>            _item_ n'a jamais été dans ___mondung_ en fin de compte.
 
 RumorsPostsuccess:  [1007]
-<ce>         Did you hear about the %ra who went into ___mondung_
-<ce>               and returned with __questgiver_'s _item_?
+<ce>         Avez-vous entendu parler du %ra qui est entré dans ___mondung_
+<ce>         et revenu avec _item_ de __questgiver_?
 
 QuestorPostsuccess:  [1008]
-<ce>                %pcf, you are always welcome here after
-<ce>                         you braved that lich!
+<ce>                %pcf, vous êtes toujours le bienvenu ici après
+<ce>                vous avez bravé cette liche!
 
 QuestorPostfailure:  [1009]
-<ce>              I do not blame you for failing to retrieve
-<ce>                 our _item_ from ___mondung_, but I am
-<ce>              disappointed that you accepted an assignment
-<ce>                      that you could not complete.
+<ce>              Je ne vous blâme pas de ne pas avoir récupéré
+<ce>              notre _item_ à ___mondung_, mais je suis
+<ce>              déçu que vous ayez accepté une mission
+<ce>              que vous n’avez pas pu terminer.
 
 Message:  1015
-<ce>                A sinister voice whispers from nowhere,
-<ce>                                    
-<ce>               "The _item_ does not belong to you or the
-<ce>                   sentimental fools of __questgiver_.
-<ce>              I therefore reclaim what is rightfully mine."
-<ce>                                    
-<ce>                          The _item_ vanishes.
+<ce>               Une voix sinistre murmure de nulle part,
+<ce>
+<ce>               "Le _item_ ne vous appartient pas et pas plus à cet
+ <ce>               idiot sentimental qu'est __questgiver_.
+ <ce>               Je récupère donc ce qui m'appartient de droit."
+<ce>
+<ce>               Le _item_ disparaît.
 
 Message:  1020
 %qdt:
- __questgiver_ of ___questgiver_
- has sent me to retrieve a sacred
- object, a _item_, from ___mondung_.
- The catch is that it is guarded by
- =lich_, a lich.  I do not have to
- slay =lich_, however, just retrieve
- the _item_ and return to _questgiver_
- within =qtime_ days.
+__questgiver_ de ___questgiver_
+m'a envoyé pour récupérer un objet
+sacré, un _item_, de ___mondung_.
+Le hic, c'est qu'il est gardé par
+=lich_, une liche. je n'ai pas besoin de
+tuer =lich_, il suffit de récupérer
+le _item_ et revenir à _questgiver_
+dans = qtime_ jours.
 
 Message:  1030
-<ce>                    This is surely __questgiver_'s
-<ce>                           long-lost _item_.
+<ce>                   C'est sûrement le _item_ que
+<ce>                   _questgiver_ à perdu depuis longtemps.
 
 Message:  1035
-<ce>                     What?  You not only retrieved
-<ce>                   the sacred _item_, but also killed
-<ce>                  the evil =lich_?  You are truly one
-<ce>                   of %god's favored ones.  You will
-<ce>                     surely rise far in our order.
+<ce>                     Quoi? Vous avez non seulement récupéré
+<ce>                     le  _item_ sacré, mais aussi tué
+<ce>                     la maudite =lich_ ? Tu es vraiment un
+<ce>                     favori de %god. Vous êtes destiné
+<ce>                     a une belle ascension dans notre ordre.
 
 Message:  1040
-<ce>                        =lich_ hisses in fury:
-<ce>                                    
-<ce>                       "You dogs of __questgiver_
-<ce>                       will never have my _item_!
-<ce>                        I made it and I will keep
-<ce>                       it.  Nothing will stop me,
-<ce>                          not even the grave."
+<ce>                        =lich_ siffle de fureur:
+<ce>
+<ce>                       "Vous les chiens de __questgiver_
+<ce>                       n'aurez jamais mon _item_!
+<ce>                       Je l'ai fait et je le garde.
+<ce>                       Rien ne m'arrêtera,
+<ce>                       pas même la tombe. " 
 
 
 -- Symbols used in the QRC file:
@@ -148,20 +147,20 @@ Clock _shortdelay_ 00:02 0 flag 1 range 0 1
 Foe _lich_ is Lich
 
 --	Quest start-up:
-	place item _item_ at _mondung_ 
-	start timer _qtime_ 
-	reveal _mondung_ 
-	log 1020 step 0 
-	place foe _lich_ at _mondung_ 
+	place item _item_ at _mondung_
+	start timer _qtime_
+	reveal _mondung_
+	log 1020 step 0
+	place foe _lich_ at _mondung_
 
 _qtime_ task:
-	have _item_ set _S.07_ 
-	end quest 
+	have _item_ set _S.07_
+	end quest
 
 _S.01_ task:
-	toting _item_ and _questgiver_ clicked 
-	give pc _reward_ 
-	end quest 
+	toting _item_ and _questgiver_ clicked
+	give pc _reward_
+	end quest
 
 _qgclicked_ task:
 	clicked npc _questgiver_
@@ -172,24 +171,24 @@ _clearclick_ task:
 	clear _qgclicked_ _clearclick_
 
 _S.02_ task:
-	killed 1 _lich_ 
+	killed 1 _lich_
 
 _S.03_ task:
-	when _S.01_ and _S.02_ 
-	say 1035 
-	change repute with _questgiver_ by +7 
+	when _S.01_ and _S.02_
+	say 1035
+	change repute with _questgiver_ by +7
 
 _pickupitem_ task:
-	clicked item _item_ 
-	start timer _shortdelay_ 
-	say 1030 
+	clicked item _item_
+	start timer _shortdelay_
+	say 1030
 
 variable _shortdelay_
 _S.06_ task:
-	when _shortdelay_ and not _S.02_ 
-	say 1040 
+	when _shortdelay_ and not _S.02_
+	say 1040
 
 _S.07_ task:
-	say 1015 
+	say 1015
 
 variable _S.08_

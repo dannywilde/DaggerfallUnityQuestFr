@@ -6,42 +6,42 @@ DisplayName: From Dusk Till Dead
 QRC:
 
 QuestorOffer:  [1000]
-<ce>I hope you're not afraid of the dark, %pcn...
-<ce>Some necromancer is raising hordes of zombies
-<ce>and skeletons at ___graveyard_.
-<ce>We have a contract to end this villian's life
-<ce>and put a stop to their evil deeds.
-<ce>There's _reward_ gold in it for you.
+<ce>J'espère que vous n'avez pas peur du noir,%pcn...
+<ce> Un nécromancien élève des hordes de zombies
+<ce> et des squelettes à ___graveyard_.
+<ce> Nous avons un contrat pour mettre fin à sa vie
+<ce> et mettez un terme à leurs mauvaises actions.
+<ce> Il y a _reward_ d'or pour vous.
 
 RefuseQuest:  [1001]
-<ce>Necromancers are tricky business, %pcn.
-<ce>I don't blame you for passing on this one.
+<ce>Les nécromanciens sont une affaire délicate à gérer, %pcn.
+<ce>Je ne vous blâme pas d'éviter celui-ci.
 
 AcceptQuest:  [1002]
-<ce>Great. Go to ___graveyard_
-<ce>after dark and slay zombies and skeletons
-<ce>in the graveyard outside until
-<ce>the necromancer is enraged enough
-<ce>to come out of hiding and face you.
-<ce>You'll have =timeLimit_ days to get back to me when done.
-<ce>I'll have your _reward_ gold waiting for you.
+<ce>Super. Allez à ___graveyard_
+<ce>après la tombée de la nuit et tuez des zombies et des squelettes
+<ce>dans le cimetière extérieur jusqu'à ce
+<ce>que le nécromancien devienne enragé
+<ce>et sorte de sa cachette pour vous faire face.
+<ce>Vous avez =timeLimit_ pour revenir me faire part de votre succès.
+<ce>j'aurai vos _reward_ or qui vous attendront.
 
 QuestFail:  [1003]
-<ce>I'm disappointed in you, %pcn.
-<ce>Now I have to give the contract to someone more reliable.
+<ce>Je suis très désappointé, %pcn.
+<ce>A présent, je dois donner le contrat à quelqu'un de plus fiable.
 
 QuestComplete:  [1004]
-<ce>Good job, hero. You've saved many innocent lives.
+<ce>Bon travail, héros. Vous avez sauvé de nombreuses vies innocentes.
 
 Message:  1020
-<ce>As this undead falls, you feel the ground
-<ce>vibrate underfoot. The necromancer is here!
+<ce>Alors que ce mort-vivant tombe, vous sentez le sol
+<ce>trembler sous vos pieds. Le nécromancien est là!
 
 Message:  1030
-<ce>"You'll pay... with your... soul!"
-<ce>The necromancer slumps to the ground.
-<ce>Their undead army will disperse and
-<ce>no longer threaten nearby villages.
+<ce>"Tu payeras cet affrond... avec ton... âme!"
+<ce>Le nécromancien s'effondre au sol.
+<ce>Son armée de morts-vivants se dispersera et
+<ce>ne menacera plus les villages voisins.
 
 Message:  1040
 %qdt:
@@ -54,7 +54,15 @@ Message:  1040
  until the fiend emerges from hiding.
  I have =timeLimit_ days time to kill the necromancer
  and return to collect my payment.
-
+ La Guilde des Guerriers de
+   ___questgiver_ m'a embauché
+   pour tuer un nécromancien gênant
+   dans leur antre, ___graveyard_.
+   Je dois tuer des squelettes et des zombies
+   dans le cimetière extérieur la nuit
+   jusqu'à ce que le démon sorte de sa cachette.
+   J'ai = timeLimit_ jours pour tuer le nécromancien
+   et revenir pour récupérer mon paiement.
 
 QBN:
 
@@ -77,7 +85,7 @@ Foe _necromancer_ is Battle_mage
 	log 1040 step 0
 
 _timeLimit_ task:
-	end quest 
+	end quest
 
 variable _onsite_
 _daytime_ task:
