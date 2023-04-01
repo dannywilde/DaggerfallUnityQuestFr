@@ -5,25 +5,25 @@ DisplayName: Borrowing Notes
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                 The Archaeologists have a reputation for
-<ce>                 excellence, knowledge, and precision, which
-<ce>                 we credit in part to members such as yourself,
-<ce>                 and in another part to possessing the best research.
-<ce>                 We have received word that some novice from
-<ce>                 the Mages Guild, _scholar_, is
-<ce>                 currently in ___dest_ with some notes we
-<ce>                 would find particularly useful at this time. We need
-<ce>                 someone to go retrieve them under the right guise.
-<ce>                 Are you able to do this, %pcf?
+<ce>                 Les archéologues ont une réputation
+<ce>                 d'excellence, de connaissances et de précision
+<ce>                 que nous attribuons en partie à des membres tels que vous,
+<ce>                 et en partie à la possession des meilleures recherches.
+<ce>                 Nous avons appris qu'un novice de la Guilde des Mages
+<ce>                 _scholar_, est actuellement à ___dest_ avec
+<ce>                 quelques notes que nous trouverions particulièrement
+<ce>                 utiles en ce moment. Nous avons besoin de quelqu'un
+<ce>                 pour aller les récupérer sous la bonne apparence.
+<ce>                 Etes-vous capable de faire cela, %pcf?
                                      <--->
-<ce>                 We have had a bit of a rocky history with the Mages
-<ce>                 Guild in the past for a variety of reasons. We, 
-<ce>                 like many, hate their high-mindedness and their
-<ce>                 insistence on keeping their work so private. We can
-<ce>                 remedy the second problem this very season. Some mage,
-<ce>                 _scholar_, is staying in ___dest_ with
-<ce>                 a set of notes we consider to be of great worth. We request
-<ce>                 that you go and retrieve them for us.
+<ce>                 Nous avons eu une relation un peu compliquée avec la Guilde
+<ce>                 des Mages par le passé pour diverses raisons. 
+<ce>                 Nous, comme beaucoup, détestons leur arrogance
+<ce>                 et leur insistance à garder leur travail privé.
+<ce>                 Nous pouvons remédier au second problème cette saison.
+<ce>                 Un mage, _scholar_, séjourne à ___dest_ avec 
+<ce>                 un ensemble de notes. Nous vous
+<ce>                 demandons d'aller les récupérer pour nous.
 
 RefuseQuest:  [1001]
 <ce>                  Then what are you doing here? Shoo.
