@@ -1,95 +1,92 @@
 Quest: JHAR005
-DisplayName: Regional Treasure
+DisplayName: Trésor Régional
 -- Message panels
 QRC:
 
 QuestorOffer:  [1000]
-<ce>                    We have an assignment we believe you would
-<ce>                    succeed with, assuming you aren't as jelly-kneed
-<ce>                    as a few of our other members. There's an enchanted
-<ce>                    object in ___dungeon_ we believe to
-<ce>                    be of Breton origin, at least a few centuries old. We
-<ce>                    don't know precisely what it does, which entails a
-<ce>                    certain degree of risk. If I offered you _reward_ gold
-<ce>                    pieces, would you head down and pick it up for us?
-
+<ce>                    Nous avons une mission pour laquelle nous pensons que vous réussirez,
+<ce>                    en supposant que vous n'êtes pas aussi frileux que certains de nos autres
+<ce>                    membres. Il y a un objet enchanté dans ___dungeon_ que nous pensons être
+<ce>                    d'origine brétonne, vieux d'au moins quelques siècles. On ne sait pas exactement
+<ce>                    ce qu'il fait, ce qui comporte un certain degré de risque. Si je vous offrais
+<ce>                    _reward_ pièces d'or, iriez-vous nous le récupérer ?
 RefuseQuest:  [1001]
-<ce>                    Jelly-kneed as them all, then.
+<ce>                    Lâche, comme tous les autres.
 <--->
-<ce>                    You will never rise in rank with that attitude.
+<ce>                    Vous ne monterez jamais en grade avec cette attitude.
 <--->
-<ce>                    Really, %pcf.
+<ce>                    Vraiment, %pcf.
 
 AcceptQuest:  [1002]
-<ce>               Then perhaps it's not a lost cause after all.
-<ce>               I look forward to your return. Just, please,
-<ce>               be prepared for anything. There is no hurry
-<ce>               in this matter, so grab the object only when
-<ce>               you feel yourself prepared. I will hope to see
-<ce>               it within =traveltime_ days. Take a locator charge.
-<ce>               It will no doubt help you this time.
+<ce>               Alors peut-être que ce n'est pas une cause perdue après tout.
+<ce>               J'attends votre retour avec impatience. Juste, s'il vous plaît,
+<ce>               soyez prêt à tout. Il n'y a pas d'urgence dans cette affaire,
+<ce>               alors ne saisissez l'objet que lorsque vous vous sentez prêt.
+<ce>               J'espère le voir dans =traveltime_ jours. Prenez une charge
+<ce>               de localisation. Cela vous aidera sans aucun doute cette fois.
 
 QuestComplete:  [1004]
-<ce>               Thank you once more, %pcf. Your service is well received.
+<ce>               Merci encore une fois, %pcf. Votre service est bien accueilli.
 
 QuestorPostsuccess:  [1008]
-I hope you share your adventures with the newer members, %pcf.
+J'espère que vous partagerez vos aventures avec les nouveaux membres, %pcf.
 
 QuestLogEntry:  [1010]
 %qdt:
- _questgiver_ of the
- Archaeologists has sent me to
- ___dungeon_ to get
- an enchanted _mitem_.
- I should be prepared for anything.
- It must arrive in ___questgiver_
- within =traveltime_ days.
+ _questgiver_ des
+  Archéologues m'ont envoyé à
+ ___dungeon_ obtenir
+  un _mitem_ enchanté.
+ Je devrais être prêt à tout.
+ Il doit arriver dans ___questgiver_
+ dans =traveltime_ jours.
 
 Message:  1040
-<ce>           You inspect the _mitem_. It has an
-<ce>           engraved symbol of a sun. You seem
-<ce>           to hear hissing as you hold it, as well as
-<ce>           whispering in an unintelligible language.
+<ce>           Vous inspectez _mitem_.
+<ce>           Il a un symbole de soleil gravé.
+<ce>           Vous semblez entendre un sifflement
+<ce>           lorsque vous le tenez, ainsi que des
+<ce>           chuchotements dans une langue inintelligible.
 
 Message:  1041
-<ce>           You inspect the _mitem_. It has an
-<ce>           engraved symbol of a moon. You seem
-<ce>           to hear howling as you hold it, as well as
-<ce>           whispering in an unintelligible language.
+<ce>           Vous inspectez _mitem_. Il a un symbole de lune
+<ce>           gravé. Vous semblez entendre des hurlements
+<ce>           lorsque vous le tenez, ainsi que des chuchotements
+<ce>           dans une langue inintelligible.
 
 Message:  1042
-<ce>           You inspect the _mitem_. It has an
-<ce>           engraved symbol of a sun. You seem
-<ce>           to hear raspy breathing as you hold it, as well
-<ce>           as whispering in an unintelligible language.
+<ce>           Vous inspectez _mitem_.
+<ce>           Il a un symbole de soleil gravé.
+<ce>           Vous semblez entendre une respiration rauque
+<ce>           lorsque vous le tenez, ainsi que des
+<ce>           chuchotements dans une langue inintelligible.
 
 Message:  1043
-<ce>           You inspect the _mitem_. It has an
-<ce>           engraved symbol of a moon. You seem
-<ce>           to hear squeaking as you hold it, as well
-<ce>           as whispering in an unintelligible language.
+<ce>           Vous inspectez _mitem_. Il a un symbole de lune
+<ce>           gravé. Vous semblez entendre des grincements
+<ce>           lorsque vous le tenez, ainsi que des chuchotements
+<ce>           dans une langue inintelligible.
 
 Message:  1050
-<ce>               What a joy to see you! This little object is quite
-<ce>               powerful. I'll mitigate the enchantment for now
-<ce>               so you can get some peace and quiet, but I'll merely
-<ce>               say this is worth years of studying texts. Just listen
-<ce>               to it closely. You'll learn a lot. If we hear of some
-<ce>               other similar trinket, I hope you'll be up for the
-<ce>               challenge. Have your gold.
+<ce>               Quelle joie de vous voir ! Ce petit objet est assez puissant.
+<ce>               Je vais atténuer l'enchantement pour le moment afin que vous
+<ce>               puissiez avoir la paix et tranquillité, mais je dirai
+<ce>               simplement que cela vaut des années d'étude de textes. Il suffit
+<ce>               de l'écouter attentivement. Vous apprendrez beaucoup. Si nous
+<ce>               entendons parler d'un autre bijou similaire, j'espère que vous
+<ce>               serez prêt à relever le défi. Voila votre or.
 
 Message:  1051
-<ce>               What a joy to see you! This little object is quite
-<ce>               powerful. I'll mitigate the enchantment for now
-<ce>               so you can get some peace and quiet, but I'll merely
-<ce>               say this is worth years of studying texts. Just listen
-<ce>               to it closely. You'll learn a lot. If we hear of some other
-<ce>               similar trinket, I hope you'll be up for the challenge.
-<ce>               I also wanted to mention that I have your _reward_
-<ce>               gold pieces here, but I received this _altrew_
-<ce>               while you were out. It's enchanted, but I don't know
-<ce>               what with. Would you prefer it as a reward instead
-<ce>               of the gold?
+<ce>               Quelle joie de vous voir ! Ce petit objet est assez puissant.
+<ce>               Je vais atténuer l'enchantement pour le moment afin que vous
+<ce>               puissiez avoir la paix et tranquillité, mais je dirai
+<ce>               simplement que cela vaut des années d'étude de textes. Il suffit
+<ce>               de l'écouter attentivement. Vous apprendrez beaucoup. Si nous
+<ce>               entendons parler d'un autre bijou similaire, j'espère que vous
+<ce>               serez prêt à relever le défi. Je voulais aussi mentionner que
+<ce>               j'ai vos _reward_ pièces d'or ici, mais j'ai reçu ce _altrew_
+<ce>               pendant votre absence. L'objet est enchanté, mais je ne sais pas
+<ce>               avec quoi. Préférez-vous qu'il soit votre récompense au lieu de l'or ?
 
 QBN:
 Item _mitem_ trinket

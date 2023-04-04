@@ -1,58 +1,58 @@
 Quest: JHAR009
-DisplayName: Heat Seeker
+DisplayName: Chercheur de Chaleur
 -- Message panels
 QRC:
 
 QuestorOffer:  [1000]
-<ce>         An object was recently brought in with a nasty curse of sorts.
-<ce>         Left alone the _trink_ is harmless, but once it touches
-<ce>         warm flesh of any kind, its previous master will perceive
-<ce>         its location and slay whoever possesses it. The fact
-<ce>         that this master is a daedra should give you pause, %pct.
-<ce>         We require someone to hold this object and defeat the foe
-<ce>         so we can get it recorded and evaluated. Will you be
-<ce>         the one to do it?
+<ce>         Un objet a été récemment apporté avec une sorte de malédiction désagréable.
+<ce>         Seul, le _trink_ est inoffensif, mais une fois qu'il entre au contact
+<ce>         avec de la chair chaude de toute sorte, son ancien maître percevra
+<ce>         son emplacement et tuez celui qui le possède. Le fait que
+<ce>         ce maître soit un daedra devrait vous faire réfléchir, %pct.
+<ce>         Nous avons besoin de quelqu'un pour tenir cet objet et vaincre
+<ce>         l'ennemi afin que nous puissions l'enregistrer et l'évaluer.
+<ce>         Serez-vous celui qui en sera capable ?
 
 RefuseQuest:  [1001]
-<ce>         Well, if you change your mind, the _trink_ will surely be here.
+<ce>         Eh bien, si vous changez d'avis, le _trink_ sera sûrement toujours là.
 <--->
-<ce>         I suppose someone else could eventually kill it by sheer luck.
+<ce>         Je suppose que quelqu'un d'autre pourrait éventuellement le tuer par pure chance.
 
 AcceptQuest:  [1002]
-<ce>         Here it is. We cannot possibly tell how long it will take to find
-<ce>         you. Who knows in what region the creature makes its home.
-<ce>         All we know is that, however long it takes, it comes to kill.
-<ce>         Be prepared for battle. Return to me when the task is finished.
-<ce>         Farewell, and let whatever god you worship be with you.
+<ce>         C'est ici. Nous ne pouvons pas dire combien de temps il lui faudra pour vous trouver
+<ce>         Qui sait dans quelle région la créature a élu domicile.
+<ce>         Tout ce que nous savons, c'est que, quel que soit le temps que cela prend, cela finit par tuer.
+<ce>         Soyez prêt pour la bataille. Revenez me voir lorsque la tâche est terminée.
+<ce>         Adieu, et que le dieu que vous adorez soit avec vous.
 
 QuestFail:  [1003]
-<ce>         You have avoided this daedra for long enough. You discard the
-<ce>         _trink_ and get on with your life.
+<ce>         Vous avez évité ce daedra suffisamment longtemps.
+<ce>         Vous jetez le _trink_ et continuez votre vie.
 
 QuestComplete:  [1004]
-<ce>         My fears have been assuaged. No one here doubts your ability,
-<ce>         but any time we combine the words "task" and "daedra," we discard
-<ce>         all guarantees concerning the future. I certainly believe you have
-<ce>         earned these =reward_ gold pieces.
+<ce>         Mes craintes ont été apaisées. Personne ici ne doute de vos capacités,
+<ce>         mais chaque fois que nous combinons les mots "tâche" et "daedra",
+<ce>         nous rejetons toutes les garanties concernant l'avenir. Je crois
+<ce>         que vous avez bien mérité ces =récompense_ pièces d'or.
 
 Message:  1017
-<ce>         A harsh voice cries out nearby.
+<ce>         Une voix rauque crie à proximité.
 <ce>         
-<ce>         "Filthy mortal! Why must you desecrate it with your
-<ce>         puny hands? The vengeance of Oblivion be upon you!"
+<ce>         "Sale mortel ! Pourquoi devez-vous le profaner de vos
+<ce>          mains chétives ? La vengeance d'Oblivion soit sur vous !"
 
 Message:  1018
-<ce>         You stand triumphant over the daedra's corpse.
-<ce>         It's time to return to _qgiver_ and deliver
-<ce>         the _trink_.
+<ce>         Vous triomphez au dessus du corps du daedra.
+<ce>         Il est temps de retourner à _qgiver_ et de livrer
+<ce>         le _trink_.
 
 Message:  1030
 %qdt:
- _qgiver_, of the Archaeologists in
- ___qgiver_, has given me a _trink_
+ _qgiver_, des Archéologues de
+ ___qgiver_, m'a donné un _trink_
 
- which will eventually attract a murderous daedra.
- I must slay it and return the object to %g2.
+ qui finira par attirer un daedra meurtrier.
+ Je dois le tuer et rendre l'objet à %g2.
 
 QBN:
 Item _reward_ gold

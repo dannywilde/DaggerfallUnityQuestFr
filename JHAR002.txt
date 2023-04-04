@@ -1,100 +1,100 @@
 Quest: JHAR002
-DisplayName: Finding the Lost
+DisplayName: Retrouver l'égaré
 -- Message panels
 QRC:
 
 QuestorOffer:  [1000]
-<ce>               Good day. The Archaeologists encourage an
-<ce>               adventuring spirit, in proper moderation, of course.
-<ce>               Nevertheless, occasionally we have a new recruit
-<ce>               who, now trained to explore the great wild world,
-<ce>               forgets such basic skills as remembering how to find
-<ce>               the exit in a dark cave. Would you be willing
-<ce>               to go look for _rescue_, who has
-<ce>               entirely disappeared within ___dung_?
+<ce>				Bonne journée. Les archéologues encouragent
+<ce>				l'esprit d'aventure, avec modération, bien sûr.
+<ce>				Néanmoins, nous avons de temps en temps une nouvelle recrue
+<ce>				qui, une fois formée pour explorer le grand monde sauvage,
+<ce>				oublie les compétences de base telles que se rappeler comment trouver
+<ce>				la sortie dans une grotte sombre. Seriez-vous disposé
+<ce>				à aller chercher _rescue_, qui a
+<ce>				a complètement disparu dans ___bouse_ ?
 
 RefuseQuest:  [1001]
-<ce>               Do you not remember those first
-<ce>               terrifying experiences, %pcf?
+<ce>                Ne vous souvenez-vous pas de ces
+<ce>                premières expériences terrifiantes, %pcf?
 <--->
-<ce>               At this rate, %crn is going to
-<ce>               investigate us for these disappearances.
+<ce>                A ce rythme, %crn va enquêter
+<ce>                sur nous pour ces disparitions.
 
 AcceptQuest:  [1002]
-<ce>               Thank you, %pcf, truly. I will admit we
-<ce>               don't have a reward to be meted out for this
-<ce>               action, but I will see what I can do while
-<ce>               you're out. Please bring %g2 here in
-<ce>               no more than =timer_ days. Otherwise I will
-<ce>               have to inform the surviving family, and our
-<ce>               shame will be indelible. Best of luck.
-<ce>               And while you're coming out of
-<ce>               ___dung_, would you be able
-<ce>               to teach _rescue_ a thing or
-<ce>               two about exploration and survival? It will
-<ce>               likely save us all some trouble down the road.
+<ce>			   Merci, %pcf, sincèrement. j'avoue que nous
+<ce>			   n'avons pas de récompense à donner pour cette
+<ce>			   action, mais je verrai ce que je peux faire pendant
+<ce>			   que vous êtes sorti. Veuillez rapporter %g2 ici
+<ce>			   dans pas plus de =timer_ jours. Sinon je vais
+<ce>			   devoir informer la famille survivante, et notre
+<ce>			   honte sera indélébile. Bonne chance.
+<ce>			   Et pendant que vous sortez de
+<ce>			   ___dung_, seriez-vous capable
+<ce>			   d'enseigner à _rescue_ une chose ou
+<ce>			   deux sur l'exploration et la survie ? Cela
+<ce>			   nous épargnera probablement à tous des ennuis sur la route.
 
 QuestComplete:  [1004]
-<ce>               Dear _rescue_, what a relief it is to
-<ce>               see you. We have a great deal of training to give you
-<ce>               before you'll be doing any more spelunking on your own.
-<ce>               After all, not everyone can handle themselves
-<ce>               like %pcn, now can they? Once again, thank you,
-<ce>               %pct. We don't have a material reward available,
-<ce>               but what say I make mention of this on your guild record?
-<ce>               I'm certain it'll help you reach promotion a little quicker,
-<ce>               if nothing else. I hope that compensates the trouble.
+<ce>			   Chère _rescue_, quel soulagement de vous voir.
+<ce>			   Nous avons de nombreuses formation à vous proposer
+<ce>			   avant de continuer à faire de la spéléologie par vous-même.
+<ce>			   Après tout, tout le monde ne peut pas se débrouiller
+<ce>			   comme %pcn, n'est-ce pas ? Encore une fois, merci,
+<ce>			   %pct. Nous n'avons pas de récompense matérielle disponible,
+<ce>			   mais que dites vous que j'en fasse mention sur votre fiche de guilde ?
+<ce>			   Je suis certain que cela vous aidera à obtenir une promotion un peu plus
+<ce>			   rapidement, à défaut de mieux. J'espère que ça compense.
 
 RumorsDuringQuest:  [1005]
-_rescue_ hasn't been around for a long time.
+_rescue_ n'a pas été vu dans le coin depuis longtemps.
 <--->
-Them Archaeologists are irresponsible.
+Les Archéologues sont irresponsables.
 
 RumorsPostfailure:  [1006]
-_rescue_ hasn't been around for a long time.
+_rescue_ n'a pas été vu dans le coin depuis longtemps.
 <--->
-_rescue_'s family is furious with the Archaeologists.
+La famille de _rescue_ est furieuse contre les archéologues.
 
 RumorsPostsuccess:  [1007]
-I hear _rescue_ is in good shape now. Good thing.
+J'ai entendu dire que _rescue_ est en forme maintenant. C'est une bonne chose.
 <--->
-I hope my children never want to join the Archaeologists.
+J'espère que mes enfants ne voudront jamais rejoindre les Archéologues.
 
 QuestorPostsuccess:  [1008]
-Welcome, %pcf. _rescue_ says hello as well.
+Bienvenue, %pcf. _rescue_ vous dit bonjour également.
 
 QuestorPostfailure:  [1009]
-Have you seen _rescue_, %pcf? Oh, of course not.
+Avez-vous vu _rescue_, %pcf ? Oh, bien sûr que non.
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of the Archaeologists
- needs me to find _rescue_
- in ___dung_. I have
- =timer_ days to find %g2 and
- return to ___qgiver_.
+ _qgiver_ des Archéologues a
+ besoin de moi pour trouver _rescue_
+ à ___dung_. J'ai
+ =timer_ jours pour trouver %g2
+ et returner à ___qgiver_.
 
 Message:  1011
-<ce>                 _rescue_ looks thoroughly ashamed.
+<ce>                 _rescue_ a l'air complètement honteux.
 <ce>
-<ce>                 "I told them it wouldn't be necessary.
-<ce>                 How long have I been down here?"
+<ce>                 "Je leur ai dit que ce ne serait pas nécessaire.
+<ce>                 Depuis combien de temps suis-je ici ?"
 <ce>
-<ce>                 You beckon for %g2 to follow, and %g1
-<ce>                 stands behind you without further argument.
+<ce>                 Vous faites signe à %g2 de vous suivre et %g1 se tient
+<ce>                 derrière vous sans autre argument.
 <--->
-<ce>                 _rescue_'s eyes look
-<ce>                 hollow and full of despair.
+<ce>                 Les yeux de _rescue_ semblent
+<ce>                 vides et pleins de désespoir.
 <ce>
-<ce>                 "The exit's gone. It was right here. I'm sure of it.
-<ce>                 Now we'll never get out. We're both trapped here."
+<ce>                 "La sortie a disparu. C'était juste ici. J'en suis sûr.
+<ce>                 Maintenant, nous n'en sortirons jamais. Nous sommes piégés ici."
 <ce>
-<ce>                 You strong-arm %g2 into following
-<ce>                 you, and %g1 keeps silence.
+<ce>                 Vous forcez %g2 à vous suivre,
+<ce>                 et %g1 garde le silence.
 
 Message:  1012
-<ce>                    Without a word, _rescue_ heads off
-<ce>                    in the direction of ___qgiver_.
+<ce>                    Sans un mot, _rescue_ part
+<ce>                    en direction de ___qgiver_.
 
 
 QBN:

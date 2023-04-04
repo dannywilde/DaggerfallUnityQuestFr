@@ -1,55 +1,55 @@
 Quest: JHAR006
-DisplayName: Tattered Courier
+DisplayName: Lettre Ancienne
 -- Message panels
 QRC:
 
 QuestorOffer:  [1000]
-<ce>             Good day. We have an ancient document
-<ce>             that needs to arrive in ___goalplace_ intact
-<ce>             within =2goalplace_ days, under guard.
-<ce>             We can spare =gold_ gold pieces for expenses.
-<ce>             Are you up to the task?
+<ce>             Bonne journée. Nous devons faire parvenir un
+<ce>             ancien document à ___goalplace_ intact d'ici
+<ce>             =2goalplace_ jours, sous bonne garde. Nous pouvons
+<ce>             vous donner =gold_ pièces d'or pour les dépenses.
+<ce>             Êtes-vous à la hauteur de la tâche ?
 
 RefuseQuest:  [1001]
-<ce>              Then let me see what else I have.
+<ce>              Laissez-moi voir ce que j'ai d'autre.
 
 AcceptQuest:  [1002]
-<ce>             The poor thing is centuries old, but it'll be preserved
-<ce>             well enough for you to find _goal_. Find %g2 in
-<ce>             ___goalplace_. I don't know where %g1 is. You'll
-<ce>             get the expense payment from %g2.
+<ce>             La pauvre chose est vieille de plusieurs siècles, mais elle sera
+<ce>             suffisamment bien conservée pour que vous trouviez _goal_. Trouvez %g2 dans
+<ce>             ___goalplace_. Je ne sais pas où est %g1.
+<ce>             Vous recevrez le paiement des dépenses de %g2.
 <ce>             
-<ce>             Also please keep it close to your person. Word is
-<ce>             already out about its existence. Its age will attract
-<ce>             persons of the lowest quality. Be going now, and
-<ce>             take no more than =2goalplace_ days.
+<ce>             Veuillez également le garder sur vous. Des rumeurs
+<ce>             sur son existence circulent en ville. Son âge attirera les
+<ce>             personnes de la plus basse extraction.  Partez maintenant et
+<ce>             ne prenez pas plus de =2goalplace_ jours.
 
 QuestComplete:  [1004]
-<ce>             Welcome, good friend. Ah, this is that page
-<ce>             I was informed of? Marvelous. I was starting to
-<ce>             doubt its existence altogether. Well then, let
-<ce>             me get you your payment. =gold_ gold pieces,
-<ce>             just as I agreed. Off you go then. Thank you.
+<ce>             Bienvenue, bon ami. Ah, c'est cette page
+<ce>             j'ai été informé ? Merveilleux. Je commençais
+<ce>             à douterde son existence. Eh bien, laissez-moi
+<ce>             vous donner votre salaire mérité de =gold_ pièces d'or,
+<ce>             comme il était convenu. Allez-y alors et Merci.
 
 QuestLogEntry:  [1010]
 %qdt:
-_qgiver_ of ___qgiver_
-has sent me to take an old
-document to _goal_,
-currently in ___goalplace_.
-I should move quickly and guard
-it safely. I have =2goalplace_ days.
+_qgiver_ de ___qgiver_
+m'a demandé d'apporter un
+vieux document à _goal_,
+actuellement dans ___goalplace_.
+Je devrais me déplacer rapidement et le garder
+en sécurité. J'ai =2goalplace_ jours.
 
 -Message:  1015
--<ce>     I hear _goal_ is in ___goalplace_. Take it to %g2.
+-<ce>     J'ai entendu que _goal_ est à ___goalplace_. Emmenez-le à %g2.
 -<--->
--<ce>     I don't know anything about it, actually.
+-<ce>     Je n'en sais rien, en fait.
 -<--->
--<ce>     Head on over to ___goalplace_, I says.
+-<ce>     Dirigez-vous vers ___goalplace_, j'ai dit.
 
 Message:  1050
-<ce>     _qgiver_ needed the document to
-<ce>     be in _goal_'s hands by now.
+<ce>     _qgiver_ a besoin que le document soit remis
+<ce>     dans les mains de _goal_ rapidement.
 
 QBN:
 Item _letter_ letter

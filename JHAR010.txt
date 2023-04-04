@@ -1,58 +1,58 @@
 Quest: JHAR010
-DisplayName: Permission to Speak
+DisplayName: Autorisation de Parler
 -- Message panels
 QRC:
 
 QuestorOffer:  [1000]
-<ce> We received a message from a field agent,
-<ce> _agent_, stating that %g1
-<ce> found something of value. We need someone
-<ce> willing to enter the cave %g1 works in
-<ce> and bring back the object. Will you
-<ce> do it for =reward_ gold pieces?
+<ce> Nous avons reçu un message d'un agent de terrain,
+<ce> _agent_, indiquant que %g1
+<ce> a trouvé quelque chose de valeur. Nous avons besoin
+<ce> de quelqu'un acceptant d'entrer dans la grotte dans laquelle
+<ce> %g1 travaille et de rapporter l'objet. Will you
+<ce> Le ferez-vous pour =reward_ pièces d'or ?
 
 RefuseQuest:  [1001]
-<ce> Well, it was going to be a bit complicated
-<ce> anyway. Not everyone's cup of tea.
+<ce> Bon, ça allait être un peu compliqué quand même
+<ce> Ce n'est pas la tasse de thé de tout le monde.
 
 AcceptQuest:  [1002]
-<ce> I'll pay you if you bring it here in =timer_
-<ce> days. Our agents never disclose their location
-<ce> via written communication for their own
-<ce> safety, so you'll first have to speak with
-<ce> _gate_, who's in ___lib_.
-<ce> Take this letter of authenticity. We run a tight ship
-<ce> with regards to these matters, so %g1 will disclose
-<ce> no information without proof. Stay safe, %pct.
+<ce> Je te paierai si tu l'apportes ici =timer_
+<ce> jours. Nos agents ne divulguent jamais leur emplacement
+<ce> par communication écrite pour leur propre sécurité,
+<ce> vous devrez donc d'abord parler à _gate_,
+<ce> qui se trouve à ___lib_.
+<ce> Prenez cette lettre d'accréditation.  Nous jouons serré
+<ce> en ce qui concerne ces questions, donc %g1 ne divulguera
+<ce> aucune information sans preuve. Protégez-vous, %pct.
 
 QuestFail:  [1003]
-<ce> You can no longer deliver the
-<ce> _item_ to _qgiver_.
+<ce> Vous ne pouvez plus livrer ce
+<ce> _item_ à _qgiver_.
 
 QuestComplete:  [1004]
-<ce> Welcome back. I see it's in good condition, then.
-<ce> Well, here's your pay. Good work.
+<ce> Content de vous revoir. Je vois qu'il est en bon état.
+<ce> Eh bien, voici votre salaire. Bon travail.
 
 RumorsDuringQuest:  [1005]
-I wonder what it's like to work for the Archaeologists.
+Je me demande ce que c'est que de travailler pour les Archéologues.
 
 Message: 1020
-<ce> Your story is interesting, but I do not believe it.
-<ce> If you are a member of the Archaeologists, why have
-<ce> I never seen you before? I need proper proof before
-<ce> I speak of _agent_'s whereabouts.
+<ce> Votre histoire est intéressante, mais je n'y crois pas.
+<ce> Si vous êtes membre des Archéologues, pourquoi ne vous ai-je
+<ce> jamais vu auparavant ? J'ai besoin d'une preuve appropriée
+<ce> avant de parler des allées et venues de _agent_.
 
 Message: 1021
-<ce> _gate_ looks at the document carefully,
-<ce> and then uses a knife to scratch at a few
-<ce> of the letters. Satisfied, %g1 looks up.
+<ce> _gate_ regarde attentivement le document,
+<ce> puis utilise un couteau pour gratter quelques
+<ce> lettres. Satisfait, %g1 lève les yeux.
 <ce> 
-<ce> "It's genuine. _agent_ is in
-<ce> ___dung_. I'll mark it on your
-<ce> map. Be certain you're ready for combat.
-<ce> It's no place for a mere compass reader."
+<ce> "C'est vrai. _agent_ est dans
+<ce> ___dung_. Je le marquerai sur votre carte.
+<ce> Soyez certain d'être prêt pour le combat.
+<ce> Ce n'est pas un endroit pour un simple voyageur."
 <ce> 
-<ce> The agent then resumes work, ignoring you.
+<ce> L'agent reprend alors le travail en vous ignorant.
 
 Message: 1022
 <ce> Good day, %ra. Ah, you're here to answer

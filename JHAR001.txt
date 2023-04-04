@@ -1,6 +1,6 @@
 Messages: 23
 Quest: JHAR001
-DisplayName: Borrowing Notes
+DisplayName: Notes empruntées
 -- Message panels
 QRC:
 
@@ -14,7 +14,7 @@ QuestorOffer:  [1000]
 <ce>                 quelques notes que nous trouverions particulièrement
 <ce>                 utiles en ce moment. Nous avons besoin de quelqu'un
 <ce>                 pour aller les récupérer sous la bonne apparence.
-<ce>                 Etes-vous capable de faire cela, %pcf?
+<ce>                 Etes-vous capable de les récupérer, %pcf?
                                      <--->
 <ce>                 Nous avons eu une relation un peu compliquée avec la Guilde
 <ce>                 des Mages par le passé pour diverses raisons. 
@@ -26,124 +26,123 @@ QuestorOffer:  [1000]
 <ce>                 demandons d'aller les récupérer pour nous.
 
 RefuseQuest:  [1001]
-<ce>                  Then what are you doing here? Shoo.
+<ce>                  Alors qu'est-ce que vous faites ici ? Shoo.
 <--->
-<ce>                  Then step aside. This needs to be done by someone.
+<ce>                  Bien, poussez-vous. Cela doit être fait par quelqu'un d'autre.
 <--->
-<ce>                  Then would you leave, please? There
-<ce>                  is work to be done here.
+<ce>                  Alors, voudriez-vous partir, s'il vous plaît ?
+<ce>                  Il y a du travail à faire ici.
 
 AcceptQuest:  [1002]
-<ce>                   Very good. And remember, it's in ___dest_.
-<ce>                   Now, first of all, make no mention of your identity.
-<ce>                   Find some way to get those notes, preferably without
-<ce>                   making a murderer of yourself. We need no such
-<ce>                   reputation in this guild. Our parallel research project
-<ce>                   will be underway in =queston_ days, such that your mission
-<ce>                   will be a failure if you have not returned by that time.
-<ce>                   Be cautious, %pcf. Fare thee well.
+<ce>                   Très bien. Et rappelez-vous, c'est dans ___dest_.
+<ce>                   Maintenant, tout d'abord, ne faites aucune mention de votre identité.
+<ce>                   Trouvez un moyen d'obtenir ces notes, de préférence sans
+<ce>                   faire de vous un meurtrier. Nous n'avons pas besoin
+<ce>                   d'une telle réputation dans cette guilde. Notre projet de recherche
+<ce>                   parallèle sera lancé dans =queston_ jours, votre mission sera donc
+<ce>                   un échec si vous n'êtes pas revenu à ce moment-là.
+<ce>                   Soyez prudent, %pcf. Adieu.
 <--->
-<ce>                   I don't know how long _scholar_ will remain in
-<ce>                   ___dest_, so time is of the essence. I will have
-<ce>                   _reward_ gold pieces for you when you return.
-<ce>                   Please, just ensure you can't be called a murderer
-<ce>                   when this is over. Just be back here in one piece
-<ce>                   without tarnishing our good name. We need it
-<ce>                   in no more than =queston_ days.
+<ce>                   Je ne sais pas combien de temps _scholar_ restera dans
+<ce>                   ___dest_, donc le temps presse. J'aurai
+<ce>                   _reward_ pièces d'or pour vous quand vous reviendrez.
+<ce>                   S'il vous plaît, assurez-vous juste de ne pas laisser
+<ce>                   derrière vous une réputation de meurtrier quand ce sera fini.
+<ce>                   Reviens juste ici en un seul morceau sans ternir notre réputation
+<ce>                   Nous en avons besoin dans pas plus de =queston_ jours.
 
 QuestComplete:  [1004]
-<ce>              Wonderful, %pcf. I merely hope you covered your
-<ce>              tracks before returning to ___qgiver_. If the town
-<ce>              guard come looking for you, I will offer no excuses.
-<ce>              But here, take your reward.
+<ce>              Merveilleux, %pcf. J'espère simplement que vous avez couvert votre
+<ce>              pistes avant de rentrer à ___qgiver_. Si la garde de la ville
+<ce>              vient vous chercher, je ne vous couvrirai pas.
+<ce>              Mais pour l'heure, voici votre récompense.
 
 
 QuestLogEntry:  [1010]
 %qdt:
- The Archaeologists in ___qgiver_
- have asked me to get research notes
- from _scholar_, who is staying
- at ___dest_. I should
- be back within =queston_ days.
+ Les Archéologues de ___qgiver_
+ m'ont demandé d'obtenir des notes de recherche
+ de _scholar_, qui reste
+ à ___dest_. Je devrais
+ être de retour dans =queston_ jours.
 
 Message:  1020
-<ce>               Wait, who are you? My research
-<ce>               notes? But I just finished them.
-<ce>               Did _dummy_ send you?
+<ce>                Attendez, qui êtes-vous ? Mes notes de
+<ce>                recherche ? Mais je viens de les finir.
+<ce>                Est-ce que _dummy_ vous a envoyé
 <--->
-<ce>               I have no idea who you are or why
-<ce>               you would ask for my research.
-<ce>               I treasure it above my own life.
-<ce>               Did _dummy_ give you permission
-<ce>               to ask for this?
+<ce>                Je n'ai aucune idée de qui vous êtes ni pourquoi
+<ce>                vous demanderiez mes notes de recherche.
+<ce>                Je les chéris plus que ma propre vie.
+<ce>                Est-ce que _dummy_ vous a donné la permission
+<ce>                demander cela ?
 
 Message:  1021
-<ce>               Well, all right then. I'll need it back within
-<ce>               _falsetimer_ days. If you're not here by
-<ce>               then I'll be going to ___falsehouse_
-<ce>               and you'll have to catch up to me there.
-<ce>               %oth, sometimes the Mages Guild
-<ce>               is more trouble than it's worth.
+<ce>                Eh bien, très bien alors. J'en aurai besoin d'ici
+<ce>                _falsetimer_ jours. Si vous n'êtes revenu par
+<ce>                contre j'irai à ___falsehouse_
+<ce>                et vous devrez me retrouver là-bas.
+<ce>                %oth, parfois la Guilde des Mages
+<ce>                pose plus de problèmes que cela n'en vaut la peine.
 <--->
-<ce>               This is troubling. I can't go lending out my latest
-<ce>               research to every %ra the guild sends to me.
-<ce>               I need you to take it to me in ___falsehouse_
-<ce>               when they're finished, and tell _dummy_ that
-<ce>               this is the last time I'm bothering with this nonsense.
-
+<ce>                C'est facheux. Je ne peux pas prêter mes dernières
+<ce>                notes de recherche à chaque %ra que la guilde m'envoie.
+<ce>                J'ai besoin que tu me les rapportes à ___falsehouse_
+<ce>                quand ils ont fini, et dites à _dummy_ que c'est
+<ce>                la dernière fois que je m'embête avec ces absurdités.
 Message:  1022
-<ce>               Then I will cast you back from whence you came!
+<ce>               Alors je te renverai d'où tu es venu !
 <--->
-<ce>               Begone, %ra! You will have none of my work!
+<ce>               Partez, %ra ! Vous n'obtiendrez rien de moi !
 
 Message:  1023
-<ce>               You knock _scholar_ off balance
-<ce>               and  quickly snatch the parchment.
-<ce>               It's time to head back to ___qgiver_.
+<ce>                Vous déséquilibrez _scholar_
+<ce>                et arrachez rapidement le parchemin.
+<ce>                Il est temps de rentrer à ___qgiver_.
 
 Message:  1024
-<ce>               _scholar_ lies dead at your feet. No
-<ce>               doubt word of this will get around %crn.
+<ce>                _scholar_ gît, mort à vos pieds. Il ne fait aucun
+<ce>                doute que la nouvelle circulera autour de %crn.
 
 Message:  1030
-<ce>               Try as you might, you can't break the seal on this document.
+<ce>               Vous essayez, essayez mais vous ne pouvez pas briser le sceau sur ce document.
 <--->
-<ce>               This parchment is sealed tightly shut.
+<ce>               Ce parchemin est scellé hermétiquement.
 <--->
-<ce>               The seal on this document is impervious to your attempts.
+<ce>               Le sceau sur ce document est insensible à vos tentatives.
 
 Message:  1040
-<ce>               This is pathetically obvious. I just spoke to
-<ce>               _dummy_ yesterday. Do
-<ce>               you truly believe I will fall to such a naive lie?
-<ce>               Yet experience tells me such a cur as yourself
-<ce>               will even slay to obtain trivial notes from
-<ce>               an innocent like myself. I therefore make
-<ce>               a proposition. I will make a set of false notes
-<ce>               which you can take to your godless employer,
-<ce>               and no blood will be spilt this day. Isn't that
-<ce>               an agreeable resolution to our dilemma, %ra?
+<ce>               C'est pathétiquement évident. je viens de parler à
+<ce>               _dummy_ hier. Croyez-vous vraiment
+<ce>               que je vais croire un mensonge aussi naïf ?
+<ce>               Pourtant l'expérience me dit qu'un crétin comme toi
+<ce>               va même tuer pour obtenir des notes triviales
+<ce>               d'un innocent tel que moi. Je vous fais donc une
+<ce>               proposition. Je ferai une série de fausses notes
+<ce>               que vous pourrez apporter à votre employeur impie,
+<ce>               et aucun sang ne sera versé aujourd'hui. N'est-ce pas
+<ce>               une solution acceptable à notre dilemme, %ra?
 
 Message:  1041
-<ce>               Indeed, honour among thieves is meaningless talk.
-<ce>               I do thank you, nevertheless, for having an open
-<ce>               mind on this matter. Some other thick-headed mercenary
-<ce>               would be happier to see me dead than to even retrieve
-<ce>               the document. Such is the way of the Iliac Bay these days.
+<ce>               En effet, l'honneur parmi les voleurs est un discours vide de sens.
+<ce>               Je vous remercie néanmoins d'avoir l'esprit ouvert
+<ce>               à ce sujet. Un autre mercenaire à tête épaisse
+<ce>               serait plus heureux de me voir mort que de récupérer
+<ce>               le document. Telle est la voie de la baie d'Iliaque de nos jours.
 <ce>               
-<ce>               There, it is done. Now take it and get yourself lost before
-<ce>               I call the guard and we all jump to Oblivion together.
+<ce>               Voilà, c'est fait. Maintenant, prenez-le et perdez-vous avant.
+<ce>               J'appelle le garde et nous sautons tous ensemble en Oblivion.
 
 Message:  1042
-<ce>               Then I will defend it with my life! Have at you, filthy beast!
+<ce>               Alors je le défendrai de ma vie ! A vous, sale bête !
 <--->
-<ce>               Then die! No mercy for criminal scoundrels!
+<ce>               Alors mourez ! Pas de pitié pour les canailles criminelles !
 <--->
-<ce>               Then there is no hope for you! Die!
+<ce>               Alors il n'y a plus d'espoir pour vous ! Mourez !
 
 Message:  1043
-<ce>               You presume this can be counted as
-<ce>               self-defense. Now to get the research.
+<ce>               Vous supposez que cela peut être considéré comme de la légitime défense.
+<ce>               self-defense. Passons maintenant à la recherche.
 
 QBN:
 Item _realnotes_ letter used 1030

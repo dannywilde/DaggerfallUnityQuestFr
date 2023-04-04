@@ -1,55 +1,55 @@
 Quest: JHAR008
-DisplayName: Evidence Lost
+DisplayName: Preuve Perdue
 -- Message panels
 QRC:
 
 QuestorOffer:  [1000]
-<ce>	Our association attracts all manner of people,
-<ce>	and not all merit our trust. Occasionally we make
-<ce>	mistakes. I need someone to retrieve some _tri_
-<ce>	one of our members, or former members, has
-<ce>	absconded with. Will you exact a punishment
-<ce>	and recover what has been stolen?
+<ce>	Notre association attire toutes sortes de personnes,
+<ce>	et tous ne méritent pas notre confiance. De temps en temps nous
+<ce>	faisons des erreurs. J'ai besoin de quelqu'un pour récupérer _tri_
+<ce>	un de nos membres, ou anciens membres,
+<ce>	s'est enfui avec. Allez-vous punir le coupable
+<ce>	et récupérer ce qui a été volé
 
 RefuseQuest:  [1001]
-<ce>	How shall we rely on you?
+<ce>	Comment vous faire confiance ?
 <--->
-<ce>	We need your help in something, at least.
+<ce>	Nous avons besoin de votre aide pour autre chose, éventuellement.
 
 AcceptQuest:  [1002]
-<ce>	To be clear, we do not know where _dummy_ has gone.
-<ce>	You'll have to do both the detective and legwork to get it
-<ce>	back. I hope our reward of =reward_ gold pieces will
-<ce>	be sufficient for the effort. Please have the _tri_
-<ce>	here within =timer_ days. Best of luck.
+<ce>	Pour être clair, nous ne savons pas où _dummy_ est allé.
+<ce>	Vous devrez faire à la fois le détective et les démarches pour le récupérer
+<ce>	J'espère que notre récompense de =reward_ pièces d'or
+<ce>	sera suffisante pour l'effort. Veuillez apporter le
+<ce>	le _tri_ ici d'ici' =timer_ jours. Bonne chance.
 
 QuestComplete:  [1004]
-<ce>	Excellent work. Do not be concerned for our friend's
-<ce>	life. Sooner or later the same would have occurred
-<ce>	by someone else's hand. No one will raise an eyebrow.
-<ce>	Have your fee and my thanks.
+<ce>	Excellent travail. Ne vous préoccupez pas de la vie de
+<ce>	notre ami. Tôt ou tard, la même chose se serait produite par
+<ce>	la main de quelqu'un d'autre. Personne ne lèvera un sourcil.
+<ce>	Recevez vos honoraires et mes remerciements.
 
 RumorsDuringQuest:  [1005]
-They say there's an artifact thief in ___rand_.
+Ils disent qu'il y a un voleur d'artefacts à ___rand_.
 <--->
-I hear the Archaeologists are mad about some kind of thief in ___rand_.
+J'ai entendu dire que les Archéologues étaient furieux à propos d'un voleur à ___rand_.
 
 Message:  1020
-Went off to ___rand_, running from the Archaeologists.
+Je suis parti pour ___rand_, fuyant les Archéologues.
 <--->
-___rand_. That's all I know.
+___rand_. C'est tout ce que je sais.
 
 Message:  1025
-<ce>	You strike down the thief. Now to
-<ce>	recover the _tri_.
+<ce>	Vous assassinez le voleur.
+<ce>	Vous pouvez désormais récupérer le _tri_.
 
 Message:  1030
 %qdt:
- _qgiver_ has asked
- me to retrieve a _tri_ from
- a former member of the Archaeologists
- and return it to ___qgiver_
- within =timer_ days.
+ _qgiver_ m'a demandé de
+ récupérer un _tri_ d'un
+ ancien membre des archéologues
+ et le remettre à ___qgiver_
+ d'ici =timer_ jours.
 
 QBN:
 Person _qgiver_ group Questor male

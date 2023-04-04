@@ -1,42 +1,41 @@
 Quest: JHAR007
-DisplayName: Busywork
+DisplayName: Travail Ardu
 -- Message panels
 QRC:
 
 QuestorOffer:  [1000]
-<ce>	We're looking for someone to assign to go
-<ce>	to ___dung_ for one _relig_.
-<ce>	Are you able to go?
+<ce>	Nous recherchons quelqu'un à affecter pour aller
+<ce>	à ___dung_ pour rapporter cet objet : _relig_.
+<ce>	Pouvez-vous y aller ?
 
 RefuseQuest:  [1001]
-<ce>	This is the basic fabric of our work, %pct.
+<ce>	C'est le tissu de base de notre travail, %pct.
 
 AcceptQuest:  [1002]
-<ce>	You'll find it somewhere down there. Our work will
-<ce>	finish in =timer_ days, so it must be in my hands
-<ce>	before then. Time is of the essence. Now go.
+<ce>	Vous trouverez ce _relig_ quelque part là-bas. Notre travail
+<ce>	doit être achevé d'ici =timer_ jours, donc ceci doit être entre mes
+<ce>	mains avant cela. Le temps presse. Maintenant, allez-y.
 
 QuestComplete:  [1004]
-<ce>	Well done, %pcf. I see you've kept it in good condition.
-<ce>	Here's your fee, =reward_ gold pieces.
+<ce>	Bravo, %pcf. Je vois que vous l'avez conservé en bon état.
+<ce>	Voici vos honoraires, =récompense_ pièces d'or.
 
 QuestorPostsuccess:  [1008]
-Our good %pct. What can I do for you?
+Notre bon %pct. Que puis-je faire pour vous?
 
 QuestLogEntry:  [1010]
 %qdt:
- _qgiver_ of the Archaeologists
- has sent me to ___dung_ to
- find a _relig_ somewhere inside.
- I must return to ___qgiver_
- within =timer_ days.
+ _qgiver_ de la guilde des Archéologues
+ m'a envoyé à ___dung_ pour
+ trouver une _relig_ quelque part à l'intérieur.
+ Je dois retourner à ___qgiver_
+ dans un délai de =timer_ jours.
 
 Message:  1040
-<ce>	This must be the _relig_ you were sent to find.
+<ce>	Ce doit être ce _relig_ qu'on vous a envoyé chercher.
 
 Message:  1041
-<ce>	_qgiver_ needed you to deliver the _relig_ by now.
-
+<ce>	_qgiver_ avait besoin de vous pour livrer ce _relig_ maintenant.
 QBN:
 Item _relig_ religious
 Item _reward_ gold range 201 to 399

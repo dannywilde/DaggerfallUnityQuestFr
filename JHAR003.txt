@@ -1,110 +1,110 @@
 -- Archaeologist Quest
 Quest: JHAR003
-DisplayName: Skeletons in the Closet
+DisplayName: Squelettes dans le Placard
 -- Message panels
 QRC:
 
 QuestorOffer:  [1000]
-<ce>            We try to avoid contemporary politics where possible,
-<ce>            %pcf. The last thing we need is some monarch throwing
-<ce>            a temper tantrum and beheading some guild officials
-<ce>            simply because someone says something inconvenient
-<ce>            to the royal family. That, I will now say, is our current
-<ce>            predicament. Apparently some wizard identified a few
-<ce>            bones down in ___dung_ that relate to
-<ce>            someone's long-lost ancestor of some kind. The details are
-<ce>            complex and uninteresting, but %crn wishes to
-<ce>            keep the people in the dark, and our failure will bring serious
-<ce>            consequences. Will you be the one to resolve this crisis?
+<ce>            Nous essayons d'éviter la politique contemporaine dans la mesure du possible,
+<ce>            %pcf. La dernière chose dont nous avons besoin, c'est qu'un monarque
+<ce>            fasse une crise de colère et décapite des officiels de la guilde
+<ce>            simplement parce que quelqu'un dit quelque chose qui dérange
+<ce>             la famille royale. C'est, je peux maintenant le dire, notre situation
+<ce>            actuelle. Apparemment, un sorcier a identifié quelques os à
+<ce>             ___dung_ qui semblent être les os d'un ancêtre perdu depuis longtemps.
+<ce>            Les détails sont complexes et inintéressants, mais %crn souhaite
+<ce>            garder les gens dans l'ignorance, et notre échec entraînera de graves
+<ce>            conséquences. Serez-vous celui qui résoudra cette crise ?
 
 RefuseQuest:  [1001]
-<ce>         Pathetic.
+<ce>         Pathétique.
 <--->
-<ce>         I see. Are you planning to do anything at all for us?
+<ce>         Je vois. Envisagez-vous de faire quoi que ce soit pour nous aider ?
 <--->
-<ce>         Do we not matter to you, %pcf?
+<ce>         N'avons-nous pas d'importance pour vous, %pcf?
 
 AcceptQuest:  [1002]
-<ce>         Remember, they're in ___dung_.
-<ce>         According to the statement, the bones were wrapped
-<ce>         in some sort of sack. Such an uninteresting presentation
-<ce>         has warded off the treasure hunters until now, I suppose.
-<ce>         Take no more than =timer_ days to bring it back here.
-<ce>         Our reputation is on the line, as unfair as that sounds.
-<ce>         Better days are ahead, %pcf. Best of luck.
+<ce>         N'oubliez pas qu'ils sont dans ___dung_.
+<ce>         Selon la déclaration, les os étaient enveloppés dans une
+<ce>         sorte de sac. Une présentation aussi inintéressante a
+<ce>         repoussé les chasseurs de trésors jusqu'à présent, je suppose.
+<ce>         Ne prenez pas plus de =timer_ jours pour le ramener ici.
+<ce>         Notre réputation est en jeu, aussi injuste que cela puisse paraître.
+<ce>         Des jours meilleurs sont devant nous, %pcf. Bonne chance.
 
 QuestFail:  [1003]
-<ce>         The deadline has passed to bring back the ancient
-<ce>         bones from ___dung_. _qg_
-<ce>         will not accept failure.
+<ce>         La date limite est passée pour ramener les anciens
+<ce>         ossements de ___dung_. _qg_
+<ce>         n'acceptera pas l'échec.
 
 QuestComplete:  [1004]
-<ce>         Thank you once more, %pcf. May your satisfaction
-<ce>         for such excellent work outweigh this meager reward.
+<ce>         Merci encore une fois, %pcf. Puisse votre satisfaction
+<ce>         pour un si bon travail l'emporter sur cette maigre récompense.
 
 Message:  1020
-<ce>         Excellent. I will send this off right away. We have allotted
-<ce>         _reward_ gold pieces as a reward.
+<ce>         Excellent. Je vais envoyer ça tout de suite. Nous vous avons attribué
+<ce>         _reward_ pièces d'or comme récompense.
 
 Message:  1021
-<ce>        Magnificent. You have truly saved us from some fairly
-<ce>        credible threats. We had allotted _reward_ gold pieces for you,
-<ce>        but a member recently turned over a magical _magicitem_
-<ce>        to the guild. I haven't bothered to get it identified yet, if you will
-<ce>        forgive me. Would you prefer it as a reward instead of the gold?
+<ce>        Magnifique. Vous nous avez vraiment sauvés de certaines menaces
+<ce>        assez crédibles. Nous vous avions attribué _reward_ pièces d'or,
+<ce>        mais un membre a récemment remis un _magicitem_ magique à la guilde.
+<ce>        Je n'ai pas encore pris la peine de l'identifier, si vous voulez bien
+<ce>        m'excuser. Préférez-vous qu'il soit une récompense au lieu de l'or ?
 
 Message:  1025
-<ce>        This bag radiates a subtle magical power. Its only obvious effect
-<ce>        is that it appears to be well-maintained. Whoever gathered
-<ce>        these bones knew they would have an important story to tell.
+<ce>        Ce sac dégage un pouvoir magique subtil. Son seul effet évident
+<ce>        est qu'il semble être bien entretenu. Celui qui a rassemblé ces
+<ce>        ossements savait qu'ils auraient une histoire importante à raconter.
 
 Message:  1030
 %qdt:
- The Archaeologists of ___qg_
- need me to bring some bones from
- ___dung_ within =timer_ days.
- They should be in a sack of some kind.
+ Les archéologues de ___qg_
+ ont besoin de moi pour apporter des os de
+ ___dung_ d'ici =timer_ jours.
+ Ils devraient être dans un sac quelconque.
 
 Message:  1040
-<ce>        As soon as your hand touches the sack, you know
-<ce>        something is not right. It's filled with stones, not bones.
-<ce>        You also sense movement close by.
+<ce>        Dès que votre main touche le sac, vous savez que quelque
+<ce>        chose ne va pas. Il est rempli de pierres, pas d'os.
+<ce>        Vous ressentez également des mouvement à proximité.
 
 Message:  1041
-<ce>        Whatever the wizard's aim was, the plan is now foiled.
-<ce>        You will be the last adventurer claimed by this trap.
+<ce>        Quel que soit le but du sorcier, son plan est à présent déjoué.
+<ce>        Vous serez le dernier aventurier affecté par ce piège.
 
 Message:  1042
-<ce>        Oh, this will make %crn the laughing stock
-<ce>        of the Iliac Bay. A healthy dose of blackmail
-<ce>        will keep them off our backs in this matter.
-<ce>        Well done, in the name of the Archaeologists!
+<ce>        Oh, cela fera de %crn la risée de la baie
+<ce>        d'Iliaque. Une bonne dose de chantage les
+<ce>        gardera à distance dans cette affaire.
+<ce>        Bravo, au nom des Archéologues !
 
 Message:  1060
-<ce>        Once the skeletal warrior acknowledges the blow, it ceases moving.
-<ce>        You notice a piece of parchment hanging from one of its ribs.
-<ce>        You remove it and put it into your pack.
+<ce>        Une fois que le guerrier squelette a reçu le coup, il cesse de bouger.
+<ce>        Vous remarquez un morceau de parchemin suspendu à l'une de ses côtes.
+<ce>        Vous l'enlevez et le mettez dans votre sac.
 
 Message:  1061
  %pcn,
 <ce>
- The King of Worms hails you, friend. I hope to find you in good spirits,
- for I wish to ask a boon of you. Among your possessions are the bones
- of one _ancestor_, who found no end to misfortune and
- cruelty while yet in life. At least, this is what %g3 spirit tells me. If you
- consider %g3 history of greater value than the squabbling of childish
- monarchs, and wish to show your devotion to the workers of dark arts,
- bring %g3 remains here. An enchanted _magicitem2_ awaits you.
+ Le Roi des Vers vous salue, mon ami. J'espère vous trouver de bonne humeur,
+ car je souhaite vous demander une faveur. Parmi vos possessions se trouvent
+ les os d'un _ancestor_, qui n'a pas trouvé de fin au malheur et à la cruauté
+ alors qu'il était encore en vie. Du moins, c'est ce que me dit l'esprit
+ %g3. Si vous considérez que l'histoire de %g3 a plus de
+ valeur que les querelles de monarques enfantins, et que vous souhaitez montrer
+ votre dévotion aux ouvriers de la magie noire, apportez les restes
+ de %g3 ici. Un _magicitem2_ enchanté vous attend.
 <ce>
- Truthfully yours,
+ Sincèrement vôtre,
  _necro_
  _far_, ___far_
 
 Message:  1062
-<ce>      So this was what %g3 body looked like. What a pity.
-<ce>      This tells me even more than %g1 could. But I will
-<ce>      not keep you. Take the _magicitem2_ I promised you,
-<ce>      and remember: though mortals forget, the dead will not.
+<ce>      Voici à quoi ressemblait le corps de %g3. Quel dommage.
+<ce>      Cela m'en dit encore plus que %g1 ne pourrait le faire. Mais je
+<ce>      ne te retiendrai pas. Prends la magicite m2_ je te l'ai promis et
+<ce>      souvenez-vous : bien que les mortels oublient, les morts ne le feront pas.
 
 QBN:
 

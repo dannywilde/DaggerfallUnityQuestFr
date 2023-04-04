@@ -1,72 +1,68 @@
 -- Archaeologists
 Quest: JHAR004
-DisplayName: Site Cleanup
+DisplayName: Nettoyage du Site
 -- Message panels
 QRC:
 
 QuestorOffer:  [1000]
-<ce>  We recently sent a pair of members off to
-<ce>  ___rural_ to follow a lead on
-<ce>  some excavation they were undertaking in
-<ce>  a remote site. According to their report, they
-<ce>  were using some sort of magic to detect
-<ce>  enchantments or life or some other matter
-<ce>  when something dead began moving and
-<ce>  uprooting itself. Since then we've been informed
-<ce>  that the mummy is not returning to sleep, and
-<ce>  the property owners are rather furious.
-<ce>  Are you capable of returning the dead to
-<ce>  their proper place?
+<ce>  Nous avons récemment envoyé deux membres à
+<ce>  ___rural_ pour suivre une piste sur des
+<ce>  fouilles qu'ils entreprenaient dans un site éloigné.
+<ce>  Selon leur rapport, ils utilisaient une sorte de magie
+<ce>  pour détecter les enchantements ou la vie ou autre chose
+<ce>  quand quelque chose de mort a commencé à bouger et à se
+<ce>  déraciner. Depuis lors, nous avons été informés que la momie
+<ce>  ne se rendormait pas et les propriétaires sont plutôt furieux.
+<ce>  Êtes-vous capable de remettre les morts à leur place ?
 
 RefuseQuest:  [1001]
-<ce>  Well, at least you're honest. The last person
-<ce>  we sent didn't make it back alive.
+<ce>  Eh bien, au moins vous êtes honnête. La dernière personne
+<ce>  que nous avons envoyée n'est pas revenue vivante.
 <--->
-<ce>  We need this resolved, now.
+<ce>  Nous avons besoin que cela soit résolu, maintenant.
 <--->
-<ce>  This is a simple matter. Why won't anyone accept it?
+<ce>  C'est une affaire simple. Pourquoi personne ne l'accepte ?
 
 AcceptQuest:  [1002]
-<ce>  Thank you. The %t, for whatever reason, refuses
-<ce>  to take responsibility in this matter, so we
-<ce>  can only depend on persons such as yourself to
-<ce>  do the clean up. We have to give a report to
-<ce>  some officials of %crn within =timer_
-<ce>  days, and I need you to have fixed the problem and
-<ce>  returned by that time. I'll have _reward_ gold pieces
-<ce>  here for you when that happens. And do be sure to
-<ce>  stop by a temple if the battle turns grievous, would you?
-<ce>  Disease can be an awful thing. Best of luck
-<ce>  on your way to ___rural_.
+<ce>  Merci. Le %t, pour quelque raison que ce soit,
+<ce>  refuse de prendre ses responsabilités dans cette affaire,
+<ce>  nous ne pouvons donc compter que sur des personnes comme
+<ce>  vous pour faire le ménage. Nous devons remettre un rapport
+<ce>  à certains responsables du %crn dans un délai de =timer_
+<ce>  jours, et j'ai besoin que vous ayez résolu le problème
+<ce>  et que vous soyez revenu à ce moment-là. J'aurai _reward_ pièces d'or
+<ce>  ici pour vous quand cela arrivera. Et n'oubliez pas de vous arrêter
+<ce>  dans un temple si la bataille tourne mal, n'est-ce pas ? La maladie peut
+<ce>  être une chose terrible. Bonne chance sur votre chemin vers ___rural_.
 
 QuestFail:  [1003]
-<ce>  You were supposed to slay the mummy at
-<ce>  ___rural_ and return to ___questgiver_ by now.
+<ce>  Tu étais censé tuer la momie à ___rural_
+<ce>  et revenir à ___questgiver_ maintenant.
 
 QuestComplete:  [1004]
-<ce>  How was it? I assumed it would be a fairly standard matter,
-<ce>  once we got past the "dead rising and ambling about"
-<ce>  statement. Yet another success on your guild record.
-<ce>  Take the gold and my thanks.
+<ce>  Comment était-ce ? J'ai supposé que ce serait une affaire assez standard,
+<ce>  une fois que nous avons dépassé l'énoncé des "morts qui se lèvent et se
+<ce>  promènent" Encore un autre succès sur votre record de guilde.
+<ce>  Prenez l'or et mes remerciements.
 <--->
-<ce>  I certainly hope you don't feel we're merely using you for
-<ce>  menial tasks. These matters are just as important as
-<ce>  historical excavations. We maintain our good name through
-<ce>  guild members such as yourself. Here is the gold I promised,
-<ce>  which I hope you accept with my thanks.
+<ce>  J'espère que vous n'avez pas l'impression que nous vous utilisons
+<ce>  simplement pour des tâches subalternes. Ces affaires sont tout aussi
+<ce>  importantes que les fouilles historiques. Nous maintenons notre
+<ce>  réputation grâce aux membres de la guilde tels que vous. Voici l'or
+<ce>  que j'ai promis, que j'espère que vous accepterez avec mes remerciements.
 
 Message: 1020
-<ce>  The mummy has been defeated. You hope there's no
-<ce>  actual reason it would come back a second time.
+<ce>  La momie a été vaincue. Vous espérez qu'il n'y a aucune
+<ce>  raison pour laquelle cela se reproduirait une seconde fois.
 
 Message:  1030
 %qdt:
- The Archaeologists need me to
- go to ___rural_
- and destroy a revived mummy.
- I then need to return to
- ___questgiver_ in
- =timer_ days or less.
+ Les Archéologues ont besoin de moi pour
+ aller à ___rural_
+ et détruire une momie ressuscitée.
+Je dois alors revenir à
+ ___questgiver_ dans
+ =timer_ jours ou moins.
 
 QBN:
 Item _reward_ gold range 201 to 299
